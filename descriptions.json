@@ -3,8 +3,8 @@
   "hash": 0,
   "name": "",
   "type": "armorExotic",
-  "lastUpload": 1667256050211,
-  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667256535106,
+  "uploadedBy": "Icemourne",
   "editor": {
    "en": {
     "main": "Ionic Traces move faster and grant doubled Ability Energy.\nGrenade: 25% | Melee: 25% | Class Ability: 30%\n\nAllies within [?] metres receive 10% Grenade, Melee, and Class Ability Energy when you pick up an Ionic Trace.",
@@ -23,12 +23,10 @@
     }
    }
   },
-  "uploadToLive": true,
+  "uploadToLive": false,
   "hidden": false,
-  "inLiveDatabase": false,
-  "optional": false,
-  "itemName": "Fallen Sunstar",
-  "itemHash": 1849149215
+  "inLiveDatabase": true,
+  "optional": false
  },
  "1": {
   "hash": 1,
@@ -6305,37 +6303,6 @@
     }
    ]
   }
- },
- "1376049785": {
-  "hash": 1376049785,
-  "name": "Ionic Conductor",
-  "type": "armorExotic",
-  "lastUpload": 1667256050211,
-  "uploadedBy": "Fading Shadow",
-  "editor": {
-   "en": {
-    "main": "Ionic traces you create move faster and grant you additional ability energy. Nearby allies also gain ability energy when you collect an ionic trace.",
-    "secondary": "Ionic traces you create move faster and grant you additional ability energy. Nearby allies also gain ability energy when you collect an ionic trace."
-   }
-  },
-  "updateTracker": {
-   "stats": {
-    "lastUpdate": 0,
-    "updatedBy": ""
-   },
-   "descriptions": {
-    "en": {
-     "lastUpdate": 0,
-     "updatedBy": ""
-    }
-   }
-  },
-  "uploadToLive": false,
-  "hidden": false,
-  "inLiveDatabase": false,
-  "optional": false,
-  "itemName": "Fallen Sunstar",
-  "itemHash": 1849149215
  },
  "1409206216": {
   "hash": 1409206216,
