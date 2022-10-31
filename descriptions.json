@@ -3,8 +3,8 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1667242590329,
-  "uploadedBy": "Icemourne",
+  "lastUpload": 1667251867754,
+  "uploadedBy": "Fading Shadow",
   "editor": {
    "en": {
     "main": "Images you can use in descriptions\n<arc/> <void/> <solar/>\n<primary/> <special/> <heavy/>\n<warlock/> <hunter/> <titan/>\nText coloring\n<blue text /> <green text /> <purple text /> <yellow text />\n<pvp text /> <pve text />\n\nThe same can be done to lines of text <green/>\n\nYou probably noticed having multiple spaces in the editor\n              doesn't mean it will be the same in description\n              you can change that with <breakSpaces/>\n\n// This is comment content after // will not appear in the description\n\n// ----------------------------------------------------------\n// weapon type explanation\n// they work like if else in programming\n\n// if auto rifle\n< weapon type ( auto rifle ) >\n    Apply this text\n// else if glaive\n< weapon type ( glaive ) >\n    Apply this text\n// else\n< weapon type ( other ) >\n    Apply this text to all weapons not specified in this block\n<$$>\n// also, you can preview how it would look on x weapon by selecting the weapon in the weapon popup under the weapons name\n// ----------------------------------------------------------\nIf there is something you want just ask\nThis is not everything you can do btw\n\nTo see the full list press CTRL + SPACE\nAlso, CTRL + F is a thing and can be used to find and replace\nAlso also editor has other stuff to see them press F1",
@@ -25,7 +25,7 @@
   },
   "uploadToLive": false,
   "hidden": false,
-  "inLiveDatabase": true,
+  "inLiveDatabase": false,
   "optional": false
  },
  "1": {
@@ -321,40 +321,37 @@
   "name": "Opening Shot",
   "type": "weaponPerk",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667226153031,
+  "lastUpload": 1667251867754,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
    "stats": {
-    "lastUpdate": 1665090635402,
-    "undatedBy": "Fading-Shadow",
+    "lastUpdate": 1667251710829,
     "updatedBy": "Fading Shadow"
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667217153596,
+     "lastUpdate": 1667251736424,
      "updatedBy": "Fading Shadow"
     }
    }
   },
   "stats": {
-   "range": [
-    {
-     "active": {
-      "stat": [
-       25,
-       30
-      ]
-     }
-    }
-   ],
    "aimAssist": [
     {
      "active": {
       "stat": [
-       20,
+       20
+      ]
+     }
+    }
+   ],
+   "range": [
+    {
+     "active": {
+      "stat": [
        25
       ]
      }
@@ -363,7 +360,7 @@
   },
   "editor": {
    "en": {
-    "main": "For the <title first bullet only [first bullet only] />:\n+20 Aim Assist, +25 Range, -5% Accuracy Cone Size, -10% <title Accuracy Cone Growth [accuracy cone growth] />.\n\n3.1 seconds cooldown, resets if the weapon is shot.\n\n<formula In-Game Range: [range_0] />\n\n🡅Enhanced: Grants an additional +5 Aim Assist and +5 Range.\n\ntitle first bullet only (\nEven in the case of burst weapons. Only the first bullet of the burst is affected.\n)\ntitle accuracy cone growth (\nHow Fast Your Accuracy Cone Expands. The less the better.\n)",
+    "main": "For the <title first bullet only [first bullet only] />:\n+20 Aim Assist, +25 Range, -5% Accuracy Cone Size, -10% <title Accuracy Cone Growth [accuracy cone growth] />.\n\n3.1 seconds cooldown, resets if the weapon is shot.\n\n🡅Enhanced: Grants an additional +5 Aim Assist and +5 Range.\n\n<formula In-Game Range: [range_0] />\n\ntitle first bullet only (\nEven in the case of burst weapons. Only the first bullet of the burst is affected.\n)\ntitle accuracy cone growth (\nHow Fast Your Accuracy Cone Expands. The less the better.\n)",
     "secondary": "For one bullet only:\n+20 Aim Assist, +25 Range, -5% Accuracy Cone Size, -10% Accuracy Cone Growth.\n\n3.1 seconds cooldown, timer is reset if the weapon is shot.\n\nEnhanced: Grants an additional +5 Aim Assist and +5 Range."
    }
   },
@@ -1540,7 +1537,7 @@
   "hash": 395388285,
   "name": "Firing Line",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1667224873132,
+  "lastUpload": 1667251867754,
   "editor": {
    "en": {
     "main": "import main from 1771339417",
@@ -1549,7 +1546,8 @@
   },
   "updateTracker": {
    "stats": {
-    "lastUpdate": 0
+    "lastUpdate": 1667250692413,
+    "updatedBy": "Fading Shadow"
    },
    "descriptions": {
     "en": {
@@ -1569,7 +1567,8 @@
    }
   ],
   "linkedWith": 1771339417,
-  "uploadedBy": "Fading Shadow"
+  "uploadedBy": "Fading Shadow",
+  "importStatsFrom": 1771339417
  },
  "402033656": {
   "hash": 402033656,
@@ -1685,9 +1684,9 @@
   "name": "Proximity Grenades",
   "type": "weaponPerk",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667226153031,
+  "lastUpload": 1667251867754,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": true,
   "hidden": true,
   "updateTracker": {
@@ -1697,14 +1696,14 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1659903012345,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667251314861,
+     "updatedBy": "Fading Shadow"
     }
    }
   },
   "editor": {
    "en": {
-    "main": "Grenades fired from this weapon have increased proximity detection but a decreased blast radius.\n",
+    "main": "Grenades fired from this weapon have increased proximity detection but a decreased blast radius.",
     "secondary": "import self"
    }
   },
@@ -1721,9 +1720,9 @@
   "name": "Harmony",
   "type": "weaponPerk",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667226153031,
+  "lastUpload": 1667251867754,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -1733,7 +1732,7 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667217118583,
+     "lastUpdate": 1667250968542,
      "updatedBy": "Fading Shadow"
     }
    }
@@ -1760,7 +1759,7 @@
   },
   "editor": {
    "en": {
-    "main": "Upon readying a weapon within 3 seconds of getting a Kill with a different weapon:\n\n20% Increased Damage and 15 Handling for 7 seconds.\n\n<formula Ready Speed: [ready_0] />\n<formula Stow Speed: [stow_0] />\n\n🡅Enhanced: Buff Duration is increased to 8 seconds.",
+    "main": "Upon readying a weapon within 3 seconds of getting a Kill with a different weapon:\n\n20% Increased Damage and 15 Handling for 7 seconds.\n\n🡅Enhanced: Buff Duration is increased to 8 seconds.\n\n<formula Ready Speed: [ready_0] />\n<formula Stow Speed: [stow_0] />",
     "secondary": "Upon readying a weapon within 3 seconds of getting a Kill with a different weapon:\r\n\r\n20% Increased Damage and 15 Handling for 7 seconds.\r\n\r\nEnhanced: Buff Duration is increased to 8 seconds."
    }
   },
@@ -2405,15 +2404,14 @@
   "name": "Moving Target",
   "type": "weaponPerk",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667226153031,
+  "lastUpload": 1667251867754,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
   "hidden": false,
   "updateTracker": {
    "stats": {
-    "lastUpdate": 1665090215204,
-    "undatedBy": "Fading-Shadow",
+    "lastUpdate": 1667251467555,
     "updatedBy": "Fading Shadow"
    },
    "descriptions": {
@@ -2423,14 +2421,16 @@
     }
    }
   },
+  "editor": {
+   "en": {
+    "main": "While Aiming-Down-Sights:\n+10 Aim Assist, and 3% Reduced Aiming-Down-Sights Movement Speed Penalty.\n\n🡅Enhanced: Aim Assist bonus is slightly increased.",
+    "secondary": "import self"
+   }
+  },
+  "linkedWith": 2717805783,
   "stats": {
    "aimAssist": [
     {
-     "passive": {
-      "stat": [
-       10
-      ]
-     },
      "active": {
       "stat": [
        10
@@ -2438,14 +2438,7 @@
      }
     }
    ]
-  },
-  "editor": {
-   "en": {
-    "main": "While Aiming-Down-Sights:\n+10 Aim Assist, and 3% Reduced Aiming-Down-Sights Movement Speed Penalty.\n\n🡅Enhanced: Aim Assist bonus is slightly increased.",
-    "secondary": "import self"
-   }
-  },
-  "linkedWith": 2717805783
+  }
  },
  "591790007": {
   "hash": 591790007,
@@ -4009,7 +4002,7 @@
   "hash": 834262328,
   "name": "Kickstart",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1667226153031,
+  "lastUpload": 1667251867754,
   "editor": {
    "en": {
     "main": "import main from 1754714824",
@@ -4018,7 +4011,8 @@
   },
   "updateTracker": {
    "stats": {
-    "lastUpdate": 0
+    "lastUpdate": 1667251366010,
+    "updatedBy": "Fading Shadow"
    },
    "descriptions": {
     "en": {
@@ -4031,7 +4025,8 @@
   "inLiveDatabase": true,
   "optional": false,
   "linkedWith": 1754714824,
-  "uploadedBy": "Fading Shadow"
+  "uploadedBy": "Fading Shadow",
+  "importStatsFrom": 1754714824
  },
  "838873202": {
   "hash": 838873202,
@@ -4158,7 +4153,7 @@
   "hash": 859780267,
   "name": "One for All",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1667226153031,
+  "lastUpload": 1667251867754,
   "editor": {
    "en": {
     "main": "",
@@ -4167,7 +4162,8 @@
   },
   "updateTracker": {
    "stats": {
-    "lastUpdate": 0
+    "lastUpdate": 1667251507384,
+    "updatedBy": "Fading Shadow"
    },
    "descriptions": {
     "en": {
@@ -4179,7 +4175,8 @@
   "hidden": false,
   "inLiveDatabase": true,
   "optional": false,
-  "uploadedBy": "Fading Shadow"
+  "uploadedBy": "Fading Shadow",
+  "importStatsFrom": 4049631843
  },
  "883366072": {
   "hash": 883366072,
@@ -4540,9 +4537,9 @@
   "name": "Impulse Amplifier",
   "type": "weaponPerk",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667226153031,
+  "lastUpload": 1667251867754,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -4552,7 +4549,7 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667217129389,
+     "lastUpdate": 1667251216564,
      "updatedBy": "Fading Shadow"
     }
    }
@@ -5397,7 +5394,7 @@
   "hash": 1167468626,
   "name": "Lasting Impression",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1667226153031,
+  "lastUpload": 1667251867754,
   "editor": {
    "en": {
     "main": "import main from 3927722942",
@@ -5406,7 +5403,8 @@
   },
   "updateTracker": {
    "stats": {
-    "lastUpdate": 0
+    "lastUpdate": 1667251442375,
+    "updatedBy": "Fading Shadow"
    },
    "descriptions": {
     "en": {
@@ -5431,7 +5429,8 @@
    }
   ],
   "linkedWith": 3927722942,
-  "uploadedBy": "Fading Shadow"
+  "uploadedBy": "Fading Shadow",
+  "importStatsFrom": 3927722942
  },
  "1168162263": {
   "hash": 1168162263,
@@ -5924,9 +5923,9 @@
   "name": "Cluster Bomb",
   "type": "weaponPerk",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667224873132,
+  "lastUpload": 1667251867754,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -6096,7 +6095,7 @@
   "hash": 1347741687,
   "name": "Outlaw",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1667226153031,
+  "lastUpload": 1667251867754,
   "editor": {
    "en": {
     "main": "import main from 1168162263",
@@ -6105,7 +6104,8 @@
   },
   "updateTracker": {
    "stats": {
-    "lastUpdate": 0
+    "lastUpdate": 1667251748237,
+    "updatedBy": "Fading Shadow"
    },
    "descriptions": {
     "en": {
@@ -6118,7 +6118,8 @@
   "inLiveDatabase": true,
   "optional": false,
   "linkedWith": 1168162263,
-  "uploadedBy": "Fading Shadow"
+  "uploadedBy": "Fading Shadow",
+  "importStatsFrom": 1168162263
  },
  "1354429876": {
   "hash": 1354429876,
@@ -6154,8 +6155,8 @@
   "hash": 1359896290,
   "name": "Dynamic Sway Reduction",
   "type": "weaponPerk",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1659903012345,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667251867754,
   "inLiveDatabase": false,
   "uploadToLive": true,
   "optional": false,
@@ -6167,7 +6168,7 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667217936078,
+     "lastUpdate": 1667250343807,
      "updatedBy": "Fading Shadow"
     }
    }
@@ -6252,7 +6253,7 @@
   "hash": 1370847713,
   "name": "Opening Shot",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1667226153031,
+  "lastUpload": 1667251867754,
   "editor": {
    "en": {
     "main": "import main from 47981717",
@@ -6261,7 +6262,8 @@
   },
   "updateTracker": {
    "stats": {
-    "lastUpdate": 0
+    "lastUpdate": 1667251713212,
+    "updatedBy": "Fading Shadow"
    },
    "descriptions": {
     "en": {
@@ -6274,7 +6276,27 @@
   "inLiveDatabase": true,
   "optional": false,
   "linkedWith": 47981717,
-  "uploadedBy": "Fading Shadow"
+  "uploadedBy": "Fading Shadow",
+  "stats": {
+   "aimAssist": [
+    {
+     "active": {
+      "stat": [
+       25
+      ]
+     }
+    }
+   ],
+   "range": [
+    {
+     "active": {
+      "stat": [
+       30
+      ]
+     }
+    }
+   ]
+  }
  },
  "1409206216": {
   "hash": 1409206216,
@@ -7648,7 +7670,7 @@
   "hash": 1609056795,
   "name": "Fragile Focus",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1667226153031,
+  "lastUpload": 1667251867754,
   "editor": {
    "en": {
     "main": "import main from 2451262963",
@@ -7657,7 +7679,8 @@
   },
   "updateTracker": {
    "stats": {
-    "lastUpdate": 0
+    "lastUpdate": 1667250756765,
+    "updatedBy": "Fading Shadow"
    },
    "descriptions": {
     "en": {
@@ -7670,7 +7693,8 @@
   "inLiveDatabase": true,
   "optional": false,
   "linkedWith": 2451262963,
-  "uploadedBy": "Fading Shadow"
+  "uploadedBy": "Fading Shadow",
+  "importStatsFrom": 2451262963
  },
  "1618208178": {
   "hash": 1618208178,
@@ -8369,9 +8393,9 @@
   "name": "Concussion Grenades",
   "type": "weaponPerk",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667224873132,
+  "lastUpload": 1667251867754,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": true,
   "hidden": false,
   "updateTracker": {
@@ -8916,15 +8940,15 @@
   "name": "Hip-Fire Grip",
   "type": "weaponPerk",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667226153031,
+  "lastUpload": 1667251867754,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
   "hidden": false,
   "updateTracker": {
    "stats": {
-    "lastUpdate": 1659903012345,
-    "undatedBy": "Fading-Shadow"
+    "lastUpdate": 1667251103642,
+    "updatedBy": "Fading Shadow"
    },
    "descriptions": {
     "en": {
@@ -8934,15 +8958,6 @@
    }
   },
   "stats": {
-   "range": [
-    {
-     "active": {
-      "multiplier": [
-       1.2
-      ]
-     }
-    }
-   ],
    "stability": [
     {
      "active": {
@@ -8957,6 +8972,27 @@
      "active": {
       "stat": [
        15
+      ]
+     }
+    }
+   ],
+   "range": [
+    {
+     "active": {
+      "multiplier": [
+       1
+      ]
+     },
+     "weaponTypes": [
+      "fusion rifle",
+      "shotgun",
+      "sniper rifle"
+     ]
+    },
+    {
+     "active": {
+      "multiplier": [
+       1.2
       ]
      }
     }
@@ -9182,7 +9218,7 @@
   "hash": 1905598698,
   "name": "Full Court",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1667226153031,
+  "lastUpload": 1667251867754,
   "editor": {
    "en": {
     "main": "import main from 2888557110",
@@ -9191,7 +9227,8 @@
   },
   "updateTracker": {
    "stats": {
-    "lastUpdate": 0
+    "lastUpdate": 1667250883926,
+    "updatedBy": "Fading Shadow"
    },
    "descriptions": {
     "en": {
@@ -9204,7 +9241,8 @@
   "inLiveDatabase": true,
   "optional": false,
   "linkedWith": 2888557110,
-  "uploadedBy": "Fading Shadow"
+  "uploadedBy": "Fading Shadow",
+  "importStatsFrom": 2888557110
  },
  "1906147653": {
   "hash": 1906147653,
@@ -9574,10 +9612,10 @@
   "hash": 2010801679,
   "name": "Ambitious Assassin",
   "type": "weaponPerk",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1659903012345,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667251867754,
   "inLiveDatabase": false,
-  "uploadToLive": true,
+  "uploadToLive": false,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -9620,7 +9658,7 @@
   "hash": 2014892510,
   "name": "Perpetual Motion Enhanced",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1667226153031,
+  "lastUpload": 1667251867754,
   "editor": {
    "en": {
     "main": "",
@@ -9629,7 +9667,8 @@
   },
   "updateTracker": {
    "stats": {
-    "lastUpdate": 0
+    "lastUpdate": 1667251780856,
+    "updatedBy": "Fading Shadow"
    },
    "descriptions": {
     "en": {
@@ -9641,14 +9680,15 @@
   "hidden": false,
   "inLiveDatabase": true,
   "optional": false,
-  "uploadedBy": "Fading Shadow"
+  "uploadedBy": "Fading Shadow",
+  "importStatsFrom": 1428297954
  },
  "2030760728": {
   "hash": 2030760728,
   "name": "Energy Transfer",
   "type": "weaponPerk",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667224873132,
+  "lastUpload": 1667251867754,
   "inLiveDatabase": false,
   "uploadToLive": true,
   "optional": false,
@@ -9660,7 +9700,7 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667217067955,
+     "lastUpdate": 1667250422588,
      "updatedBy": "Fading Shadow"
     }
    }
@@ -9827,16 +9867,16 @@
   "hash": 2117683199,
   "name": "Full Auto Trigger System",
   "type": "weaponPerk",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1659903129370,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667251867754,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
    "stats": {
-    "lastUpdate": 1659903129370,
-    "undatedBy": "Fading-Shadow"
+    "lastUpdate": 1667250821628,
+    "updatedBy": "Fading Shadow"
    },
    "descriptions": {
     "en": {
@@ -9850,6 +9890,20 @@
     "main": "Automatically queues up the next shot after firing if you hold the trigger.\n\n10% Faster Rate of Fire on Shotguns exclusively.",
     "secondary": "import self"
    }
+  },
+  "stats": {
+   "rateOfFire": [
+    {
+     "passive": {
+      "multiplier": [
+       1.1
+      ]
+     },
+     "weaponTypes": [
+      "shotgun"
+     ]
+    }
+   ]
   }
  },
  "2119325971": {
@@ -10781,9 +10835,9 @@
   "name": "Chain Reaction",
   "type": "weaponPerk",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667224873132,
+  "lastUpload": 1667251867754,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -10818,7 +10872,7 @@
   "hash": 2402480669,
   "name": "Focused Fury",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1667226153031,
+  "lastUpload": 1667251867754,
   "editor": {
    "en": {
     "main": "import main from 2896038713",
@@ -10827,7 +10881,8 @@
   },
   "updateTracker": {
    "stats": {
-    "lastUpdate": 0
+    "lastUpdate": 1667250744954,
+    "updatedBy": "Fading Shadow"
    },
    "descriptions": {
     "en": {
@@ -10840,7 +10895,8 @@
   "inLiveDatabase": true,
   "optional": false,
   "linkedWith": 2896038713,
-  "uploadedBy": "Fading Shadow"
+  "uploadedBy": "Fading Shadow",
+  "importStatsFrom": 2896038713
  },
  "2422968039": {
   "hash": 2422968039,
@@ -10931,9 +10987,9 @@
   "name": "Fragile Focus",
   "type": "weaponPerk",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667226153031,
+  "lastUpload": 1667251867754,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -10943,7 +10999,7 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667217106159,
+     "lastUpdate": 1667250767800,
      "updatedBy": "Fading Shadow"
     }
    }
@@ -10961,7 +11017,7 @@
   },
   "editor": {
    "en": {
-    "main": "Passively grants +20 Range.\nReceiving any incoming damage disables the perk for 5 seconds.\n\n<formula Effective Range: [range_0] />\n\n🡅Enhanced: Timer after receiving damage is reduced to 4 seconds.",
+    "main": "Passively grants +20 Range.\nReceiving any incoming damage disables the perk for 5 seconds.\n\n🡅Enhanced: Timer after receiving damage is reduced to 4 seconds.\n\n<formula Effective Range: [range_0] />",
     "secondary": "Passively grants +20 Range.\nReceiving any incoming damage disables the perk for 5 seconds.\n\nEnhanced: Timer after receiving damage is reduced to 4 seconds."
    }
   },
@@ -11263,7 +11319,7 @@
   "hash": 2570477205,
   "name": "Multikill Clip",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1667226153031,
+  "lastUpload": 1667251867754,
   "editor": {
    "en": {
     "main": "import main from 2458213969",
@@ -11272,7 +11328,8 @@
   },
   "updateTracker": {
    "stats": {
-    "lastUpdate": 0
+    "lastUpdate": 1667251501139,
+    "updatedBy": "Fading Shadow"
    },
    "descriptions": {
     "en": {
@@ -11285,7 +11342,8 @@
   "inLiveDatabase": true,
   "optional": false,
   "linkedWith": 2458213969,
-  "uploadedBy": "Fading Shadow"
+  "uploadedBy": "Fading Shadow",
+  "importStatsFrom": 2458213969
  },
  "2590710093": {
   "hash": 2590710093,
@@ -11363,9 +11421,9 @@
   "name": "Golden Tricorn",
   "type": "weaponPerk",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667226153031,
+  "lastUpload": 1667251867754,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -11375,7 +11433,7 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667217115099,
+     "lastUpdate": 1667250933615,
      "updatedBy": "Fading Shadow"
     }
    }
@@ -11394,7 +11452,7 @@
   },
   "editor": {
    "en": {
-    "main": "On Weapon Kill:\n15% Increased damage for 7 seconds.\nCan be refreshed with a Weapon Kill.\n\nMatching Grenade and Powered Melee Kills while the buff is active grant 50% increased damage for 10 seconds.\nCan be refreshed by getting another Matching Ability Kill.\n\n🡅Enhanced: 15% Damage Buff Duration is increased to 8 seconds if a weapon kill is made while it is active.",
+    "main": "On Weapon Kill:\n15% Increased damage for 7 seconds.\n\nMatching Grenade and Powered Melee Kills while the buff is active grant 50% increased damage for 10 seconds.\nCan only be refreshed by getting another Matching Ability Kill.\n\n🡅Enhanced: 15% Damage Buff Duration is increased to 8 seconds if a weapon kill is made while it is active.",
     "secondary": "import self"
    }
   },
@@ -11761,9 +11819,9 @@
   "name": "One-Two Punch",
   "type": "weaponPerk",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667226153031,
+  "lastUpload": 1667251867754,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -11773,7 +11831,7 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667217151689,
+     "lastUpdate": 1667251853238,
      "updatedBy": "Fading Shadow"
     },
     "zh-chs": {
@@ -11784,7 +11842,7 @@
   },
   "editor": {
    "en": {
-    "main": "If All Pellets from a Shotgun Hit:\n200% Increased melee damage for 1.22 seconds.\n350% Increased melee damage against Bosses and Vehicles.\n\nHas reduced effectiveness when combined with certain Melee Damage Increases.\nCheck out the <link Destiny Data Compendium [https://docs.google.com/spreadsheets/d/1WaxvbLx7UoSZaBqdFr1u32F2uWVLo-CJunJB4nlGUE4/edit#gid=1662574278&range=I90] /> for additional information.\n\n🡅Enhanced: Pellet Activation Requirement reduced from 12 to 10.",
+    "main": "If All Pellets from a Shotgun Hit:\n200% Increased melee damage for 1.22 seconds.\n350% Increased melee damage against Bosses and Vehicles.\n\nHas reduced effectiveness when combined with certain Melee Damage Increases.\nCheck out the <link Destiny Data Compendium [https://docs.google.com/spreadsheets/d/1WaxvbLx7UoSZaBqdFr1u32F2uWVLo-CJunJB4nlGUE4/edit#gid=1662574278] /> for additional information. (Notes column)\n\n🡅Enhanced: Pellet Activation Requirement reduced from 12 to 10.",
     "secondary": "If All Pellets from a Shotgun Hit:\n200% Increased melee damage for 1.22 seconds.\n350% Increased melee damage against Bosses and Vehicles.\n\nHas reduced effectiveness when combined with certain Melee Damage Increases.\nCheck out the Destiny Data Compendium for additional information.\n\nEnhanced: Pellet Activation Requirement reduced from 12 to 10."
    },
    "zh-chs": {
@@ -11826,7 +11884,7 @@
   "hash": 2717805783,
   "name": "Moving Target",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1667226153031,
+  "lastUpload": 1667251867754,
   "editor": {
    "en": {
     "main": "",
@@ -11835,7 +11893,8 @@
   },
   "updateTracker": {
    "stats": {
-    "lastUpdate": 0
+    "lastUpdate": 1667251480314,
+    "updatedBy": "Fading Shadow"
    },
    "descriptions": {
     "en": {
@@ -11847,7 +11906,18 @@
   "hidden": false,
   "inLiveDatabase": true,
   "optional": false,
-  "uploadedBy": "Fading Shadow"
+  "uploadedBy": "Fading Shadow",
+  "stats": {
+   "aimAssist": [
+    {
+     "active": {
+      "stat": [
+       11
+      ]
+     }
+    }
+   ]
+  }
  },
  "2726471870": {
   "hash": 2726471870,
@@ -11991,7 +12061,7 @@
   "hash": 2748258257,
   "name": "Heating Up",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1667226153031,
+  "lastUpload": 1667251867754,
   "editor": {
    "en": {
     "main": "import main from 1570042021",
@@ -12000,7 +12070,8 @@
   },
   "updateTracker": {
    "stats": {
-    "lastUpdate": 0
+    "lastUpdate": 1667250989215,
+    "updatedBy": "Fading Shadow"
    },
    "descriptions": {
     "en": {
@@ -12013,13 +12084,14 @@
   "inLiveDatabase": true,
   "optional": false,
   "linkedWith": 1570042021,
-  "uploadedBy": "Fading Shadow"
+  "uploadedBy": "Fading Shadow",
+  "importStatsFrom": 1570042021
  },
  "2748801589": {
   "hash": 2748801589,
   "name": "Harmony",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1667226153031,
+  "lastUpload": 1667251867754,
   "editor": {
    "en": {
     "main": "import main from 438098033",
@@ -12028,7 +12100,8 @@
   },
   "updateTracker": {
    "stats": {
-    "lastUpdate": 0
+    "lastUpdate": 1667250959624,
+    "updatedBy": "Fading Shadow"
    },
    "descriptions": {
     "en": {
@@ -12041,7 +12114,8 @@
   "inLiveDatabase": true,
   "optional": false,
   "linkedWith": 438098033,
-  "uploadedBy": "Fading Shadow"
+  "uploadedBy": "Fading Shadow",
+  "importStatsFrom": 438098033
  },
  "2754084930": {
   "hash": 2754084930,
@@ -12756,7 +12830,7 @@
   "hash": 2896748467,
   "name": "Killing Tally",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1667226153031,
+  "lastUpload": 1667251867754,
   "editor": {
    "en": {
     "main": "import main from 557221067",
@@ -12765,7 +12839,8 @@
   },
   "updateTracker": {
    "stats": {
-    "lastUpdate": 0
+    "lastUpdate": 1667251389675,
+    "updatedBy": "Fading Shadow"
    },
    "descriptions": {
     "en": {
@@ -12785,7 +12860,8 @@
    }
   ],
   "linkedWith": 557221067,
-  "uploadedBy": "Fading Shadow"
+  "uploadedBy": "Fading Shadow",
+  "importStatsFrom": 557221067
  },
  "2898218424": {
   "hash": 2898218424,
@@ -12873,7 +12949,7 @@
   "hash": 2923251173,
   "name": "Kill Clip",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1667226153031,
+  "lastUpload": 1667251867754,
   "editor": {
    "en": {
     "main": "import main from 1015611457",
@@ -12882,7 +12958,8 @@
   },
   "updateTracker": {
    "stats": {
-    "lastUpdate": 0
+    "lastUpdate": 1667251375705,
+    "updatedBy": "Fading Shadow"
    },
    "descriptions": {
     "en": {
@@ -12895,7 +12972,8 @@
   "inLiveDatabase": true,
   "optional": false,
   "linkedWith": 1015611457,
-  "uploadedBy": "Fading Shadow"
+  "uploadedBy": "Fading Shadow",
+  "importStatsFrom": 1015611457
  },
  "2938480696": {
   "hash": 2938480696,
@@ -13153,7 +13231,7 @@
   "hash": 3007133316,
   "name": "Frenzy",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1667226153031,
+  "lastUpload": 1667251867754,
   "editor": {
    "en": {
     "main": "import main from 4104185692",
@@ -13162,7 +13240,8 @@
   },
   "updateTracker": {
    "stats": {
-    "lastUpdate": 0
+    "lastUpdate": 1667250787637,
+    "updatedBy": "Fading Shadow"
    },
    "descriptions": {
     "en": {
@@ -13175,7 +13254,8 @@
   "inLiveDatabase": true,
   "optional": false,
   "linkedWith": 4104185692,
-  "uploadedBy": "Fading Shadow"
+  "uploadedBy": "Fading Shadow",
+  "importStatsFrom": 4104185692
  },
  "3016987351": {
   "hash": 3016987351,
@@ -13379,7 +13459,7 @@
   "hash": 3060983774,
   "name": "Dynamic Sway Reduction",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 0,
+  "lastUpload": 1667251867754,
   "editor": {
    "en": {
     "main": "import main from 1359896290",
@@ -13388,7 +13468,8 @@
   },
   "updateTracker": {
    "stats": {
-    "lastUpdate": 0
+    "lastUpdate": 1667250334818,
+    "updatedBy": "Fading Shadow"
    },
    "descriptions": {
     "en": {
@@ -13400,7 +13481,9 @@
   "hidden": false,
   "inLiveDatabase": false,
   "optional": false,
-  "linkedWith": 1359896290
+  "linkedWith": 1359896290,
+  "importStatsFrom": 1359896290,
+  "uploadedBy": "Fading Shadow"
  },
  "3078487919": {
   "hash": 3078487919,
@@ -13624,7 +13707,7 @@
   "hash": 3118144663,
   "name": "Hip-Fire Grip",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1667226153031,
+  "lastUpload": 1667251867754,
   "editor": {
    "en": {
     "main": "import main from 1866048759",
@@ -13633,7 +13716,8 @@
   },
   "updateTracker": {
    "stats": {
-    "lastUpdate": 0
+    "lastUpdate": 1667251017719,
+    "updatedBy": "Fading Shadow"
    },
    "descriptions": {
     "en": {
@@ -13646,7 +13730,8 @@
   "inLiveDatabase": true,
   "optional": false,
   "linkedWith": 1866048759,
-  "uploadedBy": "Fading Shadow"
+  "uploadedBy": "Fading Shadow",
+  "importStatsFrom": 1866048759
  },
  "3143051906": {
   "hash": 3143051906,
@@ -14797,7 +14882,7 @@
   "hash": 3406782879,
   "name": "En Garde",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1667224873132,
+  "lastUpload": 1667251867754,
   "editor": {
    "en": {
     "main": "import main from 1685431615",
@@ -14806,7 +14891,8 @@
   },
   "updateTracker": {
    "stats": {
-    "lastUpdate": 0
+    "lastUpdate": 1667250636352,
+    "updatedBy": "Fading Shadow"
    },
    "descriptions": {
     "en": {
@@ -14819,7 +14905,8 @@
   "inLiveDatabase": false,
   "optional": false,
   "linkedWith": 1685431615,
-  "uploadedBy": "Fading Shadow"
+  "uploadedBy": "Fading Shadow",
+  "importStatsFrom": 1685431615
  },
  "3418165135": {
   "hash": 3418165135,
@@ -15178,9 +15265,9 @@
   "name": "Demolitionist",
   "type": "weaponPerk",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667224873132,
+  "lastUpload": 1667251867754,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -15454,9 +15541,9 @@
   "name": "Overflow",
   "type": "weaponPerk",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667226153031,
+  "lastUpload": 1667251867754,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -15466,7 +15553,7 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667217159287,
+     "lastUpdate": 1667251766989,
      "updatedBy": "Fading Shadow"
     }
    }
@@ -16602,7 +16689,7 @@
   "hash": 3878366039,
   "name": "Impulse Amplifier",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1667226153031,
+  "lastUpload": 1667251867754,
   "editor": {
    "en": {
     "main": "import main from 951095735",
@@ -16611,7 +16698,8 @@
   },
   "updateTracker": {
    "stats": {
-    "lastUpdate": 0
+    "lastUpdate": 1667251174504,
+    "updatedBy": "Fading Shadow"
    },
    "descriptions": {
     "en": {
@@ -16624,7 +16712,8 @@
   "inLiveDatabase": true,
   "optional": false,
   "linkedWith": 951095735,
-  "uploadedBy": "Fading Shadow"
+  "uploadedBy": "Fading Shadow",
+  "importStatsFrom": 951095735
  },
  "3901392720": {
   "hash": 3901392720,
@@ -17411,7 +17500,7 @@
   "hash": 4045335048,
   "name": "Headseeker",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1667226153031,
+  "lastUpload": 1667251867754,
   "editor": {
    "en": {
     "main": "import main from 460017080",
@@ -17420,7 +17509,8 @@
   },
   "updateTracker": {
    "stats": {
-    "lastUpdate": 0
+    "lastUpdate": 1667250976562,
+    "updatedBy": "Fading Shadow"
    },
    "descriptions": {
     "en": {
@@ -17440,7 +17530,8 @@
    }
   ],
   "linkedWith": 460017080,
-  "uploadedBy": "Fading Shadow"
+  "uploadedBy": "Fading Shadow",
+  "importStatsFrom": 460017080
  },
  "4048389864": {
   "hash": 4048389864,
@@ -18183,7 +18274,7 @@
   "hash": 4207509907,
   "name": "Killing Wind",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1667226153031,
+  "lastUpload": 1667251867754,
   "editor": {
    "en": {
     "main": "import main from 2450788523",
@@ -18192,7 +18283,8 @@
   },
   "updateTracker": {
    "stats": {
-    "lastUpdate": 0
+    "lastUpdate": 1667251411904,
+    "updatedBy": "Fading Shadow"
    },
    "descriptions": {
     "en": {
@@ -18205,7 +18297,8 @@
   "inLiveDatabase": true,
   "optional": false,
   "linkedWith": 2450788523,
-  "uploadedBy": "Fading Shadow"
+  "uploadedBy": "Fading Shadow",
+  "importStatsFrom": 2450788523
  },
  "4222205045": {
   "hash": 4222205045,
@@ -18346,10 +18439,10 @@
   "hash": 4252909580,
   "name": "Bottomless Grief",
   "type": "weaponPerk",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1659903012345,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667251867754,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -18383,16 +18476,16 @@
   "hash": 4267945040,
   "name": "Full Auto Trigger System",
   "type": "weaponPerk",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1659903129370,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667251867754,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
    "stats": {
-    "lastUpdate": 1659903129370,
-    "undatedBy": "Fading-Shadow"
+    "lastUpdate": 1667250866218,
+    "updatedBy": "Fading Shadow"
    },
    "descriptions": {
     "en": {
@@ -18406,7 +18499,8 @@
     "main": "import main from 2117683199",
     "secondary": "import secondary from 2117683199"
    }
-  }
+  },
+  "importStatsFrom": 2117683199
  },
  "4278960718": {
   "hash": 4278960718,
@@ -18448,7 +18542,7 @@
   "hash": 4290541820,
   "name": "Golden Tricorn Enhanced",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1667226153031,
+  "lastUpload": 1667251867754,
   "editor": {
    "en": {
     "main": "import main from 2610012052",
@@ -18457,7 +18551,8 @@
   },
   "updateTracker": {
    "stats": {
-    "lastUpdate": 0
+    "lastUpdate": 1667250946345,
+    "updatedBy": "Fading Shadow"
    },
    "descriptions": {
     "en": {
@@ -18470,7 +18565,8 @@
   "inLiveDatabase": true,
   "optional": false,
   "linkedWith": 2610012052,
-  "uploadedBy": "Fading Shadow"
+  "uploadedBy": "Fading Shadow",
+  "importStatsFrom": 2610012052
  },
  "4293542123": {
   "hash": 4293542123,
