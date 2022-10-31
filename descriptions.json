@@ -1,14 +1,14 @@
 {
  "0": {
   "hash": 0,
-  "name": "",
-  "type": "armorExotic",
-  "lastUpload": 1667256535106,
-  "uploadedBy": "Icemourne",
+  "name": "Default perk",
+  "type": "none",
+  "lastUpload": 1667259324743,
+  "uploadedBy": "Fading Shadow",
   "editor": {
    "en": {
-    "main": "Ionic Traces move faster and grant doubled Ability Energy.\nGrenade: 25% | Melee: 25% | Class Ability: 30%\n\nAllies within [?] metres receive 10% Grenade, Melee, and Class Ability Energy when you pick up an Ionic Trace.",
-    "secondary": "import self"
+    "main": "Images you can use in descriptions\n<arc/> <void/> <solar/>\n<primary/> <special/> <heavy/>\n<warlock/> <hunter/> <titan/>\nText coloring\n<blue text /> <green text /> <purple text /> <yellow text />\n<pvp text /> <pve text />\n\nThe same can be done to lines of text <green/>\n\nYou probably noticed having multiple spaces in the editor\n              doesn't mean it will be the same in description\n              you can change that with <breakSpaces/>\n\n// This is comment content after // will not appear in the description\n\n// ----------------------------------------------------------\n// weapon type explanation\n// they work like if else in programming\n\n// if auto rifle\n< weapon type ( auto rifle ) >\n    Apply this text\n// else if glaive\n< weapon type ( glaive ) >\n    Apply this text\n// else\n< weapon type ( other ) >\n    Apply this text to all weapons not specified in this block\n<$$>\n// also, you can preview how it would look on x weapon by selecting the weapon in the weapon popup under the weapons name\n// ----------------------------------------------------------\nIf there is something you want just ask\nThis is not everything you can do btw\n\nTo see the full list press CTRL + SPACE\nAlso, CTRL + F is a thing and can be used to find and replace\nAlso also editor has other stuff to see them press F1",
+    "secondary": ""
    }
   },
   "updateTracker": {
@@ -18,8 +18,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667255456622,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 0,
+     "updatedBy": ""
     }
    }
   },
@@ -1519,10 +1519,10 @@
   "itemHash": 300502917,
   "itemName": "Nothing Manacles",
   "type": "armorExotic",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1659459175004,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667259324743,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -1532,15 +1532,15 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1659459175004,
-     "undatedBy": "Icemourne"
+     "lastUpdate": 1667257148800,
+     "updatedBy": "Fading Shadow"
     }
    }
   },
   "editor": {
    "en": {
-    "main": "If on Scatter Grenades:\n\nGain an extra Grenade Charge\nScatter Grenades innately receive <title Chaos Accelerant's [chaos accelerant] /> Tracking Bonus\n\ntitle chaos accelerant (\nVoid Aspect that allows you to Overcharge your Grenade\n)",
-    "secondary": "If on Scatter Grenades:\r\n\r\nGain an extra Grenade Charge\r\nScatter Grenades innately receive Chaos Accelerant's Tracking Bonus"
+    "main": "Grants an extra Scatter Grenade Ability Charge.\n\nScatter Grenades receive <title Chaos Accelerant's [chaos accelerant] /> Tracking Bonus.\nDoes not stack with Chaos Accelerant's Bonus.\n\ntitle chaos accelerant (\nVoid Aspect that allows you to Overcharge your Grenades.\n)",
+    "secondary": "Grants an extra Scatter Grenade Ability Charge.\n\nScatter Grenades receive Chaos Accelerant's Tracking Bonus.\nDoes not stack with Chaos Accelerant's Bonus."
    }
   }
  },
@@ -3409,10 +3409,10 @@
   "itemHash": 2177524718,
   "itemName": "The Stag",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881742,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667259324743,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -3422,15 +3422,15 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1666625351233,
-     "updatedBy": "Icemourne"
+     "lastUpdate": 1667258122696,
+     "updatedBy": "Fading Shadow"
     }
    }
   },
   "editor": {
    "en": {
-    "main": "Grants <pve 25% /> <pvp [15%] /> Damage Resist to Guardians inside your Rift.\n\nUpon reaching Critical Health:\nDearly Departed grants <pve 55% /> <pvp [27.5%] /> Class Ability Energy.\nBuff lasts until no longer Critical.\n\nOn Death:\nSpawns a Healing Rift for 15 seconds.\n",
-    "secondary": "Grants 25% [PVP: 15%] Damage Resist to Guardians inside your Rift.\r\n\r\nUpon reaching Critical Health:\r\nDearly Departed grants 55% [PVP: 27.5%] Class Ability Energy.\r\nBuff lasts until no longer Critical.\r\n\r\nOn Death:\r\nSpawns a Healing Rift for 15 seconds."
+    "main": "Grants <pve 25% /> <pvp [5%] /> Damage Resist to Guardians inside your Rift.\nWorks while inside a Well of Radiance if you cast a Rift inside it.\n\nUpon reaching Critical Health:\nDearly Departed grants <pve 55% /> <pvp [27.5%] /> Class Ability Energy.\nBuff lasts until you are no longer at Critical Health, essentially serving as a Cooldown.\n\nOn Death:\nSpawns a Healing Rift for 15 seconds.",
+    "secondary": "Grants 25% [PVP: 5%] Damage Resist to Guardians inside your Rift.\nWorks while inside a Well of Radiance if you cast a Rift inside it.\n\nUpon reaching Critical Health:\nDearly Departed grants 55% [PVP: 27.5%] Class Ability Energy.\nBuff lasts until you are no longer at Critical Health, essentially serving as a Cooldown.\n\nOn Death:\nSpawns a Healing Rift for 15 seconds."
    }
   }
  },
@@ -4364,10 +4364,10 @@
   "itemHash": 3259193988,
   "itemName": "Osmiomancy Gloves",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881742,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667259324743,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -4377,15 +4377,15 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881742,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667257606203,
+     "updatedBy": "Fading Shadow"
     }
    }
   },
   "editor": {
    "en": {
-    "main": "Grants an extra Coldsnap Grenade Charge.\r\n\r\nColdsnap Grenades have better tracking and grant [?]% Grenade Ability upon both hit and freezing an enemy.\r\n\r\nColdsnap Seekers travel 35% further.",
-    "secondary": "Grants an extra Coldsnap Grenade Charge.\r\n\r\nColdsnap Grenades have better tracking and grant [?]% Grenade Ability upon both hit and freezing an enemy.\r\n\r\nColdsnap Seekers travel 35% further."
+    "main": "Grants an extra Coldsnap Grenade Ability Charge.\n\nColdsnaps Grenades have better tracking, travel 35% further, and grant Grenade Ability upon hitting or freezing an enemy.\n\nGrenade Ability Recharge:\n11%: Tier 1 Rank-and-File\n22%: Tier 2 Rank-and-File / Tier 1 Elite / Guardians\n33%: Tier 3 Rank-and-File / Tier 2 Elite\n50%: Tier 3 Elite / Minibosses / Champions / Bosses\n\nFor Combatant Classifications <link click here [https://d2clarity.page.link/combatant] />.",
+    "secondary": "Grants an extra Coldsnap Grenade Ability Charge.\n\nColdsnaps Grenades have better tracking, travel 35% further, and grant Grenade Ability upon hitting or freezing an enemy.\n\nGrenade Ability Recharge:\n11%: Tier 1 Rank-and-File\n22%: Tier 2 Rank-and-File / Tier 1 Elite / Guardians\n33%: Tier 3 Rank-and-File / Tier 2 Elite\n50%: Tier 3 Elite / Minibosses / Champions / Bosses"
    }
   }
  },
@@ -4395,10 +4395,10 @@
   "itemHash": 370930766,
   "itemName": "Wings of Sacred Dawn",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881742,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667259324743,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -4408,15 +4408,15 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881742,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667258681158,
+     "updatedBy": "Fading Shadow"
     }
    }
   },
   "editor": {
    "en": {
-    "main": "Passively grants 50 Airborne Effectiveness.\r\n\r\nIf on Solar Subclass:\r\nAiming Down Sights while Airborne grants Tome of Dawn.\r\n\r\nTomes of Dawn: \r\nHolds you in place midair\r\n25% Reduced Flinch\r\nGrants 15% Damage Resistance. \r\nLasts for 2.8 seconds. Hits refresh Y seconds.",
-    "secondary": "Passively grants 50 Airborne Effectiveness.\r\n\r\nIf on Solar Subclass:\r\nAiming Down Sights while Airborne grants Tome of Dawn.\r\n\r\nTomes of Dawn: \r\nHolds you in place midair\r\n25% Reduced Flinch\r\nGrants 15% Damage Resistance. \r\nLasts for 2.8 seconds. Hits refresh Y seconds."
+    "main": "Passively grants +50 Airborne Effectiveness.\n\nIf on Solar Subclass:\nAiming Down Sights while Airborne grants Tome of Dawn.\n\nTomes of Dawn: \nHolds you in place midair\n25% Reduced Flinch\nGrants 15% Damage Resistance. \nLasts for 2.8 seconds. Hits refresh Y seconds.",
+    "secondary": "import self"
    }
   }
  },
@@ -4426,10 +4426,10 @@
   "itemHash": 2082483156,
   "itemName": "Starfire Protocol",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881742,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667259324743,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -4439,15 +4439,15 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881742,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667257942291,
+     "updatedBy": "Fading Shadow"
     }
    }
   },
   "editor": {
    "en": {
-    "main": "Gain an extra Fusion Grenade Charge.\n\n20% Grenade Energy per Weapon Hit while Empowered (0.3s Cooldown)\n\n100% Class Ability Energy on Grenade Kill\n\nEmpowered is either Well of Radiance or Empowering Rift.",
-    "secondary": "Gain an extra Fusion Grenade Charge.\r\n\r\n20% Grenade Energy per Weapon Hit while Empowered (0.3s Cooldown)\r\n\r\n100% Class Ability Energy on Grenade Kill\r\n\r\nEmpowered is either Well of Radiance or Empowering Rift."
+    "main": "Gain an extra Fusion Grenade Charge.\n\n20% Grenade Energy per Weapon Hit while Empowered (0.4 second cooldown)\n\n100% Class Ability Energy on Grenade Kill\n\nWeapon Damage is Empowered while within a Well of Radiance or Empowering Rift.",
+    "secondary": "import self"
    }
   }
  },
@@ -5015,10 +5015,10 @@
   "itemHash": 235591051,
   "itemName": "Promethium Spur",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881743,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667259324743,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -5028,15 +5028,15 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881743,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667257697308,
+     "updatedBy": "Fading Shadow"
     }
    }
   },
   "editor": {
    "en": {
-    "main": "Daybreak Kills spawn both an Empowering and Healing Rift on Enemy Death Location.\n\nWhile standing in a Rift:\nSolar Weapon Kills grant X% Class Ability Energy.\n\nWhile your Class Ability Energy is Full:\nWeapon Kills consume your Class Ability Energy and spawn a Empowering + Healing Rift at the Target's Location.\n",
-    "secondary": "Daybreak Kills spawn both an Empowering and Healing Rift on Enemy Death Location.\r\n\r\nWhile standing in a Rift:\r\nSolar Weapon Kills grant X% Class Ability Energy.\r\n\r\nWhile your Class Ability Energy is Full:\r\nWeapon Kills consume your Class Ability Energy and spawn a Empowering + Healing Rift at the Target's Location.\r\n"
+    "main": "Daybreak Kills spawn both an Empowering and Healing Rift on Enemy Death Location.\n\nWhile standing in a Rift:\nSolar Weapon Kills grant [?]% Class Ability Energy.\n\nWhile your Class Ability Energy is Full:\nWeapon Kills consume your Class Ability Energy and spawn a Empowering + Healing Rift at the Target's Location.\n",
+    "secondary": "import self"
    }
   }
  },
@@ -5086,10 +5086,10 @@
   "itemHash": 1725917554,
   "itemName": "Vesper of Radius",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881743,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667259324743,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -5099,15 +5099,15 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881743,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667258612944,
+     "updatedBy": "Fading Shadow"
     }
    }
   },
   "editor": {
    "en": {
-    "main": "While surrounded by at least 3 enemies within 15 meters, gain Class Ability Energy per Second.\n\n3 Enemies = 3% | 4 Enemies = 5% | 5 Enemies =\n\n1 second after casting Rift:\nAn Arc Shockwave is cast that deals <pve 300 /> <pvp [100] /> damage and heavily knockbacks in a 7.5 meter radius.\n",
-    "secondary": "While surrounded by at least 3 enemies within 15 meters, gain Class Ability Energy per Second.\r\n\r\n3 Enemies = 3% | 4 Enemies = 5% | 5 Enemies =\r\n\r\n1 second after casting Rift:\r\nAn Arc Shockwave is cast that deals 300 [PVP: 100] damage and heavily knockbacks in a 7.5 meter radius.\r\n"
+    "main": "While surrounded by at least 3 enemies within 15 metres:\nGain Additional Base Class Ability Regeneration Rate.\n\nAdditional Base Class Ability Regeneration Rate:\n3 Enemies = 250%\n4 Enemies = 666%\n5 Enemies = 1085%\n6 Enemies = 1500%\n\n1 second after casting Rift:\nAn Arc Shockwave is cast that deals <pve 300 /> <pvp [100] /> damage and knocks back enemies in a 7.5 metres radius.",
+    "secondary": "While surrounded by at least 3 enemies within 15 metres:\nGain Additional Base Class Ability Regeneration Rate.\n\nAdditional Base Class Ability Regeneration Rate:\n3 Enemies = 250%\n4 Enemies = 666%\n5 Enemies = 1085%\n6 Enemies = 1500%\n\n1 second after casting Rift:\nAn Arc Shockwave is cast that deals 300 [PVP: 100] damage and knocks back enemies in a 7.5 metres radius."
    }
   }
  },
@@ -5147,39 +5147,39 @@
   "itemHash": 3627185503,
   "itemName": "Ophidian Aspect",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881743,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667259324743,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
    "stats": {
-    "lastUpdate": 1658513881743,
-    "undatedBy": "Fading-Shadow"
+    "lastUpdate": 1667257190043,
+    "updatedBy": "Fading Shadow"
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881743,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667257709805,
+     "updatedBy": "Fading Shadow"
     }
    }
   },
   "stats": {
-   "reload": [
-    {
-     "passive": {
-      "stat": [
-       32
-      ]
-     }
-    }
-   ],
    "handling": [
     {
      "passive": {
       "stat": [
-       32
+       35
+      ]
+     }
+    }
+   ],
+   "reload": [
+    {
+     "passive": {
+      "stat": [
+       35
       ]
      }
     }
@@ -5187,8 +5187,8 @@
   },
   "editor": {
    "en": {
-    "main": "Passively grants 10 Airborne Effectiveness, 32 Reload and Handling to all weapons.\n\nIncreased Lunge Distance (4.5 meters -> 6.5 meters)",
-    "secondary": "Passively grants 10 Airborne Effectiveness, 32 Reload and Handling to all weapons.\r\n\r\nIncreased Lunge Distance (4.5 meters -> 6.5 meters)"
+    "main": "Passively grants +10 Airborne Effectiveness, +35 Reload and +35 Handling to all weapons, as well as increased Melee Lunge Distance to 6.5 metres.",
+    "secondary": "import self"
    }
   }
  },
@@ -5690,10 +5690,10 @@
   "itemHash": 1996008488,
   "itemName": "Stormdancer's Brace",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881743,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667259324743,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -5703,15 +5703,15 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881743,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667258157329,
+     "updatedBy": "Fading Shadow"
     }
    }
   },
   "editor": {
    "en": {
-    "main": "Kills during Stormtrance grant Stacks of Ascending Amplitude for 8 seconds.\n\nAscending Amplitude increases Stormtrance Damage by 10% per Stack, up to 100% at 10 Stacks.\n\nRefunds up to 50% of Super Energy based on Enemy Kills.\n",
-    "secondary": "Kills during Stormtrance grant Stacks of Ascending Amplitude for 8 seconds.\r\n\r\nAscending Amplitude increases Stormtrance Damage by 10% per Stack, up to 100% at 10 Stacks.\r\n\r\nRefunds up to 50% of Super Energy based on Enemy Kills.\r\n"
+    "main": "Kills during Stormtrance grant a stack of Ascending Amplitude for 8 seconds.\n\nAscending Amplitude increases Stormtrance Damage by 10% per stack, up to 100% at 10 Stacks.\n\nRefunds up to 50% of Super Energy based on Enemy Kills.",
+    "secondary": "import self"
    }
   }
  },
@@ -6072,10 +6072,10 @@
   "itemHash": 511888814,
   "itemName": "Secant Filaments",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881743,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667259324743,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -6085,15 +6085,15 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881743,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667257850880,
+     "updatedBy": "Fading Shadow"
     }
    }
   },
   "editor": {
    "en": {
-    "main": "If on Void Subclass:\r\nEmpowering Rift grants Devour.\r\n\r\nEmpowering Rift grants Overload Shot, allowing all weapons to disrupt on hit. (Weapons with Breaker Properties will not benefit from this.)\r\nDoes not work with Well of Radiance.",
-    "secondary": "If on Void Subclass:\r\nEmpowering Rift grants Devour.\r\n\r\nEmpowering Rift grants Overload Shot, allowing all weapons to disrupt on hit. (Weapons with Breaker Properties will not benefit from this.)\r\nDoes not work with Well of Radiance."
+    "main": "Empowering Rifts you create grant Overload Shot to you and allies inside it, granting weapons disruption on hit.\n\nWeapons that have a Breaker Type, either by mods or intrinsically will not be overwritten.\n\nDoes not work with Well of Radiance.\n\nIf on Void Subclass:\nCasting Empowering Rift grants Devour for 11 seconds.",
+    "secondary": "import self"
    }
   }
  },
@@ -6339,10 +6339,10 @@
   "itemHash": 3070555693,
   "itemName": "Sanguine Alchemy",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881743,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667259324743,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -6352,15 +6352,15 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881743,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667257816054,
+     "updatedBy": "Fading Shadow"
     }
    }
   },
   "editor": {
    "en": {
-    "main": "Weapon Kills while inside an Empowering or Healing Rift grant Blood Magic\r\nBlood Magic halts the duration of the Rift.\r\n\r\nBlood Magic Duration:\r\n5 seconds of per Kill. Caps at 15 seconds.",
-    "secondary": "Weapon Kills while inside an Empowering or Healing Rift grant Blood Magic\r\nBlood Magic halts the duration of the Rift.\r\n\r\nBlood Magic Duration:\r\n5 seconds of per Kill. Caps at 15 seconds."
+    "main": "Weapon Kills while inside an Empowering or Healing Rift grant Blood Magic.\nBlood Magic halts the duration of the Rift.\n\nBlood Magic Duration:\n5 seconds per kill, up to a maximum of 15 seconds.",
+    "secondary": "import self"
    }
   }
  },
@@ -8203,10 +8203,10 @@
   "itemHash": 193869522,
   "itemName": "Lucky Pants",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881743,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667259324743,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -8216,8 +8216,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1666624889638,
-     "updatedBy": "Icemourne"
+     "lastUpdate": 1667257777286,
+     "updatedBy": "Fading Shadow"
     },
     "ko": {
      "lastUpdate": 1665698551542,
@@ -9546,10 +9546,10 @@
   "itemHash": 2428181146,
   "itemName": "Verity's Brow",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881743,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667259324743,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -9559,15 +9559,15 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881743,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667258505083,
+     "updatedBy": "Fading Shadow"
     }
    }
   },
   "editor": {
    "en": {
-    "main": "Weapons Kills with a Matching Subclass Element grant Stacks of Death Throes\n\nEach Stack of Death Throes grants 50% Additional Base Grenade Regeneration Rate\nand 20% Increased Grenade Damage. \nMax of 5 Stacks. Lasts 11 seconds.\n\nOn Grenade Ability Use:\nAllies within 18(?) metres receive Feel The Flame.\nFeel the Flame grants 500% (verify) faster Grenade Recharge for (2 * Stacks) seconds.",
-    "secondary": "Weapons Kills with a Matching Subclass Element grant Stacks of Death Throes\r\n\r\nEach Stack of Death Throes grants 50% Additional Base Grenade Regeneration Rate\r\nand 20% Increased Grenade Damage. \r\nMax of 5 Stacks. Lasts 11 seconds.\r\n\r\nOn Grenade Ability Use:\r\nAllies within 18(?) metres receive Feel The Flame.\r\nFeel the Flame grants 500% (verify) faster Grenade Recharge for (2 * Stacks) seconds."
+    "main": "Weapons Kills with a Matching Subclass Element grant a stack of Death Throes for 11 seconds, up to 5 stacks. All stacks disappear upon buff expiration.\n\nDeath Throes grants 50% additional Base Grenade Regeneration Rate and 20% Increased Grenade Damage per stack.\n\nOn Grenade Ability Use:\nAllies within 18(?) metres receive Feel The Flame.\n\nFeel the Flame grants [1000?]% additional Base Grenade Recharge Rate.\nDuration is equal to the number of Death Throes stacks multiplied by 2 seconds.",
+    "secondary": "import self"
    }
   }
  },
@@ -10307,10 +10307,10 @@
   "itemHash": 4057299719,
   "itemName": "Phoenix Protocol",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881743,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667259324743,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -10320,15 +10320,15 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881743,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667257701617,
+     "updatedBy": "Fading Shadow"
     }
    }
   },
   "editor": {
    "en": {
-    "main": "Kills while inside a Well of Radiance return Super Energy, up to 50%.\r\n\r\n10% Super Energy per Kill.\r\nEach Kill grants 1.5% less from the previous. \r\nMinimum of 4% Super Energy.\r\n\r\n10% -> 8.5% -> 6% -> 4.5% -> 4% -> 4%...",
-    "secondary": "Kills while inside a Well of Radiance return Super Energy, up to 50%.\r\n\r\n10% Super Energy per Kill.\r\nEach Kill grants 1.5% less from the previous. \r\nMinimum of 4% Super Energy.\r\n\r\n10% -> 8.5% -> 6% -> 4.5% -> 4% -> 4%..."
+    "main": "While inside a Well of Radiance, under 50% Super Energy, and if your Super Ability is Well of Radiance: \nGrants 10% Super Energy per kill. \n\nAmount of Super Energy gained is reduced by 1.5% for each successive kill, down to a minimum of 4% Super Energy per kill.\n\n10% -> 8.5% -> 7% -> 5% -> 4.5% -> 4% -> 4%...",
+    "secondary": "import self"
    }
   }
  },
@@ -11515,8 +11515,8 @@
   "itemHash": 3301944824,
   "itemName": "Mantle of Battle Harmony",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881743,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667259324743,
   "inLiveDatabase": false,
   "uploadToLive": true,
   "optional": false,
@@ -11528,15 +11528,15 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1664119123491,
-     "undatedBy": "Fading Shadow"
+     "lastUpdate": 1667256614278,
+     "updatedBy": "Fading Shadow"
     }
    }
   },
   "editor": {
    "en": {
-    "main": "Weapon Kills with a Matching Subclass Element grant a buff, depending on whether Super is charged or not.\n\nIf Super is not Full:\nEnergy Siphon for 2 seconds. (Essentially a Cooldown)\nEnergy Siphon grants <pve 3(?)% /> <pvp [+1.45%] /> Super Energy.\n\nIf Super is Full:\nReceive <pve 6s /> <pvp [3.5s] /> (<pve +4s /> <pvp [2s] /> per additional kill) of Absorption Cells, granting 20% increased damage for Weapons Matching your Subclass Element.\nAbsorption Cells maxes out at a <pve 10 /> <pvp [6] /> second duration.\n\nAbsorption Cells disappears on Weapon Swap.",
-    "secondary": "Weapon Kills with a Matching Subclass Element grant a buff, depending on whether Super is charged or not.\r\n\r\nIf Super is not Full:\r\nEnergy Siphon for 2 seconds. (Essentially a Cooldown)\r\nEnergy Siphon grants 3(?)% [PVP: +1.45%] Super Energy.\r\n\r\nIf Super is Full:\r\nReceive 6s [PVP: 3.5s] (+4s [PVP: 2s] per additional kill) of Absorption Cells, granting 20% increased damage for Weapons Matching your Subclass Element.\r\nAbsorption Cells maxes out at a 10 [PVP: 6] second duration.\r\n\r\nAbsorption Cells disappears on Weapon Swap."
+    "main": "Weapon Kills with a Matching Subclass Element grant a buff, depending on whether your Super Ability is charged or not.\n\nIf Super is not Full:\nEnergy Siphon for 2 seconds. (Essentially a Cooldown)\nEnergy Siphon grants <pve 3% /> <pvp [+1.45%] /> Super Energy.\n\nIf Super is Full:\nGrants Absorption Cells, granting <pve 20% /> <pvp [15%] /> increased damage for Weapons Matching your Subclass Element for <pve 6 /> <pvp [3.5] /> seconds. Additional Kills increase duration by <pve 4 /> <pvp [2] /> seconds.\nAbsorption Cells maxes out at a <pve 10 /> <pvp [6] /> second duration.\n\nAbsorption Cells disappears on Weapon Swap.",
+    "secondary": "Weapon Kills with a Matching Subclass Element grant a buff, depending on whether your Super Ability is charged or not.\n\nIf Super is not Full:\nEnergy Siphon for 2 seconds. (Essentially a Cooldown)\nEnergy Siphon grants 3% [PVP: +1.45%] Super Energy.\n\nIf Super is Full:\nGrants Absorption Cells, granting 20% [PVP: 15%] increased damage for Weapons Matching your Subclass Element for 6 [PVP: 3.5] seconds.\nAdditional Kills increase duration by 4 [PVP: 2] seconds.\nAbsorption Cells maxes out at a 10 [PVP: 6] second duration.\n\nAbsorption Cells disappears on Weapon Swap."
    }
   }
  },
@@ -12016,10 +12016,10 @@
   "itemHash": 3844826443,
   "itemName": "Winter's Guile",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881743,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667259324743,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -12029,15 +12029,15 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881743,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667258676735,
+     "updatedBy": "Fading Shadow"
     }
    }
   },
   "editor": {
    "en": {
-    "main": "Grants Warlord's Sigil on Melee Kill\r\nWarlord's Sigil lasts 5 seconds and grants Bonus Melee Damage\r\n\r\nBonus Melee Damage:\r\n130% | 260% | 390% | 520% | 650%",
-    "secondary": "Grants Warlord's Sigil on Melee Kill\r\nWarlord's Sigil lasts 5 seconds and grants Bonus Melee Damage\r\n\r\nBonus Melee Damage:\r\n130% | 260% | 390% | 520% | 650%"
+    "main": "Grants Warlord's Sigil on Melee Kill\nWarlord's Sigil grants Increased Melee Damage for 5 seconds \n\nBonus Melee Damage:\n130% | 260% | 390% | 520% | 650%",
+    "secondary": "import self"
    }
   }
  },
@@ -12047,10 +12047,10 @@
   "itemHash": 3844826440,
   "itemName": "Karnstein Armlets",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881743,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667259324743,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -12060,8 +12060,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881743,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667256137148,
+     "updatedBy": "Fading Shadow"
     },
     "ko": {
      "lastUpdate": 1665697368531,
@@ -12071,8 +12071,8 @@
   },
   "editor": {
    "en": {
-    "main": "On Melee Kill:\r\nHeal for 50HP and constantly regenerate 30HP/s.\r\n\r\nLasts for 8 seconds. \r\nCan be Refreshed.",
-    "secondary": "On Melee Kill:\r\nHeal for 50HP and constantly regenerate 30HP/s.\r\n\r\nLasts for 8 seconds. \r\nCan be Refreshed."
+    "main": "On Melee Kill:\nHeals 50 HP, and constantly regenerates 30 HP per second for 8 seconds.\nCan be Refreshed.",
+    "secondary": "import self"
    },
    "ko": {
     "main": "근접 공격 처치 시:\n50HP의 체력을 회복하고 초당 30HP를 재생합니다.\n\n8초 동안 지속됩니다.\n연장이 가능합니다."
@@ -12085,10 +12085,10 @@
   "itemHash": 3787517196,
   "itemName": "Sunbracers",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881743,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667259324743,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -12098,15 +12098,15 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881743,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667258314590,
+     "updatedBy": "Fading Shadow"
     }
    }
   },
   "editor": {
    "en": {
-    "main": "Solar Grenades have Fastball intrinsically and last twice as long (4 -> 8 seconds).\r\n\r\nPowered Melee Kills grant 5 seconds of Sunbracers Ready.\r\n\r\nUsing your Grenade Ability while Sunbracers Ready is active grants the Sunbracers buff, granting unlimited Solar Grenades for 5 seconds.",
-    "secondary": "Solar Grenades have Fastball intrinsically and last twice as long (4 -> 8 seconds).\r\n\r\nPowered Melee Kills grant 5 seconds of Sunbracers Ready.\r\n\r\nUsing your Grenade Ability while Sunbracers Ready is active grants the Sunbracers buff, granting unlimited Solar Grenades for 5 seconds."
+    "main": "The Solar-Element Grenades named \"Solar Grenades\" have Fastball intrinsically and last twice as long (4 -> 8 seconds).\n\nPowered Melee Kills grant 5 seconds of Sunbracers Ready.\n\nUsing your Grenade Ability while Sunbracers Ready is active grants Sunbracers buff, granting unlimited Solar Grenades for 5 seconds.",
+    "secondary": "import self"
    }
   }
  },
@@ -12379,7 +12379,7 @@
   "itemName": "Getaway Artist",
   "type": "armorExotic",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667256050211,
+  "lastUpload": 1667259324743,
   "inLiveDatabase": false,
   "uploadToLive": true,
   "optional": false,
@@ -12391,7 +12391,7 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667255950508,
+     "lastUpdate": 1667256105034,
      "updatedBy": "Fading Shadow"
     },
     "ko": {
@@ -12403,7 +12403,7 @@
   "editor": {
    "en": {
     "main": "Holding [Grenade] summons a Sentient Arc Soul for 20 seconds and makes you Amplified.\n\nSentient Arc Soul grants 4.5% Grenade Energy once per burst if it damages an enemy.",
-    "secondary": "Charging and Consuming a Grenade summons a Sentient Arc Soul for 20 seconds.\r\n\r\nSentient Arc Souls target enemies up to 29 meters away, shooting an improved burst of 6 homing bolts that deal 11 Damage in PVP.\r\n\r\nIf the Sentient Arc Soul hits during a burst, gain 4.5% Grenade Energy.\r\n\r\nStanding in an Arc Soul Rift refreshes the duration of Sentient Arc Soul. Converts all the Arc Souls you receive to Sentient Arc Souls."
+    "secondary": "import self"
    },
    "ko": {
     "main": "전기 수류탄을 충전하고 먹으면 20초 동안 강력한 전기 영혼을 소환합니다.\n\n강력한 전기 영혼은 29미터 이내의 적을 자동으로 공격하며 <pvp 11 피해 />를 주는 볼트를 6연발로 발사합니다.\n\n전기 영혼이 적중하면 4.5%의 수류탄 에너지를 반환받습니다.\n\n전기 영혼 균열에 들어가면 지속 시간이 초기화되며 모든 전기 영혼이 강력한 버전으로 바뀝니다."
@@ -14633,10 +14633,10 @@
   "itemHash": 4136768282,
   "itemName": "Lunafaction Boots",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881743,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667259324743,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -14646,8 +14646,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881743,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667256225378,
+     "updatedBy": "Fading Shadow"
     },
     "ko": {
      "lastUpdate": 1665698800512,
@@ -14680,8 +14680,8 @@
   },
   "editor": {
    "en": {
-    "main": "While inside a Rift or Well of Radiance:\r\n+100 Reload with 0.9x <title RDS [rds] /> to all Guardians inside.\r\n\r\nWhile inside an <bold Empowering /> Rift or Well of Radiance:\r\n2x Falloff Distance Increase.\r\n\r\ntitle rds (\r\nReload Duration Scalar (Multiplies Reload Animation Duration by that number)\r\n)",
-    "secondary": "While inside a Rift or Well of Radiance:\r\n+100 Reload with 0.9x Duration Scale to all Guardians inside.\r\n\r\nWhile inside an Empowering Rift or Well of Radiance:\r\n2x Falloff Distance Increase."
+    "main": "While inside a Rift or Well of Radiance:\n+100 Reload with 0.9x <title RDS [rds] /> to all Guardians inside.\n\nWhile inside an <bold Empowering Rift /> or Well of Radiance:\n100% Increased Damage Falloff Distance.\n\ntitle rds (\nReload Duration Scalar (Multiplies Reload Animation Duration by that number)\n)",
+    "secondary": "While inside a Rift or Well of Radiance.\n+100 Reload with 0.9x Duration Multiplier to all Guardians inside.\n\nWhile inside an Empowering Rift or Well of Radiance.\n100% Increased Damage Falloff Distance."
    },
    "ko": {
     "main": "빛의 샘이나 균열안에 있을 떄:\n안에 있는 수호자의 재장전 속도를 100 만큼 증가시킵니다.\n\n빛의 샘이나 강화의 균열안에 있을 때:\n무기의 사거리가 2배로 증가합니다.\n"
@@ -14694,10 +14694,10 @@
   "itemHash": 138282166,
   "itemName": "Transversive Steps",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881743,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667259324743,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -14707,15 +14707,15 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881743,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667258368242,
+     "updatedBy": "Fading Shadow"
     }
    }
   },
   "editor": {
    "en": {
-    "main": "<title Refreshes [refreshes] /> held weapon after 1.5 seconds of sprinting.\n\nIncreases Sprint Speed by 6.25%\nIncreases Slide Distance by 33%\nSneak Speed set to 4m/s. Unaffected by slows of any kind.\n\ntitle refreshes (\nReload, but does not need animation and doesn't proc on-reload perks.\n)",
-    "secondary": "Refreshes held weapon after 1.5 seconds of sprinting.\r\n\r\nIncreases Sprint Speed by 6.25%\r\nIncreases Slide Distance by 33%\r\nSneak Speed set to 4m/s. Unaffected by slows of any kind.\r\n"
+    "main": "<title Refreshes [G_refresh] /> held weapon after sprinting for 1.5 seconds.\n\nIncreases Sprint Speed by 6.25%\nIncreases Slide Distance by 33%\nCrouch Speed is set to 4 metres per second and cannot be decreased through slows debuffs.",
+    "secondary": "Refreshes held weapon after sprinting for 1.5 seconds.\n\nIncreases Sprint Speed by 6.25%\nIncreases Slide Distance by 33%\nCrouch Speed is set to 4 metres per second and cannot be decreased through slows debuffs."
    }
   }
  },
@@ -16664,10 +16664,10 @@
   "itemHash": 2780717641,
   "itemName": "Necrotic Grip",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881743,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667259324743,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -16677,15 +16677,15 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881743,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667257470825,
+     "updatedBy": "Fading Shadow"
     }
    }
   },
   "editor": {
    "en": {
-    "main": "Passively grants 30 Airborne Effectiveness to Weapons of Sorrow.\n\nMelee Hit applies poison. \nPoison deals up to 680% the total damage of Melee Damage. <pvp [30 Damage] />\nBosses take an additional 80% damage.\n\nInitial Poison tick deals 18% of Melee damage, while the last tick deals 54%.\nEach successive Poison tick deals 9% more damage. Lasts 19 ticks.\n\nPoisoned enemies spread the poison on death on a 3 metres radius. This applies even if the source of the poison wasn't a melee attack.",
-    "secondary": "Passively grants 30 Airborne Effectiveness to Weapons of Sorrow.\r\n\r\nMelee Hit applies poison. \r\nPoison deals up to 680% the total damage of Melee Damage. [PVP: 30 Damage]\r\nBosses take an additional 80% damage.\r\n\r\nInitial Poison tick deals 18% of Melee damage, while the last tick deals 54%.\r\nEach successive Poison tick deals 9% more damage. Lasts 19 ticks.\r\n\r\nPoisoned enemies spread the poison on death on a 3 metres radius. This applies even if the source of the poison wasn't a melee attack."
+    "main": "Passively grants +30 Airborne Effectiveness to <title Weapons of Sorrow [WoS] />.\n\nMelee Hits apply Poison. \nPoison deals up to <pve [?] /> <pvp [30] /> damage over its duration.\nBosses take an additional 80% damage from Poison.\n\nEach successive Poison tick deals 9% more damage. Lasts 19 ticks.\n\nPoisoned enemies spread poison on death in a 3 metres radius. \nThis applies even if the source of the poison wasn't a melee attack.\n\ntitle WoS (\nThe currently available Weapons of Sorrow are Thorn, Osteo Striga, and Touch of Malice.\n\nKills with the following also spread poison:\n   • Thorn's Bullets <breakSpaces/>\n   • Osteo Striga's Poison Effect <breakSpaces/>\n   • Touch of Malice's Blight's Poison Effect <breakSpaces/>\n)",
+    "secondary": "Passively grants +30 Airborne Effectiveness to Weapons of Sorrow.\n\nMelee Hits apply Poison. \nPoison deals up to [?] [30] damage over its duration.\nBosses take an additional 80% damage from Poison.\n\nEach successive Poison tick deals 9% more damage. Lasts 19 ticks.\n\nPoisoned enemies spread poison on death in a 3 metres radius. \nThis applies even if the source of the poison wasn't a melee attack."
    }
   }
  },
@@ -17135,10 +17135,10 @@
   "itemHash": 1030017949,
   "itemName": "Skull of Dire Ahamkara",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881743,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667259324743,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -17148,15 +17148,15 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881743,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667257904522,
+     "updatedBy": "Fading Shadow"
     }
    }
   },
   "editor": {
    "en": {
-    "main": "Massively Increases Damage Resist during Nova Bomb\n(Over 99.5% on Wind-Up)\n\nNova Bomb returns Super Energy on Kills\n\nX% -> X% -> X% -> X% -> X% -> X%...\n\nCaps at 50% Super Energy.\n",
-    "secondary": "Massively Increases Damage Resist during Nova Bomb\r\n(Over 99.5% on Wind-Up)\r\n\r\nNova Bomb returns Super Energy on Kills\r\n\r\nX% -> X% -> X% -> X% -> X% -> X%...\r\n\r\nCaps at 50% Super Energy.\r\n"
+    "main": "Massively Increases Damage Resist during Nova Bomb.\nBegins at 99.5%, and sharply falls down to [?] near the end.\n\nNova Bomb returns Super Energy on Kills, up to 50% Super Energy.",
+    "secondary": "import self"
    }
   }
  },
