@@ -1,14 +1,14 @@
 {
  "0": {
   "hash": 0,
-  "name": "Default perk",
-  "type": "none",
-  "lastUpload": 1667255550130,
-  "uploadedBy": "Icemourne",
+  "name": "",
+  "type": "armorExotic",
+  "lastUpload": 1667256050211,
+  "uploadedBy": "Fading Shadow",
   "editor": {
    "en": {
-    "main": "Images you can use in descriptions\n<arc/> <void/> <solar/>\n<primary/> <special/> <heavy/>\n<warlock/> <hunter/> <titan/>\nText coloring\n<blue text /> <green text /> <purple text /> <yellow text />\n<pvp text /> <pve text />\n\nThe same can be done to lines of text <green/>\n\nYou probably noticed having multiple spaces in the editor\n              doesn't mean it will be the same in description\n              you can change that with <breakSpaces/>\n\n// This is comment content after // will not appear in the description\n\n// ----------------------------------------------------------\n// weapon type explanation\n// they work like if else in programming\n\n// if auto rifle\n< weapon type ( auto rifle ) >\n    Apply this text\n// else if glaive\n< weapon type ( glaive ) >\n    Apply this text\n// else\n< weapon type ( other ) >\n    Apply this text to all weapons not specified in this block\n<$$>\n// also, you can preview how it would look on x weapon by selecting the weapon in the weapon popup under the weapons name\n// ----------------------------------------------------------\nIf there is something you want just ask\nThis is not everything you can do btw\n\nTo see the full list press CTRL + SPACE\nAlso, CTRL + F is a thing and can be used to find and replace\nAlso also editor has other stuff to see them press F1",
-    "secondary": ""
+    "main": "Ionic Traces move faster and grant doubled Ability Energy.\nGrenade: 25% | Melee: 25% | Class Ability: 30%\n\nAllies within [?] metres receive 10% Grenade, Melee, and Class Ability Energy when you pick up an Ionic Trace.",
+    "secondary": "import self"
    }
   },
   "updateTracker": {
@@ -18,15 +18,17 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 0,
-     "updatedBy": ""
+     "lastUpdate": 1667255456622,
+     "updatedBy": "Fading Shadow"
     }
    }
   },
-  "uploadToLive": false,
+  "uploadToLive": true,
   "hidden": false,
-  "inLiveDatabase": true,
-  "optional": false
+  "inLiveDatabase": false,
+  "optional": false,
+  "itemName": "Fallen Sunstar",
+  "itemHash": 1849149215
  },
  "1": {
   "hash": 1,
@@ -113,10 +115,10 @@
   "itemHash": 1906093346,
   "itemName": "Contraverse Hold",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881742,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667256050211,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -126,8 +128,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881742,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667255182266,
+     "updatedBy": "Fading Shadow"
     },
     "ko": {
      "lastUpdate": 1665686324447,
@@ -137,8 +139,8 @@
   },
   "editor": {
    "en": {
-    "main": "While Charging a Grenade:\nChaotic Exchanger grants 20% Damage Resist.\n\nGrenade Hits grant Chaotic Exchange, granting <pve 2000% /> <pvp [1000%] /> Additional Grenade Regeneration Rate for 1.75 seconds.\n4 second cooldown.\n\nCharged Vortex Grenade can proc twice if enemies get hit by the initial explosion and the last few ticks.",
-    "secondary": "While Charging a Grenade:\r\nChaotic Exchanger grants 20% Damage Resist.\r\n\r\nGrenade Hits grant Chaotic Exchange, granting 2000% [PVP: 1000%] Additional Base Grenade Regeneration Rate for 1.75 seconds.\r\n4 second cooldown.\r\n\r\nCharged Vortex Grenade can proc twice if enemies get hit by the initial explosion and the last few ticks."
+    "main": "While Charging a Grenade:\nChaotic Exchanger grants 20% Damage Resist.\n\nGrenade Hits proc Chaotic Exchange, granting <pve 2000% /> <pvp [1000%] /> Additional Base Grenade Regeneration Rate for 1.75 seconds.\n4 second cooldown between Activations.\n\nCharged Vortex Grenade can proc twice if enemies get hit by the initial explosion and the last few ticks.",
+    "secondary": "While Charging a Grenade:\nChaotic Exchanger grants 20% Damage Resist.\n\nGrenade Hits proc Chaotic Exchange, granting 2000% [PVP: 1000%] Additional Base Grenade Regeneration Rate for 1.75 seconds.\n4 second cooldown between Activations.\n\nVortex Grenade can proc twice if enemies get hit by the initial explosion and the last ticks."
    },
    "ko": {
     "main": "수류탄을 충전하는 동안:\n혼돈 교환기는 20% 피해 저항을 제공합니다.\n\n수류탄 적중 시 혼돈의 교환을 제공하고 <pve 2000% /> <pvp [1000%] /> 만큼의 수류탄 피해를 증가시키며 수류탄 재생 속도를 1.75초 만큼 줄입니다.\n4초의 쿨다운이 있습니다.\n\n충전된 소용돌이 수류탄이 착탄과 동시에 피해를 입히거나 마지막 틱으로 피해를 주면 두번 발동 할 수 있습니다."
@@ -2152,35 +2154,6 @@
   "linkedWith": 2846385770,
   "uploadedBy": "Fading Shadow"
  },
- "515704826": {
-  "hash": 515704826,
-  "name": "Gun and Run",
-  "type": "weaponOriginTrait",
-  "lastUpload": 1667254763649,
-  "uploadedBy": "Fading Shadow",
-  "editor": {
-   "en": {
-    "main": "Upon killing [?] enemies within [?] seconds of each:\n[?]% Increased Sprinting Speed for 10 seconds.\n\nMaximum Sprint Speed is capped at 12.5% (achievable with a Lightweight Gun and a Sprint Speed Increase). Not refreshable.",
-    "secondary": "import self"
-   }
-  },
-  "updateTracker": {
-   "stats": {
-    "lastUpdate": 0,
-    "updatedBy": ""
-   },
-   "descriptions": {
-    "en": {
-     "lastUpdate": 1667254685055,
-     "updatedBy": "Fading Shadow"
-    }
-   }
-  },
-  "uploadToLive": true,
-  "hidden": false,
-  "inLiveDatabase": false,
-  "optional": false
- },
  "518387148": {
   "hash": 518387148,
   "name": "Sprint Grip",
@@ -2775,10 +2748,10 @@
   "itemHash": 2822465023,
   "itemName": "Felwinter's Helm",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881742,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667256050211,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -2788,8 +2761,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881742,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667255827382,
+     "updatedBy": "Fading Shadow"
     },
     "ko": {
      "lastUpdate": 1665695389426,
@@ -2799,8 +2772,8 @@
   },
   "editor": {
    "en": {
-    "main": "Melee Kills, as well as Finishers weaken and blind, rendering the enemy unable to shoot and receive 30% increased damage.\nDuration and Range are dependant on Enemy Rank. \n\nEnemy Ranks are Minor/Elite/Miniboss/Boss.\nFinishers add 5 seconds to Duration. Bosses are not finishable. Guardians count as Elites.\n\nWarlord's End.\nRange: 10/15/20/25 metres, centered on enemy.\nDuration: 5/10/15/20 seconds.\nFinisher Duration: 10/15/20 seconds.",
-    "secondary": "Melee Kills, as well as Finishers weaken and blind, rendering the enemy unable to shoot and receive 30% increased damage.\r\nDuration and Range are dependant on Enemy Rank. \r\n\r\nEnemy Ranks are Minor/Elite/Miniboss/Boss.\r\nFinishers add 5 seconds to Duration. Bosses are not finishable. Guardians count as Elites.\r\n\r\nWarlord's End.\r\nRange: 10/15/20/25 metres, centered on enemy.\r\nDuration: 5/10/15/20 seconds.\r\nFinisher Duration: 10/15/20 seconds."
+    "main": "Powered Melee Kills and Finishers apply weaken (increasing damage taken by 30%) and blind in a radius around the enemy.\nDuration and Range are dependent on Enemy Rank. \n\nBosses are not finishable. Guardians share the effects of Elites.\n\n< table background_2 >\n|b Enemy Rank        |b Minor |b Elite |b Miniboss |b Boss\n|b Range             | 10    | 15    | 20       | 25\n|b Duration          | 5     | 10    | 15       | 20\n|b Finisher Duration | 10    | 15    | 20       | -\n<$>",
+    "secondary": "Powered Melee Kills and Finishers apply weaken (increasing damage taken by 30%) and blind in a radius around the enemy.\nDuration and Range are dependent on Enemy Rank. \n\nBosses are not finishable. Guardians share the effects of Elites.\n\nEnemy Ranks are Minor/Elite/Miniboss/Boss.\nRange: 10/15/20/25 metres, centered on enemy.\nDuration: 5/10/15/20 seconds.\nFinisher Duration: 10/15/20/- seconds."
    },
    "ko": {
     "main": "근접 공격 처치와 필살기 처치가 적을 실명시키고 30%의 추가 피해를 받게하는 폭발을 일으킵니다.\n지속 시간과 폭발 반경은 적의 등급에 따라 결정됩니다.\n\n적 등급은 부하/리더/미니보스/보스입니다.\n필살기를 사용하면 지속 시간이 5초 추가됩니다. 수호자는 리더 취급입니다.\n\n전쟁군주의 최후\n폭발 범위: 폭심지로 부터 10/15/20/25 미터\n지속 시간: 5/10/15/20 초\n필살기를 사용했을 떄의 지속 시간: 10/15/20 초"
@@ -4317,10 +4290,10 @@
   "itemHash": 3045642045,
   "itemName": "Boots of the Assembler",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881742,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667256050211,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -4330,8 +4303,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881742,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667254988240,
+     "updatedBy": "Fading Shadow"
     },
     "ko": {
      "lastUpdate": 1665685317733,
@@ -4341,8 +4314,8 @@
   },
   "editor": {
    "en": {
-    "main": "Standing in a Rift creates Noble Seekers every 5 seconds that seeks out allies within 35 meters and apply a buff depending on the type of Rift.\n\nEach time a Noble Seeker applies a buff, the Rift gets extended by 5 seconds.\n\nHealing Rift Noble Seekers heal allies for 75HP and begins Health Regeneration.\nEmpowering Rift Noble Seekers grant a <pve 35% /> <pvp [20%] /> Damage Increase for 5 seconds.\n",
-    "secondary": "Passively grants 30 Airborne Effectiveness to Lumina.\r\n\r\nStanding in a Rift creates Noble Seekers every 5 seconds that seeks out allies within 35 metres and apply a buff depending on the type of Rift.\r\n\r\nEach time a Noble Seeker applies a buff, the Rift gets extended by 5 seconds.\r\n\r\nHealing Rift Noble Seekers heal allies for 75HP and begins Health Regeneration.\r\nEmpowering Rift Noble Seekers grant a 35% and [PVP: 15%] Damage Increase for 5 seconds."
+    "main": "Passively grants +30 Airborne Effectiveness to Lumina.\n\nStanding in a Rift creates Matching Noble Seekers every 5 seconds that seek out allies within 35 metres and apply a buff depending on the type of Rift you stand on. \nAmount of Noble Seekers spawned is equal to Fireteam Size-1, with a minimum of 1 Seeker.\n\nEach time a Noble Seeker applies a buff, the Rift Duration gets extended by 5 seconds.\n\nHealing Rift Seekers heal allies for 75 HP and begin Health Regeneration.\nEmpowering Rift Noble Seekers grant a <pve 35% /> <pvp [15%] /> Damage Increase for 5 seconds.\n",
+    "secondary": "Passively grants +30 Airborne Effectiveness to Lumina.\n\nStanding in a Rift creates Matching Noble Seekers every 5 seconds that seek out allies within 35 metres and apply a buff depending on the type of Rift you stand on. \nAmount of Noble Seekers spawned is equal to Fireteam Size-1, with a minimum of 1 Seeker.\n\nEach time a Noble Seeker applies a buff, the Rift Duration gets extended by 5 seconds.\n\nHealing Rift Seekers heal allies for 75HP and begin Health Regeneration.\nEmpowering Rift Seekers grant a 35% [15%] Damage Increase for 5 seconds."
    },
    "ko": {
     "main": "균열에 서있으면 5초 마다 고귀한 추적기를 생성합니다. 추적기는 35미터 이내에 있는 아군을 찾아가며 균열의 종류에 따라 버프를 부여합니다.\n\n고귀한 추적기가 버프를 부여 할 때 마다 균열의 지속시간이 5초 증가합니다.\n\n치유 균열 추적기는 아군의 체력을 75HP 만큼 회복하고 즉시 체력 재생을 발동합니다.\n강화 균열 추적기는 5초간 <pve 35% /> <pvp [20%]> 만큼의 피해 증가를 부여합니다."
@@ -6332,6 +6305,37 @@
     }
    ]
   }
+ },
+ "1376049785": {
+  "hash": 1376049785,
+  "name": "Ionic Conductor",
+  "type": "armorExotic",
+  "lastUpload": 1667256050211,
+  "uploadedBy": "Fading Shadow",
+  "editor": {
+   "en": {
+    "main": "Ionic traces you create move faster and grant you additional ability energy. Nearby allies also gain ability energy when you collect an ionic trace.",
+    "secondary": "Ionic traces you create move faster and grant you additional ability energy. Nearby allies also gain ability energy when you collect an ionic trace."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false,
+  "itemName": "Fallen Sunstar",
+  "itemHash": 1849149215
  },
  "1409206216": {
   "hash": 1409206216,
@@ -9369,10 +9373,10 @@
   "itemHash": 121305948,
   "itemName": "Geomag Stabilizers",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881743,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667256050211,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -9382,8 +9386,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881743,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667255854045,
+     "updatedBy": "Fading Shadow"
     },
     "ko": {
      "lastUpdate": 1665696000770,
@@ -9393,8 +9397,8 @@
   },
   "editor": {
    "en": {
-    "main": "Chaos Reach recovers 10% Super Ability Energy on hit. 0.75s Cooldown.\nCan increase Super Duration by up to 100%.\n",
-    "secondary": "Chaos Reach recovers 10% Super Ability Energy on hit. 0.75s Cooldown.\r\nCan increase Super Duration by up to 100%.\r\n"
+    "main": "Chaos Reach refunds 10% Super Ability Energy on hit. \n0.75 second cooldown per refund. Can increase Super Duration by up to 100%.",
+    "secondary": "import self"
    },
    "ko": {
     "main": "혼돈 범위를 적중시키면 궁극기 에너지의 10%를 반환받습니다. 0.75초의 쿨다운이 있습니다.\n궁극기의 지속 시간을 100% 까지 증가시킬 수 있습니다."
@@ -10298,10 +10302,10 @@
   "itemHash": 4057299718,
   "itemName": "Chromatic Fire",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881743,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667256050211,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -10311,8 +10315,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881743,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667255108393,
+     "updatedBy": "Fading Shadow"
     },
     "ko": {
      "lastUpdate": 1665685885774,
@@ -10322,8 +10326,8 @@
   },
   "editor": {
    "en": {
-    "main": "On Kinetic Damage Precision Kill:\nEnemy explodes in an elemental explosion of your currently selected Subclass.\nExplosion Radius and Falloff Distance scale with your Weapon's Range Stat.\n\n<pvp Deals ~200 Damage at epicenter. /> \n",
-    "secondary": "On Kinetic Damage Precision Kill:\r\nEnemy explodes in an elemental explosion of your currently selected Subclass.\r\nExplosion Radius and Falloff Distance scale with your Weapon's Range Stat.\r\n\r\nPVP: Deals ~200 Damage at epicenter."
+    "main": "On Kinetic Damage Precision Kill: \nEnemy explodes in an elemental explosion that matches your currently selected Subclass, dealing up to <pve 210 /> <pvp [200] /> damage.\n\nExplosion Radius and Falloff Distance slightly scale with your Weapon's Range Stat. ",
+    "secondary": "On Kinetic Damage Precision Kill: \nEnemy explodes in an elemental explosion that matches your currently selected Subclass, dealing up to 210 [PVP: 200] damage.\n\nExplosion Radius and Falloff Distance slightly scale with your Weapon's Range Stat."
    },
    "ko": {
     "main": "물리 피해 정밀타 처치 시:\n적이 현재 장착한 하위직업의 속성 폭발을 일으킵니다.\n폭발 반경과 피해 사거리는 무기의 사거리 수치에 기반합니다.\n\n<pvp 중심부에서 약 200의 피해를 일으킵니다. />"
@@ -11625,10 +11629,10 @@
   "itemHash": 3288917178,
   "itemName": "Claws of Ahamkara",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881743,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667256050211,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -11638,8 +11642,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881743,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667255127730,
+     "updatedBy": "Fading Shadow"
     },
     "ko": {
      "lastUpdate": 1665686063853,
@@ -11649,8 +11653,8 @@
   },
   "editor": {
    "en": {
-    "main": "Grants an extra Melee Charge.",
-    "secondary": "Grants an extra Melee Charge."
+    "main": "Grants an extra Melee Ability Charge.\nAbility Charges are capped at a maximum of 2.",
+    "secondary": "import self"
    },
    "ko": {
     "main": "추가 근접 공격 횟수를 제공합니다."
@@ -12338,10 +12342,10 @@
   "itemHash": 2316914168,
   "itemName": "Dawn Chorus",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881743,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667256050211,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -12351,8 +12355,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1666624785583,
-     "updatedBy": "Icemourne"
+     "lastUpdate": 1667255329204,
+     "updatedBy": "Fading Shadow"
     },
     "ko": {
      "lastUpdate": 1665694586611,
@@ -12362,8 +12366,8 @@
   },
   "editor": {
    "en": {
-    "main": "Daybreak Projectiles apply 60 Scorch on hit. This is increased to 90 Scorch with Ember of Ashes Equipped.\n\nScorch effects deal <pve 200% /> <pvp [50%] /> increased damage.\n\nRegain [?] Melee Ability Energy every time Scorch deals damage.",
-    "secondary": "Daybreak Projectiles apply 60 Scorch on hit. This is increased to 90 Scorch with Ember of Ashes Equipped.\r\n\r\nScorch effects deal 200% [PVP: 50%] increased damage.\r\n\r\nRegain [?] Melee Ability Energy every time Scorch deals damage."
+    "main": "Daybreak Projectiles apply 60 Scorch on hit.\nThis is increased to 90 Scorch with Ember of Ashes Equipped.\n\nScorch effects deal <pve 200% /> <pvp [50%] /> increased damage.\n\nGrants [?] Melee Ability Energy every time Scorch deals damage.",
+    "secondary": "Daybreak Projectiles apply 60 Scorch on hit.\nThis is increased to 90 Scorch with Ember of Ashes Equipped.\n\nScorch deals 200% [PVP: 50%] increased damage.\n\nGrants [?] Melee Ability Energy every time Scorch deals damage."
    },
    "ko": {
     "main": "여명 투사체 적중 시 적에게 소각 스택 60개를 부여합니다. 재의 불씨를 장착하면 스택이 90개로 증가합니다.\n\n소각 피해는 <pve 200%  /><pvp [50%] /> 만큼 증가합니다."
@@ -12407,10 +12411,10 @@
   "itemHash": 3084282676,
   "itemName": "Getaway Artist",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881743,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667256050211,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -12420,8 +12424,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881743,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667255950508,
+     "updatedBy": "Fading Shadow"
     },
     "ko": {
      "lastUpdate": 1665696169218,
@@ -12431,7 +12435,7 @@
   },
   "editor": {
    "en": {
-    "main": "Charging and Consuming a Grenade summons a Sentient Arc Soul for 20 seconds.\n\nSentient Arc Souls target enemies up to 29 meters away, shooting an improved burst of 6 homing bolts that deal <pvp 11 Damage />.\n\nIf the Sentient Arc Soul hits during a burst, gain 4.5% Grenade Energy.\n\nStanding in an Arc Soul Rift refreshes the duration of Sentient Arc Soul. Converts all the Arc Souls you receive to Sentient Arc Souls.",
+    "main": "Holding [Grenade] summons a Sentient Arc Soul for 20 seconds and makes you Amplified.\n\nSentient Arc Soul grants 4.5% Grenade Energy once per burst if it damages an enemy.",
     "secondary": "Charging and Consuming a Grenade summons a Sentient Arc Soul for 20 seconds.\r\n\r\nSentient Arc Souls target enemies up to 29 meters away, shooting an improved burst of 6 homing bolts that deal 11 Damage in PVP.\r\n\r\nIf the Sentient Arc Soul hits during a burst, gain 4.5% Grenade Energy.\r\n\r\nStanding in an Arc Soul Rift refreshes the duration of Sentient Arc Soul. Converts all the Arc Souls you receive to Sentient Arc Souls."
    },
    "ko": {
@@ -14295,21 +14299,21 @@
   "itemHash": 3948284065,
   "itemName": "Astrocyte Verse",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881743,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667256050211,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
    "stats": {
-    "lastUpdate": 1658513881743,
-    "undatedBy": "Fading-Shadow"
+    "lastUpdate": 1667254913217,
+    "updatedBy": "Fading Shadow"
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881743,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667254920204,
+     "updatedBy": "Fading Shadow"
     },
     "ko": {
      "lastUpdate": 1665683914907,
@@ -14319,12 +14323,23 @@
   },
   "editor": {
    "en": {
-    "main": "Passively grants 30 Airborne Effectiveness\n\n25% increased Blink distance.\nReduces Blink charge cooldown by ~16% on average.\n\nOn Blink:\n100 Ready Speed Handling, Radar remains active.\n\nBlink Cooldowns:\n2.5 seconds (3 seconds base)\nCooldown = 4.5 seconds (5 seconds base)",
-    "secondary": "Passively grants 30 Airborne Effectiveness\r\n\r\n25% increased Blink distance.\r\nReduces Blink charge cooldown by ~16% on average.\r\n\r\nOn Blink:\r\n100 Ready Speed Handling, Radar remains active.\r\n\r\nBlink Cooldowns:\r\n2.5 seconds (3 seconds base)\r\nCooldown = 4.5 seconds (5 seconds base)"
+    "main": "Passively grants +30 Airborne Effectiveness.\n\n25% increased Blink distance.\nDecreases Blink Cooldown by [?]%.\n\nOn Blink:\n+100 Handling (Ready Speed), and Radar remains active.",
+    "secondary": "import self"
    },
    "ko": {
     "main": "상시 공중 효율을 30만큼 증가시켜줍니다.\n\n점멸 거리를 25% 증가시킵니다.\n점멸 쿨다운을 약 16% 정도 증가시킵니다.\n\n점멸 시:\n무기 준비 속도 100 증가와 점멸 이후 레이더가 사라지지 않습니다.\n\n점멸 쿨다운:\n2.5초 (기본 3초)\n쿨다운 = 4.5초 (기본 5초)"
    }
+  },
+  "stats": {
+   "ready": [
+    {
+     "active": {
+      "stat": [
+       100
+      ]
+     }
+    }
+   ]
   }
  },
  "3300816228": {
@@ -17084,10 +17099,10 @@
   "itemHash": 3381022970,
   "itemName": "Eye of Another World",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881743,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667256050211,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -17097,8 +17112,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881743,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667255415818,
+     "updatedBy": "Fading Shadow"
     },
     "ko": {
      "lastUpdate": 1665695133213,
@@ -17108,8 +17123,8 @@
   },
   "editor": {
    "en": {
-    "main": "Passively grants 15 Airborne Effectiveness.\n\nHighlights enemies below 50% HP enemies in a red outline, and Enemy Guardians with Fully-charged Supers in a yellow outline.\nInvisible enemies that fulfill those conditions will also be highlight.\n\n50% Additional Base Grenade/Melee/Class Regeneration Rate.",
-    "secondary": "Passively grants 15 Airborne Effectiveness.\r\n\r\nHighlights enemies below 50% HP enemies in a red outline, and Enemy Guardians with Fully-charged Supers in a yellow outline.\r\nInvisible enemies that fulfill those conditions will also be highlight.\r\n\r\n50% Additional Base Grenade/Melee/Class Regeneration Rate."
+    "main": "Passively grants +15 Airborne Effectiveness.\n\nHighlights enemies below 50% HP enemies in a red outline, and Enemy Guardians with Fully-charged Supers in a yellow outline.\nInvisible enemies that fulfill those conditions will also be highlighted.\n\n50% Additional Base Grenade/Melee/Class Regeneration Rate.",
+    "secondary": "import self"
    },
    "ko": {
     "main": "상시로 공중 효율을 15만큼 증가시킵니다.\n\n체력이 50% 이하인 적들을 붉게 지정시켜주며 궁극기가 준비된 수호자는 노란색으로 지정시켜줍니다.\n만약에 적이 은신 상태여도 위의 조건을 만족하면 지정됩니다.\n\n기본 수류탄, 근접 능력, 직업 능력 재생 속도가 50% 증가합니다."
@@ -17184,10 +17199,10 @@
   "itemHash": 3381022969,
   "itemName": "Crown of Tempests",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881743,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667256050211,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -17197,8 +17212,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881743,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667255250898,
+     "updatedBy": "Fading Shadow"
     },
     "ko": {
      "lastUpdate": 1665694418814,
@@ -17208,8 +17223,8 @@
   },
   "editor": {
    "en": {
-    "main": "Arc Ability Kills grant Conduction Tines for <pve 7 /> <pvp [4] /> seconds.\n\n<blue At x1 Conduction Tines />\n175% Additional Base Grenade, Melee, and Super Regeneration Rate | [22?]% Slower Super Drain.\n\n<blue At x2 Conduction Tines />\n350% Additional Base Grenade, Melee, and Super Regeneration Rate | [44?]% Slower Super Drain.\n\n<blue At x3 Conduction Tines />\n525% Additional Base Grenade, Melee, and Super Regeneration Rate | 66% Slower Super Drain.\n\nSuper Drain affects every Roaming Super BUT Chaos Reach.",
-    "secondary": "Arc Ability Kills grant Conduction Tines for 7 [PVP: 4] seconds.\r\n\r\nAt x1 Conduction Tines\r\n175% Additional Base Grenade, Melee, and Super Regeneration Rate | [22?]% Slower Super Drain.\r\n\r\nAt x2 Conduction Tines\r\n350% Additional Base Grenade, Melee, and Super Regeneration Rate | [44?]% Slower Super Drain.\r\n\r\nAt x3 Conduction Tines\r\n525% Additional Base Grenade, Melee, and Super Regeneration Rate | 66% Slower Super Drain.\r\n\r\nSuper Drain affects every Roaming Super BUT Chaos Reach."
+    "main": "Arc Ability and Jolt Kills grant Conduction Tines for <pve 7 /> <pvp [4] /> seconds.\n\n<blue At x1 Conduction Tines />\n175% Additional Base Grenade, Melee, and Super Regeneration Rate | 22% Slower Super Drain.\n\n<blue At x2 Conduction Tines />\n350% Additional Base Grenade, Melee, and Super Regeneration Rate | 44% Slower Super Drain.\n\n<blue At x3 Conduction Tines />\n525% Additional Base Grenade, Melee, and Super Regeneration Rate | 66% Slower Super Drain.\n\nSuper Drain affects every Roaming Super BUT Chaos Reach.",
+    "secondary": "Arc Ability and Jolt Kills grant Conduction Tines for 7 [PVP: 4] seconds.\n\nAt x1 Conduction Tines\n175% Additional Base Grenade, Melee, and Super Regeneration Rate | 22% Slower Super Drain.\n\nAt x2 Conduction Tines\n350% Additional Base Grenade, Melee, and Super Regeneration Rate | 44% Slower Super Drain.\n\nAt x3 Conduction Tines\n525% Additional Base Grenade, Melee, and Super Regeneration Rate | 66% Slower Super Drain.\n\nSuper Drain affects every Roaming Super BUT Chaos Reach."
    },
    "ko": {
     "main": "전기 능력 처치를 하면 <pve 7 /> <pvp [4] />초 동안 전기 갈래가 활성화됩니다. \n\n<blue 전기 갈래 x1 일때 />\n기본 수류탄, 근접 능력, 그리고 궁극기 재생 속도가 175% 증가합니다. | 궁극기 소모 속도 약 [22%] 하락\n\n<blue 전기 갈래 x2 일때 />\n기본 수류탄, 근접 능력, 그리고 궁극기 재생 속도가 350% 증가합니다. | 궁극기 소모 속도 약 [44%] 하락\n\n<blue 전기 갈래 x3 일때 />\n기본 수류탄, 근접 능력, 그리고 궁극기 재생 속도가 525% 증가합니다. | 궁극기 소모 속도 약 [66%] 하락\n\n궁극기 소모 속도 하락은 혼돈 범위를 제외한 모든 변신형 궁극기에 적용됩니다."
@@ -18235,8 +18250,8 @@
   "itemHash": 1096253259,
   "itemName": "Apotheosis Veil",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881743,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667256050211,
   "inLiveDatabase": false,
   "uploadToLive": false,
   "optional": false,
@@ -18248,8 +18263,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881743,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667254853573,
+     "updatedBy": "Fading Shadow"
     },
     "ko": {
      "lastUpdate": 1665683472825,
@@ -18259,8 +18274,8 @@
   },
   "editor": {
    "en": {
-    "main": "On Super Ability Activation:\nFully restores Health, Grenade, Melee, and Class Ability Energy.\n\nAllies within 18(?) metres receive [?]% Additional Base Ability Class Regeneration Rate.",
-    "secondary": "On Super Ability Activation:\r\nFully restores Health, Grenade, Melee, and Class Ability Energy.\r\n\r\nAllies within 18(?) metres receive [?]% Additional Base Ability Class Regeneration Rate."
+    "main": "Allies within 24 metres receive 25% Additional Base Class Ability Regeneration Rate.\n\nOn Super Ability Activation:\nFully restores Health, Grenade, Melee, and Class Ability Energy.",
+    "secondary": "import self"
    },
    "ko": {
     "main": "궁극기 발동 시:\n체력, 수류탄, 근접 공격, 그리고 직업 능력을 완전히 채웁니다.\n\n약 18미터 이내에 있는 아군들은 알 수 없는 만큼의 직업 능력 재생 속도를 추가로 받습니다."
