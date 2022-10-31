@@ -3,7 +3,7 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1667254357203,
+  "lastUpload": 1667254686824,
   "uploadedBy": "Fading Shadow",
   "editor": {
    "en": {
@@ -25,7 +25,7 @@
   },
   "uploadToLive": false,
   "hidden": false,
-  "inLiveDatabase": true,
+  "inLiveDatabase": false,
   "optional": false
  },
  "1": {
@@ -2151,6 +2151,35 @@
   ],
   "linkedWith": 2846385770,
   "uploadedBy": "Fading Shadow"
+ },
+ "515704826": {
+  "hash": 515704826,
+  "name": "Gun and Run",
+  "type": "weaponOriginTrait",
+  "lastUpload": 1667254686824,
+  "uploadedBy": "Fading Shadow",
+  "editor": {
+   "en": {
+    "main": "Upon killing [?] enemies within [?] seconds of each:\n[?]% Increased Sprinting Speed for 10 seconds.\n\nMaximum Sprint Speed is capped at 12.5% (achievable with a Lightweight Gun and a Sprint Speed Increase). Not refreshable.",
+    "secondary": "import self"
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 1667254685055,
+     "updatedBy": "Fading Shadow"
+    }
+   }
+  },
+  "uploadToLive": true,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
  },
  "518387148": {
   "hash": 518387148,
