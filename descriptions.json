@@ -3,7 +3,7 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1667318229500,
+  "lastUpload": 1667331435389,
   "uploadedBy": "Icemourne",
   "editor": {
    "en": {
@@ -25,7 +25,7 @@
   },
   "uploadToLive": false,
   "hidden": false,
-  "inLiveDatabase": true,
+  "inLiveDatabase": false,
   "optional": false
  },
  "1": {
@@ -672,6 +672,151 @@
   "linkedWith": 3865257976,
   "uploadedBy": "Fading Shadow"
  },
+ "179977568": {
+  "hash": 179977568,
+  "name": "Grasp of the Warmind",
+  "type": "armorModCombat",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "179977572": {
+  "hash": 179977572,
+  "name": "Global Reach",
+  "type": "armorModCombat",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "179977573": {
+  "hash": 179977573,
+  "name": "Blessing of Rasputin",
+  "type": "armorModCombat",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "179977574": {
+  "hash": 179977574,
+  "name": "Light of the Fire",
+  "type": "armorModCombat",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "179977575": {
+  "hash": 179977575,
+  "name": "Warmind's Light",
+  "type": "armorModCombat",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
  "183938251": {
   "hash": 183938251,
   "name": "Under-Over",
@@ -977,6 +1122,35 @@
     "secondary": "Gain Invisibility on Powered Melee Kill. (Longer on Finishers)\r\nHeals for X on Powered Melee Kill. (Stronger on Finishers)\r\n\r\nInvisibility Duration:\r\nMinor = 6 seconds (10)\r\nElite = 9 seconds (13)\r\nMiniboss = 12.5 seconds (13)\r\nBoss = 13 seconds (13)\r\n\r\nBosses and Vehicles are not finishable. Generally."
    }
   }
+ },
+ "240958661": {
+  "hash": 240958661,
+  "name": "Reaping Wellmaker",
+  "type": "armorModCombat",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
  },
  "242794439": {
   "hash": 242794439,
@@ -3925,6 +4099,35 @@
    }
   }
  },
+ "825650462": {
+  "hash": 825650462,
+  "name": "Explosive Wellmaker",
+  "type": "armorModCombat",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
  "828056542": {
   "hash": 828056542,
   "name": "Backup Plan",
@@ -4975,6 +5178,35 @@
    }
   ]
  },
+ "1052528480": {
+  "hash": 1052528480,
+  "name": "Shieldcrash Wellmaker",
+  "type": "armorModCombat",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
  "1077019636": {
   "hash": 1077019636,
   "name": "Danger Zone",
@@ -5684,6 +5916,35 @@
   },
   "linkedWith": 838873202
  },
+ "1196831979": {
+  "hash": 1196831979,
+  "name": "Font of Wisdom",
+  "type": "armorModCombat",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
  "1211775759": {
   "hash": 1211775759,
   "name": "Ascending Amplitude",
@@ -6156,6 +6417,64 @@
    }
   },
   "linkedWith": 848860060
+ },
+ "1358633824": {
+  "hash": 1358633824,
+  "name": "Well of Utility",
+  "type": "armorModCombat",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "1358633825": {
+  "hash": 1358633825,
+  "name": "Enduring Wells",
+  "type": "armorModCombat",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
  },
  "1359896290": {
   "hash": 1359896290,
@@ -6762,6 +7081,122 @@
    }
   ]
  },
+ "1484685884": {
+  "hash": 1484685884,
+  "name": "Quick Charge",
+  "type": "armorModCombat",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "1484685885": {
+  "hash": 1484685885,
+  "name": "Striking Light",
+  "type": "armorModCombat",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "1484685886": {
+  "hash": 1484685886,
+  "name": "Heavy Handed",
+  "type": "armorModCombat",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "1484685887": {
+  "hash": 1484685887,
+  "name": "Powerful Friends",
+  "type": "armorModCombat",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
  "1489035549": {
   "hash": 1489035549,
   "name": "Celerity",
@@ -6917,6 +7352,35 @@
     "secondary": "增加 10% 对傀儡的伤害。"
    }
   }
+ },
+ "1515669996": {
+  "hash": 1515669996,
+  "name": "Elemental Armaments",
+  "type": "armorModCombat",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
  },
  "1523649716": {
   "hash": 1523649716,
@@ -8047,6 +8511,35 @@
    }
   }
  },
+ "1680735357": {
+  "hash": 1680735357,
+  "name": "Well of Ions",
+  "type": "armorModCombat",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
  "1683379515": {
   "hash": 1683379515,
   "name": "Disruption Break",
@@ -8527,6 +9020,35 @@
   "optional": false,
   "uploadedBy": "Fading Shadow"
  },
+ "1740246051": {
+  "hash": 1740246051,
+  "name": "Font of Might",
+  "type": "armorModCombat",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
  "1748774930": {
   "hash": 1748774930,
   "name": "Zen Moment",
@@ -8713,6 +9235,122 @@
   },
   "linkedWith": 777774560
  },
+ "1789319804": {
+  "hash": 1789319804,
+  "name": "Sheltering Energy",
+  "type": "armorModCombat",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "1789319805": {
+  "hash": 1789319805,
+  "name": "Chosen of the Warmind",
+  "type": "armorModCombat",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "1789319806": {
+  "hash": 1789319806,
+  "name": "Modular Lightning",
+  "type": "armorModCombat",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "1789319807": {
+  "hash": 1789319807,
+  "name": "Strength of Rasputin",
+  "type": "armorModCombat",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
  "1799762209": {
   "hash": 1799762209,
   "name": "Cornered",
@@ -8841,6 +9479,35 @@
   },
   "linkedWith": 1942880504,
   "uploadedBy": "Fading Shadow"
+ },
+ "1824486242": {
+  "hash": 1824486242,
+  "name": "Elemental Ordnance",
+  "type": "armorModCombat",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
  },
  "1828251441": {
   "hash": 1828251441,
@@ -9571,6 +10238,122 @@
    }
   }
  },
+ "1977242752": {
+  "hash": 1977242752,
+  "name": "Elemental Shards",
+  "type": "armorModCombat",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "1977242753": {
+  "hash": 1977242753,
+  "name": "Supreme Wellmaker",
+  "type": "armorModCombat",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "1977242754": {
+  "hash": 1977242754,
+  "name": "Elemental Time Dilation",
+  "type": "armorModCombat",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "1977242755": {
+  "hash": 1977242755,
+  "name": "Well of Restoration",
+  "type": "armorModCombat",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
  "2000295559": {
   "hash": 2000295559,
   "name": "Turnabout",
@@ -10034,6 +10817,35 @@
   "uploadedBy": "Fading Shadow",
   "importStatsFrom": 744594675
  },
+ "2164090163": {
+  "hash": 2164090163,
+  "name": "Well of Life",
+  "type": "armorModCombat",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
  "2171055345": {
   "hash": 2171055345,
   "name": "Psychohack",
@@ -10400,6 +11212,151 @@
   },
   "linkedWith": 2002547233
  },
+ "2216063960": {
+  "hash": 2216063960,
+  "name": "Rage of the Warmind",
+  "type": "armorModCombat",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2216063961": {
+  "hash": 2216063961,
+  "name": "Fireteam Medic",
+  "type": "armorModCombat",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2216063962": {
+  "hash": 2216063962,
+  "name": "Wrath of Rasputin",
+  "type": "armorModCombat",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2216063963": {
+  "hash": 2216063963,
+  "name": "Burning Cells",
+  "type": "armorModCombat",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2216063967": {
+  "hash": 2216063967,
+  "name": "Incinerating Light",
+  "type": "armorModCombat",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
  "2216471363": {
   "hash": 2216471363,
   "name": "Disruption Break",
@@ -10524,6 +11481,122 @@
    }
   },
   "uploadToLive": true,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2263321584": {
+  "hash": 2263321584,
+  "name": "Precision Charge",
+  "type": "armorModCombat",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2263321585": {
+  "hash": 2263321585,
+  "name": "Surprise Attack",
+  "type": "armorModCombat",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2263321586": {
+  "hash": 2263321586,
+  "name": "Energy Converter",
+  "type": "armorModCombat",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2263321587": {
+  "hash": 2263321587,
+  "name": "Charge Harvester",
+  "type": "armorModCombat",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
   "hidden": false,
   "inLiveDatabase": false,
   "optional": false
@@ -11433,6 +12506,151 @@
    }
   },
   "linkedWith": 4183521337
+ },
+ "2597888506": {
+  "hash": 2597888506,
+  "name": "Light from Darkness",
+  "type": "armorModCombat",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2597888508": {
+  "hash": 2597888508,
+  "name": "Warmind's Protection",
+  "type": "armorModCombat",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2597888509": {
+  "hash": 2597888509,
+  "name": "Warmind's Longevity",
+  "type": "armorModCombat",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2597888510": {
+  "hash": 2597888510,
+  "name": "Cellular Suppression",
+  "type": "armorModCombat",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2597888511": {
+  "hash": 2597888511,
+  "name": "Power of Rasputin",
+  "type": "armorModCombat",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
  },
  "2603856295": {
   "hash": 2603856295,
@@ -12410,6 +13628,35 @@
    }
   }
  },
+ "2823326549": {
+  "hash": 2823326549,
+  "name": "Elemental Light",
+  "type": "armorModCombat",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
  "2829974286": {
   "hash": 2829974286,
   "name": "Hand Cannon Targeting",
@@ -13203,6 +14450,122 @@
    }
   }
  },
+ "2979815164": {
+  "hash": 2979815164,
+  "name": "Swift Charge",
+  "type": "armorModCombat",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2979815165": {
+  "hash": 2979815165,
+  "name": "Lucent Blade",
+  "type": "armorModCombat",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2979815166": {
+  "hash": 2979815166,
+  "name": "Reactive Pulse",
+  "type": "armorModCombat",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2979815167": {
+  "hash": 2979815167,
+  "name": "Radiant Light",
+  "type": "armorModCombat",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
  "2988596335": {
   "hash": 2988596335,
   "name": "Alacrity",
@@ -13615,6 +14978,35 @@
   },
   "linkedWith": 1658784563
  },
+ "3097132144": {
+  "hash": 3097132144,
+  "name": "Overcharge Wellmaker",
+  "type": "armorModCombat",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
  "3097973565": {
   "hash": 3097973565,
   "name": "Iron Grip",
@@ -13870,6 +15262,122 @@
    }
   },
   "linkedWith": 191144788
+ },
+ "3185435908": {
+  "hash": 3185435908,
+  "name": "Firepower",
+  "type": "armorModCombat",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "3185435909": {
+  "hash": 3185435909,
+  "name": "Heal Thyself",
+  "type": "armorModCombat",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "3185435910": {
+  "hash": 3185435910,
+  "name": "Charged Up",
+  "type": "armorModCombat",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "3185435911": {
+  "hash": 3185435911,
+  "name": "Blast Radius",
+  "type": "armorModCombat",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
  },
  "3194351027": {
   "hash": 3194351027,
@@ -15323,6 +16831,122 @@
   "linkedWith": 162561147,
   "uploadedBy": "Fading Shadow"
  },
+ "3523075120": {
+  "hash": 3523075120,
+  "name": "Protective Light",
+  "type": "armorModCombat",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "3523075121": {
+  "hash": 3523075121,
+  "name": "Extra Reserves",
+  "type": "armorModCombat",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "3523075122": {
+  "hash": 3523075122,
+  "name": "Precisely Charged",
+  "type": "armorModCombat",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "3523075123": {
+  "hash": 3523075123,
+  "name": "Stacks on Stacks",
+  "type": "armorModCombat",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
  "3523296417": {
   "hash": 3523296417,
   "name": "Demolitionist",
@@ -15598,6 +17222,122 @@
   ],
   "linkedWith": 4152709778,
   "uploadedBy": "Fading Shadow"
+ },
+ "3632726236": {
+  "hash": 3632726236,
+  "name": "Empowered Finish",
+  "type": "armorModCombat",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "3632726237": {
+  "hash": 3632726237,
+  "name": "High-Energy Fire",
+  "type": "armorModCombat",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "3632726238": {
+  "hash": 3632726238,
+  "name": "Taking Charge",
+  "type": "armorModCombat",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "3632726239": {
+  "hash": 3632726239,
+  "name": "Shield Break Charge",
+  "type": "armorModCombat",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
  },
  "3643424744": {
   "hash": 3643424744,
@@ -16337,6 +18077,35 @@
    }
   }
  },
+ "3730619869": {
+  "hash": 3730619869,
+  "name": "Elemental Charge",
+  "type": "armorModCombat",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
  "3744057135": {
   "hash": 3744057135,
   "name": "Bait and Switch",
@@ -16615,6 +18384,35 @@
    }
   },
   "linkedWith": 3674673997
+ },
+ "3809244044": {
+  "hash": 3809244044,
+  "name": "Well of Tenacity",
+  "type": "armorModCombat",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
  },
  "3824105627": {
   "hash": 3824105627,
@@ -17563,6 +19361,64 @@
    }
   }
  },
+ "4044800076": {
+  "hash": 4044800076,
+  "name": "Well of Striking",
+  "type": "armorModCombat",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "4044800077": {
+  "hash": 4044800077,
+  "name": "Seeking Wells",
+  "type": "armorModCombat",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
  "4045335048": {
   "hash": 4045335048,
   "name": "Headseeker",
@@ -18367,6 +20223,35 @@
   "uploadedBy": "Fading Shadow",
   "importStatsFrom": 2450788523
  },
+ "4213142382": {
+  "hash": 4213142382,
+  "name": "Melee Wellmaker",
+  "type": "armorModCombat",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
  "4222205045": {
   "hash": 4222205045,
   "name": "Soaring Fusilier",
@@ -18569,6 +20454,122 @@
   },
   "importStatsFrom": 2117683199
  },
+ "4272180932": {
+  "hash": 4272180932,
+  "name": "Argent Ordnance",
+  "type": "armorModCombat",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "4272180933": {
+  "hash": 4272180933,
+  "name": "Sustained Charge",
+  "type": "armorModCombat",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "4272180934": {
+  "hash": 4272180934,
+  "name": "Supercharged",
+  "type": "armorModCombat",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "4272180935": {
+  "hash": 4272180935,
+  "name": "Kindling the Flame",
+  "type": "armorModCombat",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
  "4278960718": {
   "hash": 4278960718,
   "name": "Adept Handling",
@@ -18604,6 +20605,64 @@
     "isConditionallyActive": false
    }
   ]
+ },
+ "4288515060": {
+  "hash": 4288515060,
+  "name": "Bountiful Wells",
+  "type": "armorModCombat",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "4288515061": {
+  "hash": 4288515061,
+  "name": "Well of Ordnance",
+  "type": "armorModCombat",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
  },
  "4290541820": {
   "hash": 4290541820,
