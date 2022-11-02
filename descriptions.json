@@ -3,7 +3,7 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1667331435389,
+  "lastUpload": 1667395543715,
   "uploadedBy": "Icemourne",
   "editor": {
    "en": {
@@ -103,6 +103,93 @@
    }
   },
   "uploadToLive": true,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "1399216": {
+  "hash": 1399216,
+  "name": "Duskfield Grenade",
+  "type": "grenade",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "A grenade that shatters on impact, leaving behind a field that slows targets and freezes those who do not leave the volume.",
+    "secondary": "A grenade that shatters on impact, leaving behind a field that slows targets and freezes those who do not leave the volume."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "1399217": {
+  "hash": 1399217,
+  "name": "Glacier Grenade",
+  "type": "grenade",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "A grenade that creates walls out of [Stasis] Stasis crystals to block damage and freeze targets; these walls can be shattered for damage.",
+    "secondary": "A grenade that creates walls out of [Stasis] Stasis crystals to block damage and freeze targets; these walls can be shattered for damage."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "1399219": {
+  "hash": 1399219,
+  "name": "Coldsnap Grenade",
+  "type": "grenade",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "A grenade that freezes on impact and sends another seeker to find and freeze targets.",
+    "secondary": "A grenade that freezes on impact and sends another seeker to find and freeze targets."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
   "hidden": false,
   "inLiveDatabase": false,
   "optional": false
@@ -249,6 +336,93 @@
   },
   "linkedWith": 2422968039
  },
+ "20616656": {
+  "hash": 20616656,
+  "name": "Triple Jump",
+  "type": "movement",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "While airborne, sustain your air control with a second or third jump.",
+    "secondary": "While airborne, sustain your air control with a second or third jump."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "20616658": {
+  "hash": 20616658,
+  "name": "High Jump",
+  "type": "movement",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "While airborne, jump a second time to reach greater heights.",
+    "secondary": "While airborne, jump a second time to reach greater heights."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "20616659": {
+  "hash": 20616659,
+  "name": "Strafe Jump",
+  "type": "movement",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "While airborne, jump a second time with strong directional control.",
+    "secondary": "While airborne, jump a second time with strong directional control."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
  "23371658": {
   "hash": 23371658,
   "name": "Box Breathing",
@@ -278,6 +452,64 @@
   "linkedWith": 2551157718,
   "importStatsFrom": 2551157718,
   "uploadedBy": "Fading Shadow"
+ },
+ "25156514": {
+  "hash": 25156514,
+  "name": "Empowering Rift",
+  "type": "class",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Conjure a well of power that increases weapon damage for those inside it.",
+    "secondary": "Conjure a well of power that increases weapon damage for those inside it."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "25156515": {
+  "hash": 25156515,
+  "name": "Healing Rift",
+  "type": "class",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Conjure a well of power that continuously heals those inside it.",
+    "secondary": "Conjure a well of power that continuously heals those inside it."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
  },
  "25606670": {
   "hash": 25606670,
@@ -456,6 +688,209 @@
   "inLiveDatabase": false,
   "optional": false
  },
+ "83039193": {
+  "hash": 83039193,
+  "name": "Touch of Flame",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "83039194": {
+  "hash": 83039194,
+  "name": "Heat Rises",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "83039195": {
+  "hash": 83039195,
+  "name": "Icarus Dash",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "95544328": {
+  "hash": 95544328,
+  "name": "Triple Jump",
+  "type": "movement",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "While airborne, sustain your air control with a second or third jump.",
+    "secondary": "While airborne, sustain your air control with a second or third jump."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "95544329": {
+  "hash": 95544329,
+  "name": "Blink",
+  "type": "movement",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Jump while airborne to teleport a short distance.",
+    "secondary": "Jump while airborne to teleport a short distance."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "95544330": {
+  "hash": 95544330,
+  "name": "High Jump",
+  "type": "movement",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "While airborne, jump a second time to reach greater heights.",
+    "secondary": "While airborne, jump a second time to reach greater heights."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "95544331": {
+  "hash": 95544331,
+  "name": "Strafe Jump",
+  "type": "movement",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "While airborne, jump a second time with strong directional control.",
+    "secondary": "While airborne, jump a second time with strong directional control."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
  "117669763": {
   "hash": 117669763,
   "name": "The Dance",
@@ -523,6 +958,64 @@
    }
   ]
  },
+ "119041298": {
+  "hash": 119041298,
+  "name": "Thundercrash",
+  "type": "super",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Hurtle through the air like a missile and crash into targets to inflict meteoric damage.",
+    "secondary": "Hurtle through the air like a missile and crash into targets to inflict meteoric damage."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "119041299": {
+  "hash": 119041299,
+  "name": "Fists of Havoc",
+  "type": "super",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Supercharge your fists and slam the ground with the force of a maelstrom. While active:\n\n[Light Attack]  : Quickly charge forward, dealing damage to any impacted targets.\n\n[Heavy Attack] : Slam your fists to the ground, dealing damage in an area around you and leaving aftershocks in your wake. Performing a slam from the air deals additional damage.",
+    "secondary": "Supercharge your fists and slam the ground with the force of a maelstrom. While active:\n\n[Light Attack]  : Quickly charge forward, dealing damage to any impacted targets.\n\n[Heavy Attack] : Slam your fists to the ground, dealing damage in an area around you and leaving aftershocks in your wake. Performing a slam from the air deals additional damage."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
  "120721526": {
   "hash": 120721526,
   "name": "Runneth Over",
@@ -579,6 +1072,35 @@
    }
   },
   "linkedWith": 1171887445
+ },
+ "146194908": {
+  "hash": 146194908,
+  "name": "Skip Grenade",
+  "type": "grenade",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "A grenade that splits upon impact, creating multiple projectiles that seek targets.",
+    "secondary": "A grenade that splits upon impact, creating multiple projectiles that seek targets."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
  },
  "147913470": {
   "hash": 147913470,
@@ -883,6 +1405,93 @@
     "main": "방벽을 빙하의 방비로 변환합니다.\n\n빙하의 방비 시전 시:\n7미터 이내에 있는 적들에게 감속 스택 40개를 부여합니다.\n\n보호막은 20초 동안 지속되며 100HP의 체력을 가지고 있습니다. <pve 62.5% 피해 감소를 부여합니다. /> \n보호막의 지속 시간은 피해를 입으면 초기화되며 질주, 직업 점프, 그리고 슬라이딩을 봉인합니다.\n\n보호막이 지속되는 동안 직업 능력 에너지는 재생되지 않습니다.\n빙하의 방비가 활성화 된 상태에서 방벽을 사용하면 효과가 해제됩니다."
    }
   }
+ },
+ "187655372": {
+  "hash": 187655372,
+  "name": "Trapper's Ambush",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "187655373": {
+  "hash": 187655373,
+  "name": "Vanishing Step",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "187655374": {
+  "hash": 187655374,
+  "name": "Stylish Executioner",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
  },
  "191144788": {
   "hash": 191144788,
@@ -1581,6 +2190,296 @@
   "inLiveDatabase": false,
   "optional": false
  },
+ "362132288": {
+  "hash": 362132288,
+  "name": "Ember of Torches",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "362132289": {
+  "hash": 362132289,
+  "name": "Ember of Combustion",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "362132290": {
+  "hash": 362132290,
+  "name": "Ember of Tempering",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "362132291": {
+  "hash": 362132291,
+  "name": "Ember of Char",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "362132292": {
+  "hash": 362132292,
+  "name": "Ember of Benevolence",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "362132293": {
+  "hash": 362132293,
+  "name": "Ember of Singeing",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "362132294": {
+  "hash": 362132294,
+  "name": "Ember of Empyrean",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "362132295": {
+  "hash": 362132295,
+  "name": "Ember of Beams",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "362132300": {
+  "hash": 362132300,
+  "name": "Ember of Solace",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "362132301": {
+  "hash": 362132301,
+  "name": "Ember of Blistering",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
  "371216963": {
   "hash": 371216963,
   "name": "Radar Tuner",
@@ -1609,6 +2508,93 @@
     "secondary": "Radar immediately returns after stopping ADS. (Normally takes 1.5s)"
    }
   }
+ },
+ "375052468": {
+  "hash": 375052468,
+  "name": "Golden Gun - Marksman",
+  "type": "super",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Summon a precision flaming pistol that disintegrates targets with Solar Light.\n\nYour Golden Gun deals massively increased precision damage, overpenetrates targets, and creates Orbs of Power on precision hits.\n\nBenefits from being radiant.",
+    "secondary": "Summon a precision flaming pistol that disintegrates targets with Solar Light.\n\nYour Golden Gun deals massively increased precision damage, overpenetrates targets, and creates Orbs of Power on precision hits.\n\nBenefits from being radiant."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "375052469": {
+  "hash": 375052469,
+  "name": "Golden Gun - Deadshot",
+  "type": "super",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Summon a rapid-fire flaming pistol that disintegrates targets with Solar Light.\n\nCausing Solar ignitions while your Super is active refunds a Golden Gun round.\n\nBenefits from being radiant.",
+    "secondary": "Summon a rapid-fire flaming pistol that disintegrates targets with Solar Light.\n\nCausing Solar ignitions while your Super is active refunds a Golden Gun round.\n\nBenefits from being radiant."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "375052471": {
+  "hash": 375052471,
+  "name": "Blade Barrage",
+  "type": "super",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Vault into the air and unleash a volley of Solar-charged explosive knives.",
+    "secondary": "Vault into the air and unleash a volley of Solar-charged explosive knives."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
  },
  "384759954": {
   "hash": 384759954,
@@ -1900,6 +2886,64 @@
    }
   ]
  },
+ "426473316": {
+  "hash": 426473316,
+  "name": "Marksman's Dodge",
+  "type": "class",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Dodge to perform an evasive maneuver with a steady hand. Dodging automatically reloads your weapon.",
+    "secondary": "Dodge to perform an evasive maneuver with a steady hand. Dodging automatically reloads your weapon."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "426473317": {
+  "hash": 426473317,
+  "name": "Gambler's Dodge",
+  "type": "class",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Dodge to perform a deft tumble, avoiding enemy attacks. Dodging near enemies fully recharges your Melee Ability.",
+    "secondary": "Dodge to perform a deft tumble, avoiding enemy attacks. Dodging near enemies fully recharges your Melee Ability."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
  "438098033": {
   "hash": 438098033,
   "name": "Harmony",
@@ -2105,6 +3149,93 @@
    }
   ]
  },
+ "469281040": {
+  "hash": 469281040,
+  "name": "High Lift",
+  "type": "movement",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Jump while airborne to activate Lift and launch into the air to greater heights.",
+    "secondary": "Jump while airborne to activate Lift and launch into the air to greater heights."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "469281041": {
+  "hash": 469281041,
+  "name": "Strafe Lift",
+  "type": "movement",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Jump while airborne to activate Lift and launch into the air with strong directional control.",
+    "secondary": "Jump while airborne to activate Lift and launch into the air with strong directional control."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "469281042": {
+  "hash": 469281042,
+  "name": "Catapult Lift",
+  "type": "movement",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Jump while airborne to activate Lift and launch into the air with a strong initial burst of momentum.",
+    "secondary": "Jump while airborne to activate Lift and launch into the air with a strong initial burst of momentum."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
  "469285294": {
   "hash": 469285294,
   "name": "Recombination",
@@ -2216,6 +3347,93 @@
     "secondary": "Passively grants 50 Airborne Effectiveness, 100 Handling and 100 Reload Speed to Sidearms.\r\n\r\nUpon readying a sidearm while at Critical Health:\r\n100% and [PVP: 35%] increased damage until no longer critical.\r\nRefreshes sidearm magazine."
    }
   }
+ },
+ "489583096": {
+  "hash": 489583096,
+  "name": "Towering Barricade",
+  "type": "class",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Create a large barrier that can be used to reinforce a position with cover from enemy fire.",
+    "secondary": "Create a large barrier that can be used to reinforce a position with cover from enemy fire."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "489583097": {
+  "hash": 489583097,
+  "name": "Rally Barricade",
+  "type": "class",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Create a small barrier that you can peek over while aiming down sights and that increases weapon reload speed, stability, and range when you stand behind it.",
+    "secondary": "Create a small barrier that you can peek over while aiming down sights and that increases weapon reload speed, stability, and range when you stand behind it."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "489583098": {
+  "hash": 489583098,
+  "name": "Thruster",
+  "type": "class",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "While grounded, quickly evade in a lateral direction.",
+    "secondary": "While grounded, quickly evade in a lateral direction."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
  },
  "494941759": {
   "hash": 494941759,
@@ -2384,6 +3602,122 @@
   "inLiveDatabase": true,
   "optional": false,
   "importStatsFrom": 691659142
+ },
+ "537774540": {
+  "hash": 537774540,
+  "name": "Whisper of Chains",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "537774541": {
+  "hash": 537774541,
+  "name": "Whisper of Torment",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "537774542": {
+  "hash": 537774542,
+  "name": "Whisper of Fractures",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "537774543": {
+  "hash": 537774543,
+  "name": "Whisper of Impetus",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
  },
  "553093017": {
   "hash": 553093017,
@@ -3118,6 +4452,64 @@
     "secondary": "增加 1 秒持续时间。"
    }
   }
+ },
+ "668903196": {
+  "hash": 668903196,
+  "name": "Iceflare Bolts",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "668903197": {
+  "hash": 668903197,
+  "name": "Frostpulse",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
  },
  "671806388": {
   "hash": 671806388,
@@ -4318,6 +5710,64 @@
   "linkedWith": 1354429876,
   "uploadedBy": "Fading Shadow"
  },
+ "852252788": {
+  "hash": 852252788,
+  "name": "Hammer Strike",
+  "type": "melee",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "After sprinting for a short time, use this melee ability to swing a blazing hammer that scorches your target and deals damage in a cone behind them.\n\nIf your target is defeated by Hammer Strike, they ignite.",
+    "secondary": "After sprinting for a short time, use this melee ability to swing a blazing hammer that scorches your target and deals damage in a cone behind them.\n\nIf your target is defeated by Hammer Strike, they ignite."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "852252789": {
+  "hash": 852252789,
+  "name": "Throwing Hammer",
+  "type": "melee",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Throw a hammer from a distance. Picking up a thrown hammer fully recharges your melee ability. If the hammer struck a target, picking it up grants cure.",
+    "secondary": "Throw a hammer from a distance. Picking up a thrown hammer fully recharges your melee ability. If the hammer struck a target, picking it up grants cure."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
  "855168139": {
   "hash": 855168139,
   "name": "Unrelenting",
@@ -4446,6 +5896,93 @@
     "main": "수류탄 에너지를 추가로 제공합니다.\n\n타이탄의 직업 트리와 같이 사용해 수류탄 3개를 소지하는 것은 불가능합니다."
    }
   }
+ },
+ "890263312": {
+  "hash": 890263312,
+  "name": "Burst Glide",
+  "type": "movement",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Jump while airborne to activate Glide and start an airborne drift with a strong initial boost of speed.",
+    "secondary": "Jump while airborne to activate Glide and start an airborne drift with a strong initial boost of speed."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "890263313": {
+  "hash": 890263313,
+  "name": "Strafe Glide",
+  "type": "movement",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Jump while airborne to activate Glide and start an airborne drift with strong directional control.",
+    "secondary": "Jump while airborne to activate Glide and start an airborne drift with strong directional control."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "890263315": {
+  "hash": 890263315,
+  "name": "Balanced Glide",
+  "type": "movement",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Jump while airborne to activate Glide and start an airborne drift with both moderate speed and directional control.",
+    "secondary": "Jump while airborne to activate Glide and start an airborne drift with both moderate speed and directional control."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
  },
  "897181301": {
   "hash": 897181301,
@@ -5004,6 +6541,35 @@
   "importStatsFrom": 1799762209,
   "uploadedBy": "Fading Shadow"
  },
+ "1013086087": {
+  "hash": 1013086087,
+  "name": "Fusion Grenade",
+  "type": "grenade",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "An explosive grenade that attaches to targets, damaging and moderately scorching them on detonation.",
+    "secondary": "An explosive grenade that attaches to targets, damaging and moderately scorching them on detonation."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
  "1015337793": {
   "hash": 1015337793,
   "name": "Machine Gun Targeting",
@@ -5077,6 +6643,35 @@
    }
   },
   "linkedWith": 2923251173
+ },
+ "1016030582": {
+  "hash": 1016030582,
+  "name": "Vortex Grenade",
+  "type": "grenade",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "A grenade that creates a Vortex that pulls targets inward and continually damages those trapped inside.",
+    "secondary": "A grenade that creates a Vortex that pulls targets inward and continually damages those trapped inside."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
  },
  "1047830412": {
   "hash": 1047830412,
@@ -5178,6 +6773,122 @@
    }
   ]
  },
+ "1051276348": {
+  "hash": 1051276348,
+  "name": "Ember of Eruption",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "1051276349": {
+  "hash": 1051276349,
+  "name": "Ember of Ashes",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "1051276350": {
+  "hash": 1051276350,
+  "name": "Ember of Wonder",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "1051276351": {
+  "hash": 1051276351,
+  "name": "Ember of Searing",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
  "1052528480": {
   "hash": 1052528480,
   "name": "Shieldcrash Wellmaker",
@@ -5241,6 +6952,64 @@
   ],
   "uploadedBy": "Fading Shadow"
  },
+ "1081893460": {
+  "hash": 1081893460,
+  "name": "Stormtrance",
+  "type": "super",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Chain Arc Lightning from your hands to electrify targets with devastating streams of Arc Light that intensify over time. Casting Stormtrance creates a shockwave underneath you.\n\n[Sprint]  : Teleport forward, consuming a small amount of Super energy.",
+    "secondary": "Chain Arc Lightning from your hands to electrify targets with devastating streams of Arc Light that intensify over time. Casting Stormtrance creates a shockwave underneath you.\n\n[Sprint]  : Teleport forward, consuming a small amount of Super energy."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "1081893461": {
+  "hash": 1081893461,
+  "name": "Chaos Reach",
+  "type": "super",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Unleash a long-range channeled beam of concentrated Arc energy.\n\n [Super]  while active to deactivate your Super early, saving Super energy.",
+    "secondary": "Unleash a long-range channeled beam of concentrated Arc energy.\n\n [Super]  while active to deactivate your Super early, saving Super energy."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
  "1095471953": {
   "hash": 1095471953,
   "name": "Embers of Light",
@@ -5271,6 +7040,122 @@
     "secondary": "import self"
    }
   }
+ },
+ "1128768652": {
+  "hash": 1128768652,
+  "name": "Triple Jump",
+  "type": "movement",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "While airborne, sustain your air control with a second or third jump.",
+    "secondary": "While airborne, sustain your air control with a second or third jump."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "1128768654": {
+  "hash": 1128768654,
+  "name": "High Jump",
+  "type": "movement",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "While airborne, jump a second time to reach greater heights.",
+    "secondary": "While airborne, jump a second time to reach greater heights."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "1128768655": {
+  "hash": 1128768655,
+  "name": "Strafe Jump",
+  "type": "movement",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "While airborne, jump a second time with strong directional control.",
+    "secondary": "While airborne, jump a second time with strong directional control."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "1139822081": {
+  "hash": 1139822081,
+  "name": "Snare Bomb",
+  "type": "melee",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Throw a Smoke Bomb, which attaches to surfaces and pings enemy radar. Weakens targets on detonation.",
+    "secondary": "Throw a Smoke Bomb, which attaches to surfaces and pings enemy radar. Weakens targets on detonation."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
  },
  "1140096971": {
   "hash": 1140096971,
@@ -6030,6 +7915,180 @@
    }
   ]
  },
+ "1232050830": {
+  "hash": 1232050830,
+  "name": "Ball Lightning",
+  "type": "melee",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Fire an Arc projectile forward that releases a perpendicular lightning strike after a short time.\n\nWhile Amplified, Ball Lightning releases additional lightning strikes before detonating.",
+    "secondary": "Fire an Arc projectile forward that releases a perpendicular lightning strike after a short time.\n\nWhile Amplified, Ball Lightning releases additional lightning strikes before detonating."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "1232050831": {
+  "hash": 1232050831,
+  "name": "Chain Lightning",
+  "type": "melee",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "An extended range melee that Jolts your target and chains lightning to nearby enemies.\n\nWhile Amplified, it creates an additional set of chains.",
+    "secondary": "An extended range melee that Jolts your target and chains lightning to nearby enemies.\n\nWhile Amplified, it creates an additional set of chains."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "1237488984": {
+  "hash": 1237488984,
+  "name": "Blink",
+  "type": "movement",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Jump while airborne to teleport a short distance.",
+    "secondary": "Jump while airborne to teleport a short distance."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "1237488985": {
+  "hash": 1237488985,
+  "name": "Balanced Glide",
+  "type": "movement",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Jump while airborne to activate Glide and start an airborne drift with both moderate speed and directional control.",
+    "secondary": "Jump while airborne to activate Glide and start an airborne drift with both moderate speed and directional control."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "1237488986": {
+  "hash": 1237488986,
+  "name": "Burst Glide",
+  "type": "movement",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Jump while airborne to activate Glide and start an airborne drift with a strong initial boost of speed.",
+    "secondary": "Jump while airborne to activate Glide and start an airborne drift with a strong initial boost of speed."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "1237488987": {
+  "hash": 1237488987,
+  "name": "Strafe Glide",
+  "type": "movement",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Jump while airborne to activate Glide and start an airborne drift with strong directional control.",
+    "secondary": "Jump while airborne to activate Glide and start an airborne drift with strong directional control."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
  "1250481499": {
   "hash": 1250481499,
   "name": "Extrovert",
@@ -6066,6 +8125,35 @@
     "secondary": "当 [?] 米内有 [?] 个战斗人员或梦魇时， 完成最后一击时：\n恢复 [?] 生命值。"
    }
   }
+ },
+ "1255073825": {
+  "hash": 1255073825,
+  "name": "Void Spike",
+  "type": "grenade",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "A grenade that attaches to any surface and emits a torrent of damaging Void Light.",
+    "secondary": "A grenade that attaches to any surface and emits a torrent of damaging Void Light."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
  },
  "1260401931": {
   "hash": 1260401931,
@@ -6260,6 +8348,93 @@
    }
   }
  },
+ "1293395729": {
+  "hash": 1293395729,
+  "name": "Electrostatic Mind",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "1293395730": {
+  "hash": 1293395730,
+  "name": "Lightning Surge",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "1293395731": {
+  "hash": 1293395731,
+  "name": "Arc Soul",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
  "1331592343": {
   "hash": 1331592343,
   "name": "Starless Night",
@@ -6357,6 +8532,35 @@
     "secondary": "import self"
    }
   }
+ },
+ "1341767667": {
+  "hash": 1341767667,
+  "name": "Withering Blade",
+  "type": "melee",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Toss a [Stasis] Stasis Shuriken at targets to damage and slow them.  \n\nProvides multiple charges.",
+    "secondary": "Toss a [Stasis] Stasis Shuriken at targets to damage and slow them.  \n\nProvides multiple charges."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
  },
  "1347741687": {
   "hash": 1347741687,
@@ -6622,6 +8826,93 @@
     }
    ]
   }
+ },
+ "1380268164": {
+  "hash": 1380268164,
+  "name": "Catapult Lift",
+  "type": "movement",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Jump while airborne to activate Lift and launch into the air with a strong initial burst of momentum.",
+    "secondary": "Jump while airborne to activate Lift and launch into the air with a strong initial burst of momentum."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "1380268166": {
+  "hash": 1380268166,
+  "name": "High Lift",
+  "type": "movement",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Jump while airborne to activate Lift and launch into the air to greater heights.",
+    "secondary": "Jump while airborne to activate Lift and launch into the air to greater heights."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "1380268167": {
+  "hash": 1380268167,
+  "name": "Strafe Lift",
+  "type": "movement",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Jump while airborne to activate Lift and launch into the air with strong directional control.",
+    "secondary": "Jump while airborne to activate Lift and launch into the air with strong directional control."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
  },
  "1409206216": {
   "hash": 1409206216,
@@ -6983,6 +9274,64 @@
     "secondary": "Duskfield Grenades have [?]% increased radius and have a 152 second base cooldown.\r\n\r\nWhile inside a Duskfield Grenade's Slowing Field:\r\nEnemies deal 50% [PVP: 20%] reduced damage, and allies receive 25% [PVP: 15%] reduced damage.\r\n\r\nWhen combined with Touch of Winter:\r\nCrystal increases from Medium to Large, and radius is increased additively."
    }
   }
+ },
+ "1470370538": {
+  "hash": 1470370538,
+  "name": "Incinerator Snap",
+  "type": "melee",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Snap your fingers to create a fan of burning sparks that explode and scorch targets.",
+    "secondary": "Snap your fingers to create a fan of burning sparks that explode and scorch targets."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "1470370539": {
+  "hash": 1470370539,
+  "name": "Celestial Fire",
+  "type": "melee",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Send out a spiral of three explosive Solar energy blasts, scorching targets with each hit.",
+    "secondary": "Send out a spiral of three explosive Solar energy blasts, scorching targets with each hit."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
  },
  "1471333428": {
   "hash": 1471333428,
@@ -7353,6 +9702,35 @@
    }
   }
  },
+ "1514173218": {
+  "hash": 1514173218,
+  "name": "Scatter Grenade",
+  "type": "grenade",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "A grenade that splits into many submunitions and covers a large area with multiple explosions.",
+    "secondary": "A grenade that splits into many submunitions and covers a large area with multiple explosions."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
  "1515669996": {
   "hash": 1515669996,
   "name": "Elemental Armaments",
@@ -7663,6 +10041,35 @@
   },
   "linkedWith": 3418165135
  },
+ "1547656727": {
+  "hash": 1547656727,
+  "name": "Magnetic Grenade",
+  "type": "grenade",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "A grenade that attaches to targets and explodes twice.",
+    "secondary": "A grenade that attaches to targets and explodes twice."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
  "1551736345": {
   "hash": 1551736345,
   "name": "Explosive Head",
@@ -7861,6 +10268,35 @@
   "linkedWith": 3418782618,
   "uploadedBy": "Fading Shadow"
  },
+ "1563930741": {
+  "hash": 1563930741,
+  "name": "Howl of the Storm",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
  "1570042021": {
   "hash": 1570042021,
   "name": "Heating Up",
@@ -7902,6 +10338,35 @@
    }
   },
   "linkedWith": 2748258257
+ },
+ "1582574009": {
+  "hash": 1582574009,
+  "name": "Arcbolt Grenade",
+  "type": "grenade",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "A grenade that chains bolts of lightning to nearby targets.",
+    "secondary": "A grenade that chains bolts of lightning to nearby targets."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
  },
  "1583705720": {
   "hash": 1583705720,
@@ -8106,6 +10571,93 @@
    }
   },
   "linkedWith": 828056542
+ },
+ "1602994568": {
+  "hash": 1602994568,
+  "name": "Controlled Demolition",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "1602994569": {
+  "hash": 1602994569,
+  "name": "Bastion",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "1602994570": {
+  "hash": 1602994570,
+  "name": "Offensive Bulwark",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
  },
  "1607056502": {
   "hash": 1607056502,
@@ -8333,6 +10885,180 @@
   "optional": false,
   "linkedWith": 3705817207,
   "uploadedBy": "Fading Shadow"
+ },
+ "1656118680": {
+  "hash": 1656118680,
+  "name": "Nova Warp",
+  "type": "super",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Step between dimensions to subvert the laws of physics.\n[Super Secondary]  : Teleport a short distance.\n[Super Primary]  : Unleash a deadly Void eruption.",
+    "secondary": "Step between dimensions to subvert the laws of physics.\n[Super Secondary]  : Teleport a short distance.\n[Super Primary]  : Unleash a deadly Void eruption."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "1656118681": {
+  "hash": 1656118681,
+  "name": "Nova Bomb: Vortex",
+  "type": "super",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Hurl an explosive bolt of Void Light at a target, disintegrating those caught within its blast.\n\nNova Bomb creates a singularity that pulls targets inward and continually damages those trapped inside.",
+    "secondary": "Hurl an explosive bolt of Void Light at a target, disintegrating those caught within its blast.\n\nNova Bomb creates a singularity that pulls targets inward and continually damages those trapped inside."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "1656118682": {
+  "hash": 1656118682,
+  "name": "Nova Bomb: Cataclysm",
+  "type": "super",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Hurl an explosive bolt of Void Light at a target, disintegrating those caught within its blast.\n\nNova Bomb travels slowly and seeks targets. Detonations shatter into smaller seeker projectiles.",
+    "secondary": "Hurl an explosive bolt of Void Light at a target, disintegrating those caught within its blast.\n\nNova Bomb travels slowly and seeks targets. Detonations shatter into smaller seeker projectiles."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "1656549672": {
+  "hash": 1656549672,
+  "name": "Touch of Thunder",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "1656549673": {
+  "hash": 1656549673,
+  "name": "Juggernaut",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "1656549674": {
+  "hash": 1656549674,
+  "name": "Knockout",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
  },
  "1658784563": {
   "hash": 1658784563,
@@ -8810,6 +11536,93 @@
    }
   }
  },
+ "1698387812": {
+  "hash": 1698387812,
+  "name": "Catapult Lift",
+  "type": "movement",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Jump while airborne to activate Lift and launch into the air with a strong initial burst of momentum.",
+    "secondary": "Jump while airborne to activate Lift and launch into the air with a strong initial burst of momentum."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "1698387814": {
+  "hash": 1698387814,
+  "name": "High Lift",
+  "type": "movement",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Jump while airborne to activate Lift and launch into the air to greater heights.",
+    "secondary": "Jump while airborne to activate Lift and launch into the air to greater heights."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "1698387815": {
+  "hash": 1698387815,
+  "name": "Strafe Lift",
+  "type": "movement",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Jump while airborne to activate Lift and launch into the air with strong directional control.",
+    "secondary": "Jump while airborne to activate Lift and launch into the air with strong directional control."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
  "1702976605": {
   "hash": 1702976605,
   "name": "Classy Contender",
@@ -8897,6 +11710,35 @@
    }
   ]
  },
+ "1713935764": {
+  "hash": 1713935764,
+  "name": "Pulse Grenade",
+  "type": "grenade",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "A grenade that periodically damages targets within its explosion radius.",
+    "secondary": "A grenade that periodically damages targets within its explosion radius."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
  "1716000303": {
   "hash": 1716000303,
   "name": "Concussion Grenades",
@@ -8939,6 +11781,296 @@
   "type": "weaponPerkEnhanced",
   "lastUpload": 1667226153031,
   "uploadedBy": "Fading Shadow",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "1727069360": {
+  "hash": 1727069360,
+  "name": "Spark of Focus",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "1727069361": {
+  "hash": 1727069361,
+  "name": "Spark of Frequency",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "1727069362": {
+  "hash": 1727069362,
+  "name": "Spark of Discharge",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "1727069363": {
+  "hash": 1727069363,
+  "name": "Spark of Ions",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "1727069364": {
+  "hash": 1727069364,
+  "name": "Spark of Shock",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "1727069365": {
+  "hash": 1727069365,
+  "name": "Spark of Momentum",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "1727069366": {
+  "hash": 1727069366,
+  "name": "Spark of Resistance",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "1727069367": {
+  "hash": 1727069367,
+  "name": "Spark of Beacons",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "1727069374": {
+  "hash": 1727069374,
+  "name": "Spark of Magnitude",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "1727069375": {
+  "hash": 1727069375,
+  "name": "Spark of Recharge",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
   "editor": {
    "en": {
     "main": "",
@@ -9587,6 +12719,35 @@
    }
   }
  },
+ "1841016428": {
+  "hash": 1841016428,
+  "name": "Healing Grenade",
+  "type": "grenade",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "A grenade that cures allies on impact and creates an Orb of benevolent Solar Light, granting restoration to allies when picked up.",
+    "secondary": "A grenade that cures allies on impact and creates an Orb of benevolent Solar Light, granting restoration to allies when picked up."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
  "1844314558": {
   "hash": 1844314558,
   "name": "Parting Gift",
@@ -10000,6 +13161,35 @@
     "main": "능력을 사용하면 다른 능력들이 <pve 10 /><pvp [5] />초 동안 강화됩니다. \n(예: 방벽 사용 -> 수류탄과 근접 능력 강화)\n\n강화 되었을 때:\n강화된 근접 능력: 10% | 20% 피해 증가.\n근접 능력 기본 재생 속도 <pve 400% /> <pvp [100%] /> || <pve 800% /> <pvp [200%] /> 증가.\n\n강화된 수류탄: <pve 20% /> <pvp [10%] /> | <pve 35% /> <pvp [20%] /> 피해 증가.\n수류탄 기본 재생 속도<pve 400% /> <pvp [100%] /> || <pve 800% /> <pvp [200%] /> 증가.\n\n강화된 방벽: 방벽 체력 증가.\n직업 능력 기본 재생 속도 <pve 150% /><pvp [37.5%] /> || <pve 300% /><pvp [75%] /> 증가."
    }
   }
+ },
+ "1920417385": {
+  "hash": 1920417385,
+  "name": "Grim Harvest",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
  },
  "1939153390": {
   "hash": 1939153390,
@@ -10485,6 +13675,64 @@
   "uploadedBy": "Fading Shadow",
   "importStatsFrom": 1428297954
  },
+ "2021620139": {
+  "hash": 2021620139,
+  "name": "Glacial Quake",
+  "type": "super",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Summon a [Stasis] Stasis gauntlet. While your Super is active:\n\n[Heavy Attack]  : Slam your gauntlet down to create a shockwave that freezes targets and sends out [Stasis] Stasis crystals to freeze additional ones.\n\n[Light Attack]  : Supercharge your Shiver Strike for bonus damage. Sprint through [Stasis] Stasis crystals or frozen targets to shatter them instantly.",
+    "secondary": "Summon a [Stasis] Stasis gauntlet. While your Super is active:\n\n[Heavy Attack]  : Slam your gauntlet down to create a shockwave that freezes targets and sends out [Stasis] Stasis crystals to freeze additional ones.\n\n[Light Attack]  : Supercharge your Shiver Strike for bonus damage. Sprint through [Stasis] Stasis crystals or frozen targets to shatter them instantly."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2028772231": {
+  "hash": 2028772231,
+  "name": "Shiver Strike",
+  "type": "melee",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Hold input to leap through the air. Releasing unleashes a powerful dash attack that knocks targets back and damages them.",
+    "secondary": "Hold input to leap through the air. Releasing unleashes a powerful dash attack that knocks targets back and damages them."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
  "2030760728": {
   "hash": 2030760728,
   "name": "Energy Transfer",
@@ -10514,6 +13762,64 @@
    }
   },
   "linkedWith": 2856365672
+ },
+ "2031919264": {
+  "hash": 2031919264,
+  "name": "Tectonic Harvest",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2031919265": {
+  "hash": 2031919265,
+  "name": "Cryoclasm",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
  },
  "2039302152": {
   "hash": 2039302152,
@@ -11075,6 +14381,35 @@
    }
   }
  },
+ "2202441959": {
+  "hash": 2202441959,
+  "name": "Firebolt Grenade",
+  "type": "grenade",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "A grenade that unleashes bolts of damaging Solar Light at nearby targets and slightly scorches them.",
+    "secondary": "A grenade that unleashes bolts of damaging Solar Light at nearby targets and slightly scorches them."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
  "2204713148": {
   "hash": 2204713148,
   "name": "Crystalline Transistor",
@@ -11143,6 +14478,64 @@
     "secondary": "import self"
    }
   }
+ },
+ "2209081648": {
+  "hash": 2209081648,
+  "name": "Empowering Rift",
+  "type": "class",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Conjure a well of power that increases weapon damage for those inside it.",
+    "secondary": "Conjure a well of power that increases weapon damage for those inside it."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2209081649": {
+  "hash": 2209081649,
+  "name": "Healing Rift",
+  "type": "class",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Conjure a well of power that continuously heals those inside it.",
+    "secondary": "Conjure a well of power that continuously heals those inside it."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
  },
  "2209918983": {
   "hash": 2209918983,
@@ -11385,6 +14778,35 @@
   "linkedWith": 1683379515,
   "uploadedBy": "Fading Shadow"
  },
+ "2216698406": {
+  "hash": 2216698406,
+  "name": "Solar Grenade",
+  "type": "grenade",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "A grenade that creates a flare of Solar Light that continuously damages and scorches targets trapped inside.",
+    "secondary": "A grenade that creates a flare of Solar Light that continuously damages and scorches targets trapped inside."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
  "2224838837": {
   "hash": 2224838837,
   "name": "Unstoppable Force",
@@ -11425,6 +14847,93 @@
    }
   },
   "linkedWith": 3102670337
+ },
+ "2225231092": {
+  "hash": 2225231092,
+  "name": "High Lift",
+  "type": "movement",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Jump while airborne to activate Lift and launch into the air to greater heights.",
+    "secondary": "Jump while airborne to activate Lift and launch into the air to greater heights."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2225231093": {
+  "hash": 2225231093,
+  "name": "Strafe Lift",
+  "type": "movement",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Jump while airborne to activate Lift and launch into the air with strong directional control.",
+    "secondary": "Jump while airborne to activate Lift and launch into the air with strong directional control."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2225231094": {
+  "hash": 2225231094,
+  "name": "Catapult Lift",
+  "type": "movement",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Jump while airborne to activate Lift and launch into the air with a strong initial burst of momentum.",
+    "secondary": "Jump while airborne to activate Lift and launch into the air with a strong initial burst of momentum."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
  },
  "2244851822": {
   "hash": 2244851822,
@@ -11601,6 +15110,383 @@
   "inLiveDatabase": false,
   "optional": false
  },
+ "2265076177": {
+  "hash": 2265076177,
+  "name": "Suppressor Grenade",
+  "type": "grenade",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "An explosive grenade that suppresses, preventing targets from using abilities for a short time.",
+    "secondary": "An explosive grenade that suppresses, preventing targets from using abilities for a short time."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2272984656": {
+  "hash": 2272984656,
+  "name": "Echo of Dilation",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2272984657": {
+  "hash": 2272984657,
+  "name": "Echo of Domineering",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2272984664": {
+  "hash": 2272984664,
+  "name": "Echo of Provision",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2272984665": {
+  "hash": 2272984665,
+  "name": "Echo of Expulsion",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2272984666": {
+  "hash": 2272984666,
+  "name": "Echo of Remnants",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2272984667": {
+  "hash": 2272984667,
+  "name": "Echo of Exchange",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2272984668": {
+  "hash": 2272984668,
+  "name": "Echo of Undermining",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2272984669": {
+  "hash": 2272984669,
+  "name": "Echo of Reprisal",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2272984670": {
+  "hash": 2272984670,
+  "name": "Echo of Leeching",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2272984671": {
+  "hash": 2272984671,
+  "name": "Echo of Persistence",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2274196886": {
+  "hash": 2274196886,
+  "name": "Daybreak",
+  "type": "super",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Fashion Solar Light into blades and smite your foes from the sky.\n\nYour Daybreak projectiles launch a streak of deadly flames on impact.",
+    "secondary": "Fashion Solar Light into blades and smite your foes from the sky.\n\nYour Daybreak projectiles launch a streak of deadly flames on impact."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2274196887": {
+  "hash": 2274196887,
+  "name": "Well of Radiance",
+  "type": "super",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Thrust your Sword into the ground, damaging and scorching nearby targets. The Sword projects a continuous aura, granting restoration and radiant effects to nearby allies, protecting them from the effects of Stasis.",
+    "secondary": "Thrust your Sword into the ground, damaging and scorching nearby targets. The Sword projects a continuous aura, granting restoration and radiant effects to nearby allies, protecting them from the effects of Stasis."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
  "2275087323": {
   "hash": 2275087323,
   "name": "Explosive Light",
@@ -11712,6 +15598,35 @@
    }
   ]
  },
+ "2299867342": {
+  "hash": 2299867342,
+  "name": "Pocket Singularity",
+  "type": "melee",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Launch an unstable ball of Void energy that detonates when it nears a target, pushing them away from the blast and making them volatile.",
+    "secondary": "Launch an unstable ball of Void energy that detonates when it nears a target, pushing them away from the blast and making them volatile."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
  "2307244871": {
   "hash": 2307244871,
   "name": "Sniper Rifle Targeting",
@@ -11786,6 +15701,93 @@
   "linkedWith": 2869569095,
   "importStatsFrom": 2869569095,
   "uploadedBy": "Fading Shadow"
+ },
+ "2321824284": {
+  "hash": 2321824284,
+  "name": "Feed the Void",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2321824285": {
+  "hash": 2321824285,
+  "name": "Chaos Accelerant",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2321824287": {
+  "hash": 2321824287,
+  "name": "Child of the Old Gods",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
  },
  "2355041704": {
   "hash": 2355041704,
@@ -12256,6 +16258,151 @@
    }
   }
  },
+ "2481624867": {
+  "hash": 2481624867,
+  "name": "Storm Grenade",
+  "type": "grenade",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "A grenade that calls down a focused lightning storm.",
+    "secondary": "A grenade that calls down a focused lightning storm."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2483898428": {
+  "hash": 2483898428,
+  "name": "Whisper of Rending",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2483898429": {
+  "hash": 2483898429,
+  "name": "Whisper of Conduction",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2483898430": {
+  "hash": 2483898430,
+  "name": "Whisper of Rime",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2483898431": {
+  "hash": 2483898431,
+  "name": "Whisper of Hunger",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
  "2495011826": {
   "hash": 2495011826,
   "name": "Ensemble",
@@ -12304,6 +16451,64 @@
    ]
   },
   "uploadedBy": "Fading Shadow"
+ },
+ "2495523340": {
+  "hash": 2495523340,
+  "name": "Towering Barricade",
+  "type": "class",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Create a large barrier that can be used to reinforce a position with cover from enemy fire.",
+    "secondary": "Create a large barrier that can be used to reinforce a position with cover from enemy fire."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2495523341": {
+  "hash": 2495523341,
+  "name": "Rally Barricade",
+  "type": "class",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Create a small barrier that you can peek over while aiming down sights and that increases weapon reload speed, stability, and range when you stand behind it.",
+    "secondary": "Create a small barrier that you can peek over while aiming down sights and that increases weapon reload speed, stability, and range when you stand behind it."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
  },
  "2500502982": {
   "hash": 2500502982,
@@ -12395,6 +16600,35 @@
   "linkedWith": 776531651,
   "uploadedBy": "Fading Shadow"
  },
+ "2543177538": {
+  "hash": 2543177538,
+  "name": "Penumbral Blast",
+  "type": "melee",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Raise your [Stasis] Stasis staff against your foe. Send a blast of [Stasis] Stasis forward to freeze your targets.",
+    "secondary": "Raise your [Stasis] Stasis staff against your foe. Send a blast of [Stasis] Stasis forward to freeze your targets."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
  "2551157718": {
   "hash": 2551157718,
   "name": "Box Breathing",
@@ -12468,6 +16702,35 @@
   "linkedWith": 2458213969,
   "uploadedBy": "Fading Shadow",
   "importStatsFrom": 2458213969
+ },
+ "2581086849": {
+  "hash": 2581086849,
+  "name": "Incendiary Grenade",
+  "type": "grenade",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "A grenade that explodes in a fiery burst and heavily scorches nearby targets.",
+    "secondary": "A grenade that explodes in a fiery burst and heavily scorches nearby targets."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
  },
  "2590710093": {
   "hash": 2590710093,
@@ -12808,6 +17071,35 @@
   },
   "linkedWith": 2495011826
  },
+ "2625980631": {
+  "hash": 2625980631,
+  "name": "Silence and Squall",
+  "type": "super",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Summon two Stasis kamas, Silence and Squall, that you throw one after another.\n\nSilence : Creates a flash-freeze blast that freezes and damages targets.\n\nSquall : Creates a Stasis Storm that slows and damages targets caught inside.",
+    "secondary": "Summon two Stasis kamas, Silence and Squall, that you throw one after another.\n\nSilence : Creates a flash-freeze blast that freezes and damages targets.\n\nSquall : Creates a Stasis Storm that slows and damages targets caught inside."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
  "2637025676": {
   "hash": 2637025676,
   "name": "The Whispers",
@@ -12845,6 +17137,64 @@
     "main": "추가 근접 공격 횟수를 제공합니다."
    }
   }
+ },
+ "2642597904": {
+  "hash": 2642597904,
+  "name": "Bleak Watcher",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2651551055": {
+  "hash": 2651551055,
+  "name": "Glacial Harvest",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
  },
  "2652708987": {
   "hash": 2652708987,
@@ -12915,6 +17265,122 @@
   "optional": false,
   "uploadedBy": "Fading Shadow",
   "importStatsFrom": 3436462433
+ },
+ "2661180600": {
+  "hash": 2661180600,
+  "name": "Echo of Instability",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2661180601": {
+  "hash": 2661180601,
+  "name": "Echo of Harvest",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2661180602": {
+  "hash": 2661180602,
+  "name": "Echo of Obscurity",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2661180603": {
+  "hash": 2661180603,
+  "name": "Echo of Starvation",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
  },
  "2663272109": {
   "hash": 2663272109,
@@ -13151,6 +17617,151 @@
   "linkedWith": 3643424744,
   "uploadedBy": "Fading Shadow"
  },
+ "2708585276": {
+  "hash": 2708585276,
+  "name": "Ballistic Slam",
+  "type": "melee",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "After sprinting and while airborne, activate your charged melee ability to slam to the ground, dealing damage to nearby enemies.",
+    "secondary": "After sprinting and while airborne, activate your charged melee ability to slam to the ground, dealing damage to nearby enemies."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2708585277": {
+  "hash": 2708585277,
+  "name": "Seismic Strike",
+  "type": "melee",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "After sprinting for a short time, activate your charged melee ability to slam shoulder-first into your target, damaging and Blinding enemies in an area around them.\n\nWhile you are Amplified, the Blind radius is increased.",
+    "secondary": "After sprinting for a short time, activate your charged melee ability to slam shoulder-first into your target, damaging and Blinding enemies in an area around them.\n\nWhile you are Amplified, the Blind radius is increased."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2708585279": {
+  "hash": 2708585279,
+  "name": "Thunderclap",
+  "type": "melee",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "[Melee] : Hold while grounded to plant your feet and begin charging your fist with Arc energy.\n\n[Melee] : Release to unleash a devastating blast in front of you, dealing damage that increases with longer charge time.",
+    "secondary": "[Melee] : Hold while grounded to plant your feet and begin charging your fist with Arc energy.\n\n[Melee] : Release to unleash a devastating blast in front of you, dealing damage that increases with longer charge time."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2716335210": {
+  "hash": 2716335210,
+  "name": "Disorienting Blow",
+  "type": "melee",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Striking an enemy with this melee ability Blinds them and Amplifies you.",
+    "secondary": "Striking an enemy with this melee ability Blinds them and Amplifies you."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2716335211": {
+  "hash": 2716335211,
+  "name": "Combination Blow",
+  "type": "melee",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "A quick strike that temporarily increases your melee damage when defeating a target, stacking three times.\n\nDefeating targets with this ability also fully refills your class ability energy and restores a small amount of health.",
+    "secondary": "A quick strike that temporarily increases your melee damage when defeating a target, stacking three times.\n\nDefeating targets with this ability also fully refills your class ability energy and restores a small amount of health."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
  "2717805783": {
   "hash": 2717805783,
   "name": "Moving Target",
@@ -13189,6 +17800,151 @@
     }
    ]
   }
+ },
+ "2722573681": {
+  "hash": 2722573681,
+  "name": "Shadowshot: Moebius Quiver",
+  "type": "super",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Tether foes to a Void Anchor, weakening and suppressing them for you and your allies.\n\nFire two volleys of three Void Arrows that seek nearby targets. Shadowshot makes targets volatile and deals increased damage to tethered targets. Defeating tethered targets creates Orbs of Power.",
+    "secondary": "Tether foes to a Void Anchor, weakening and suppressing them for you and your allies.\n\nFire two volleys of three Void Arrows that seek nearby targets. Shadowshot makes targets volatile and deals increased damage to tethered targets. Defeating tethered targets creates Orbs of Power."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2722573682": {
+  "hash": 2722573682,
+  "name": "Spectral Blades",
+  "type": "super",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Summon a pair of deadly Void blades and stalk the battlefield in a veil of shadows.\n[Light Attack]  : Perform a quick melee attack.\n[Heavy Attack]  : Perform a heavy attack and once again vanish from sight.",
+    "secondary": "Summon a pair of deadly Void blades and stalk the battlefield in a veil of shadows.\n[Light Attack]  : Perform a quick melee attack.\n[Heavy Attack]  : Perform a heavy attack and once again vanish from sight."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2722573683": {
+  "hash": 2722573683,
+  "name": "Shadowshot: Deadfall",
+  "type": "super",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Tether foes to a Void Anchor, weakening and suppressing them for you and your allies.\n\nThe Void Anchors fired from Shadowshot pull targets toward the impact point, which then become traps and wait for prey. Void Anchors have increased range and last longer.",
+    "secondary": "Tether foes to a Void Anchor, weakening and suppressing them for you and your allies.\n\nThe Void Anchors fired from Shadowshot pull targets toward the impact point, which then become traps and wait for prey. Void Anchors have increased range and last longer."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2722641740": {
+  "hash": 2722641740,
+  "name": "Towering Barricade",
+  "type": "class",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Create a large barrier that can be used to reinforce a position with cover from enemy fire.",
+    "secondary": "Create a large barrier that can be used to reinforce a position with cover from enemy fire."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2722641741": {
+  "hash": 2722641741,
+  "name": "Rally Barricade",
+  "type": "class",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Create a small barrier that you can peek over while aiming down sights and that increases weapon reload speed, stability, and range when you stand behind it.",
+    "secondary": "Create a small barrier that you can peek over while aiming down sights and that increases weapon reload speed, stability, and range when you stand behind it."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
  },
  "2726471870": {
   "hash": 2726471870,
@@ -13327,6 +18083,64 @@
     "secondary": "import self"
    }
   }
+ },
+ "2747500760": {
+  "hash": 2747500760,
+  "name": "Burning Maul",
+  "type": "super",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Summon a flaming maul and crush your enemies with the force of an earthquake.\n\n[Light Attack]  : Spin the maul in a circle around you, damaging nearby targets.\n\n[Heavy Attack]  : Slam the maul to the ground and create a cyclone of flames that seeks targets.",
+    "secondary": "Summon a flaming maul and crush your enemies with the force of an earthquake.\n\n[Light Attack]  : Spin the maul in a circle around you, damaging nearby targets.\n\n[Heavy Attack]  : Slam the maul to the ground and create a cyclone of flames that seeks targets."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2747500761": {
+  "hash": 2747500761,
+  "name": "Hammer of Sol",
+  "type": "super",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Summon a flaming hammer and wreak destruction down upon your enemies.\n\n[Light Attack]  : Throw your hammer at foes.\n\nUpon impact, your hammers shatter into explosive molten shards.",
+    "secondary": "Summon a flaming hammer and wreak destruction down upon your enemies.\n\n[Light Attack]  : Throw your hammer at foes.\n\nUpon impact, your hammers shatter into explosive molten shards."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
  },
  "2748258257": {
   "hash": 2748258257,
@@ -13589,6 +18403,93 @@
     "secondary": "Melee Hits refresh the magazine of your equipped weapon and grant 50 Airborne Effectiveness for 5 seconds.\r\n\r\n7 second cooldown."
    }
   }
+ },
+ "2809141585": {
+  "hash": 2809141585,
+  "name": "Void Wall",
+  "type": "grenade",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "A grenade that creates a horizontal wall of burning Void Light.",
+    "secondary": "A grenade that creates a horizontal wall of burning Void Light."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2816982784": {
+  "hash": 2816982784,
+  "name": "Marksman's Dodge",
+  "type": "class",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Dodge to perform an evasive maneuver with a steady hand. Dodging automatically reloads your weapon.",
+    "secondary": "Dodge to perform an evasive maneuver with a steady hand. Dodging automatically reloads your weapon."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2816982785": {
+  "hash": 2816982785,
+  "name": "Gambler's Dodge",
+  "type": "class",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Dodge to perform a deft tumble, avoiding enemy attacks. Dodging near enemies fully recharges your Melee Ability.",
+    "secondary": "Dodge to perform a deft tumble, avoiding enemy attacks. Dodging near enemies fully recharges your Melee Ability."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
  },
  "2818140350": {
   "hash": 2818140350,
@@ -14208,6 +19109,35 @@
    ]
   }
  },
+ "2909720723": {
+  "hash": 2909720723,
+  "name": "Flashbang Grenade",
+  "type": "grenade",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "An explosive grenade that damages and blinds nearby targets.",
+    "secondary": "An explosive grenade that damages and blinds nearby targets."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
  "2919349723": {
   "hash": 2919349723,
   "name": "Shotgun Targeting",
@@ -14270,6 +19200,64 @@
   "linkedWith": 1015611457,
   "uploadedBy": "Fading Shadow",
   "importStatsFrom": 1015611457
+ },
+ "2934767476": {
+  "hash": 2934767476,
+  "name": "Shatterdive",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2934767477": {
+  "hash": 2934767477,
+  "name": "Winter's Shroud",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
  },
  "2938480696": {
   "hash": 2938480696,
@@ -14350,6 +19338,35 @@
   },
   "linkedWith": 987673306
  },
+ "2946990961": {
+  "hash": 2946990961,
+  "name": "Tripmine Grenade",
+  "type": "grenade",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "An explosive grenade that sticks to surfaces and detonates when targets pass through its laser trigger, dealing damage and moderately scorching them.",
+    "secondary": "An explosive grenade that sticks to surfaces and detonates when targets pass through its laser trigger, dealing damage and moderately scorching them."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
  "2951499542": {
   "hash": 2951499542,
   "name": "Beacons of Empowerment",
@@ -14418,6 +19435,93 @@
    }
   },
   "linkedWith": 344235611
+ },
+ "2979486801": {
+  "hash": 2979486801,
+  "name": "Phoenix Dive",
+  "type": "class",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Dive to the ground and create a burst of Solar Light that cures nearby allies.\n\nWhile Heat Rises is active, you gain restoration while diving and scorch targets upon landing.",
+    "secondary": "Dive to the ground and create a burst of Solar Light that cures nearby allies.\n\nWhile Heat Rises is active, you gain restoration while diving and scorch targets upon landing."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2979486802": {
+  "hash": 2979486802,
+  "name": "Empowering Rift",
+  "type": "class",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Conjure a well of power that increases weapon damage for those inside it.",
+    "secondary": "Conjure a well of power that increases weapon damage for those inside it."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2979486803": {
+  "hash": 2979486803,
+  "name": "Healing Rift",
+  "type": "class",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Conjure a well of power that continuously heals those inside it.",
+    "secondary": "Conjure a well of power that continuously heals those inside it."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
  },
  "2979726427": {
   "hash": 2979726427,
@@ -14566,6 +19670,93 @@
   "inLiveDatabase": false,
   "optional": false
  },
+ "2984351204": {
+  "hash": 2984351204,
+  "name": "Roaring Flames",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2984351205": {
+  "hash": 2984351205,
+  "name": "Sol Invictus",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2984351206": {
+  "hash": 2984351206,
+  "name": "Consecration",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
  "2988596335": {
   "hash": 2988596335,
   "name": "Alacrity",
@@ -14640,6 +19831,35 @@
     "secondary": "当你成为火力战队最后存活的成员或单刷时：\n\n可提高 20 填装速度、 20 稳定性、 10 瞄准辅助和 10 射程。"
    }
   }
+ },
+ "2994412667": {
+  "hash": 2994412667,
+  "name": "Lightning Grenade",
+  "type": "grenade",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "A grenade that sticks to any surface and emits bolts of lightning.",
+    "secondary": "A grenade that sticks to any surface and emits bolts of lightning."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
  },
  "3007133316": {
   "hash": 3007133316,
@@ -14898,6 +20118,93 @@
   "linkedWith": 1359896290,
   "importStatsFrom": 1359896290,
   "uploadedBy": "Fading Shadow"
+ },
+ "3066103996": {
+  "hash": 3066103996,
+  "name": "Gunpowder Gamble",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "3066103998": {
+  "hash": 3066103998,
+  "name": "Knock 'Em Down",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "3066103999": {
+  "hash": 3066103999,
+  "name": "On Your Mark",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
  },
  "3078487919": {
   "hash": 3078487919,
@@ -15421,6 +20728,35 @@
    ]
   }
  },
+ "3199702642": {
+  "hash": 3199702642,
+  "name": "Swarm Grenade",
+  "type": "grenade",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "A grenade that detonates on impact, releasing multiple drones that seek nearby targets. Each drone slightly scorches affected targets.",
+    "secondary": "A grenade that detonates on impact, releasing multiple drones that seek nearby targets. Each drone slightly scorches affected targets."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
  "3201496230": {
   "hash": 3201496230,
   "name": "Redirection",
@@ -15572,6 +20908,35 @@
    }
   ]
  },
+ "3232422679": {
+  "hash": 3232422679,
+  "name": "Axion Bolt",
+  "type": "grenade",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "A bolt of Void Light that forks on impact into smaller bolts that seek out targets.",
+    "secondary": "A bolt of Void Light that forks on impact into smaller bolts that seek out targets."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
  "3241194940": {
   "hash": 3241194940,
   "name": "Jump Jets",
@@ -15699,6 +21064,64 @@
    }
   }
  },
+ "3260056808": {
+  "hash": 3260056808,
+  "name": "Towering Barricade",
+  "type": "class",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Create a large barrier that can be used to reinforce a position with cover from enemy fire.",
+    "secondary": "Create a large barrier that can be used to reinforce a position with cover from enemy fire."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "3260056809": {
+  "hash": 3260056809,
+  "name": "Rally Barricade",
+  "type": "class",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Create a small barrier that you can peek over while aiming down sights and that increases weapon reload speed, stability, and range when you stand behind it.",
+    "secondary": "Create a small barrier that you can peek over while aiming down sights and that increases weapon reload speed, stability, and range when you stand behind it."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
  "3268255645": {
   "hash": 3268255645,
   "name": "Sect of Force",
@@ -15767,6 +21190,122 @@
    }
   },
   "linkedWith": 3979224005
+ },
+ "3277705904": {
+  "hash": 3277705904,
+  "name": "Spark of Volts",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "3277705905": {
+  "hash": 3277705905,
+  "name": "Spark of Brilliance",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "3277705906": {
+  "hash": 3277705906,
+  "name": "Spark of Amplitude",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "3277705907": {
+  "hash": 3277705907,
+  "name": "Spark of Feedback",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
  },
  "3295796664": {
   "hash": 3295796664,
@@ -16750,6 +22289,238 @@
    }
   }
  },
+ "3469412968": {
+  "hash": 3469412968,
+  "name": "Whisper of Refraction",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "3469412969": {
+  "hash": 3469412969,
+  "name": "Whisper of Durance",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "3469412970": {
+  "hash": 3469412970,
+  "name": "Whisper of Hedrons",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "3469412971": {
+  "hash": 3469412971,
+  "name": "Whisper of Fissures",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "3469412974": {
+  "hash": 3469412974,
+  "name": "Whisper of Bonds",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "3469412975": {
+  "hash": 3469412975,
+  "name": "Whisper of Shards",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "3492047640": {
+  "hash": 3492047640,
+  "name": "Empowering Rift",
+  "type": "class",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Conjure a well of power that increases weapon damage for those inside it.",
+    "secondary": "Conjure a well of power that increases weapon damage for those inside it."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "3492047641": {
+  "hash": 3492047641,
+  "name": "Healing Rift",
+  "type": "class",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Conjure a well of power that continuously heals those inside it.",
+    "secondary": "Conjure a well of power that continuously heals those inside it."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
  "3511092054": {
   "hash": 3511092054,
   "name": "Elemental Capacitor",
@@ -17079,6 +22850,93 @@
   },
   "linkedWith": 3300816228
  },
+ "3531427692": {
+  "hash": 3531427692,
+  "name": "Triple Jump",
+  "type": "movement",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "While airborne, sustain your air control with a second or third jump.",
+    "secondary": "While airborne, sustain your air control with a second or third jump."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "3531427694": {
+  "hash": 3531427694,
+  "name": "High Jump",
+  "type": "movement",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "While airborne, jump a second time to reach greater heights.",
+    "secondary": "While airborne, jump a second time to reach greater heights."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "3531427695": {
+  "hash": 3531427695,
+  "name": "Strafe Jump",
+  "type": "movement",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "While airborne, jump a second time with strong directional control.",
+    "secondary": "While airborne, jump a second time with strong directional control."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
  "3556461530": {
   "hash": 3556461530,
   "name": "Voltaic Mirror",
@@ -17320,6 +23178,93 @@
    "en": {
     "main": "",
     "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "3636300852": {
+  "hash": 3636300852,
+  "name": "Acrobat's Dodge",
+  "type": "class",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Dodge to perform an acrobatic leap. Upon landing, make yourself and nearby allies radiant.",
+    "secondary": "Dodge to perform an acrobatic leap. Upon landing, make yourself and nearby allies radiant."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "3636300854": {
+  "hash": 3636300854,
+  "name": "Marksman's Dodge",
+  "type": "class",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Dodge to perform an evasive maneuver with a steady hand. Dodging automatically reloads your weapon.",
+    "secondary": "Dodge to perform an evasive maneuver with a steady hand. Dodging automatically reloads your weapon."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "3636300855": {
+  "hash": 3636300855,
+  "name": "Gambler's Dodge",
+  "type": "class",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Dodge to perform a deft tumble, avoiding enemy attacks. Dodging near enemies fully recharges your Melee Ability.",
+    "secondary": "Dodge to perform a deft tumble, avoiding enemy attacks. Dodging near enemies fully recharges your Melee Ability."
    }
   },
   "updateTracker": {
@@ -17748,6 +23693,122 @@
     "main": "아군이 죽으면 25%의 직업 능력 에너지를 얻습니다.\n아군을 부활시키면 직업 능력 에너지를 완전히 돌려받습니다.\n\n궁극기를 시전하면 30미터 이내에 있는 아군들을 완전히 회복시킵니다.\n\n추가로 영겁 시리즈를 장착한 아군들은 20초 동안 110HP 짜리 보호막을 얻으며 3초 이후 재생됩니다."
    }
   }
+ },
+ "3683904166": {
+  "hash": 3683904166,
+  "name": "Winter's Wrath",
+  "type": "super",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Summon a [Stasis] Stasis staff. While your Super is active:\n\n[Super Primary]  : Cast out a barrage of [Stasis] Stasis shards that freeze targets.\n\n[Super Secondary]  : Cast out a shockwave that shatters all frozen targets.",
+    "secondary": "Summon a [Stasis] Stasis staff. While your Super is active:\n\n[Super Primary]  : Cast out a barrage of [Stasis] Stasis shards that freeze targets.\n\n[Super Secondary]  : Cast out a shockwave that shatters all frozen targets."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "3686638441": {
+  "hash": 3686638441,
+  "name": "Balanced Glide",
+  "type": "movement",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Jump while airborne to activate Glide and start an airborne drift with both moderate speed and directional control.",
+    "secondary": "Jump while airborne to activate Glide and start an airborne drift with both moderate speed and directional control."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "3686638442": {
+  "hash": 3686638442,
+  "name": "Burst Glide",
+  "type": "movement",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Jump while airborne to activate Glide and start an airborne drift with a strong initial boost of speed.",
+    "secondary": "Jump while airborne to activate Glide and start an airborne drift with a strong initial boost of speed."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "3686638443": {
+  "hash": 3686638443,
+  "name": "Strafe Glide",
+  "type": "movement",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Jump while airborne to activate Glide and start an airborne drift with strong directional control.",
+    "secondary": "Jump while airborne to activate Glide and start an airborne drift with strong directional control."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
  },
  "3700496672": {
   "hash": 3700496672,
@@ -18193,6 +24254,64 @@
   "uploadedBy": "Fading Shadow",
   "importStatsFrom": 1645158859
  },
+ "3769507632": {
+  "hash": 3769507632,
+  "name": "Gathering Storm",
+  "type": "super",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Hurl your Arc Staff forward, embedding it into surfaces or large targets and jolting nearby targets.\n\nAfter a short time, a devastating lightning bolt strikes the staff, overcharging it with Arc energy. While overcharged, your staff discharges lightning at nearby foes.",
+    "secondary": "Hurl your Arc Staff forward, embedding it into surfaces or large targets and jolting nearby targets.\n\nAfter a short time, a devastating lightning bolt strikes the staff, overcharging it with Arc energy. While overcharged, your staff discharges lightning at nearby foes."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "3769507633": {
+  "hash": 3769507633,
+  "name": "Arc Staff",
+  "type": "super",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Form a staff of pure Arc energy and acrobatically take out your foes.\n\n[Block] : Hold to deflect incoming projectiles with your Arc staff.",
+    "secondary": "Form a staff of pure Arc energy and acrobatically take out your foes.\n\n[Block] : Hold to deflect incoming projectiles with your Arc staff."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
  "3785661089": {
   "hash": 3785661089,
   "name": "Radar Booster",
@@ -18549,6 +24668,35 @@
    }
   },
   "linkedWith": 169755979
+ },
+ "3866705246": {
+  "hash": 3866705246,
+  "name": "Diamond Lance",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
  },
  "3878366039": {
   "hash": 3878366039,
@@ -18996,6 +25144,93 @@
    }
   }
  },
+ "3933525366": {
+  "hash": 3933525366,
+  "name": "Marksman's Dodge",
+  "type": "class",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Dodge to perform an evasive maneuver with a steady hand. Dodging automatically reloads your weapon.",
+    "secondary": "Dodge to perform an evasive maneuver with a steady hand. Dodging automatically reloads your weapon."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "3933525367": {
+  "hash": 3933525367,
+  "name": "Gambler's Dodge",
+  "type": "class",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Dodge to perform a deft tumble, avoiding enemy attacks. Dodging near enemies fully recharges your Melee Ability.",
+    "secondary": "Dodge to perform a deft tumble, avoiding enemy attacks. Dodging near enemies fully recharges your Melee Ability."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "3969294337": {
+  "hash": 3969294337,
+  "name": "Thermite Grenade",
+  "type": "grenade",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "A grenade that sends forth a burning line of fire, dealing damage and scorching targets in its path.",
+    "secondary": "A grenade that sends forth a burning line of fire, dealing damage and scorching targets in its path."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
  "3973928133": {
   "hash": 3973928133,
   "name": "Trace Rifle Ammo Finder",
@@ -19322,6 +25557,122 @@
     "secondary": "填装可在 6 秒内为此武器提供额外 40 操控性、 20% 退缩抗性。\n无法被刷新。收起武器时仍然有效，但不会将此效果共享给其他武器。"
    }
   }
+ },
+ "4016776972": {
+  "hash": 4016776972,
+  "name": "Knife Trick",
+  "type": "melee",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Throw a fan of flaming knives that scorch targets on hit.",
+    "secondary": "Throw a fan of flaming knives that scorch targets on hit."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "4016776973": {
+  "hash": 4016776973,
+  "name": "Proximity Explosive Knife",
+  "type": "melee",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Throw a knife that attaches to surfaces upon impact and explodes when it detects a nearby target.",
+    "secondary": "Throw a knife that attaches to surfaces upon impact and explodes when it detects a nearby target."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "4016776974": {
+  "hash": 4016776974,
+  "name": "Lightweight Knife",
+  "type": "melee",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Quickly throw a knife that deals moderate damage. Precision hits with this knife make you radiant for a short duration.",
+    "secondary": "Quickly throw a knife that deals moderate damage. Precision hits with this knife make you radiant for a short duration."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "4016776975": {
+  "hash": 4016776975,
+  "name": "Weighted Throwing Knife",
+  "type": "melee",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Throw a knife that deals extra precision damage and causes scorched targets to ignite.\n\nPrecision final blows with this knife immediately recharge your class ability.",
+    "secondary": "Throw a knife that deals extra precision damage and causes scorched targets to ignite.\n\nPrecision final blows with this knife immediately recharge your class ability."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
  },
  "4024170927": {
   "hash": 4024170927,
@@ -20029,6 +26380,93 @@
   ],
   "linkedWith": 3609952942
  },
+ "4154539168": {
+  "hash": 4154539168,
+  "name": "Burst Glide",
+  "type": "movement",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Jump while airborne to activate Glide and start an airborne drift with a strong initial boost of speed.",
+    "secondary": "Jump while airborne to activate Glide and start an airborne drift with a strong initial boost of speed."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "4154539169": {
+  "hash": 4154539169,
+  "name": "Strafe Glide",
+  "type": "movement",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Jump while airborne to activate Glide and start an airborne drift with strong directional control.",
+    "secondary": "Jump while airborne to activate Glide and start an airborne drift with strong directional control."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "4154539171": {
+  "hash": 4154539171,
+  "name": "Balanced Glide",
+  "type": "movement",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Jump while airborne to activate Glide and start an airborne drift with both moderate speed and directional control.",
+    "secondary": "Jump while airborne to activate Glide and start an airborne drift with both moderate speed and directional control."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
  "4154828211": {
   "hash": 4154828211,
   "name": "Bitterspite",
@@ -20133,6 +26571,35 @@
   "linkedWith": 2590710093,
   "uploadedBy": "Fading Shadow"
  },
+ "4184589900": {
+  "hash": 4184589900,
+  "name": "Touch of Winter",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
  "4190535237": {
   "hash": 4190535237,
   "name": "Ursine Guard",
@@ -20163,6 +26630,122 @@
     "secondary": "Move forward at 90% your speed while blocking with Sentinel Shield.\r\n\r\nConverts incoming damage into Super Energy after Super ends, up to 50%.\r\n\r\nOvershields prevent damage into Super Energy conversion so don't stand in a Well of Radiance.\r\n"
    }
   }
+ },
+ "4194622036": {
+  "hash": 4194622036,
+  "name": "Flow State",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "4194622037": {
+  "hash": 4194622037,
+  "name": "Tempest Strike",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "4194622038": {
+  "hash": 4194622038,
+  "name": "Lethal Current",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "4198689901": {
+  "hash": 4198689901,
+  "name": "Flux Grenade",
+  "type": "grenade",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "An explosive grenade that attaches to targets.",
+    "secondary": "An explosive grenade that attaches to targets."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
  },
  "4200236906": {
   "hash": 4200236906,
@@ -20233,6 +26816,64 @@
    "en": {
     "main": "",
     "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "4220332374": {
+  "hash": 4220332374,
+  "name": "Shield Throw",
+  "type": "melee",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Hurl your Void Shield toward a target. The shield can ricochet off targets and surfaces, granting Overshield for each target hit.",
+    "secondary": "Hurl your Void Shield toward a target. The shield can ricochet off targets and surfaces, granting Overshield for each target hit."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "4220332375": {
+  "hash": 4220332375,
+  "name": "Shield Bash",
+  "type": "melee",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "After sprinting for a short time, use this melee ability to unleash a devastating Shield Bash that suppresses the target. Final blows with Shield Bash grant an Overshield.",
+    "secondary": "After sprinting for a short time, use this melee ability to unleash a devastating Shield Bash that suppresses the target. Final blows with Shield Bash grant an Overshield."
    }
   },
   "updateTracker": {
@@ -20423,6 +27064,64 @@
    }
   ],
   "linkedWith": 706172244
+ },
+ "4260353952": {
+  "hash": 4260353952,
+  "name": "Sentinel Shield",
+  "type": "super",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "[Super]  : Summon a shield of Void Light. \nWhile Sentinel Shield is active:\n[Light Attack]  : Attack.\n[Block]  : Block.\n[Grenade]  : Perform a Shield Throw.\n\nGuard with Sentinel Shield to create a defensive wall. Allies who shoot through the wall have increased weapon damage, and guarding allies makes the shield last longer.",
+    "secondary": "[Super]  : Summon a shield of Void Light. \nWhile Sentinel Shield is active:\n[Light Attack]  : Attack.\n[Block]  : Block.\n[Grenade]  : Perform a Shield Throw.\n\nGuard with Sentinel Shield to create a defensive wall. Allies who shoot through the wall have increased weapon damage, and guarding allies makes the shield last longer."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "4260353953": {
+  "hash": 4260353953,
+  "name": "Ward of Dawn",
+  "type": "super",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "Create an indestructible dome to protect you and your allies. Passing through Ward of Dawn grants you and your allies a temporary increase to weapon damage.",
+    "secondary": "Create an indestructible dome to protect you and your allies. Passing through Ward of Dawn grants you and your allies a temporary increase to weapon damage."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
  },
  "4267945040": {
   "hash": 4267945040,
