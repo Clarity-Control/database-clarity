@@ -3,7 +3,7 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1667594001904,
+  "lastUpload": 1667594695704,
   "uploadedBy": "Fading Shadow",
   "editor": {
    "en": {
@@ -305,22 +305,14 @@
    "handling": [
     {
      "active": {
-      "stat": [
-       20
-      ]
+      "stat": [ 20 ]
      }
     }
    ],
    "damage": [
     {
      "active": {
-      "multiplier": [
-       1.067,
-       1.133,
-       1.2,
-       1.266,
-       1.333
-      ]
+      "multiplier": [ 1.067, 1.133, 1.2, 1.266, 1.333 ]
      }
     }
    ]
@@ -575,18 +567,14 @@
    "aimAssist": [
     {
      "active": {
-      "stat": [
-       20
-      ]
+      "stat": [ 20 ]
      }
     }
    ],
    "range": [
     {
      "active": {
-      "stat": [
-       25
-      ]
+      "stat": [ 25 ]
      }
     }
    ]
@@ -1167,9 +1155,7 @@
    "rateOfFire": [
     {
      "active": {
-      "multiplier": [
-       0.75
-      ]
+      "multiplier": [ 0.75 ]
      }
     }
    ]
@@ -1207,14 +1193,8 @@
    "reload": [
     {
      "active": {
-      "stat": [
-       50,
-       100
-      ],
-      "multiplier": [
-       0.95,
-       0.9
-      ]
+      "stat": [ 50, 100 ],
+      "multiplier": [ 0.95, 0.9 ]
      }
     }
    ]
@@ -1301,9 +1281,7 @@
    "airborne": [
     {
      "passive": {
-      "stat": [
-       20
-      ]
+      "stat": [ 20 ]
      }
     }
    ]
@@ -1404,33 +1382,15 @@
    "reload": [
     {
      "active": {
-      "stat": [
-       5,
-       30,
-       35,
-       45,
-       60
-      ],
-      "multiplier": [
-       0.985,
-       0.97,
-       0.955,
-       0.94,
-       0.925
-      ]
+      "stat": [ 5, 30, 35, 45, 60 ],
+      "multiplier": [ 0.985, 0.97, 0.955, 0.94, 0.925 ]
      }
     }
    ],
    "stability": [
     {
      "active": {
-      "stat": [
-       2,
-       12,
-       14,
-       18,
-       25
-      ]
+      "stat": [ 2, 12, 14, 18, 25 ]
      }
     }
    ]
@@ -1511,38 +1471,26 @@
    "handling": [
     {
      "active": {
-      "stat": [
-       15
-      ]
+      "stat": [ 15 ]
      },
-     "weaponTypes": [
-      "fusion rifle"
-     ]
+     "weaponTypes": [ "fusion rifle" ]
     },
     {
      "active": {
-      "stat": [
-       30
-      ]
+      "stat": [ 30 ]
      }
     }
    ],
    "stability": [
     {
      "active": {
-      "stat": [
-       10
-      ]
+      "stat": [ 10 ]
      },
-     "weaponTypes": [
-      "fusion rifle"
-     ]
+     "weaponTypes": [ "fusion rifle" ]
     },
     {
      "active": {
-      "stat": [
-       20
-      ]
+      "stat": [ 20 ]
      }
     }
    ]
@@ -1690,9 +1638,7 @@
    "damage": [
     {
      "active": {
-      "multiplier": [
-       1.15
-      ]
+      "multiplier": [ 1.15 ]
      }
     }
    ]
@@ -2196,18 +2142,14 @@
    "handling": [
     {
      "active": {
-      "stat": [
-       15
-      ]
+      "stat": [ 15 ]
      }
     }
    ],
    "damage": [
     {
      "active": {
-      "multiplier": [
-       1.2
-      ]
+      "multiplier": [ 1.2 ]
      }
     }
    ]
@@ -2246,19 +2188,14 @@
    "handling": [
     {
      "active": {
-      "stat": [
-       100
-      ]
+      "stat": [ 100 ]
      }
     }
    ],
    "damage": [
     {
      "active": {
-      "multiplier": [
-       5,
-       2
-      ]
+      "multiplier": [ 5, 2 ]
      }
     }
    ]
@@ -2297,9 +2234,7 @@
    "damage": [
     {
      "active": {
-      "multiplier": [
-       1.08
-      ]
+      "multiplier": [ 1.08 ]
      }
     }
    ]
@@ -2471,8 +2406,8 @@
   "itemHash": 475652357,
   "itemName": "Young Ahamkara's Spine",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881742,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667594695704,
   "inLiveDatabase": false,
   "uploadToLive": false,
   "optional": false,
@@ -2484,15 +2419,15 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881742,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667594594498,
+     "updatedBy": "Fading Shadow"
     }
    }
   },
   "editor": {
    "en": {
-    "main": "Tripmine Grenades are enhanced and have Fastball intrinsically.\n\nEnhanced Tripmine Grenades\n14% increased damage from explosion.\nX% Bigger Radius, with no Damage Falloff.\nLast 30 seconds (10 -> 30) and have <pvp 100HP /> with 50% Damage Resist.\nRemoves self-damage from Tripmine Grenades.\n\nAbility Damage recharges 33% of Grenade Ability.",
-    "secondary": "Tripmine Grenades are enhanced and have Fastball intrinsically.\r\n\r\nEnhanced Tripmine Grenades\r\n14% increased damage from explosion.\r\nX% Bigger Radius, with no Damage Falloff.\r\nLast 30 seconds (10 -> 30) and have 100HP with 50% Damage Resist in PVP.\r\nRemoves self-damage from Tripmine Grenades.\r\n\r\nAbility Damage recharges 33% of Grenade Ability."
+    "main": "Intrinsically grants Fastball, even on non-Tripmine Grenades\n\nEnhanced Tripmine Grenade:\n • 14% Increased Explosion Damage. Explosion Length and Width are increased to 14 metres.\n • Explosion no longer deals self-damage and has no damage falloff.\n • Lasts 30 seconds. (10s -> 30s)\n • Increases Tripmine Durability to 100 HP with 50% Damage Resist.\n\n<solar/>Solar Ability Damage recharges 33% of Tripmine Grenade Ability. \n<yellow/>Ember of Ashes allows each Tripmine to count as 2 instances of Solar Ability Damage. ",
+    "secondary": "Intrinsically grants Fastball, even on non-Tripmine Grenades\n\nEnhanced Tripmine Grenade:\n • 14% Increased Explosion Damage. Explosion Length and Width are increased to 14 metres.\n • Explosion no longer deals self-damage and has no damage falloff.\n • Lasts 30 seconds. (10s -> 30s)\n • Increases Tripmine Durability to 100 HP with 50% Damage Resist.\n\nSolar Ability Damage recharges 33% of Tripmine Grenade Ability. \nEmber of Ashes allows each Tripmine to count as 2 instances of Solar Ability Damage."
    }
   }
  },
@@ -2524,37 +2459,25 @@
    "handling": [
     {
      "passive": {
-      "stat": [
-       100
-      ]
+      "stat": [ 100 ]
      },
-     "weaponTypes": [
-      "sidearm"
-     ]
+     "weaponTypes": [ "sidearm" ]
     }
    ],
    "airborne": [
     {
      "passive": {
-      "stat": [
-       50
-      ]
+      "stat": [ 50 ]
      },
-     "weaponTypes": [
-      "sidearm"
-     ]
+     "weaponTypes": [ "sidearm" ]
     }
    ],
    "reload": [
     {
      "active": {
-      "stat": [
-       100
-      ]
+      "stat": [ 100 ]
      },
-     "weaponTypes": [
-      "sidearm"
-     ]
+     "weaponTypes": [ "sidearm" ]
     }
    ]
   },
@@ -2685,12 +2608,8 @@
    "handling": [
     {
      "active": {
-      "stat": [
-       100
-      ],
-      "multiplier": [
-       0.825
-      ]
+      "stat": [ 100 ],
+      "multiplier": [ 0.825 ]
      }
     }
    ]
@@ -2819,14 +2738,7 @@
    "damage": [
     {
      "active": {
-      "multiplier": [
-       1.1,
-       1.2,
-       1.3,
-       1.05,
-       1.1,
-       1.15
-      ]
+      "multiplier": [ 1.1, 1.2, 1.3, 1.05, 1.1, 1.15 ]
      }
     }
    ]
@@ -2900,13 +2812,9 @@
    "airborne": [
     {
      "passive": {
-      "stat": [
-       30
-      ]
+      "stat": [ 30 ]
      },
-     "weaponTypes": [
-      "shotgun"
-     ]
+     "weaponTypes": [ "shotgun" ]
     }
    ]
   }
@@ -2972,9 +2880,7 @@
    "aimAssist": [
     {
      "active": {
-      "stat": [
-       10
-      ]
+      "stat": [ 10 ]
      }
     }
    ]
@@ -3058,36 +2964,28 @@
    "reload": [
     {
      "active": {
-      "stat": [
-       100
-      ]
+      "stat": [ 100 ]
      }
     }
    ],
    "handling": [
     {
      "active": {
-      "stat": [
-       100
-      ]
+      "stat": [ 100 ]
      }
     }
    ],
    "ready": [
     {
      "active": {
-      "multiplier": [
-       0.95
-      ]
+      "multiplier": [ 0.95 ]
      }
     }
    ],
    "stow": [
     {
      "active": {
-      "multiplier": [
-       0.95
-      ]
+      "multiplier": [ 0.95 ]
      }
     }
    ]
@@ -3199,12 +3097,8 @@
    "reload": [
     {
      "active": {
-      "multiplier": [
-       0.95
-      ],
-      "stat": [
-       55
-      ]
+      "multiplier": [ 0.95 ],
+      "stat": [ 55 ]
      }
     }
    ]
@@ -3565,12 +3459,8 @@
    "reload": [
     {
      "active": {
-      "multiplier": [
-       0.95
-      ],
-      "stat": [
-       50
-      ]
+      "multiplier": [ 0.95 ],
+      "stat": [ 50 ]
      }
     }
    ]
@@ -3610,18 +3500,14 @@
    "damage": [
     {
      "passive": {
-      "multiplier": [
-       0.98
-      ]
+      "multiplier": [ 0.98 ]
      }
     }
    ],
    "rateOfFire": [
     {
      "passive": {
-      "stat": [
-       -40
-      ]
+      "stat": [ -40 ]
      }
     }
    ]
@@ -3672,9 +3558,7 @@
    "handling": [
     {
      "active": {
-      "stat": [
-       35
-      ]
+      "stat": [ 35 ]
      }
     }
    ]
@@ -3739,9 +3623,7 @@
    "handling": [
     {
      "active": {
-      "stat": [
-       30
-      ]
+      "stat": [ 30 ]
      }
     }
    ]
@@ -3849,24 +3731,16 @@
    "stow": [
     {
      "active": {
-      "stat": [
-       100
-      ],
-      "multiplier": [
-       0.95
-      ]
+      "stat": [ 100 ],
+      "multiplier": [ 0.95 ]
      }
     }
    ],
    "ready": [
     {
      "active": {
-      "stat": [
-       100
-      ],
-      "multiplier": [
-       0.95
-      ]
+      "stat": [ 100 ],
+      "multiplier": [ 0.95 ]
      }
     }
    ]
@@ -4045,9 +3919,7 @@
    "ready": [
     {
      "passive": {
-      "multiplier": [
-       0.95
-      ]
+      "multiplier": [ 0.95 ]
      }
     }
    ]
@@ -4116,30 +3988,21 @@
    "range": [
     {
      "active": {
-      "stat": [
-       10,
-       20
-      ]
+      "stat": [ 10, 20 ]
      }
     }
    ],
    "handling": [
     {
      "active": {
-      "stat": [
-       10,
-       20
-      ]
+      "stat": [ 10, 20 ]
      }
     }
    ],
    "stability": [
     {
      "active": {
-      "stat": [
-       10,
-       20
-      ]
+      "stat": [ 10, 20 ]
      }
     }
    ]
@@ -4182,9 +4045,7 @@
    "chargeDraw": [
     {
      "passive": {
-      "stat": [
-       -40
-      ]
+      "stat": [ -40 ]
      }
     }
    ]
@@ -4330,19 +4191,13 @@
    "damage": [
     {
      "active": {
-      "multiplier": [
-       26.25
-      ]
+      "multiplier": [ 26.25 ]
      },
-     "weaponTypes": [
-      "sword"
-     ]
+     "weaponTypes": [ "sword" ]
     },
     {
      "active": {
-      "multiplier": [
-       31.5
-      ]
+      "multiplier": [ 31.5 ]
      }
     }
    ]
@@ -4407,18 +4262,14 @@
    "handling": [
     {
      "active": {
-      "stat": [
-       30
-      ]
+      "stat": [ 30 ]
      }
     }
    ],
    "damage": [
     {
      "active": {
-      "multiplier": [
-       1.5
-      ]
+      "multiplier": [ 1.5 ]
      }
     }
    ]
@@ -4462,9 +4313,7 @@
    "damage": [
     {
      "active": {
-      "multiplier": [
-       1.67
-      ]
+      "multiplier": [ 1.67 ]
      }
     }
    ]
@@ -5265,12 +5114,8 @@
    "reload": [
     {
      "passive": {
-      "stat": [
-       10
-      ],
-      "multiplier": [
-       0.8
-      ]
+      "stat": [ 10 ],
+      "multiplier": [ 0.8 ]
      }
     }
    ]
@@ -5369,18 +5214,14 @@
    "handling": [
     {
      "active": {
-      "stat": [
-       50
-      ]
+      "stat": [ 50 ]
      }
     }
    ],
    "stow": [
     {
      "active": {
-      "multiplier": [
-       0.95
-      ]
+      "multiplier": [ 0.95 ]
      }
     }
    ]
@@ -5423,9 +5264,7 @@
    "damage": [
     {
      "active": {
-      "multiplier": [
-       1.0777
-      ]
+      "multiplier": [ 1.0777 ]
      }
     }
    ]
@@ -5566,9 +5405,7 @@
    "damage": [
     {
      "active": {
-      "multiplier": [
-       1.33
-      ]
+      "multiplier": [ 1.33 ]
      }
     }
    ]
@@ -5941,9 +5778,7 @@
    "range": [
     {
      "passive": {
-      "multiplier": [
-       1.1
-      ]
+      "multiplier": [ 1.1 ]
      }
     }
    ]
@@ -6044,18 +5879,14 @@
    "handling": [
     {
      "passive": {
-      "stat": [
-       35
-      ]
+      "stat": [ 35 ]
      }
     }
    ],
    "reload": [
     {
      "passive": {
-      "stat": [
-       35
-      ]
+      "stat": [ 35 ]
      }
     }
    ]
@@ -6338,12 +6169,8 @@
    "reload": [
     {
      "active": {
-      "stat": [
-       70
-      ],
-      "multiplier": [
-       0.9
-      ]
+      "stat": [ 70 ],
+      "multiplier": [ 0.9 ]
      }
     }
    ]
@@ -6477,20 +6304,14 @@
    "range": [
     {
      "active": {
-      "stat": [
-       10,
-       20,
-       30
-      ]
+      "stat": [ 10, 20, 30 ]
      }
     }
    ],
    "stability": [
     {
      "active": {
-      "stat": [
-       30
-      ]
+      "stat": [ 30 ]
      }
     }
    ]
@@ -6859,9 +6680,7 @@
    "handling": [
     {
      "active": {
-      "stat": [
-       30
-      ]
+      "stat": [ 30 ]
      }
     }
    ]
@@ -6897,27 +6716,21 @@
    "reload": [
     {
      "active": {
-      "stat": [
-       100
-      ]
+      "stat": [ 100 ]
      }
     }
    ],
    "handling": [
     {
      "active": {
-      "stat": [
-       100
-      ]
+      "stat": [ 100 ]
      }
     }
    ],
    "aimAssist": [
     {
      "active": {
-      "stat": [
-       100
-      ]
+      "stat": [ 100 ]
      }
     }
    ]
@@ -7234,9 +7047,7 @@
    "stability": [
     {
      "active": {
-      "stat": [
-       10
-      ]
+      "stat": [ 10 ]
      }
     }
    ]
@@ -7281,27 +7092,15 @@
    "damage": [
     {
      "active": {
-      "multiplier": [
-       1.2
-      ]
+      "multiplier": [ 1.2 ]
      },
-     "weaponTypes": [
-      "combat bow",
-      "hand cannon"
-     ]
+     "weaponTypes": [ "combat bow", "hand cannon" ]
     },
     {
      "active": {
-      "multiplier": [
-       1.1
-      ]
+      "multiplier": [ 1.1 ]
      },
-     "weaponTypes": [
-      "auto rifle",
-      "pulse rifle",
-      "sidearm",
-      "submachine gun"
-     ]
+     "weaponTypes": [ "auto rifle", "pulse rifle", "sidearm", "submachine gun" ]
     }
    ]
   }
@@ -7338,18 +7137,14 @@
    "aimAssist": [
     {
      "active": {
-      "stat": [
-       25
-      ]
+      "stat": [ 25 ]
      }
     }
    ],
    "range": [
     {
      "active": {
-      "stat": [
-       30
-      ]
+      "stat": [ 30 ]
      }
     }
    ]
@@ -7499,9 +7294,7 @@
    "damage": [
     {
      "active": {
-      "multiplier": [
-       1.25
-      ]
+      "multiplier": [ 1.25 ]
      }
     }
    ]
@@ -7547,30 +7340,21 @@
    "reload": [
     {
      "active": {
-      "stat": [
-       5,
-       15
-      ]
+      "stat": [ 5, 15 ]
      }
     }
    ],
    "handling": [
     {
      "active": {
-      "stat": [
-       5,
-       15
-      ]
+      "stat": [ 5, 15 ]
      }
     }
    ],
    "stability": [
     {
      "active": {
-      "stat": [
-       5,
-       15
-      ]
+      "stat": [ 5, 15 ]
      }
     }
    ]
@@ -7617,9 +7401,7 @@
    "reload": [
     {
      "active": {
-      "multiplier": [
-       0.85
-      ]
+      "multiplier": [ 0.85 ]
      }
     }
    ]
@@ -7704,25 +7486,17 @@
    "chargeDraw": [
     {
      "active": {
-      "stat": [
-       -30
-      ]
+      "stat": [ -30 ]
      },
-     "weaponTypes": [
-      "combat bow"
-     ]
+     "weaponTypes": [ "combat bow" ]
     }
    ],
    "airborne": [
     {
      "passive": {
-      "stat": [
-       40
-      ]
+      "stat": [ 40 ]
      },
-     "weaponTypes": [
-      "combat bow"
-     ]
+     "weaponTypes": [ "combat bow" ]
     }
    ]
   }
@@ -8082,9 +7856,7 @@
    "damage": [
     {
      "active": {
-      "multiplier": [
-       1.1
-      ]
+      "multiplier": [ 1.1 ]
      }
     }
    ]
@@ -8600,10 +8372,7 @@
    "stability": [
     {
      "active": {
-      "stat": [
-       15,
-       30
-      ]
+      "stat": [ 15, 30 ]
      }
     }
    ]
@@ -8671,42 +8440,30 @@
    "range": [
     {
      "active": {
-      "stat": [
-       10
-      ],
-      "multiplier": [
-       1.05
-      ]
+      "stat": [ 10 ],
+      "multiplier": [ 1.05 ]
      }
     }
    ],
    "reload": [
     {
      "active": {
-      "stat": [
-       35
-      ],
-      "multiplier": [
-       0.95
-      ]
+      "stat": [ 35 ],
+      "multiplier": [ 0.95 ]
      }
     }
    ],
    "handling": [
     {
      "active": {
-      "stat": [
-       35
-      ]
+      "stat": [ 35 ]
      }
     }
    ],
    "stability": [
     {
      "active": {
-      "stat": [
-       10
-      ]
+      "stat": [ 10 ]
      }
     }
    ]
@@ -8812,27 +8569,21 @@
    "handling": [
     {
      "active": {
-      "stat": [
-       100
-      ]
+      "stat": [ 100 ]
      }
     }
    ],
    "damage": [
     {
      "active": {
-      "multiplier": [
-       0.8
-      ]
+      "multiplier": [ 0.8 ]
      }
     }
    ],
    "rateOfFire": [
     {
      "active": {
-      "multiplier": [
-       0.7
-      ]
+      "multiplier": [ 0.7 ]
      }
     }
    ]
@@ -9005,10 +8756,7 @@
    "stability": [
     {
      "active": {
-      "stat": [
-       15,
-       30
-      ]
+      "stat": [ 15, 30 ]
      }
     }
    ]
@@ -9240,9 +8988,7 @@
    "airborne": [
     {
      "passive": {
-      "stat": [
-       20
-      ]
+      "stat": [ 20 ]
      }
     }
    ]
@@ -9327,13 +9073,9 @@
    "airborne": [
     {
      "passive": {
-      "stat": [
-       30
-      ]
+      "stat": [ 30 ]
      },
-     "weaponTypes": [
-      "auto rifle"
-     ]
+     "weaponTypes": [ "auto rifle" ]
     }
    ]
   }
@@ -9424,9 +9166,7 @@
    "damage": [
     {
      "active": {
-      "multiplier": [
-       1.3
-      ]
+      "multiplier": [ 1.3 ]
      }
     }
    ]
@@ -9465,18 +9205,14 @@
    "damage": [
     {
      "passive": {
-      "multiplier": [
-       1.02
-      ]
+      "multiplier": [ 1.02 ]
      }
     }
    ],
    "rateOfFire": [
     {
      "passive": {
-      "stat": [
-       40
-      ]
+      "stat": [ 40 ]
      }
     }
    ]
@@ -9520,46 +9256,25 @@
    "damage": [
     {
      "active": {
-      "multiplier": [
-       1.6,
-       2.2,
-       2.8,
-       3.4,
-       4,
-       4.6,
-       5.2,
-       5.8,
-       6.4,
-       7
-      ]
+      "multiplier": [ 1.6, 2.2, 2.8, 3.4, 4, 4.6, 5.2, 5.8, 6.4, 7 ]
      }
     }
    ],
    "airborne": [
     {
      "passive": {
-      "stat": [
-       20
-      ]
+      "stat": [ 20 ]
      },
-     "weaponTypes": [
-      "hand cannon"
-     ]
+     "weaponTypes": [ "hand cannon" ]
     }
    ],
    "ready": [
     {
      "passive": {
-      "multiplier": [
-       0.6
-      ],
-      "stat": [
-       100
-      ]
+      "multiplier": [ 0.6 ],
+      "stat": [ 100 ]
      },
-     "weaponTypes": [
-      "hand cannon"
-     ]
+     "weaponTypes": [ "hand cannon" ]
     }
    ]
   },
@@ -9610,29 +9325,38 @@
   "itemHash": 193869520,
   "itemName": "St0mp-EE5",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881743,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667594695704,
   "inLiveDatabase": false,
   "uploadToLive": false,
   "optional": false,
   "hidden": false,
   "updateTracker": {
    "stats": {
-    "lastUpdate": 1658513881743,
-    "undatedBy": "Fading-Shadow"
+    "lastUpdate": 1667594213132,
+    "updatedBy": "Fading Shadow"
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881743,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667594400123,
+     "updatedBy": "Fading Shadow"
     }
    }
   },
   "editor": {
    "en": {
-    "main": "Passively grants -50 Airborne Effectiveness\nIncreases Sprint Speed by 6.25%.\nIncreases Slide Distance by 33%.\n\nIncreased Jump Height:\n< table >\n| Jump                 | meters  | % higher\n| High                 | 9 🠚 12 | 33% <background/>\n|                      \n| Strafe               | 8 🠚 9  | 10% \n|                      \n| Triple (First Jump)  | 6 🠚 7  | 16% <background/>\n| Triple (Second Jump) | 9 🠚 11 | 22% <background/>\n<$>",
-    "secondary": "Passively grants -50 Airborne Effectiveness\r\nIncreases Sprint Speed by 6.25%.\r\nIncreases Slide Distance by 33%.\r\n\r\nIncreased Jump Height:\r\nHigh Jump = 9 meters -> 12 meters (33% higher)\r\n\r\nStrafe Jump = 8 meters -> 9 meters (10% higher)\r\n\r\nTriple Jump = 6 meters -> 7 meters for First Jump (16% higher)\r\n9 meters -> 11 meters for Second Jump (22% higher)"
+    "main": "Passively grants -50 Airborne Effectiveness.\n\nIncreases Sprint Speed by 6.25%.\nIncreases Slide Distance by 33%.\n\n< table background_2 >\n|b Jump Ability         |b Jump Height |bc % Increase\n| High Jump                 | 9m 🠚 12m   |c 33%\n| Strafe Jump               | 8m 🠚 9m    |c 10%\n| Triple Jump (First Jump)  | 6m 🠚 7m    |c 16%\n| Triple Jump (Second Jump) | 9m🠚 11m    |c 22%\n<$>",
+    "secondary": "Passively grants -50 Airborne Effectiveness.\n\nIncreases Sprint Speed by 6.25%.\nIncreases Slide Distance by 33%.\n\nJump Height Increase:\n• High Jump: 9m -> 12m (33% higher)\n• Strafe Jump: 8m -> 9m (10% higher)\n• Triple Jump:\n    • 6m -> 7m for First Jump (16% higher)<breakSpaces/>\n    • 9m -> 11m for Second Jump (22% higher)<breakSpaces/>"
    }
+  },
+  "stats": {
+   "airborne": [
+    {
+     "passive": {
+      "stat": [ -50 ]
+     }
+    }
+   ]
   }
  },
  "1698387812": {
@@ -9996,18 +9720,14 @@
    "damage": [
     {
      "active": {
-      "multiplier": [
-       1.2
-      ]
+      "multiplier": [ 1.2 ]
      }
     }
    ],
    "rateOfFire": [
     {
      "active": {
-      "multiplier": [
-       0.8
-      ]
+      "multiplier": [ 0.8 ]
      }
     }
    ]
@@ -10046,9 +9766,7 @@
    "damage": [
     {
      "active": {
-      "multiplier": [
-       1.2
-      ]
+      "multiplier": [ 1.2 ]
      }
     }
    ]
@@ -10131,9 +9849,7 @@
    "rateOfFire": [
     {
      "active": {
-      "multiplier": [
-       0.85
-      ]
+      "multiplier": [ 0.85 ]
      }
     }
    ]
@@ -10201,18 +9917,14 @@
    "handling": [
     {
      "active": {
-      "stat": [
-       100
-      ]
+      "stat": [ 100 ]
      }
     }
    ],
    "ready": [
     {
      "active": {
-      "multiplier": [
-       0.95
-      ]
+      "multiplier": [ 0.95 ]
      }
     }
    ]
@@ -10290,9 +10002,7 @@
    "damage": [
     {
      "active": {
-      "multiplier": [
-       1.466
-      ]
+      "multiplier": [ 1.466 ]
      }
     }
    ]
@@ -10384,39 +10094,27 @@
    "stability": [
     {
      "active": {
-      "stat": [
-       30
-      ]
+      "stat": [ 30 ]
      }
     }
    ],
    "aimAssist": [
     {
      "active": {
-      "stat": [
-       15
-      ]
+      "stat": [ 15 ]
      }
     }
    ],
    "range": [
     {
      "active": {
-      "multiplier": [
-       1
-      ]
+      "multiplier": [ 1 ]
      },
-     "weaponTypes": [
-      "fusion rifle",
-      "shotgun",
-      "sniper rifle"
-     ]
+     "weaponTypes": [ "fusion rifle", "shotgun", "sniper rifle" ]
     },
     {
      "active": {
-      "multiplier": [
-       1.2
-      ]
+      "multiplier": [ 1.2 ]
      }
     }
    ]
@@ -10510,13 +10208,9 @@
    "rateOfFire": [
     {
      "passive": {
-      "stat": [
-       -40
-      ]
+      "stat": [ -40 ]
      },
-     "weaponTypes": [
-      "combat bow"
-     ]
+     "weaponTypes": [ "combat bow" ]
     }
    ]
   }
@@ -10593,10 +10287,7 @@
    "stability": [
     {
      "active": {
-      "stat": [
-       40,
-       10
-      ]
+      "stat": [ 40, 10 ]
      }
     }
    ]
@@ -10902,9 +10593,7 @@
    "damage": [
     {
      "active": {
-      "multiplier": [
-       1.05
-      ]
+      "multiplier": [ 1.05 ]
      }
     }
    ]
@@ -11209,18 +10898,14 @@
    "handling": [
     {
      "active": {
-      "stat": [
-       20
-      ]
+      "stat": [ 20 ]
      }
     }
    ],
    "stability": [
     {
      "active": {
-      "stat": [
-       20
-      ]
+      "stat": [ 20 ]
      }
     }
    ]
@@ -11363,13 +11048,9 @@
    "rateOfFire": [
     {
      "passive": {
-      "multiplier": [
-       1.1
-      ]
+      "multiplier": [ 1.1 ]
      },
-     "weaponTypes": [
-      "shotgun"
-     ]
+     "weaponTypes": [ "shotgun" ]
     }
    ]
   }
@@ -11406,9 +11087,7 @@
    "reload": [
     {
      "active": {
-      "stat": [
-       100
-      ]
+      "stat": [ 100 ]
      }
     }
    ]
@@ -11516,33 +11195,21 @@
    "handling": [
     {
      "active": {
-      "stat": [
-       10,
-       20,
-       30
-      ]
+      "stat": [ 10, 20, 30 ]
      }
     }
    ],
    "reload": [
     {
      "active": {
-      "stat": [
-       10,
-       20,
-       30
-      ]
+      "stat": [ 10, 20, 30 ]
      }
     }
    ],
    "stability": [
     {
      "active": {
-      "stat": [
-       10,
-       20,
-       30
-      ]
+      "stat": [ 10, 20, 30 ]
      }
     }
    ]
@@ -11992,9 +11659,7 @@
    "damage": [
     {
      "active": {
-      "multiplier": [
-       1.3
-      ]
+      "multiplier": [ 1.3 ]
      }
     }
    ]
@@ -12603,18 +12268,14 @@
    "handling": [
     {
      "active": {
-      "stat": [
-       25
-      ]
+      "stat": [ 25 ]
      }
     }
    ],
    "stability": [
     {
      "active": {
-      "stat": [
-       25
-      ]
+      "stat": [ 25 ]
      }
     }
    ]
@@ -12745,21 +12406,15 @@
    "range": [
     {
      "active": {
-      "stat": [
-       20
-      ],
-      "multiplier": [
-       1.05
-      ]
+      "stat": [ 20 ],
+      "multiplier": [ 1.05 ]
      }
     }
    ],
    "handling": [
     {
      "active": {
-      "stat": [
-       40
-      ]
+      "stat": [ 40 ]
      }
     }
    ]
@@ -12798,9 +12453,7 @@
    "range": [
     {
      "active": {
-      "stat": [
-       20
-      ]
+      "stat": [ 20 ]
      }
     }
    ]
@@ -12839,11 +12492,7 @@
    "damage": [
     {
      "active": {
-      "multiplier": [
-       1.17,
-       1.33,
-       1.5
-      ]
+      "multiplier": [ 1.17, 1.33, 1.5 ]
      }
     }
    ]
@@ -12984,18 +12633,14 @@
    "handling": [
     {
      "active": {
-      "stat": [
-       35
-      ]
+      "stat": [ 35 ]
      }
     }
    ],
    "reload": [
     {
      "active": {
-      "stat": [
-       45
-      ]
+      "stat": [ 45 ]
      }
     }
    ]
@@ -13094,16 +12739,7 @@
    "damage": [
     {
      "active": {
-      "multiplier": [
-       1.2,
-       1.25,
-       1.35,
-       1.4,
-       1.15,
-       1.25,
-       1.2,
-       1.35
-      ]
+      "multiplier": [ 1.2, 1.25, 1.35, 1.4, 1.15, 1.25, 1.2, 1.35 ]
      }
     }
    ]
@@ -13223,12 +12859,7 @@
    "damage": [
     {
      "active": {
-      "multiplier": [
-       1.29,
-       1.3322,
-       1.6275,
-       1.66
-      ]
+      "multiplier": [ 1.29, 1.3322, 1.6275, 1.66 ]
      }
     }
    ]
@@ -13397,10 +13028,7 @@
    "damage": [
     {
      "active": {
-      "multiplier": [
-       1.15,
-       1.5
-      ]
+      "multiplier": [ 1.15, 1.5 ]
      }
     }
    ]
@@ -13470,18 +13098,14 @@
    "handling": [
     {
      "active": {
-      "stat": [
-       30
-      ]
+      "stat": [ 30 ]
      }
     }
    ],
    "reload": [
     {
      "active": {
-      "stat": [
-       40
-      ]
+      "stat": [ 40 ]
      }
     }
    ]
@@ -13587,9 +13211,7 @@
    "rateOfFire": [
     {
      "active": {
-      "multiplier": [
-       0.625
-      ]
+      "multiplier": [ 0.625 ]
      }
     }
    ]
@@ -13643,9 +13265,7 @@
    "airborne": [
     {
      "passive": {
-      "stat": [
-       20
-      ]
+      "stat": [ 20 ]
      }
     }
    ]
@@ -14426,20 +14046,8 @@
    "reload": [
     {
      "active": {
-      "stat": [
-       10,
-       45,
-       55,
-       70,
-       100
-      ],
-      "multiplier": [
-       1,
-       0.9,
-       0.875,
-       0.85,
-       0.8
-      ]
+      "stat": [ 10, 45, 55, 70, 100 ],
+      "multiplier": [ 1, 0.9, 0.875, 0.85, 0.8 ]
      }
     }
    ]
@@ -14482,9 +14090,7 @@
    "damage": [
     {
      "active": {
-      "multiplier": [
-       1.0777
-      ]
+      "multiplier": [ 1.0777 ]
      }
     }
    ]
@@ -14572,9 +14178,7 @@
    "airborne": [
     {
      "active": {
-      "stat": [
-       50
-      ]
+      "stat": [ 50 ]
      }
     }
    ]
@@ -14768,20 +14372,14 @@
    "reload": [
     {
      "active": {
-      "stat": [
-       30,
-       15
-      ]
+      "stat": [ 30, 15 ]
      }
     }
    ],
    "stability": [
     {
      "active": {
-      "stat": [
-       20,
-       10
-      ]
+      "stat": [ 20, 10 ]
      }
     }
    ]
@@ -14823,9 +14421,7 @@
    "zoom": [
     {
      "passive": {
-      "multiplier": [
-       1.1
-      ]
+      "multiplier": [ 1.1 ]
      }
     }
    ]
@@ -14987,21 +14583,15 @@
    "reload": [
     {
      "active": {
-      "stat": [
-       50
-      ],
-      "multiplier": [
-       0.8
-      ]
+      "stat": [ 50 ],
+      "multiplier": [ 0.8 ]
      }
     }
    ],
    "stow": [
     {
      "active": {
-      "multiplier": [
-       0.8
-      ]
+      "multiplier": [ 0.8 ]
      }
     }
    ]
@@ -15053,9 +14643,7 @@
    "damage": [
     {
      "active": {
-      "stat": [
-       17
-      ]
+      "stat": [ 17 ]
      }
     }
    ]
@@ -15121,9 +14709,7 @@
    "damage": [
     {
      "active": {
-      "multiplier": [
-       1.2
-      ]
+      "multiplier": [ 1.2 ]
      }
     }
    ]
@@ -15213,10 +14799,7 @@
    "airborne": [
     {
      "active": {
-      "stat": [
-       35,
-       70
-      ]
+      "stat": [ 35, 70 ]
      }
     }
    ]
@@ -15374,9 +14957,7 @@
    "aimAssist": [
     {
      "active": {
-      "stat": [
-       20
-      ]
+      "stat": [ 20 ]
      }
     }
    ]
@@ -15639,36 +15220,28 @@
    "range": [
     {
      "active": {
-      "stat": [
-       10
-      ]
+      "stat": [ 10 ]
      }
     }
    ],
    "reload": [
     {
      "active": {
-      "stat": [
-       20
-      ]
+      "stat": [ 20 ]
      }
     }
    ],
    "stability": [
     {
      "active": {
-      "stat": [
-       20
-      ]
+      "stat": [ 20 ]
      }
     }
    ],
    "aimAssist": [
     {
      "active": {
-      "stat": [
-       10
-      ]
+      "stat": [ 10 ]
      }
     }
    ]
@@ -15773,9 +15346,7 @@
    "damage": [
     {
      "active": {
-      "multiplier": [
-       1.5
-      ]
+      "multiplier": [ 1.5 ]
      }
     }
    ]
@@ -16001,9 +15572,7 @@
    "damage": [
     {
      "active": {
-      "multiplier": [
-       1.35
-      ]
+      "multiplier": [ 1.35 ]
      }
     }
    ]
@@ -16282,18 +15851,14 @@
    "range": [
     {
      "active": {
-      "stat": [
-       20
-      ]
+      "stat": [ 20 ]
      }
     }
    ],
    "stability": [
     {
      "active": {
-      "stat": [
-       30
-      ]
+      "stat": [ 30 ]
      }
     }
    ]
@@ -16339,10 +15904,7 @@
    "damage": [
     {
      "active": {
-      "stat": [
-       1.52,
-       1.25
-      ]
+      "stat": [ 1.52, 1.25 ]
      }
     }
    ]
@@ -16403,13 +15965,7 @@
    "damage": [
     {
      "active": {
-      "multiplier": [
-       1.2,
-       1.4,
-       1.6,
-       1.8,
-       2
-      ]
+      "multiplier": [ 1.2, 1.4, 1.6, 1.8, 2 ]
      }
     }
    ]
@@ -16598,9 +16154,7 @@
    "airborne": [
     {
      "active": {
-      "stat": [
-       50
-      ]
+      "stat": [ 50 ]
      }
     }
    ]
@@ -16634,37 +16188,25 @@
    "handling": [
     {
      "active": {
-      "stat": [
-       100
-      ]
+      "stat": [ 100 ]
      },
-     "weaponTypes": [
-      "submachine gun"
-     ]
+     "weaponTypes": [ "submachine gun" ]
     }
    ],
    "stow": [
     {
      "active": {
-      "multiplier": [
-       0.6
-      ]
+      "multiplier": [ 0.6 ]
      },
-     "weaponTypes": [
-      "submachine gun"
-     ]
+     "weaponTypes": [ "submachine gun" ]
     }
    ],
    "airborne": [
     {
      "passive": {
-      "stat": [
-       40
-      ]
+      "stat": [ 40 ]
      },
-     "weaponTypes": [
-      "submachine gun"
-     ]
+     "weaponTypes": [ "submachine gun" ]
     }
    ]
   },
@@ -16778,20 +16320,20 @@
   "itemName": "Aeon Swift",
   "type": "armorExotic",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667594001904,
+  "lastUpload": 1667594695704,
   "inLiveDatabase": false,
   "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
    "stats": {
-    "lastUpdate": 1658513881743,
-    "undatedBy": "Fading-Shadow"
+    "lastUpdate": 1667594660176,
+    "updatedBy": "Fading Shadow"
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881743,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667594692272,
+     "updatedBy": "Fading Shadow"
     },
     "ko": {
      "lastUpdate": 1665683175354,
@@ -16801,12 +16343,36 @@
   },
   "editor": {
    "en": {
-    "main": "4 Precision Hits within 2.5 seconds of each grants Aeon Weapon Haste for 6 seconds.\n\nAeon Weapon Haste grants 10 Reload with 0.8x RDS, as well as 10 Handling to Ready and Stow speed.\n\nOn Champion Stun, Mini-boss, or Boss Kill:\nAllies within 30 metres gain 50% Grenade and Melee Energy.\n\nAeon Allies additionally gain 10% Super Energy.\n\n4 second cooldown between refresh.",
-    "secondary": "4 Precision Hits within 2.5 seconds of each grants Aeon Weapon Haste for 6 seconds.\r\n\r\nAeon Weapon Haste grants 10 Reload with 0.8x RDS, as well as 10 Handling to Ready and Stow speed.\r\n\r\nOn Champion Stun, Mini-boss, or Boss Kill:\r\nAllies within 30 metres gain 50% Grenade and Melee Energy.\r\n\r\nAeon Allies additionally gain 10% Super Energy.\r\n\r\n4 second cooldown between refresh."
+    "main": "Scoring 4 Precision Hits within 2.5 seconds of each grants Aeon Weapon Haste for 6 seconds.\n\nAeon Weapon Haste grants +10 Reload (w/ 0.8x Duration Multiplier), as well as +10 Handling to Ready and Stow Speed.\n\nOn Champion Stun, Mini-Boss, or Boss Kill:\n • Allies within 30 metres gain 50% Grenade and Melee Energy.\n • Aeon Allies additionally gain 10% Super Energy.\n\n4 second cooldown between activations.",
+    "secondary": "import self"
    },
    "ko": {
     "main": "각 정밀타를 2.5초 이내에 4번 적중하면 6초 동안 영겁의 분노 효과를 얻게 됩니다.\n\n영겁의 분노는 재장전 수치를 10 올려주며 조작성 수치 또한 10을 올려줍니다.\n\n용사 기절, 미니보스 및 보스 처치 시:\n30미터 이내에 있는 아군들은 수류탄과 근접 능력 에너지 50%를 받습니다.\n\n 추가로 영겁 시리즈를 장착한 아군들은 궁극기 에너지 10%를 받습니다.\n\n 효과 발동 사이에 4초의 쿨다운이 있습니다."
    }
+  },
+  "stats": {
+   "reload": [
+    {
+     "active": {
+      "multiplier": [ 0.8 ],
+      "stat": [ 10 ]
+     }
+    }
+   ],
+   "ready": [
+    {
+     "active": {
+      "stat": [ 10 ]
+     }
+    }
+   ],
+   "stow": [
+    {
+     "active": {
+      "stat": [ 10 ]
+     }
+    }
+   ]
   }
  },
  "3275789089": {
@@ -16881,9 +16447,7 @@
    "ready": [
     {
      "active": {
-      "stat": [
-       100
-      ]
+      "stat": [ 100 ]
      }
     }
    ]
@@ -17212,21 +16776,15 @@
    "range": [
     {
      "active": {
-      "multiplier": [
-       2
-      ]
+      "multiplier": [ 2 ]
      }
     }
    ],
    "reload": [
     {
      "active": {
-      "stat": [
-       100
-      ],
-      "multiplier": [
-       0.9
-      ]
+      "stat": [ 100 ],
+      "multiplier": [ 0.9 ]
      }
     }
    ]
@@ -17298,9 +16856,7 @@
    "reload": [
     {
      "passive": {
-      "stat": [
-       20
-      ]
+      "stat": [ 20 ]
      }
     }
    ]
@@ -17619,11 +17175,7 @@
    "damage": [
     {
      "active": {
-      "multiplier": [
-       10,
-       21,
-       33.1
-      ]
+      "multiplier": [ 10, 21, 33.1 ]
      }
     }
    ]
@@ -17697,33 +17249,21 @@
    "reload": [
     {
      "active": {
-      "stat": [
-       5,
-       25,
-       50
-      ]
+      "stat": [ 5, 25, 50 ]
      }
     }
    ],
    "handling": [
     {
      "active": {
-      "stat": [
-       10,
-       25,
-       50
-      ]
+      "stat": [ 10, 25, 50 ]
      }
     }
    ],
    "stability": [
     {
      "active": {
-      "stat": [
-       5,
-       15,
-       25
-      ]
+      "stat": [ 5, 15, 25 ]
      }
     }
    ]
@@ -18620,38 +18160,27 @@
    "range": [
     {
      "active": {
-      "stat": [
-       10
-      ]
+      "stat": [ 10 ]
      }
     }
    ],
    "rateOfFire": [
     {
      "active": {
-      "multiplier": [
-       0.8
-      ]
+      "multiplier": [ 0.8 ]
      }
     }
    ],
    "damage": [
     {
      "active": {
-      "multiplier": [
-       1.2
-      ]
+      "multiplier": [ 1.2 ]
      },
-     "weaponTypes": [
-      "combat bow",
-      "shotgun"
-     ]
+     "weaponTypes": [ "combat bow", "shotgun" ]
     },
     {
      "active": {
-      "multiplier": [
-       1.3
-      ]
+      "multiplier": [ 1.3 ]
      }
     }
    ]
@@ -18946,19 +18475,13 @@
    "damage": [
     {
      "active": {
-      "stat": [
-       25
-      ]
+      "stat": [ 25 ]
      },
-     "weaponTypes": [
-      "sword"
-     ]
+     "weaponTypes": [ "sword" ]
     },
     {
      "active": {
-      "multiplier": [
-       30
-      ]
+      "multiplier": [ 30 ]
      }
     }
    ]
@@ -19054,18 +18577,14 @@
    "ready": [
     {
      "passive": {
-      "multiplier": [
-       0.9
-      ]
+      "multiplier": [ 0.9 ]
      }
     }
    ],
    "stow": [
     {
      "passive": {
-      "multiplier": [
-       0.9
-      ]
+      "multiplier": [ 0.9 ]
      }
     }
    ]
@@ -19132,10 +18651,7 @@
    "airborne": [
     {
      "active": {
-      "stat": [
-       30,
-       60
-      ]
+      "stat": [ 30, 60 ]
      }
     }
    ]
@@ -19401,9 +18917,7 @@
    "damage": [
     {
      "active": {
-      "multiplier": [
-       1.022
-      ]
+      "multiplier": [ 1.022 ]
      }
     }
    ]
@@ -19546,9 +19060,7 @@
    "reload": [
     {
      "active": {
-      "stat": [
-       50
-      ]
+      "stat": [ 50 ]
      }
     }
    ]
@@ -19781,9 +19293,7 @@
    "range": [
     {
      "active": {
-      "stat": [
-       10
-      ]
+      "stat": [ 10 ]
      }
     }
    ]
@@ -19819,18 +19329,7 @@
    "damage": [
     {
      "active": {
-      "multiplier": [
-       1.03,
-       1.06,
-       1.09,
-       1.12,
-       1.15,
-       1.18,
-       1.21,
-       1.24,
-       1.27,
-       1.3
-      ]
+      "multiplier": [ 1.03, 1.06, 1.09, 1.12, 1.15, 1.18, 1.21, 1.24, 1.27, 1.3 ]
      }
     }
    ]
@@ -19878,38 +19377,26 @@
    "stability": [
     {
      "active": {
-      "stat": [
-       13
-      ]
+      "stat": [ 13 ]
      },
-     "weaponTypes": [
-      "fusion rifle"
-     ]
+     "weaponTypes": [ "fusion rifle" ]
     },
     {
      "active": {
-      "stat": [
-       25
-      ]
+      "stat": [ 25 ]
      }
     }
    ],
    "handling": [
     {
      "active": {
-      "stat": [
-       18
-      ]
+      "stat": [ 18 ]
      },
-     "weaponTypes": [
-      "fusion rifle"
-     ]
+     "weaponTypes": [ "fusion rifle" ]
     },
     {
      "active": {
-      "stat": [
-       35
-      ]
+      "stat": [ 35 ]
      }
     }
    ]
@@ -19942,9 +19429,7 @@
    "damage": [
     {
      "passive": {
-      "multiplier": [
-       1.2
-      ]
+      "multiplier": [ 1.2 ]
      }
     }
    ]
@@ -20471,9 +19956,7 @@
    "handling": [
     {
      "active": {
-      "stat": [
-       40
-      ]
+      "stat": [ 40 ]
      }
     }
    ]
@@ -20687,15 +20170,15 @@
   "itemName": "Star-Eater Scales",
   "type": "armorExotic",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667594001904,
+  "lastUpload": 1667594695704,
   "inLiveDatabase": false,
   "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
    "stats": {
-    "lastUpdate": 1658513881743,
-    "undatedBy": "Fading-Shadow"
+    "lastUpdate": 1667594072845,
+    "updatedBy": "Fading Shadow"
    },
    "descriptions": {
     "en": {
@@ -20709,6 +20192,16 @@
     "main": "Increased Super Energy from Orbs of Power.\n7.1% -> 10% for Super Orbs\n2.5% -> 4.17% for Small Orbs\n\nWhile Super Energy is full:\nPicking up an Orb of Power grants an Overcharge stack. \n\nEach Overcharge stack grants increased Super Damage, up to 70%:\n27.3% | 54.6% | 62.3% | 70%\n\nCasting Super while Overcharged heals you for 95 to 200 HP based on Overcharge Stacks.\n\nCasting Super while at 4 Overcharge Stacks grants you a 100HP Overshield for 16 seconds.\n\nCasting Super removes all Overcharge stacks.",
     "secondary": "import self"
    }
+  },
+  "stats": {
+   "damage": [
+    {
+     "active": {
+      "multiplier": [ 1.273, 1.546, 1.623, 1.7 ]
+     },
+     "weaponTypes": [ "super" ]
+    }
+   ]
   }
  },
  "4049631843": {
@@ -20737,9 +20230,7 @@
    "damage": [
     {
      "active": {
-      "multiplier": [
-       1.35
-      ]
+      "multiplier": [ 1.35 ]
      }
     }
    ]
@@ -20782,30 +20273,21 @@
    "reload": [
     {
      "active": {
-      "stat": [
-       15,
-       55
-      ]
+      "stat": [ 15, 55 ]
      }
     }
    ],
    "handling": [
     {
      "active": {
-      "multiplier": [
-       0.75,
-       0.56
-      ]
+      "multiplier": [ 0.75, 0.56 ]
      }
     }
    ],
    "stability": [
     {
      "active": {
-      "stat": [
-       15,
-       40
-      ]
+      "stat": [ 15, 40 ]
      }
     }
    ]
@@ -20849,13 +20331,7 @@
    "damage": [
     {
      "active": {
-      "multiplier": [
-       1.067,
-       1.133,
-       1.2,
-       1.266,
-       1.333
-      ]
+      "multiplier": [ 1.067, 1.133, 1.2, 1.266, 1.333 ]
      }
     }
    ]
@@ -20926,9 +20402,7 @@
    "damage": [
     {
      "active": {
-      "multiplier": [
-       1.0777
-      ]
+      "multiplier": [ 1.0777 ]
      }
     }
    ]
@@ -20974,9 +20448,7 @@
    "reload": [
     {
      "active": {
-      "stat": [
-       40
-      ]
+      "stat": [ 40 ]
      }
     }
    ]
@@ -21056,27 +20528,21 @@
    "reload": [
     {
      "active": {
-      "stat": [
-       50
-      ]
+      "stat": [ 50 ]
      }
     }
    ],
    "handling": [
     {
      "active": {
-      "stat": [
-       50
-      ]
+      "stat": [ 50 ]
      }
     }
    ],
    "damage": [
     {
      "active": {
-      "multiplier": [
-       1.15
-      ]
+      "multiplier": [ 1.15 ]
      }
     }
    ]
@@ -21128,9 +20594,7 @@
    "reload": [
     {
      "passive": {
-      "multiplier": [
-       0.9
-      ]
+      "multiplier": [ 0.9 ]
      }
     }
    ]
@@ -21667,9 +21131,7 @@
    "damage": [
     {
      "active": {
-      "multiplier": [
-       2
-      ]
+      "multiplier": [ 2 ]
      }
     }
    ]
