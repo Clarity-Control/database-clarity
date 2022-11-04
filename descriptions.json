@@ -3,7 +3,7 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1667594695704,
+  "lastUpload": 1667594831352,
   "uploadedBy": "Fading Shadow",
   "editor": {
    "en": {
@@ -1076,7 +1076,7 @@
   "itemName": "Icefall Mantle",
   "type": "armorExotic",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667587144639,
+  "lastUpload": 1667594831352,
   "inLiveDatabase": false,
   "uploadToLive": true,
   "optional": false,
@@ -1088,7 +1088,7 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667585572317,
+     "lastUpdate": 1667594815700,
      "updatedBy": "Fading Shadow"
     },
     "ko": {
@@ -1099,8 +1099,8 @@
   },
   "editor": {
    "en": {
-    "main": "Replaces Barricade with Glacial Guard.\n\nOn Glacial Guard Cast:\nGrants Shielded buff and applies 40 Slow Stacks to Combatants within 7 meters.\n\nShielded lasts 20 seconds and grants a 100HP Overshield <pve with 62.5% Damage Resist. />\nShielded prevents sprinting, double jumping, sliding, and refreshes the timer upon taking damage..\n\nWhile Shielded is active, you cannot regain Class Ability Energy.\n\nActivating Barricade while Glacial Guard is active will remove the effect.",
-    "secondary": "Replaces Barricade with Glacial Guard. Overwrites Cooldown to Rally Barricade.\n\nOn Glacial Guard Cast:\nGrants Shielded buff and applies 40 Slow Stacks to Combatants within 7 metres.\n\nShielded lasts 20 seconds and grants a 100 HP Overshield with 62.5% Damage Resist in PVE.\nShielded prevents sprinting, double jumping, sliding, and refreshes the timer upon taking damage..\n\nWhile Shielded is active, you cannot regain Class Ability Energy.\n\nActivating your Class Ability while Glacial Guard is active will remove Shielded."
+    "main": "Replaces Barricade with Glacial Guard.\n\nOn Glacial Guard Cast:\nGrants Shielded buff and applies 40 Slow Stacks to Combatants within 7 meters.\n\nShielded:\n • Lasts 20 seconds and grants a 100HP Overshield <pve with 62.5% Damage Resist. />\n • Shielded prevents sprinting, double jumping, and sliding.\n • Taking damage refreshes the timer.\n • While active, you cannot regain Class Ability Energy.\n\nActivating Barricade while Glacial Guard is active will remove the effect.",
+    "secondary": "Replaces Barricade with Glacial Guard. Overwrites Cooldown to Rally Barricade.\n\nOn Glacial Guard Cast:\nGrants Shielded buff and applies 40 Slow Stacks to Combatants within 7 metres.\n\nShielded:\n • Lasts 20 seconds and grants a 100HP Overshield with 62.5% Damage Resist in PVE.\n • Shielded prevents sprinting, double jumping, and sliding.\n • Taking damage refreshes the timer.\n • While active, you cannot regain Class Ability Energy.\n\nActivating your Class Ability while Glacial Guard is active will remove Shielded."
    },
    "ko": {
     "main": "방벽을 빙하의 방비로 변환합니다.\n\n빙하의 방비 시전 시:\n7미터 이내에 있는 적들에게 감속 스택 40개를 부여합니다.\n\n보호막은 20초 동안 지속되며 100HP의 체력을 가지고 있습니다. <pve 62.5% 피해 감소를 부여합니다. /> \n보호막의 지속 시간은 피해를 입으면 초기화되며 질주, 직업 점프, 그리고 슬라이딩을 봉인합니다.\n\n보호막이 지속되는 동안 직업 능력 에너지는 재생되지 않습니다.\n빙하의 방비가 활성화 된 상태에서 방벽을 사용하면 효과가 해제됩니다."
@@ -2407,7 +2407,7 @@
   "itemName": "Young Ahamkara's Spine",
   "type": "armorExotic",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667594695704,
+  "lastUpload": 1667594831352,
   "inLiveDatabase": false,
   "uploadToLive": false,
   "optional": false,
@@ -9326,7 +9326,7 @@
   "itemName": "St0mp-EE5",
   "type": "armorExotic",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667594695704,
+  "lastUpload": 1667594831352,
   "inLiveDatabase": false,
   "uploadToLive": false,
   "optional": false,
@@ -16320,7 +16320,7 @@
   "itemName": "Aeon Swift",
   "type": "armorExotic",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667594695704,
+  "lastUpload": 1667594831352,
   "inLiveDatabase": false,
   "uploadToLive": true,
   "optional": false,
@@ -20170,7 +20170,7 @@
   "itemName": "Star-Eater Scales",
   "type": "armorExotic",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667594695704,
+  "lastUpload": 1667594831352,
   "inLiveDatabase": false,
   "uploadToLive": true,
   "optional": false,
