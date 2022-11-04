@@ -3,7 +3,7 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1667587144639,
+  "lastUpload": 1667590640786,
   "uploadedBy": "Fading Shadow",
   "editor": {
    "en": {
@@ -1315,8 +1315,8 @@
   "itemHash": 2203146422,
   "itemName": "VAssassin's Cowl",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881742,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667590640786,
   "inLiveDatabase": false,
   "uploadToLive": false,
   "optional": false,
@@ -1328,15 +1328,15 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881742,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667588403899,
+     "updatedBy": "Fading Shadow"
     }
    }
   },
   "editor": {
    "en": {
-    "main": "Gain Invisibility on Powered Melee Kill. (Longer on Finishers)\r\nHeals for X on Powered Melee Kill. (Stronger on Finishers)\r\n\r\nInvisibility Duration:\r\nMinor = 6 seconds (10)\r\nElite = 9 seconds (13)\r\nMiniboss = 12.5 seconds (13)\r\nBoss = 13 seconds (13)\r\n\r\nBosses and Vehicles are not finishable. Generally.",
-    "secondary": "Gain Invisibility on Powered Melee Kill. (Longer on Finishers)\r\nHeals for X on Powered Melee Kill. (Stronger on Finishers)\r\n\r\nInvisibility Duration:\r\nMinor = 6 seconds (10)\r\nElite = 9 seconds (13)\r\nMiniboss = 12.5 seconds (13)\r\nBoss = 13 seconds (13)\r\n\r\nBosses and Vehicles are not finishable. Generally."
+    "main": "Gain <void/>Void Invisibility on Powered Melee Kill. (Longer on Finishers)\nHeals for X on Powered Melee Kill. (Stronger on Finishers)\n\nInvisibility Duration (on Finishers):\nMinor = 6.8 seconds (9.8)\nElite/Guardian = 9.8 seconds (12.7)\nMiniboss = 12.8 seconds (15.8)\nBoss = 13.3 seconds\n\nEcho of Persistence increases the <void/>Void Invisibility duration by 41.5%.\n\nBosses and Vehicles are not finishable.",
+    "secondary": "Gain Void Invisibility on Powered Melee Kill. (Longer on Finishers)\nHeals for X on Powered Melee Kill. (Stronger on Finishers)\n\nInvisibility Duration (on Finishers):\nMinor = 6.8 seconds (9.8)\nElite/Guardian = 9.8 seconds (12.7)\nMiniboss = 12.8 seconds (15.8)\nBoss = 13.3 seconds\n\nEcho of Persistence increases the Void Invisibility duration by 41.5%.\n\nBosses and Vehicles are not finishable."
    }
   }
  },
@@ -3036,21 +3036,21 @@
   "itemHash": 2766109874,
   "itemName": "The Dragon's Shadow",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881742,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667590640786,
   "inLiveDatabase": false,
   "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
    "stats": {
-    "lastUpdate": 1658513881742,
-    "undatedBy": "Fading-Shadow"
+    "lastUpdate": 1667589656214,
+    "updatedBy": "Fading Shadow"
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1664119194897,
-     "undatedBy": "Fading Shadow"
+     "lastUpdate": 1667589681470,
+     "updatedBy": "Fading Shadow"
     }
    }
   },
@@ -3069,7 +3069,22 @@
      "active": {
       "stat": [
        100
-      ],
+      ]
+     }
+    }
+   ],
+   "ready": [
+    {
+     "active": {
+      "multiplier": [
+       0.95
+      ]
+     }
+    }
+   ],
+   "stow": [
+    {
+     "active": {
       "multiplier": [
        0.95
       ]
@@ -3079,7 +3094,7 @@
   },
   "editor": {
    "en": {
-    "main": "On Dodge:\r\nGrants Wraithmetal Mail for 9 seconds.\r\n\r\nWraithmetal Mail:\r\nReloads all weapons\r\nGrants 100 Handling (w/ 0.95x Multiplier), 100 Reload, and 50 Mobility.\r\nIncreases Sprint Speed by 6.25%.\r\nIncreases Slide Distance by 33%.",
+    "main": "On Dodge:\nGrants Wraithmetal Mail for 9 seconds.\n\nWraithmetal Mail:\n • Reloads all weapons\n • +100 Handling, 0.95x Ready/Stow Duration Multiplier, +100 Reload, and +50 Mobility.\n • Increases Sprint Speed by 6.25%.\n • Increases Slide Distance by 33%.",
     "secondary": "import self"
    }
   }
@@ -4941,8 +4956,8 @@
   "itemHash": 609852545,
   "itemName": "Fr0st-EE5",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881742,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667590640786,
   "inLiveDatabase": false,
   "uploadToLive": false,
   "optional": false,
@@ -4954,8 +4969,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1666624817056,
-     "updatedBy": "Icemourne"
+     "lastUpdate": 1667590233758,
+     "updatedBy": "Fading Shadow"
     },
     "ko": {
      "lastUpdate": 1665695766273,
@@ -4965,8 +4980,8 @@
   },
   "editor": {
    "en": {
-    "main": "While Sprinting: \n<pve 2x Grenade/Melee Regeneration Speed />\n<pvp 100% Additional Base Grenade/Melee Regeneration Rate. />\nGain an additional <pve 100% /> <pvp [200%] /> of your Base Class Ability Regeneration Rate.\n\nOn Dodge:\n6.25% Faster Sprint for 10 seconds. \nNot refreshable.",
-    "secondary": "While Sprinting: \r\nPVE: 2x Grenade/Melee Regeneration Speed />\r\nPVP: 100% Additional Base Grenade/Melee Regeneration Rate. />\r\nGain an additional 100% [PVP: 200%] of your Base Class Ability Regeneration Rate.\r\n\r\nOn Dodge:\r\n6.25% Faster Sprint for 10 seconds. \r\nNot refreshable."
+    "main": "While Sprinting: \n • <pve Grenade and Melee Ability Regeneration Rate is doubled. />\n • <pvp 100% Additional Base Grenade/Melee Regeneration Rate. />\n • <pve 100% /> <pvp [200%] /> Additional Base Class Ability Regeneration Rate.\n\nOn Dodge:\n6.25% Faster Sprint Speed for 10 seconds. \nNot refreshable.",
+    "secondary": "While Sprinting: \n • [PVE] Grenade and Melee Ability Regeneration Rate is doubled.\n • [PVP] 100% Additional Base Grenade/Melee Regeneration Rate.\n • 100% [PVP: 200%] Additional Base Class Ability Regeneration Rate.\n\nOn Dodge:\n6.25% Faster Sprint Speed for 10 seconds. \nNot refreshable."
    },
    "ko": {
     "main": "질주하는 동안:\n<pve 수류탄과 근접 능력 재생 속도 100% 증가 />\n<pvp 수류탄과 근접 능력의 기본 재생 속도 100% 증가 />\n추가로 직업 능력의 기본 재생 속도가 <pve 100% /><pvp [200%] /> 만큼 증가합니다.\n\n회피 직후:\n10초 동안 질주 속도가 6.25% 증가합니다.\n초기화 불가능합니다."
@@ -10276,8 +10291,8 @@
   "itemHash": 1219761634,
   "itemName": "The Bombardiers",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881743,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667590640786,
   "inLiveDatabase": false,
   "uploadToLive": false,
   "optional": false,
@@ -10289,15 +10304,15 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1666625340841,
-     "updatedBy": "Icemourne"
+     "lastUpdate": 1667589337811,
+     "updatedBy": "Fading Shadow"
     }
    }
   },
   "editor": {
    "en": {
-    "main": "On Dodge:\nDrops a Parting Gift that explodes and deals 120 damage over 7.5 meters with a 1(?) second fuse.\n\nParting Gift has an additional effect based on Subclass:\n<arc/>Blind for <pve 7 /> <pvp [3] /> seconds\n<solar/>[?] Scorch\n<stasis/>Slows for 2 seconds and refreshes existing Slow Stacks. Does not apply Slow Stacks\n<void/>Suppress for <pve 9 /> <pvp [7] /> seconds <blue (Does not apply to Guardians in Super) />\n\n<purple Suppression generally does not activate effects that activate on suppressing. />",
-    "secondary": "On Dodge:\r\nDrops a Parting Gift that explodes and deals 120 damage over 7.5 metres with a 1(?) second fuse.\r\n\r\nParting Gift has an additional effect based on Subclass:\r\nArc: Blind for 7 [PVP: 3] seconds\r\nSolar: [?] Scorch\r\nStasis: Slows for 2 seconds and refreshes Slow Stacks. Does not apply Slow Stacks by itself\r\nVoid: Suppress for 9 [PVP: 7] seconds (Does not apply to Guardians in Super)\r\n\r\nSuppression generally does not activate effects that activate on suppressing."
+    "main": "On Dodge:\nDrops a Parting Gift that explodes after 1.5 seconds, dealing <pve 440 /> <pvp [120] /> damage over 7.5 metres. Detonates instantly on contact with surface or enemy.\n\nParting Gift has an additional effect based on Subclass:\n<arc/> Blinds for <pve 7 /> <pvp [3] /> seconds\n<solar/> 40<title +20 [ashes] /> Scorch\n<stasis/> Slows for 2 seconds and refreshes existing Slow Stacks. Does not apply Slow Stacks.\n<void/> \"Lite\" Suppress for <pve 9 /> <pvp [7] /> seconds [Does not apply to Guardians in Super]\n\n\"Lite\" Suppression is not a regular Suppression. Explanation in <link Court's Void Sandbox Guide [https://docs.google.com/spreadsheets/d/1i1KUwgVkd8qhwYj481gkV9sZNJQCE-C3Q-dpQutPCi4/edit#gid=1079577444] />.\n\ntitle ashes (\nEmber of Ashes adds 20 stacks of scorch\n)",
+    "secondary": "On Dodge:\nDrops a Parting Gift that explodes after 1.5 seconds, dealing 440 [120] damage over 7.5 metres. Detonates instantly on contact with surface or enemy.\n\nParting Gift has an additional effect based on Subclass:\n • Arc: Blinds for 7 [PVP: 3] seconds\n • Solar: 40 Scorch (60 with Ember of Ashes)\n • Stasis: Slows for 2 seconds and refreshes Slow Stacks. Does not apply Slow Stacks by itself.\n • Void: \"Lite\" Suppress for 9 [PVP: 7] seconds [Does not apply to Guardians in Super]\n\n\"Lite\" Suppression is not a regular Suppression. Explanation can be found in 'Court's Void Sandbox Guide'."
    }
   }
  },
@@ -11323,8 +11338,8 @@
   "itemHash": 2773056939,
   "itemName": "Graviton Forfeit",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881743,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667590640786,
   "inLiveDatabase": false,
   "uploadToLive": false,
   "optional": false,
@@ -11336,8 +11351,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881743,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667590437168,
+     "updatedBy": "Fading Shadow"
     },
     "ko": {
      "lastUpdate": 1665696299625,
@@ -11358,8 +11373,8 @@
   },
   "editor": {
    "en": {
-    "main": "Void Invisibility effects last 2 seconds longer.\n\nWhile Invisible:\n<pve 400% /> <pvp [100%] /> Additional Base Melee Regeneration Rate.\nEach enemy within 15 metres will increase the bonus to a total of <pve 600% /> <pvp [200%] /> and <pve 800% /> <pvp [300%] />.\n\n100 Recovery and 100 Reload Speed.",
-    "secondary": "Void Invisibility effects last 2 seconds longer.\r\n\r\nWhile Invisible:\r\n400% [PVP: 100%] Additional Base Melee Regeneration Rate.\r\nEach enemy within 15 metres will increase the bonus to a total of 600% [PVP: 200%] and 800% [PVP: 300%].\r\n\r\n100 Recovery and 100 Reload Speed."
+    "main": "Void Invisibility effects last 2 seconds longer.\n\nWhile Invisible:\n • <pve 400% /> <pvp [100%] /> Additional Base Melee Regeneration Rate.\n • Enemies within 15 metres will increase the bonus to a total of <pve 600% /> <pvp [200%] /> and <pve 800% /> <pvp [300%] />.\n\n+100 Recovery and +100 Reload Speed.",
+    "secondary": "Void Invisibility effects last 2 seconds longer.\n\nWhile Invisible:\n400% [PVP: 100%] Additional Base Melee Regeneration Rate.\nEnemies within 15 metres will increase the bonus to a total of 600% [PVP: 200%] and 800% [PVP: 300%].\n\n+100 Recovery and +100 Reload Speed."
    },
    "ko": {
     "main": "공허 은신의 지속 시간이 2초 증가합니다.\n\n은신한 상태에서:\n기본 근접 능력 재생 속도가 <pve 400% /> <pvp [100%] /> 증가합니다.\n15미터 이내에 있는 적의 수 만큼 <pve 600% /> <pvp [200%] /> and <pve 800% /> <pvp [300%] />까지 증가합니다.\n\n회복력과 재장전 속도로 100으로 증가시킵니다."
@@ -11527,8 +11542,8 @@
   "itemHash": 3453042252,
   "itemName": "Caliban's Hand",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881743,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667590640786,
   "inLiveDatabase": false,
   "uploadToLive": false,
   "optional": false,
@@ -11540,8 +11555,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881743,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667589584579,
+     "updatedBy": "Fading Shadow"
     },
     "ko": {
      "lastUpdate": 1665685480526,
@@ -11551,8 +11566,8 @@
   },
   "editor": {
    "en": {
-    "main": "Proximity Knife applies [?] Scorch on detonation. Direct hit kills ignite the target.\r\n\r\n[?]% Increased Base Melee Recharge Rate while Proximity Knife is unexploded.",
-    "secondary": "Proximity Knife applies [?] Scorch on detonation. Direct hit kills ignite the target.\r\n\r\n[?]% Increased Base Melee Recharge Rate while Proximity Knife is unexploded."
+    "main": "Proximity Explosive Knife applies 60 Scorch on detonation. \nDirect Hit Kills with Proximity Explosive Knife ignite.\n\n500% Additional Base Melee Recharge Rate while Proximity Knife remains unexploded.",
+    "secondary": "import self"
    },
    "ko": {
     "main": "근접 칼이 폭발할 시 알 수 없는 양의 소각 스택을 입힙니다. 적중시켜 처치하면 해당 타겟을 점화시킵니다.\n\n근접 칼이 폭발하지 않고 있는 동안 알 수 없는 만큼의 근접 공격 재생 속도를 증가시킵니다."
@@ -11565,8 +11580,8 @@
   "itemHash": 1474735276,
   "itemName": "Gwisin Vest",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881743,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667590640786,
   "inLiveDatabase": false,
   "uploadToLive": false,
   "optional": false,
@@ -11578,8 +11593,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881743,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667590485103,
+     "updatedBy": "Fading Shadow"
     },
     "ko": {
      "lastUpdate": 1665696387572,
@@ -11589,8 +11604,8 @@
   },
   "editor": {
    "en": {
-    "main": "During Spectral Blade\nRestores Super Energy on Heavy Attack based on the amount of Spectral Blade Kills.\n\nSuper Energy % gains based on kills\n< table >\n| <pve 11.1 /> | 🠚 | <pve 14.3 /> | 🠚 | <pve 16.5 /> | 🠚 | <pve 16.9 /> | 🠚 | <pve 17.1 />\n| <pvp 8.3 />  | 🠚 | <pvp 12.5 /> | 🠚 | <pvp 14.2 /> | 🠚 | <pvp 15.8 /> | 🠚 | <pvp 16.7 />\n<$>",
-    "secondary": "During Spectral Blade\r\nRestores Super Energy on Heavy Attack based on the amount of Spectral Blade Kills.\r\n\r\nSuper Energy % gains based on kills\r\nPVE: 11.1 -> 14.3 -> 16.5 -> 16.9 -> 17.1\r\nPVP: 8.3 -> 12.5 -> 14.2 -> 15.8 -> 16.7"
+    "main": "While in Spectral Blade:\nRestores Super Energy on Heavy Attack based on the amount of Spectral Blade Kills.\n\nSuper Energy % gains based on kills\n< table >\n| <pve 11.1 /> | 🠚 | <pve 14.3 /> | 🠚 | <pve 16.5 /> | 🠚 | <pve 16.9 /> | 🠚 | <pve 17.1 />\n| <pvp 8.3 />  | 🠚 | <pvp 12.5 /> | 🠚 | <pvp 14.2 /> | 🠚 | <pvp 15.8 /> | 🠚 | <pvp 16.7 />\n<$>",
+    "secondary": "While in Spectral Blade:\nRestores Super Energy on Heavy Attack based on the amount of Spectral Blade Kills.\n\nSuper Energy % gains based on kills\nPVE: 11.1 🠚 14.3 🠚 16.5 🠚 16.9 🠚 17.1\nPVP: 8.3 🠚 12.5 🠚 14.2 🠚 15.8 🠚 16.7"
    },
    "ko": {
     "main": "스팩트럼 칼날 시전 중:\n강공격을 하면 스팩트럼 칼날로 처치한 적의 수에 비례해 궁극기 에너지를 반환합니다.\n\n궁극기 반환률:\n< table >\n| <pve 11.1% /> | 🠚 | <pve 14.3% /> | 🠚 | <pve 16.5% /> | 🠚 | <pve 16.9% /> | 🠚 | <pve 17.1% />\n| <pvp 8.3% />  | 🠚 | <pvp 12.5% /> | 🠚 | <pvp 14.2% /> | 🠚 | <pvp 15.8% /> | 🠚 | <pvp 16.7% />\n<$>"
@@ -13551,21 +13566,21 @@
   "itemHash": 896224899,
   "itemName": "Foetracer",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881743,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667590640786,
   "inLiveDatabase": false,
   "uploadToLive": false,
   "optional": false,
   "hidden": false,
   "updateTracker": {
    "stats": {
-    "lastUpdate": 1658513881743,
-    "undatedBy": "Fading-Shadow"
+    "lastUpdate": 1667589861373,
+    "updatedBy": "Fading Shadow"
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881743,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667589902528,
+     "updatedBy": "Fading Shadow"
     },
     "ko": {
      "lastUpdate": 1665695604529,
@@ -13575,12 +13590,23 @@
   },
   "editor": {
    "en": {
-    "main": "Passively grants 20 Airborne Effectiveness.\n\nMarks enemies for 5 seconds after hovering reticle near them for 1 second.\nMark persists through walls.\n\nIf Enemy is below 30% HP: \nGrants 1% increased damage per percent below 30%\n(Eg: 10% HP left -> 20% Damage Increase)\n\nDamage Increase applies to both abilities and weapons.",
-    "secondary": "Passively grants 20 Airborne Effectiveness.\r\n\r\nMarks enemies for 5 seconds after hovering reticle near them for 1 second.\r\nMark persists through walls.\r\n\r\nIf Enemy is below 30% HP: \r\nGrants 1% increased damage per percent below 30%\r\n(Eg: 10% HP left -> 20% Damage Increase)\r\n\r\nDamage Increase applies to both abilities and weapons."
+    "main": "Passively grants +20 Airborne Effectiveness.\n\nMarks enemies for 5 seconds after hovering your reticle near them for 1 second.\nMark persists through walls.\n\nIf Enemy is below 30% HP: \nGrants 1% increased damage for every percent below 30%\n(Eg: 10% HP left -> 20% Damage Increase)\n\nDamage Increase applies to all damage dealt.",
+    "secondary": "import self"
    },
    "ko": {
     "main": "상시 공중 효율을 20만큼 증가시킵니다.\n\n1초 동안 적 근처에 조준을 하면 5초간 표식을 남깁니다.\n표식은 벽을 통해서 볼 수 있습니다.\n\n적의 체력이 30% 이하 일 때:\n30%로 부터 남은 체력의 %당 1%의 추가 피해를 받습니다.\n(예: 체력 10% -> 20% 피해 증가)\n\n피해 증가는 능력과 무기에 모두 적용됩니다."
    }
+  },
+  "stats": {
+   "airborne": [
+    {
+     "passive": {
+      "stat": [
+       20
+      ]
+     }
+    }
+   ]
   }
  },
  "2663272110": {
@@ -13589,8 +13615,8 @@
   "itemHash": 1321354573,
   "itemName": "Celestial Nighthawk",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881743,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667590640786,
   "inLiveDatabase": false,
   "uploadToLive": false,
   "optional": false,
@@ -13602,8 +13628,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881743,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667589608336,
+     "updatedBy": "Fading Shadow"
     },
     "ko": {
      "lastUpdate": 1665685669234,
@@ -13613,8 +13639,8 @@
   },
   "editor": {
    "en": {
-    "main": "Only one shot per Golden Gun activation.\r\n\r\nGrants 500% more damage and 100 Airborne Effectiveness to Golden Gun.\r\n(37% more compared to Line 'Em Up x3)\r\n\r\nReturns 33% of Super Energy on Kill.",
-    "secondary": "Only one shot per Golden Gun activation.\r\n\r\nGrants 500% more damage and 100 Airborne Effectiveness to Golden Gun.\r\n(37% more compared to Line 'Em Up x3)\r\n\r\nReturns 33% of Super Energy on Kill."
+    "main": "Golden Gun can only fire once per activation.\n\nGolden Gun deals 500% increased damage.\n(37% more damage compared to 3 Precision Hits with Marksman Golden Gun).\n\nReturns 33% of Super Energy on Kill.",
+    "secondary": "import self"
    },
    "ko": {
     "main": "황금 총의 탄환을 1발로 강제합니다.\n\n황금 총의 피해를 500% 증가시키며 황금 총의 공중 효율을 100 만큼 증가시킵니다.\n(줄 세우기 x3 보다 37% 더 높습니다)\n\n궁극기 처치 시 33%의 궁극기 에너지를 반환합니다."
@@ -18050,8 +18076,8 @@
   "itemHash": 1703551922,
   "itemName": "Blight Ranger",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881743,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667590640786,
   "inLiveDatabase": false,
   "uploadToLive": false,
   "optional": false,
@@ -18063,8 +18089,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881743,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667588714718,
+     "updatedBy": "Fading Shadow"
     },
     "ko": {
      "lastUpdate": 1665684183594,
@@ -18074,8 +18100,8 @@
   },
   "editor": {
    "en": {
-    "main": "While in Arc Staff Super:\r\nProjectiles reflected deal 650% increased damage.\r\n\r\nReflecting projectiles generates Orbs of Power for allies.",
-    "secondary": "While in Arc Staff Super:\r\nProjectiles reflected deal 650% increased damage.\r\n\r\nReflecting projectiles generates Orbs of Power for allies."
+    "main": "While in Arc Staff Super:\n • Blocking doesn't consume any extra Super Energy.\n • Projectiles reflected deal 650% increased damage.\n • Reflecting projectiles generates Orbs of Power for allies.",
+    "secondary": "import self"
    },
    "ko": {
     "main": "전기 지팡이 궁극기 사용 중:\n반사시킨 투사체는 650%의 피해 증가를 받습니다.\n\n투사체를 반사시키면 아군을 위한 힘의 보주가 생성됩니다."
@@ -18448,8 +18474,8 @@
   "itemHash": 2415768376,
   "itemName": "Athrys's Embrace",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881743,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667590640786,
   "inLiveDatabase": false,
   "uploadToLive": false,
   "optional": false,
@@ -18461,8 +18487,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881743,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667588581056,
+     "updatedBy": "Fading Shadow"
     },
     "ko": {
      "lastUpdate": 1665684125658,
@@ -18472,8 +18498,8 @@
   },
   "editor": {
    "en": {
-    "main": "Weighted Throwing Knives gain a second bounce with greatly increased tracking.\r\n\r\nAfter 3 Precision Hits within 2.5 seconds of each: Gain Strengthened Throwing Knife.\r\nAdditional Precision Hits increase duration by 5 seconds each.\r\n\r\nStrengthened Throwing Knife deal <pve 200% /> <pvp [100%] /> increased damage and stagger unstoppable champions.\r\n\r\nLanding a Knife Hit consumes Strengthened Throwing Knife.",
-    "secondary": "Weighted Throwing Knives gain a second bounce with greatly increased tracking.\r\n\r\nAfter 3 Precision Hits within 2.5 seconds of each: Gain Strengthened Throwing Knife.\r\nAdditional Precision Hits increase duration by 5 seconds each.\r\n\r\nStrengthened Throwing Knife deal 200% [PVP: 100%] increased damage and stagger unstoppable champions.\r\n\r\nLanding a Knife Hit consumes Strengthened Throwing Knife."
+    "main": "Weighted Throwing Knives gain a second bounce with greatly increased tracking.\n\nAfter Scoring 3 Precision Hits within 2.5 seconds of each: Gain Strengthened Throwing Knife.\nAdditional Precision Hits increase duration by 5 seconds each, up to 30 seconds.\n\nStrengthened Throwing Knife deal <pve 200% /> <pvp [100%] /> increased damage and stagger <unstoppable/>Unstoppable Champions.\n\nLanding a Knife Hit consumes Strengthened Throwing Knife.",
+    "secondary": "Weighted Throwing Knives gain a second bounce with greatly increased tracking.\n\nAfter Scoring 3 Precision Hits within 2.5 seconds of each: Gain Strengthened Throwing Knife.\nAdditional Precision Hits increase duration by 5 seconds each, up to 30 seconds.\n\nStrengthened Throwing Knife deals 200% [PVP: 100%] increased damage and staggers Unstoppable Champions.\n\nBuff is consumed on knife hit."
    },
    "ko": {
     "main": "추 달린 칼이 두번 튕길 수 있으며 막대한 추적 능력을 가집니다.\n\n2.5초안에 정밀타를 3번 적중하면 강화된 칼을 얻습니다.\n추가 정밀타는 지속시간을 5초 식 늘려줍니다.\n\n강화된 칼은 <pve 200% /> <pvp [100%] />의 피해 증가를 받으며 저지 불가 용사를 기절시킬 수 있습니다.\n\n칼을 적중하면 강화된 칼 효과를 소모합니다."
@@ -19409,6 +19435,37 @@
    }
   },
   "linkedWith": 3674673997
+ },
+ "3809192347": {
+  "hash": 3809192347,
+  "name": "See Me, Feel Me",
+  "type": "armorExotic",
+  "lastUpload": 1667590640786,
+  "uploadedBy": "Fading Shadow",
+  "editor": {
+   "en": {
+    "main": "Gain <pve 35% /> <pvp [15%] /> Increased Weapon Damage for <pve 6 /> <pvp [3] /> seconds after Void Invisibility ends.\n\nFinishers while Invisible apply Volatile to enemies within [?] metres, and grant both you and allies within 24 metres a Reserve Overshield and 375% Additional Base Class Ability Regeneration Rate until either dying or using Class Ability.\n\nReserve Overshield is activated when you cast your Class Ability, granting you a 40 HP <void/>Void Overshield for 10 seconds.",
+    "secondary": "Gain 35% [PVP: 15%] Increased Weapon Damage for 6 [PVP: 3] seconds after Void Invisibility ends.\n\nFinishers while Invisible apply Volatile to enemies within [?] metres, and grant both you and allies within 24 metres a Reserve Overshield and 375% Additional Base Class Ability Regeneration Rate until either dying or using Class Ability.\n\nReserve Overshield is activated when you cast your Class Ability, granting you a 40 HP Void Overshield for 10 seconds."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 1667590628922,
+     "updatedBy": "Fading Shadow"
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false,
+  "itemName": "Gyrfalcon's Hauberk",
+  "itemHash": 461841403
  },
  "3824105627": {
   "hash": 3824105627,
@@ -20501,8 +20558,8 @@
   "itemHash": 1163283805,
   "itemName": "Gemini Jester",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881743,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667590640786,
   "inLiveDatabase": false,
   "uploadToLive": false,
   "optional": false,
@@ -20514,8 +20571,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881743,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667590334960,
+     "updatedBy": "Fading Shadow"
     },
     "ko": {
      "lastUpdate": 1665695942877,
@@ -20525,8 +20582,8 @@
   },
   "editor": {
    "en": {
-    "main": "On Dodge:\nApplies Misdirection to enemies within 22 meters.\n\n<pve Misdirection disorients minors and elites for 5 seconds. />\n\n<pvp Misdirection warps audio, removes radar for 5 seconds, and applies a brief blinding effect. />\n\nMisdirection also deals 1 damage.",
-    "secondary": "On Dodge:\r\nApplies Misdirection to enemies within 22 meters.\r\n\r\nPVE: Misdirection disorients minors and elites for 5 seconds.\r\n\r\nPVP: Misdirection warps audio, removes radar for 5 seconds, and applies a brief blinding effect.\r\n\r\nMisdirection also deals 1 damage."
+    "main": "On Dodge:\nApplies Misdirection to enemies within 22 metres.\n\nEffects of Misdirection:\n<pve Disorients minors and elites for 5 seconds. />\n<pvp Warps audio and removes radar for 5 seconds, as well as briefly blinding. />\n\nMisdirection doesn't actually deal damage.\n(Less than 0.001 at the very least)",
+    "secondary": "On Dodge:\nApplies Misdirection to enemies within 22 metres.\n\nEffects of Misdirection:\n• [PVE] Disorients minors and elites for 5 seconds.\n• [PVP] Warps audio and removes radar for 5 seconds, as well as briefly blinding.\n\nMisdirection doesn't actually do damage.\n(Less than 0.001 at the very least)"
    },
    "ko": {
     "main": "회피 직후:\n22미터 이내에 있는 적에게 잘못된 방향을 부여합니다.\n\n<pve 잘못된 방향이 부하들과 리더들을 5초 간 혼란에 빠트립니다. />\n\n<pvp 잘못된 방향이 오디오를 일그러트리고, 레이더를 5초간 제거하며, 아주 잠깐 동안 실명에 빠트립니다. />\n\n잘못된 방향이 부여될 때 1 피해를 입힙니다."
