@@ -3,7 +3,7 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1667578861617,
+  "lastUpload": 1667579541591,
   "uploadedBy": "Fading Shadow",
   "editor": {
    "en": {
@@ -85,7 +85,7 @@
   "hash": 3,
   "name": "Global titles",
   "type": "none",
-  "lastUpload": 1667578861617,
+  "lastUpload": 1667579541591,
   "editor": {
    "en": {
     "main": "title G_refresh (\nReload, but does not need animation and doesn't proc on-reload perks.\n)\n\ntitle G_conegrowth (\nHow Fast Your Accuracy Cone Expands as you fire your weapon. The less the better.\n)"
@@ -841,7 +841,7 @@
   "name": "Adept Accuracy",
   "type": "weaponMod",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667578861617,
+  "lastUpload": 1667579541591,
   "inLiveDatabase": false,
   "uploadToLive": false,
   "optional": true,
@@ -1236,7 +1236,7 @@
   "name": "Adept Blast Radius",
   "type": "weaponMod",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667578861617,
+  "lastUpload": 1667579541591,
   "inLiveDatabase": false,
   "uploadToLive": false,
   "optional": true,
@@ -1549,7 +1549,7 @@
   "name": "Adept Range",
   "type": "weaponMod",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667578861617,
+  "lastUpload": 1667579541591,
   "inLiveDatabase": false,
   "uploadToLive": false,
   "optional": false,
@@ -1733,10 +1733,10 @@
   "hash": 371216963,
   "name": "Radar Tuner",
   "type": "weaponMod",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1658141469485,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667579541591,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -1746,15 +1746,15 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658141469485,
-     "undatedBy": "Icemourne"
+     "lastUpdate": 1667578886980,
+     "updatedBy": "Fading Shadow"
     }
    }
   },
   "editor": {
    "en": {
     "main": "Radar immediately returns after stopping ADS. (Normally takes 1.5s)",
-    "secondary": "Radar immediately returns after stopping ADS. (Normally takes 1.5s)"
+    "secondary": "import self"
    }
   }
  },
@@ -2707,10 +2707,10 @@
   "hash": 518387148,
   "name": "Sprint Grip",
   "type": "weaponMod",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1658141469485,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667579541591,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -2720,15 +2720,15 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658141469485,
-     "undatedBy": "Icemourne"
+     "lastUpdate": 1667578882825,
+     "updatedBy": "Fading Shadow"
     }
    }
   },
   "editor": {
    "en": {
     "main": "X Handling for Y seconds after sprinting for Z seconds.",
-    "secondary": "X Handling for Y seconds after sprinting for Z seconds."
+    "secondary": "import self"
    }
   }
  },
@@ -3365,7 +3365,7 @@
   "name": "Adept Reload",
   "type": "weaponMod",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667578861617,
+  "lastUpload": 1667579541591,
   "inLiveDatabase": false,
   "uploadToLive": false,
   "optional": false,
@@ -3433,10 +3433,10 @@
   "hash": 666440382,
   "name": "Rampage Spec",
   "type": "weaponMod",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1658141469485,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667579541591,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -3446,8 +3446,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658141469485,
-     "undatedBy": "Icemourne"
+     "lastUpdate": 1667578884992,
+     "updatedBy": "Fading Shadow"
     },
     "zh-chs": {
      "lastUpdate": 1664419861837,
@@ -3458,7 +3458,7 @@
   "editor": {
    "en": {
     "main": "Rampage lasts 1 second longer (3.5s -> 4.5s)",
-    "secondary": "Rampage lasts 1 second longer (3.5s -> 4.5s)"
+    "secondary": "import self"
    },
    "zh-chs": {
     "main": "增加 1 秒持续时间。",
@@ -3960,7 +3960,7 @@
   "name": "Freehand Grip",
   "type": "weaponMod",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667578861617,
+  "lastUpload": 1667579541591,
   "inLiveDatabase": false,
   "uploadToLive": false,
   "optional": false,
@@ -4099,7 +4099,7 @@
   "name": "Adept Charge Time",
   "type": "weaponMod",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667578861617,
+  "lastUpload": 1667579541591,
   "inLiveDatabase": false,
   "uploadToLive": false,
   "optional": false,
@@ -5141,10 +5141,10 @@
   "hash": 941997506,
   "name": "Icarus Grip",
   "type": "weaponMod",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1658141469485,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667579541591,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -5154,8 +5154,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658141469485,
-     "undatedBy": "Icemourne"
+     "lastUpdate": 1667578900049,
+     "updatedBy": "Fading Shadow"
     },
     "zh-chs": {
      "lastUpdate": 1664419922504,
@@ -5166,7 +5166,7 @@
   "editor": {
    "en": {
     "main": "Grants 15 Airborne Effectiveness",
-    "secondary": "Grants 15 Airborne Effectiveness"
+    "secondary": "import self"
    },
    "zh-chs": {
     "main": "+15 空中效率。",
@@ -5339,10 +5339,10 @@
   "hash": 984527513,
   "name": "Major Spec",
   "type": "weaponMod",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1658141469485,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667579541591,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -5352,8 +5352,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658141469485,
-     "undatedBy": "Icemourne"
+     "lastUpdate": 1667578897997,
+     "updatedBy": "Fading Shadow"
     },
     "zh-chs": {
      "lastUpdate": 1664419962138,
@@ -5375,7 +5375,7 @@
   "editor": {
    "en": {
     "main": "7.77% Damage Increase against Elites and Minibosses",
-    "secondary": "7.77% Damage Increase against Elites and Minibosses"
+    "secondary": "import self"
    },
    "zh-chs": {
     "main": "提高 7.77% 对精英和强大的战斗人员的伤害。",
@@ -6481,7 +6481,7 @@
   "name": "Adept Mag",
   "type": "weaponMod",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667578861617,
+  "lastUpload": 1667579541591,
   "inLiveDatabase": false,
   "uploadToLive": false,
   "optional": false,
@@ -7005,10 +7005,10 @@
   "hash": 1334978104,
   "name": "Quick Access Sling",
   "type": "weaponMod",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1658141469485,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667579541591,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -7018,15 +7018,15 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658141469485,
-     "undatedBy": "Icemourne"
+     "lastUpdate": 1667578890506,
+     "updatedBy": "Fading Shadow"
     }
    }
   },
   "editor": {
    "en": {
     "main": "0.9x Ready/Stow Animation Duration Multiplier",
-    "secondary": "0.9x Ready/Stow Animation Duration Multiplier"
+    "secondary": "import self"
    }
   }
  },
@@ -7778,10 +7778,10 @@
   "hash": 1471333428,
   "name": "Surrounded Spec",
   "type": "weaponMod",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1658141469485,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667579541591,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -7791,8 +7791,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658141469485,
-     "undatedBy": "Icemourne"
+     "lastUpdate": 1667579119986,
+     "updatedBy": "Fading Shadow"
     },
     "zh-chs": {
      "lastUpdate": 1664419835810,
@@ -7802,8 +7802,8 @@
   },
   "editor": {
    "en": {
-    "main": "Additive 10% Increased Surrounded Damage Increase, and lingers for 1.5s",
-    "secondary": "Additive 10% Increased Surrounded Damage Increase, and lingers for 1.5s"
+    "main": "Additive 10% Increased Surrounded Damage Bonus, and allows Surrounded to linger for 1.5s",
+    "secondary": "import self"
    },
    "zh-chs": {
     "main": "额外提高腹背受敌 10% 的伤害，周围没有敌人时效果在 1.5 秒内线性降低。",
@@ -7983,10 +7983,10 @@
   "hash": 1513326571,
   "name": "Taken Spec",
   "type": "weaponMod",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1658141469485,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667579541591,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -7996,8 +7996,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658141469485,
-     "undatedBy": "Icemourne"
+     "lastUpdate": 1667578878425,
+     "updatedBy": "Fading Shadow"
     },
     "zh-chs": {
      "lastUpdate": 1664419638304,
@@ -8019,7 +8019,7 @@
   "editor": {
    "en": {
     "main": "10% Damage Increase against Taken Combatants.",
-    "secondary": "10% Damage Increase against Taken Combatants."
+    "secondary": "import self"
    },
    "zh-chs": {
     "main": "增加 10% 对傀儡的伤害。",
@@ -8091,7 +8091,7 @@
   "name": "Adept Counterbalance",
   "type": "weaponMod",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667578861617,
+  "lastUpload": 1667579541591,
   "inLiveDatabase": false,
   "uploadToLive": false,
   "optional": false,
@@ -8651,7 +8651,7 @@
   "name": "Counterbalance Stock",
   "type": "weaponMod",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667578861617,
+  "lastUpload": 1667579541591,
   "inLiveDatabase": false,
   "uploadToLive": false,
   "optional": false,
@@ -9640,7 +9640,7 @@
   "name": "Adept Targeting",
   "type": "weaponMod",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667578861617,
+  "lastUpload": 1667579541591,
   "inLiveDatabase": false,
   "uploadToLive": false,
   "optional": false,
@@ -10138,21 +10138,27 @@
   "name": "Dragonfly Spec",
   "type": "weaponMod",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667578861617,
+  "lastUpload": 1667579541591,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
    "stats": {
-    "lastUpdate": 1658141469485,
-    "undatedBy": "Icemourne"
+    "lastUpdate": 1667578948927,
+    "updatedBy": "Fading Shadow"
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667578116815,
+     "lastUpdate": 1667578935496,
      "updatedBy": "Fading Shadow"
     }
+   }
+  },
+  "editor": {
+   "en": {
+    "main": "46.6% Increased Damage and Radius for Dragonfly explosions",
+    "secondary": "import self"
    }
   },
   "stats": {
@@ -10160,17 +10166,11 @@
     {
      "active": {
       "multiplier": [
-       1.5
+       1.466
       ]
      }
     }
    ]
-  },
-  "editor": {
-   "en": {
-    "main": "50% Increased Damage and Radius for Dragonfly explosions",
-    "secondary": "import self"
-   }
   }
  },
  "1841016428": {
@@ -10338,15 +10338,15 @@
   "name": "Adept Draw Time",
   "type": "weaponMod",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667578861617,
+  "lastUpload": 1667579541591,
   "inLiveDatabase": false,
   "uploadToLive": false,
   "optional": false,
   "hidden": false,
   "updateTracker": {
    "stats": {
-    "lastUpdate": 1658141469485,
-    "undatedBy": "Icemourne"
+    "lastUpdate": 1667579406351,
+    "updatedBy": "Fading Shadow"
    },
    "descriptions": {
     "en": {
@@ -10380,7 +10380,21 @@
     "value": 10,
     "isConditionallyActive": false
    }
-  ]
+  ],
+  "stats": {
+   "rateOfFire": [
+    {
+     "passive": {
+      "stat": [
+       -40
+      ]
+     },
+     "weaponTypes": [
+      "combat bow"
+     ]
+    }
+   ]
+  }
  },
  "1885400500": {
   "hash": 1885400500,
@@ -12150,7 +12164,7 @@
   "name": "Adept Projectile Speed",
   "type": "weaponMod",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667578861617,
+  "lastUpload": 1667579541591,
   "inLiveDatabase": false,
   "uploadToLive": false,
   "optional": false,
@@ -14258,7 +14272,7 @@
   "name": "Boss Spec",
   "type": "weaponMod",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667578861617,
+  "lastUpload": 1667579541591,
   "inLiveDatabase": false,
   "uploadToLive": false,
   "optional": false,
@@ -15587,7 +15601,7 @@
   "name": "Adept Big Ones Spec",
   "type": "weaponMod",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667578861617,
+  "lastUpload": 1667579541591,
   "inLiveDatabase": false,
   "uploadToLive": false,
   "optional": false,
@@ -16250,7 +16264,7 @@
   "name": "Adept Impact",
   "type": "weaponMod",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667578861617,
+  "lastUpload": 1667579541591,
   "inLiveDatabase": false,
   "uploadToLive": false,
   "optional": false,
@@ -16278,10 +16292,10 @@
   "hash": 3228611386,
   "name": "Targeting Adjuster",
   "type": "weaponMod",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1658141469485,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667579541591,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -16291,8 +16305,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658141469485,
-     "undatedBy": "Icemourne"
+     "lastUpdate": 1667578876504,
+     "updatedBy": "Fading Shadow"
     },
     "zh-chs": {
      "lastUpdate": 1664419610848,
@@ -16303,7 +16317,7 @@
   "editor": {
    "en": {
     "main": "+5 Aim Assist",
-    "secondary": "+5 Aim Assist"
+    "secondary": "import self"
    },
    "zh-chs": {
     "main": "+5 瞄准辅助",
@@ -16843,7 +16857,7 @@
   "name": "Backup Mag",
   "type": "weaponMod",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667578861617,
+  "lastUpload": 1667579541591,
   "inLiveDatabase": false,
   "uploadToLive": false,
   "optional": false,
@@ -19062,10 +19076,10 @@
   "hash": 3785661089,
   "name": "Radar Booster",
   "type": "weaponMod",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1658141469485,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667579541591,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -19075,15 +19089,15 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658141469485,
-     "undatedBy": "Icemourne"
+     "lastUpdate": 1667578888570,
+     "updatedBy": "Fading Shadow"
     }
    }
   },
   "editor": {
    "en": {
     "main": "Maximum Radar Distance increased by 8 metres.",
-    "secondary": "Maximum Radar Distance increased by 8 metres."
+    "secondary": "import self"
    }
   }
  },
@@ -19092,7 +19106,7 @@
   "name": "Adept Icarus Grip",
   "type": "weaponMod",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667578861617,
+  "lastUpload": 1667579541591,
   "inLiveDatabase": false,
   "uploadToLive": false,
   "optional": false,
@@ -20140,7 +20154,7 @@
   "name": "Adept Stability",
   "type": "weaponMod",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667578861617,
+  "lastUpload": 1667579541591,
   "inLiveDatabase": false,
   "uploadToLive": false,
   "optional": false,
@@ -20630,10 +20644,10 @@
   "hash": 4091000557,
   "name": "Minor Spec",
   "type": "weaponMod",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1658141469485,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667579541591,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -20643,8 +20657,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658141469485,
-     "undatedBy": "Icemourne"
+     "lastUpdate": 1667578896530,
+     "updatedBy": "Fading Shadow"
     },
     "zh-chs": {
      "lastUpdate": 1664420008627,
@@ -20666,7 +20680,7 @@
   "editor": {
    "en": {
     "main": "7.77% Damage Increase against Rank-And-File",
-    "secondary": "7.77% Damage Increase against Rank-And-File"
+    "secondary": "import self"
    },
    "zh-chs": {
     "main": "提高 7.77% 对普通敌人的伤害。",
@@ -21555,7 +21569,7 @@
   "name": "Adept Handling",
   "type": "weaponMod",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667578861617,
+  "lastUpload": 1667579541591,
   "inLiveDatabase": false,
   "uploadToLive": false,
   "optional": false,
