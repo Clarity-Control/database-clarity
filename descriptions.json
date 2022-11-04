@@ -3,7 +3,7 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1667579541591,
+  "lastUpload": 1667587144639,
   "uploadedBy": "Fading Shadow",
   "editor": {
    "en": {
@@ -85,7 +85,7 @@
   "hash": 3,
   "name": "Global titles",
   "type": "none",
-  "lastUpload": 1667579541591,
+  "lastUpload": 1667587144639,
   "editor": {
    "en": {
     "main": "title G_refresh (\nReload, but does not need animation and doesn't proc on-reload perks.\n)\n\ntitle G_conegrowth (\nHow Fast Your Accuracy Cone Expands as you fire your weapon. The less the better.\n)"
@@ -841,7 +841,7 @@
   "name": "Adept Accuracy",
   "type": "weaponMod",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667579541591,
+  "lastUpload": 1667587144639,
   "inLiveDatabase": false,
   "uploadToLive": false,
   "optional": true,
@@ -1087,10 +1087,10 @@
   "itemHash": 1467044898,
   "itemName": "Icefall Mantle",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881742,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667587144639,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -1100,8 +1100,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881742,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667585572317,
+     "updatedBy": "Fading Shadow"
     },
     "ko": {
      "lastUpdate": 1665697288632,
@@ -1111,8 +1111,8 @@
   },
   "editor": {
    "en": {
-    "main": "Replaces Barricade with Glacial Guard.\n\nOn Glacial Guard Cast:\nGrants Shielded buff and applies 40 Slow Stacks to Combatants within 7 meters.\n\nShielded lasts 20 seconds and grants a 100HP Overshield <pve with 62.5% Damage Resist./>\nShielded also refreshes on damage taken, prevents sprinting, double jumping, and sliding.\n\nWhile Shielded is active, you cannot regain Class Ability Energy.\nActivating Barricade while Glacial Guard is active will remove the effect.",
-    "secondary": "Replaces Barricade with Glacial Guard.\r\n\r\nOn Glacial Guard Cast:\r\nGrants Shielded buff and applies 40 Slow Stacks to Combatants within 7 meters.\r\n\r\nShielded lasts 20 seconds and grants a 100HP Overshield with 62.5% Damage Resist in PVE.\r\nShielded also refreshes on damage taken, prevents sprinting, double jumping, and sliding.\r\n\r\nWhile Shielded is active, you cannot regain Class Ability Energy.\r\nActivating Barricade while Glacial Guard is active will remove the effect."
+    "main": "Replaces Barricade with Glacial Guard.\n\nOn Glacial Guard Cast:\nGrants Shielded buff and applies 40 Slow Stacks to Combatants within 7 meters.\n\nShielded lasts 20 seconds and grants a 100HP Overshield <pve with 62.5% Damage Resist. />\nShielded prevents sprinting, double jumping, sliding, and refreshes the timer upon taking damage..\n\nWhile Shielded is active, you cannot regain Class Ability Energy.\n\nActivating Barricade while Glacial Guard is active will remove the effect.",
+    "secondary": "Replaces Barricade with Glacial Guard. Overwrites Cooldown to Rally Barricade.\n\nOn Glacial Guard Cast:\nGrants Shielded buff and applies 40 Slow Stacks to Combatants within 7 metres.\n\nShielded lasts 20 seconds and grants a 100 HP Overshield with 62.5% Damage Resist in PVE.\nShielded prevents sprinting, double jumping, sliding, and refreshes the timer upon taking damage..\n\nWhile Shielded is active, you cannot regain Class Ability Energy.\n\nActivating your Class Ability while Glacial Guard is active will remove Shielded."
    },
    "ko": {
     "main": "방벽을 빙하의 방비로 변환합니다.\n\n빙하의 방비 시전 시:\n7미터 이내에 있는 적들에게 감속 스택 40개를 부여합니다.\n\n보호막은 20초 동안 지속되며 100HP의 체력을 가지고 있습니다. <pve 62.5% 피해 감소를 부여합니다. /> \n보호막의 지속 시간은 피해를 입으면 초기화되며 질주, 직업 점프, 그리고 슬라이딩을 봉인합니다.\n\n보호막이 지속되는 동안 직업 능력 에너지는 재생되지 않습니다.\n빙하의 방비가 활성화 된 상태에서 방벽을 사용하면 효과가 해제됩니다."
@@ -1236,7 +1236,7 @@
   "name": "Adept Blast Radius",
   "type": "weaponMod",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667579541591,
+  "lastUpload": 1667587144639,
   "inLiveDatabase": false,
   "uploadToLive": false,
   "optional": true,
@@ -1273,29 +1273,40 @@
   "itemHash": 2255796155,
   "itemName": "Peregrine Greaves",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881742,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667587144639,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
    "stats": {
-    "lastUpdate": 1658513881742,
-    "undatedBy": "Fading-Shadow"
+    "lastUpdate": 1667586904138,
+    "updatedBy": "Fading Shadow"
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881742,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667586947010,
+     "updatedBy": "Fading Shadow"
     }
    }
   },
   "editor": {
    "en": {
-    "main": "Passively grants 20 Airborne Effectiveness\nShoulder Charges deal increased damage if used midair\n\n\n< table center >\n|            | Minor        \n| <arc/>155% | <solar/>190% | <void/>310%\n|\n|            | Elite        \n| <arc/>200% | <solar/>?    | <void/>?\n|\n|            | Miniboss     \n| <arc/>310% | <solar/>?    | <void/>?\n|\n|            | Boss         \n| <arc/>360% | <solar/>157% | <void/>165%\n<$>\n\nFor Combatant Classifications, check out <link this sheet [https://d2clarity.page.link/combatant] />!",
-    "secondary": "Passively grants 20 Airborne Effectiveness\r\nShoulder Charges deal increased damage if used midair\r\n\r\n(Arc/Solar/void)\r\nMinor: 155% | 190% | 310%\r\nElite: 200% | ? | ?\r\nMiniboss: 310% | ? | ?\r\nBoss: 360% | 157% | 165%"
+    "main": "Passively grants +20 Airborne Effectiveness.\n\nAfter sprinting for 2 seconds, and if used while being airborne:\nShoulder Charge Abilities deal 225% increased impact damage.\nFrozen enemies will not take increased Melee Damage while Peregrine Strike is active.",
+    "secondary": "import self"
    }
+  },
+  "stats": {
+   "airborne": [
+    {
+     "passive": {
+      "stat": [
+       20
+      ]
+     }
+    }
+   ]
   }
  },
  "236605015": {
@@ -1335,10 +1346,10 @@
   "itemHash": 2423243921,
   "itemName": "Antaeus Wards",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881742,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667587144639,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -1348,8 +1359,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881742,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667580649936,
+     "updatedBy": "Fading Shadow"
     },
     "ko": {
      "lastUpdate": 1665683374556,
@@ -1359,8 +1370,8 @@
   },
   "editor": {
    "en": {
-    "main": "During slide after sprinting for at least 1.5 seconds: \r\nGenerate a 180° frontal shield that reflects damage and projectiles.\r\n\r\nIncreases Slide Distance by 33%",
-    "secondary": "During slide after sprinting for at least 1.5 seconds: \r\nGenerate a 180° frontal shield that reflects damage and projectiles.\r\n\r\nIncreases Slide Distance by 33%"
+    "main": "During a slide, after sprinting for at least 1.5 seconds: \nGenerate a 180° frontal shield that reflects damage and projectiles.\n\nIncreases Slide Distance by 33%.",
+    "secondary": "import self"
    },
    "ko": {
     "main": "적어도 1.5초 이상 질주한 뒤 슬라이드 할 시:\n투사체를 반사하고 피해를 무력화하는 180도의 정면 방어막을 생성합니다.\n\n슬라이드 거리를 33% 증가시킵니다."
@@ -1549,7 +1560,7 @@
   "name": "Adept Range",
   "type": "weaponMod",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667579541591,
+  "lastUpload": 1667587144639,
   "inLiveDatabase": false,
   "uploadToLive": false,
   "optional": false,
@@ -1734,7 +1745,7 @@
   "name": "Radar Tuner",
   "type": "weaponMod",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667579541591,
+  "lastUpload": 1667587144639,
   "inLiveDatabase": false,
   "uploadToLive": true,
   "optional": false,
@@ -1851,10 +1862,10 @@
   "itemHash": 1734844650,
   "itemName": "Ashen Wake",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881742,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667587144639,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -1864,8 +1875,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881742,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667580702947,
+     "updatedBy": "Fading Shadow"
     },
     "ko": {
      "lastUpdate": 1665683728331,
@@ -1875,8 +1886,8 @@
   },
   "editor": {
    "en": {
-    "main": "Fusion Grenades have Fastball intrinsically and detonate on impact.\r\n\r\nKills with Fusion Grenades grant Grenade Energy.\r\n25% for Minors\r\n50% for Majors\r\n100% for Guardians & Bosses",
-    "secondary": "Fusion Grenades have Fastball intrinsically and detonate on impact.\r\n\r\nKills with Fusion Grenades grant Grenade Energy.\r\n25% for Minors\r\n50% for Majors\r\n100% for Guardians & Bosses"
+    "main": "Fusion Grenades have Fastball intrinsically and detonate on impact.\n\nKills with Fusion Grenades grant Grenade Energy.\n25% for Rank-And-File\n50% for Elites \n100% for Guardians, Minibosses, and Bosses",
+    "secondary": "import self"
    },
    "ko": {
     "main": "융합 수류탄에 장거리 투하를 기본으로 제공하며 융합 수류탄이 탄착하는 순간 폭발합니다.\n\n융합 수류탄 처치 시 수류탄 에너지를 반환합니다.\n부하급 (빨간 체력)은 25%를 반환합니다.\n리더급 (노란 체력)은 50%를 반환합니다.\n보스급과 수호자는 100%를 반환합니다."
@@ -2491,16 +2502,16 @@
   "itemHash": 1734144409,
   "itemName": "Mechaneer's Tricksleeves",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881742,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667587144639,
   "inLiveDatabase": false,
   "uploadToLive": false,
   "optional": false,
   "hidden": false,
   "updateTracker": {
    "stats": {
-    "lastUpdate": 1658513881742,
-    "undatedBy": "Fading-Shadow"
+    "lastUpdate": 1667585929321,
+    "updatedBy": "Fading Shadow"
    },
    "descriptions": {
     "en": {
@@ -2510,22 +2521,40 @@
    }
   },
   "stats": {
+   "handling": [
+    {
+     "passive": {
+      "stat": [
+       100
+      ]
+     },
+     "weaponTypes": [
+      "sidearm"
+     ]
+    }
+   ],
+   "airborne": [
+    {
+     "passive": {
+      "stat": [
+       50
+      ]
+     },
+     "weaponTypes": [
+      "sidearm"
+     ]
+    }
+   ],
    "reload": [
     {
      "active": {
       "stat": [
        100
       ]
-     }
-    }
-   ],
-   "handling": [
-    {
-     "active": {
-      "stat": [
-       100
-      ]
-     }
+     },
+     "weaponTypes": [
+      "sidearm"
+     ]
     }
    ]
   },
@@ -2708,7 +2737,7 @@
   "name": "Sprint Grip",
   "type": "weaponMod",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667579541591,
+  "lastUpload": 1667587144639,
   "inLiveDatabase": false,
   "uploadToLive": true,
   "optional": false,
@@ -2843,29 +2872,43 @@
   "itemHash": 3267996858,
   "itemName": "No Backup Plans",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881742,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667587144639,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
    "stats": {
-    "lastUpdate": 1658513881742,
-    "undatedBy": "Fading-Shadow"
+    "lastUpdate": 1667586006963,
+    "updatedBy": "Fading Shadow"
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881742,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667586027783,
+     "updatedBy": "Fading Shadow"
     }
    }
   },
   "editor": {
    "en": {
-    "main": "Passively grants 30 Airborne Effectiveness to Shotguns.\n\nShotgun Kills restore Melee Ability Energy.\n10% Minors | 25% Anything Else\n\nIf your Void Melee Ability is Charged:\nShotgun Kills activates Void Overshield and consume your Melee Energy.",
-    "secondary": "Passively grants 30 Airborne Effectiveness to Shotguns.\r\n\r\nShotgun Kills restore Melee Ability Energy.\r\n10% Minors | 25% Anything Else\r\n\r\nIf your Void Melee Ability is Charged:\r\nShotgun Kills activates Void Overshield and consume your Melee Energy."
+    "main": "Passively grants +30 Airborne Effectiveness to Shotguns.\n\nShotgun Kills restore Melee Ability Energy.\n10% Rank-And-File | 25% Anything Else\n\nIf your Void Melee Ability is Charged:\nShotgun Kills activate Void Overshield and consume all of your Melee Energy.",
+    "secondary": "import self"
    }
+  },
+  "stats": {
+   "airborne": [
+    {
+     "passive": {
+      "stat": [
+       30
+      ]
+     },
+     "weaponTypes": [
+      "shotgun"
+     ]
+    }
+   ]
   }
  },
  "573122728": {
@@ -3365,7 +3408,7 @@
   "name": "Adept Reload",
   "type": "weaponMod",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667579541591,
+  "lastUpload": 1667587144639,
   "inLiveDatabase": false,
   "uploadToLive": false,
   "optional": false,
@@ -3434,7 +3477,7 @@
   "name": "Rampage Spec",
   "type": "weaponMod",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667579541591,
+  "lastUpload": 1667587144639,
   "inLiveDatabase": false,
   "uploadToLive": true,
   "optional": false,
@@ -3702,10 +3745,10 @@
   "itemHash": 2578771006,
   "itemName": "One-Eyed Mask",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881742,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667587144639,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -3715,15 +3758,15 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881742,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667586053795,
+     "updatedBy": "Fading Shadow"
     }
    }
   },
   "editor": {
    "en": {
-    "main": "Taking damage highlights the enemy that caused it for 8 seconds.\r\n\r\nKilling the targeted enemy grants Vengeance for 6 seconds.\r\n\r\nVengeance grants a 95 HP Overshield.",
-    "secondary": "Taking damage highlights the enemy that caused it for 8 seconds.\r\n\r\nKilling the targeted enemy grants Vengeance for 6 seconds.\r\n\r\nVengeance grants a 95 HP Overshield."
+    "main": "Receiving damage highlights the enemy that caused it for 8 seconds.\n\nKilling the highlighted enemy grants Vengeance.\n\nVengeance grants a 95 HP Overshield for 6 seconds.",
+    "secondary": "import self"
    }
   }
  },
@@ -3960,7 +4003,7 @@
   "name": "Freehand Grip",
   "type": "weaponMod",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667579541591,
+  "lastUpload": 1667587144639,
   "inLiveDatabase": false,
   "uploadToLive": false,
   "optional": false,
@@ -4099,7 +4142,7 @@
   "name": "Adept Charge Time",
   "type": "weaponMod",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667579541591,
+  "lastUpload": 1667587144639,
   "inLiveDatabase": false,
   "uploadToLive": false,
   "optional": false,
@@ -4180,9 +4223,9 @@
   "name": "Repulsor Brace",
   "type": "weaponPerk",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667226153031,
+  "lastUpload": 1667587144639,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -4192,15 +4235,15 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667217179501,
+     "lastUpdate": 1667579982050,
      "updatedBy": "Fading Shadow"
     }
    }
   },
   "editor": {
    "en": {
-    "main": "On Weapon Kill against an enemy affected by a Void Debuff:\nGrants Void Overshield for 8 seconds.\n\n🡅Enhanced: Buff Duration is increased to 9 seconds.",
-    "secondary": "import self"
+    "main": "On Weapon Kill against an enemy affected by a Void Debuff:\nGrants <title Void Overshield [VoidOS] /> for 8 seconds.\n\n🡅Enhanced: Buff Duration is increased to 10 seconds.\n\ntitle VoidOS (\nA 45 HP Void Overshield that provides 50% incoming damage resistance against PVE combatants.\nWorks wil all Void Overshield synergies.\n)",
+    "secondary": "On Weapon Kill against an enemy affected by a Void Debuff:\nGrants Void Overshield for 8 seconds.\n\n🡅Enhanced: Buff Duration is increased to 10 seconds."
    }
   },
   "linkedWith": 2541826827
@@ -4424,10 +4467,10 @@
   "itemHash": 136355432,
   "itemName": "Mk. 44 Stand Asides",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881742,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667587144639,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -4437,8 +4480,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881742,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667585988470,
+     "updatedBy": "Fading Shadow"
     },
     "zh-chs": {
      "lastUpdate": 1664422413860,
@@ -4448,8 +4491,8 @@
   },
   "editor": {
    "en": {
-    "main": "If Shoulder Charge Melee Ability is Charged:\n\nSlowly grants 75 HP Overshield over 3 seconds after sprinting for 0.5 seconds\nOvershield disappears instantly when not sprinting. \n\nRecharges 50% of Melee Ability on Shoulder Charge Hit.\n\nIncludes Seismic Strike, Ballistic Slam, Hammer Strike, Shield Bash",
-    "secondary": "If Shoulder Charge Melee Ability is Charged:\r\n\r\nSlowly grants 75 HP Overshield over 3 seconds after sprinting for 0.5 seconds\r\nOvershield disappears instantly when not sprinting. \r\n\r\nRecharges 50% of Melee Ability on Shoulder Charge Hit.\r\n\r\nIncludes Seismic Strike, Ballistic Slam, Hammer Strike, Shield Bash"
+    "main": "If your Shoulder Charge Melee Ability is Charged:\n\nSlowly grants 75 HP Overshield over 3 seconds after sprinting for 0.5 seconds.\nOvershield disappears instantly if you stop sprinting. \n\nGrants 50% Melee Ability Energy upon hitting with a Shoulder Charge.\n\nIncludes Seismic Strike, Ballistic Slam, Hammer Strike, and Shield Bash.",
+    "secondary": "import self"
    },
    "zh-chs": {
     "main": "在满生命值的情况下装备肩撞类近战且充能完毕时：\n\n冲刺后 0.5 秒开始，在 3 秒内逐渐获得 75 生命值的覆盖护盾。\n停止冲刺时覆盖护盾立即消失。\n\n肩撞技能击中敌人后回复 50% 的近战充能。\n\n有效的近战技能包括地震打击、弹道猛击、战锤打击、圣盾强袭。",
@@ -4773,10 +4816,10 @@
   "itemHash": 3874247549,
   "itemName": "Armamentarium",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881742,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667587144639,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -4786,8 +4829,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881742,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667580682999,
+     "updatedBy": "Fading Shadow"
     },
     "ko": {
      "lastUpdate": 1665683542394,
@@ -4797,8 +4840,8 @@
   },
   "editor": {
    "en": {
-    "main": "Grants an extra Grenade Charge. \r\n\r\nDoes not Stack with Top Tree Striker",
-    "secondary": "Grants an extra Grenade Charge. \r\n\r\nDoes not Stack with Top Tree Striker"
+    "main": "Grants an extra Grenade Ability Charge.\nAbility Charges are capped at a maximum of 2.",
+    "secondary": "import self"
    },
    "ko": {
     "main": "수류탄 에너지를 추가로 제공합니다.\n\n타이탄의 직업 트리와 같이 사용해 수류탄 3개를 소지하는 것은 불가능합니다."
@@ -5044,7 +5087,7 @@
   "itemName": "Wings of Sacred Dawn",
   "type": "armorExotic",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667261159924,
+  "lastUpload": 1667587144639,
   "inLiveDatabase": false,
   "uploadToLive": true,
   "optional": false,
@@ -5056,14 +5099,14 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667258681158,
+     "lastUpdate": 1667580268644,
      "updatedBy": "Fading Shadow"
     }
    }
   },
   "editor": {
    "en": {
-    "main": "Passively grants +50 Airborne Effectiveness.\n\nIf on Solar Subclass:\nAiming Down Sights while Airborne grants Tome of Dawn.\n\nTomes of Dawn: \nHolds you in place midair\n25% Reduced Flinch\nGrants 15% Damage Resistance. \nLasts for 2.8 seconds. Hits refresh Y seconds.",
+    "main": "Grants +50 Airborne Effectiveness while Tome of Dawn is active.\n\nIf on Solar Subclass:\nAiming Down Sights while Airborne grants Tome of Dawn.\n\nTome of Dawn: \n • Holds you in place midair <breakSpaces/>\n • 25% Reduced Flinch <breakSpaces/>\n • Grants 15% Damage Resistance. <breakSpaces/>\n • Lasts for 2.8 seconds. Hits refresh Y seconds. <breakSpaces/>",
     "secondary": "import self"
    }
   }
@@ -5105,10 +5148,10 @@
   "itemHash": 2808156426,
   "itemName": "Eternal Warrior",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881742,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667587144639,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -5118,8 +5161,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881742,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667581183971,
+     "updatedBy": "Fading Shadow"
     },
     "ko": {
      "lastUpdate": 1665695002610,
@@ -5129,8 +5172,8 @@
   },
   "editor": {
    "en": {
-    "main": "Casting Fists of Havoc grants Resolute.\r\n\r\nResolute is a 75HP Overshield that negates Precision Damage.\r\n\r\nOvershield can be refreshed by unequipping and equipping but who is gonna do that to be quite honest.",
-    "secondary": "Casting Fists of Havoc grants Resolute.\r\n\r\nResolute is a 75HP Overshield that negates Precision Damage.\r\n\r\nOvershield can be refreshed by unequipping and equipping but who is gonna do that to be quite honest."
+    "main": "Casting Fists of Havoc grants Resolute.\n\nResolute is a 75 HP Overshield that negates Precision Damage.",
+    "secondary": "import self"
    },
    "ko": {
     "main": "대혼란의 주먹을 시전하면 단호함이 활성화됩니다.\n\n단호함은 75HP 짜리 보호막괴 정밀 피해 저항을 제공합니다.\n\n보호막은 대혼란의 주먹 시전 중 영겁의 전사를 뺐다가 다시 장착하면 다시 부여됩니다만 그런 뻘짓하는 사람이 있을까요."
@@ -5142,7 +5185,7 @@
   "name": "Icarus Grip",
   "type": "weaponMod",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667579541591,
+  "lastUpload": 1667587144639,
   "inLiveDatabase": false,
   "uploadToLive": true,
   "optional": false,
@@ -5340,7 +5383,7 @@
   "name": "Major Spec",
   "type": "weaponMod",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667579541591,
+  "lastUpload": 1667587144639,
   "inLiveDatabase": false,
   "uploadToLive": true,
   "optional": false,
@@ -6054,10 +6097,10 @@
   "itemHash": 2563444729,
   "itemName": "ACD/0 Feedback Fence",
   "type": "armorExotic",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1659459589775,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667587144639,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -6067,8 +6110,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1659459589775,
-     "undatedBy": "Icemourne"
+     "lastUpdate": 1667580483114,
+     "updatedBy": "Fading Shadow"
     },
     "zh-chs": {
      "lastUpdate": 1664953457338,
@@ -6086,8 +6129,8 @@
   },
   "editor": {
    "en": {
-    "main": "Melee Hits grant Stacks of Fury Conductors.\nReceiving melee damage unleashes an <arc/>Arc Explosion with a radius of 5 metres.\n<arc/>Arc Explosion deals 22% of your Melee Damage per Stack of Fury Conductors.\n\nFury Conductors grants 33-55-70% Damage Resistance to Melee Attacks depending on number of Stacks.\n\nAll Stacks disappear upon receiving melee damage or after 10 seconds of not dealing melee damage.",
-    "secondary": "Melee Hits grant Stacks of Fury Conductors.\r\nReceiving melee damage unleashes an Arc Explosion with a radius of 5 metres.\r\nArc Explosion deals 22% of your Melee Damage per Stack of Fury Conductors.\r\n\r\nFury Conductors grants 33-55-70% Damage Resistance to Melee Attacks depending on number of Stacks.\r\n\r\nAll Stacks disappear upon receiving melee damage or after 10 seconds of not dealing melee damage."
+    "main": "Melee Hits grant a stack of Fury Conductors.\nTaking Melee Damage releases an <arc/>Arc Explosion that deals 40 damage in a 5 metre radius.\n\nFury Conductors grant Melee Damage Resist and increased <arc/>Arc Explosion damage based on the amount of stacks.\n33% | 55% | 70% Melee Damage Resist\n100% | 200% | 300% Increased <arc/>Arc Explosion Damage\n\nAll Stacks disappear upon taking melee damage or after 10 seconds of not dealing melee damage.",
+    "secondary": "Melee Hits grant a stack of Fury Conductors.\nTaking Melee Damage releases an Arc Explosion that deals 40 damage in a 5 metre radius.\n\nFury Conductors grant Melee Damage Resist and increased Arc Explosion damage based on the amount of stacks.\n33% | 55% | 70% Melee Damage Resist\n100% | 200% | 300% Increased Arc Explosion Damage\n\nAll Stacks disappear upon taking melee damage or after 10 seconds of not dealing melee damage."
    },
    "zh-chs": {
     "main": "近战命中产生可叠加的狂怒导体能量。\n被近战命中会释放一个 5 米范围的 <arc/>电弧爆炸。\n<arc/>电弧爆炸伤害量与狂怒导体能量层数相关，每层为 22% 你的近战伤害。\n\n根据叠加层数，狂怒导体能量会提供 33-55-70% 的近战伤害抗性。\n\n10 秒内未造成近战攻击伤害，或在收到近战伤害后，狂怒导体能量所有层数将消失。",
@@ -6104,10 +6147,10 @@
   "itemHash": 241462141,
   "itemName": "Doom Fang Pauldron",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881743,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667587144639,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -6117,8 +6160,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881743,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667581045485,
+     "updatedBy": "Fading Shadow"
     },
     "ko": {
      "lastUpdate": 1665694682007,
@@ -6128,8 +6171,8 @@
   },
   "editor": {
    "en": {
-    "main": "Powered Void Melee Kills grant <pve 20% /> <pvp [10%] /> Super Energy once per usage.\n\nSentinel Shield's Shield Throws regenerate 10% Super Energy\n",
-    "secondary": "Powered Void Melee Kills grant 20% [PVP: 10%] Super Energy once per usage.\r\n\r\nSentinel Shield's Shield Throws regenerate 10% Super Energy\r\n"
+    "main": "Powered Void Melee Kills grant <pve 20% /> <pvp [10%] /> Super Energy once per usage.\n\nSentinel Shield's Shield Throw Hits regenerate 10% Super Energy.",
+    "secondary": "Powered Void Melee Kills grant 20% [PVP: 10%] Super Energy once per usage.\n\nSentinel Shield's Shield Throw Hits regenerate 10% Super Energy."
    },
    "ko": {
     "main": "공허 근접 능력으로 처치 시 <pve 20% /> <pvp [10%] />의 궁극기 에너지를 얻습니다.\n\n파수병의 방패를 사용하는 동안 방패 투척을 적중하면 10%의 궁극기 에너지를 반환 받습니다."
@@ -6172,10 +6215,10 @@
   "itemHash": 3316517958,
   "itemName": "Loreley Splendor Helm",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881743,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667587144639,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -6185,8 +6228,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881743,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667585849383,
+     "updatedBy": "Fading Shadow"
     },
     "zh-chs": {
      "lastUpdate": 1664421033687,
@@ -6200,8 +6243,8 @@
   },
   "editor": {
    "en": {
-    "main": "Sunspots grant Restoration x2.\r\n\r\nUpon reaching Critical Health if your Class Ability is charged:\r\nSpawns a Sunspot under you.\r\n\r\nCasting your Class Ability spawns a Sunspot.",
-    "secondary": "Sunspots grant Restoration x2.\r\n\r\nUpon reaching Critical Health if your Class Ability is charged:\r\nSpawns a Sunspot under you.\r\n\r\nCasting your Class Ability spawns a Sunspot."
+    "main": "Upon reaching Critical Health if your Class Ability is charged, or upon casting Barricade:\nSpawns a Sunspot under you.\n\nOnly works with Sunbreaker Subclass.\nThe spawned Sunspot grants its benefits even without the Sol Invictus Aspect equipped.",
+    "secondary": "import self"
    },
    "zh-chs": {
     "main": "太阳黑子提供“恢复 x1”效果。",
@@ -6481,7 +6524,7 @@
   "name": "Adept Mag",
   "type": "weaponMod",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667579541591,
+  "lastUpload": 1667587144639,
   "inLiveDatabase": false,
   "uploadToLive": false,
   "optional": false,
@@ -6969,10 +7012,10 @@
   "itemHash": 106575079,
   "itemName": "Helm of Saint-14",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881743,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667587144639,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -6982,8 +7025,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881743,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667581449163,
+     "updatedBy": "Fading Shadow"
     },
     "ko": {
      "lastUpdate": 1665696849915,
@@ -6993,8 +7036,8 @@
   },
   "editor": {
    "en": {
-    "main": "Guarding with Banner Shield blinds enemies within 7 metres for 5 seconds.\n\nAny Ward of Dawn that you create grants Starless Night, which gives a 65HP Void Overshield to any ally that enters.\n\nEnemies that enter your Ward of Dawn are also blinded for 5 seconds.",
-    "secondary": "Guarding with Banner Shield blinds enemies within 7 metres for 5 seconds.\r\n\r\nAny Ward of Dawn that you create grants Starless Night, which gives a 65HP Void Overshield to any ally that enters.\r\n\r\nEnemies that enter your Ward of Dawn are also blinded for 5 seconds."
+    "main": "Guarding with Sentinel Shield blinds enemies within <pve 7 /> <pvp [3.5] /> metres for 5 seconds.\n\nYour Ward of Dawn grants Starless Night, granting all allies that enter a 65 HP Void Overshield for [?] seconds.\n\nEnemies that enter your Ward of Dawn are also blinded for 5 seconds.",
+    "secondary": "Guarding with Sentinel Shield blinds enemies within 7 [PVP: 3.5] metres for 5 seconds.\n\nYour Ward of Dawn grants Starless Night, granting all allies that enter a 65 HP Void Overshield for [?] seconds.\n\nEnemies that enter your Ward of Dawn are also blinded for 5 seconds."
    },
    "ko": {
     "main": "깃발 방패로 막으면 7미터 이내에 있는 적들을 5초간 실명시킵니다.\n\n새벽의 수호물을 시전하면 별 없는 밤이 활성화되며 수호물에 들어온 아군에게 65HP 짜리 보호막을 부여합니다.\n\n수호물에 들어온 적들을 5초간 실명시킵니다."
@@ -7006,7 +7049,7 @@
   "name": "Quick Access Sling",
   "type": "weaponMod",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667579541591,
+  "lastUpload": 1667587144639,
   "inLiveDatabase": false,
   "uploadToLive": true,
   "optional": false,
@@ -7779,7 +7822,7 @@
   "name": "Surrounded Spec",
   "type": "weaponMod",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667579541591,
+  "lastUpload": 1667587144639,
   "inLiveDatabase": false,
   "uploadToLive": true,
   "optional": false,
@@ -7984,7 +8027,7 @@
   "name": "Taken Spec",
   "type": "weaponMod",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667579541591,
+  "lastUpload": 1667587144639,
   "inLiveDatabase": false,
   "uploadToLive": true,
   "optional": false,
@@ -8091,7 +8134,7 @@
   "name": "Adept Counterbalance",
   "type": "weaponMod",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667579541591,
+  "lastUpload": 1667587144639,
   "inLiveDatabase": false,
   "uploadToLive": false,
   "optional": false,
@@ -8651,7 +8694,7 @@
   "name": "Counterbalance Stock",
   "type": "weaponMod",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667579541591,
+  "lastUpload": 1667587144639,
   "inLiveDatabase": false,
   "uploadToLive": false,
   "optional": false,
@@ -9132,21 +9175,21 @@
   "itemHash": 1192890598,
   "itemName": "Hallowfire Heart",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881743,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667587144639,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
    "stats": {
-    "lastUpdate": 1658513881743,
-    "undatedBy": "Fading-Shadow"
+    "lastUpdate": 1667581247193,
+    "updatedBy": "Fading Shadow"
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881743,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667581217881,
+     "updatedBy": "Fading Shadow"
     },
     "ko": {
      "lastUpdate": 1665696470231,
@@ -9156,12 +9199,23 @@
   },
   "editor": {
    "en": {
-    "main": "If on <solar/>Solar Subclass\r\n75% Additional Base Grenade and Melee Regeneration Rate\r\n\r\nIf <solar/>Solar Super is Charged.\r\n350% Additional Base Grenade and Melee Regeneration Rate",
-    "secondary": "Passively grants 20 Airborne Effectiveness\r\n\r\nIf on Solar Subclass\r\n75% Additional Base Grenade and Melee Regeneration Rate\r\n\r\nIf Solar Super is Charged.\r\n350% Additional Base Grenade and Melee Regeneration Rate"
+    "main": "Passively grants +20 Airborne Effectiveness\n\nIf on <solar/>Solar Subclass\n75% Additional Base Grenade and Melee Regeneration Rate\n\nIf <solar/>Solar Super is Charged.\n350% Additional Base Grenade and Melee Regeneration Rate",
+    "secondary": "Passively grants +20 Airborne Effectiveness\n\nIf on Solar Subclass\n75% Additional Base Grenade and Melee Regeneration Rate\n\nIf Solar Super is Charged.\n350% Additional Base Grenade and Melee Regeneration Rate"
    },
    "ko": {
     "main": "<solar/>태양 하위직업 장착 시:\n수류탄과 근접 공격의 기본 재생 속도가 75% 증가합니다.\n\n<solar/>태양 궁극기 충전 시:\n수류탄과 근접 공격의 기본 재생 속도가 350% 증가합니다."
    }
+  },
+  "stats": {
+   "airborne": [
+    {
+     "passive": {
+      "stat": [
+       20
+      ]
+     }
+    }
+   ]
   }
  },
  "1667892710": {
@@ -9170,10 +9224,10 @@
   "itemHash": 1591207519,
   "itemName": "Crest of Alpha Lupi",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881743,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667587144639,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -9183,8 +9237,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881743,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667580874506,
+     "updatedBy": "Fading Shadow"
     },
     "ko": {
      "lastUpdate": 1665686473705,
@@ -9194,8 +9248,8 @@
   },
   "editor": {
    "en": {
-    "main": "On Barricade Cast:\nGenerates a Healing Pulse which heals both the user and allies within 12 metres.\nHealing Pulse heals for either 58 HP OR to 130HP, depending on which is highest.\nRequires Line-of-Sight to allies.\n\nSupers generate 1 extra Orb of Power.",
-    "secondary": "On Barricade Cast:\r\nGenerates a Healing Pulse which heals both the user and allies within 12 metres.\r\nHealing Pulse heals for either 58 HP OR to 130HP, depending on which is highest.\r\nRequires Line-of-Sight to allies.\r\n\r\nSupers generate 1 extra Orb of Power."
+    "main": "On Barricade Placement:\nGenerates a Healing Pulse, instantly healing the user and allies within 12 metres.\n\nHealing Pulse heals for either 58 HP OR to 130HP. \nThe Healing Pulse heals for whichever value restores the most HP.\n\nRequires Line-of-Sight to allies.\n\nSuper Abilities generate an extra Orb of Power.",
+    "secondary": "import self"
    },
    "ko": {
     "main": "방벽 시전 시:\n플레이어와 12미터 이내의 아군을 치유하는 치유의 파동을 일으킵니다.\n치유의 파동은 58 - 130HP를 회복시킵니다.\n아군이 효과를 받기 위해선 시전자의 시선 안에 있어야 합니다.\n\n궁극기가 힘의 보주 하나를 추가로 생성합니다."
@@ -9208,21 +9262,21 @@
   "itemHash": 1591207518,
   "itemName": "Actium War Rig",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881743,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667587144639,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
    "stats": {
-    "lastUpdate": 1658513881743,
-    "undatedBy": "Fading-Shadow"
+    "lastUpdate": 1667580573561,
+    "updatedBy": "Fading Shadow"
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881743,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667580559665,
+     "updatedBy": "Fading Shadow"
     },
     "ko": {
      "lastUpdate": 1665682478048,
@@ -9232,12 +9286,26 @@
   },
   "editor": {
    "en": {
-    "main": "Passively grants 30 Airborne Effectiveness to Auto Rifles and Machine Guns.\r\n\r\nRefreshes 10% of equipped Auto Rifle/Machine Gun magazine every 1.5 seconds.",
-    "secondary": "Passively grants 30 Airborne Effectiveness to Auto Rifles and Machine Guns.\r\n\r\nRefreshes 10% of equipped Auto Rifle/Machine Gun magazine every 1.5 seconds."
+    "main": "Passively grants +30 Airborne Effectiveness to Auto Rifles and Machine Guns.\n\nReadied Auto Rifles and Machine Guns refresh 10% of their Magazine every 1.5 seconds.",
+    "secondary": "import self"
    },
    "ko": {
     "main": "자동 소총군과 기관총군에 상시로 공중 효율을 30 만큼 올려줍니다.\n\n발사하는 동안 1.5초마다 자동 소총/기관총의 탄창의 10%를 재장전합니다. "
    }
+  },
+  "stats": {
+   "airborne": [
+    {
+     "passive": {
+      "stat": [
+       30
+      ]
+     },
+     "weaponTypes": [
+      "auto rifle"
+     ]
+    }
+   ]
   }
  },
  "1683379515": {
@@ -9640,7 +9708,7 @@
   "name": "Adept Targeting",
   "type": "weaponMod",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667579541591,
+  "lastUpload": 1667587144639,
   "inLiveDatabase": false,
   "uploadToLive": false,
   "optional": false,
@@ -10101,10 +10169,10 @@
   "itemHash": 1190497097,
   "itemName": "Citan's Ramparts",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881743,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667587144639,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -10114,8 +10182,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881743,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667580798380,
+     "updatedBy": "Fading Shadow"
     },
     "ko": {
      "lastUpdate": 1665686033030,
@@ -10125,8 +10193,8 @@
   },
   "editor": {
    "en": {
-    "main": "Alters Towering Barricade\r\n\r\nAssault Barricade has reduced health and duration, but enables you and your allies to shoot through it.\r\n\r\nBarricade Stats\r\n<pvp 600HP -> 350HP />\r\n20 seconds -> 10 seconds ",
-    "secondary": "Alters Towering Barricade\r\n\r\nAssault Barricade has reduced health and duration, but enables you and your allies to shoot through it.\r\n\r\nBarricade Stats\r\nPVP: 600HP -> 350HP\r\n20 seconds -> 10 seconds "
+    "main": "Modifies Towering Barricade into Assault Barricade\n\nAssault Barricade has 33% Decreased HP and 50% Decreased Duration but enables you and your allies to shoot through it.\n\nAssault Barricade Stats:\n600HP -> 350HP\n20 seconds -> 10 seconds ",
+    "secondary": "import self"
    },
    "ko": {
     "main": "치솟은 방벽을 변형시킵니다.\n\n공격 방벽은 체력과 지속 시간이 줄어들지만 아군들이 방벽을 뚫고 사격 할 수 있게 해줍니다.\n\n방벽 수치\n<pvp 600HP -> 350HP />\n20초 -> 10초"
@@ -10138,7 +10206,7 @@
   "name": "Dragonfly Spec",
   "type": "weaponMod",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667579541591,
+  "lastUpload": 1667587144639,
   "inLiveDatabase": false,
   "uploadToLive": true,
   "optional": false,
@@ -10338,7 +10406,7 @@
   "name": "Adept Draw Time",
   "type": "weaponMod",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667579541591,
+  "lastUpload": 1667587144639,
   "inLiveDatabase": false,
   "uploadToLive": false,
   "optional": false,
@@ -10590,10 +10658,10 @@
   "itemHash": 1341951177,
   "itemName": "Heart of Inmost Light",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881743,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667587144639,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -10603,8 +10671,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1666624865682,
-     "updatedBy": "Icemourne"
+     "lastUpdate": 1667581357790,
+     "updatedBy": "Fading Shadow"
     },
     "zh-chs": {
      "lastUpdate": 1664421626625,
@@ -10618,8 +10686,8 @@
   },
   "editor": {
    "en": {
-    "main": "Ability use grants Empowered for other abilities for <pve 10 /> <pvp [5] /> seconds, depending on the Ability used. \ne.g.: Barricade -> Empowered Melee and Empowered Grenade.\n\nWhile Empowered:\nEmpowered Melee: 10% | 20% Increased damage.\n<pve 400% /> <pvp [100%] /> || <pve 800% /> <pvp [200%] /> Additional Base Melee Regeneration Rate.\n\nEmpowered Grenade: <pve 20% /> <pvp [10%] /> | <pve 35% /> <pvp [20%] /> Increased damage.\n<pve 400% /> <pvp [100%] /> || <pve 800% /> <pvp [200%] /> Additional Base Grenade Regeneration Rate.\n\nEmpowered Barricade: X% | Y% Increased HP.\n<pve 150% /> <pvp [37.5%] /> || <pve 300% /> <pvp [75%] /> Additional Base Barricade Regeneration Rate.",
-    "secondary": "Numbers in [brackets] represent PVP values.\r\n\r\nAbility use grants Empowered for other abilities for 10 [5] seconds, depending on the Ability used. \r\ne.g.: Barricade -> Empowered Melee and Empowered Grenade.\r\n\r\nWhile Empowered:\r\n\r\nEmpowered Melee: 10% | 20% Increased damage.\r\n400% [100%] | 800% [200%] Additional Base Melee Regeneration Rate.\r\n\r\nEmpowered Grenade: 20% [10%] | 35% [20%] Increased damage.\r\n400% [100%] | 800% [200%] Additional Base Grenade Regeneration Rate.\r\n\r\nEmpowered Barricade: X% | Y% Increased HP.\r\n150% [37.5%] | 300% [75%] Additional Base Barricade Regeneration Rate."
+    "main": "Ability use grants Empowered for other abilities for <pve 10 /> <pvp [5] /> seconds, depending on the Ability used. \ne.g.: Barricade -> Empowered Melee and Empowered Grenade.\n\nEmpowered Melee:\n10% | 20% Increased damage.\n<pve 400% /> <pvp [100%] /> || <pve 800% /> <pvp [200%] /> Additional Base Melee Regeneration Rate.\n\nEmpowered Grenade:\n<pve 20% /> <pvp [10%] /> | <pve 35% /> <pvp [20%] /> Increased damage.\n<pve 400% /> <pvp [100%] /> || <pve 800% /> <pvp [200%] /> Additional Base Grenade Regeneration Rate.\n\nEmpowered Barricade:\nX% | Y% Increased HP. Not granting any benefit.\n<pve 150% /> <pvp [37.5%] /> || <pve 300% /> <pvp [75%] /> Additional Base Barricade Regeneration Rate.",
+    "secondary": "Numbers in [brackets] represent PVP values.\n\nAbility Usage grants Empowered for your other two abilities for 10 [5] seconds. \ne.g.: Cast Barricade -> Empowered Melee and Empowered Grenade.\n\nEmpowered Melee:\n10% | 20% Increased damage.\n400% [100%] | 800% [200%] Additional Base Melee Regeneration Rate.\n\nEmpowered Grenade:\n20% [10%] | 35% [20%] Increased damage.\n400% [100%] | 800% [200%] Additional Base Grenade Regeneration Rate.\n\nEmpowered Barricade:\nX% | Y% Increased HP. Not granting any benefit.\n150% [37.5%] | 300% [75%] Additional Base Class Regeneration Rate."
    },
    "zh-chs": {
     "main": "使用一个技能（手雷、近战或屏障）可为另外两个技能赋能 <pve 10 /><pvp [5] /> 秒。\n例如：使用屏障，可赋能近战和受累。\n\n当赋能时：\n\n强化近战： 10% | 20% 额外伤害。\n<pve 400% /><pvp [100%] /> || <pve 800% /><pvp [200%] /> 额外近战回复效率。\n\n强化手雷： <pve 20% /><pvp [10%] /> | <pve 35% /><pvp [20%] /> 额外伤害。\n<pve 400% /><pvp [100%] /> || <pve 800% /><pvp [200%] /> 额外手雷回复效率。\n\n强化屏障： X% | Y% 额外生命值。\n<pve 150% /><pvp [37.5%] /> || <pve 300% /><pvp [75%] /> 额外屏障回复效率。",
@@ -10805,6 +10873,37 @@
     "isConditionallyActive": false
    }
   ]
+ },
+ "1969105489": {
+  "hash": 1969105489,
+  "name": "Hammer of the Gods",
+  "type": "armorExotic",
+  "lastUpload": 1667587144639,
+  "uploadedBy": "Fading Shadow",
+  "editor": {
+   "en": {
+    "main": "Thunderclap Kills grant [?]% Melee Energy.\n\nThunderclap causes enemies within [?] metres to get struck by lightning, dealing [?] damage.\nRange is increased to [?] metres if Amplified.\n\nVery insightful, I know.",
+    "secondary": "import self"
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 1667587138340,
+     "updatedBy": "Fading Shadow"
+    }
+   }
+  },
+  "uploadToLive": true,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false,
+  "itemName": "Point-Contact Cannon Brace",
+  "itemHash": 1703598057
  },
  "1971489086": {
   "hash": 1971489086,
@@ -12164,7 +12263,7 @@
   "name": "Adept Projectile Speed",
   "type": "weaponMod",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667579541591,
+  "lastUpload": 1667587144639,
   "inLiveDatabase": false,
   "uploadToLive": false,
   "optional": false,
@@ -12305,10 +12404,10 @@
   "itemHash": 2384488862,
   "itemName": "Khepri's Horn",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881743,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667587144639,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -12318,8 +12417,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881743,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667585703424,
+     "updatedBy": "Fading Shadow"
     },
     "ko": {
      "lastUpdate": 1665697470668,
@@ -12329,8 +12428,8 @@
   },
   "editor": {
    "en": {
-    "main": "On Barricade Cast:\nUnleashes a Solar Wave that returns back to the Barricade after 18.5 meters.\n<pvp Deals 100 damage. />\n\nSolar Kills refresh 25% of Class Ability Energy.\n",
-    "secondary": "On Barricade Cast:\r\nUnleashes a Solar Wave that returns back to the Barricade after 18.5 meters.\r\nPVP: Deals 100 damage.\r\n\r\nSolar Kills refresh 25% of Class Ability Energy.\r\n"
+    "main": "On Barricade Placement:\nUnleashes a <solar/>Solar Wave that returns back to the Barricade after 18.5 metres.\n\n<solar/>Solar Wave deals <pve 240 /> <pvp [100] /> damage.\n\n<solar/>Solar Kills refresh 25% of Class Ability Energy.\n",
+    "secondary": "On Barricade Placement:\nUnleashes a Solar Wave that returns back to the Barricade after 18.5 metres.\nSolar Wave deals 240 [PVP: 100] damage.\n\nSolar Kills grant 25% Class Ability Energy."
    },
    "ko": {
     "main": "방벽 시전 시:\n18.5미터를 나아간 뒤 다시 방벽으로 돌아오는 태양 파동을 내보냅니다.\n<pvp 100 피해를 줍니다. />\n\n태양 처치 시 직업 능력 에너지 25%를 반환합니다."
@@ -12736,10 +12835,10 @@
   "itemHash": 1322544481,
   "itemName": "Hoarfrost-Z",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881743,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667587144639,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -12749,8 +12848,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881743,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667581910084,
+     "updatedBy": "Fading Shadow"
     },
     "ko": {
      "lastUpdate": 1665697020787,
@@ -12760,8 +12859,8 @@
   },
   "editor": {
    "en": {
-    "main": "While on Stasis Subclass:\r\nBarricade is replaced by a Stasis Wall.\r\n\r\nThe Stasis Wall is 7 medium crystals wide, and the middle crystal is a small crystal.\r\n\r\nGrants Rally Barricade benefits. Functions even if no crystals remain.",
-    "secondary": "While on Stasis Subclass:\r\nBarricade is replaced by a Stasis Wall.\r\n\r\nThe Stasis Wall is 7 medium crystals wide, and the middle crystal is a small crystal.\r\n\r\nGrants Rally Barricade benefits. Functions even if no crystals remain."
+    "main": "While on Stasis Subclass:\nBarricade is replaced by a Stasis Wall.\n\nThe Stasis Wall is 5 medium crystals wide. The middle crystal is a small crystal.\nStasis Wall lasts 14 seconds.\n\nInherits Rally Barricade Cooldown and Bonuses. Functions even if no crystals remain.",
+    "secondary": "import self"
    },
    "ko": {
     "main": "시공 하위직업을 장착했을 때:\n방벽이 시공 수정으로 변환됩니다.\n\n시공 수정 방벽은 7개 중간 크기 수정으로 이루어져 있으며 중앙은 작은 수정입니다.\n\n시공 수정 방벽은 집결 방벽의 효과를 부여하지만 수정이 3개 이상 파괴되면 기능을 잃게 됩니다."
@@ -12910,29 +13009,47 @@
   "itemHash": 1453120846,
   "itemName": "The Path of Burning Steps",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881743,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667587144639,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
    "stats": {
-    "lastUpdate": 1658513881743,
-    "undatedBy": "Fading-Shadow"
+    "lastUpdate": 1667586612399,
+    "updatedBy": "Fading Shadow"
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881743,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667586440317,
+     "updatedBy": "Fading Shadow"
     }
    }
   },
   "editor": {
    "en": {
-    "main": "Solar Kills have a chance of granting 1 Stack of Firewalker [1 to 3 Kills, average of 2]\nBeing Frozen grants 1 Stack of Firewalker\nMax of 4 Stacks.\nFirewalker increases Weapon Damage depending on Stacks and lasts 10 seconds.\n<pve 1x = 20% | 2x = 25% | 3x = 35% | 4x = 40% />\n<pvp 1x = 20% | 2x = 25% | 3x = 20% | 4x = 35% />\n\nSlow Stacks and Duration are halved.\nReceive no damage from Stasis Breakout.\nStasis Breakout also creates a burst of Solar Energy with a 9m radius, dealing 105 damage.",
-    "secondary": "Solar Kills have a chance of granting 1 Stack of Firewalker [1 to 3 Kills, average of 2]\r\nBeing Frozen grants 1 Stack of Firewalker\r\nMax of 4 Stacks.\r\nFirewalker increases Weapon Damage depending on Stacks and lasts 10 seconds.\r\n[PVE] 1x = 20% | 2x = 25% | 3x = 35% | 4x = 40%\r\n[PVP] 1x = 20% | 2x = 25% | 3x = 20% | 4x = 35%\r\n\r\nSlow Stacks and Duration are halved.\r\nReceive no damage from Stasis Breakout.\r\nStasis Breakout also creates a burst of Solar Energy with a 9m radius, dealing 105 damage.\r\n"
+    "main": "<solar/>Solar Kills have a chance of granting 1 stack of Firewalker. [1-3 Kills, average of 2]\nBecoming <stasis/>Frozen grants 1 stack of Firewalker.\nMax of 4 Stacks.\n\nFirewalker increases Weapon Damage depending on Stacks and lasts 10 seconds.\n<pve 1x = 20% | 2x = 25% | 3x = 35% | 4x = 40% />\n<pvp 1x = 15% | 2x = 25% | 3x = 20% | 4x = 35% />\n(Yes, 3x is 20% in PVP, it's not a typo)\n\nSlow Stacks and Duration are halved.\nReceive no damage from Stasis Breakout.\nStasis Breakout also creates a burst of Solar Energy with a 9m radius, dealing 105 damage.",
+    "secondary": "Solar Kills have a chance of granting 1 stack of Firewalker. [1-3 Kills, average of 2]\nBecoming Frozen grants 1 stack of Firewalker.\nMax of 4 Stacks.\n\nFirewalker increases Weapon Damage and lasts 10 seconds.\n[PVE] 1x = 20% | 2x = 25% | 3x = 35% | 4x = 40%\n[PVP] 1x = 15% | 2x = 25% | 3x = 20% | 4x = 35%\n(Yes, 3x is 20% in PVP, it's not a typo)\n\nSlow Stacks and Duration are halved.\nReceive no damage from Stasis Breakout.\nStasis Breakout creates a burst of Solar Energy, dealing 105 damage in a 9 metre radius."
    }
+  },
+  "stats": {
+   "damage": [
+    {
+     "active": {
+      "multiplier": [
+       1.2,
+       1.25,
+       1.35,
+       1.4,
+       1.15,
+       1.25,
+       1.2,
+       1.35
+      ]
+     }
+    }
+   ]
   }
  },
  "2529412083": {
@@ -14272,7 +14389,7 @@
   "name": "Boss Spec",
   "type": "weaponMod",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667579541591,
+  "lastUpload": 1667587144639,
   "inLiveDatabase": false,
   "uploadToLive": false,
   "optional": false,
@@ -14606,7 +14723,7 @@
   "name": "Rangefinder",
   "type": "weaponPerk",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667261159924,
+  "lastUpload": 1667587144639,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -14618,7 +14735,7 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667259774139,
+     "lastUpdate": 1667579666755,
      "updatedBy": "Fading Shadow"
     }
    }
@@ -14636,7 +14753,7 @@
   },
   "editor": {
    "en": {
-    "main": "While Aiming-Down-Sights:\n<title 10% Increased Zoom [increased zoom] />, 20% Increased Aim Assist Falloff Distance, and 5% Faster Projectile Speed.\n\n🡅Enhanced: Passively grants +5 Handling\n\ntitle increased zoom (\nZoom acts as a multiplier to hipfire range and maximum falloff distance while ADS.\nIn this case, it pushes out the weapon's effective range by 10%.\n)",
+    "main": "While Aiming-Down-Sights:\n<title 10% Increased Zoom [increased zoom] /> and 5% Faster Projectile Speed.\n\n🡅Enhanced: Passively grants +5 Handling\n\ntitle increased zoom (\nZoom acts as a multiplier to the hip-fire range falloff start and end distances distance while ADS.\n\nIn this case, it pushes out the weapon's effective range by 10%. This includes both damage and aim assist falloff.\n)",
     "secondary": "While Aiming-Down-Sights:\n10% Increased Zoom, 20% Increased Aim Assist Falloff Distance, and 5% Faster Projectile Speed.\n\n🡅Enhanced: Passively grants +5 Handling"
    }
   },
@@ -15232,10 +15349,10 @@
   "itemHash": 1537074069,
   "itemName": "Phoenix Cradle",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881743,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667587144639,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -15245,15 +15362,15 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881743,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667586964401,
+     "updatedBy": "Fading Shadow"
     }
    }
   },
   "editor": {
    "en": {
     "main": "Sun Invictus buff from Sunspots lasts twice as long (5 ->10 seconds)\n\nSunspots affect the entire team.",
-    "secondary": "Sun Invictus buff from Sunspots lasts twice as long (5 ->10 seconds)\r\n\r\nSunspots affect the entire team."
+    "secondary": "import self"
    }
   }
  },
@@ -15388,10 +15505,10 @@
   "itemHash": 3974038291,
   "itemName": "Precious Scars",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881743,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667587144639,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -15401,8 +15518,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881743,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667586982924,
+     "updatedBy": "Fading Shadow"
     }
    }
   },
@@ -15601,7 +15718,7 @@
   "name": "Adept Big Ones Spec",
   "type": "weaponMod",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667579541591,
+  "lastUpload": 1667587144639,
   "inLiveDatabase": false,
   "uploadToLive": false,
   "optional": false,
@@ -16264,7 +16381,7 @@
   "name": "Adept Impact",
   "type": "weaponMod",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667579541591,
+  "lastUpload": 1667587144639,
   "inLiveDatabase": false,
   "uploadToLive": false,
   "optional": false,
@@ -16293,7 +16410,7 @@
   "name": "Targeting Adjuster",
   "type": "weaponMod",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667579541591,
+  "lastUpload": 1667587144639,
   "inLiveDatabase": false,
   "uploadToLive": true,
   "optional": false,
@@ -16367,21 +16484,21 @@
   "itemHash": 3539357318,
   "itemName": "Lion Rampant",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881743,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667587144639,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
    "stats": {
-    "lastUpdate": 1658513881743,
-    "undatedBy": "Fading-Shadow"
+    "lastUpdate": 1667585812515,
+    "updatedBy": "Fading Shadow"
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881743,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667585819655,
+     "updatedBy": "Fading Shadow"
     },
     "ko": {
      "lastUpdate": 1665698023260,
@@ -16391,12 +16508,23 @@
   },
   "editor": {
    "en": {
-    "main": "Enables hipfiring while in Lift, and passively grants 50 Airborne Effectiveness while hipfiring.\n\nIncreases Lift Duration to 4 seconds.\n\nLift Duration in seconds:\nHigh Lift: 2.6 -> 4 (54% increase)\nStafe Lift: 2.2 -> 4 (82% increase)\nCatapult Lift: 1 -> 4 (300% increase!)",
-    "secondary": "Enables hipfiring while in Lift, and passively grants 50 Airborne Effectiveness while hipfiring.\r\n\r\nIncreases Lift Duration to 4 seconds.\r\n\r\nLift Duration in seconds:\r\nHigh Lift: 2.6 -> 4 (54% increase)\r\nStafe Lift: 2.2 -> 4 (82% increase)\r\nCatapult Lift: 1 -> 4 (300% increase!)"
+    "main": "Enables hipfiring while in Lift, and passively grants +50 Airborne Effectiveness while hipfiring.\n\nIncreases Lift Duration to 4 seconds.\n\nLift Duration in seconds:\nHigh Lift: 2.6 -> 4 (54% increase)\nStafe Lift: 2.2 -> 4 (82% increase)\nCatapult Lift: 1 -> 4 (300% increase!)",
+    "secondary": "import self"
    },
    "ko": {
     "main": "부양 도중 비조준 사격을 할 수 있게 되며 비조준 사격 한정으로 상시 공중 효율을 50 만큼 증가시킵니다.\n\n부양의 지속 시간을 4초로 증가시킵니다.\n\n부양 지속 시간 증가:\n높은 부양: 2.6초 -> 4초 (54% 증가)\n제어 부양: 2.2초 -> 4초 (82% 증가)\n사출 부양: 1초 -> 4초 (300% 증가)"
    }
+  },
+  "stats": {
+   "airborne": [
+    {
+     "active": {
+      "stat": [
+       50
+      ]
+     }
+    }
+   ]
   }
  },
  "3241194941": {
@@ -16405,21 +16533,21 @@
   "itemHash": 3539357319,
   "itemName": "Peacekeepers",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881743,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667587144639,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
    "stats": {
-    "lastUpdate": 1658513881743,
-    "undatedBy": "Fading-Shadow"
+    "lastUpdate": 1667586682821,
+    "updatedBy": "Fading Shadow"
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881743,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667586699376,
+     "updatedBy": "Fading Shadow"
     }
    }
   },
@@ -16430,7 +16558,10 @@
       "stat": [
        100
       ]
-     }
+     },
+     "weaponTypes": [
+      "submachine gun"
+     ]
     }
    ],
    "stow": [
@@ -16439,14 +16570,29 @@
       "multiplier": [
        0.6
       ]
-     }
+     },
+     "weaponTypes": [
+      "submachine gun"
+     ]
+    }
+   ],
+   "airborne": [
+    {
+     "passive": {
+      "stat": [
+       40
+      ]
+     },
+     "weaponTypes": [
+      "submachine gun"
+     ]
     }
    ]
   },
   "editor": {
    "en": {
-    "main": "Passively grants 40 Airborne Effectiveness to SMGs.\r\n\r\nWhen an SMG is readied:\r\n50 Mobility\r\nIncreases Sprint Speed by 6.25%\r\nIncreases Slide Distance by 33%\r\nDecreases SMG ADS penalty from 25% to 9%\r\n100 Handling with a 0.6x Ready/Stow Duration Multiplier.\r\n\r\nReloads stowed SMGs in 1.3s",
-    "secondary": "Passively grants 40 Airborne Effectiveness to SMGs.\r\n\r\nWhen an SMG is readied:\r\n50 Mobility\r\nIncreases Sprint Speed by 6.25%\r\nIncreases Slide Distance by 33%\r\nDecreases SMG ADS penalty from 25% to 9%\r\n100 Handling with a 0.6x Ready/Stow Duration Multiplier.\r\n\r\nReloads stowed SMGs in 1.3s"
+    "main": "Passively grants +40 Airborne Effectiveness to Submachine Guns.\n\nWhile you have a readied SMG:\n+50 Mobility, +100 Handling with a 0.6x Ready/Stow Duration Multiplier\nReduces the Submachine Gun Aiming-Down-Sights Movement Penalty to 9%.\nIncreases Sprint Speed by 6.25%\nIncreases Slide Distance by 33%\n\nReloads stowed Submachine Guns in 1.3 seconds.",
+    "secondary": "import self"
    }
   }
  },
@@ -16456,10 +16602,10 @@
   "itemHash": 1160559849,
   "itemName": "Dunemarchers",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881743,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667587144639,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -16469,8 +16615,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1666624799369,
-     "updatedBy": "Icemourne"
+     "lastUpdate": 1667581109195,
+     "updatedBy": "Fading Shadow"
     },
     "ko": {
      "lastUpdate": 1665694848573,
@@ -16480,8 +16626,8 @@
   },
   "editor": {
    "en": {
-    "main": "After sprinting for 1.5 seconds, gain Linear Actuators for 7 seconds.\n\nOn Melee Hit:\nLinear Actuators applies Shocked for 2 seconds on enemy, which releases an Arc static charge that chains when another enemy is within 20 meters. Shocked is refreshed on chain.\n\n<pve 300%(?) Melee Damage />\n<pvp 85 Damage. Immune to Dunemarchers for 2 seconds after being hit. />\n\nIncreases Sprint Speed by 6.25%\nIncreases Slide Distance by 33%",
-    "secondary": "After sprinting for 1.5 seconds, gain Linear Actuators for 7 seconds.\n\nOn Melee Hit:\nLinear Actuators applies Shocked for 2 seconds on enemy, which releases an Arc static charge that chains when another enemy is within 20 meters. Shocked is refreshed on chain.\n\nPVE: 300%(?) Melee Damage\nPVP: 85 Damage. Immune to Dunemarchers for 2 seconds after being hit.\n\nIncreases Sprint Speed by 6.25%\nIncreases Slide Distance by 33%"
+    "main": "After sprinting for 1.5 seconds, gain Linear Actuators for 7 seconds.\n\nOn Melee Hit:\nLinear Actuators applies Shocked for 2 seconds on enemy, which releases an Arc Static Charge that chains when another enemy is within 20 metres. Shocked is refreshed on chain.\n\n<pve [PVE] [?] Damage />\n<pvp [PVP] 85 Damage. Immune to additional chain damage for 2 seconds while Shocked. />\n\nIncreases Sprint Speed by 6.25%\nIncreases Slide Distance by 33%",
+    "secondary": "After sprinting for 1.5 seconds, gain Linear Actuators for 7 seconds.\n\nOn Melee Hit:\nLinear Actuators applies Shocked for 2 seconds on enemy, which releases an Arc Static Charge that chains when another enemy is within 20 metres. Shocked is refreshed on chain.\n\n[PVE] [?] Damage\n[PVP] 85 Damage. Immune to additional chain damage for 2 seconds while Shocked.\n\nIncreases Sprint Speed by 6.25%\nIncreases Slide Distance by 33%"
    },
    "ko": {
     "main": "1.5초 간 질주 한 이루 7초 동안 선형 구동기가 활성화됩니다.\n\n근접 공격 적중 시:\n선형 구동기가 맞은 적에게 2초 동안 충격을 남깁니다. 만약에 다른 적이 20미터 이내에 있을 경우 연쇄 번개가 일어납니다. 충격은 연쇄 번개 발동 이후 초기화됩니다.\n\n<pve 약 300% 근접 공격 피해 />\n<pvp 85 피해. 맞은 이후 2초간 사막행군병의 효과에 면역. />\n\n질주 속도 6.25% 증가\n슬라이드 거리 33% 증가"
@@ -16857,7 +17003,7 @@
   "name": "Backup Mag",
   "type": "weaponMod",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667579541591,
+  "lastUpload": 1667587144639,
   "inLiveDatabase": false,
   "uploadToLive": false,
   "optional": false,
@@ -18233,10 +18379,10 @@
   "itemHash": 3883866764,
   "itemName": "Mask of the Quiet One",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881743,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667587144639,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -18246,14 +18392,14 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1666624947173,
-     "updatedBy": "Icemourne"
+     "lastUpdate": 1667585892985,
+     "updatedBy": "Fading Shadow"
     }
    }
   },
   "editor": {
    "en": {
-    "main": "Heals up to Max Critical Health on Kill if Critical.\n\nGenerates 5% Barricade, Grenade, and Melee Energy every time you take damage.\nX second cooldown.",
+    "main": "Heals you to 70 HP on Kill if Critical.\n\nGenerates 5% Class, Grenade, and Melee Energy every time you take damage.\n\n1 second cooldown between activations.",
     "secondary": "import self"
    }
   }
@@ -18264,10 +18410,10 @@
   "itemHash": 3216110440,
   "itemName": "An Insurmountable Skullfort",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881743,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667587144639,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -18277,8 +18423,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881743,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667585618782,
+     "updatedBy": "Fading Shadow"
     },
     "ko": {
      "lastUpdate": 1665683252223,
@@ -18288,8 +18434,8 @@
   },
   "editor": {
    "en": {
-    "main": "<arc/>Arc Melee Kills fully recharge Melee Ability and begin Health Regeneration",
-    "secondary": "Arc Melee Kills fully recharge Melee Ability and begin Health Regeneration"
+    "main": "<arc/>Powered Arc Melee Kills grant full Melee Ability Energy and begin Health Regeneration.",
+    "secondary": "Powered Arc Melee Kills grant full Melee Ability Energy and begin Health Regeneration."
    },
    "ko": {
     "main": "<arc/>전기 근접 능력 처치는 근접 능력을 완전히 채워주고 바로 체력 회복을 발동합니다."
@@ -19077,7 +19223,7 @@
   "name": "Radar Booster",
   "type": "weaponMod",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667579541591,
+  "lastUpload": 1667587144639,
   "inLiveDatabase": false,
   "uploadToLive": true,
   "optional": false,
@@ -19106,7 +19252,7 @@
   "name": "Adept Icarus Grip",
   "type": "weaponMod",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667579541591,
+  "lastUpload": 1667587144639,
   "inLiveDatabase": false,
   "uploadToLive": false,
   "optional": false,
@@ -20154,7 +20300,7 @@
   "name": "Adept Stability",
   "type": "weaponMod",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667579541591,
+  "lastUpload": 1667587144639,
   "inLiveDatabase": false,
   "uploadToLive": false,
   "optional": false,
@@ -20645,7 +20791,7 @@
   "name": "Minor Spec",
   "type": "weaponMod",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667579541591,
+  "lastUpload": 1667587144639,
   "inLiveDatabase": false,
   "uploadToLive": true,
   "optional": false,
@@ -21368,21 +21514,21 @@
   "itemHash": 2321120637,
   "itemName": "Cuirass of the Falling Star",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881743,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667587144639,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
    "stats": {
-    "lastUpdate": 1658513881743,
-    "undatedBy": "Fading-Shadow"
+    "lastUpdate": 1667581017041,
+    "updatedBy": "Fading Shadow"
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881743,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667580950953,
+     "updatedBy": "Fading Shadow"
     },
     "zh-chs": {
      "lastUpdate": 1664421904650,
@@ -21396,8 +21542,8 @@
   },
   "editor": {
    "en": {
-    "main": "Thundercrash deals 100% more damage.\r\n\r\nOn Thundercrash Deactivation:\r\nGain a 100HP Overshield for 7 seconds.\r\nOvershield Duration scales with Thundercrash distance, up to a max of 20 seconds.",
-    "secondary": "Thundercrash deals 100% more damage.\r\n\r\nOn Thundercrash Deactivation:\r\nGain a 100HP Overshield for 7 seconds.\r\nOvershield Duration scales with Thundercrash distance, up to a max of 20 seconds."
+    "main": "Thundercrash deals 100% increased damage.\n\nOn Thundercrash Deactivation:\nGain a 100 HP Overshield for 7 seconds.\nOvershield duration scales with Thundercrash distance, up to 20 seconds.",
+    "secondary": "import self"
    },
    "zh-chs": {
     "main": "雷霆冲击提升 100% 伤害。\n\n当雷霆冲击释放完成时：\n在 7 秒内获得 100 生命值的覆盖护盾。\n覆盖护盾持续时间会根据雷霆冲击释放距离而延长，最高为 20 秒。",
@@ -21406,6 +21552,17 @@
    "ko": {
     "main": "천둥충돌의 피해가 100% 증가합니다.\n\n천둥충돌 사용 직후:\n7초 동안 100HP 짜리 보호막을 얻습니다.\n보호막의 지속시간은 천둥충돌 시전 시 날아간 거리에 비례하며 최대 20초 까지 가능합니다."
    }
+  },
+  "stats": {
+   "damage": [
+    {
+     "active": {
+      "multiplier": [
+       2
+      ]
+     }
+    }
+   ]
   }
  },
  "4251375227": {
@@ -21569,7 +21726,7 @@
   "name": "Adept Handling",
   "type": "weaponMod",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667579541591,
+  "lastUpload": 1667587144639,
   "inLiveDatabase": false,
   "uploadToLive": false,
   "optional": false,
