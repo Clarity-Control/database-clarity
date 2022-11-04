@@ -3,7 +3,7 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1667590640786,
+  "lastUpload": 1667594001904,
   "uploadedBy": "Fading Shadow",
   "editor": {
    "en": {
@@ -811,10 +811,10 @@
   "itemHash": 1702288800,
   "itemName": "Radiant Dance Machines",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881742,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667594001904,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -824,15 +824,15 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881742,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667593519184,
+     "updatedBy": "Fading Shadow"
     }
    }
   },
   "editor": {
    "en": {
-    "main": "While within 15 meters of an enemy: Multi-Dodge Ready appears on the Buff list.\n\nAfter Dodging within 15 meters of an Enemy:\nUnlimited Dodges for 6 seconds.\nCan dodge up to 6 times per activation.\n\nMulti-Dodge Dodges are unaffected by Mods that activate on Class Ability Use, alongside Winter's Shroud.\n\nEffect immediately ends if you are over 15 meters away from an Enemy while Multi-Dodge is active.",
-    "secondary": "While within 15 meters of an enemy: Multi-Dodge Ready appears on the Buff list.\r\n\r\nAfter Dodging within 15 meters of an Enemy:\r\nUnlimited Dodges for 6 seconds.\r\nCan dodge up to 6 times per activation.\r\n\r\nMulti-Dodge Dodges are unaffected by Mods that activate on Class Ability Use, alongside Winter's Shroud.\r\n\r\nEffect immediately ends if you are over 15 meters away from an Enemy while Multi-Dodge is active."
+    "main": "While within 15 metres of an enemy:\nMulti-Dodge Ready appears on the Buff List.\n\nAfter Dodging within 15 metres of an Enemy:\nYou can dodge an unlimited amount of times for 6 seconds.\nCan dodge up to 6 times per activation.\n\nMulti-Dodge Dodges do not activate Mods or Aspects that require Class Ability Usage.\n\nEffect immediately ends if you are over 15 metres away from an Enemy while Multi-Dodge is active.",
+    "secondary": "import self"
    }
   }
  },
@@ -1316,7 +1316,7 @@
   "itemName": "VAssassin's Cowl",
   "type": "armorExotic",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667590640786,
+  "lastUpload": 1667594001904,
   "inLiveDatabase": false,
   "uploadToLive": false,
   "optional": false,
@@ -2503,20 +2503,20 @@
   "itemName": "Mechaneer's Tricksleeves",
   "type": "armorExotic",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667587144639,
+  "lastUpload": 1667594001904,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
    "stats": {
-    "lastUpdate": 1667585929321,
+    "lastUpdate": 1667592634224,
     "updatedBy": "Fading Shadow"
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881742,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667592619941,
+     "updatedBy": "Fading Shadow"
     }
    }
   },
@@ -2560,8 +2560,8 @@
   },
   "editor": {
    "en": {
-    "main": "Passively grants 50 Airborne Effectiveness, 100 Handling and 100 Reload Speed to Sidearms.\n\nUpon readying a sidearm while at Critical Health:\n<pve 100% /> <pvp [35%] /> increased damage until no longer critical.\nRefreshes sidearm magazine.",
-    "secondary": "Passively grants 50 Airborne Effectiveness, 100 Handling and 100 Reload Speed to Sidearms.\r\n\r\nUpon readying a sidearm while at Critical Health:\r\n100% and [PVP: 35%] increased damage until no longer critical.\r\nRefreshes sidearm magazine."
+    "main": "Passively grants +50 Airborne Effectiveness, +100 Handling and +100 Reload Speed to Sidearms.\n\nUpon readying a sidearm while at Critical Health:\n • <pve 100% /> <pvp [35%] /> increased damage until no longer at Critical Health.\n • Refreshes sidearm magazine.",
+    "secondary": "Passively grants +50 Airborne Effectiveness, +100 Handling and +100 Reload Speed to Sidearms.\n\nUpon readying a sidearm while at Critical Health:\n • 100% [PVP: 35%] increased damage until no longer at Critical Health.\n • Refreshes Sidearm's Magazine."
    }
   }
  },
@@ -2767,10 +2767,10 @@
   "itemHash": 1935198785,
   "itemName": "Omnioculus",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881742,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667594001904,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -2780,15 +2780,15 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881742,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667592852541,
+     "updatedBy": "Fading Shadow"
     }
    }
   },
   "editor": {
    "en": {
-    "main": "Grants an extra Smoke Bomb Charge.\n\nCloaking allies grants 50% Melee Energy per ally.\n\n<pve 50% /> <pvp [25%] /> Damage Resistance on any Invisible effects. Applies to teammates made invisible.\n\nDamage Resistance does not apply in Super.\n",
-    "secondary": "Grants an extra Smoke Bomb Charge.\r\n\r\nCloaking allies grants 50% Melee Energy per ally.\r\n\r\n50% [PVP: 25%] Damage Resistance on any Invisible effects. Applies to teammates made invisible.\r\n\r\nDamage Resistance does not apply in Super."
+    "main": "Grants an extra Smoke Bomb Melee Ability Charge.\n\nCloaking allies grants 50% Melee Energy per ally made invisible.\n\nWearing Omnioculus grants <pve 50% /> <pvp [10%] /> Damage Resist while invisible.\n\nBeing made invisible thanks to an Omnioculus Hunter grants <pve 50% /> <pvp [10%] /> Damage Resist\n\nWearing Omnioculus and being made invisible by another Omnioculus Hunter grants <pve 75% /> <pvp [19%] /> Damage Resist.\n\nDamage Resistance does not apply in Super.\n",
+    "secondary": "Grants an extra Smoke Bomb Melee Ability Charge.\n\nCloaking allies grants 50% Melee Energy per ally made invisible.\n\nWearing Omnioculus grants 50% [PVP: 10%] Damage Resist while invisible.\n\nBeing made invisible thanks to an Omnioculus Hunter grants 50% [PVP: 10%] Damage Resist\n\nWearing Omnioculus and being made invisible by another Omnioculus Hunter grants 75% [PVP: 19%] Damage Resist.\n\nDamage Resistance does not apply in Super."
    }
   }
  },
@@ -3037,7 +3037,7 @@
   "itemName": "The Dragon's Shadow",
   "type": "armorExotic",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667590640786,
+  "lastUpload": 1667594001904,
   "inLiveDatabase": false,
   "uploadToLive": true,
   "optional": false,
@@ -3105,10 +3105,10 @@
   "itemHash": 2766109872,
   "itemName": "Raiden Flux",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881742,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667594001904,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -3118,15 +3118,15 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1666625198468,
-     "updatedBy": "Icemourne"
+     "lastUpdate": 1667593093008,
+     "updatedBy": "Fading Shadow"
     }
    }
   },
   "editor": {
    "en": {
-    "main": "While in Arc Staff:\nHits grant Synapse Junctions for 5 seconds. Stacks up to 3.\n\n< table >\n| Stacks | Damage Increase | Slower Passive Super Drain\n| 1      | 13.5%           | X%\n| 2      | 28.8%           | X%\n| 3      | 46.2%           | X%\n<$>",
-    "secondary": "While in Arc Staff:\nHits grant Synapse Junctions for 5 seconds. Stacks up to 3.\n\nx1 = 13.5% Increased damage and X% Slower Passive Super Drain\nx2 = 28.8% Increased damage and X% Slower Passive Super Drain\nx3 = 46.2% Increased damage and X% Slower Passive Super Drain"
+    "main": "While in Arc Staff:\nHits grant a stack of Synapse Junctions for 5 seconds, up to a maximum of 3 Stacks.\n\n< table background_2 >\n|c Synapse Junctions |c Super Damage Increase |c % Slower Passive Super Drain\n|c x1                |c 13.5%                 |c [?]%\n|c x2                |c 28.8%                 |c [?]%\n|c x3                |c 46.2%                 |c [?]%\n<$>",
+    "secondary": "While in Arc Staff:\nHits grant a stack of Synapse Junctions for 5 seconds, up to a maximum of 3 Stacks.\n\nSynapse Junctions:\nx1 = 13.5% Increased damage and [?]% Slower Passive Super Drain\nx2 = 28.8% Increased damage and [?]% Slower Passive Super Drain\nx3 = 46.2% Increased damage and [?]% Slower Passive Super Drain"
    }
   }
  },
@@ -3136,10 +3136,10 @@
   "itemHash": 903984858,
   "itemName": "Lucky Raspberry",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881742,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667594001904,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -3149,8 +3149,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1666624914432,
-     "updatedBy": "Icemourne"
+     "lastUpdate": 1667592342300,
+     "updatedBy": "Fading Shadow"
     },
     "ko": {
      "lastUpdate": 1665698639393,
@@ -3160,7 +3160,7 @@
   },
   "editor": {
    "en": {
-    "main": "Additive 25% Chance per Enemy hit with Arcbolt Grenade to recharge your Grenade Ability\n\nArcbolt Grenades chain up to 4 times (from 3)",
+    "main": "Arcbolt Grenades have an additive 25% Chance per Hit to recharge your Grenade Ability.\n\nArcbolt Grenades chain up to 4 times (from 3)",
     "secondary": "import self"
    },
    "ko": {
@@ -3217,10 +3217,10 @@
   "itemHash": 4165919945,
   "itemName": "Liar's Handshake",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881742,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667594001904,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -3230,8 +3230,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881742,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667591397487,
+     "updatedBy": "Fading Shadow"
     },
     "ko": {
      "lastUpdate": 1665697866189,
@@ -3241,8 +3241,8 @@
   },
   "editor": {
    "en": {
-    "main": "Arcstrider Subclass Only\r\nReceiving or Dealing Melee Damage grants Cross Counter for 3 seconds or until Melee Hit.\r\n\r\nCross Counter grants 200% increased Melee Damage and heals for XHP on Melee Hit.\r\n\r\nOne-Two Punch's bonus is reduced to 80% if Cross Counter is active.",
-    "secondary": "Arcstrider Subclass Only\r\nReceiving or Dealing Melee Damage grants Cross Counter for 3 seconds or until Melee Hit.\r\n\r\nCross Counter grants 200% increased Melee Damage and heals for XHP on Melee Hit.\r\n\r\nOne-Two Punch's bonus is reduced to 80% if Cross Counter is active."
+    "main": "Arcstrider Subclass Only\nReceiving or Dealing Melee Damage grants Cross Counter for 3 seconds or until Melee Hit.\n\nCross Counter grants 200% increased Melee Damage and heals [?] HP on Melee Hit.\n\nStacking One-Two Punch with Cross Counter reduces your total damage output by 40%.",
+    "secondary": "import self"
    },
    "ko": {
     "main": "전기질주자 한정입니다.\n근접 피해를 입거나 입히면 3초간 크로스 카운터가 활성화되며 근접 피해를 입히면 해제됩니다.\n\n크로스 카운터는 근접 피해를 200% 증가시키며 근접 공격 적중 시 체력을 회복시킵니다.\n\n크로스 카운터가 활성화 된 동안 원투 펀치의 위력은 80%로 줄어듭니다."
@@ -3688,10 +3688,10 @@
   "itemHash": 1619425569,
   "itemName": "Mask of Bakris",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881742,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667594001904,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -3701,15 +3701,15 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881742,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667592523055,
+     "updatedBy": "Fading Shadow"
     }
    }
   },
   "editor": {
    "en": {
-    "main": "<stasis/>Stasis Subclass Only\nReplaces Dodge with Shift.\nShift has a distance of 10 meters, and renders you completely invisible except for a trail for the duration of the shift.\n\nDodging grants Light Shift buff for 10 seconds.\n<pve Light Shift grants 10% increased damage to Slowed/Frozen targets, as well as granting 10% increased damage to Arc Weapons. />\n\nDodge does not recharge while Light Shift buff is active.\n",
-    "secondary": "Stasis Subclass Only\r\nReplaces Dodge with Shift.\r\nShift has a distance of 10 meters, and renders you completely invisible except for a trail for the duration of the shift.\r\n\r\nDodging grants Light Shift buff for 10 seconds.\r\nPVE: Light Shift grants 10% increased damage to Slowed/Frozen targets, as well as granting 10% increased damage to Arc Weapons.\r\n\r\nDodge does not recharge while Light Shift buff is active."
+    "main": "<stasis/>Stasis Subclass Only\nReplaces Dodge with Shift.\nShift has a travel distance of 10 metres, and renders you completely invisible and invulnerable (except for a trail) for the duration of the shift.\n\nDodging grants Light Shift buff for 10 seconds.\nClass Ability Energy does not recharge while Light Shift is active.\n\n<pve [PVE] Light Shift grants 10% increased damage to Slowed/Frozen Combatants, as well as granting 10% increased damage to Arc Weapons. />",
+    "secondary": "Stasis Subclass Only\nReplaces Dodge with Shift.\nShift has a travel distance of 10 metres, and renders you completely invisible and invulnerable (except for a trail) for the duration of the shift.\n\nDodging grants Light Shift buff for 10 seconds.\nClass Ability Energy does not recharge while Light Shift is active.\n\n[PVE] Light Shift grants 10% increased damage to Slowed/Frozen Combatants, as well as granting 10% increased damage to Arc Weapons."
    }
   }
  },
@@ -4957,9 +4957,9 @@
   "itemName": "Fr0st-EE5",
   "type": "armorExotic",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667590640786,
+  "lastUpload": 1667594001904,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -7676,22 +7676,28 @@
   "itemHash": 691578978,
   "itemName": "Oathkeeper",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881743,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667594001904,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
    "stats": {
-    "lastUpdate": 1658513881743,
-    "undatedBy": "Fading-Shadow"
+    "lastUpdate": 1667592688133,
+    "updatedBy": "Fading Shadow"
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881743,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667592698213,
+     "updatedBy": "Fading Shadow"
     }
+   }
+  },
+  "editor": {
+   "en": {
+    "main": "Passively grants +40 Airborne Effectiveness to Bows.\n\nBows can hold perfect draws indefinitely, and reach maximum draw 30 miliseconds faster.",
+    "secondary": "import self"
    }
   },
   "stats": {
@@ -7701,15 +7707,24 @@
       "stat": [
        -30
       ]
-     }
+     },
+     "weaponTypes": [
+      "combat bow"
+     ]
+    }
+   ],
+   "airborne": [
+    {
+     "passive": {
+      "stat": [
+       40
+      ]
+     },
+     "weaponTypes": [
+      "combat bow"
+     ]
     }
    ]
-  },
-  "editor": {
-   "en": {
-    "main": "Passively grants 40 Airborne Effectiveness to Bows.\n\nBows are able to hold perfect draws indefinitely.\n\nBows have a -30ms Draw Time.",
-    "secondary": "Passively grants 40 Airborne Effectiveness to Bows.\r\n\r\nBows are able to hold perfect draws indefinitely.\r\n\r\nBows have a -30ms Draw Time."
-   }
   }
  },
  "1449897497": {
@@ -7718,10 +7733,10 @@
   "itemHash": 691578979,
   "itemName": "Shards of Galanor",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881743,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667594001904,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -7731,15 +7746,15 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881743,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667593884594,
+     "updatedBy": "Fading Shadow"
     }
    }
   },
   "editor": {
    "en": {
     "main": "Blade Barrage Hits and Kills refund Super Energy.\r\nCaps at 50% Super Energy.\r\n\r\nRefund Amount depends on Kills and Hits, as well as Enemy Rank.",
-    "secondary": "Blade Barrage Hits and Kills refund Super Energy.\r\nCaps at 50% Super Energy.\r\n\r\nRefund Amount depends on Kills and Hits, as well as Enemy Rank."
+    "secondary": "import self"
    }
   }
  },
@@ -7749,10 +7764,10 @@
   "itemHash": 2169905051,
   "itemName": "Renewal Grasps",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881743,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667594001904,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -7762,15 +7777,15 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1666625208113,
-     "updatedBy": "Icemourne"
+     "lastUpdate": 1667593717985,
+     "updatedBy": "Fading Shadow"
     }
    }
   },
   "editor": {
    "en": {
-    "main": "Duskfield Grenades have [?]% increased radius and have a 152 second base cooldown.\n\nWhile inside a Duskfield Grenade's Slowing Field:\nEnemies deal <pve 50% /> <pvp [20%] /> reduced damage, and allies receive <pve 25% /> <pvp [15%] /> reduced damage.\n\nWhen combined with Touch of Winter:\nCrystal increases from Medium to Large, and radius is increased additively.",
-    "secondary": "Duskfield Grenades have [?]% increased radius and have a 152 second base cooldown.\r\n\r\nWhile inside a Duskfield Grenade's Slowing Field:\r\nEnemies deal 50% [PVP: 20%] reduced damage, and allies receive 25% [PVP: 15%] reduced damage.\r\n\r\nWhen combined with Touch of Winter:\r\nCrystal increases from Medium to Large, and radius is increased additively."
+    "main": "Duskfield Grenades have a [?]% larger radius and a 152 second base cooldown. (Up from 64 seconds)\n\nWhile inside a Duskfield Grenade's Slowing Field:\nEnemies deal <pve 50% /> <pvp [20%] /> reduced damage, and allies are granted <pve 25% /> <pvp [5%] /> Damage Resist.\n\nWhen combined with Touch of Winter:\n<stasis/>Crystal increases from Medium to Large, and radius is increased additively.",
+    "secondary": "Duskfield Grenades have a [?]% larger radius and a 152 second base cooldown. (Up from 64 seconds)\n\nWhile inside a Duskfield Grenade's Slowing Field:\nEnemies deal 50% [20%] reduced damage, and allies are granted 25% [5%] Damage Resist.\n\nWhen combined with Touch of Winter:\nStasis Crystal Size increases from Medium to Large, and radius is increased additively."
    }
   }
  },
@@ -9480,19 +9495,19 @@
   "itemName": "Lucky Pants",
   "type": "armorExotic",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667261159924,
+  "lastUpload": 1667594001904,
   "inLiveDatabase": false,
   "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
    "stats": {
-    "lastUpdate": 1664119280666,
-    "undatedBy": "Fading Shadow"
+    "lastUpdate": 1667592033262,
+    "updatedBy": "Fading Shadow"
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667257777286,
+     "lastUpdate": 1667592311868,
      "updatedBy": "Fading Shadow"
     },
     "ko": {
@@ -9519,12 +9534,39 @@
       ]
      }
     }
+   ],
+   "airborne": [
+    {
+     "passive": {
+      "stat": [
+       20
+      ]
+     },
+     "weaponTypes": [
+      "hand cannon"
+     ]
+    }
+   ],
+   "ready": [
+    {
+     "passive": {
+      "multiplier": [
+       0.6
+      ],
+      "stat": [
+       100
+      ]
+     },
+     "weaponTypes": [
+      "hand cannon"
+     ]
+    }
    ]
   },
   "editor": {
    "en": {
-    "main": "Intrinsic Hand Cannon Holster\n100 Handling Ready Speed with 0.6 Duration Multiplier, 20 Airborne Effectiveness, and -40% Accuracy Cone Size on Ready for 4 seconds.\n\nUpon readying a Kinetic or Matching Hand Cannon with a Full Magazine:\n<pve 60% Increased damage per Hit for 5 seconds. Maxes out at 600% after 10 Hits. />\nOnly works against Combatants.\n\nFor Exotic Hand Cannon interactions, go to <link Court's Spreadsheet [https://docs.google.com/spreadsheets/d/1i1KUwgVkd8qhwYj481gkV9sZNJQCE-C3Q-dpQutPCi4/edit#rangeid=1312688627] />!\n\nAfter the Buff runs out, you swap weapons, or firing after the 5 second period:\nYou cannot gain stacks or reacquire the buff for 10 seconds.",
-    "secondary": "Intrinsic Hand Cannon Holster\n100 Handling Ready Speed with 0.6x Duration Multiplier, 20 Airborne Effectiveness, and -40% Accuracy Cone Size on Ready for 4 seconds.\n\nUpon readying a Kinetic or Matching Hand Cannon with a Full Magazine:\n60% increased damage per hit for 5 seconds. Maxes out at 600% after 10 Hits.\nOnly works against Combatants.\n\nFor Exotic Hand Cannon interactions, go to Court's Spreadsheet\n\nAfter the Buff runs out, you swap weapons, or firing after the 5 second period:\nYou cannot gain stacks or reacquire the buff for 10 seconds."
+    "main": "Passively grants +20 Airborne Effectiveness to Hand Cannons and has an intrinsic Hand Cannon Holster.\n\nGrants +100 Handling to Ready Speed, 0.6x Ready Animation Duration Multiplier and -40% Accuracy Cone Size for 4 seconds upon Readying your Hand Cannon.\n\nUpon readying a Kinetic or Matching Hand Cannon with a Full Magazine:\n<pve 60% Increased damage per Hit for 5.5 seconds. Maxes out at 600% after 10 Hits. />\nOnly works against PVE Combatants.\n\nFor Exotic Hand Cannon interactions, go to <link Court's Spreadsheet [https://docs.google.com/spreadsheets/d/1i1KUwgVkd8qhwYj481gkV9sZNJQCE-C3Q-dpQutPCi4/edit#rangeid=1312688627] />!\n\nAfter the Buff runs out or you swap weapons:\nYou cannot gain stacks or reacquire the damage buff for 10 seconds.",
+    "secondary": "Passively grants +20 Airborne Effectiveness to Hand Cannons and has an intrinsic Hand Cannon Holster.\n\nGrants +100 Handling to Ready Speed, 0.6x Ready Animation Duration Multiplier and -40% Accuracy Cone Size for 4 seconds upon Readying your Hand Cannon.\n\nUpon readying a Kinetic or Matching Hand Cannon with a Full Magazine:\n60% increased damage per hit for 5.5 seconds. Maxes out at 600% after 10 Hits.\nOnly works against PVE Combatants.\n\nFor Exotic Hand Cannon interactions, go to Court's Spreadsheet.\n\nAfter the Buff runs out or you swap weapons:\nYou cannot gain stacks or reacquire the damage buff for 10 seconds."
    },
    "ko": {
     "main": "핸드 캐논 총집이 기본으로 내장되어 있습니다.\n핸드 캐논을 꺼내는 순간 4초 동안 준비 속도가 100 증가하며 지속 시간 배율이 0.6으로 증가, 공중 효율 20 증가, 그리고 착탄 범위가 40% 좁아집니다.\n\n물리 속성이나 장착한 하위 속성과 일치하는 속성의 핸드 캐논을 준비할 시:\n<pve 5초 동안 한발 마다 피해가 60% 식 증가하며 10발에서 최대 600% 피해 증가가 부여됩니다./>\n수호자에겐 적용되지 않습니다.\n\n경이 핸드 캐논의 피해 배율을 보고 싶으시면 <link 이 차트를 확인하세요 [https://docs.google.com/spreadsheets/d/1i1KUwgVkd8qhwYj481gkV9sZNJQCE-C3Q-dpQutPCi4/edit#rangeid=1312688627] />\n\n버프의 지속 시간이 끝나거나, 무기를 바꾸거나, 5초 동안 사격했을 시:\n버프를 10초 동안 얻을 수 없습니다."
@@ -9537,10 +9579,10 @@
   "itemHash": 193869523,
   "itemName": "Orpheus Rig",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881743,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667594001904,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -9550,15 +9592,15 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881743,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667592924761,
+     "updatedBy": "Fading Shadow"
     }
    }
   },
   "editor": {
    "en": {
     "main": "Deadfall returns Ability Energy per Enemy Tethered. \r\nX% Super Energy. Max of 50% Super Energy.\r\n10% Grenade\r\n10% Melee\r\n10% Class Ability Energy.\r\n\r\nMoebius Quiver can fire an additional volley per Super Activation.",
-    "secondary": "Deadfall returns Ability Energy per Enemy Tethered. \r\nX% Super Energy. Max of 50% Super Energy.\r\n10% Grenade\r\n10% Melee\r\n10% Class Ability Energy.\r\n\r\nMoebius Quiver can fire an additional volley per Super Activation."
+    "secondary": "import self"
    }
   }
  },
@@ -10292,7 +10334,7 @@
   "itemName": "The Bombardiers",
   "type": "armorExotic",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667590640786,
+  "lastUpload": 1667594001904,
   "inLiveDatabase": false,
   "uploadToLive": false,
   "optional": false,
@@ -11339,9 +11381,9 @@
   "itemName": "Graviton Forfeit",
   "type": "armorExotic",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667590640786,
+  "lastUpload": 1667594001904,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -11543,9 +11585,9 @@
   "itemName": "Caliban's Hand",
   "type": "armorExotic",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667590640786,
+  "lastUpload": 1667594001904,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -11581,9 +11623,9 @@
   "itemName": "Gwisin Vest",
   "type": "armorExotic",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667590640786,
+  "lastUpload": 1667594001904,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -11618,10 +11660,10 @@
   "itemHash": 1474735277,
   "itemName": "The Sixth Coyote",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881743,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667594001904,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -11631,15 +11673,15 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881743,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667593945820,
+     "updatedBy": "Fading Shadow"
     }
    }
   },
   "editor": {
    "en": {
-    "main": "Grants an extra Dodge Charge.",
-    "secondary": "Grants an extra Dodge Charge."
+    "main": "Grants an extra Class Ability Charge.\nAbility Charges are capped at a maximum of 2.",
+    "secondary": "import self"
    }
   }
  },
@@ -13567,9 +13609,9 @@
   "itemName": "Foetracer",
   "type": "armorExotic",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667590640786,
+  "lastUpload": 1667594001904,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -13616,9 +13658,9 @@
   "itemName": "Celestial Nighthawk",
   "type": "armorExotic",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667590640786,
+  "lastUpload": 1667594001904,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -14502,29 +14544,40 @@
   "itemHash": 1688602431,
   "itemName": "Sealed Ahamkara Grasps",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881743,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667594001904,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
    "stats": {
-    "lastUpdate": 1658513881743,
-    "undatedBy": "Fading-Shadow"
+    "lastUpdate": 1667593753415,
+    "updatedBy": "Fading Shadow"
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881743,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667593748443,
+     "updatedBy": "Fading Shadow"
     }
    }
   },
   "editor": {
    "en": {
-    "main": "Melee Hits <title refresh [refresh] /> magazine for your equipped weapon and grant 50 Airborne Effectiveness for 5 seconds.\n\n7 second cooldown.\n\ntitle refresh (\nReload, but does not need animation and doesn't proc on-reload perks.\n)",
-    "secondary": "Melee Hits refresh the magazine of your equipped weapon and grant 50 Airborne Effectiveness for 5 seconds.\r\n\r\n7 second cooldown."
+    "main": "Melee Hits <title refresh [G_refresh] /> magazine for your equipped weapon and grant +50 Airborne Effectiveness for 5 seconds.\n\n7 second cooldown.",
+    "secondary": "Melee Hits refresh the magazine of your equipped weapon and grant +50 Airborne Effectiveness for 5 seconds.\n\n7 second cooldown."
    }
+  },
+  "stats": {
+   "airborne": [
+    {
+     "active": {
+      "stat": [
+       50
+      ]
+     }
+    }
+   ]
   }
  },
  "2809141585": {
@@ -16724,10 +16777,10 @@
   "itemHash": 3942036043,
   "itemName": "Aeon Swift",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881743,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667594001904,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -18077,9 +18130,9 @@
   "itemName": "Blight Ranger",
   "type": "armorExotic",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667590640786,
+  "lastUpload": 1667594001904,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -18367,10 +18420,10 @@
   "itemHash": 1654461647,
   "itemName": "Aeon Safe",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881743,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667594001904,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -18475,9 +18528,9 @@
   "itemName": "Athrys's Embrace",
   "type": "armorExotic",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667590640786,
+  "lastUpload": 1667594001904,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -18512,10 +18565,10 @@
   "itemHash": 978537162,
   "itemName": "Ophidia Spathe",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881743,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667594001904,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -18525,15 +18578,15 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881743,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667592913601,
+     "updatedBy": "Fading Shadow"
     }
    }
   },
   "editor": {
    "en": {
-    "main": "Grants an additional Melee Charge to Solar Subclasses.\r\nMelee Charges are recharged simultaneously.\r\n\r\n(Eg: Both are recharged on Gambler's Dodge)\r\n\r\nInteraction with Knock 'Em Down Aspect while Radiant:\r\nKnife Kills restore 1 Charge.\r\nKnife Trick Precision Kills and Direct Ignition kills in which Knife Trick applies Scorch restore 2 Charges.",
-    "secondary": "Grants an additional Melee Charge to Solar Subclasses.\r\nMelee Charges are recharged simultaneously.\r\n\r\n(Eg: Both are recharged on Gambler's Dodge)\r\n\r\nInteraction with Knock 'Em Down Aspect while Radiant:\r\nKnife Kills restore 1 Charge.\r\nKnife Trick Precision Kills and Direct Ignition kills in which Knife Trick applies Scorch restore 2 Charges."
+    "main": "Grants an extra Melee Charge to Solar Subclasses.\nAll Melee Charges are recharged simultaneously.\n(Eg: Both are recharged on Gambler's Dodge)\n\nInteraction with Knock 'Em Down Aspect while Radiant:\n • Knife Kills restore 1 Charge.\n • Knife Trick Precision Kills and Direct Ignition kills in which Knife Trick applies Scorch restores 2 Charges.",
+    "secondary": "import self"
    }
   }
  },
@@ -18652,10 +18705,10 @@
   "itemHash": 2950045886,
   "itemName": "Aeon Soul",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881743,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667594001904,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -19440,7 +19493,7 @@
   "hash": 3809192347,
   "name": "See Me, Feel Me",
   "type": "armorExotic",
-  "lastUpload": 1667590640786,
+  "lastUpload": 1667594001904,
   "uploadedBy": "Fading Shadow",
   "editor": {
    "en": {
@@ -19460,7 +19513,7 @@
     }
    }
   },
-  "uploadToLive": false,
+  "uploadToLive": true,
   "hidden": false,
   "inLiveDatabase": false,
   "optional": false,
@@ -19672,10 +19725,10 @@
   "itemHash": 1053737370,
   "itemName": "Shinobu's Vow",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881743,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667594001904,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -19685,15 +19738,15 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881743,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667593922117,
+     "updatedBy": "Fading Shadow"
     }
    }
   },
   "editor": {
    "en": {
-    "main": "Grants an extra Skip Grenade Charge.\n\nSkip Grenades spawn 1 more drone (4 -> 5) and chase enemies much more aggressively.\n\nHits with Skip Grenades grant <pve X% /> <pvp [X/3] /> Grenade Energy.",
-    "secondary": "Grants an extra Skip Grenade Charge.\r\n\r\nSkip Grenades spawn 1 more drone (4 -> 5) and chase enemies much more aggressively.\r\n\r\nHits with Skip Grenades grant X% [PVP: X/3] Grenade Energy."
+    "main": "Grants an extra Skip Grenade Charge.\n\nSkip Grenades spawn an additional drone (4 -> 5)\nDrones chase enemies much more aggressively.\n\nSkip Grenades hits grant <pve 10% /> <pvp [3%] /> Grenade Ability Energy.",
+    "secondary": "Grants an extra Skip Grenade Charge.\n\nSkip Grenades spawn an additional drone (4 -> 5)\nDrones chase enemies much more aggressively.\n\nSkip Grenades hits grant 10% [PVP: 3%] Grenade Ability Energy."
    }
   }
  },
@@ -20559,9 +20612,9 @@
   "itemName": "Gemini Jester",
   "type": "armorExotic",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667590640786,
+  "lastUpload": 1667594001904,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -20633,10 +20686,10 @@
   "itemHash": 1001356380,
   "itemName": "Star-Eater Scales",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881743,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667594001904,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -20646,15 +20699,15 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881743,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667593987859,
+     "updatedBy": "Fading Shadow"
     }
    }
   },
   "editor": {
    "en": {
-    "main": "Increased Super Energy from Orbs of Power.\n7.1% -> 10% for Super Orbs\n2.5% -> 4.17% for Small Orbs\n\nWhile Super Energy is full:\nPicking up an Orb of Power grants 1 Overcharge Stack. \n\nEach Overcharge Stacks grants increased Super Damage, up to 70%.\n14% | 27% | 40% | 55% | 62% | 66% | 70%\nCasting Super while Overcharged heals you for 95 to 200 HP based on Overcharge Stacks.\nCasting Super while at 8 Overcharge Stacks grants you a 100HP Overshield for 16 seconds.",
-    "secondary": "Increased Super Energy from Orbs of Power.\r\n7.1% -> 10% for Super Orbs\r\n2.5% -> 4.17% for Small Orbs\r\n\r\nWhile Super Energy is full:\r\nPicking up an Orb of Power grants 1 Overcharge Stack. \r\n\r\nEach Overcharge Stacks grants increased Super Damage, up to 70%.\r\n14% | 27% | 40% | 55% | 62% | 66% | 70%\r\nCasting Super while Overcharged heals you for 95 to 200 HP based on Overcharge Stacks.\r\nCasting Super while at 8 Overcharge Stacks grants you a 100HP Overshield for 16 seconds."
+    "main": "Increased Super Energy from Orbs of Power.\n7.1% -> 10% for Super Orbs\n2.5% -> 4.17% for Small Orbs\n\nWhile Super Energy is full:\nPicking up an Orb of Power grants an Overcharge stack. \n\nEach Overcharge stack grants increased Super Damage, up to 70%:\n27.3% | 54.6% | 62.3% | 70%\n\nCasting Super while Overcharged heals you for 95 to 200 HP based on Overcharge Stacks.\n\nCasting Super while at 4 Overcharge Stacks grants you a 100HP Overshield for 16 seconds.\n\nCasting Super removes all Overcharge stacks.",
+    "secondary": "import self"
    }
   }
  },
@@ -20945,10 +20998,10 @@
   "itemHash": 2757274117,
   "itemName": "Khepri's Sting",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881743,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667594001904,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -20958,8 +21011,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881743,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667590739708,
+     "updatedBy": "Fading Shadow"
     },
     "ko": {
      "lastUpdate": 1665697619293,
@@ -20969,8 +21022,8 @@
   },
   "editor": {
    "en": {
-    "main": "Powered Melee Hit instantly casts Smoke Bomb.\nSmoke Bombs deal 150% increased damage.\n\nStanding in the Smoke Bomb's Cloud grants Truesight for 3 seconds, allowing you to see enemy outlines through walls from up to 64 meters away.\n",
-    "secondary": "Powered Melee Hit instantly casts Smoke Bomb.\r\nSmoke Bombs deal 150% increased damage.\r\n\r\nStanding in the Smoke Bomb's Cloud grants Truesight for 3 seconds, allowing you to see enemy outlines through walls from up to 64 meters away.\r\n"
+    "main": "Powered Melee Hits instantly cast Smoke Bomb.\nThrown Smoke Bombs deal 50% increased damage.\nQuickfall does not receive increased damage.\n\nStanding in the Smoke Bomb's Cloud grants Truesight for 3 seconds, allowing you to see enemy outlines through walls from up to 64 metres away.",
+    "secondary": "import self"
    },
    "ko": {
     "main": "근접 능력이 충전 된 상태에서 근접 공격을 하면 연막탄이 즉시 터집니다.\n연막탄의 피해가 150% 증가합니다.\n\n연막안에 들어가면 3초간 트루사이트를 부여하며 벽을 뚫고 64미터 이내의 적들의 위치를 알 수 있습니다."
@@ -21298,9 +21351,9 @@
   "itemName": "Apotheosis Veil",
   "type": "armorExotic",
   "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667256050211,
+  "lastUpload": 1667594001904,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -21628,10 +21681,10 @@
   "itemHash": 2268523867,
   "itemName": "Raiju's Harness",
   "type": "armorExotic",
-  "uploadedBy": "Fading-Shadow",
-  "lastUpload": 1658513881743,
+  "uploadedBy": "Fading Shadow",
+  "lastUpload": 1667594001904,
   "inLiveDatabase": false,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -21641,15 +21694,15 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881743,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1667593170546,
+     "updatedBy": "Fading Shadow"
     }
    }
   },
   "editor": {
    "en": {
-    "main": "While in Arc Staff:\r\nBlocking with Whirlwind Guard doesn't consume extra Super Energy.\r\n\r\nCan deactivate Arc Staff at any time to preserve a portion of unspent Super Energy.\r\nInstantaneous Deactivation refunds 62.5% Super Energy.",
-    "secondary": "While in Arc Staff:\r\nBlocking with Whirlwind Guard doesn't consume extra Super Energy.\r\n\r\nCan deactivate Arc Staff at any time to preserve a portion of unspent Super Energy.\r\nInstantaneous Deactivation refunds 62.5% Super Energy."
+    "main": "While in Arc Staff:\n • Blocking with Whirlwind Guard doesn't consume extra Super Energy.\n • 50% reduced Super Drain\n\nCan deactivate Arc Staff at any time to preserve a portion of unspent Super Energy.\nInstantaneous Deactivation refunds 62.5% Super Energy.",
+    "secondary": "import self"
    }
   }
  },
