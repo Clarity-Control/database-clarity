@@ -3,7 +3,7 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1667671863783,
+  "lastUpload": 1667672380844,
   "uploadedBy": "Icemourne",
   "editor": {
    "en": {
@@ -281,7 +281,7 @@
   "name": "Adrenaline Junkie",
   "type": "weaponPerk",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1667666411690,
+  "lastUpload": 1667672380844,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -293,7 +293,7 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667666049444,
+     "lastUpdate": 1667672318677,
      "updatedBy": "Icemourne"
     },
     "es": {
@@ -321,7 +321,7 @@
   "editor": {
    "en": {
     "main": "On Weapon or Grenade Kill:\n20 Handling and a Stacking Damage Increase for #e${4.5 + #t} seconds.\n\nBuff Refreshed on Kill. Grenade Kills grant all 5 Stacks instantly.\n\n< table >\n|  Stacks          | 1x    | 2x     | 3x   | 4x     | 5x    <bold/>\n|b Damage Increase | 6.7%  | 13.3%  | 20%  | 26.6%  | 33.3% <background/>\n<$>\n\n<formula Ready Speed: [ready_0] />\n<formula Stow Speed: [stow_0] />\n\nenhanced (\nvar t = 0.5\n)",
-    "secondary": "On Weapon or Grenade Kill:\n6.7% | 13.3% | 20% | 26.6% | 33.3% Increased Damage and +20 Handling for #e${4.5 + #t} seconds.\n\nBuff Refreshed on Kill. Grenade Kills grant all 5 stacks instantly.\n\nenhanced (\nvar t = 0.5\n)"
+    "secondary": "On Weapon or Grenade Kill:\n6.7% | 13.3% | 20% | 26.6% | 33.3% Increased Damage and +20 Handling for #e${4.5 + #t} seconds.\n\nBuff Refreshed on Kill. Grenade Kills grant all 5 stacks instantly.\nenhanced (\nvar t = 0.5\n)"
    },
    "es": {
     "main": "Bajas con el arma o una granada otorgan:\n20 Manejo y Aumento de Daño acumulable, durante 4.5 segundos\n\nEl bufo se renueva con cada baja. Baja con granada otorga la maxima cantidad de Daño\n\n< table >\n|  Indicador          | 1x    | 2x     | 3x   | 4x     | 5x    <bold/>\n|b Aumento de Daño | 6.7%  | 13.3%  | 20%  | 26.6%  | 33.3% <background/>\n<$>\n\n<formula Velocidad de Desenfundado: [ready_0] />\n<formula Velocidad de Enfundado: [stow_0] />\n\nAumentado: La duracion del bufo aumenta a 5 segundos",
@@ -7386,7 +7386,7 @@
   "name": "Alloy Magazine",
   "type": "weaponPerk",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1667666411690,
+  "lastUpload": 1667672380844,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -7398,7 +7398,7 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667666389337,
+     "lastUpdate": 1667671902575,
      "updatedBy": "Icemourne"
     },
     "zh-chs": {
@@ -7423,7 +7423,7 @@
   "editor": {
    "en": {
     "main": "export description (\nUpon starting a reload with an empty magazine:\n0.85x Reload Duration Multiplier.\n)\n\n<formula Reload Time: [reload_0] />",
-    "secondary": "import description from 1431678320"
+    "secondary": "import description from self"
    },
    "zh-chs": {
     "main": "弹夹为空时：\n加快 15% 换弹装填动画。",
@@ -8563,7 +8563,7 @@
   "name": "Backup Plan",
   "type": "weaponPerk",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1667671863783,
+  "lastUpload": 1667672380844,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -8575,7 +8575,7 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667671850100,
+     "lastUpdate": 1667672276257,
      "updatedBy": "Icemourne"
     },
     "zh-chs": {
@@ -8609,8 +8609,8 @@
   },
   "editor": {
    "en": {
-    "main": "export desciption (\nUpon readying the weapon:\n-30% Charge Time\n-20% Damage\n+100 Handling\nDuration /* #e${0 + #t} */ [?] seconds.\n)\nenhanced (\n// Enhanced: Buff duration is increased to [?] seconds.\nvar t = 0\n)\n\n<formula Ready Speed: [ready_0] />\n<formula Stow Speed: [stow_0] />",
-    "secondary": "import description from self"
+    "main": "export description (\nUpon readying the weapon:\n-30% Charge Time\n-20% Damage\n+100 Handling\nDuration /* #e${0 + #t} */ [?] seconds.\n)\nenhanced (\n// Enhanced: Buff duration is increased to [?] seconds.\nvar t = 0\n)\n\n<formula Ready Speed: [ready_0] />\n<formula Stow Speed: [stow_0] />",
+    "secondary": "import description from 1600092898\nenhanced (\nvar t = 0\n)"
    },
    "zh-chs": {
     "main": "切换至此武器的 4 秒内：\n+30% 充能速度，-20% 伤害，+100 操控性。\n\n<formula 拔枪速度： [ready_0] />\n<formula 收起速度： [stow_0] />",
@@ -16488,7 +16488,7 @@
   "name": "Auto-Loading Holster",
   "type": "weaponPerk",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1667671863783,
+  "lastUpload": 1667672380844,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
