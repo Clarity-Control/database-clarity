@@ -3,7 +3,7 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1667666115540,
+  "lastUpload": 1667666411690,
   "uploadedBy": "Icemourne",
   "editor": {
    "en": {
@@ -281,7 +281,7 @@
   "name": "Adrenaline Junkie",
   "type": "weaponPerk",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1667666115540,
+  "lastUpload": 1667666411690,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -5492,7 +5492,7 @@
   "name": "Adaptive Munitions",
   "type": "weaponPerk",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1667666115540,
+  "lastUpload": 1667666411690,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -7385,8 +7385,8 @@
   "hash": 1431678320,
   "name": "Alloy Magazine",
   "type": "weaponPerk",
-  "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667595647671,
+  "uploadedBy": "Icemourne",
+  "lastUpload": 1667666411690,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -7398,8 +7398,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667595636391,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1667666389337,
+     "updatedBy": "Icemourne"
     },
     "zh-chs": {
      "lastUpdate": 1664433627914,
@@ -7422,8 +7422,8 @@
   },
   "editor": {
    "en": {
-    "main": "Upon starting a reload with an empty magazine:\n0.85x Reload Duration Multiplier.\n\n<formula Reload Time: [reload_0] />",
-    "secondary": "Upon starting a reload with an empty magazine:\n0.85x Reload Duration Multiplier."
+    "main": "export description (\nUpon starting a reload with an empty magazine:\n0.85x Reload Duration Multiplier.\n)\n\n<formula Reload Time: [reload_0] />",
+    "secondary": "import description from 1431678320"
    },
    "zh-chs": {
     "main": "弹夹为空时：\n加快 15% 换弹装填动画。",
@@ -18169,7 +18169,7 @@
   "name": "Adagio",
   "type": "weaponPerk",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1667666115540,
+  "lastUpload": 1667666411690,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -18636,7 +18636,7 @@
   "name": "Air Assault",
   "type": "weaponPerk",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1667666115540,
+  "lastUpload": 1667666411690,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -18648,7 +18648,7 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667666112598,
+     "lastUpdate": 1667666228698,
      "updatedBy": "Icemourne"
     },
     "zh-chs": {
@@ -18663,7 +18663,7 @@
   },
   "editor": {
    "en": {
-    "main": "While at Low Health:\nUp to +60 Airborne Effectiveness.\nEffect increases linearly as Health decreases. Maximized strength at Critical Health.\n\nPassively grants +10 Airborne Effectiveness.\n\n🡅Enhanced: Grants up to +70[?] Airborne Effectiveness. Passively grants +12 Airborne Effectiveness.",
+    "main": "While at Low Health:\nUp to #e+${60 + #air} Airborne Effectiveness.\nEffect increases linearly as Health decreases. Maximized strength at Critical Health.\n\nenhanced (\nvar air = 10\n)",
     "secondary": "import self"
    },
    "zh-chs": {
