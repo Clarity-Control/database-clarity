@@ -3,7 +3,7 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1667668094290,
+  "lastUpload": 1667668509555,
   "uploadedBy": "Icemourne",
   "editor": {
    "en": {
@@ -1115,7 +1115,7 @@
   "name": "Archer's Tempo",
   "type": "weaponPerk",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1667668094290,
+  "lastUpload": 1667668509555,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -1127,7 +1127,7 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667668082581,
+     "lastUpdate": 1667668239643,
      "updatedBy": "Icemourne"
     },
     "zh-chs": {
@@ -1142,7 +1142,7 @@
   },
   "editor": {
    "en": {
-    "main": "On Precision Hit:\nDecreases Draw Time by 25% for 🡅${3 + #t} seconds.\n\nenhanced (\nvar t = 1\n)",
+    "main": "On Precision Hit:\nDecreases Draw Time by 25% for #e${3 + #t} seconds.\n\nenhanced (\nvar t = 1\n)",
     "secondary": "import self"
    },
    "zh-chs": {
@@ -1611,8 +1611,8 @@
   "hash": 354401740,
   "name": "Assassin's Blade",
   "type": "weaponPerk",
-  "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667595647671,
+  "uploadedBy": "Icemourne",
+  "lastUpload": 1667668509555,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -1624,8 +1624,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667217026374,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1667668489598,
+     "updatedBy": "Icemourne"
     },
     "zh-chs": {
      "lastUpdate": 1664434330803,
@@ -1648,7 +1648,7 @@
   },
   "editor": {
    "en": {
-    "main": "On Sword Kill:\n15% Increased Damage and sets Forward Movement Speed to 9 meters per second for [?] seconds.\n\nRemains active even if stowed.\n\n🡅Enhanced: Buff duration is increased to [?] seconds.",
+    "main": "On Sword Kill:\n15% Increased Damage and sets Forward Movement Speed to 9 meters per second for/* #e${0 + #t} */ [?] seconds.\n\nRemains active even if stowed.\n\nenhanced (\n// we have no info yet\nvar t = 0\n)",
     "secondary": "import self"
    },
    "zh-chs": {
@@ -10583,8 +10583,8 @@
   "hash": 1968497646,
   "name": "Armor-Piercing Rounds",
   "type": "weaponPerk",
-  "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667595647671,
+  "uploadedBy": "Icemourne",
+  "lastUpload": 1667668509555,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -10596,8 +10596,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1665004671981,
-     "undatedBy": "Fading Shadow"
+     "lastUpdate": 1667668336044,
+     "updatedBy": "Icemourne"
     },
     "zh-chs": {
      "lastUpdate": 1664434138323,
@@ -10620,7 +10620,7 @@
   },
   "editor": {
    "en": {
-    "main": "Passively grants +5 Range\n\n5% Increased damage against Combatant Shields.\n\nBullets are able to overpenetrate enemies once.",
+    "main": "5% Increased damage against Combatant Shields.\n\nBullets are able to overpenetrate enemies once.",
     "secondary": "import self"
    },
    "zh-chs": {
