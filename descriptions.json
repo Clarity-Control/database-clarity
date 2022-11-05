@@ -3,7 +3,7 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1667668509555,
+  "lastUpload": 1667671863783,
   "uploadedBy": "Icemourne",
   "editor": {
    "en": {
@@ -8562,8 +8562,8 @@
   "hash": 1600092898,
   "name": "Backup Plan",
   "type": "weaponPerk",
-  "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667595647671,
+  "uploadedBy": "Icemourne",
+  "lastUpload": 1667671863783,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -8575,8 +8575,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667217028512,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1667671850100,
+     "updatedBy": "Icemourne"
     },
     "zh-chs": {
      "lastUpdate": 1664457759021,
@@ -8609,7 +8609,7 @@
   },
   "editor": {
    "en": {
-    "main": "export desciption (\nUpon readying the weapon:\n0.7x Charge Time, 20% decreased damage, and +100 Handling for [?] seconds.\n\n🡅Enhanced: Buff duration is increased to [?] seconds.\n)\n\n<formula Ready Speed: [ready_0] />\n<formula Stow Speed: [stow_0] />",
+    "main": "export desciption (\nUpon readying the weapon:\n-30% Charge Time\n-20% Damage\n+100 Handling\nDuration /* #e${0 + #t} */ [?] seconds.\n)\nenhanced (\n// Enhanced: Buff duration is increased to [?] seconds.\nvar t = 0\n)\n\n<formula Ready Speed: [ready_0] />\n<formula Stow Speed: [stow_0] />",
     "secondary": "import description from self"
    },
    "zh-chs": {
@@ -16487,8 +16487,8 @@
   "hash": 3300816228,
   "name": "Auto-Loading Holster",
   "type": "weaponPerk",
-  "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667595647671,
+  "uploadedBy": "Icemourne",
+  "lastUpload": 1667671863783,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -16500,8 +16500,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667259689665,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1667671609542,
+     "updatedBy": "Icemourne"
     },
     "zh-chs": {
      "lastUpdate": 1664434504092,
@@ -16515,8 +16515,8 @@
   },
   "editor": {
    "en": {
-    "main": "<title Refreshes [G_refresh] /> stowed weapon from reserves after 2.5 seconds.\n\n🡅Enhanced: Activation timer is reduced to 2.3 seconds.",
-    "secondary": "Refreshes stowed weapon from reserves after 2.5 seconds.\n\n🡅Enhanced: Activation timer is reduced to 2.3 seconds."
+    "main": "<title Refreshes [G_refresh] /> stowed weapon from reserves after #e${2.5 - #t} seconds.\n\nenhanced (\nvar t = 0.2\n)",
+    "secondary": "// If text doesen't change you can import it\n// Title will be replaced with normal text\nimport self"
    },
    "zh-chs": {
     "main": "武器收起 2.5 秒后<title 刷新 [refreshes] />弹匣。\n\n强化特征：激活所需时间降低为 2.3 秒。\n\ntitle refreshes (\n装填，但没有动画，也不触发换弹相关 perk。\n)",
