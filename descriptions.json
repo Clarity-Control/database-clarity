@@ -3,7 +3,7 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1667665890980,
+  "lastUpload": 1667666115540,
   "uploadedBy": "Icemourne",
   "editor": {
    "en": {
@@ -280,8 +280,8 @@
   "hash": 11612903,
   "name": "Adrenaline Junkie",
   "type": "weaponPerk",
-  "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667595647671,
+  "uploadedBy": "Icemourne",
+  "lastUpload": 1667666115540,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -293,8 +293,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667259682697,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1667666049444,
+     "updatedBy": "Icemourne"
     },
     "es": {
      "lastUpdate": 1665682216066,
@@ -320,8 +320,8 @@
   },
   "editor": {
    "en": {
-    "main": "On Weapon or Grenade Kill:\n20 Handling and a Stacking Damage Increase for 4.5 seconds.\n\nBuff Refreshed on Kill. Grenade Kills grant all 5 Stacks instantly.\n\n< table >\n|  Stacks          | 1x    | 2x     | 3x   | 4x     | 5x    <bold/>\n|b Damage Increase | 6.7%  | 13.3%  | 20%  | 26.6%  | 33.3% <background/>\n<$>\n\n<formula Ready Speed: [ready_0] />\n<formula Stow Speed: [stow_0] />\n\n🡅Enhanced: Buff Duration is increased to 5 seconds.",
-    "secondary": "On Weapon or Grenade Kill:\n6.7% | 13.3% | 20% | 26.6% | 33.3% Increased Damage and +20 Handling for 4.5 seconds.\n\nBuff Refreshed on Kill. Grenade Kills grant all 5 stacks instantly.\n\n🡅Enhanced: Buff Duration is increased to 5 seconds."
+    "main": "On Weapon or Grenade Kill:\n20 Handling and a Stacking Damage Increase for #e${4.5 + #t} seconds.\n\nBuff Refreshed on Kill. Grenade Kills grant all 5 Stacks instantly.\n\n< table >\n|  Stacks          | 1x    | 2x     | 3x   | 4x     | 5x    <bold/>\n|b Damage Increase | 6.7%  | 13.3%  | 20%  | 26.6%  | 33.3% <background/>\n<$>\n\n<formula Ready Speed: [ready_0] />\n<formula Stow Speed: [stow_0] />\n\nenhanced (\nvar t = 0.5\n)",
+    "secondary": "On Weapon or Grenade Kill:\n6.7% | 13.3% | 20% | 26.6% | 33.3% Increased Damage and +20 Handling for #e${4.5 + #t} seconds.\n\nBuff Refreshed on Kill. Grenade Kills grant all 5 stacks instantly.\n\nenhanced (\nvar t = 0.5\n)"
    },
    "es": {
     "main": "Bajas con el arma o una granada otorgan:\n20 Manejo y Aumento de Daño acumulable, durante 4.5 segundos\n\nEl bufo se renueva con cada baja. Baja con granada otorga la maxima cantidad de Daño\n\n< table >\n|  Indicador          | 1x    | 2x     | 3x   | 4x     | 5x    <bold/>\n|b Aumento de Daño | 6.7%  | 13.3%  | 20%  | 26.6%  | 33.3% <background/>\n<$>\n\n<formula Velocidad de Desenfundado: [ready_0] />\n<formula Velocidad de Enfundado: [stow_0] />\n\nAumentado: La duracion del bufo aumenta a 5 segundos",
@@ -5492,7 +5492,7 @@
   "name": "Adaptive Munitions",
   "type": "weaponPerk",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1667665890980,
+  "lastUpload": 1667666115540,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -18169,7 +18169,7 @@
   "name": "Adagio",
   "type": "weaponPerk",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1667665890980,
+  "lastUpload": 1667666115540,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -18635,8 +18635,8 @@
   "hash": 3722653512,
   "name": "Air Assault",
   "type": "weaponPerk",
-  "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667595647671,
+  "uploadedBy": "Icemourne",
+  "lastUpload": 1667666115540,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -18648,8 +18648,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667219006040,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1667666112598,
+     "updatedBy": "Icemourne"
     },
     "zh-chs": {
      "lastUpdate": 1664433396838,
