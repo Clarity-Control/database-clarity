@@ -3,11 +3,11 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1667658610909,
+  "lastUpload": 1667665460928,
   "uploadedBy": "Icemourne",
   "editor": {
    "en": {
-    "main": "Images you can use in descriptions\n<arc/> <void/> <solar/>\n<primary/> <special/> <heavy/>\n<warlock/> <hunter/> <titan/>\nText coloring\n<blue text /> <green text /> <purple text /> <yellow text />\n<pvp text /> <pve text />\n\nThe same can be done to lines of text <green/>\n\nYou probably noticed having multiple spaces in the editor\n              doesn't mean it will be the same in description\n              you can change that with <breakSpaces/>\n\n// This is comment content after // will not appear in the description\n\n// ----------------------------------------------------------\n// weapon type explanation\n// they work like if else in programming\n\n// if auto rifle\n< weapon type ( AR ) >\n    Apply this text\n// else if glaive\n< weapon type ( Glaive ) >\n    Apply this text\n// else\n< weapon type ( other ) >\n    Apply this text to all weapons not specified in this block\n<$$>\n// also, you can preview how it would look on x weapon by selecting the weapon in the weapon popup under the weapons name\n// ----------------------------------------------------------\nIf there is something you want just ask\nThis is not everything you can do btw\n\nTo see the full list press CTRL + SPACE\nAlso, CTRL + F is a thing and can be used to find and replace\nAlso also editor has other stuff to see them press F1",
+    "main": "Images you can use in descriptions\n<arc/> <void/> <solar/>\n<primary/> <special/> <heavy/>\n<warlock/> <hunter/> <titan/>\nText coloring\n<blue text /> <green text /> <purple text /> <yellow text />\n<pvp text /> <pve text />\n\nThe same can be done to lines of text <green/>\n\nYou probably noticed having multiple spaces in the editor\n              doesn't mean it will be the same in description\n              you can change that with <breakSpaces/>\n\n// This is comment content after // will not appear in the description\n\n// ----------------------------------------------------------\n// weapon type explanation\n// they work like if else in programming\n\n// if auto rifle\n< weapon type ( AR ) >\n    Apply this text\n// else if glaive\n< ( Glaive ) >\n    Apply this text\n// else\n< ( other ) >\n    Apply this text to all weapons not specified in this block\n<$$>\n// also, you can preview how it would look on x weapon by selecting the weapon in the weapon popup under the weapons name\n// ----------------------------------------------------------\nIf there is something you want just ask\nThis is not everything you can do btw\n\nTo see the full list press CTRL + SPACE\nAlso, CTRL + F is a thing and can be used to find and replace\nAlso also editor has other stuff to see them press F1",
     "secondary": ""
    }
   },
@@ -18169,7 +18169,7 @@
   "name": "Adagio",
   "type": "weaponPerk",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1667658610909,
+  "lastUpload": 1667665460928,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -18181,7 +18181,7 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667658511482,
+     "lastUpdate": 1667665423610,
      "updatedBy": "Icemourne"
     },
     "es": {
@@ -18221,8 +18221,8 @@
   },
   "editor": {
    "en": {
-    "main": "On Weapon Kill:\n< weapon type ( Shotgun ) >\n+20% Damage\n-20% #rof\n+10 Range\n//\n< weapon type ( Bow ) >\n+20% Damage\n-20% #rof\n//\n< weapon type ( other ) >\n+30% Damage\n-20% #rof\n+10 Range\n<$$>\nDuration #e${7 + #t} seconds\n\n<formula Effective Range: [range_0] />\nenhanced (\nvar t = 1\n)",
-    "secondary": "On Weapon Kill:\n30% increased damage, 20% slower Rate of Fire/Charge Rate, and +10 Range for 7 seconds.\n\nBows and Shotguns only receive a 20% damage increase.\n\n🡅Enhanced: Buff Duration is increased to 8 seconds."
+    "main": "On Weapon Kill:\n< weapon type ( Shotgun, Bow ) >\n+20% Damage\n< ( other ) >\n+30% Damage\n<$$>\n//\n-20% #rof\n< weapon type ( Bow, Heavy GL ) > // just to remove rage stat from weapons with out range\n< ( other ) >\n+10 Range\n<$$>\n<formula Effective Range: [range_0] />\nDuration #e${7 + #t} seconds\n\n<title More information [damage] />\ntitle damage (\nBows and Shotguns only receive +20% Damage.\nEverithing else +30% Damage.\n)\nenhanced (\nvar t = 1\n)",
+    "secondary": "On Weapon Kill:\n+30% Damage\n-20% Rate of Fire/Charge Rate\n+10 Range\nDuration #e${7 + #t} seconds\n\nBows and Shotguns only receive a 20% damage increase.\n\nenhanced (\nvar t = 1\n)"
    },
    "es": {
     "main": "Durante #e${7 + #t} segundos luego de una baja con el arma: \n< weapon type ( combat bow ) >\n< weapon type ( other ) >\n    +10 Alcance\n<$$>\n// separator for readabilty\n< weapon type ( combat bow, shotgun ) >\n    +20% Daño\n< weapon type ( other ) >\n    +30% Daño\n<$$>\n// separator for readabilty\n< weapon type ( hand cannon, scout rifle ) >\n    -15% <title Cadencialde Tiro  [ROF] />\n< weapon type ( fusion rifle, linear fusion rifle ) >\n    -15% <title Tiempo de Carga [ROF] />\n< weapon type ( other ) >\n    -20% <title Cadencia de Tiro [ROF] />\n<$$>\n<formula Alcance: [range_0] />\n\n<title Efectos por Tipo de Arma [weapon list] />\n\ntitle weapon list (\n< table wide background_2 > \n| Tipo de Arma              | Daño        | Cadencia/Carga <bold/>\n| Cañon de Mano         | <green 30% />  | <green -15% />\n| Fusil Explorador         | <green 30% />  | <green -15% />\n| Fusil Automatico         | <purple 30% /> | <purple -20% />\n| Pistola            | <purple 30% /> | <purple -20% />\n| Lanza Granadas    | <purple 30% /> | <purple -20% />\n| Fusil de Fusion Lineal | 30%            | -15%          \n| Fusil de Fusion        | <yellow 27% /> | <yellow -15% />\n| Arco                | <blue 20% />   | <blue -20% /> \n| Escopeta             | <blue 20% />   | <blue -20% />\n<$>\n)\n\ntitle ROF (\nLa Cadencia de Tiro tiende a cambiar hacia el proximo armazon mas lento.\n\nPor Ejemplo: Fusil automatico de Precision => Fusil automatico de Alto Impacto \n)\nenhanced (\nvar t = 1\n)",
