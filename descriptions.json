@@ -3,7 +3,7 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1667666411690,
+  "lastUpload": 1667667726474,
   "uploadedBy": "Icemourne",
   "editor": {
    "en": {
@@ -10762,8 +10762,8 @@
   "hash": 2010801679,
   "name": "Ambitious Assassin",
   "type": "weaponPerk",
-  "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667595647671,
+  "uploadedBy": "Icemourne",
+  "lastUpload": 1667667726474,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -10775,8 +10775,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667217020515,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1667667717967,
+     "updatedBy": "Icemourne"
     },
     "zh-chs": {
      "lastUpdate": 1664433784615,
@@ -10790,7 +10790,7 @@
   },
   "editor": {
    "en": {
-    "main": "Upon finishing a reload within [?] seconds of a Weapon Kill:\nIncreased Magazine Capacity per kill within [?] seconds of each.\n\nMaxes out at 150% increased Magazine Capacity. Always rounds magazine up.\n\nPrimary Weapons receive a 20% Magazine Capacity increase perk kill, while Special and Power Weapons receive a 10% increase.\n\n🡅Enhanced: Passively grants +5 Reload Speed.",
+    "main": "Upon finishing a reload within [?] seconds of a Weapon Kill:\nIncreased Magazine Capacity per kill within [?] seconds of each.\n\nMaxes out at 150% increased Magazine Capacity. Always rounds magazine up.\n\nPrimary Weapons receive a 20% Magazine Capacity increase perk kill, while Special and Power Weapons receive a 10% increase.",
     "secondary": "import self"
    },
    "zh-chs": {
