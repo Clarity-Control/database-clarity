@@ -3,7 +3,7 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1667667726474,
+  "lastUpload": 1667668094290,
   "uploadedBy": "Icemourne",
   "editor": {
    "en": {
@@ -1114,8 +1114,8 @@
   "hash": 201365942,
   "name": "Archer's Tempo",
   "type": "weaponPerk",
-  "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667595647671,
+  "uploadedBy": "Icemourne",
+  "lastUpload": 1667668094290,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -1127,8 +1127,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667217021992,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1667668082581,
+     "updatedBy": "Icemourne"
     },
     "zh-chs": {
      "lastUpdate": 1664434059804,
@@ -1142,7 +1142,7 @@
   },
   "editor": {
    "en": {
-    "main": "On Precision Hit:\nDecreases Draw Time by 25% for 3 seconds.\n\n🡅Enhanced: Buff duration increased to 4 seconds.",
+    "main": "On Precision Hit:\nDecreases Draw Time by 25% for 🡅${3 + #t} seconds.\n\nenhanced (\nvar t = 1\n)",
     "secondary": "import self"
    },
    "zh-chs": {
@@ -10763,7 +10763,7 @@
   "name": "Ambitious Assassin",
   "type": "weaponPerk",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1667667726474,
+  "lastUpload": 1667668094290,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
