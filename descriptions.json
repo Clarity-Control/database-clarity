@@ -3,7 +3,7 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1667665460928,
+  "lastUpload": 1667665890980,
   "uploadedBy": "Icemourne",
   "editor": {
    "en": {
@@ -5491,8 +5491,8 @@
   "hash": 1048183818,
   "name": "Adaptive Munitions",
   "type": "weaponPerk",
-  "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667595647671,
+  "uploadedBy": "Icemourne",
+  "lastUpload": 1667665890980,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -5504,7 +5504,7 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667318207700,
+     "lastUpdate": 1667665839002,
      "updatedBy": "Icemourne"
     },
     "es": {
@@ -5515,8 +5515,8 @@
   },
   "editor": {
    "en": {
-    "main": "Upon hitting a Non-Matching Shield or a Barrier Champion Shield:\nHits deal increasingly higher damage against Combatant Shields.\n\n< weapon type ( Fusion ) >\nOn this weapon: ${29 * #d}% per hit, up to ${435 * #d}%\n//\n< weapon type ( AR, LMG, Pulse, Trace ) >\nOn this weapon: ${33.3 * #d}% per hit, up to ${500 * #d}%\n//\n< weapon type ( LFR ) >\nOn this weapon: ${150 * #d}% per hit, up to ${450 * #d}%\n//\n< weapon type ( other ) >\nOn this weapon: ${166.6 * #d}% per hit, up to ${500 * #d}%\n<$$>\n\nBuff is removed upon hitting a matching shield or an unshielded enemy.\n\n🡅Enhanced: Damage Increase per Stack and Maximum Damage Increase are increased by a multiplicative 20%.\nenhanced (\nvar d = 1.2\nThis is factored into the shown numbers.\n\n)\n<title Hover to see the effects on each weapon type. [weapon list] />\n\ntitle weapon list (\n< table wide >\n|c Weapon Type         |c   Damage Increase Increment |c   Maximum Damage Increase <bold/>\n|  Fusion Rifle        |c   ${29 * #d}%               |c   ${435 * #d}%            <background/>\n|  Linear Fusion Rifle |c   ${150 * #d}%              |c   ${450 * #d}%\n|  Auto Rifle          |-4c ${33.3 * #d}%             |-4c ${500 * #d}%            <background/>\n|  Machine Gun                                                                     <background/>\n|  Pulse Rifles                                                                    <background/>\n|  Trace Rifle                                                                     <background/>\n|  Bow                 |-4c ${166.6 * #d}%            |-4c ${500 * #d}%\n|  Glaive\n|  Hand Cannon\n|  Scout Rifle\n<$>\n)",
-    "secondary": "Upon hitting a Non-Matching Shield or a Barrier Champion Shield:\nHits deal increasingly higher damage against Combatant Shields.\n\nBuff is removed upon hitting a matching shield or an unshielded enemy.\n\n29% per hit, up to 435%: Fusion Rifles\n\n33.3% per hit, up to 500%:\nAuto Rifles, Machine Guns, Pulse Rifles, Trace Rifles\n\n150% per hit, up to 450%: Linear Fusion Rifles\n\n166.6% per hit, up to 500%:\nBows, Glaives, Hand Cannons, Scout Rifles\n\n\n🡅Enhanced: Damage Increase per Stack and Maximum Damage Increase are increased by a multiplicative 20%\nEg: 500% -> 600%"
+    "main": "Upon hitting a Non-Matching Shield or a Barrier Champion Shield:\nHits deal increasingly higher damage against Combatant Shields.\n\n< weapon type ( Fusion ) >\n${29 * #d}% per hit, up to ${435 * #d}%\n//\n< ( AR, LMG, Pulse, Trace ) >\n${33.3 * #d}% per hit, up to ${500 * #d}%\n//\n< ( LFR ) >\n${150 * #d}% per hit, up to ${450 * #d}%\n//\n< ( other ) >\n${166.6 * #d}% per hit, up to ${500 * #d}%\n<$$>\n\nBuff is removed upon hitting a matching shield or an unshielded enemy.\n\n<title More information. [weapon list] />\n\nenhanced (\nvar d = 1.2\n)\ntitle weapon list (\n< table wide >\n|c Weapon Type         |c   Damage Increase Increment |c   Maximum Damage Increase <bold/>\n|  Fusion Rifle        |c   #e${29 * #d}%             |c   #e${435 * #d}%          <background/>\n|  Linear Fusion Rifle |c   #e${150 * #d}%            |c   #e${450 * #d}%\n|  Auto Rifle          |-4c #e${33.3 * #d}%           |-4c #e${500 * #d}%          <background/>\n|  Machine Gun                                                                     <background/>\n|  Pulse Rifles                                                                    <background/>\n|  Trace Rifle                                                                     <background/>\n|  Bow                 |-4c #e${166.6 * #d}%          |-4c #e${500 * #d}%\n|  Glaive\n|  Hand Cannon\n|  Scout Rifle\n<$>\n)",
+    "secondary": "Upon hitting a Non-Matching Shield or a Barrier Champion Shield:\nHits deal increasingly higher damage against Combatant Shields.\n\nBuff is removed upon hitting a matching shield or an unshielded enemy.\n\n#e${29 * #d}% per hit, up to #e${435 * #d}%: Fusion Rifles\n\n#e${33.3 * #d}% per hit, up to #e${500 * #d}%:\nAuto Rifles, Machine Guns, Pulse Rifles, Trace Rifles\n\n#e${150 * #d}% per hit, up to#e${450 * #d}%: Linear Fusion Rifles\n\n#e${166.6 * #d}% per hit, up to #e${500 * #d}%:\nBows, Glaives, Hand Cannons, Scout Rifles\n\nenhanced (\nvar d = 1.2\n)"
    },
    "es": {
     "main": "var d = 1\nvar e = empty\nLuego de impactar con un Escudo de otro elemento al arma, o la Barrera de un Campeon:\nLos proximos impactos aumentan en daño contra el escudo del enemigo.\n\nEl bufo se termina si se impacta contra un escudo con mismo elemento, o contra un enemigo sin escudo.\n\n< weapon type ( fusion rifle ) >\n#e${29 * #d}% por bala, hasta #e${435 * #d}%\n<$$>\n< weapon type ( auto rifle, machine gun, pulse rifle, trace rifle ) >\n#e${33.3 * #d}% por bala, hasta #e${500 * #d}%\n<$$>\n< weapon type ( linear fusion rifle ) >\n#e${150 * #d}% por bala, hasta #e${450 * #d}%\n<$$>\n< weapon type ( combat bow, glaive, hand cannon, scout rifle ) >\n#e${166.6 * #d}% por bala, hasta #e${500 * #d}%\n<$$>\n\n<title Dependiendo del tipo de arma [weapon list] />\n\ntitle weapon list (\n< table wide >\n| Tipo de Arma          |   Por bala       |   hasta           <bold/>\n| Fusil de Fusion        |   #e${29 * #d}%   |   #e${435 * #d}%  <background/>\n| Fusil de Fusion Lineal  |   #e${150 * #d}%  |   #e${450 * #d}% \n| Fusil Automatico           |-4 #e${33.3 * #d}% |-4 #e${500 * #d}%  <background/>\n| Ametralladora                                                 <background/> \n| Fusil de Pulsos                                                <background/>    \n| Fusil de Rastreo                                                  <background/> \n| Arco                  |-4 #e${166.6 * #d}% |-4 #e${500 * #d}%\n| Gujas\n| Cañon de Mano\n| Fusil de Explorador\n<$>\n)",
@@ -18169,7 +18169,7 @@
   "name": "Adagio",
   "type": "weaponPerk",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1667665460928,
+  "lastUpload": 1667665890980,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -18181,7 +18181,7 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667665423610,
+     "lastUpdate": 1667665617281,
      "updatedBy": "Icemourne"
     },
     "es": {
@@ -18221,7 +18221,7 @@
   },
   "editor": {
    "en": {
-    "main": "On Weapon Kill:\n< weapon type ( Shotgun, Bow ) >\n+20% Damage\n< ( other ) >\n+30% Damage\n<$$>\n//\n-20% #rof\n< weapon type ( Bow, Heavy GL ) > // just to remove rage stat from weapons with out range\n< ( other ) >\n+10 Range\n<$$>\n<formula Effective Range: [range_0] />\nDuration #e${7 + #t} seconds\n\n<title More information [damage] />\ntitle damage (\nBows and Shotguns only receive +20% Damage.\nEverithing else +30% Damage.\n)\nenhanced (\nvar t = 1\n)",
+    "main": "On Weapon Kill:\n< weapon type ( Shotgun, Bow ) >\n+20% Damage\n< ( other ) >\n+30% Damage\n<$$>\n//\n-20% #rof\n< weapon type ( Bow, Heavy GL ) > // just to remove rage stat from weapons with out range\n< ( other ) >\n+10 Range\n<$$>\n<formula Effective Range: [range_0] />\nDuration #e${7 + #t} seconds\n\n<title More information. [damage] />\ntitle damage (\nBows and Shotguns only receive +20% Damage.\nEverithing else +30% Damage.\n)\nenhanced (\nvar t = 1\n)",
     "secondary": "On Weapon Kill:\n+30% Damage\n-20% Rate of Fire/Charge Rate\n+10 Range\nDuration #e${7 + #t} seconds\n\nBows and Shotguns only receive a 20% damage increase.\n\nenhanced (\nvar t = 1\n)"
    },
    "es": {
