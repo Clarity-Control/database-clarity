@@ -3,7 +3,7 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1667739220934,
+  "lastUpload": 1667740413171,
   "uploadedBy": "Icemourne",
   "editor": {
    "en": {
@@ -3288,7 +3288,7 @@
   "hash": 631976966,
   "name": "Scout Rifle Targeting",
   "type": "armorModGeneral",
-  "lastUpload": 1667739220934,
+  "lastUpload": 1667740413171,
   "editor": {
    "en": {
     "main": "import main from 3201675491",
@@ -5363,7 +5363,7 @@
   "hash": 1015337793,
   "name": "Machine Gun Targeting",
   "type": "armorModGeneral",
-  "lastUpload": 1667739220934,
+  "lastUpload": 1667740413171,
   "editor": {
    "en": {
     "main": "import main from 3201675491",
@@ -7820,7 +7820,7 @@
   "hash": 1507854082,
   "name": "Sidearm Targeting",
   "type": "armorModGeneral",
-  "lastUpload": 1667739220934,
+  "lastUpload": 1667740413171,
   "editor": {
    "en": {
     "main": "import main from 3201675491",
@@ -8699,11 +8699,11 @@
   "hash": 1624081088,
   "name": "Bow Ammo Finder",
   "type": "armorModGeneral",
-  "lastUpload": 1667595647671,
+  "lastUpload": 1667740413171,
   "editor": {
    "en": {
-    "main": "none",
-    "secondary": "empty"
+    "main": "export description (\nAmmo Finder Bricks give 75% less ammo.\n\nAmmo Spawns work on a Counter progressed only by Weapon Kills.\nOnce the counter reaches 100%, the next Weapon Kill will spawn an Ammo Brick.\n\nMultipliers to Counter\nPrimary Weapons Kills 1.25x\nExotic Primary Weapons 1.67x\n\nCounter Percentage per Kill:\n)\n<heavy/> Pover weapons <bold/>\n< table >\n|     |bc Perk kill   |b Avarage kills\n|b 1x |c  3.3% > 4.5% |  26\n|b 2x |c  4.4% > 6.6% |  20\n<$>\n\n<special/> Special weapons <bold/>\n< table >\n|     |bc Perk kill   |b Avarage kills\n|b 1x |c  4.4% > 5.6% |  20\n|b 2x |c  6.6% > 11%  |  15\n<$>\n\nLoadout determines the type of Ammo Brick to spawn.",
+    "secondary": "import description from 1624081088\n1x Finder for Power: 3.3% to 4.5%. Average of 26 Kills.\n2x Finder for Power: 4.4% to 6.6%. Average of 20 Kills.\n1x Finder for Special: 4.4% to 5.6%. Average of 20 Kills.\n2x Finder for Special: 6.6% to 11%. Average of 15 Kills.\n\nLoadout determines the type of Ammo Brick to spawn."
    }
   },
   "updateTracker": {
@@ -8712,7 +8712,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 0
+     "lastUpdate": 1667740340248,
+     "updatedBy": "Icemourne"
     }
    }
   },
@@ -8727,7 +8728,7 @@
     "isConditionallyActive": false
    }
   ],
-  "uploadedBy": "Fading Shadow"
+  "uploadedBy": "Icemourne"
  },
  "1631667848": {
   "hash": 1631667848,
@@ -10981,7 +10982,7 @@
   "hash": 2080519917,
   "name": "Bow Targeting",
   "type": "armorModGeneral",
-  "lastUpload": 1667739220934,
+  "lastUpload": 1667740413171,
   "editor": {
    "en": {
     "main": "import main from 3201675491",
@@ -12084,7 +12085,7 @@
   "hash": 2307244871,
   "name": "Sniper Rifle Targeting",
   "type": "armorModGeneral",
-  "lastUpload": 1667739220934,
+  "lastUpload": 1667740413171,
   "editor": {
    "en": {
     "main": "import main from 3201675491",
@@ -14354,7 +14355,7 @@
   "hash": 2829974286,
   "name": "Hand Cannon Targeting",
   "type": "armorModGeneral",
-  "lastUpload": 1667739220934,
+  "lastUpload": 1667740413171,
   "editor": {
    "en": {
     "main": "import main from 3201675491",
@@ -14883,7 +14884,7 @@
   "hash": 2919349723,
   "name": "Shotgun Targeting",
   "type": "armorModGeneral",
-  "lastUpload": 1667739220934,
+  "lastUpload": 1667740413171,
   "editor": {
    "en": {
     "main": "import main from 3201675491",
@@ -15780,7 +15781,7 @@
   "hash": 3109470977,
   "name": "Glaive Targeting",
   "type": "armorModGeneral",
-  "lastUpload": 1667739220934,
+  "lastUpload": 1667740413171,
   "editor": {
    "en": {
     "main": "import main from 3201675491",
@@ -16035,7 +16036,7 @@
   "hash": 3201675491,
   "name": "Auto Rifle Targeting",
   "type": "armorModGeneral",
-  "lastUpload": 1667739220934,
+  "lastUpload": 1667740413171,
   "editor": {
    "en": {
     "main": "+10 Aim Assist 1x mod\n+15 Aim Assist 2x mods\n-15% Accuracy Cone Size\n-25% ADS Animation Duration",
@@ -16644,7 +16645,7 @@
   "hash": 3319681729,
   "name": "Pulse Rifle Targeting",
   "type": "armorModGeneral",
-  "lastUpload": 1667739220934,
+  "lastUpload": 1667740413171,
   "editor": {
    "en": {
     "main": "import main from 3201675491",
@@ -16681,7 +16682,7 @@
   "hash": 3330325954,
   "name": "Trace Rifle Targeting",
   "type": "armorModGeneral",
-  "lastUpload": 1667739220934,
+  "lastUpload": 1667740413171,
   "editor": {
    "en": {
     "main": "import main from 3201675491",
@@ -16788,7 +16789,7 @@
   "hash": 3338875786,
   "name": "Linear Fusion Rifle Targeting",
   "type": "armorModGeneral",
-  "lastUpload": 1667739220934,
+  "lastUpload": 1667740413171,
   "editor": {
    "en": {
     "main": "import main from 3201675491",
@@ -19189,7 +19190,7 @@
   "hash": 3857411140,
   "name": "Submachine Gun Targeting",
   "type": "armorModGeneral",
-  "lastUpload": 1667739220934,
+  "lastUpload": 1667740413171,
   "editor": {
    "en": {
     "main": "import main from 3201675491",
@@ -19286,7 +19287,7 @@
   "hash": 3901392720,
   "name": "Fusion Rifle Targeting",
   "type": "armorModGeneral",
-  "lastUpload": 1667739220934,
+  "lastUpload": 1667740413171,
   "editor": {
    "en": {
     "main": "import main from 3201675491",
