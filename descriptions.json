@@ -3,7 +3,7 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1667754639400,
+  "lastUpload": 1667759395142,
   "uploadedBy": "Icemourne",
   "editor": {
    "en": {
@@ -10112,8 +10112,8 @@
   "itemHash": 2563444729,
   "itemName": "ACD/0 Feedback Fence",
   "type": "armorExotic",
-  "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667595647671,
+  "uploadedBy": "Icemourne",
+  "lastUpload": 1667759395142,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -10125,8 +10125,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667580483114,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1667759236216,
+     "updatedBy": "Icemourne"
     },
     "zh-chs": {
      "lastUpdate": 1664953457338,
@@ -10144,8 +10144,8 @@
   },
   "editor": {
    "en": {
-    "main": "Melee Hits grant a stack of Fury Conductors.\nTaking Melee Damage releases an <arc/>Arc Explosion that deals 40 damage in a 5 metre radius.\n\nFury Conductors grant Melee Damage Resist and increased <arc/>Arc Explosion damage based on the amount of stacks.\n33% | 55% | 70% Melee Damage Resist\n100% | 200% | 300% Increased <arc/>Arc Explosion Damage\n\nAll Stacks disappear upon taking melee damage or after 10 seconds of not dealing melee damage.",
-    "secondary": "Melee Hits grant a stack of Fury Conductors.\nTaking Melee Damage releases an Arc Explosion that deals 40 damage in a 5 metre radius.\n\nFury Conductors grant Melee Damage Resist and increased Arc Explosion damage based on the amount of stacks.\n33% | 55% | 70% Melee Damage Resist\n100% | 200% | 300% Increased Arc Explosion Damage\n\nAll Stacks disappear upon taking melee damage or after 10 seconds of not dealing melee damage."
+    "main": "Melee Hits grant a stack of Fury Conductors.\nTaking Melee Damage releases an <arc/>Arc Explosion that deals 40 damage in a 5 metre radius.\n\nFury Conductors grant Melee Damage Resist and increased <arc/>Arc Explosion damage based on the amount of stacks.\n33%   | 55%   | 70%   Melee Damage Resist <breakSpaces/>\n100% | 200% | 300% Increased <arc/>Arc Explosion Damage\n\nAll Stacks disappear upon taking melee damage or after 10 seconds of not dealing melee damage.",
+    "secondary": "import self"
    },
    "zh-chs": {
     "main": "近战命中产生可叠加的狂怒导体能量。\n被近战命中会释放一个 5 米范围的 <arc/>电弧爆炸。\n<arc/>电弧爆炸伤害量与狂怒导体能量层数相关，每层为 22% 你的近战伤害。\n\n根据叠加层数，狂怒导体能量会提供 33-55-70% 的近战伤害抗性。\n\n10 秒内未造成近战攻击伤害，或在收到近战伤害后，狂怒导体能量所有层数将消失。",
@@ -15934,16 +15934,16 @@
   "itemHash": 1591207518,
   "itemName": "Actium War Rig",
   "type": "armorExotic",
-  "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667595647671,
+  "uploadedBy": "Icemourne",
+  "lastUpload": 1667759395142,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
   "hidden": false,
   "updateTracker": {
    "stats": {
-    "lastUpdate": 1667580573561,
-    "updatedBy": "Fading Shadow"
+    "lastUpdate": 1667759294867,
+    "updatedBy": "Icemourne"
    },
    "descriptions": {
     "en": {
@@ -15971,7 +15971,7 @@
      "passive": {
       "stat": [ 30 ]
      },
-     "weaponTypes": [ "auto rifle" ]
+     "weaponTypes": [ "auto rifle", "machine gun" ]
     }
    ]
   }
