@@ -3,7 +3,7 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1667754083180,
+  "lastUpload": 1667754639400,
   "uploadedBy": "Icemourne",
   "editor": {
    "en": {
@@ -824,6 +824,93 @@
   "inLiveDatabase": false,
   "optional": false
  },
+ "83039193": {
+  "hash": 83039193,
+  "name": "Touch of Flame",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "83039194": {
+  "hash": 83039194,
+  "name": "Heat Rises",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "83039195": {
+  "hash": 83039195,
+  "name": "Icarus Dash",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
  "95544328": {
   "hash": 95544328,
   "name": "Triple Jump",
@@ -1515,6 +1602,93 @@
     "main": "방벽을 빙하의 방비로 변환합니다.\n\n빙하의 방비 시전 시:\n7미터 이내에 있는 적들에게 감속 스택 40개를 부여합니다.\n\n보호막은 20초 동안 지속되며 100HP의 체력을 가지고 있습니다. <pve 62.5% 피해 감소를 부여합니다. /> \n보호막의 지속 시간은 피해를 입으면 초기화되며 질주, 직업 점프, 그리고 슬라이딩을 봉인합니다.\n\n보호막이 지속되는 동안 직업 능력 에너지는 재생되지 않습니다.\n빙하의 방비가 활성화 된 상태에서 방벽을 사용하면 효과가 해제됩니다."
    }
   }
+ },
+ "187655372": {
+  "hash": 187655372,
+  "name": "Trapper's Ambush",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "187655373": {
+  "hash": 187655373,
+  "name": "Vanishing Step",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "187655374": {
+  "hash": 187655374,
+  "name": "Stylish Executioner",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
  },
  "200829441": {
   "hash": 200829441,
@@ -2414,6 +2588,296 @@
   "inLiveDatabase": true,
   "optional": false,
   "uploadedBy": "Fading Shadow"
+ },
+ "362132288": {
+  "hash": 362132288,
+  "name": "Ember of Torches",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "362132289": {
+  "hash": 362132289,
+  "name": "Ember of Combustion",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "362132290": {
+  "hash": 362132290,
+  "name": "Ember of Tempering",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "362132291": {
+  "hash": 362132291,
+  "name": "Ember of Char",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "362132292": {
+  "hash": 362132292,
+  "name": "Ember of Benevolence",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "362132293": {
+  "hash": 362132293,
+  "name": "Ember of Singeing",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "362132294": {
+  "hash": 362132294,
+  "name": "Ember of Empyrean",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "362132295": {
+  "hash": 362132295,
+  "name": "Ember of Beams",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "362132300": {
+  "hash": 362132300,
+  "name": "Ember of Solace",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "362132301": {
+  "hash": 362132301,
+  "name": "Ember of Blistering",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
  },
  "369171376": {
   "hash": 369171376,
@@ -4192,6 +4656,122 @@
   "inLiveDatabase": false,
   "optional": false
  },
+ "537774540": {
+  "hash": 537774540,
+  "name": "Whisper of Chains",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "537774541": {
+  "hash": 537774541,
+  "name": "Whisper of Torment",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "537774542": {
+  "hash": 537774542,
+  "name": "Whisper of Fractures",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "537774543": {
+  "hash": 537774543,
+  "name": "Whisper of Impetus",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
  "553093017": {
   "hash": 553093017,
   "name": "Beyond The Veil",
@@ -5197,6 +5777,64 @@
     "secondary": "增加 1 秒持续时间。"
    }
   }
+ },
+ "668903196": {
+  "hash": 668903196,
+  "name": "Iceflare Bolts",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "668903197": {
+  "hash": 668903197,
+  "name": "Frostpulse",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
  },
  "671806388": {
   "hash": 671806388,
@@ -8672,6 +9310,122 @@
   ],
   "uploadedBy": "Icemourne"
  },
+ "1051276348": {
+  "hash": 1051276348,
+  "name": "Ember of Eruption",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "1051276349": {
+  "hash": 1051276349,
+  "name": "Ember of Ashes",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "1051276350": {
+  "hash": 1051276350,
+  "name": "Ember of Wonder",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "1051276351": {
+  "hash": 1051276351,
+  "name": "Ember of Searing",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
  "1052528480": {
   "hash": 1052528480,
   "name": "Shieldcrash Wellmaker",
@@ -10956,6 +11710,93 @@
    "en": {
     "main": "This mod's perks are only active in the \"King's Fall\" raid.\n\nMultiple copies of this mod stack and improve its effects.",
     "secondary": "This mod's perks are only active in the \"King's Fall\" raid.\n\nMultiple copies of this mod stack and improve its effects."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "1293395729": {
+  "hash": 1293395729,
+  "name": "Electrostatic Mind",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "1293395730": {
+  "hash": 1293395730,
+  "name": "Lightning Surge",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "1293395731": {
+  "hash": 1293395731,
+  "name": "Arc Soul",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
    }
   },
   "updateTracker": {
@@ -13934,6 +14775,35 @@
   "linkedWith": 3418782618,
   "uploadedBy": "Fading Shadow"
  },
+ "1563930741": {
+  "hash": 1563930741,
+  "name": "Howl of the Storm",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
  "1565861116": {
   "hash": 1565861116,
   "name": "Enhanced Nightmare Crusher",
@@ -14276,6 +15146,93 @@
   },
   "linkedWith": 828056542
  },
+ "1602994568": {
+  "hash": 1602994568,
+  "name": "Controlled Demolition",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "1602994569": {
+  "hash": 1602994569,
+  "name": "Bastion",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "1602994570": {
+  "hash": 1602994570,
+  "name": "Offensive Bulwark",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
  "1607056502": {
   "hash": 1607056502,
   "name": "Hakke Breach Armaments",
@@ -14601,6 +15558,93 @@
    "en": {
     "main": "Hurl an explosive bolt of Void Light at a target, disintegrating those caught within its blast.\n\nNova Bomb travels slowly and seeks targets. Detonations shatter into smaller seeker projectiles.",
     "secondary": "Hurl an explosive bolt of Void Light at a target, disintegrating those caught within its blast.\n\nNova Bomb travels slowly and seeks targets. Detonations shatter into smaller seeker projectiles."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "1656549672": {
+  "hash": 1656549672,
+  "name": "Touch of Thunder",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "1656549673": {
+  "hash": 1656549673,
+  "name": "Juggernaut",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "1656549674": {
+  "hash": 1656549674,
+  "name": "Knockout",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
    }
   },
   "updateTracker": {
@@ -15721,6 +16765,296 @@
    "en": {
     "main": "Upgrades this weapon to a Masterwork. Once upgraded, the weapon will obtain enhanced capabilities, such as increased stats and/or additional perks.\n\nDefeat targets using this weapon to unlock this upgrade.",
     "secondary": "Upgrades this weapon to a Masterwork. Once upgraded, the weapon will obtain enhanced capabilities, such as increased stats and/or additional perks.\n\nDefeat targets using this weapon to unlock this upgrade."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "1727069360": {
+  "hash": 1727069360,
+  "name": "Spark of Focus",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "1727069361": {
+  "hash": 1727069361,
+  "name": "Spark of Frequency",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "1727069362": {
+  "hash": 1727069362,
+  "name": "Spark of Discharge",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "1727069363": {
+  "hash": 1727069363,
+  "name": "Spark of Ions",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "1727069364": {
+  "hash": 1727069364,
+  "name": "Spark of Shock",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "1727069365": {
+  "hash": 1727069365,
+  "name": "Spark of Momentum",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "1727069366": {
+  "hash": 1727069366,
+  "name": "Spark of Resistance",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "1727069367": {
+  "hash": 1727069367,
+  "name": "Spark of Beacons",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "1727069374": {
+  "hash": 1727069374,
+  "name": "Spark of Magnitude",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "1727069375": {
+  "hash": 1727069375,
+  "name": "Spark of Recharge",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
    }
   },
   "updateTracker": {
@@ -17245,6 +18579,35 @@
    }
   }
  },
+ "1920417385": {
+  "hash": 1920417385,
+  "name": "Grim Harvest",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
  "1927916065": {
   "hash": 1927916065,
   "name": "Unplanned Reprieve",
@@ -18018,6 +19381,64 @@
    }
   },
   "linkedWith": 2856365672
+ },
+ "2031919264": {
+  "hash": 2031919264,
+  "name": "Tectonic Harvest",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2031919265": {
+  "hash": 2031919265,
+  "name": "Cryoclasm",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
  },
  "2037533514": {
   "hash": 2037533514,
@@ -20132,6 +21553,296 @@
   "inLiveDatabase": false,
   "optional": false
  },
+ "2272984656": {
+  "hash": 2272984656,
+  "name": "Echo of Dilation",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2272984657": {
+  "hash": 2272984657,
+  "name": "Echo of Domineering",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2272984664": {
+  "hash": 2272984664,
+  "name": "Echo of Provision",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2272984665": {
+  "hash": 2272984665,
+  "name": "Echo of Expulsion",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2272984666": {
+  "hash": 2272984666,
+  "name": "Echo of Remnants",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2272984667": {
+  "hash": 2272984667,
+  "name": "Echo of Exchange",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2272984668": {
+  "hash": 2272984668,
+  "name": "Echo of Undermining",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2272984669": {
+  "hash": 2272984669,
+  "name": "Echo of Reprisal",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2272984670": {
+  "hash": 2272984670,
+  "name": "Echo of Leeching",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2272984671": {
+  "hash": 2272984671,
+  "name": "Echo of Persistence",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
  "2274196886": {
   "hash": 2274196886,
   "name": "Daybreak",
@@ -20495,6 +22206,93 @@
   "linkedWith": 2869569095,
   "importStatsFrom": 2869569095,
   "uploadedBy": "Fading Shadow"
+ },
+ "2321824284": {
+  "hash": 2321824284,
+  "name": "Feed the Void",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2321824285": {
+  "hash": 2321824285,
+  "name": "Chaos Accelerant",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2321824287": {
+  "hash": 2321824287,
+  "name": "Child of the Old Gods",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
  },
  "2333607307": {
   "hash": 2333607307,
@@ -21336,6 +23134,122 @@
    "en": {
     "main": "Periodically generates Ionic Traces while in its high-damage state.",
     "secondary": "Periodically generates Ionic Traces while in its high-damage state."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2483898428": {
+  "hash": 2483898428,
+  "name": "Whisper of Rending",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2483898429": {
+  "hash": 2483898429,
+  "name": "Whisper of Conduction",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2483898430": {
+  "hash": 2483898430,
+  "name": "Whisper of Rime",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2483898431": {
+  "hash": 2483898431,
+  "name": "Whisper of Hunger",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
    }
   },
   "updateTracker": {
@@ -22404,6 +24318,64 @@
   "inLiveDatabase": false,
   "optional": false
  },
+ "2642597904": {
+  "hash": 2642597904,
+  "name": "Bleak Watcher",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2651551055": {
+  "hash": 2651551055,
+  "name": "Glacial Harvest",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
  "2652708987": {
   "hash": 2652708987,
   "name": "Successful Warm-Up",
@@ -22442,6 +24414,122 @@
    }
   },
   "linkedWith": 617966211
+ },
+ "2661180600": {
+  "hash": 2661180600,
+  "name": "Echo of Instability",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2661180601": {
+  "hash": 2661180601,
+  "name": "Echo of Harvest",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2661180602": {
+  "hash": 2661180602,
+  "name": "Echo of Obscurity",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2661180603": {
+  "hash": 2661180603,
+  "name": "Echo of Starvation",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
  },
  "2662827496": {
   "hash": 2662827496,
@@ -25083,6 +27171,64 @@
   "inLiveDatabase": false,
   "optional": false
  },
+ "2934767476": {
+  "hash": 2934767476,
+  "name": "Shatterdive",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2934767477": {
+  "hash": 2934767477,
+  "name": "Winter's Shroud",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
  "2938480696": {
   "hash": 2938480696,
   "name": "Rapid Hit",
@@ -25637,6 +27783,93 @@
   "inLiveDatabase": false,
   "optional": false
  },
+ "2984351204": {
+  "hash": 2984351204,
+  "name": "Roaring Flames",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2984351205": {
+  "hash": 2984351205,
+  "name": "Sol Invictus",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "2984351206": {
+  "hash": 2984351206,
+  "name": "Consecration",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
  "2984682260": {
   "hash": 2984682260,
   "name": "Full Stop",
@@ -26144,6 +28377,93 @@
    "en": {
     "main": "Projectiles fired by this weapon blight the target or nearby area on impact.",
     "secondary": "Projectiles fired by this weapon blight the target or nearby area on impact."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "3066103996": {
+  "hash": 3066103996,
+  "name": "Gunpowder Gamble",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "3066103998": {
+  "hash": 3066103998,
+  "name": "Knock 'Em Down",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "3066103999": {
+  "hash": 3066103999,
+  "name": "On Your Mark",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
    }
   },
   "updateTracker": {
@@ -27623,6 +29943,122 @@
   },
   "linkedWith": 3979224005
  },
+ "3277705904": {
+  "hash": 3277705904,
+  "name": "Spark of Volts",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "3277705905": {
+  "hash": 3277705905,
+  "name": "Spark of Brilliance",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "3277705906": {
+  "hash": 3277705906,
+  "name": "Spark of Amplitude",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "3277705907": {
+  "hash": 3277705907,
+  "name": "Spark of Feedback",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
  "3291480605": {
   "hash": 3291480605,
   "name": "Double Fire",
@@ -29040,6 +31476,180 @@
    "en": {
     "main": "High damage, high recoil.",
     "secondary": "High damage, high recoil."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "3469412968": {
+  "hash": 3469412968,
+  "name": "Whisper of Refraction",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "3469412969": {
+  "hash": 3469412969,
+  "name": "Whisper of Durance",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "3469412970": {
+  "hash": 3469412970,
+  "name": "Whisper of Hedrons",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "3469412971": {
+  "hash": 3469412971,
+  "name": "Whisper of Fissures",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "3469412974": {
+  "hash": 3469412974,
+  "name": "Whisper of Bonds",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "3469412975": {
+  "hash": 3469412975,
+  "name": "Whisper of Shards",
+  "type": "fragment",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
    }
   },
   "updateTracker": {
@@ -32493,6 +35103,35 @@
   },
   "linkedWith": 169755979
  },
+ "3866705246": {
+  "hash": 3866705246,
+  "name": "Diamond Lance",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
  "3874977694": {
   "hash": 3874977694,
   "name": "Pack Hunter",
@@ -35281,6 +37920,35 @@
   "linkedWith": 2590710093,
   "uploadedBy": "Fading Shadow"
  },
+ "4184589900": {
+  "hash": 4184589900,
+  "name": "Touch of Winter",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
  "4185339856": {
   "hash": 4185339856,
   "name": "Revolution",
@@ -35374,6 +38042,93 @@
   "hash": 4193902249,
   "name": "Enhanced Nightmare Breaker",
   "type": "armorModActivity",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "4194622036": {
+  "hash": 4194622036,
+  "name": "Flow State",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "4194622037": {
+  "hash": 4194622037,
+  "name": "Tempest Strike",
+  "type": "aspect",
+  "lastUpload": 0,
+  "uploadedBy": "",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
+ "4194622038": {
+  "hash": 4194622038,
+  "name": "Lethal Current",
+  "type": "aspect",
   "lastUpload": 0,
   "uploadedBy": "",
   "editor": {
