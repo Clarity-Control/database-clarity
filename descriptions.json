@@ -3,7 +3,7 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1667672380844,
+  "lastUpload": 1667738865064,
   "uploadedBy": "Icemourne",
   "editor": {
    "en": {
@@ -3288,11 +3288,11 @@
   "hash": 631976966,
   "name": "Scout Rifle Targeting",
   "type": "armorModGeneral",
-  "lastUpload": 1667595647671,
+  "lastUpload": 1667738865064,
   "editor": {
    "en": {
-    "main": "none",
-    "secondary": "empty"
+    "main": "import main from 3201675491",
+    "secondary": "import self"
    }
   },
   "updateTracker": {
@@ -3301,7 +3301,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 0
+     "lastUpdate": 1667738790780,
+     "updatedBy": "Icemourne"
     }
    }
   },
@@ -3316,7 +3317,7 @@
     "isConditionallyActive": false
    }
   ],
-  "uploadedBy": "Fading Shadow"
+  "uploadedBy": "Icemourne"
  },
  "634781242": {
   "hash": 634781242,
@@ -5360,11 +5361,11 @@
   "hash": 1015337793,
   "name": "Machine Gun Targeting",
   "type": "armorModGeneral",
-  "lastUpload": 1667595647671,
+  "lastUpload": 1667738865064,
   "editor": {
    "en": {
-    "main": "none",
-    "secondary": "empty"
+    "main": "import main from 3201675491",
+    "secondary": "import self"
    }
   },
   "updateTracker": {
@@ -5373,7 +5374,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 0
+     "lastUpdate": 1667738769003,
+     "updatedBy": "Icemourne"
     }
    }
   },
@@ -5388,7 +5390,7 @@
     "isConditionallyActive": false
    }
   ],
-  "uploadedBy": "Fading Shadow"
+  "uploadedBy": "Icemourne"
  },
  "1015611457": {
   "hash": 1015611457,
@@ -7814,11 +7816,11 @@
   "hash": 1507854082,
   "name": "Sidearm Targeting",
   "type": "armorModGeneral",
-  "lastUpload": 1667595647671,
+  "lastUpload": 1667738865064,
   "editor": {
    "en": {
-    "main": "none",
-    "secondary": "empty"
+    "main": "import main from 3201675491",
+    "secondary": "import self"
    }
   },
   "updateTracker": {
@@ -7827,7 +7829,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 0
+     "lastUpdate": 1667738811970,
+     "updatedBy": "Icemourne"
     }
    }
   },
@@ -7842,7 +7845,7 @@
     "isConditionallyActive": false
    }
   ],
-  "uploadedBy": "Fading Shadow"
+  "uploadedBy": "Icemourne"
  },
  "1513326571": {
   "hash": 1513326571,
@@ -10972,11 +10975,11 @@
   "hash": 2080519917,
   "name": "Bow Targeting",
   "type": "armorModGeneral",
-  "lastUpload": 1667595647671,
+  "lastUpload": 1667738865064,
   "editor": {
    "en": {
-    "main": "none",
-    "secondary": "empty"
+    "main": "import main from 3201675491",
+    "secondary": "import self"
    }
   },
   "updateTracker": {
@@ -10985,7 +10988,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 0
+     "lastUpdate": 1667738690187,
+     "updatedBy": "Icemourne"
     }
    }
   },
@@ -11000,7 +11004,7 @@
     "isConditionallyActive": false
    }
   ],
-  "uploadedBy": "Fading Shadow"
+  "uploadedBy": "Icemourne"
  },
  "2091001077": {
   "hash": 2091001077,
@@ -12072,11 +12076,11 @@
   "hash": 2307244871,
   "name": "Sniper Rifle Targeting",
   "type": "armorModGeneral",
-  "lastUpload": 1667595647671,
+  "lastUpload": 1667738865064,
   "editor": {
    "en": {
-    "main": "none",
-    "secondary": "empty"
+    "main": "import main from 3201675491",
+    "secondary": "import self"
    }
   },
   "updateTracker": {
@@ -12085,7 +12089,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 0
+     "lastUpdate": 1667738819561,
+     "updatedBy": "Icemourne"
     }
    }
   },
@@ -12100,7 +12105,7 @@
     "isConditionallyActive": false
    }
   ],
-  "uploadedBy": "Fading Shadow"
+  "uploadedBy": "Icemourne"
  },
  "2308090567": {
   "hash": 2308090567,
@@ -14339,11 +14344,11 @@
   "hash": 2829974286,
   "name": "Hand Cannon Targeting",
   "type": "armorModGeneral",
-  "lastUpload": 1667595647671,
+  "lastUpload": 1667738865064,
   "editor": {
    "en": {
-    "main": "none",
-    "secondary": "empty"
+    "main": "import main from 3201675491",
+    "secondary": "import self"
    }
   },
   "updateTracker": {
@@ -14352,7 +14357,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 0
+     "lastUpdate": 1667738739219,
+     "updatedBy": "Icemourne"
     }
    }
   },
@@ -14367,7 +14373,7 @@
     "isConditionallyActive": false
    }
   ],
-  "uploadedBy": "Fading Shadow"
+  "uploadedBy": "Icemourne"
  },
  "2839173408": {
   "hash": 2839173408,
@@ -14865,11 +14871,11 @@
   "hash": 2919349723,
   "name": "Shotgun Targeting",
   "type": "armorModGeneral",
-  "lastUpload": 1667595647671,
+  "lastUpload": 1667738865064,
   "editor": {
    "en": {
-    "main": "none",
-    "secondary": "empty"
+    "main": "import main from 3201675491",
+    "secondary": "import self"
    }
   },
   "updateTracker": {
@@ -14878,7 +14884,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 0
+     "lastUpdate": 1667738800042,
+     "updatedBy": "Icemourne"
     }
    }
   },
@@ -14893,7 +14900,7 @@
     "isConditionallyActive": false
    }
   ],
-  "uploadedBy": "Fading Shadow"
+  "uploadedBy": "Icemourne"
  },
  "2923251173": {
   "hash": 2923251173,
@@ -15759,11 +15766,11 @@
   "hash": 3109470977,
   "name": "Glaive Targeting",
   "type": "armorModGeneral",
-  "lastUpload": 1667595647671,
+  "lastUpload": 1667738865064,
   "editor": {
    "en": {
-    "main": "none",
-    "secondary": "empty"
+    "main": "import main from 3201675491",
+    "secondary": "import self"
    }
   },
   "updateTracker": {
@@ -15772,7 +15779,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 0
+     "lastUpdate": 1667738722424,
+     "updatedBy": "Icemourne"
     }
    }
   },
@@ -15787,7 +15795,7 @@
     "isConditionallyActive": false
    }
   ],
-  "uploadedBy": "Fading Shadow"
+  "uploadedBy": "Icemourne"
  },
  "3118144663": {
   "hash": 3118144663,
@@ -16011,11 +16019,11 @@
   "hash": 3201675491,
   "name": "Auto Rifle Targeting",
   "type": "armorModGeneral",
-  "lastUpload": 1667595647671,
+  "lastUpload": 1667738865064,
   "editor": {
    "en": {
-    "main": "none",
-    "secondary": "empty"
+    "main": "+10 Aim Assist 1x mod\n+15 Aim Assist 2x mods\n-15% Accuracy Cone Size\n-25% ADS Animation Duration Multiplier",
+    "secondary": "import self"
    }
   },
   "updateTracker": {
@@ -16024,7 +16032,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 0
+     "lastUpdate": 1667738614438,
+     "updatedBy": "Icemourne"
     }
    }
   },
@@ -16039,7 +16048,7 @@
     "isConditionallyActive": false
    }
   ],
-  "uploadedBy": "Fading Shadow"
+  "uploadedBy": "Icemourne"
  },
  "3208647503": {
   "hash": 3208647503,
@@ -16609,11 +16618,11 @@
   "hash": 3319681729,
   "name": "Pulse Rifle Targeting",
   "type": "armorModGeneral",
-  "lastUpload": 1667595647671,
+  "lastUpload": 1667738865064,
   "editor": {
    "en": {
-    "main": "none",
-    "secondary": "empty"
+    "main": "import main from 3201675491",
+    "secondary": "import self"
    }
   },
   "updateTracker": {
@@ -16622,7 +16631,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 0
+     "lastUpdate": 1667738782290,
+     "updatedBy": "Icemourne"
     }
    }
   },
@@ -16637,17 +16647,17 @@
     "isConditionallyActive": false
    }
   ],
-  "uploadedBy": "Fading Shadow"
+  "uploadedBy": "Icemourne"
  },
  "3330325954": {
   "hash": 3330325954,
   "name": "Trace Rifle Targeting",
   "type": "armorModGeneral",
-  "lastUpload": 1667595647671,
+  "lastUpload": 1667738865064,
   "editor": {
    "en": {
-    "main": "none",
-    "secondary": "empty"
+    "main": "import main from 3201675491",
+    "secondary": "import self"
    }
   },
   "updateTracker": {
@@ -16656,7 +16666,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 0
+     "lastUpdate": 1667738843098,
+     "updatedBy": "Icemourne"
     }
    }
   },
@@ -16671,7 +16682,7 @@
     "isConditionallyActive": false
    }
   ],
-  "uploadedBy": "Fading Shadow"
+  "uploadedBy": "Icemourne"
  },
  "3336648220": {
   "hash": 3336648220,
@@ -16747,11 +16758,11 @@
   "hash": 3338875786,
   "name": "Linear Fusion Rifle Targeting",
   "type": "armorModGeneral",
-  "lastUpload": 1667595647671,
+  "lastUpload": 1667738865064,
   "editor": {
    "en": {
-    "main": "none",
-    "secondary": "empty"
+    "main": "import main from 3201675491",
+    "secondary": "import self"
    }
   },
   "updateTracker": {
@@ -16760,7 +16771,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 0
+     "lastUpdate": 1667738758369,
+     "updatedBy": "Icemourne"
     }
    }
   },
@@ -16775,7 +16787,7 @@
     "isConditionallyActive": false
    }
   ],
-  "uploadedBy": "Fading Shadow"
+  "uploadedBy": "Icemourne"
  },
  "3347978672": {
   "hash": 3347978672,
@@ -19145,11 +19157,11 @@
   "hash": 3857411140,
   "name": "Submachine Gun Targeting",
   "type": "armorModGeneral",
-  "lastUpload": 1667595647671,
+  "lastUpload": 1667738865064,
   "editor": {
    "en": {
-    "main": "none",
-    "secondary": "empty"
+    "main": "import main from 3201675491",
+    "secondary": "import self"
    }
   },
   "updateTracker": {
@@ -19158,7 +19170,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 0
+     "lastUpdate": 1667738828649,
+     "updatedBy": "Icemourne"
     }
    }
   },
@@ -19173,7 +19186,7 @@
     "isConditionallyActive": false
    }
   ],
-  "uploadedBy": "Fading Shadow"
+  "uploadedBy": "Icemourne"
  },
  "3865257976": {
   "hash": 3865257976,
@@ -19239,11 +19252,11 @@
   "hash": 3901392720,
   "name": "Fusion Rifle Targeting",
   "type": "armorModGeneral",
-  "lastUpload": 1667595647671,
+  "lastUpload": 1667738865064,
   "editor": {
    "en": {
-    "main": "none",
-    "secondary": "empty"
+    "main": "import main from 3201675491",
+    "secondary": "import self"
    }
   },
   "updateTracker": {
@@ -19252,7 +19265,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 0
+     "lastUpdate": 1667738705575,
+     "updatedBy": "Icemourne"
     }
    }
   },
@@ -19267,7 +19281,7 @@
     "isConditionallyActive": false
    }
   ],
-  "uploadedBy": "Fading Shadow"
+  "uploadedBy": "Icemourne"
  },
  "3907299874": {
   "hash": 3907299874,
