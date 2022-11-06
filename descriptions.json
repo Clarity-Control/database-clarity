@@ -3,7 +3,7 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1667740563281,
+  "lastUpload": 1667742162270,
   "uploadedBy": "Icemourne",
   "editor": {
    "en": {
@@ -1510,11 +1510,11 @@
   "hash": 299264772,
   "name": "Adept Range",
   "type": "weaponMod",
-  "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667595647671,
+  "uploadedBy": "Icemourne",
+  "lastUpload": 1667742162270,
   "inLiveDatabase": true,
   "uploadToLive": false,
-  "optional": false,
+  "optional": true,
   "hidden": false,
   "updateTracker": {
    "stats": {
@@ -3288,7 +3288,7 @@
   "hash": 631976966,
   "name": "Scout Rifle Targeting",
   "type": "armorModGeneral",
-  "lastUpload": 1667740563281,
+  "lastUpload": 1667742162270,
   "editor": {
    "en": {
     "main": "import main from 3201675491",
@@ -3325,11 +3325,11 @@
   "hash": 634781242,
   "name": "Adept Reload",
   "type": "weaponMod",
-  "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667595647671,
+  "uploadedBy": "Icemourne",
+  "lastUpload": 1667742162270,
   "inLiveDatabase": true,
   "uploadToLive": false,
-  "optional": false,
+  "optional": true,
   "hidden": false,
   "updateTracker": {
    "stats": {
@@ -3361,7 +3361,7 @@
   "hash": 650047261,
   "name": "Hand Cannon Ammo Finder",
   "type": "armorModGeneral",
-  "lastUpload": 1667740563281,
+  "lastUpload": 1667742162270,
   "editor": {
    "en": {
     "main": "import main from 1624081088",
@@ -3838,7 +3838,7 @@
   "hash": 712951940,
   "name": "Glaive Ammo Finder",
   "type": "armorModGeneral",
-  "lastUpload": 1667740563281,
+  "lastUpload": 1667742162270,
   "editor": {
    "en": {
     "main": "import main from 1624081088",
@@ -3904,8 +3904,8 @@
   "hash": 736000386,
   "name": "Freehand Grip",
   "type": "weaponMod",
-  "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667595647671,
+  "uploadedBy": "Icemourne",
+  "lastUpload": 1667742162270,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -3917,15 +3917,15 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667578816475,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1667741566603,
+     "updatedBy": "Icemourne"
     }
    }
   },
   "editor": {
    "en": {
-    "main": "-30% Hipfire Accuracy Cone Size, -[?]% Hipfire <title Accuracy Cone Growth [G_conegrowth] />, and 0.95x Ready Animation Duration Multiplier.",
-    "secondary": "-30% Hipfire Accuracy Cone Size, -[?]% Hipfire Accuracy Cone Growth, and 0.95x Ready Animation Duration Multiplier."
+    "main": "-30% Hipfire Accuracy Cone Size\n-[?]% Hipfire <title Accuracy Cone Growth [G_conegrowth] />\n-5% Ready Animation Duration",
+    "secondary": "import self"
    }
   },
   "stats": {
@@ -4032,8 +4032,8 @@
   "hash": 744770875,
   "name": "Adept Charge Time",
   "type": "weaponMod",
-  "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667595647671,
+  "uploadedBy": "Icemourne",
+  "lastUpload": 1667742162270,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -4045,8 +4045,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667578058778,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1667741930830,
+     "updatedBy": "Icemourne"
     },
     "zh-chs": {
      "lastUpdate": 1664419201060,
@@ -4065,8 +4065,8 @@
   },
   "editor": {
    "en": {
-    "main": "-40ms Charge Time\nDoes not reduce damage, unlike Charge Time Masterwork.\nDoes not display in the stats.",
-    "secondary": "import self"
+    "main": "-40ms Charge Time\nDoes not reduce damage, unlike Charge Time MW",
+    "secondary": "import self\nDoes not display in the stats."
    },
    "zh-chs": {
     "main": "-40ms 充能时间\n不会降低伤害。\n不会显示在武器属性中。",
@@ -4078,7 +4078,7 @@
   "hash": 755265365,
   "name": "Grenade Launcher Ammo Finder",
   "type": "armorModGeneral",
-  "lastUpload": 1667740563281,
+  "lastUpload": 1667742162270,
   "editor": {
    "en": {
     "main": "import main from 1624081088",
@@ -5064,11 +5064,11 @@
   "hash": 941997506,
   "name": "Icarus Grip",
   "type": "weaponMod",
-  "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667595647671,
+  "uploadedBy": "Icemourne",
+  "lastUpload": 1667742162270,
   "inLiveDatabase": true,
   "uploadToLive": false,
-  "optional": false,
+  "optional": true,
   "hidden": false,
   "updateTracker": {
    "stats": {
@@ -5077,8 +5077,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667578900049,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1667741580196,
+     "updatedBy": "Icemourne"
     },
     "zh-chs": {
      "lastUpdate": 1664419922504,
@@ -5088,7 +5088,7 @@
   },
   "editor": {
    "en": {
-    "main": "Grants 15 Airborne Effectiveness",
+    "main": "+15 Airborne Effectiveness",
     "secondary": "import self"
    },
    "zh-chs": {
@@ -5254,8 +5254,8 @@
   "hash": 984527513,
   "name": "Major Spec",
   "type": "weaponMod",
-  "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667595647671,
+  "uploadedBy": "Icemourne",
+  "lastUpload": 1667742162270,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -5267,8 +5267,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667578897997,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1667741590618,
+     "updatedBy": "Icemourne"
     },
     "zh-chs": {
      "lastUpdate": 1664419962138,
@@ -5287,7 +5287,7 @@
   },
   "editor": {
    "en": {
-    "main": "7.77% Damage Increase against Elites and Minibosses",
+    "main": "+7.77% Damage against Elites and Minibosses",
     "secondary": "import self"
    },
    "zh-chs": {
@@ -5366,7 +5366,7 @@
   "hash": 1015337793,
   "name": "Machine Gun Targeting",
   "type": "armorModGeneral",
-  "lastUpload": 1667740563281,
+  "lastUpload": 1667742162270,
   "editor": {
    "en": {
     "main": "import main from 3201675491",
@@ -5538,7 +5538,7 @@
   "hash": 1050260245,
   "name": "Sidearm Ammo Finder",
   "type": "armorModGeneral",
-  "lastUpload": 1667740563281,
+  "lastUpload": 1667742162270,
   "editor": {
    "en": {
     "main": "import main from 1624081088",
@@ -6381,11 +6381,11 @@
   "hash": 1225726778,
   "name": "Adept Mag",
   "type": "weaponMod",
-  "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667595647671,
+  "uploadedBy": "Icemourne",
+  "lastUpload": 1667742162270,
   "inLiveDatabase": true,
   "uploadToLive": false,
-  "optional": false,
+  "optional": true,
   "hidden": false,
   "updateTracker": {
    "stats": {
@@ -6394,8 +6394,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667578091110,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1667741823130,
+     "updatedBy": "Icemourne"
     },
     "zh-chs": {
      "lastUpdate": 1664419489011,
@@ -6405,7 +6405,7 @@
   },
   "editor": {
    "en": {
-    "main": "+40 Magazine Stat\r\n-15 Handling",
+    "main": "+40 Magazine Stat\n-15 Handling",
     "secondary": "import self"
    },
    "zh-chs": {
@@ -6899,29 +6899,45 @@
   "hash": 1334978104,
   "name": "Quick Access Sling",
   "type": "weaponMod",
-  "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667595647671,
+  "uploadedBy": "Icemourne",
+  "lastUpload": 1667742162270,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
   "hidden": false,
   "updateTracker": {
    "stats": {
-    "lastUpdate": 1658141469485,
-    "undatedBy": "Icemourne"
+    "lastUpdate": 1667742101716,
+    "updatedBy": "Icemourne"
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667578890506,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1667741616536,
+     "updatedBy": "Icemourne"
     }
    }
   },
   "editor": {
    "en": {
-    "main": "0.9x Ready/Stow Animation Duration Multiplier",
+    "main": "-10% Ready/Stow Animation Duration",
     "secondary": "import self"
    }
+  },
+  "stats": {
+   "ready": [
+    {
+     "passive": {
+      "multiplier": [ 0.9 ]
+     }
+    }
+   ],
+   "stow": [
+    {
+     "passive": {
+      "multiplier": [ 0.9 ]
+     }
+    }
+   ]
   }
  },
  "1341199512": {
@@ -7649,8 +7665,8 @@
   "hash": 1471333428,
   "name": "Surrounded Spec",
   "type": "weaponMod",
-  "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667595647671,
+  "uploadedBy": "Icemourne",
+  "lastUpload": 1667742162270,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -7662,8 +7678,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667579119986,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1667741681201,
+     "updatedBy": "Icemourne"
     },
     "zh-chs": {
      "lastUpdate": 1664419835810,
@@ -7673,7 +7689,7 @@
   },
   "editor": {
    "en": {
-    "main": "Additive 10% Increased Surrounded Damage Bonus, and allows Surrounded to linger for 1.5s",
+    "main": "+10% Surrounded Damage Bonus\nSurrounded lingers for 1.5s",
     "secondary": "import self"
    },
    "zh-chs": {
@@ -7714,7 +7730,7 @@
   "hash": 1476367343,
   "name": "Sword Ammo Finder",
   "type": "armorModGeneral",
-  "lastUpload": 1667740563281,
+  "lastUpload": 1667742162270,
   "editor": {
    "en": {
     "main": "import main from 1624081088",
@@ -7791,7 +7807,7 @@
   "hash": 1499759470,
   "name": "Linear Fusion Rifle Ammo Finder",
   "type": "armorModGeneral",
-  "lastUpload": 1667740563281,
+  "lastUpload": 1667742162270,
   "editor": {
    "en": {
     "main": "import main from 1624081088",
@@ -7826,7 +7842,7 @@
   "hash": 1507854082,
   "name": "Sidearm Targeting",
   "type": "armorModGeneral",
-  "lastUpload": 1667740563281,
+  "lastUpload": 1667742162270,
   "editor": {
    "en": {
     "main": "import main from 3201675491",
@@ -7863,8 +7879,8 @@
   "hash": 1513326571,
   "name": "Taken Spec",
   "type": "weaponMod",
-  "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667595647671,
+  "uploadedBy": "Icemourne",
+  "lastUpload": 1667742162270,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -7876,8 +7892,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667578878425,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1667741696367,
+     "updatedBy": "Icemourne"
     },
     "zh-chs": {
      "lastUpdate": 1664419638304,
@@ -7896,7 +7912,7 @@
   },
   "editor": {
    "en": {
-    "main": "10% Damage Increase against Taken Combatants.",
+    "main": "+10% Damage against Taken Combatants",
     "secondary": "import self"
    },
    "zh-chs": {
@@ -7968,11 +7984,11 @@
   "hash": 1525622117,
   "name": "Adept Counterbalance",
   "type": "weaponMod",
-  "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667595647671,
+  "uploadedBy": "Icemourne",
+  "lastUpload": 1667742162270,
   "inLiveDatabase": true,
   "uploadToLive": false,
-  "optional": false,
+  "optional": true,
   "hidden": false,
   "updateTracker": {
    "stats": {
@@ -8513,11 +8529,11 @@
   "hash": 1588595445,
   "name": "Counterbalance Stock",
   "type": "weaponMod",
-  "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667595647671,
+  "uploadedBy": "Icemourne",
+  "lastUpload": 1667742162270,
   "inLiveDatabase": true,
   "uploadToLive": false,
-  "optional": false,
+  "optional": true,
   "hidden": false,
   "updateTracker": {
    "stats": {
@@ -8705,7 +8721,7 @@
   "hash": 1624081088,
   "name": "Bow Ammo Finder",
   "type": "armorModGeneral",
-  "lastUpload": 1667740563281,
+  "lastUpload": 1667742162270,
   "editor": {
    "en": {
     "main": "export description (\nAmmo Finder Bricks give 75% less ammo.\n\nAmmo Spawns work on a Counter progressed only by Weapon Kills.\nOnce the counter reaches 100%, the next Weapon Kill will spawn an Ammo Brick.\n\nMultipliers to Counter\nPrimary Weapons Kills 1.25x\nExotic Primary Weapons 1.67x\n\nCounter Percentage per Kill:\n)\n<heavy/> Pover weapons <bold/>\n< table >\n|     |bc Perk kill   |b Avarage kills\n|b 1x |c  3.3% > 4.5% |  26\n|b 2x |c  4.4% > 6.6% |  20\n<$>\n\n<special/> Special weapons <bold/>\n< table >\n|     |bc Perk kill   |b Avarage kills\n|b 1x |c  4.4% > 5.6% |  20\n|b 2x |c  6.6% > 11%  |  15\n<$>\n\nLoadout determines the type of Ammo Brick to spawn.",
@@ -9524,11 +9540,11 @@
   "hash": 1710791394,
   "name": "Adept Targeting",
   "type": "weaponMod",
-  "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667595647671,
+  "uploadedBy": "Icemourne",
+  "lastUpload": 1667742162270,
   "inLiveDatabase": true,
   "uploadToLive": false,
-  "optional": false,
+  "optional": true,
   "hidden": false,
   "updateTracker": {
    "stats": {
@@ -9537,8 +9553,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667578098475,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1667741776151,
+     "updatedBy": "Icemourne"
     },
     "zh-chs": {
      "lastUpdate": 1664419534628,
@@ -9548,7 +9564,7 @@
   },
   "editor": {
    "en": {
-    "main": "+10 Aim Assist\r\n-15 Stability",
+    "main": "+10 Aim Assistance\n-15 Stability",
     "secondary": "import self"
    },
    "zh-chs": {
@@ -10010,8 +10026,8 @@
   "hash": 1837151577,
   "name": "Dragonfly Spec",
   "type": "weaponMod",
-  "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667595647671,
+  "uploadedBy": "Icemourne",
+  "lastUpload": 1667742162270,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -10023,14 +10039,14 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667578935496,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1667741747657,
+     "updatedBy": "Icemourne"
     }
    }
   },
   "editor": {
    "en": {
-    "main": "46.6% Increased Damage and Radius for Dragonfly explosions",
+    "main": "+46.6% Damage and Radius for Dragonfly explosions",
     "secondary": "import self"
    }
   },
@@ -10196,16 +10212,16 @@
   "hash": 1885045197,
   "name": "Adept Draw Time",
   "type": "weaponMod",
-  "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667595647671,
+  "uploadedBy": "Icemourne",
+  "lastUpload": 1667742162270,
   "inLiveDatabase": true,
   "uploadToLive": false,
-  "optional": false,
+  "optional": true,
   "hidden": false,
   "updateTracker": {
    "stats": {
-    "lastUpdate": 1667579406351,
-    "updatedBy": "Fading Shadow"
+    "lastUpdate": 1667741348219,
+    "updatedBy": "Icemourne"
    },
    "descriptions": {
     "en": {
@@ -10239,17 +10255,7 @@
     "value": 10,
     "isConditionallyActive": false
    }
-  ],
-  "stats": {
-   "rateOfFire": [
-    {
-     "passive": {
-      "stat": [ -40 ]
-     },
-     "weaponTypes": [ "combat bow" ]
-    }
-   ]
-  }
+  ]
  },
  "1885400500": {
   "hash": 1885400500,
@@ -10988,7 +10994,7 @@
   "hash": 2080519917,
   "name": "Bow Targeting",
   "type": "armorModGeneral",
-  "lastUpload": 1667740563281,
+  "lastUpload": 1667742162270,
   "editor": {
    "en": {
     "main": "import main from 3201675491",
@@ -11146,7 +11152,7 @@
   "hash": 2128395292,
   "name": "Machine Gun Ammo Finder",
   "type": "armorModGeneral",
-  "lastUpload": 1667740563281,
+  "lastUpload": 1667742162270,
   "editor": {
    "en": {
     "main": "import main from 1624081088",
@@ -12027,11 +12033,11 @@
   "hash": 2299766748,
   "name": "Adept Projectile Speed",
   "type": "weaponMod",
-  "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667595647671,
+  "uploadedBy": "Icemourne",
+  "lastUpload": 1667742162270,
   "inLiveDatabase": true,
   "uploadToLive": false,
-  "optional": false,
+  "optional": true,
   "hidden": false,
   "updateTracker": {
    "stats": {
@@ -12092,7 +12098,7 @@
   "hash": 2307244871,
   "name": "Sniper Rifle Targeting",
   "type": "armorModGeneral",
-  "lastUpload": 1667740563281,
+  "lastUpload": 1667742162270,
   "editor": {
    "en": {
     "main": "import main from 3201675491",
@@ -13020,7 +13026,7 @@
   "hash": 2603856295,
   "name": "Rocket Launcher Ammo Finder",
   "type": "armorModGeneral",
-  "lastUpload": 1667740563281,
+  "lastUpload": 1667742162270,
   "editor": {
    "en": {
     "main": "import main from 1624081088",
@@ -14040,7 +14046,7 @@
   "hash": 2754084930,
   "name": "Sniper Rifle Ammo Finder",
   "type": "armorModGeneral",
-  "lastUpload": 1667740563281,
+  "lastUpload": 1667742162270,
   "editor": {
    "en": {
     "main": "import main from 1624081088",
@@ -14115,8 +14121,8 @@
   "hash": 2788909693,
   "name": "Boss Spec",
   "type": "weaponMod",
-  "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667595647671,
+  "uploadedBy": "Icemourne",
+  "lastUpload": 1667742162270,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -14128,8 +14134,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667578113243,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1667741759266,
+     "updatedBy": "Icemourne"
     },
     "zh-chs": {
      "lastUpdate": 1664117799593,
@@ -14148,7 +14154,7 @@
   },
   "editor": {
    "en": {
-    "main": "7.77% Damage Increase against Bosses and Vehicles.",
+    "main": "+7.77% Damage against Bosses and Vehicles.",
     "secondary": "import self"
    },
    "zh-chs": {
@@ -14364,7 +14370,7 @@
   "hash": 2829974286,
   "name": "Hand Cannon Targeting",
   "type": "armorModGeneral",
-  "lastUpload": 1667740563281,
+  "lastUpload": 1667742162270,
   "editor": {
    "en": {
     "main": "import main from 3201675491",
@@ -14893,7 +14899,7 @@
   "hash": 2919349723,
   "name": "Shotgun Targeting",
   "type": "armorModGeneral",
-  "lastUpload": 1667740563281,
+  "lastUpload": 1667742162270,
   "editor": {
    "en": {
     "main": "import main from 3201675491",
@@ -15426,8 +15432,8 @@
   "hash": 3018373291,
   "name": "Adept Big Ones Spec",
   "type": "weaponMod",
-  "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667595647671,
+  "uploadedBy": "Icemourne",
+  "lastUpload": 1667742162270,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -15439,8 +15445,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667578067418,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1667741945077,
+     "updatedBy": "Icemourne"
     },
     "zh-chs": {
      "lastUpdate": 1664419584948,
@@ -15450,7 +15456,7 @@
   },
   "editor": {
    "en": {
-    "main": "7.77% Damage Increase against Elites, Minibosses, and Bosses",
+    "main": "+7.77% Damage against Elites, Minibosses, and Bosses",
     "secondary": "import self"
    },
    "zh-chs": {
@@ -15790,7 +15796,7 @@
   "hash": 3109470977,
   "name": "Glaive Targeting",
   "type": "armorModGeneral",
-  "lastUpload": 1667740563281,
+  "lastUpload": 1667742162270,
   "editor": {
    "en": {
     "main": "import main from 3201675491",
@@ -16045,7 +16051,7 @@
   "hash": 3201675491,
   "name": "Auto Rifle Targeting",
   "type": "armorModGeneral",
-  "lastUpload": 1667740563281,
+  "lastUpload": 1667742162270,
   "editor": {
    "en": {
     "main": "+10 Aim Assist 1x mod\n+15 Aim Assist 2x mods\n-15% Accuracy Cone Size\n-25% ADS Animation Duration",
@@ -16090,11 +16096,11 @@
   "hash": 3208647503,
   "name": "Adept Impact",
   "type": "weaponMod",
-  "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667595647671,
+  "uploadedBy": "Icemourne",
+  "lastUpload": 1667742162270,
   "inLiveDatabase": true,
   "uploadToLive": false,
-  "optional": false,
+  "optional": true,
   "hidden": false,
   "updateTracker": {
    "stats": {
@@ -16119,11 +16125,11 @@
   "hash": 3228611386,
   "name": "Targeting Adjuster",
   "type": "weaponMod",
-  "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667595647671,
+  "uploadedBy": "Icemourne",
+  "lastUpload": 1667742162270,
   "inLiveDatabase": true,
   "uploadToLive": false,
-  "optional": false,
+  "optional": true,
   "hidden": false,
   "updateTracker": {
    "stats": {
@@ -16132,8 +16138,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667578876504,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1667741710636,
+     "updatedBy": "Icemourne"
     },
     "zh-chs": {
      "lastUpdate": 1664419610848,
@@ -16143,7 +16149,7 @@
   },
   "editor": {
    "en": {
-    "main": "+5 Aim Assist",
+    "main": "+5 Aim Assistance",
     "secondary": "import self"
    },
    "zh-chs": {
@@ -16654,7 +16660,7 @@
   "hash": 3319681729,
   "name": "Pulse Rifle Targeting",
   "type": "armorModGeneral",
-  "lastUpload": 1667740563281,
+  "lastUpload": 1667742162270,
   "editor": {
    "en": {
     "main": "import main from 3201675491",
@@ -16691,7 +16697,7 @@
   "hash": 3330325954,
   "name": "Trace Rifle Targeting",
   "type": "armorModGeneral",
-  "lastUpload": 1667740563281,
+  "lastUpload": 1667742162270,
   "editor": {
    "en": {
     "main": "import main from 3201675491",
@@ -16728,11 +16734,11 @@
   "hash": 3336648220,
   "name": "Backup Mag",
   "type": "weaponMod",
-  "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667595647671,
+  "uploadedBy": "Icemourne",
+  "lastUpload": 1667742162270,
   "inLiveDatabase": true,
   "uploadToLive": false,
-  "optional": false,
+  "optional": true,
   "hidden": false,
   "updateTracker": {
    "stats": {
@@ -16798,7 +16804,7 @@
   "hash": 3338875786,
   "name": "Linear Fusion Rifle Targeting",
   "type": "armorModGeneral",
-  "lastUpload": 1667740563281,
+  "lastUpload": 1667742162270,
   "editor": {
    "en": {
     "main": "import main from 3201675491",
@@ -17070,7 +17076,7 @@
   "hash": 3394151347,
   "name": "Fusion Rifle Ammo Finder",
   "type": "armorModGeneral",
-  "lastUpload": 1667740563281,
+  "lastUpload": 1667742162270,
   "editor": {
    "en": {
     "main": "import main from 1624081088",
@@ -18937,11 +18943,11 @@
   "hash": 3789184904,
   "name": "Adept Icarus Grip",
   "type": "weaponMod",
-  "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667595647671,
+  "uploadedBy": "Icemourne",
+  "lastUpload": 1667742162270,
   "inLiveDatabase": true,
   "uploadToLive": false,
-  "optional": false,
+  "optional": true,
   "hidden": false,
   "updateTracker": {
    "stats": {
@@ -19200,7 +19206,7 @@
   "hash": 3857411140,
   "name": "Submachine Gun Targeting",
   "type": "armorModGeneral",
-  "lastUpload": 1667740563281,
+  "lastUpload": 1667742162270,
   "editor": {
    "en": {
     "main": "import main from 3201675491",
@@ -19297,7 +19303,7 @@
   "hash": 3901392720,
   "name": "Fusion Rifle Targeting",
   "type": "armorModGeneral",
-  "lastUpload": 1667740563281,
+  "lastUpload": 1667742162270,
   "editor": {
    "en": {
     "main": "import main from 3201675491",
@@ -19778,7 +19784,7 @@
   "hash": 3973928133,
   "name": "Trace Rifle Ammo Finder",
   "type": "armorModGeneral",
-  "lastUpload": 1667740563281,
+  "lastUpload": 1667742162270,
   "editor": {
    "en": {
     "main": "import main from 1624081088",
@@ -19996,11 +20002,11 @@
   "hash": 4003264426,
   "name": "Adept Stability",
   "type": "weaponMod",
-  "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667595647671,
+  "uploadedBy": "Icemourne",
+  "lastUpload": 1667742162270,
   "inLiveDatabase": true,
   "uploadToLive": false,
-  "optional": false,
+  "optional": true,
   "hidden": false,
   "updateTracker": {
    "stats": {
@@ -20478,8 +20484,8 @@
   "hash": 4091000557,
   "name": "Minor Spec",
   "type": "weaponMod",
-  "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667595647671,
+  "uploadedBy": "Icemourne",
+  "lastUpload": 1667742162270,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -20491,8 +20497,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667578896530,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1667741603083,
+     "updatedBy": "Icemourne"
     },
     "zh-chs": {
      "lastUpdate": 1664420008627,
@@ -20511,7 +20517,7 @@
   },
   "editor": {
    "en": {
-    "main": "7.77% Damage Increase against Rank-And-File",
+    "main": "+7.77% Damage against Rank-And-File",
     "secondary": "import self"
    },
    "zh-chs": {
@@ -20706,7 +20712,7 @@
   "hash": 4148827738,
   "name": "Shotgun Ammo Finder",
   "type": "armorModGeneral",
-  "lastUpload": 1667740563281,
+  "lastUpload": 1667742162270,
   "editor": {
    "en": {
     "main": "import main from 1624081088",
@@ -21402,11 +21408,11 @@
   "hash": 4278960718,
   "name": "Adept Handling",
   "type": "weaponMod",
-  "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667595647671,
+  "uploadedBy": "Icemourne",
+  "lastUpload": 1667742162270,
   "inLiveDatabase": true,
   "uploadToLive": false,
-  "optional": false,
+  "optional": true,
   "hidden": false,
   "updateTracker": {
    "stats": {
