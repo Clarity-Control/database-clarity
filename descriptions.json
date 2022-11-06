@@ -3,7 +3,7 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1667759395142,
+  "lastUpload": 1667771709392,
   "uploadedBy": "Icemourne",
   "editor": {
    "en": {
@@ -25,7 +25,7 @@
   },
   "uploadToLive": false,
   "hidden": false,
-  "inLiveDatabase": false,
+  "inLiveDatabase": true,
   "optional": false
  },
  "1": {
@@ -1062,8 +1062,8 @@
   "hash": 117884138,
   "name": "Adept Accuracy",
   "type": "weaponMod",
-  "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667595647671,
+  "uploadedBy": "Icemourne",
+  "lastUpload": 1667771709392,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": true,
@@ -1885,8 +1885,8 @@
   "hash": 229003538,
   "name": "Adept Blast Radius",
   "type": "weaponMod",
-  "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667595647671,
+  "uploadedBy": "Icemourne",
+  "lastUpload": 1667771709392,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": true,
@@ -2323,7 +2323,7 @@
   "name": "Adept Range",
   "type": "weaponMod",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1667742162270,
+  "lastUpload": 1667771709392,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": true,
@@ -2912,8 +2912,8 @@
   "hash": 371216963,
   "name": "Radar Tuner",
   "type": "weaponMod",
-  "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667595647671,
+  "uploadedBy": "Icemourne",
+  "lastUpload": 1667771709392,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -4486,8 +4486,8 @@
   "hash": 518387148,
   "name": "Sprint Grip",
   "type": "weaponMod",
-  "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667595647671,
+  "uploadedBy": "Icemourne",
+  "lastUpload": 1667771709392,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -5550,7 +5550,7 @@
   "hash": 631976966,
   "name": "Scout Rifle Targeting",
   "type": "armorModGeneral",
-  "lastUpload": 1667742162270,
+  "lastUpload": 1667771709392,
   "editor": {
    "en": {
     "main": "import main from 3201675491",
@@ -5588,7 +5588,7 @@
   "name": "Adept Reload",
   "type": "weaponMod",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1667742162270,
+  "lastUpload": 1667771709392,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": true,
@@ -5652,7 +5652,7 @@
   "hash": 650047261,
   "name": "Hand Cannon Ammo Finder",
   "type": "armorModGeneral",
-  "lastUpload": 1667742162270,
+  "lastUpload": 1667771709392,
   "editor": {
    "en": {
     "main": "import main from 1624081088",
@@ -5745,8 +5745,8 @@
   "hash": 666440382,
   "name": "Rampage Spec",
   "type": "weaponMod",
-  "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667595647671,
+  "uploadedBy": "Icemourne",
+  "lastUpload": 1667771709392,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -6274,7 +6274,7 @@
   "hash": 712951940,
   "name": "Glaive Ammo Finder",
   "type": "armorModGeneral",
-  "lastUpload": 1667742162270,
+  "lastUpload": 1667771709392,
   "editor": {
    "en": {
     "main": "import main from 1624081088",
@@ -6370,7 +6370,7 @@
   "name": "Freehand Grip",
   "type": "weaponMod",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1667742162270,
+  "lastUpload": 1667771709392,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -6556,7 +6556,7 @@
   "name": "Adept Charge Time",
   "type": "weaponMod",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1667742162270,
+  "lastUpload": 1667771709392,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -6659,7 +6659,7 @@
   "hash": 755265365,
   "name": "Grenade Launcher Ammo Finder",
   "type": "armorModGeneral",
-  "lastUpload": 1667742162270,
+  "lastUpload": 1667771709392,
   "editor": {
    "en": {
     "main": "import main from 1624081088",
@@ -8458,7 +8458,7 @@
   "name": "Icarus Grip",
   "type": "weaponMod",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1667742162270,
+  "lastUpload": 1667771709392,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": true,
@@ -8764,7 +8764,7 @@
   "name": "Major Spec",
   "type": "weaponMod",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1667742162270,
+  "lastUpload": 1667771709392,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -8962,7 +8962,7 @@
   "hash": 1015337793,
   "name": "Machine Gun Targeting",
   "type": "armorModGeneral",
-  "lastUpload": 1667742162270,
+  "lastUpload": 1667771709392,
   "editor": {
    "en": {
     "main": "import main from 3201675491",
@@ -9279,7 +9279,7 @@
   "hash": 1050260245,
   "name": "Sidearm Ammo Finder",
   "type": "armorModGeneral",
-  "lastUpload": 1667742162270,
+  "lastUpload": 1667771709392,
   "editor": {
    "en": {
     "main": "import main from 1624081088",
@@ -10877,7 +10877,7 @@
   "name": "Adept Mag",
   "type": "weaponMod",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1667742162270,
+  "lastUpload": 1667771709392,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": true,
@@ -12207,7 +12207,7 @@
   "name": "Quick Access Sling",
   "type": "weaponMod",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1667742162270,
+  "lastUpload": 1667771709392,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -13640,7 +13640,7 @@
   "name": "Surrounded Spec",
   "type": "weaponMod",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1667742162270,
+  "lastUpload": 1667771709392,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -13704,7 +13704,7 @@
   "hash": 1476367343,
   "name": "Sword Ammo Finder",
   "type": "armorModGeneral",
-  "lastUpload": 1667742162270,
+  "lastUpload": 1667771709392,
   "editor": {
    "en": {
     "main": "import main from 1624081088",
@@ -13955,7 +13955,7 @@
   "hash": 1499759470,
   "name": "Linear Fusion Rifle Ammo Finder",
   "type": "armorModGeneral",
-  "lastUpload": 1667742162270,
+  "lastUpload": 1667771709392,
   "editor": {
    "en": {
     "main": "import main from 1624081088",
@@ -13990,7 +13990,7 @@
   "hash": 1507854082,
   "name": "Sidearm Targeting",
   "type": "armorModGeneral",
-  "lastUpload": 1667742162270,
+  "lastUpload": 1667771709392,
   "editor": {
    "en": {
     "main": "import main from 3201675491",
@@ -14028,7 +14028,7 @@
   "name": "Taken Spec",
   "type": "weaponMod",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1667742162270,
+  "lastUpload": 1667771709392,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -14191,7 +14191,7 @@
   "name": "Adept Counterbalance",
   "type": "weaponMod",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1667742162270,
+  "lastUpload": 1667771709392,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": true,
@@ -15026,7 +15026,7 @@
   "name": "Counterbalance Stock",
   "type": "weaponMod",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1667742162270,
+  "lastUpload": 1667771709392,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": true,
@@ -15304,7 +15304,7 @@
   "hash": 1624081088,
   "name": "Bow Ammo Finder",
   "type": "armorModGeneral",
-  "lastUpload": 1667742162270,
+  "lastUpload": 1667771709392,
   "editor": {
    "en": {
     "main": "export description (\nAmmo Finder Bricks give 75% less ammo.\n\nAmmo Spawns work on a Counter progressed only by Weapon Kills.\nOnce the counter reaches 100%, the next Weapon Kill will spawn an Ammo Brick.\n\nMultipliers to Counter\nPrimary Weapons Kills 1.25x\nExotic Primary Weapons 1.67x\n\nCounter Percentage per Kill:\n)\n<heavy/> Pover weapons <bold/>\n< table >\n|     |bc Perk kill   |b Avarage kills\n|b 1x |c  3.3% > 4.5% |  26\n|b 2x |c  4.4% > 6.6% |  20\n<$>\n\n<special/> Special weapons <bold/>\n< table >\n|     |bc Perk kill   |b Avarage kills\n|b 1x |c  4.4% > 5.6% |  20\n|b 2x |c  6.6% > 11%  |  15\n<$>\n\nLoadout determines the type of Ammo Brick to spawn.",
@@ -16559,7 +16559,7 @@
   "name": "Adept Targeting",
   "type": "weaponMod",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1667742162270,
+  "lastUpload": 1667771709392,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": true,
@@ -17944,7 +17944,7 @@
   "name": "Dragonfly Spec",
   "type": "weaponMod",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1667742162270,
+  "lastUpload": 1667771709392,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -18246,7 +18246,7 @@
   "name": "Adept Draw Time",
   "type": "weaponMod",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1667742162270,
+  "lastUpload": 1667771709392,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": true,
@@ -19636,7 +19636,7 @@
   "hash": 2080519917,
   "name": "Bow Targeting",
   "type": "armorModGeneral",
-  "lastUpload": 1667742162270,
+  "lastUpload": 1667771709392,
   "editor": {
    "en": {
     "main": "import main from 3201675491",
@@ -19997,7 +19997,7 @@
   "hash": 2128395292,
   "name": "Machine Gun Ammo Finder",
   "type": "armorModGeneral",
-  "lastUpload": 1667742162270,
+  "lastUpload": 1667771709392,
   "editor": {
    "en": {
     "main": "import main from 1624081088",
@@ -22010,7 +22010,7 @@
   "name": "Adept Projectile Speed",
   "type": "weaponMod",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1667742162270,
+  "lastUpload": 1667771709392,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": true,
@@ -22132,7 +22132,7 @@
   "hash": 2307244871,
   "name": "Sniper Rifle Targeting",
   "type": "armorModGeneral",
-  "lastUpload": 1667742162270,
+  "lastUpload": 1667771709392,
   "editor": {
    "en": {
     "main": "import main from 3201675491",
@@ -24017,7 +24017,7 @@
   "hash": 2603856295,
   "name": "Rocket Launcher Ammo Finder",
   "type": "armorModGeneral",
-  "lastUpload": 1667742162270,
+  "lastUpload": 1667771709392,
   "editor": {
    "en": {
     "main": "import main from 1624081088",
@@ -25646,7 +25646,7 @@
   "hash": 2754084930,
   "name": "Sniper Rifle Ammo Finder",
   "type": "armorModGeneral",
-  "lastUpload": 1667742162270,
+  "lastUpload": 1667771709392,
   "editor": {
    "en": {
     "main": "import main from 1624081088",
@@ -25809,7 +25809,7 @@
   "name": "Boss Spec",
   "type": "weaponMod",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1667742162270,
+  "lastUpload": 1667771709392,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -26231,7 +26231,7 @@
   "hash": 2829974286,
   "name": "Hand Cannon Targeting",
   "type": "armorModGeneral",
-  "lastUpload": 1667742162270,
+  "lastUpload": 1667771709392,
   "editor": {
    "en": {
     "main": "import main from 3201675491",
@@ -27050,7 +27050,7 @@
   "hash": 2919349723,
   "name": "Shotgun Targeting",
   "type": "armorModGeneral",
-  "lastUpload": 1667742162270,
+  "lastUpload": 1667771709392,
   "editor": {
    "en": {
     "main": "import main from 3201675491",
@@ -28077,7 +28077,7 @@
   "name": "Adept Big Ones Spec",
   "type": "weaponMod",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1667742162270,
+  "lastUpload": 1667771709392,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -28788,7 +28788,7 @@
   "hash": 3109470977,
   "name": "Glaive Targeting",
   "type": "armorModGeneral",
-  "lastUpload": 1667742162270,
+  "lastUpload": 1667771709392,
   "editor": {
    "en": {
     "main": "import main from 3201675491",
@@ -29333,7 +29333,7 @@
   "hash": 3201675491,
   "name": "Auto Rifle Targeting",
   "type": "armorModGeneral",
-  "lastUpload": 1667742162270,
+  "lastUpload": 1667771709392,
   "editor": {
    "en": {
     "main": "+10 Aim Assist 1x mod\n+15 Aim Assist 2x mods\n-15% Accuracy Cone Size\n-25% ADS Animation Duration",
@@ -29379,7 +29379,7 @@
   "name": "Adept Impact",
   "type": "weaponMod",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1667742162270,
+  "lastUpload": 1667771709392,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": true,
@@ -29437,7 +29437,7 @@
   "name": "Targeting Adjuster",
   "type": "weaponMod",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1667742162270,
+  "lastUpload": 1667771709392,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": true,
@@ -30290,7 +30290,7 @@
   "hash": 3319681729,
   "name": "Pulse Rifle Targeting",
   "type": "armorModGeneral",
-  "lastUpload": 1667742162270,
+  "lastUpload": 1667771709392,
   "editor": {
    "en": {
     "main": "import main from 3201675491",
@@ -30327,7 +30327,7 @@
   "hash": 3330325954,
   "name": "Trace Rifle Targeting",
   "type": "armorModGeneral",
-  "lastUpload": 1667742162270,
+  "lastUpload": 1667771709392,
   "editor": {
    "en": {
     "main": "import main from 3201675491",
@@ -30452,7 +30452,7 @@
   "name": "Backup Mag",
   "type": "weaponMod",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1667742162270,
+  "lastUpload": 1667771709392,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": true,
@@ -30521,7 +30521,7 @@
   "hash": 3338875786,
   "name": "Linear Fusion Rifle Targeting",
   "type": "armorModGeneral",
-  "lastUpload": 1667742162270,
+  "lastUpload": 1667771709392,
   "editor": {
    "en": {
     "main": "import main from 3201675491",
@@ -30880,7 +30880,7 @@
   "hash": 3394151347,
   "name": "Fusion Rifle Ammo Finder",
   "type": "armorModGeneral",
-  "lastUpload": 1667742162270,
+  "lastUpload": 1667771709392,
   "editor": {
    "en": {
     "main": "import main from 1624081088",
@@ -34574,8 +34574,8 @@
   "hash": 3785661089,
   "name": "Radar Booster",
   "type": "weaponMod",
-  "uploadedBy": "Fading Shadow",
-  "lastUpload": 1667595647671,
+  "uploadedBy": "Icemourne",
+  "lastUpload": 1667771709392,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -34604,7 +34604,7 @@
   "name": "Adept Icarus Grip",
   "type": "weaponMod",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1667742162270,
+  "lastUpload": 1667771709392,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": true,
@@ -35040,7 +35040,7 @@
   "hash": 3857411140,
   "name": "Submachine Gun Targeting",
   "type": "armorModGeneral",
-  "lastUpload": 1667742162270,
+  "lastUpload": 1667771709392,
   "editor": {
    "en": {
     "main": "import main from 3201675491",
@@ -35253,7 +35253,7 @@
   "hash": 3901392720,
   "name": "Fusion Rifle Targeting",
   "type": "armorModGeneral",
-  "lastUpload": 1667742162270,
+  "lastUpload": 1667771709392,
   "editor": {
    "en": {
     "main": "import main from 3201675491",
@@ -35966,7 +35966,7 @@
   "hash": 3973928133,
   "name": "Trace Rifle Ammo Finder",
   "type": "armorModGeneral",
-  "lastUpload": 1667742162270,
+  "lastUpload": 1667771709392,
   "editor": {
    "en": {
     "main": "import main from 1624081088",
@@ -36301,7 +36301,7 @@
   "name": "Adept Stability",
   "type": "weaponMod",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1667742162270,
+  "lastUpload": 1667771709392,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": true,
@@ -37189,7 +37189,7 @@
   "name": "Minor Spec",
   "type": "weaponMod",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1667742162270,
+  "lastUpload": 1667771709392,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -37590,7 +37590,7 @@
   "hash": 4148827738,
   "name": "Shotgun Ammo Finder",
   "type": "armorModGeneral",
-  "lastUpload": 1667742162270,
+  "lastUpload": 1667771709392,
   "editor": {
    "en": {
     "main": "import main from 1624081088",
@@ -38838,7 +38838,7 @@
   "name": "Adept Handling",
   "type": "weaponMod",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1667742162270,
+  "lastUpload": 1667771709392,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": true,
