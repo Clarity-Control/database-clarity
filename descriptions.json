@@ -3,8 +3,8 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1667822114169,
-  "uploadedBy": "Icemourne",
+  "lastUpload": 0,
+  "uploadedBy": "",
   "editor": {
    "en": {
     "main": "Images you can use in descriptions\n<arc/> <void/> <solar/>\n<primary/> <special/> <heavy/>\n<warlock/> <hunter/> <titan/>\nText coloring\n<blue text /> <green text /> <purple text /> <yellow text />\n<pvp text /> <pve text />\n\nThe same can be done to lines of text <green/>\n\nYou probably noticed having multiple spaces in the editor\n              doesn't mean it will be the same in description\n              you can change that with <breakSpaces/>\n\n// This is comment content after // will not appear in the description\n\n// ----------------------------------------------------------\n// weapon type explanation\n// they work like if else in programming\n\n// if auto rifle\n< weapon type ( AR ) >\n    Apply this text\n// else if glaive\n< ( Glaive ) >\n    Apply this text\n// else\n< ( other ) >\n    Apply this text to all weapons not specified in this block\n<$$>\n// also, you can preview how it would look on x weapon by selecting the weapon in the weapon popup under the weapons name\n// ----------------------------------------------------------\nIf there is something you want just ask\nThis is not everything you can do btw\n\nTo see the full list press CTRL + SPACE\nAlso, CTRL + F is a thing and can be used to find and replace\nAlso also editor has other stuff to see them press F1",
@@ -35,7 +35,8 @@
   "lastUpload": 1667822114169,
   "editor": {
    "en": {
-    "main": "manual fix"
+    "main": "manual fix",
+    "secondary": ""
    }
   },
   "updateTracker": {
@@ -62,7 +63,8 @@
   "lastUpload": 1667822114169,
   "editor": {
    "en": {
-    "main": "// this variale only shows up on enhanced perks\nvar e = 🡅\n\nvar rof = <title Rate of fire [G_rof] />"
+    "main": "// this variale only shows up on enhanced perks\nvar e = 🡅\n\nvar rof = <title Rate of fire [G_rof] />",
+    "secondary": ""
    }
   },
   "updateTracker": {
@@ -89,7 +91,8 @@
   "lastUpload": 1667822114169,
   "editor": {
    "en": {
-    "main": "title G_refresh (\nReload, but does not need animation and doesn't proc on-reload perks.\n)\n\ntitle G_conegrowth (\nHow Fast Your Accuracy Cone Expands as you fire your weapon. The less the better.\n)\n\ntitle G_rof (\nRouds per minute\nCharge rate\nDraw time\n)"
+    "main": "title G_refresh (\nReload, but does not need animation and doesn't proc on-reload perks.\n)\n\ntitle G_conegrowth (\nHow Fast Your Accuracy Cone Expands as you fire your weapon. The less the better.\n)\n\ntitle G_rof (\nRouds per minute\nCharge rate\nDraw time\n)",
+    "secondary": ""
    }
   },
   "updateTracker": {
@@ -1600,7 +1603,8 @@
     "secondary": "Replaces Barricade with Glacial Guard. Overwrites Cooldown to Rally Barricade.\n\nOn Glacial Guard Cast:\nGrants Shielded buff and applies 40 Slow Stacks to Combatants within 7 metres.\n\nShielded:\n • Lasts 20 seconds and grants a 100HP Overshield with 62.5% Damage Resist in PVE.\n • Shielded prevents sprinting, double jumping, and sliding.\n • Taking damage refreshes the timer.\n • While active, you cannot regain Class Ability Energy.\n\nActivating your Class Ability while Glacial Guard is active will remove Shielded."
    },
    "ko": {
-    "main": "방벽을 빙하의 방비로 변환합니다.\n\n빙하의 방비 시전 시:\n7미터 이내에 있는 적들에게 감속 스택 40개를 부여합니다.\n\n보호막은 20초 동안 지속되며 100HP의 체력을 가지고 있습니다. <pve 62.5% 피해 감소를 부여합니다. /> \n보호막의 지속 시간은 피해를 입으면 초기화되며 질주, 직업 점프, 그리고 슬라이딩을 봉인합니다.\n\n보호막이 지속되는 동안 직업 능력 에너지는 재생되지 않습니다.\n빙하의 방비가 활성화 된 상태에서 방벽을 사용하면 효과가 해제됩니다."
+    "main": "방벽을 빙하의 방비로 변환합니다.\n\n빙하의 방비 시전 시:\n7미터 이내에 있는 적들에게 감속 스택 40개를 부여합니다.\n\n보호막은 20초 동안 지속되며 100HP의 체력을 가지고 있습니다. <pve 62.5% 피해 감소를 부여합니다. /> \n보호막의 지속 시간은 피해를 입으면 초기화되며 질주, 직업 점프, 그리고 슬라이딩을 봉인합니다.\n\n보호막이 지속되는 동안 직업 능력 에너지는 재생되지 않습니다.\n빙하의 방비가 활성화 된 상태에서 방벽을 사용하면 효과가 해제됩니다.",
+    "secondary": ""
    }
   }
  },
@@ -2081,7 +2085,8 @@
     "secondary": "import self"
    },
    "ko": {
-    "main": "적어도 1.5초 이상 질주한 뒤 슬라이드 할 시:\n투사체를 반사하고 피해를 무력화하는 180도의 정면 방어막을 생성합니다.\n\n슬라이드 거리를 33% 증가시킵니다."
+    "main": "적어도 1.5초 이상 질주한 뒤 슬라이드 할 시:\n투사체를 반사하고 피해를 무력화하는 180도의 정면 방어막을 생성합니다.\n\n슬라이드 거리를 33% 증가시킵니다.",
+    "secondary": ""
    }
   }
  },
@@ -3175,7 +3180,8 @@
     "secondary": "import self"
    },
    "ko": {
-    "main": "융합 수류탄에 장거리 투하를 기본으로 제공하며 융합 수류탄이 탄착하는 순간 폭발합니다.\n\n융합 수류탄 처치 시 수류탄 에너지를 반환합니다.\n부하급 (빨간 체력)은 25%를 반환합니다.\n리더급 (노란 체력)은 50%를 반환합니다.\n보스급과 수호자는 100%를 반환합니다."
+    "main": "융합 수류탄에 장거리 투하를 기본으로 제공하며 융합 수류탄이 탄착하는 순간 폭발합니다.\n\n융합 수류탄 처치 시 수류탄 에너지를 반환합니다.\n부하급 (빨간 체력)은 25%를 반환합니다.\n리더급 (노란 체력)은 50%를 반환합니다.\n보스급과 수호자는 100%를 반환합니다.",
+    "secondary": ""
    }
   }
  },
@@ -5214,7 +5220,8 @@
     "secondary": "import self"
    },
    "ko": {
-    "main": "전기화살 수류탄으로 적중한 적 당 25%의 수류탄 에너지가 반환됩니다.\n\n전기화살 수류탄이 4번 까지 이어집니다."
+    "main": "전기화살 수류탄으로 적중한 적 당 25%의 수류탄 에너지가 반환됩니다.\n\n전기화살 수류탄이 4번 까지 이어집니다.",
+    "secondary": ""
    }
   }
  },
@@ -5291,7 +5298,8 @@
     "secondary": "import self"
    },
    "ko": {
-    "main": "전기질주자 한정입니다.\n근접 피해를 입거나 입히면 3초간 크로스 카운터가 활성화되며 근접 피해를 입히면 해제됩니다.\n\n크로스 카운터는 근접 피해를 200% 증가시키며 근접 공격 적중 시 체력을 회복시킵니다.\n\n크로스 카운터가 활성화 된 동안 원투 펀치의 위력은 80%로 줄어듭니다."
+    "main": "전기질주자 한정입니다.\n근접 피해를 입거나 입히면 3초간 크로스 카운터가 활성화되며 근접 피해를 입히면 해제됩니다.\n\n크로스 카운터는 근접 피해를 200% 증가시키며 근접 공격 적중 시 체력을 회복시킵니다.\n\n크로스 카운터가 활성화 된 동안 원투 펀치의 위력은 80%로 줄어듭니다.",
+    "secondary": ""
    }
   }
  },
@@ -5486,7 +5494,8 @@
     "secondary": "Powered Melee Kills and Finishers apply weaken (increasing damage taken by 30%) and blind in a radius around the enemy.\nDuration and Range are dependent on Enemy Rank. \n\nBosses are not finishable. Guardians share the effects of Elites.\n\nEnemy Ranks are Minor/Elite/Miniboss/Boss.\nRange: 10/15/20/25 metres, centered on enemy.\nDuration: 5/10/15/20 seconds.\nFinisher Duration: 10/15/20/- seconds."
    },
    "ko": {
-    "main": "근접 공격 처치와 필살기 처치가 적을 실명시키고 30%의 추가 피해를 받게하는 폭발을 일으킵니다.\n지속 시간과 폭발 반경은 적의 등급에 따라 결정됩니다.\n\n적 등급은 부하/리더/미니보스/보스입니다.\n필살기를 사용하면 지속 시간이 5초 추가됩니다. 수호자는 리더 취급입니다.\n\n전쟁군주의 최후\n폭발 범위: 폭심지로 부터 10/15/20/25 미터\n지속 시간: 5/10/15/20 초\n필살기를 사용했을 떄의 지속 시간: 10/15/20 초"
+    "main": "근접 공격 처치와 필살기 처치가 적을 실명시키고 30%의 추가 피해를 받게하는 폭발을 일으킵니다.\n지속 시간과 폭발 반경은 적의 등급에 따라 결정됩니다.\n\n적 등급은 부하/리더/미니보스/보스입니다.\n필살기를 사용하면 지속 시간이 5초 추가됩니다. 수호자는 리더 취급입니다.\n\n전쟁군주의 최후\n폭발 범위: 폭심지로 부터 10/15/20/25 미터\n지속 시간: 5/10/15/20 초\n필살기를 사용했을 떄의 지속 시간: 10/15/20 초",
+    "secondary": ""
    }
   }
  },
@@ -7828,7 +7837,8 @@
     "secondary": "import self"
    },
    "ko": {
-    "main": "수류탄 에너지를 추가로 제공합니다.\n\n타이탄의 직업 트리와 같이 사용해 수류탄 3개를 소지하는 것은 불가능합니다."
+    "main": "수류탄 에너지를 추가로 제공합니다.\n\n타이탄의 직업 트리와 같이 사용해 수류탄 3개를 소지하는 것은 불가능합니다.",
+    "secondary": ""
    }
   }
  },
@@ -7982,7 +7992,8 @@
     "secondary": "While Sprinting: \n • [PVE] Grenade and Melee Ability Regeneration Rate is doubled.\n • [PVP] 100% Additional Base Grenade/Melee Regeneration Rate.\n • 100% [PVP: 200%] Additional Base Class Ability Regeneration Rate.\n\nOn Dodge:\n6.25% Faster Sprint Speed for 10 seconds. \nNot refreshable."
    },
    "ko": {
-    "main": "질주하는 동안:\n<pve 수류탄과 근접 능력 재생 속도 100% 증가 />\n<pvp 수류탄과 근접 능력의 기본 재생 속도 100% 증가 />\n추가로 직업 능력의 기본 재생 속도가 <pve 100% /><pvp [200%] /> 만큼 증가합니다.\n\n회피 직후:\n10초 동안 질주 속도가 6.25% 증가합니다.\n초기화 불가능합니다."
+    "main": "질주하는 동안:\n<pve 수류탄과 근접 능력 재생 속도 100% 증가 />\n<pvp 수류탄과 근접 능력의 기본 재생 속도 100% 증가 />\n추가로 직업 능력의 기본 재생 속도가 <pve 100% /><pvp [200%] /> 만큼 증가합니다.\n\n회피 직후:\n10초 동안 질주 속도가 6.25% 증가합니다.\n초기화 불가능합니다.",
+    "secondary": ""
    }
   }
  },
@@ -8049,7 +8060,8 @@
     "secondary": "Passively grants +30 Airborne Effectiveness to Lumina.\n\nStanding in a Rift creates Matching Noble Seekers every 5 seconds that seek out allies within 35 metres and apply a buff depending on the type of Rift you stand on. \nAmount of Noble Seekers spawned is equal to Fireteam Size-1, with a minimum of 1 Seeker.\n\nEach time a Noble Seeker applies a buff, the Rift Duration gets extended by 5 seconds.\n\nHealing Rift Seekers heal allies for 75HP and begin Health Regeneration.\nEmpowering Rift Seekers grant a 35% [15%] Damage Increase for 5 seconds."
    },
    "ko": {
-    "main": "균열에 서있으면 5초 마다 고귀한 추적기를 생성합니다. 추적기는 35미터 이내에 있는 아군을 찾아가며 균열의 종류에 따라 버프를 부여합니다.\n\n고귀한 추적기가 버프를 부여 할 때 마다 균열의 지속시간이 5초 증가합니다.\n\n치유 균열 추적기는 아군의 체력을 75HP 만큼 회복하고 즉시 체력 재생을 발동합니다.\n강화 균열 추적기는 5초간 <pve 35% /> <pvp [20%]> 만큼의 피해 증가를 부여합니다."
+    "main": "균열에 서있으면 5초 마다 고귀한 추적기를 생성합니다. 추적기는 35미터 이내에 있는 아군을 찾아가며 균열의 종류에 따라 버프를 부여합니다.\n\n고귀한 추적기가 버프를 부여 할 때 마다 균열의 지속시간이 5초 증가합니다.\n\n치유 균열 추적기는 아군의 체력을 75HP 만큼 회복하고 즉시 체력 재생을 발동합니다.\n강화 균열 추적기는 5초간 <pve 35% /> <pvp [20%]> 만큼의 피해 증가를 부여합니다.",
+    "secondary": ""
    }
   }
  },
@@ -8363,7 +8375,8 @@
     "secondary": "import self"
    },
    "ko": {
-    "main": "대혼란의 주먹을 시전하면 단호함이 활성화됩니다.\n\n단호함은 75HP 짜리 보호막괴 정밀 피해 저항을 제공합니다.\n\n보호막은 대혼란의 주먹 시전 중 영겁의 전사를 뺐다가 다시 장착하면 다시 부여됩니다만 그런 뻘짓하는 사람이 있을까요."
+    "main": "대혼란의 주먹을 시전하면 단호함이 활성화됩니다.\n\n단호함은 75HP 짜리 보호막괴 정밀 피해 저항을 제공합니다.\n\n보호막은 대혼란의 주먹 시전 중 영겁의 전사를 뺐다가 다시 장착하면 다시 부여됩니다만 그런 뻘짓하는 사람이 있을까요.",
+    "secondary": ""
    }
   }
  },
@@ -10153,7 +10166,8 @@
     "secondary": "近战命中产生可叠加的狂怒导体能量。\n被近战命中会释放一个 5 米范围的电弧爆炸。\n电弧爆炸伤害量与狂怒导体能量层数相关，每层为 22% 你的近战伤害。\n\n根据叠加层数，狂怒导体能量会提供 33-55-70% 的近战伤害抗性。\n\n10 秒内未造成近战攻击伤害，或在收到近战伤害后，狂怒导体能量所有层数将消失。"
    },
    "ko": {
-    "main": "근접 공격을 적중 시 분노 도체 스택을 쌓게 됩니다.\n근접 공격을 받으면 5미터 주위에 <arc/>전기 폭발을 일으킵니다.  \n<arc/>전기 폭발은 분노 도체 스택 하나 마다 근접 공격 위력의 22% 식 오릅니다.\n\n분노 도체는 스택에 따라 33-50-70%의 근접 피해 감소를 제공합니다.\n\n근접 공격 피해를 입거나 10초 이상 근접 공격을 적중하지 못하면 모든 스택이 사라집니다."
+    "main": "근접 공격을 적중 시 분노 도체 스택을 쌓게 됩니다.\n근접 공격을 받으면 5미터 주위에 <arc/>전기 폭발을 일으킵니다.  \n<arc/>전기 폭발은 분노 도체 스택 하나 마다 근접 공격 위력의 22% 식 오릅니다.\n\n분노 도체는 스택에 따라 33-50-70%의 근접 피해 감소를 제공합니다.\n\n근접 공격 피해를 입거나 10초 이상 근접 공격을 적중하지 못하면 모든 스택이 사라집니다.",
+    "secondary": ""
    }
   }
  },
@@ -10191,7 +10205,8 @@
     "secondary": "Powered Void Melee Kills grant 20% [PVP: 10%] Super Energy once per usage.\n\nSentinel Shield's Shield Throw Hits regenerate 10% Super Energy."
    },
    "ko": {
-    "main": "공허 근접 능력으로 처치 시 <pve 20% /> <pvp [10%] />의 궁극기 에너지를 얻습니다.\n\n파수병의 방패를 사용하는 동안 방패 투척을 적중하면 10%의 궁극기 에너지를 반환 받습니다."
+    "main": "공허 근접 능력으로 처치 시 <pve 20% /> <pvp [10%] />의 궁극기 에너지를 얻습니다.\n\n파수병의 방패를 사용하는 동안 방패 투척을 적중하면 10%의 궁극기 에너지를 반환 받습니다.",
+    "secondary": ""
    }
   }
  },
@@ -10267,7 +10282,8 @@
     "secondary": "太阳黑子提供“恢复 x1”效果。"
    },
    "ko": {
-    "main": "방벽을 시전하거나 방벽이 충전된 상태에서 치명상을 입으면 방벽 소모와 함께 흑점이 생성됩니다.\n\n생성된 흑점은 회복 x1을 부여합니다."
+    "main": "방벽을 시전하거나 방벽이 충전된 상태에서 치명상을 입으면 방벽 소모와 함께 흑점이 생성됩니다.\n\n생성된 흑점은 회복 x1을 부여합니다.",
+    "secondary": ""
    }
   }
  },
@@ -12199,7 +12215,8 @@
     "secondary": "Guarding with Sentinel Shield blinds enemies within 7 [PVP: 3.5] metres for 5 seconds.\n\nYour Ward of Dawn grants Starless Night, granting all allies that enter a 65 HP Void Overshield for [?] seconds.\n\nEnemies that enter your Ward of Dawn are also blinded for 5 seconds."
    },
    "ko": {
-    "main": "깃발 방패로 막으면 7미터 이내에 있는 적들을 5초간 실명시킵니다.\n\n새벽의 수호물을 시전하면 별 없는 밤이 활성화되며 수호물에 들어온 아군에게 65HP 짜리 보호막을 부여합니다.\n\n수호물에 들어온 적들을 5초간 실명시킵니다."
+    "main": "깃발 방패로 막으면 7미터 이내에 있는 적들을 5초간 실명시킵니다.\n\n새벽의 수호물을 시전하면 별 없는 밤이 활성화되며 수호물에 들어온 아군에게 65HP 짜리 보호막을 부여합니다.\n\n수호물에 들어온 적들을 5초간 실명시킵니다.",
+    "secondary": ""
    }
   }
  },
@@ -15878,7 +15895,8 @@
     "secondary": "Passively grants +20 Airborne Effectiveness\n\nIf on Solar Subclass\n75% Additional Base Grenade and Melee Regeneration Rate\n\nIf Solar Super is Charged.\n350% Additional Base Grenade and Melee Regeneration Rate"
    },
    "ko": {
-    "main": "<solar/>태양 하위직업 장착 시:\n수류탄과 근접 공격의 기본 재생 속도가 75% 증가합니다.\n\n<solar/>태양 궁극기 충전 시:\n수류탄과 근접 공격의 기본 재생 속도가 350% 증가합니다."
+    "main": "<solar/>태양 하위직업 장착 시:\n수류탄과 근접 공격의 기본 재생 속도가 75% 증가합니다.\n\n<solar/>태양 궁극기 충전 시:\n수류탄과 근접 공격의 기본 재생 속도가 350% 증가합니다.",
+    "secondary": ""
    }
   },
   "stats": {
@@ -15925,7 +15943,8 @@
     "secondary": "import self"
    },
    "ko": {
-    "main": "방벽 시전 시:\n플레이어와 12미터 이내의 아군을 치유하는 치유의 파동을 일으킵니다.\n치유의 파동은 58 - 130HP를 회복시킵니다.\n아군이 효과를 받기 위해선 시전자의 시선 안에 있어야 합니다.\n\n궁극기가 힘의 보주 하나를 추가로 생성합니다."
+    "main": "방벽 시전 시:\n플레이어와 12미터 이내의 아군을 치유하는 치유의 파동을 일으킵니다.\n치유의 파동은 58 - 130HP를 회복시킵니다.\n아군이 효과를 받기 위해선 시전자의 시선 안에 있어야 합니다.\n\n궁극기가 힘의 보주 하나를 추가로 생성합니다.",
+    "secondary": ""
    }
   }
  },
@@ -15963,7 +15982,8 @@
     "secondary": "import self"
    },
    "ko": {
-    "main": "자동 소총군과 기관총군에 상시로 공중 효율을 30 만큼 올려줍니다.\n\n발사하는 동안 1.5초마다 자동 소총/기관총의 탄창의 10%를 재장전합니다. "
+    "main": "자동 소총군과 기관총군에 상시로 공중 효율을 30 만큼 올려줍니다.\n\n발사하는 동안 1.5초마다 자동 소총/기관총의 탄창의 10%를 재장전합니다. ",
+    "secondary": ""
    }
   },
   "stats": {
@@ -16326,7 +16346,8 @@
     "secondary": "Passively grants +20 Airborne Effectiveness to Hand Cannons and has an intrinsic Hand Cannon Holster.\n\nGrants +100 Handling to Ready Speed, 0.6x Ready Animation Duration Multiplier and -40% Accuracy Cone Size for 4 seconds upon Readying your Hand Cannon.\n\nUpon readying a Kinetic or Matching Hand Cannon with a Full Magazine:\n60% increased damage per hit for 5.5 seconds. Maxes out at 600% after 10 Hits.\nOnly works against PVE Combatants.\n\nFor Exotic Hand Cannon interactions, go to Court's Spreadsheet.\n\nAfter the Buff runs out or you swap weapons:\nYou cannot gain stacks or reacquire the damage buff for 10 seconds."
    },
    "ko": {
-    "main": "핸드 캐논 총집이 기본으로 내장되어 있습니다.\n핸드 캐논을 꺼내는 순간 4초 동안 준비 속도가 100 증가하며 지속 시간 배율이 0.6으로 증가, 공중 효율 20 증가, 그리고 착탄 범위가 40% 좁아집니다.\n\n물리 속성이나 장착한 하위 속성과 일치하는 속성의 핸드 캐논을 준비할 시:\n<pve 5초 동안 한발 마다 피해가 60% 식 증가하며 10발에서 최대 600% 피해 증가가 부여됩니다./>\n수호자에겐 적용되지 않습니다.\n\n경이 핸드 캐논의 피해 배율을 보고 싶으시면 <link 이 차트를 확인하세요 [https://docs.google.com/spreadsheets/d/1i1KUwgVkd8qhwYj481gkV9sZNJQCE-C3Q-dpQutPCi4/edit#rangeid=1312688627] />\n\n버프의 지속 시간이 끝나거나, 무기를 바꾸거나, 5초 동안 사격했을 시:\n버프를 10초 동안 얻을 수 없습니다."
+    "main": "핸드 캐논 총집이 기본으로 내장되어 있습니다.\n핸드 캐논을 꺼내는 순간 4초 동안 준비 속도가 100 증가하며 지속 시간 배율이 0.6으로 증가, 공중 효율 20 증가, 그리고 착탄 범위가 40% 좁아집니다.\n\n물리 속성이나 장착한 하위 속성과 일치하는 속성의 핸드 캐논을 준비할 시:\n<pve 5초 동안 한발 마다 피해가 60% 식 증가하며 10발에서 최대 600% 피해 증가가 부여됩니다./>\n수호자에겐 적용되지 않습니다.\n\n경이 핸드 캐논의 피해 배율을 보고 싶으시면 <link 이 차트를 확인하세요 [https://docs.google.com/spreadsheets/d/1i1KUwgVkd8qhwYj481gkV9sZNJQCE-C3Q-dpQutPCi4/edit#rangeid=1312688627] />\n\n버프의 지속 시간이 끝나거나, 무기를 바꾸거나, 5초 동안 사격했을 시:\n버프를 10초 동안 얻을 수 없습니다.",
+    "secondary": ""
    }
   }
  },
@@ -17936,7 +17957,8 @@
     "secondary": "import self"
    },
    "ko": {
-    "main": "치솟은 방벽을 변형시킵니다.\n\n공격 방벽은 체력과 지속 시간이 줄어들지만 아군들이 방벽을 뚫고 사격 할 수 있게 해줍니다.\n\n방벽 수치\n<pvp 600HP -> 350HP />\n20초 -> 10초"
+    "main": "치솟은 방벽을 변형시킵니다.\n\n공격 방벽은 체력과 지속 시간이 줄어들지만 아군들이 방벽을 뚫고 사격 할 수 있게 해줍니다.\n\n방벽 수치\n<pvp 600HP -> 350HP />\n20초 -> 10초",
+    "secondary": ""
    }
   }
  },
@@ -18576,7 +18598,8 @@
     "secondary": "[括号] 内为 PVP 时的数值。\n\n使用一个技能（手雷、近战或屏障）可为另外两个技能赋能 10 [5] 秒。\n例如：使用屏障，可赋能近战和受累。\n\n当赋能时：\n\n强化近战： 10% | 20% 额外伤害。\n400%[100%] || 800% [200%] 额外近战回复效率。\n\n强化手雷： 20% [10%] | 35% [20%] 额外伤害。\n400% [100%] 800% [200%] 额外手雷回复效率。\n\n强化屏障： X% | Y% 额外生命值。\n150% [37.5%] 300% [75%] 额外屏障回复效率。"
    },
    "ko": {
-    "main": "능력을 사용하면 다른 능력들이 <pve 10 /><pvp [5] />초 동안 강화됩니다. \n(예: 방벽 사용 -> 수류탄과 근접 능력 강화)\n\n강화 되었을 때:\n강화된 근접 능력: 10% | 20% 피해 증가.\n근접 능력 기본 재생 속도 <pve 400% /> <pvp [100%] /> || <pve 800% /> <pvp [200%] /> 증가.\n\n강화된 수류탄: <pve 20% /> <pvp [10%] /> | <pve 35% /> <pvp [20%] /> 피해 증가.\n수류탄 기본 재생 속도<pve 400% /> <pvp [100%] /> || <pve 800% /> <pvp [200%] /> 증가.\n\n강화된 방벽: 방벽 체력 증가.\n직업 능력 기본 재생 속도 <pve 150% /><pvp [37.5%] /> || <pve 300% /><pvp [75%] /> 증가."
+    "main": "능력을 사용하면 다른 능력들이 <pve 10 /><pvp [5] />초 동안 강화됩니다. \n(예: 방벽 사용 -> 수류탄과 근접 능력 강화)\n\n강화 되었을 때:\n강화된 근접 능력: 10% | 20% 피해 증가.\n근접 능력 기본 재생 속도 <pve 400% /> <pvp [100%] /> || <pve 800% /> <pvp [200%] /> 증가.\n\n강화된 수류탄: <pve 20% /> <pvp [10%] /> | <pve 35% /> <pvp [20%] /> 피해 증가.\n수류탄 기본 재생 속도<pve 400% /> <pvp [100%] /> || <pve 800% /> <pvp [200%] /> 증가.\n\n강화된 방벽: 방벽 체력 증가.\n직업 능력 기본 재생 속도 <pve 150% /><pvp [37.5%] /> || <pve 300% /><pvp [75%] /> 증가.",
+    "secondary": ""
    }
   }
  },
@@ -18672,7 +18695,8 @@
     "secondary": "import self"
    },
    "ko": {
-    "main": "혼돈 범위를 적중시키면 궁극기 에너지의 10%를 반환받습니다. 0.75초의 쿨다운이 있습니다.\n궁극기의 지속 시간을 100% 까지 증가시킬 수 있습니다."
+    "main": "혼돈 범위를 적중시키면 궁극기 에너지의 10%를 반환받습니다. 0.75초의 쿨다운이 있습니다.\n궁극기의 지속 시간을 100% 까지 증가시킬 수 있습니다.",
+    "secondary": ""
    }
   }
  },
@@ -19961,7 +19985,8 @@
     "secondary": "Void Invisibility effects last 2 seconds longer.\n\nWhile Invisible:\n400% [PVP: 100%] Additional Base Melee Regeneration Rate.\nEnemies within 15 metres will increase the bonus to a total of 600% [PVP: 200%] and 800% [PVP: 300%].\n\n+100 Recovery and +100 Reload Speed."
    },
    "ko": {
-    "main": "공허 은신의 지속 시간이 2초 증가합니다.\n\n은신한 상태에서:\n기본 근접 능력 재생 속도가 <pve 400% /> <pvp [100%] /> 증가합니다.\n15미터 이내에 있는 적의 수 만큼 <pve 600% /> <pvp [200%] /> and <pve 800% /> <pvp [300%] />까지 증가합니다.\n\n회복력과 재장전 속도로 100으로 증가시킵니다."
+    "main": "공허 은신의 지속 시간이 2초 증가합니다.\n\n은신한 상태에서:\n기본 근접 능력 재생 속도가 <pve 400% /> <pvp [100%] /> 증가합니다.\n15미터 이내에 있는 적의 수 만큼 <pve 600% /> <pvp [200%] /> and <pve 800% /> <pvp [300%] />까지 증가합니다.\n\n회복력과 재장전 속도로 100으로 증가시킵니다.",
+    "secondary": ""
    }
   }
  },
@@ -20406,7 +20431,8 @@
     "secondary": "import self"
    },
    "ko": {
-    "main": "근접 칼이 폭발할 시 알 수 없는 양의 소각 스택을 입힙니다. 적중시켜 처치하면 해당 타겟을 점화시킵니다.\n\n근접 칼이 폭발하지 않고 있는 동안 알 수 없는 만큼의 근접 공격 재생 속도를 증가시킵니다."
+    "main": "근접 칼이 폭발할 시 알 수 없는 양의 소각 스택을 입힙니다. 적중시켜 처치하면 해당 타겟을 점화시킵니다.\n\n근접 칼이 폭발하지 않고 있는 동안 알 수 없는 만큼의 근접 공격 재생 속도를 증가시킵니다.",
+    "secondary": ""
    }
   }
  },
@@ -20560,7 +20586,8 @@
     "secondary": "While in Spectral Blade:\nRestores Super Energy on Heavy Attack based on the amount of Spectral Blade Kills.\n\nSuper Energy % gains based on kills\nPVE: 11.1 🠚 14.3 🠚 16.5 🠚 16.9 🠚 17.1\nPVP: 8.3 🠚 12.5 🠚 14.2 🠚 15.8 🠚 16.7"
    },
    "ko": {
-    "main": "스팩트럼 칼날 시전 중:\n강공격을 하면 스팩트럼 칼날로 처치한 적의 수에 비례해 궁극기 에너지를 반환합니다.\n\n궁극기 반환률:\n< table >\n| <pve 11.1% /> | 🠚 | <pve 14.3% /> | 🠚 | <pve 16.5% /> | 🠚 | <pve 16.9% /> | 🠚 | <pve 17.1% />\n| <pvp 8.3% />  | 🠚 | <pvp 12.5% /> | 🠚 | <pvp 14.2% /> | 🠚 | <pvp 15.8% /> | 🠚 | <pvp 16.7% />\n<$>"
+    "main": "스팩트럼 칼날 시전 중:\n강공격을 하면 스팩트럼 칼날로 처치한 적의 수에 비례해 궁극기 에너지를 반환합니다.\n\n궁극기 반환률:\n< table >\n| <pve 11.1% /> | 🠚 | <pve 14.3% /> | 🠚 | <pve 16.5% /> | 🠚 | <pve 16.9% /> | 🠚 | <pve 17.1% />\n| <pvp 8.3% />  | 🠚 | <pvp 12.5% /> | 🠚 | <pvp 14.2% /> | 🠚 | <pvp 15.8% /> | 🠚 | <pvp 16.7% />\n<$>",
+    "secondary": ""
    }
   }
  },
@@ -20687,7 +20714,8 @@
     "secondary": "On Kinetic Damage Precision Kill: \nEnemy explodes in an elemental explosion that matches your currently selected Subclass, dealing up to 210 [PVP: 200] damage.\n\nExplosion Radius and Falloff Distance slightly scale with your Weapon's Range Stat."
    },
    "ko": {
-    "main": "물리 피해 정밀타 처치 시:\n적이 현재 장착한 하위직업의 속성 폭발을 일으킵니다.\n폭발 반경과 피해 사거리는 무기의 사거리 수치에 기반합니다.\n\n<pvp 중심부에서 약 200의 피해를 일으킵니다. />"
+    "main": "물리 피해 정밀타 처치 시:\n적이 현재 장착한 하위직업의 속성 폭발을 일으킵니다.\n폭발 반경과 피해 사거리는 무기의 사거리 수치에 기반합니다.\n\n<pvp 중심부에서 약 200의 피해를 일으킵니다. />",
+    "secondary": ""
    }
   }
  },
@@ -22387,7 +22415,8 @@
     "secondary": "On Barricade Placement:\nUnleashes a Solar Wave that returns back to the Barricade after 18.5 metres.\nSolar Wave deals 240 [PVP: 100] damage.\n\nSolar Kills grant 25% Class Ability Energy."
    },
    "ko": {
-    "main": "방벽 시전 시:\n18.5미터를 나아간 뒤 다시 방벽으로 돌아오는 태양 파동을 내보냅니다.\n<pvp 100 피해를 줍니다. />\n\n태양 처치 시 직업 능력 에너지 25%를 반환합니다."
+    "main": "방벽 시전 시:\n18.5미터를 나아간 뒤 다시 방벽으로 돌아오는 태양 파동을 내보냅니다.\n<pvp 100 피해를 줍니다. />\n\n태양 처치 시 직업 능력 에너지 25%를 반환합니다.",
+    "secondary": ""
    }
   }
  },
@@ -23063,7 +23092,8 @@
     "secondary": "import self"
    },
    "ko": {
-    "main": "시공 하위직업을 장착했을 때:\n방벽이 시공 수정으로 변환됩니다.\n\n시공 수정 방벽은 7개 중간 크기 수정으로 이루어져 있으며 중앙은 작은 수정입니다.\n\n시공 수정 방벽은 집결 방벽의 효과를 부여하지만 수정이 3개 이상 파괴되면 기능을 잃게 됩니다."
+    "main": "시공 하위직업을 장착했을 때:\n방벽이 시공 수정으로 변환됩니다.\n\n시공 수정 방벽은 7개 중간 크기 수정으로 이루어져 있으며 중앙은 작은 수정입니다.\n\n시공 수정 방벽은 집결 방벽의 효과를 부여하지만 수정이 3개 이상 파괴되면 기능을 잃게 됩니다.",
+    "secondary": ""
    }
   }
  },
@@ -24286,7 +24316,8 @@
     "secondary": "import self"
    },
    "ko": {
-    "main": "추가 근접 공격 횟수를 제공합니다."
+    "main": "추가 근접 공격 횟수를 제공합니다.",
+    "secondary": ""
    }
   }
  },
@@ -24595,7 +24626,8 @@
     "secondary": "import self"
    },
    "ko": {
-    "main": "상시 공중 효율을 20만큼 증가시킵니다.\n\n1초 동안 적 근처에 조준을 하면 5초간 표식을 남깁니다.\n표식은 벽을 통해서 볼 수 있습니다.\n\n적의 체력이 30% 이하 일 때:\n30%로 부터 남은 체력의 %당 1%의 추가 피해를 받습니다.\n(예: 체력 10% -> 20% 피해 증가)\n\n피해 증가는 능력과 무기에 모두 적용됩니다."
+    "main": "상시 공중 효율을 20만큼 증가시킵니다.\n\n1초 동안 적 근처에 조준을 하면 5초간 표식을 남깁니다.\n표식은 벽을 통해서 볼 수 있습니다.\n\n적의 체력이 30% 이하 일 때:\n30%로 부터 남은 체력의 %당 1%의 추가 피해를 받습니다.\n(예: 체력 10% -> 20% 피해 증가)\n\n피해 증가는 능력과 무기에 모두 적용됩니다.",
+    "secondary": ""
    }
   },
   "stats": {
@@ -24642,7 +24674,8 @@
     "secondary": "import self"
    },
    "ko": {
-    "main": "황금 총의 탄환을 1발로 강제합니다.\n\n황금 총의 피해를 500% 증가시키며 황금 총의 공중 효율을 100 만큼 증가시킵니다.\n(줄 세우기 x3 보다 37% 더 높습니다)\n\n궁극기 처치 시 33%의 궁극기 에너지를 반환합니다."
+    "main": "황금 총의 탄환을 1발로 강제합니다.\n\n황금 총의 피해를 500% 증가시키며 황금 총의 공중 효율을 100 만큼 증가시킵니다.\n(줄 세우기 x3 보다 37% 더 높습니다)\n\n궁극기 처치 시 33%의 궁극기 에너지를 반환합니다.",
+    "secondary": ""
    }
   }
  },
@@ -24680,7 +24713,8 @@
     "secondary": "Radar remains active while Aiming Down Sights.\n\nIf crouched:\nGrants Enhanced Radar.\n(Has 12 sectors instead of 6)"
    },
    "ko": {
-    "main": "무기를 조준하는 동안에도 레이더가 활성화됩니다.\n\n웅크릴 때:\n레이더가 향상됩니다.\n(섹터가 6개에서 12개로 증가합니다.)"
+    "main": "무기를 조준하는 동안에도 레이더가 활성화됩니다.\n\n웅크릴 때:\n레이더가 향상됩니다.\n(섹터가 6개에서 12개로 증가합니다.)",
+    "secondary": ""
    }
   }
  },
@@ -25345,7 +25379,8 @@
     "secondary": "import self"
    },
    "ko": {
-    "main": "근접 공격 처치 시:\n50HP의 체력을 회복하고 초당 30HP를 재생합니다.\n\n8초 동안 지속됩니다.\n연장이 가능합니다."
+    "main": "근접 공격 처치 시:\n50HP의 체력을 회복하고 초당 30HP를 재생합니다.\n\n8초 동안 지속됩니다.\n연장이 가능합니다.",
+    "secondary": ""
    }
   }
  },
@@ -25914,7 +25949,8 @@
     "secondary": "Daybreak Projectiles apply 60 Scorch on hit.\nThis is increased to 90 Scorch with Ember of Ashes Equipped.\n\nScorch deals 200% [PVP: 50%] increased damage.\n\nGrants [?] Melee Ability Energy every time Scorch deals damage."
    },
    "ko": {
-    "main": "여명 투사체 적중 시 적에게 소각 스택 60개를 부여합니다. 재의 불씨를 장착하면 스택이 90개로 증가합니다.\n\n소각 피해는 <pve 200%  /><pvp [50%] /> 만큼 증가합니다."
+    "main": "여명 투사체 적중 시 적에게 소각 스택 60개를 부여합니다. 재의 불씨를 장착하면 스택이 90개로 증가합니다.\n\n소각 피해는 <pve 200%  /><pvp [50%] /> 만큼 증가합니다.",
+    "secondary": ""
    }
   }
  },
@@ -26137,7 +26173,8 @@
     "secondary": "import self"
    },
    "ko": {
-    "main": "전기 수류탄을 충전하고 먹으면 20초 동안 강력한 전기 영혼을 소환합니다.\n\n강력한 전기 영혼은 29미터 이내의 적을 자동으로 공격하며 <pvp 11 피해 />를 주는 볼트를 6연발로 발사합니다.\n\n전기 영혼이 적중하면 4.5%의 수류탄 에너지를 반환받습니다.\n\n전기 영혼 균열에 들어가면 지속 시간이 초기화되며 모든 전기 영혼이 강력한 버전으로 바뀝니다."
+    "main": "전기 수류탄을 충전하고 먹으면 20초 동안 강력한 전기 영혼을 소환합니다.\n\n강력한 전기 영혼은 29미터 이내의 적을 자동으로 공격하며 <pvp 11 피해 />를 주는 볼트를 6연발로 발사합니다.\n\n전기 영혼이 적중하면 4.5%의 수류탄 에너지를 반환받습니다.\n\n전기 영혼 균열에 들어가면 지속 시간이 초기화되며 모든 전기 영혼이 강력한 버전으로 바뀝니다.",
+    "secondary": ""
    }
   }
  },
@@ -29569,7 +29606,8 @@
     "secondary": "import self"
    },
    "ko": {
-    "main": "부양 도중 비조준 사격을 할 수 있게 되며 비조준 사격 한정으로 상시 공중 효율을 50 만큼 증가시킵니다.\n\n부양의 지속 시간을 4초로 증가시킵니다.\n\n부양 지속 시간 증가:\n높은 부양: 2.6초 -> 4초 (54% 증가)\n제어 부양: 2.2초 -> 4초 (82% 증가)\n사출 부양: 1초 -> 4초 (300% 증가)"
+    "main": "부양 도중 비조준 사격을 할 수 있게 되며 비조준 사격 한정으로 상시 공중 효율을 50 만큼 증가시킵니다.\n\n부양의 지속 시간을 4초로 증가시킵니다.\n\n부양 지속 시간 증가:\n높은 부양: 2.6초 -> 4초 (54% 증가)\n제어 부양: 2.2초 -> 4초 (82% 증가)\n사출 부양: 1초 -> 4초 (300% 증가)",
+    "secondary": ""
    }
   },
   "stats": {
@@ -29673,7 +29711,8 @@
     "secondary": "After sprinting for 1.5 seconds, gain Linear Actuators for 7 seconds.\n\nOn Melee Hit:\nLinear Actuators applies Shocked for 2 seconds on enemy, which releases an Arc Static Charge that chains when another enemy is within 20 metres. Shocked is refreshed on chain.\n\n[PVE] [?] Damage\n[PVP] 85 Damage. Immune to additional chain damage for 2 seconds while Shocked.\n\nIncreases Sprint Speed by 6.25%\nIncreases Slide Distance by 33%"
    },
    "ko": {
-    "main": "1.5초 간 질주 한 이루 7초 동안 선형 구동기가 활성화됩니다.\n\n근접 공격 적중 시:\n선형 구동기가 맞은 적에게 2초 동안 충격을 남깁니다. 만약에 다른 적이 20미터 이내에 있을 경우 연쇄 번개가 일어납니다. 충격은 연쇄 번개 발동 이후 초기화됩니다.\n\n<pve 약 300% 근접 공격 피해 />\n<pvp 85 피해. 맞은 이후 2초간 사막행군병의 효과에 면역. />\n\n질주 속도 6.25% 증가\n슬라이드 거리 33% 증가"
+    "main": "1.5초 간 질주 한 이루 7초 동안 선형 구동기가 활성화됩니다.\n\n근접 공격 적중 시:\n선형 구동기가 맞은 적에게 2초 동안 충격을 남깁니다. 만약에 다른 적이 20미터 이내에 있을 경우 연쇄 번개가 일어납니다. 충격은 연쇄 번개 발동 이후 초기화됩니다.\n\n<pve 약 300% 근접 공격 피해 />\n<pvp 85 피해. 맞은 이후 2초간 사막행군병의 효과에 면역. />\n\n질주 속도 6.25% 증가\n슬라이드 거리 33% 증가",
+    "secondary": ""
    }
   }
  },
@@ -29856,7 +29895,8 @@
     "secondary": "import self"
    },
    "ko": {
-    "main": "각 정밀타를 2.5초 이내에 4번 적중하면 6초 동안 영겁의 분노 효과를 얻게 됩니다.\n\n영겁의 분노는 재장전 수치를 10 올려주며 조작성 수치 또한 10을 올려줍니다.\n\n용사 기절, 미니보스 및 보스 처치 시:\n30미터 이내에 있는 아군들은 수류탄과 근접 능력 에너지 50%를 받습니다.\n\n 추가로 영겁 시리즈를 장착한 아군들은 궁극기 에너지 10%를 받습니다.\n\n 효과 발동 사이에 4초의 쿨다운이 있습니다."
+    "main": "각 정밀타를 2.5초 이내에 4번 적중하면 6초 동안 영겁의 분노 효과를 얻게 됩니다.\n\n영겁의 분노는 재장전 수치를 10 올려주며 조작성 수치 또한 10을 올려줍니다.\n\n용사 기절, 미니보스 및 보스 처치 시:\n30미터 이내에 있는 아군들은 수류탄과 근접 능력 에너지 50%를 받습니다.\n\n 추가로 영겁 시리즈를 장착한 아군들은 궁극기 에너지 10%를 받습니다.\n\n 효과 발동 사이에 4초의 쿨다운이 있습니다.",
+    "secondary": ""
    }
   },
   "stats": {
@@ -30123,7 +30163,8 @@
     "secondary": "import self"
    },
    "ko": {
-    "main": "상시 공중 효율을 30만큼 증가시켜줍니다.\n\n점멸 거리를 25% 증가시킵니다.\n점멸 쿨다운을 약 16% 정도 증가시킵니다.\n\n점멸 시:\n무기 준비 속도 100 증가와 점멸 이후 레이더가 사라지지 않습니다.\n\n점멸 쿨다운:\n2.5초 (기본 3초)\n쿨다운 = 4.5초 (기본 5초)"
+    "main": "상시 공중 효율을 30만큼 증가시켜줍니다.\n\n점멸 거리를 25% 증가시킵니다.\n점멸 쿨다운을 약 16% 정도 증가시킵니다.\n\n점멸 시:\n무기 준비 속도 100 증가와 점멸 이후 레이더가 사라지지 않습니다.\n\n점멸 쿨다운:\n2.5초 (기본 3초)\n쿨다운 = 4.5초 (기본 5초)",
+    "secondary": ""
    }
   },
   "stats": {
@@ -30606,7 +30647,8 @@
     "secondary": "While inside a Rift or Well of Radiance.\n+100 Reload with 0.9x Duration Multiplier to all Guardians inside.\n\nWhile inside an Empowering Rift or Well of Radiance.\n100% Increased Damage Falloff Distance."
    },
    "ko": {
-    "main": "빛의 샘이나 균열안에 있을 떄:\n안에 있는 수호자의 재장전 속도를 100 만큼 증가시킵니다.\n\n빛의 샘이나 강화의 균열안에 있을 때:\n무기의 사거리가 2배로 증가합니다.\n"
+    "main": "빛의 샘이나 균열안에 있을 떄:\n안에 있는 수호자의 재장전 속도를 100 만큼 증가시킵니다.\n\n빛의 샘이나 강화의 균열안에 있을 때:\n무기의 사거리가 2배로 증가합니다.\n",
+    "secondary": ""
    }
   }
  },
@@ -32525,7 +32567,8 @@
     "secondary": "import self"
    },
    "ko": {
-    "main": "전기 지팡이 궁극기 사용 중:\n반사시킨 투사체는 650%의 피해 증가를 받습니다.\n\n투사체를 반사시키면 아군을 위한 힘의 보주가 생성됩니다."
+    "main": "전기 지팡이 궁극기 사용 중:\n반사시킨 투사체는 650%의 피해 증가를 받습니다.\n\n투사체를 반사시키면 아군을 위한 힘의 보주가 생성됩니다.",
+    "secondary": ""
    }
   }
  },
@@ -33280,7 +33323,8 @@
     "secondary": "2 Precision Multikills drop an Orb of Power for allies.\r\n\r\nFinishing an Elite spawns a Special Ammo Brick for Allies\r\nFinishing a Mini-boss spawns a Power Ammo Brick for Allies.\r\n\r\nAeon Allies additionally receive a 35% Damage Increase for 20 seconds."
    },
    "ko": {
-    "main": "빠르게 정밀 처치 2회를 하면 아군을 위한 힘의 보주가 생성됩니다.\n\n엘리트 적을 필살기로 처치하면 아군을 위한 특수 탄약이 생성됩니다.\n미니보스를 필살기로 처치하면 아군을 위한 중화기 탄약이 생성됩니다.\n\n 추가로 영겁 시리즈를 장착한 아군은 20초 동안 35%의 피해 저항을 받습니다."
+    "main": "빠르게 정밀 처치 2회를 하면 아군을 위한 힘의 보주가 생성됩니다.\n\n엘리트 적을 필살기로 처치하면 아군을 위한 특수 탄약이 생성됩니다.\n미니보스를 필살기로 처치하면 아군을 위한 중화기 탄약이 생성됩니다.\n\n 추가로 영겁 시리즈를 장착한 아군은 20초 동안 35%의 피해 저항을 받습니다.",
+    "secondary": ""
    }
   }
  },
@@ -33349,7 +33393,8 @@
     "secondary": "Powered Arc Melee Kills grant full Melee Ability Energy and begin Health Regeneration."
    },
    "ko": {
-    "main": "<arc/>전기 근접 능력 처치는 근접 능력을 완전히 채워주고 바로 체력 회복을 발동합니다."
+    "main": "<arc/>전기 근접 능력 처치는 근접 능력을 완전히 채워주고 바로 체력 회복을 발동합니다.",
+    "secondary": ""
    }
   }
  },
@@ -33387,7 +33432,8 @@
     "secondary": "Weighted Throwing Knives gain a second bounce with greatly increased tracking.\n\nAfter Scoring 3 Precision Hits within 2.5 seconds of each: Gain Strengthened Throwing Knife.\nAdditional Precision Hits increase duration by 5 seconds each, up to 30 seconds.\n\nStrengthened Throwing Knife deals 200% [PVP: 100%] increased damage and staggers Unstoppable Champions.\n\nBuff is consumed on knife hit."
    },
    "ko": {
-    "main": "추 달린 칼이 두번 튕길 수 있으며 막대한 추적 능력을 가집니다.\n\n2.5초안에 정밀타를 3번 적중하면 강화된 칼을 얻습니다.\n추가 정밀타는 지속시간을 5초 식 늘려줍니다.\n\n강화된 칼은 <pve 200% /> <pvp [100%] />의 피해 증가를 받으며 저지 불가 용사를 기절시킬 수 있습니다.\n\n칼을 적중하면 강화된 칼 효과를 소모합니다."
+    "main": "추 달린 칼이 두번 튕길 수 있으며 막대한 추적 능력을 가집니다.\n\n2.5초안에 정밀타를 3번 적중하면 강화된 칼을 얻습니다.\n추가 정밀타는 지속시간을 5초 식 늘려줍니다.\n\n강화된 칼은 <pve 200% /> <pvp [100%] />의 피해 증가를 받으며 저지 불가 용사를 기절시킬 수 있습니다.\n\n칼을 적중하면 강화된 칼 효과를 소모합니다.",
+    "secondary": ""
    }
   }
  },
@@ -33612,7 +33658,8 @@
     "secondary": "Ally Deaths grant 25% Class Ability Energy.\r\nGain Full Class Ability Energy on Ally Revival.\r\n\r\nCasting Super fully heals allies within 30 meters.\r\n\r\nAeon Allies receive a 110HP Overshield for 20 seconds that recharges after 3 seconds."
    },
    "ko": {
-    "main": "아군이 죽으면 25%의 직업 능력 에너지를 얻습니다.\n아군을 부활시키면 직업 능력 에너지를 완전히 돌려받습니다.\n\n궁극기를 시전하면 30미터 이내에 있는 아군들을 완전히 회복시킵니다.\n\n추가로 영겁 시리즈를 장착한 아군들은 20초 동안 110HP 짜리 보호막을 얻으며 3초 이후 재생됩니다."
+    "main": "아군이 죽으면 25%의 직업 능력 에너지를 얻습니다.\n아군을 부활시키면 직업 능력 에너지를 완전히 돌려받습니다.\n\n궁극기를 시전하면 30미터 이내에 있는 아군들을 완전히 회복시킵니다.\n\n추가로 영겁 시리즈를 장착한 아군들은 20초 동안 110HP 짜리 보호막을 얻으며 3초 이후 재생됩니다.",
+    "secondary": ""
    }
   }
  },
@@ -35685,7 +35732,8 @@
     "secondary": "import self"
    },
    "ko": {
-    "main": "상시로 공중 효율을 15만큼 증가시킵니다.\n\n체력이 50% 이하인 적들을 붉게 지정시켜주며 궁극기가 준비된 수호자는 노란색으로 지정시켜줍니다.\n만약에 적이 은신 상태여도 위의 조건을 만족하면 지정됩니다.\n\n기본 수류탄, 근접 능력, 직업 능력 재생 속도가 50% 증가합니다."
+    "main": "상시로 공중 효율을 15만큼 증가시킵니다.\n\n체력이 50% 이하인 적들을 붉게 지정시켜주며 궁극기가 준비된 수호자는 노란색으로 지정시켜줍니다.\n만약에 적이 은신 상태여도 위의 조건을 만족하면 지정됩니다.\n\n기본 수류탄, 근접 능력, 직업 능력 재생 속도가 50% 증가합니다.",
+    "secondary": ""
    }
   }
  },
@@ -35785,7 +35833,8 @@
     "secondary": "Arc Ability and Jolt Kills grant Conduction Tines for 7 [PVP: 4] seconds.\n\nAt x1 Conduction Tines\n175% Additional Base Grenade, Melee, and Super Regeneration Rate | 22% Slower Super Drain.\n\nAt x2 Conduction Tines\n350% Additional Base Grenade, Melee, and Super Regeneration Rate | 44% Slower Super Drain.\n\nAt x3 Conduction Tines\n525% Additional Base Grenade, Melee, and Super Regeneration Rate | 66% Slower Super Drain.\n\nSuper Drain affects every Roaming Super BUT Chaos Reach."
    },
    "ko": {
-    "main": "전기 능력 처치를 하면 <pve 7 /> <pvp [4] />초 동안 전기 갈래가 활성화됩니다. \n\n<blue 전기 갈래 x1 일때 />\n기본 수류탄, 근접 능력, 그리고 궁극기 재생 속도가 175% 증가합니다. | 궁극기 소모 속도 약 [22%] 하락\n\n<blue 전기 갈래 x2 일때 />\n기본 수류탄, 근접 능력, 그리고 궁극기 재생 속도가 350% 증가합니다. | 궁극기 소모 속도 약 [44%] 하락\n\n<blue 전기 갈래 x3 일때 />\n기본 수류탄, 근접 능력, 그리고 궁극기 재생 속도가 525% 증가합니다. | 궁극기 소모 속도 약 [66%] 하락\n\n궁극기 소모 속도 하락은 혼돈 범위를 제외한 모든 변신형 궁극기에 적용됩니다."
+    "main": "전기 능력 처치를 하면 <pve 7 /> <pvp [4] />초 동안 전기 갈래가 활성화됩니다. \n\n<blue 전기 갈래 x1 일때 />\n기본 수류탄, 근접 능력, 그리고 궁극기 재생 속도가 175% 증가합니다. | 궁극기 소모 속도 약 [22%] 하락\n\n<blue 전기 갈래 x2 일때 />\n기본 수류탄, 근접 능력, 그리고 궁극기 재생 속도가 350% 증가합니다. | 궁극기 소모 속도 약 [44%] 하락\n\n<blue 전기 갈래 x3 일때 />\n기본 수류탄, 근접 능력, 그리고 궁극기 재생 속도가 525% 증가합니다. | 궁극기 소모 속도 약 [66%] 하락\n\n궁극기 소모 속도 하락은 혼돈 범위를 제외한 모든 변신형 궁극기에 적용됩니다.",
+    "secondary": ""
    }
   }
  },
@@ -36616,7 +36665,8 @@
     "secondary": "On Dodge:\nApplies Misdirection to enemies within 22 metres.\n\nEffects of Misdirection:\n• [PVE] Disorients minors and elites for 5 seconds.\n• [PVP] Warps audio and removes radar for 5 seconds, as well as briefly blinding.\n\nMisdirection doesn't actually do damage.\n(Less than 0.001 at the very least)"
    },
    "ko": {
-    "main": "회피 직후:\n22미터 이내에 있는 적에게 잘못된 방향을 부여합니다.\n\n<pve 잘못된 방향이 부하들과 리더들을 5초 간 혼란에 빠트립니다. />\n\n<pvp 잘못된 방향이 오디오를 일그러트리고, 레이더를 5초간 제거하며, 아주 잠깐 동안 실명에 빠트립니다. />\n\n잘못된 방향이 부여될 때 1 피해를 입힙니다."
+    "main": "회피 직후:\n22미터 이내에 있는 적에게 잘못된 방향을 부여합니다.\n\n<pve 잘못된 방향이 부하들과 리더들을 5초 간 혼란에 빠트립니다. />\n\n<pvp 잘못된 방향이 오디오를 일그러트리고, 레이더를 5초간 제거하며, 아주 잠깐 동안 실명에 빠트립니다. />\n\n잘못된 방향이 부여될 때 1 피해를 입힙니다.",
+    "secondary": ""
    }
   }
  },
@@ -37340,7 +37390,8 @@
     "secondary": "import self"
    },
    "ko": {
-    "main": "근접 능력이 충전 된 상태에서 근접 공격을 하면 연막탄이 즉시 터집니다.\n연막탄의 피해가 150% 증가합니다.\n\n연막안에 들어가면 3초간 트루사이트를 부여하며 벽을 뚫고 64미터 이내의 적들의 위치를 알 수 있습니다."
+    "main": "근접 능력이 충전 된 상태에서 근접 공격을 하면 연막탄이 즉시 터집니다.\n연막탄의 피해가 150% 증가합니다.\n\n연막안에 들어가면 3초간 트루사이트를 부여하며 벽을 뚫고 64미터 이내의 적들의 위치를 알 수 있습니다.",
+    "secondary": ""
    }
   }
  },
@@ -37889,7 +37940,8 @@
     "secondary": "import self"
    },
    "ko": {
-    "main": "궁극기 발동 시:\n체력, 수류탄, 근접 공격, 그리고 직업 능력을 완전히 채웁니다.\n\n약 18미터 이내에 있는 아군들은 알 수 없는 만큼의 직업 능력 재생 속도를 추가로 받습니다."
+    "main": "궁극기 발동 시:\n체력, 수류탄, 근접 공격, 그리고 직업 능력을 완전히 채웁니다.\n\n약 18미터 이내에 있는 아군들은 알 수 없는 만큼의 직업 능력 재생 속도를 추가로 받습니다.",
+    "secondary": ""
    }
   }
  },
@@ -38491,7 +38543,8 @@
     "secondary": "雷霆冲击提升 100% 伤害。\n\n当雷霆冲击释放完成时：\n在 7 秒内获得 100 生命值的覆盖护盾。\n覆盖护盾持续时间会根据雷霆冲击释放距离而延长，最高为 20 秒。"
    },
    "ko": {
-    "main": "천둥충돌의 피해가 100% 증가합니다.\n\n천둥충돌 사용 직후:\n7초 동안 100HP 짜리 보호막을 얻습니다.\n보호막의 지속시간은 천둥충돌 시전 시 날아간 거리에 비례하며 최대 20초 까지 가능합니다."
+    "main": "천둥충돌의 피해가 100% 증가합니다.\n\n천둥충돌 사용 직후:\n7초 동안 100HP 짜리 보호막을 얻습니다.\n보호막의 지속시간은 천둥충돌 시전 시 날아간 거리에 비례하며 최대 20초 까지 가능합니다.",
+    "secondary": ""
    }
   },
   "stats": {
