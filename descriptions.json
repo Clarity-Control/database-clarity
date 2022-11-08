@@ -3,8 +3,8 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1667923661756,
-  "uploadedBy": "Icemourne",
+  "lastUpload": 1667925905242,
+  "uploadedBy": "Mistwalker",
   "editor": {
    "en": {
     "main": "Images you can use in descriptions\n<arc/> <void/> <solar/>\n<primary/> <special/> <heavy/>\n<warlock/> <hunter/> <titan/>\nText coloring\n<blue text /> <green text /> <purple text /> <yellow text />\n<pvp text /> <pve text />\n\nThe same can be done to lines of text <green/>\n\nYou probably noticed having multiple spaces in the editor\n              doesn't mean it will be the same in description\n              you can change that with <breakSpaces/>\n\n// This is comment content after // will not appear in the description\n\n// ----------------------------------------------------------\n// weapon type explanation\n// they work like if else in programming\n\n// if auto rifle\n< weapon type ( AR ) >\n    Apply this text\n// else if glaive\n< ( Glaive ) >\n    Apply this text\n// else\n< ( other ) >\n    Apply this text to all weapons not specified in this block\n<$$>\n// also, you can preview how it would look on x weapon by selecting the weapon in the weapon popup under the weapons name\n// ----------------------------------------------------------\nIf there is something you want just ask\nThis is not everything you can do btw\n\nTo see the full list press CTRL + SPACE\nAlso, CTRL + F is a thing and can be used to find and replace\nAlso also editor has other stuff to see them press F1",
@@ -25,7 +25,7 @@
   },
   "uploadToLive": false,
   "hidden": false,
-  "inLiveDatabase": true,
+  "inLiveDatabase": false,
   "optional": false
  },
  "1": {
@@ -60,10 +60,14 @@
   "hash": 2,
   "name": "Global variables",
   "type": "none",
-  "lastUpload": 1667923661756,
+  "lastUpload": 1667925905242,
   "editor": {
    "en": {
     "main": "// this variale only shows up on enhanced perks\nvar e = 🡅\n\nvar rof = <title Rate of fire [G_rof] />",
+    "secondary": ""
+   },
+   "zh-chs": {
+    "main": "// this variale only shows up on enhanced perks\nvar e = 🡅\n\nvar rof = <title 射速 [G_rof] />",
     "secondary": ""
    }
   },
@@ -75,6 +79,10 @@
     "en": {
      "lastUpdate": 1667658447610,
      "updatedBy": "Icemourne"
+    },
+    "zh-chs": {
+     "lastUpdate": 1667925886591,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -82,16 +90,20 @@
   "hidden": false,
   "inLiveDatabase": true,
   "optional": false,
-  "uploadedBy": "Icemourne"
+  "uploadedBy": "Mistwalker"
  },
  "3": {
   "hash": 3,
   "name": "Global titles",
   "type": "none",
-  "lastUpload": 1667923661756,
+  "lastUpload": 1667925905242,
   "editor": {
    "en": {
     "main": "title G_refresh (\nReload, but does not need animation and doesn't proc on-reload perks.\n)\n\ntitle G_conegrowth (\nHow Fast Your Accuracy Cone Expands as you fire your weapon. The less the better.\n)\n\ntitle G_rof (\nRouds per minute\nCharge rate\nDraw time\n)",
+    "secondary": ""
+   },
+   "zh-chs": {
+    "main": "title G_refresh (\n重新装填，但没有装填动画，也不触发换弹相关特性。\n)\n\ntitle G_conegrowth (\n开火时精度锥角的扩散速度，该数值越小越好。\n)\n\ntitle G_rof (\n每分钟射速\n充能效率\n蓄力时间\n)",
     "secondary": ""
    }
   },
@@ -103,6 +115,10 @@
     "en": {
      "lastUpdate": 1667658114954,
      "updatedBy": "Icemourne"
+    },
+    "zh-chs": {
+     "lastUpdate": 1667925718846,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -110,7 +126,7 @@
   "hidden": false,
   "inLiveDatabase": true,
   "optional": false,
-  "uploadedBy": "Icemourne"
+  "uploadedBy": "Mistwalker"
  },
  "1399216": {
   "hash": 1399216,
