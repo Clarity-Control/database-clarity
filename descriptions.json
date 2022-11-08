@@ -3,7 +3,7 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1667925905242,
+  "lastUpload": 1667927228157,
   "uploadedBy": "Mistwalker",
   "editor": {
    "en": {
@@ -60,7 +60,7 @@
   "hash": 2,
   "name": "Global variables",
   "type": "none",
-  "lastUpload": 1667925905242,
+  "lastUpload": 1667927228157,
   "editor": {
    "en": {
     "main": "// this variale only shows up on enhanced perks\nvar e = 🡅\n\nvar rof = <title Rate of fire [G_rof] />",
@@ -96,7 +96,7 @@
   "hash": 3,
   "name": "Global titles",
   "type": "none",
-  "lastUpload": 1667925905242,
+  "lastUpload": 1667927228157,
   "editor": {
    "en": {
     "main": "title G_refresh (\nReload, but does not need animation and doesn't proc on-reload perks.\n)\n\ntitle G_conegrowth (\nHow Fast Your Accuracy Cone Expands as you fire your weapon. The less the better.\n)\n\ntitle G_rof (\nRouds per minute\nCharge rate\nDraw time\n)",
@@ -5943,8 +5943,8 @@
   "hash": 689005463,
   "name": "Accelerated Coils",
   "type": "weaponPerk",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1667923661756,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1667927228157,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -5960,8 +5960,8 @@
      "updatedBy": "Icemourne"
     },
     "zh-chs": {
-     "lastUpdate": 1664433230817,
-     "undatedBy": "Mistwalker"
+     "lastUpdate": 1667925939791,
+     "updatedBy": "Mistwalker"
     },
     "es": {
      "lastUpdate": 1665678437311,
@@ -13332,8 +13332,8 @@
   "hash": 1431678320,
   "name": "Alloy Magazine",
   "type": "weaponPerk",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1667923661756,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1667927228157,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -13349,8 +13349,8 @@
      "updatedBy": "Icemourne"
     },
     "zh-chs": {
-     "lastUpdate": 1664433627914,
-     "undatedBy": "Mistwalker"
+     "lastUpdate": 1667927144374,
+     "updatedBy": "Mistwalker"
     },
     "es": {
      "lastUpdate": 1665682570721,
@@ -13373,8 +13373,8 @@
     "secondary": "import description from self"
    },
    "zh-chs": {
-    "main": "弹夹为空时：\n加快 15% 换弹装填动画。",
-    "secondary": "弹夹为空时：\n加快 15% 换弹装填动画。"
+    "main": "export description (\nUpon starting a reload with an empty magazine:\n0.85x Reload Duration Multiplier.\n)\n\n<formula Reload Time: [reload_0] />\n\n弹夹为空时：\n加快 15% 换弹装填动画。",
+    "secondary": "import description from self"
    },
    "es": {
     "main": "export description (\n    Al recargar con el cargador vacio: \n    Aumento del 15% a la Velocidad de Recarga\n)\n\n<formula Reload Time: [reload_0] />",
@@ -31165,8 +31165,8 @@
   "hash": 3425386926,
   "name": "Rampage",
   "type": "weaponPerk",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1667923661756,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1667927228157,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -31182,8 +31182,8 @@
      "updatedBy": "Fading Shadow"
     },
     "zh-chs": {
-     "lastUpdate": 1664116141453,
-     "undatedBy": "Mistwalker"
+     "lastUpdate": 1667926122307,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -31202,7 +31202,7 @@
     "secondary": "import self"
    },
    "zh-chs": {
-    "main": "完成武器击杀时:\r\n3.5 秒内提高 10% | 21% | 33.1% 伤害。\r\n击杀可刷新 Buff 时间。\r\n\r\n强化特征：Buff 持续时间增加为 4 秒。\r\n\r\n狂暴规格模组提高 1 秒持续时间。",
+    "main": "完成武器击杀时:\n3.5 秒内提高 10% | 21% | 33.1% 伤害。\n击杀可刷新 Buff 时间。\n\n🡅强化特征：Buff 持续时间增加为 4 秒。",
     "secondary": "import self"
    }
   },
@@ -33546,8 +33546,8 @@
   "hash": 3673922083,
   "name": "Adagio",
   "type": "weaponPerk",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1667923661756,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1667927228157,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -33565,6 +33565,10 @@
     "es": {
      "lastUpdate": 1665822580077,
      "updatedBy": "Icemourne"
+    },
+    "zh-chs": {
+     "lastUpdate": 1667926401445,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -33605,6 +33609,10 @@
    "es": {
     "main": "Durante #e${7 + #t} segundos luego de una baja con el arma: \n< weapon type ( combat bow ) >\n< weapon type ( other ) >\n    +10 Alcance\n<$$>\n// separator for readabilty\n< weapon type ( combat bow, shotgun ) >\n    +20% Daño\n< weapon type ( other ) >\n    +30% Daño\n<$$>\n// separator for readabilty\n< weapon type ( hand cannon, scout rifle ) >\n    -15% <title Cadencialde Tiro  [ROF] />\n< weapon type ( fusion rifle, linear fusion rifle ) >\n    -15% <title Tiempo de Carga [ROF] />\n< weapon type ( other ) >\n    -20% <title Cadencia de Tiro [ROF] />\n<$$>\n<formula Alcance: [range_0] />\n\n<title Efectos por Tipo de Arma [weapon list] />\n\ntitle weapon list (\n< table wide background_2 > \n| Tipo de Arma              | Daño        | Cadencia/Carga <bold/>\n| Cañon de Mano         | <green 30% />  | <green -15% />\n| Fusil Explorador         | <green 30% />  | <green -15% />\n| Fusil Automatico         | <purple 30% /> | <purple -20% />\n| Pistola            | <purple 30% /> | <purple -20% />\n| Lanza Granadas    | <purple 30% /> | <purple -20% />\n| Fusil de Fusion Lineal | 30%            | -15%          \n| Fusil de Fusion        | <yellow 27% /> | <yellow -15% />\n| Arco                | <blue 20% />   | <blue -20% /> \n| Escopeta             | <blue 20% />   | <blue -20% />\n<$>\n)\n\ntitle ROF (\nLa Cadencia de Tiro tiende a cambiar hacia el proximo armazon mas lento.\n\nPor Ejemplo: Fusil automatico de Precision => Fusil automatico de Alto Impacto \n)\nenhanced (\nvar t = 1\n)",
     "secondary": "Luego de una baja:\nAumento de daño en un 30%, aumento 10 al alcance y disminucion de 20% a la Cadencia de Tiro o Velocidad de Carga durante 7 segundos\n\nArcos y Escopetas solo reciben un 20% de aumento a su daño\n\nLa Cadencia de Tiro tiende a cambiar hacia el proximo armazon mas lento. Por Ejemplo: Fusil automatico de Precision => Fusil automatico de Alto Impacto \n\nMejorado: La duracion del bufo aumenta a un maximo de 8 segundos"
+   },
+   "zh-chs": {
+    "main": "完成武器击杀时:\n< weapon type ( Shotgun, Bow ) >\n+20% 伤害\n< ( other ) >\n+30% 伤害\n<$$>\n//\n-20% #rof\n< weapon type ( Bow, Heavy GL ) > // just to remove rage stat from weapons with out range\n< ( other ) >\n+10 射程\n<$$>\n<formula 有效射程: [range_0] />\n持续 #e${7 + #t} 秒\n\n<title 更多信息 [damage] />\ntitle damage (\n弓箭和霰弹枪仅 +20% 伤害。\n其他武器 +30% 伤害。\n)\nenhanced (\nvar t = 1\n)",
+    "secondary": "完成武器击杀时:\n+30% 伤害\n-20% 射速/充能效率\n+10 射程\n持续 #e${7 + #t} 秒\n\n弓箭和霰弹枪仅 +20% 伤害。\n\nenhanced (\nvar t = 1\n)"
    }
   },
   "linkedWith": 2889515627
@@ -34043,8 +34051,8 @@
   "hash": 3722653512,
   "name": "Air Assault",
   "type": "weaponPerk",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1667923661756,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1667927228157,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -34060,8 +34068,8 @@
      "updatedBy": "Icemourne"
     },
     "zh-chs": {
-     "lastUpdate": 1664433396838,
-     "undatedBy": "Mistwalker"
+     "lastUpdate": 1667926907355,
+     "updatedBy": "Mistwalker"
     },
     "es": {
      "lastUpdate": 1665682493046,
@@ -34075,7 +34083,7 @@
     "secondary": "import self"
    },
    "zh-chs": {
-    "main": "生命值降低时：\n最高获取 60 空中效率。\n空中效率效果随着生命值降低而线性增强。当重伤时达到最大值。\n\n强化特征：最高获取 66[?] 空中效率。",
+    "main": "生命值降低时：\n最高获取 #e+${60 + #air} 空中效率。\n空中效率随着生命值降低而线性增强。当重伤时达到最大值。\n\nenhanced (\nvar air = 10\n)",
     "secondary": "import self"
    },
    "es": {
