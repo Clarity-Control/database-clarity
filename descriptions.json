@@ -3,8 +3,8 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1668001357261,
-  "uploadedBy": "Mistwalker",
+  "lastUpload": 1668001473668,
+  "uploadedBy": "Icemourne",
   "editor": {
    "en": {
     "main": "Images you can use in descriptions\n<arc/> <void/> <solar/>\n<primary/> <special/> <heavy/>\n<warlock/> <hunter/> <titan/>\nText coloring\n<blue text /> <green text /> <purple text /> <yellow text />\n<pvp text /> <pve text />\n\nThe same can be done to lines of text <green/>\n\nYou probably noticed having multiple spaces in the editor\n              doesn't mean it will be the same in description\n              you can change that with <breakSpaces/>\n\n// This is comment content after // will not appear in the description\n\n// ----------------------------------------------------------\n// weapon type explanation\n// they work like if else in programming\n\n// if auto rifle\n< weapon type ( AR ) >\n    Apply this text\n// else if glaive\n< ( Glaive ) >\n    Apply this text\n// else\n< ( other ) >\n    Apply this text to all weapons not specified in this block\n<$$>\n// also, you can preview how it would look on x weapon by selecting the weapon in the weapon popup under the weapons name\n// ----------------------------------------------------------\nIf there is something you want just ask\nThis is not everything you can do btw\n\nTo see the full list press CTRL + SPACE\nAlso, CTRL + F is a thing and can be used to find and replace\nAlso also editor has other stuff to see them press F1",
@@ -25,7 +25,7 @@
   },
   "uploadToLive": false,
   "hidden": false,
-  "inLiveDatabase": false,
+  "inLiveDatabase": true,
   "optional": false
  },
  "1": {
@@ -21618,12 +21618,12 @@
   "hash": 2272984656,
   "name": "Echo of Dilation",
   "type": "fragment",
-  "lastUpload": 1668001357261,
-  "uploadedBy": "Mistwalker",
+  "lastUpload": 1668001473668,
+  "uploadedBy": "Icemourne",
   "editor": {
    "en": {
-    "main": "",
-    "secondary": ""
+    "main": "Crouch Speed is set to 4 meters per second and you gain doubled radar resolution while crouched.\nIgnores slows, identically to Transversives Steps.",
+    "secondary": "import self"
    }
   },
   "updateTracker": {
@@ -21633,8 +21633,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 0,
-     "updatedBy": ""
+     "lastUpdate": 1668001405807,
+     "updatedBy": "Icemourne"
     }
    }
   },
@@ -21647,12 +21647,12 @@
   "hash": 2272984657,
   "name": "Echo of Domineering",
   "type": "fragment",
-  "lastUpload": 1668001357261,
-  "uploadedBy": "Mistwalker",
+  "lastUpload": 1668001473668,
+  "uploadedBy": "Icemourne",
   "editor": {
    "en": {
-    "main": "",
-    "secondary": ""
+    "main": "Suppressing an enemy grants +30 Mobility and 4% Forward Movement Speed Bonus. for 10 seconds and refreshes your readied weapon.\nBuff duration serves as cooldown.",
+    "secondary": "import self"
    }
   },
   "updateTracker": {
@@ -21662,8 +21662,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 0,
-     "updatedBy": ""
+     "lastUpdate": 1668001401465,
+     "updatedBy": "Icemourne"
     }
    }
   },
@@ -21705,12 +21705,12 @@
   "hash": 2272984665,
   "name": "Echo of Expulsion",
   "type": "fragment",
-  "lastUpload": 1668001357261,
-  "uploadedBy": "Mistwalker",
+  "lastUpload": 1668001473668,
+  "uploadedBy": "Icemourne",
   "editor": {
    "en": {
-    "main": "",
-    "secondary": ""
+    "main": "Void Ability Kills cause enemies to explode. dealing up to ? [130] damage in a 7 metre radius.",
+    "secondary": "import self"
    }
   },
   "updateTracker": {
@@ -21720,8 +21720,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 0,
-     "updatedBy": ""
+     "lastUpdate": 1668001429834,
+     "updatedBy": "Icemourne"
     }
    }
   },
@@ -21763,12 +21763,12 @@
   "hash": 2272984667,
   "name": "Echo of Exchange",
   "type": "fragment",
-  "lastUpload": 1668001357261,
-  "uploadedBy": "Mistwalker",
+  "lastUpload": 1668001473668,
+  "uploadedBy": "Icemourne",
   "editor": {
    "en": {
-    "main": "",
-    "secondary": ""
+    "main": "Melee Kills grant Grenade Energy based on Enemy Rank.\n8% = Tier 1 Rank-And-File\n14% = Tier 2 Rank-And-File | Tier 1 Elite | Guardians\n18% = Tier 3 Rank-And-File | Tier 2 Elite\n26% = Tier 3 Elite | Minibosses | Bosses",
+    "secondary": "import self"
    }
   },
   "updateTracker": {
@@ -21778,8 +21778,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 0,
-     "updatedBy": ""
+     "lastUpdate": 1668001408116,
+     "updatedBy": "Icemourne"
     }
    }
   },
@@ -24483,12 +24483,12 @@
   "hash": 2661180600,
   "name": "Echo of Instability",
   "type": "fragment",
-  "lastUpload": 1668001357261,
-  "uploadedBy": "Mistwalker",
+  "lastUpload": 1668001473668,
+  "uploadedBy": "Icemourne",
   "editor": {
    "en": {
-    "main": "",
-    "secondary": ""
+    "main": "Grenade Kills grant Volatile Rounds to your Void Weapons for 10 seconds.\nVolatile Rounds makes any hit with a Void Weapon apply Volatile.",
+    "secondary": "import self"
    }
   },
   "updateTracker": {
@@ -24498,8 +24498,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 0,
-     "updatedBy": ""
+     "lastUpdate": 1668001464495,
+     "updatedBy": "Icemourne"
     }
    }
   },
@@ -24512,12 +24512,12 @@
   "hash": 2661180601,
   "name": "Echo of Harvest",
   "type": "fragment",
-  "lastUpload": 1668001357261,
-  "uploadedBy": "Mistwalker",
+  "lastUpload": 1668001473668,
+  "uploadedBy": "Icemourne",
   "editor": {
    "en": {
-    "main": "",
-    "secondary": ""
+    "main": "Precision Kills on weakened enemies creates an Orb of Power.\n10 second cooldown after creating an Orb of Power.",
+    "secondary": "import self"
    }
   },
   "updateTracker": {
@@ -24527,8 +24527,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 0,
-     "updatedBy": ""
+     "lastUpdate": 1668001444506,
+     "updatedBy": "Icemourne"
     }
    }
   },
