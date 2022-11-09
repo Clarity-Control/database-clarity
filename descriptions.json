@@ -3,7 +3,7 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1668024307746,
+  "lastUpload": 1668024847718,
   "uploadedBy": "Stardust",
   "editor": {
    "en": {
@@ -25,7 +25,7 @@
   },
   "uploadToLive": false,
   "hidden": false,
-  "inLiveDatabase": true,
+  "inLiveDatabase": false,
   "optional": false
  },
  "1": {
@@ -301,9 +301,9 @@
   "name": "Adrenaline Junkie",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668023493455,
+  "lastUpload": 1668024847718,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -1745,9 +1745,9 @@
   "name": "Archer's Tempo",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668023493455,
+  "lastUpload": 1668024847718,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -1757,7 +1757,7 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1668021278545,
+     "lastUpdate": 1668024744602,
      "updatedBy": "Stardust"
     },
     "zh-chs": {
@@ -3760,9 +3760,9 @@
   "name": "Blunt Execution Rounds",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668023493455,
+  "lastUpload": 1668024847718,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -3772,7 +3772,7 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1668020998947,
+     "lastUpdate": 1668024771326,
      "updatedBy": "Stardust"
     }
    }
@@ -5943,10 +5943,10 @@
   "hash": 689005463,
   "name": "Accelerated Coils",
   "type": "weaponPerk",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "uploadedBy": "Stardust",
+  "lastUpload": 1668024847718,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -9272,9 +9272,9 @@
   "name": "Adaptive Munitions",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668023493455,
+  "lastUpload": 1668024847718,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -11386,10 +11386,10 @@
   "hash": 1264398905,
   "name": "Celerity",
   "type": "weaponPerk",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "uploadedBy": "Stardust",
+  "lastUpload": 1668024847718,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -11399,8 +11399,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1665005946288,
-     "undatedBy": "Fading Shadow"
+     "lastUpdate": 1668024784236,
+     "updatedBy": "Stardust"
     },
     "zh-chs": {
      "lastUpdate": 1664458469323,
@@ -13333,9 +13333,9 @@
   "name": "Alloy Magazine",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668023493455,
+  "lastUpload": 1668024847718,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -13345,7 +13345,7 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1668020512426,
+     "lastUpdate": 1668024734552,
      "updatedBy": "Stardust"
     },
     "zh-chs": {
@@ -15124,9 +15124,9 @@
   "name": "Backup Plan",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668023493455,
+  "lastUpload": 1668024847718,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -15136,7 +15136,7 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1668021168050,
+     "lastUpdate": 1668024763296,
      "updatedBy": "Stardust"
     },
     "zh-chs": {
@@ -18853,10 +18853,10 @@
   "hash": 1968497646,
   "name": "Armor-Piercing Rounds",
   "type": "weaponPerk",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "uploadedBy": "Stardust",
+  "lastUpload": 1668024847718,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -18866,8 +18866,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667668336044,
-     "updatedBy": "Icemourne"
+     "lastUpdate": 1668024748124,
+     "updatedBy": "Stardust"
     },
     "zh-chs": {
      "lastUpdate": 1664434138323,
@@ -22679,10 +22679,10 @@
   "hash": 2396489472,
   "name": "Chain Reaction",
   "type": "weaponPerk",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "uploadedBy": "Stardust",
+  "lastUpload": 1668024847718,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -22692,8 +22692,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667217039016,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1668024796661,
+     "updatedBy": "Stardust"
     },
     "zh-chs": {
      "lastUpdate": 1664458628587,
@@ -22703,7 +22703,7 @@
   },
   "editor": {
    "en": {
-    "main": "Weapon Kills create an Elemental Explosion.\nNot affected by Dragonfly Spec.\n\n🡅Enhanced: Improves Ammo Reserves.",
+    "main": "Weapon Kills create an Elemental Explosion.\nNot affected by Dragonfly Spec.\n\nenhanced (\n#e Improves Ammo Reserves.\n)",
     "secondary": "import self"
    },
    "zh-chs": {
@@ -23697,9 +23697,9 @@
   "name": "Box Breathing",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668023493455,
+  "lastUpload": 1668024847718,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -23709,7 +23709,7 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1668020928360,
+     "lastUpdate": 1668024781082,
      "updatedBy": "Stardust"
     }
    }
@@ -28571,9 +28571,9 @@
   "name": "Bait and Switch",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668023493455,
+  "lastUpload": 1668024847718,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -28583,7 +28583,7 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1668021027512,
+     "lastUpdate": 1668024766499,
      "updatedBy": "Stardust"
     },
     "zh-chs": {
@@ -30227,9 +30227,9 @@
   "name": "Auto-Loading Holster",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668023493455,
+  "lastUpload": 1668024847718,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -30239,7 +30239,7 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1668021222858,
+     "lastUpdate": 1668024758615,
      "updatedBy": "Stardust"
     },
     "zh-chs": {
@@ -33547,9 +33547,9 @@
   "name": "Adagio",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668024307746,
+  "lastUpload": 1668024847718,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -34052,9 +34052,9 @@
   "name": "Air Assault",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668023493455,
+  "lastUpload": 1668024847718,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -38617,9 +38617,9 @@
   "name": "Bottomless Grief",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668023493455,
+  "lastUpload": 1668024847718,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -38629,7 +38629,7 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1668020446390,
+     "lastUpdate": 1668024775053,
      "updatedBy": "Stardust"
     }
    }
