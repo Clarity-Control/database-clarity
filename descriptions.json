@@ -3,7 +3,7 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1668021294520,
+  "lastUpload": 1668022663491,
   "uploadedBy": "Stardust",
   "editor": {
    "en": {
@@ -96,10 +96,10 @@
   "hash": 3,
   "name": "Global titles",
   "type": "none",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668022663491,
   "editor": {
    "en": {
-    "main": "title G_refresh (\nReload, but does not need animation and doesn't proc on-reload perks.\n)\n\ntitle G_conegrowth (\nHow Fast Your Accuracy Cone Expands as you fire your weapon. The less the better.\n)\n\ntitle G_rof (\nRouds per minute\nCharge rate\nDraw time\n)",
+    "main": "title G_refresh (\nReload, but does not need animation and doesn't proc on-reload perks.\n)\n\ntitle G_conegrowth (\nHow Fast Your Accuracy Cone Expands as you fire your weapon. The less the better.\n)",
     "secondary": ""
    },
    "zh-chs": {
@@ -113,8 +113,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667658114954,
-     "updatedBy": "Icemourne"
+     "lastUpdate": 1668022268076,
+     "updatedBy": "Stardust"
     },
     "zh-chs": {
      "lastUpdate": 1667925718846,
@@ -122,11 +122,11 @@
     }
    }
   },
-  "uploadToLive": false,
+  "uploadToLive": true,
   "hidden": false,
   "inLiveDatabase": true,
   "optional": false,
-  "uploadedBy": "Icemourne"
+  "uploadedBy": "Stardust"
  },
  "1399216": {
   "hash": 1399216,
@@ -301,7 +301,7 @@
   "name": "Adrenaline Junkie",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668021294520,
+  "lastUpload": 1668022663491,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -1745,7 +1745,7 @@
   "name": "Archer's Tempo",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668021294520,
+  "lastUpload": 1668022663491,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -2533,7 +2533,7 @@
   "name": "Assassin's Blade",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668021294520,
+  "lastUpload": 1668022663491,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -3760,7 +3760,7 @@
   "name": "Blunt Execution Rounds",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668021294520,
+  "lastUpload": 1668022663491,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -9271,10 +9271,10 @@
   "hash": 1048183818,
   "name": "Adaptive Munitions",
   "type": "weaponPerk",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "uploadedBy": "Stardust",
+  "lastUpload": 1668022663491,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -9284,8 +9284,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667665839002,
-     "updatedBy": "Icemourne"
+     "lastUpdate": 1668021966730,
+     "updatedBy": "Stardust"
     },
     "es": {
      "lastUpdate": 1665682073849,
@@ -9295,8 +9295,8 @@
   },
   "editor": {
    "en": {
-    "main": "Upon hitting a Non-Matching Shield or a Barrier Champion Shield:\nHits deal increasingly higher damage against Combatant Shields.\n\n< weapon type ( Fusion ) >\n${29 * #d}% per hit, up to ${435 * #d}%\n//\n< ( AR, LMG, Pulse, Trace ) >\n${33.3 * #d}% per hit, up to ${500 * #d}%\n//\n< ( LFR ) >\n${150 * #d}% per hit, up to ${450 * #d}%\n//\n< ( other ) >\n${166.6 * #d}% per hit, up to ${500 * #d}%\n<$$>\n\nBuff is removed upon hitting a matching shield or an unshielded enemy.\n\n<title More information. [weapon list] />\n\nenhanced (\nvar d = 1.2\n)\ntitle weapon list (\n< table wide >\n|c Weapon Type         |c   Damage Increase Increment |c   Maximum Damage Increase <bold/>\n|  Fusion Rifle        |c   #e${29 * #d}%             |c   #e${435 * #d}%          <background/>\n|  Linear Fusion Rifle |c   #e${150 * #d}%            |c   #e${450 * #d}%\n|  Auto Rifle          |-4c #e${33.3 * #d}%           |-4c #e${500 * #d}%          <background/>\n|  Machine Gun                                                                     <background/>\n|  Pulse Rifles                                                                    <background/>\n|  Trace Rifle                                                                     <background/>\n|  Bow                 |-4c #e${166.6 * #d}%          |-4c #e${500 * #d}%\n|  Glaive\n|  Hand Cannon\n|  Scout Rifle\n<$>\n)",
-    "secondary": "Upon hitting a Non-Matching Shield or a Barrier Champion Shield:\nHits deal increasingly higher damage against Combatant Shields.\n\nBuff is removed upon hitting a matching shield or an unshielded enemy.\n\n#e${29 * #d}% per hit, up to #e${435 * #d}%: Fusion Rifles\n\n#e${33.3 * #d}% per hit, up to #e${500 * #d}%:\nAuto Rifles, Machine Guns, Pulse Rifles, Trace Rifles\n\n#e${150 * #d}% per hit, up to#e${450 * #d}%: Linear Fusion Rifles\n\n#e${166.6 * #d}% per hit, up to #e${500 * #d}%:\nBows, Glaives, Hand Cannons, Scout Rifles\n\nenhanced (\nvar d = 1.2\n)"
+    "main": "Upon hitting a Non-Matching Shield or a Barrier Champion Shield:\nHits deal increasingly higher damage against Combatant Shields.\n\n< weapon type ( Fusion ) >\n#e${29 * #d}% per hit, up to #e${435 * #d}%\n//\n< ( AR, LMG, Pulse, Trace ) >\n#e${33.3 * #d}% per hit, up to #e${500 * #d}%\n//\n< ( LFR ) >\n#e${150 * #d}% per hit, up to #e${450 * #d}%\n//\n< ( Bow, Glaive, HC, Scout ) >\n#e${166.6 * #d}% per hit, up to #e${500 * #d}%\n<$$>\n\nBuff is removed upon hitting a matching shield or an unshielded enemy.\n\nenhanced (\nvar d = 1.2\n#e The damage buff is increased by 20%.\n)\n\n<title More information. [weapon list] />\n\ntitle weapon list (\n< table wide >\n|c Weapon Type         |c   Damage Increase Increment |c   Maximum Damage Increase <bold/>\n|  Fusion Rifle        |c   #e${29 * #d}%             |c   #e${435 * #d}%          <background/>\n|  Linear Fusion Rifle |c   #e${150 * #d}%            |c   #e${450 * #d}%\n|  Auto Rifle          |-4c #e${33.3 * #d}%           |-4c #e${500 * #d}%          <background/>\n|  Machine Gun                                                                     <background/>\n|  Pulse Rifles                                                                    <background/>\n|  Trace Rifle                                                                     <background/>\n|  Bow                 |-4c #e${166.6 * #d}%          |-4c #e${500 * #d}%\n|  Glaive\n|  Hand Cannon\n|  Scout Rifle\n<$>\n)",
+    "secondary": "Upon hitting a Non-Matching Shield or a Barrier Champion Shield:\nHits deal increasingly higher damage against Combatant Shields.\n\nBuff is removed upon hitting a matching shield or an unshielded enemy.\n\nenhanced (\nvar d = 1.2\n#e The damage buff is increased by 20%:\n)\n\n${29 * #d}% per hit, up to ${435 * #d}%: Fusion Rifles\n\n${33.3 * #d}% per hit, up to ${500 * #d}%:\nAuto Rifles, Machine Guns, Pulse Rifles, Trace Rifles\n\n${150 * #d}% per hit, up to ${450 * #d}%: Linear Fusion Rifles\n\n${166.6 * #d}% per hit, up to ${500 * #d}%:\nBows, Glaives, Hand Cannons, Scout Rifles"
    },
    "es": {
     "main": "var d = 1\nvar e = empty\nLuego de impactar con un Escudo de otro elemento al arma, o la Barrera de un Campeon:\nLos proximos impactos aumentan en daño contra el escudo del enemigo.\n\nEl bufo se termina si se impacta contra un escudo con mismo elemento, o contra un enemigo sin escudo.\n\n< weapon type ( fusion rifle ) >\n#e${29 * #d}% por bala, hasta #e${435 * #d}%\n<$$>\n< weapon type ( auto rifle, machine gun, pulse rifle, trace rifle ) >\n#e${33.3 * #d}% por bala, hasta #e${500 * #d}%\n<$$>\n< weapon type ( linear fusion rifle ) >\n#e${150 * #d}% por bala, hasta #e${450 * #d}%\n<$$>\n< weapon type ( combat bow, glaive, hand cannon, scout rifle ) >\n#e${166.6 * #d}% por bala, hasta #e${500 * #d}%\n<$$>\n\n<title Dependiendo del tipo de arma [weapon list] />\n\ntitle weapon list (\n< table wide >\n| Tipo de Arma          |   Por bala       |   hasta           <bold/>\n| Fusil de Fusion        |   #e${29 * #d}%   |   #e${435 * #d}%  <background/>\n| Fusil de Fusion Lineal  |   #e${150 * #d}%  |   #e${450 * #d}% \n| Fusil Automatico           |-4 #e${33.3 * #d}% |-4 #e${500 * #d}%  <background/>\n| Ametralladora                                                 <background/> \n| Fusil de Pulsos                                                <background/>    \n| Fusil de Rastreo                                                  <background/> \n| Arco                  |-4 #e${166.6 * #d}% |-4 #e${500 * #d}%\n| Gujas\n| Cañon de Mano\n| Fusil de Explorador\n<$>\n)",
@@ -13333,7 +13333,7 @@
   "name": "Alloy Magazine",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668021294520,
+  "lastUpload": 1668022663491,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -15124,7 +15124,7 @@
   "name": "Backup Plan",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668021294520,
+  "lastUpload": 1668022663491,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -23697,7 +23697,7 @@
   "name": "Box Breathing",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668021294520,
+  "lastUpload": 1668022663491,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -28571,7 +28571,7 @@
   "name": "Bait and Switch",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668021294520,
+  "lastUpload": 1668022663491,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -30227,7 +30227,7 @@
   "name": "Auto-Loading Holster",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668021294520,
+  "lastUpload": 1668022663491,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -33546,10 +33546,10 @@
   "hash": 3673922083,
   "name": "Adagio",
   "type": "weaponPerk",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "uploadedBy": "Stardust",
+  "lastUpload": 1668022663491,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -33559,8 +33559,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667665617281,
-     "updatedBy": "Icemourne"
+     "lastUpdate": 1668022633740,
+     "updatedBy": "Stardust"
     },
     "es": {
      "lastUpdate": 1665822580077,
@@ -33603,8 +33603,8 @@
   },
   "editor": {
    "en": {
-    "main": "On Weapon Kill:\n< weapon type ( Shotgun, Bow ) >\n+20% Damage\n< ( other ) >\n+30% Damage\n<$$>\n//\n-20% #rof\n< weapon type ( Bow, Heavy GL ) > // just to remove rage stat from weapons with out range\n< ( other ) >\n+10 Range\n<$$>\n<formula Effective Range: [range_0] />\nDuration #e${7 + #t} seconds\n\n<title More information. [damage] />\ntitle damage (\nBows and Shotguns only receive +20% Damage.\nEverithing else +30% Damage.\n)\nenhanced (\nvar t = 1\n)",
-    "secondary": "On Weapon Kill:\n+30% Damage\n-20% Rate of Fire/Charge Rate\n+10 Range\nDuration #e${7 + #t} seconds\n\nBows and Shotguns only receive a 20% damage increase.\n\nenhanced (\nvar t = 1\n)"
+    "main": "On Weapon Kill for 7 seconds:\n< weapon type ( Shotgun, Bow ) >\n+20% Damage\n< ( other ) >\n+30% Damage\n<$$>\n//\n-20% Rate of Fire/Charge Rate\n< weapon type ( Bow, Heavy GL, GL ) > // just to remove rage stat from weapons with out range\n< ( other ) >\n+10 Range\n<$$>\n\n<title Additional information. [damage] />\ntitle damage (\nBows and Shotguns only receive +20% Damage.\nEverithing else receives +30% Damage.\n\nBows and Grenade Launchers do not receive the +10 Range increase due to not having a Range stat. \n)\n\nenhanced (\n#e Buff duration is increased to 8 seconds.\n\n)\n<formula Effective Range: [range_0] />",
+    "secondary": "On Weapon Kill for 7 seconds:\n+30% Damage\n-20% Rate of Fire/Charge Rate\n+10 Range\n\nBows and Shotguns only receive a 20% damage increase.\n\nenhanced (\n#e Buff duration is increased to 8 seconds.\n)"
    },
    "es": {
     "main": "Durante #e${7 + #t} segundos luego de una baja con el arma: \n< weapon type ( combat bow ) >\n< weapon type ( other ) >\n    +10 Alcance\n<$$>\n// separator for readabilty\n< weapon type ( combat bow, shotgun ) >\n    +20% Daño\n< weapon type ( other ) >\n    +30% Daño\n<$$>\n// separator for readabilty\n< weapon type ( hand cannon, scout rifle ) >\n    -15% <title Cadencialde Tiro  [ROF] />\n< weapon type ( fusion rifle, linear fusion rifle ) >\n    -15% <title Tiempo de Carga [ROF] />\n< weapon type ( other ) >\n    -20% <title Cadencia de Tiro [ROF] />\n<$$>\n<formula Alcance: [range_0] />\n\n<title Efectos por Tipo de Arma [weapon list] />\n\ntitle weapon list (\n< table wide background_2 > \n| Tipo de Arma              | Daño        | Cadencia/Carga <bold/>\n| Cañon de Mano         | <green 30% />  | <green -15% />\n| Fusil Explorador         | <green 30% />  | <green -15% />\n| Fusil Automatico         | <purple 30% /> | <purple -20% />\n| Pistola            | <purple 30% /> | <purple -20% />\n| Lanza Granadas    | <purple 30% /> | <purple -20% />\n| Fusil de Fusion Lineal | 30%            | -15%          \n| Fusil de Fusion        | <yellow 27% /> | <yellow -15% />\n| Arco                | <blue 20% />   | <blue -20% /> \n| Escopeta             | <blue 20% />   | <blue -20% />\n<$>\n)\n\ntitle ROF (\nLa Cadencia de Tiro tiende a cambiar hacia el proximo armazon mas lento.\n\nPor Ejemplo: Fusil automatico de Precision => Fusil automatico de Alto Impacto \n)\nenhanced (\nvar t = 1\n)",
@@ -38617,7 +38617,7 @@
   "name": "Bottomless Grief",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668021294520,
+  "lastUpload": 1668022663491,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
