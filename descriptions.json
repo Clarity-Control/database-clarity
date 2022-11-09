@@ -3,8 +3,8 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1668011588850,
-  "uploadedBy": "Mistwalker",
+  "lastUpload": 1668021294520,
+  "uploadedBy": "Stardust",
   "editor": {
    "en": {
     "main": "Images you can use in descriptions\n<arc/> <void/> <solar/>\n<primary/> <special/> <heavy/>\n<warlock/> <hunter/> <titan/>\nText coloring\n<blue text /> <green text /> <purple text /> <yellow text />\n<pvp text /> <pve text />\n\nThe same can be done to lines of text <green/>\n\nYou probably noticed having multiple spaces in the editor\n              doesn't mean it will be the same in description\n              you can change that with <breakSpaces/>\n\n// This is comment content after // will not appear in the description\n\n// ----------------------------------------------------------\n// weapon type explanation\n// they work like if else in programming\n\n// if auto rifle\n< weapon type ( AR ) >\n    Apply this text\n// else if glaive\n< ( Glaive ) >\n    Apply this text\n// else\n< ( other ) >\n    Apply this text to all weapons not specified in this block\n<$$>\n// also, you can preview how it would look on x weapon by selecting the weapon in the weapon popup under the weapons name\n// ----------------------------------------------------------\nIf there is something you want just ask\nThis is not everything you can do btw\n\nTo see the full list press CTRL + SPACE\nAlso, CTRL + F is a thing and can be used to find and replace\nAlso also editor has other stuff to see them press F1",
@@ -300,8 +300,8 @@
   "hash": 11612903,
   "name": "Adrenaline Junkie",
   "type": "weaponPerk",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "uploadedBy": "Stardust",
+  "lastUpload": 1668021294520,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -313,8 +313,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667672318677,
-     "updatedBy": "Icemourne"
+     "lastUpdate": 1668020863061,
+     "updatedBy": "Stardust"
     },
     "es": {
      "lastUpdate": 1665682216066,
@@ -340,8 +340,8 @@
   },
   "editor": {
    "en": {
-    "main": "On Weapon or Grenade Kill:\n20 Handling and a Stacking Damage Increase for #e${4.5 + #t} seconds.\n\nBuff Refreshed on Kill. Grenade Kills grant all 5 Stacks instantly.\n\n< table >\n|  Stacks          | 1x    | 2x     | 3x   | 4x     | 5x    <bold/>\n|b Damage Increase | 6.7%  | 13.3%  | 20%  | 26.6%  | 33.3% <background/>\n<$>\n\n<formula Ready Speed: [ready_0] />\n<formula Stow Speed: [stow_0] />\n\nenhanced (\nvar t = 0.5\n)",
-    "secondary": "On Weapon or Grenade Kill:\n6.7% | 13.3% | 20% | 26.6% | 33.3% Increased Damage and +20 Handling for #e${4.5 + #t} seconds.\n\nBuff Refreshed on Kill. Grenade Kills grant all 5 stacks instantly.\nenhanced (\nvar t = 0.5\n)"
+    "main": "On Weapon or Grenade Kill:\n20 Handling and a Stacking Damage Increase for 4.5 seconds.\n\nBuff Refreshed on Kill. Grenade Kills grant all 5 Stacks instantly.\n\n< table >\n|  Stacks          | 1x    | 2x     | 3x   | 4x     | 5x    <bold/>\n|b Damage Increase | 6.7%  | 13.3%  | 20%  | 26.6%  | 33.3% <background/>\n<$>\n\nenhanced (\n#e Buff Duration is increased to 5 seconds.\n)\n\n<formula Ready Speed: [ready_0] />\n<formula Stow Speed: [stow_0] />",
+    "secondary": "On Weapon or Grenade Kill:\n6.7% | 13.3% | 20% | 26.6% | 33.3% Increased Damage and +20 Handling for 4.5 seconds.\n\nBuff Refreshed on Kill. Grenade Kills grant all 5 stacks instantly.\n\nenhanced (\n#e Buff Duration is increased to 5 seconds.\n)"
    },
    "es": {
     "main": "Bajas con el arma o una granada otorgan:\n20 Manejo y Aumento de Daño acumulable, durante 4.5 segundos\n\nEl bufo se renueva con cada baja. Baja con granada otorga la maxima cantidad de Daño\n\n< table >\n|  Indicador          | 1x    | 2x     | 3x   | 4x     | 5x    <bold/>\n|b Aumento de Daño | 6.7%  | 13.3%  | 20%  | 26.6%  | 33.3% <background/>\n<$>\n\n<formula Velocidad de Desenfundado: [ready_0] />\n<formula Velocidad de Enfundado: [stow_0] />\n\nAumentado: La duracion del bufo aumenta a 5 segundos",
@@ -1744,10 +1744,10 @@
   "hash": 201365942,
   "name": "Archer's Tempo",
   "type": "weaponPerk",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "uploadedBy": "Stardust",
+  "lastUpload": 1668021294520,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -1757,8 +1757,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667668239643,
-     "updatedBy": "Icemourne"
+     "lastUpdate": 1668021278545,
+     "updatedBy": "Stardust"
     },
     "zh-chs": {
      "lastUpdate": 1664434059804,
@@ -1772,7 +1772,7 @@
   },
   "editor": {
    "en": {
-    "main": "On Precision Hit:\nDecreases Draw Time by 25% for #e${3 + #t} seconds.\n\nenhanced (\nvar t = 1\n)",
+    "main": "On Precision Hit:\nDecreases Draw Time by 25% for 3 seconds.\n\nenhanced (\n#e Buff duration is increased to 4 seconds.\n)",
     "secondary": "import self"
    },
    "zh-chs": {
@@ -2532,10 +2532,10 @@
   "hash": 354401740,
   "name": "Assassin's Blade",
   "type": "weaponPerk",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "uploadedBy": "Stardust",
+  "lastUpload": 1668021294520,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -2545,8 +2545,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667668489598,
-     "updatedBy": "Icemourne"
+     "lastUpdate": 1668021238586,
+     "updatedBy": "Stardust"
     },
     "zh-chs": {
      "lastUpdate": 1664434330803,
@@ -2569,7 +2569,7 @@
   },
   "editor": {
    "en": {
-    "main": "On Sword Kill:\n15% Increased Damage and sets Forward Movement Speed to 9 meters per second for/* #e${0 + #t} */ [?] seconds.\n\nRemains active even if stowed.\n\nenhanced (\n// we have no info yet\nvar t = 0\n)",
+    "main": "On Sword Kill:\n15% Increased Damage and sets Forward Movement Speed to 9 meters per second for [?] seconds.\n\nRemains active even if stowed.\n\nenhanced (\n// #e\n)",
     "secondary": "import self"
    },
    "zh-chs": {
@@ -3759,10 +3759,10 @@
   "hash": 454085387,
   "name": "Blunt Execution Rounds",
   "type": "weaponPerk",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "uploadedBy": "Stardust",
+  "lastUpload": 1668021294520,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -3772,8 +3772,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667259692702,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1668020998947,
+     "updatedBy": "Stardust"
     }
    }
   },
@@ -3795,8 +3795,8 @@
   },
   "editor": {
    "en": {
-    "main": "Upon dealing Melee Damage while an Enemy is within 15 meters:\n<pve 500% /> <pvp [100%] /> increased damage and +100 Handling for 10 seconds or until firing a full burst.\n4 second cooldown. Can be activated while stowed.\n\nAny Powered Melee which requires sprinting, sliding, or performs a slam will not activate Blunt Execution Rounds.\n\n<formula Ready Speed: [ready_0] />\n<formula Stow Speed: [stow_0] />\n\n🡅Enhanced: Buff duration increased to 11 seconds.",
-    "secondary": "Upon dealing Melee Damage while an Enemy is within 15 meters:\n500% [PVP: 100%] increased damage and +100 Handling for 10 seconds or until firing a full burst.\n4 second cooldown. Can be activated while stowed.\n\nAny Powered Melee which requires sprinting, sliding, or performs a slam will not activate Blunt Execution Rounds.\n\n🡅Enhanced: Buff duration increased to 11 seconds."
+    "main": "Upon dealing Melee Damage while an Enemy is within 15 meters:\n<pve 500% /> <pvp [100%] /> increased damage and +100 Handling for 10 seconds or until firing a full burst.\n4 second cooldown. Can be activated while stowed.\n\nAny Powered Melee which requires sprinting, sliding, or performs a slam will not activate Blunt Execution Rounds.\n\nenhanced (\n#e Buff duration increased to 11 seconds.\n\n)\n<formula Ready Speed: [ready_0] />\n<formula Stow Speed: [stow_0] />",
+    "secondary": "Upon dealing Melee Damage while an Enemy is within 15 meters:\n500% [PVP: 100%] increased damage and +100 Handling for 10 seconds or until firing a full burst.\n4 second cooldown. Can be activated while stowed.\n\nAny Powered Melee which requires sprinting, sliding, or performs a slam will not activate Blunt Execution Rounds.\n\nenhanced (\n#e Buff duration increased to 11 seconds.\n)"
    }
   },
   "linkedWith": 2529412083
@@ -13332,8 +13332,8 @@
   "hash": 1431678320,
   "name": "Alloy Magazine",
   "type": "weaponPerk",
-  "uploadedBy": "Mistwalker",
-  "lastUpload": 1668011588850,
+  "uploadedBy": "Stardust",
+  "lastUpload": 1668021294520,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -13345,8 +13345,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667671902575,
-     "updatedBy": "Icemourne"
+     "lastUpdate": 1668020512426,
+     "updatedBy": "Stardust"
     },
     "zh-chs": {
      "lastUpdate": 1668011583927,
@@ -13369,8 +13369,8 @@
   },
   "editor": {
    "en": {
-    "main": "export description (\nUpon starting a reload with an empty magazine:\n0.85x Reload Duration Multiplier.\n)\n\n<formula Reload Time: [reload_0] />",
-    "secondary": "import description from self"
+    "main": "Upon starting a reload with an empty magazine:\n0.85x Reload Duration Multiplier.\n\n<formula Reload Time: [reload_0] />",
+    "secondary": "import self"
    },
    "zh-chs": {
     "main": "export description (\nUpon starting a reload with an empty magazine:\n0.85x Reload Duration Multiplier.\n)\n\n<formula Reload Time: [reload_0] />\n\n弹夹为空时：\n加快 15% 换弹装填动画。",
@@ -15123,10 +15123,10 @@
   "hash": 1600092898,
   "name": "Backup Plan",
   "type": "weaponPerk",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "uploadedBy": "Stardust",
+  "lastUpload": 1668021294520,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -15136,8 +15136,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667672276257,
-     "updatedBy": "Icemourne"
+     "lastUpdate": 1668021168050,
+     "updatedBy": "Stardust"
     },
     "zh-chs": {
      "lastUpdate": 1664457759021,
@@ -15170,8 +15170,8 @@
   },
   "editor": {
    "en": {
-    "main": "export description (\nUpon readying the weapon:\n-30% Charge Time\n-20% Damage\n+100 Handling\nDuration /* #e${0 + #t} */ [?] seconds.\n)\nenhanced (\n// Enhanced: Buff duration is increased to [?] seconds.\nvar t = 0\n)\n\n<formula Ready Speed: [ready_0] />\n<formula Stow Speed: [stow_0] />",
-    "secondary": "import description from 1600092898\nenhanced (\nvar t = 0\n)"
+    "main": "Upon readying the weapon:\n-30% Charge Time\n-20% Damage\n+100 Handling\n\nLasts [?] seconds.\n\nenhanced (\n// #e \n)\n\n<formula Ready Speed: [ready_0] />\n<formula Stow Speed: [stow_0] />",
+    "secondary": "import self"
    },
    "zh-chs": {
     "main": "切换至此武器的 4 秒内：\n+30% 充能速度，-20% 伤害，+100 操控性。\n\n<formula 拔枪速度： [ready_0] />\n<formula 收起速度： [stow_0] />",
@@ -23696,10 +23696,10 @@
   "hash": 2551157718,
   "name": "Box Breathing",
   "type": "weaponPerk",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "uploadedBy": "Stardust",
+  "lastUpload": 1668021294520,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -23709,8 +23709,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667259696602,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1668020928360,
+     "updatedBy": "Stardust"
     }
    }
   },
@@ -23725,8 +23725,8 @@
   },
   "editor": {
    "en": {
-    "main": "Upon aiming-down-sights for 1.5 seconds without firing:\n10% increased Aim Assist Falloff Distance and increases Precision Multiplier by +1 for one shot.\n\nTimer starts as soon as the ADS input is pressed.\n\n< table >\n| Weapon Frame        | Precision Multiplier Increase <bold/>\n| Linear Fusion Rifle | <title 29% [mult1] />         <background/>\n| Sniper Rifle        | <title 33.22% [mult0] />   \n| Scout Rifle         | <title 62.75% [mult2] />      <background/>\n<$>\n\n🡅Enhanced: Activation timer is reduced to 1.4 seconds.\n\ntitle mult0 (\n3x -> 4x\n)\n\ntitle mult1 (\n3.44x -> 4.44x\n)\n\ntitle mult2 (\n1.6x -> 2.6x\n)",
-    "secondary": "Upon aiming-down-sights for 1.5 seconds without firing:\n10% increased Aim Assist Falloff Distance and increases Precision Multiplier by +1 for one shot.\nTimer starts as soon as the ADS input is pressed.\n\nPrecision Multipliers:\nScout Rifles: 62.75% Increase (1.6x -> 2.6x)\nSniper Rifles: 33.22% Increase (3x -> 4x)\nLinear Fusion Rifles: 29% Increase (3.44x -> 4.44x)\n\n🡅Enhanced: Activation timer is reduced to 1.4 seconds."
+    "main": "Upon aiming-down-sights for 1.5 seconds without firing:\n10% increased Aim Assist Falloff Distance and increases Precision Multiplier by +1 for one shot.\n\nTimer starts as soon as the ADS input is pressed.\n\n< table >\n| Weapon Frame        | Precision Multiplier Increase <bold/>\n| Linear Fusion Rifle | <title 29% [mult1] />         <background/>\n| Sniper Rifle        | <title 33.22% [mult0] />   \n| Scout Rifle         | <title 62.75% [mult2] />      <background/>\n<$>\n\nenhanced (\n#e Activation timer is reduced to 1.4 seconds.\n)\n\n\ntitle mult0 (\n3x -> 4x\n)\n\ntitle mult1 (\n3.44x -> 4.44x\n)\n\ntitle mult2 (\n1.6x -> 2.6x\n)",
+    "secondary": "Upon aiming-down-sights for 1.5 seconds without firing:\n10% increased Aim Assist Falloff Distance and increases Precision Multiplier by +1 for one shot.\nTimer starts as soon as the ADS input is pressed.\n\nPrecision Multipliers:\nScout Rifles: 62.75% Increase (1.6x -> 2.6x)\nSniper Rifles: 33.22% Increase (3x -> 4x)\nLinear Fusion Rifles: 29% Increase (3.44x -> 4.44x)\n\nenhanced (\n#e Activation timer is reduced to 1.4 seconds.\n)"
    }
   },
   "linkedWith": 23371658
@@ -28570,10 +28570,10 @@
   "hash": 3078487919,
   "name": "Bait and Switch",
   "type": "weaponPerk",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "uploadedBy": "Stardust",
+  "lastUpload": 1668021294520,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -28583,8 +28583,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667217029817,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1668021027512,
+     "updatedBy": "Stardust"
     },
     "zh-chs": {
      "lastUpdate": 1664457889657,
@@ -28603,7 +28603,7 @@
   },
   "editor": {
    "en": {
-    "main": "Upon dealing damage with all your weapons within [?] seconds of each:\n35% increased damage for 10 seconds.\n\n🡅Enhanced: Buff Duration is increased to 11 seconds",
+    "main": "Upon dealing damage with all your weapons within [?] seconds of each:\n35% increased damage for 10 seconds.\n\nenhanced (\n#e Buff Duration is increased to 11 seconds\n)",
     "secondary": "import self"
    },
    "zh-chs": {
@@ -30226,10 +30226,10 @@
   "hash": 3300816228,
   "name": "Auto-Loading Holster",
   "type": "weaponPerk",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "uploadedBy": "Stardust",
+  "lastUpload": 1668021294520,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -30239,8 +30239,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667671609542,
-     "updatedBy": "Icemourne"
+     "lastUpdate": 1668021222858,
+     "updatedBy": "Stardust"
     },
     "zh-chs": {
      "lastUpdate": 1664434504092,
@@ -30254,7 +30254,7 @@
   },
   "editor": {
    "en": {
-    "main": "<title Refreshes [G_refresh] /> stowed weapon from reserves after #e${2.5 - #t} seconds.\n\nenhanced (\nvar t = 0.2\n)",
+    "main": "<title Refreshes [G_refresh] /> stowed weapon from reserves after 2.5 seconds.\n\nenhanced (\n#e Refresh timer is reduced to 2.3 seconds.\n)",
     "secondary": "// If text doesen't change you can import it\n// Title will be replaced with normal text\nimport self"
    },
    "zh-chs": {
@@ -38616,8 +38616,8 @@
   "hash": 4252909580,
   "name": "Bottomless Grief",
   "type": "weaponPerk",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "uploadedBy": "Stardust",
+  "lastUpload": 1668021294520,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -38629,15 +38629,15 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667219825477,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1668020446390,
+     "updatedBy": "Stardust"
     }
    }
   },
   "editor": {
    "en": {
     "main": "While Last Guardian Standing:\nKills fully <title refresh [G_refresh] /> Magazine.\n\nPassively grants +30 Magazine stat.\n",
-    "secondary": "While Last Guardian Standing:\r\nKills fully refresh Magazine.\r\n\r\nPassively grants +30 Magazine stat."
+    "secondary": "import self"
    }
   },
   "investmentStats": [
