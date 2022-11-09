@@ -3,7 +3,7 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1668022663491,
+  "lastUpload": 1668023157750,
   "uploadedBy": "Stardust",
   "editor": {
    "en": {
@@ -96,7 +96,7 @@
   "hash": 3,
   "name": "Global titles",
   "type": "none",
-  "lastUpload": 1668022663491,
+  "lastUpload": 1668023157750,
   "editor": {
    "en": {
     "main": "title G_refresh (\nReload, but does not need animation and doesn't proc on-reload perks.\n)\n\ntitle G_conegrowth (\nHow Fast Your Accuracy Cone Expands as you fire your weapon. The less the better.\n)",
@@ -301,7 +301,7 @@
   "name": "Adrenaline Junkie",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668022663491,
+  "lastUpload": 1668023157750,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -1745,7 +1745,7 @@
   "name": "Archer's Tempo",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668022663491,
+  "lastUpload": 1668023157750,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -2533,7 +2533,7 @@
   "name": "Assassin's Blade",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668022663491,
+  "lastUpload": 1668023157750,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -3760,7 +3760,7 @@
   "name": "Blunt Execution Rounds",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668022663491,
+  "lastUpload": 1668023157750,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -9272,7 +9272,7 @@
   "name": "Adaptive Munitions",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668022663491,
+  "lastUpload": 1668023157750,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -9284,7 +9284,7 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1668021966730,
+     "lastUpdate": 1668022708576,
      "updatedBy": "Stardust"
     },
     "es": {
@@ -9295,7 +9295,7 @@
   },
   "editor": {
    "en": {
-    "main": "Upon hitting a Non-Matching Shield or a Barrier Champion Shield:\nHits deal increasingly higher damage against Combatant Shields.\n\n< weapon type ( Fusion ) >\n#e${29 * #d}% per hit, up to #e${435 * #d}%\n//\n< ( AR, LMG, Pulse, Trace ) >\n#e${33.3 * #d}% per hit, up to #e${500 * #d}%\n//\n< ( LFR ) >\n#e${150 * #d}% per hit, up to #e${450 * #d}%\n//\n< ( Bow, Glaive, HC, Scout ) >\n#e${166.6 * #d}% per hit, up to #e${500 * #d}%\n<$$>\n\nBuff is removed upon hitting a matching shield or an unshielded enemy.\n\nenhanced (\nvar d = 1.2\n#e The damage buff is increased by 20%.\n)\n\n<title More information. [weapon list] />\n\ntitle weapon list (\n< table wide >\n|c Weapon Type         |c   Damage Increase Increment |c   Maximum Damage Increase <bold/>\n|  Fusion Rifle        |c   #e${29 * #d}%             |c   #e${435 * #d}%          <background/>\n|  Linear Fusion Rifle |c   #e${150 * #d}%            |c   #e${450 * #d}%\n|  Auto Rifle          |-4c #e${33.3 * #d}%           |-4c #e${500 * #d}%          <background/>\n|  Machine Gun                                                                     <background/>\n|  Pulse Rifles                                                                    <background/>\n|  Trace Rifle                                                                     <background/>\n|  Bow                 |-4c #e${166.6 * #d}%          |-4c #e${500 * #d}%\n|  Glaive\n|  Hand Cannon\n|  Scout Rifle\n<$>\n)",
+    "main": "Upon hitting a Non-Matching Shield or a Barrier Champion Shield:\nHits deal increasingly higher damage against Combatant Shields.\n\n< weapon type ( Fusion ) >\n#e${29 * #d}% per hit, up to #e${435 * #d}%\n//\n< ( AR, LMG, Pulse, Trace ) >\n#e${33.3 * #d}% per hit, up to #e${500 * #d}%\n//\n< ( LFR ) >\n#e${150 * #d}% per hit, up to #e${450 * #d}%\n//\n< ( Bow, Glaive, HC, Scout ) >\n#e${166.6 * #d}% per hit, up to #e${500 * #d}%\n<$$>\n\nBuff is removed upon hitting a matching shield or an unshielded enemy.\n\nenhanced (\nvar d = 1.2\n#e The damage buff is increased by 20%.\n)\n\n<title Additional information. [weapon list] />\n\ntitle weapon list (\n< table wide >\n|c Weapon Type         |c   Damage Increase Increment |c   Maximum Damage Increase <bold/>\n|  Fusion Rifle        |c   #e${29 * #d}%             |c   #e${435 * #d}%          <background/>\n|  Linear Fusion Rifle |c   #e${150 * #d}%            |c   #e${450 * #d}%\n|  Auto Rifle          |-4c #e${33.3 * #d}%           |-4c #e${500 * #d}%          <background/>\n|  Machine Gun                                                                     <background/>\n|  Pulse Rifles                                                                    <background/>\n|  Trace Rifle                                                                     <background/>\n|  Bow                 |-4c #e${166.6 * #d}%          |-4c #e${500 * #d}%\n|  Glaive\n|  Hand Cannon\n|  Scout Rifle\n<$>\n)",
     "secondary": "Upon hitting a Non-Matching Shield or a Barrier Champion Shield:\nHits deal increasingly higher damage against Combatant Shields.\n\nBuff is removed upon hitting a matching shield or an unshielded enemy.\n\nenhanced (\nvar d = 1.2\n#e The damage buff is increased by 20%:\n)\n\n${29 * #d}% per hit, up to ${435 * #d}%: Fusion Rifles\n\n${33.3 * #d}% per hit, up to ${500 * #d}%:\nAuto Rifles, Machine Guns, Pulse Rifles, Trace Rifles\n\n${150 * #d}% per hit, up to ${450 * #d}%: Linear Fusion Rifles\n\n${166.6 * #d}% per hit, up to ${500 * #d}%:\nBows, Glaives, Hand Cannons, Scout Rifles"
    },
    "es": {
@@ -13333,7 +13333,7 @@
   "name": "Alloy Magazine",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668022663491,
+  "lastUpload": 1668023157750,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -15124,7 +15124,7 @@
   "name": "Backup Plan",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668022663491,
+  "lastUpload": 1668023157750,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -23697,7 +23697,7 @@
   "name": "Box Breathing",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668022663491,
+  "lastUpload": 1668023157750,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -28571,7 +28571,7 @@
   "name": "Bait and Switch",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668022663491,
+  "lastUpload": 1668023157750,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -30227,7 +30227,7 @@
   "name": "Auto-Loading Holster",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668022663491,
+  "lastUpload": 1668023157750,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -33547,7 +33547,7 @@
   "name": "Adagio",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668022663491,
+  "lastUpload": 1668023157750,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -34051,10 +34051,10 @@
   "hash": 3722653512,
   "name": "Air Assault",
   "type": "weaponPerk",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "uploadedBy": "Stardust",
+  "lastUpload": 1668023157750,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -34064,8 +34064,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667666228698,
-     "updatedBy": "Icemourne"
+     "lastUpdate": 1668023039819,
+     "updatedBy": "Stardust"
     },
     "zh-chs": {
      "lastUpdate": 1667926907355,
@@ -34079,7 +34079,7 @@
   },
   "editor": {
    "en": {
-    "main": "While at Low Health:\nUp to #e+${60 + #air} Airborne Effectiveness.\nEffect increases linearly as Health decreases. Maximized strength at Critical Health.\n\nenhanced (\nvar air = 10\n)",
+    "main": "While at Low Health:\nUp to 60 Airborne Effectiveness.\nEffect increases linearly as Health decreases. Maximized strength at Critical Health.\n\nPassively grants +10 Airborne Effectiveness.\n\nenhanced (\n#e Grants up to 70 Airborne Effectiveness and passively grants 12 Airborne Effectiveness.\n)",
     "secondary": "import self"
    },
    "zh-chs": {
@@ -38617,7 +38617,7 @@
   "name": "Bottomless Grief",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668022663491,
+  "lastUpload": 1668023157750,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
