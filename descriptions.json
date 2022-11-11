@@ -3,14 +3,10 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1668186478189,
-  "uploadedBy": "Mistwalker",
+  "lastUpload": 1668191207806,
+  "uploadedBy": "Stardust",
   "editor": {
    "en": {
-    "main": "Images you can use in descriptions\n<arc/> <void/> <solar/>\n<primary/> <special/> <heavy/>\n<warlock/> <hunter/> <titan/>\nText coloring\n<blue text /> <green text /> <purple text /> <yellow text />\n<pvp text /> <pve text />\n\nThe same can be done to lines of text <green/>\n\nYou probably noticed having multiple spaces in the editor\n              doesn't mean it will be the same in description\n              you can change that with <breakSpaces/>\n\n// This is comment content after // will not appear in the description\n\n// ----------------------------------------------------------\n// weapon type explanation\n// they work like if else in programming\n\n// if auto rifle\n< weapon type ( AR ) >\n    Apply this text\n// else if glaive\n< ( Glaive ) >\n    Apply this text\n// else\n< ( other ) >\n    Apply this text to all weapons not specified in this block\n<$$>\n// also, you can preview how it would look on x weapon by selecting the weapon in the weapon popup under the weapons name\n// ----------------------------------------------------------\nIf there is something you want just ask\nThis is not everything you can do btw\n\nTo see the full list press CTRL + SPACE\nAlso, CTRL + F is a thing and can be used to find and replace\nAlso also editor has other stuff to see them press F1",
-    "secondary": ""
-   },
-   "zh-chs": {
     "main": "Images you can use in descriptions\n<arc/> <void/> <solar/>\n<primary/> <special/> <heavy/>\n<warlock/> <hunter/> <titan/>\nText coloring\n<blue text /> <green text /> <purple text /> <yellow text />\n<pvp text /> <pve text />\n\nThe same can be done to lines of text <green/>\n\nYou probably noticed having multiple spaces in the editor\n              doesn't mean it will be the same in description\n              you can change that with <breakSpaces/>\n\n// This is comment content after // will not appear in the description\n\n// ----------------------------------------------------------\n// weapon type explanation\n// they work like if else in programming\n\n// if auto rifle\n< weapon type ( AR ) >\n    Apply this text\n// else if glaive\n< ( Glaive ) >\n    Apply this text\n// else\n< ( other ) >\n    Apply this text to all weapons not specified in this block\n<$$>\n// also, you can preview how it would look on x weapon by selecting the weapon in the weapon popup under the weapons name\n// ----------------------------------------------------------\nIf there is something you want just ask\nThis is not everything you can do btw\n\nTo see the full list press CTRL + SPACE\nAlso, CTRL + F is a thing and can be used to find and replace\nAlso also editor has other stuff to see them press F1",
     "secondary": ""
    }
@@ -22,12 +18,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1668183729598,
-     "updatedBy": "Mistwalker"
-    },
-    "zh-chs": {
-     "lastUpdate": 1668183783603,
-     "updatedBy": "Mistwalker"
+     "lastUpdate": 0,
+     "updatedBy": ""
     }
    }
   },
@@ -30312,10 +30304,10 @@
   "hash": 3301904089,
   "name": "Spike Grenades",
   "type": "weaponPerk",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "uploadedBy": "Stardust",
+  "lastUpload": 1668191207806,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -30325,15 +30317,15 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667253736941,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1668191198614,
+     "updatedBy": "Stardust"
     }
    }
   },
   "editor": {
    "en": {
-    "main": "Increases Impact Damage by 50%.\n\nDue to the Impact Damage being tied to the Blast Radius Stat on Grenade Launchers, a lower Blast Radius will provide higher overall damage.\n\n<title Hover for more details. [SpikeNades] />\n\ntitle SpikeNades (\nBreech-Loaded Grenade Launchers:\n50% Impact | 50% Explosive at 0 Blast Radius, overall 25% increased damage\n25% Impact | 75% Explosive at 100 Blast Radius, overall 12.5% increased damage.\n\nDrum-Loaded Grenade Launchers:\n30% Impact | 70% Explosive at 0 Blast Radius, overall 15% increased damage\n12.5% Impact | 87.5% Explosive at 0 Blast Radius, overall 6.25% increased damage.\n)",
-    "secondary": "Increases Impact Damage by 50%.\n\nDue to the Impact Damage being tied to the Blast Radius Stat on Grenade Launchers (GLs), a lower Blast Radius will provide higher overall damage.\n\nBreech-Loaded GLs: 25%-12.5% overall damage increase\nDrum-Loaded GLs: 15%-6.25% overall damage increase"
+    "main": "Increases Impact Damage by 50%.\n\nDue to the Impact Damage being tied to the Blast Radius Stat on Grenade Launchers, a lower Blast Radius will provide a higher overall damage increase.\n\n<title Hover for more details. [SpikeNades] />\n\ntitle SpikeNades (\nBreech-Loaded Grenade Launchers:\n50% Impact | 50% Explosive at 0 Blast Radius, overall 25% increased damage\n25% Impact | 75% Explosive at 100 Blast Radius, overall 12.5% increased damage.\n\nDrum-Loaded Grenade Launchers:\n30% Impact | 70% Explosive at 0 Blast Radius, overall 15% increased damage\n12.5% Impact | 87.5% Explosive at 100 Blast Radius, overall 6.25% increased damage.\n)",
+    "secondary": "Increases Impact Damage by 50%.\n\nDue to the Impact Damage being tied to the Blast Radius Stat on Grenade Launchers (GLs), a lower Blast Radius will provide a higher overall damage increase.\n\nBreech-Loaded GLs:\n • 25%-12.5% overall damage increase\n\nDrum-Loaded GLs:\n • 15%-6.25% overall damage increase"
    }
   },
   "investmentStats": [
