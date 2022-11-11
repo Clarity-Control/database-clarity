@@ -3,7 +3,7 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1668186013438,
+  "lastUpload": 1668186383076,
   "uploadedBy": "Mistwalker",
   "editor": {
    "en": {
@@ -771,7 +771,7 @@
   "hash": 79448657,
   "name": "Psychohack",
   "type": "weaponOriginTrait",
-  "lastUpload": 1668186013438,
+  "lastUpload": 1668186383076,
   "editor": {
    "en": {
     "main": "Scoring multiple hits lowers the target's damage output for a short duration.\n\n<pve PVE: [?] Reduced Damage for [?] seconds. />\n<pvp PVP: 10% Reduced Damage for 3 seconds. />",
@@ -1192,7 +1192,7 @@
   "hash": 120721526,
   "name": "Runneth Over",
   "type": "weaponOriginTrait",
-  "lastUpload": 1668186013438,
+  "lastUpload": 1668186383076,
   "editor": {
    "en": {
     "main": "Reloading while within [15?] metres of allies overflows your magazine by 10% for every ally, up to [50?]%.",
@@ -6516,7 +6516,7 @@
   "name": "Vanguard's Vindication",
   "type": "weaponOriginTrait",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1668186013438,
+  "lastUpload": 1668186383076,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -11307,7 +11307,7 @@
   "name": "Extrovert",
   "type": "weaponOriginTrait",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1668186013438,
+  "lastUpload": 1668186383076,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -11372,7 +11372,7 @@
   "hash": 1260401931,
   "name": "Hot Swap",
   "type": "weaponOriginTrait",
-  "lastUpload": 1668186013438,
+  "lastUpload": 1668186383076,
   "editor": {
    "en": {
     "main": "Upon readying the gun after receiving damage within [?] seconds:\n+30 Handling for 4 seconds.\n\n<formula Ready Speed: [ready_0] />\n<formula Stow Speed: [stow_0] />\n\nSwords receive increased Charge Rate, Guard Resistance, and Guard Endurance.",
@@ -11559,7 +11559,7 @@
   "name": "Stunning Recovery",
   "type": "weaponOriginTrait",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1668186013438,
+  "lastUpload": 1668186383076,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -14394,7 +14394,7 @@
   "name": "Land Tank",
   "type": "weaponOriginTrait",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1668186013438,
+  "lastUpload": 1668186383076,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -16591,7 +16591,7 @@
   "name": "Classy Contender",
   "type": "weaponOriginTrait",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1668186013438,
+  "lastUpload": 1668186383076,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -18513,7 +18513,7 @@
   "name": "To Excess",
   "type": "weaponOriginTrait",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1668186013438,
+  "lastUpload": 1668186383076,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -21402,7 +21402,7 @@
   "hash": 2250679103,
   "name": "Search Party",
   "type": "weaponOriginTrait",
-  "lastUpload": 1668186013438,
+  "lastUpload": 1668186383076,
   "uploadedBy": "Mistwalker",
   "editor": {
    "en": {
@@ -26363,7 +26363,7 @@
   "name": "Omolon Fluid Dynamics",
   "type": "weaponOriginTrait",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1668186013438,
+  "lastUpload": 1668186383076,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -30848,7 +30848,7 @@
   "name": "Souldrinker",
   "type": "weaponOriginTrait",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1668186013438,
+  "lastUpload": 1668186383076,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -33586,8 +33586,8 @@
   "hash": 3673922083,
   "name": "Adagio",
   "type": "weaponPerk",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1668025103290,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1668186383076,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -33607,7 +33607,7 @@
      "updatedBy": "Icemourne"
     },
     "zh-chs": {
-     "lastUpdate": 1667926401445,
+     "lastUpdate": 1668186360048,
      "updatedBy": "Mistwalker"
     }
    }
@@ -33651,8 +33651,8 @@
     "secondary": "Luego de una baja:\nAumento de daño en un 30%, aumento 10 al alcance y disminucion de 20% a la Cadencia de Tiro o Velocidad de Carga durante 7 segundos\n\nArcos y Escopetas solo reciben un 20% de aumento a su daño\n\nLa Cadencia de Tiro tiende a cambiar hacia el proximo armazon mas lento. Por Ejemplo: Fusil automatico de Precision => Fusil automatico de Alto Impacto \n\nMejorado: La duracion del bufo aumenta a un maximo de 8 segundos"
    },
    "zh-chs": {
-    "main": "完成武器击杀时:\n< weapon type ( Shotgun, Bow ) >\n+20% 伤害\n< ( other ) >\n+30% 伤害\n<$$>\n//\n-20% #rof\n< weapon type ( Bow, Heavy GL ) > // just to remove rage stat from weapons with out range\n< ( other ) >\n+10 射程\n<$$>\n<formula 有效射程: [range_0] />\n持续 #e${7 + #t} 秒\n\n<title 更多信息 [damage] />\ntitle damage (\n弓箭和霰弹枪仅 +20% 伤害。\n其他武器 +30% 伤害。\n)\nenhanced (\nvar t = 1\n)",
-    "secondary": "完成武器击杀时:\n+30% 伤害\n-20% 射速/充能效率\n+10 射程\n持续 #e${7 + #t} 秒\n\n弓箭和霰弹枪仅 +20% 伤害。\n\nenhanced (\nvar t = 1\n)"
+    "main": "完成武器击杀后 7 秒内:\n< weapon type ( Shotgun, Bow ) >\n+20% 伤害\n< ( other ) >\n+30% 伤害\n<$$>\n//\n-20% #rof\n< weapon type ( Bow, Heavy GL ) > // just to remove rage stat from weapons with out range\n< ( other ) >\n+10 射程\n<$$>\n\n<title 更多信息 [damage] />\ntitle damage (\n弓箭和霰弹枪仅 +20% 伤害。\n其他武器 +30% 伤害。\n\n因为没有射程属性，所以弓箭和榴弹发射器不会获得 +10 射程。\n)\nenhanced (\n#e 增益持续时间增加到 8 秒。\n)\n<formula 有效射程: [range_0] />",
+    "secondary": "完成武器击杀后 7 秒内:\n+30% 伤害\n-20% 射速/充能效率\n+10 射程\n\n弓箭和霰弹枪仅 +20% 伤害。\n\nenhanced (\n#e 增益持续时间增加到 8 秒。\n)"
    }
   },
   "linkedWith": 2889515627
@@ -35462,7 +35462,7 @@
   "hash": 3907865655,
   "name": "Right Hook",
   "type": "weaponOriginTrait",
-  "lastUpload": 1668186013438,
+  "lastUpload": 1668186383076,
   "editor": {
    "en": {
     "main": "Dealing Melee Damage grants +10 Aim Assistance and +10 Range for 10 seconds.\n\n<formula Effective Range: [range_0] />\n\nDealing additional Melee Damage while the Buff is active extends the duration by +10 seconds, up to 20 seconds.",
@@ -36248,7 +36248,7 @@
   "name": "Veist Stinger",
   "type": "weaponOriginTrait",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1668186013438,
+  "lastUpload": 1668186383076,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -36286,7 +36286,7 @@
   "name": "Skulking Wolf",
   "type": "weaponOriginTrait",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1668186013438,
+  "lastUpload": 1668186383076,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -37887,7 +37887,7 @@
   "name": "Bitterspite",
   "type": "weaponOriginTrait",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1668186013438,
+  "lastUpload": 1668186383076,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
