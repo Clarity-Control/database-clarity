@@ -3,7 +3,7 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1668183797500,
+  "lastUpload": 1668186013438,
   "uploadedBy": "Mistwalker",
   "editor": {
    "en": {
@@ -771,11 +771,15 @@
   "hash": 79448657,
   "name": "Psychohack",
   "type": "weaponOriginTrait",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668186013438,
   "editor": {
    "en": {
     "main": "Scoring multiple hits lowers the target's damage output for a short duration.\n\n<pve PVE: [?] Reduced Damage for [?] seconds. />\n<pvp PVP: 10% Reduced Damage for 3 seconds. />",
     "secondary": "Scoring multiple weapon hits lowers the target's damage output for a short duration.\n\nPVE: [?] Reduced Damage for [?] seconds.\nPVP: 10% Reduced Damage for 3 seconds."
+   },
+   "zh-chs": {
+    "main": "此武器的持续伤害会在短时间内降低目标的伤害输出。\n\n<pve PVE: [?] 秒内降低 [?] 伤害。 />\n<pvp PVP: 3 秒内降低 10% 伤害。 />",
+    "secondary": "此武器的持续伤害会在短时间内降低目标的伤害输出。\n\nPVE: [?] 秒内降低 [?] 伤害。\nPVP: 3 秒内降低 10% 伤害。"
    }
   },
   "updateTracker": {
@@ -786,6 +790,10 @@
     "en": {
      "lastUpdate": 1667254028077,
      "updatedBy": "Fading Shadow"
+    },
+    "zh-chs": {
+     "lastUpdate": 1668184747179,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -793,7 +801,7 @@
   "hidden": false,
   "inLiveDatabase": true,
   "optional": false,
-  "uploadedBy": "Icemourne"
+  "uploadedBy": "Mistwalker"
  },
  "82180537": {
   "hash": 82180537,
@@ -1184,10 +1192,14 @@
   "hash": 120721526,
   "name": "Runneth Over",
   "type": "weaponOriginTrait",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668186013438,
   "editor": {
    "en": {
     "main": "Reloading while within [15?] metres of allies overflows your magazine by 10% for every ally, up to [50?]%.",
+    "secondary": "import self"
+   },
+   "zh-chs": {
+    "main": "[15?] 米范围内每有一名盟友，填装时会过量填充 10% 的弹匣，最高 [50?]%.",
     "secondary": "import self"
    }
   },
@@ -1199,6 +1211,10 @@
     "en": {
      "lastUpdate": 1665261867376,
      "updatedBy": "Fading Shadow"
+    },
+    "zh-chs": {
+     "lastUpdate": 1668185055201,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -1206,7 +1222,7 @@
   "hidden": false,
   "inLiveDatabase": true,
   "optional": false,
-  "uploadedBy": "Icemourne"
+  "uploadedBy": "Mistwalker"
  },
  "124408337": {
   "hash": 124408337,
@@ -6499,8 +6515,8 @@
   "hash": 744217850,
   "name": "Vanguard's Vindication",
   "type": "weaponOriginTrait",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1668186013438,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -6516,8 +6532,8 @@
      "updatedBy": "Fading Shadow"
     },
     "zh-chs": {
-     "lastUpdate": 1664418865283,
-     "undatedBy": "Mistwalker"
+     "lastUpdate": 1668185924731,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -6528,7 +6544,7 @@
    },
    "zh-chs": {
     "main": "每次最后一击恢复 7 生命值。",
-    "secondary": "每次最后一击恢复 7 生命值。"
+    "secondary": "import self"
    }
   }
  },
@@ -11290,8 +11306,8 @@
   "hash": 1250481499,
   "name": "Extrovert",
   "type": "weaponOriginTrait",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1668186013438,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -11307,8 +11323,8 @@
      "updatedBy": "Fading Shadow"
     },
     "zh-chs": {
-     "lastUpdate": 1664415783589,
-     "undatedBy": "Mistwalker"
+     "lastUpdate": 1668184010388,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -11318,8 +11334,8 @@
     "secondary": "import self"
    },
    "zh-chs": {
-    "main": "当 [?] 米内有 [?] 个战斗人员或梦魇时， 完成最后一击时：\n恢复 [?] 生命值。",
-    "secondary": "当 [?] 米内有 [?] 个战斗人员或梦魇时， 完成最后一击时：\n恢复 [?] 生命值。"
+    "main": "当 [15?] 米内有 [3] 个战斗人员或梦魇时， 完成最后一击时：\n恢复 [40] 生命值。\n\n触发间隔为 3 秒。",
+    "secondary": "import self"
    }
   }
  },
@@ -11356,11 +11372,15 @@
   "hash": 1260401931,
   "name": "Hot Swap",
   "type": "weaponOriginTrait",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668186013438,
   "editor": {
    "en": {
     "main": "Upon readying the gun after receiving damage within [?] seconds:\n+30 Handling for 4 seconds.\n\n<formula Ready Speed: [ready_0] />\n<formula Stow Speed: [stow_0] />\n\nSwords receive increased Charge Rate, Guard Resistance, and Guard Endurance.",
     "secondary": "Upon readying the gun after receiving damage within [?] seconds:\n+30 Handling for 4 seconds.\n\nSwords receive increased Charge Rate, Guard Resistance, and Guard Endurance."
+   },
+   "zh-chs": {
+    "main": "在受到伤害 [?] 秒内拔出此武器：\n+30 操控性，持续 4 秒。\n\n<formula 拔枪速度： [ready_0] />\n<formula 收枪速度： [stow_0] />\n\n刀剑获得更高的充能效率、防御效率、防御抗性。",
+    "secondary": "在受到伤害 [?] 秒内拔出此武器：\n+30 操控性，持续 4 秒。\n\n刀剑获得更高的充能效率、防御效率、防御抗性。"
    }
   },
   "updateTracker": {
@@ -11372,6 +11392,10 @@
     "en": {
      "lastUpdate": 1665261548830,
      "updatedBy": "Fading Shadow"
+    },
+    "zh-chs": {
+     "lastUpdate": 1668184378168,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -11388,7 +11412,7 @@
     }
    ]
   },
-  "uploadedBy": "Icemourne"
+  "uploadedBy": "Mistwalker"
  },
  "1264398905": {
   "hash": 1264398905,
@@ -11534,8 +11558,8 @@
   "hash": 1281216113,
   "name": "Stunning Recovery",
   "type": "weaponOriginTrait",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1668186013438,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -11551,8 +11575,8 @@
      "updatedBy": "Fading Shadow"
     },
     "zh-chs": {
-     "lastUpdate": 1664418426281,
-     "undatedBy": "Mistwalker"
+     "lastUpdate": 1668185846476,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -11562,8 +11586,8 @@
     "secondary": "Stunning a Champion refreshes [25?%] of your Magazine, restores 60 HP, and grants +40 Recovery for 3 seconds."
    },
    "zh-chs": {
-    "main": "晕眩一个勇士可 <title 刷新 [refreshes] /> X% 弹夹，恢复 60 生命值，并在 3 秒内获得 40 恢复属性。\ntitle refreshes (\n无动画，也不触发相关 perk。\n)",
-    "secondary": "晕眩一个勇士可刷新 X% 弹夹，恢复 60 生命值，并在 3 秒内获得 40 恢复属性。"
+    "main": "晕眩一个勇士可 <title 刷新 [G_refresh] /> [25?%] 弹夹，恢复 60 生命值，并在 3 秒内获得 40 恢复属性。\n",
+    "secondary": "晕眩一个勇士可刷新 [25?%] 弹夹，恢复 60 生命值，并在 3 秒内获得 40 恢复属性。"
    }
   }
  },
@@ -14369,8 +14393,8 @@
   "hash": 1536798515,
   "name": "Land Tank",
   "type": "weaponOriginTrait",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1668186013438,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -14387,8 +14411,8 @@
      "updatedBy": "Fading Shadow"
     },
     "zh-chs": {
-     "lastUpdate": 1664416355940,
-     "undatedBy": "Mistwalker"
+     "lastUpdate": 1668184396656,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -14399,7 +14423,7 @@
    },
    "zh-chs": {
     "main": "使用此武器造成最后一击:\n在 5 秒内可提供 10 韧性以及 5% 对战斗人员的额外伤害抗性。\n可叠加 3 次。",
-    "secondary": "使用此武器造成最后一击:\n在 5 秒内可提供 10 韧性以及 5% 对战斗人员的额外伤害抗性。\n可叠加 3 次。"
+    "secondary": "import self"
    }
   }
  },
@@ -16566,8 +16590,8 @@
   "hash": 1702976605,
   "name": "Classy Contender",
   "type": "weaponOriginTrait",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1668186013438,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -16584,8 +16608,8 @@
      "updatedBy": "Fading Shadow"
     },
     "zh-chs": {
-     "lastUpdate": 1664415513051,
-     "undatedBy": "Mistwalker"
+     "lastUpdate": 1668183897971,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -16596,7 +16620,7 @@
    },
    "zh-chs": {
     "main": "使用此武器完成最后一击可获得 5% 职业技能能量。",
-    "secondary": "使用此武器完成最后一击可获得 5% 职业技能能量。"
+    "secondary": "import self "
    }
   }
  },
@@ -18488,8 +18512,8 @@
   "hash": 1905044254,
   "name": "To Excess",
   "type": "weaponOriginTrait",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1668186013438,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -18506,8 +18530,8 @@
      "updatedBy": "Fading Shadow"
     },
     "zh-chs": {
-     "lastUpdate": 1664418812050,
-     "undatedBy": "Mistwalker"
+     "lastUpdate": 1668185906911,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -18517,8 +18541,8 @@
     "secondary": "import self"
    },
    "zh-chs": {
-    "main": "超能能量全满时使用此武器完成最后一击：\n在 12 秒内增加 20 力量、20 纪律。",
-    "secondary": "超能能量全满时使用此武器完成最后一击：\n在 12 秒内增加 20 力量、20 纪律。"
+    "main": "超能能量全满时使用此武器完成最后一击：\n在 12 秒内 +20 力量、+20 纪律。",
+    "secondary": "import self"
    }
   }
  },
@@ -21378,11 +21402,15 @@
   "hash": 2250679103,
   "name": "Search Party",
   "type": "weaponOriginTrait",
-  "lastUpload": 1668002255659,
-  "uploadedBy": "Icemourne",
+  "lastUpload": 1668186013438,
+  "uploadedBy": "Mistwalker",
   "editor": {
    "en": {
     "main": "If no allies are within 15 metres and you are aiming-down-sights: \n2.5% Reduced Aiming-Down-Sights Movement Penalty and [0.85x?] Aiming-Down-Sights Duration Multiplier.",
+    "secondary": "import self"
+   },
+   "zh-chs": {
+    "main": "15 米范围内没有盟友的情况下瞄准：\n-2.5% 移动速度惩罚\n-15% 瞄准动画时间",
     "secondary": "import self"
    }
   },
@@ -21395,6 +21423,10 @@
     "en": {
      "lastUpdate": 1667254180793,
      "updatedBy": "Fading Shadow"
+    },
+    "zh-chs": {
+     "lastUpdate": 1668185270176,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -26330,8 +26362,8 @@
   "hash": 2839173408,
   "name": "Omolon Fluid Dynamics",
   "type": "weaponOriginTrait",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1668186013438,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -26347,8 +26379,8 @@
      "updatedBy": "Fading Shadow"
     },
     "zh-chs": {
-     "lastUpdate": 1664417381192,
-     "undatedBy": "Mistwalker"
+     "lastUpdate": 1668184496640,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -26374,8 +26406,8 @@
     "secondary": "The top 50% of the magazine has up to +20 Stability and +30 Reload Speed."
    },
    "zh-chs": {
-    "main": "此武器的前半弹匣弹药最多提供 20 稳定性和 30 装填速度。\n\n从该特性获取的额外属性将根据弹夹余弹数量降低，余弹数量降低到 50% 时失效。\n\n<formula Maximum Effect Reload Time: [reload_0] />\n<formula Half Effect Reload Time: [reload_1] />",
-    "secondary": "此武器的前半弹匣弹药最多提供 20 稳定性和 30 装填速度。\n\n从该特性获取的额外属性将根据弹夹余弹数量降低，余弹数量降低到 50% 时失效。"
+    "main": "此武器的前半弹匣弹药获得 20 稳定性和 30 装填速度。\n\n<formula Maximum Effect Reload Time: [reload_0] />\n<formula Half Effect Reload Time: [reload_1] />",
+    "secondary": "此武器的前半弹匣弹药获得 20 稳定性和 30 装填速度。"
    }
   }
  },
@@ -30815,8 +30847,8 @@
   "hash": 3363267119,
   "name": "Souldrinker",
   "type": "weaponOriginTrait",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1668186013438,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -30832,8 +30864,8 @@
      "updatedBy": "Fading Shadow"
     },
     "zh-chs": {
-     "lastUpdate": 1664418120420,
-     "undatedBy": "Mistwalker"
+     "lastUpdate": 1668185398893,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -30843,8 +30875,8 @@
     "secondary": "import self"
    },
    "zh-chs": {
-    "main": "根据填装之前完成的命中数恢复生命值。\n\n可恢复生命值为 20 至 80 点，和武器类型相关。",
-    "secondary": "根据填装之前完成的命中数恢复生命值。\n\n可恢复生命值为 20 至 80 点，和武器类型相关。"
+    "main": "根据填装之前完成的命中数恢复生命值。\n每次命中可恢复的生命值和武器类型相关。\n\n可恢复生命值为 20 至 80 点。",
+    "secondary": "import self"
    }
   }
  },
@@ -35430,11 +35462,15 @@
   "hash": 3907865655,
   "name": "Right Hook",
   "type": "weaponOriginTrait",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668186013438,
   "editor": {
    "en": {
     "main": "Dealing Melee Damage grants +10 Aim Assistance and +10 Range for 10 seconds.\n\n<formula Effective Range: [range_0] />\n\nDealing additional Melee Damage while the Buff is active extends the duration by +10 seconds, up to 20 seconds.",
     "secondary": "Dealing Melee Damage grants +10 Aim Assistance and +10 Range for 10 seconds.\n\nDealing additional Melee Damage while the Buff is active extends the duration by +10 seconds, up to 20 seconds."
+   },
+   "zh-chs": {
+    "main": "造成近战伤害会使此武器在 10 秒内 +10 瞄准辅助、+10 射程。\n\n<formula 有效距离： [range_0] />\n\n再次造成近战伤害可延长 10 秒持续时间，最高 20 秒。",
+    "secondary": "造成近战伤害会使此武器在 10 秒内 +10 瞄准辅助、+10 射程。\n\n再次造成近战伤害可延长 10 秒持续时间，最高 20 秒。"
    }
   },
   "updateTracker": {
@@ -35446,6 +35482,10 @@
     "en": {
      "lastUpdate": 1665261715383,
      "updatedBy": "Fading Shadow"
+    },
+    "zh-chs": {
+     "lastUpdate": 1668184933477,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -35462,7 +35502,7 @@
     }
    ]
   },
-  "uploadedBy": "Icemourne"
+  "uploadedBy": "Mistwalker"
  },
  "3913463509": {
   "hash": 3913463509,
@@ -36207,8 +36247,8 @@
   "hash": 3988215619,
   "name": "Veist Stinger",
   "type": "weaponOriginTrait",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1668186013438,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -36225,8 +36265,8 @@
      "updatedBy": "Fading Shadow"
     },
     "zh-chs": {
-     "lastUpdate": 1664419007442,
-     "undatedBy": "Mistwalker"
+     "lastUpdate": 1668185994641,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -36236,8 +36276,8 @@
     "secondary": "Hits have a chance to refresh your magazine.\n\nBows receive 0.85x Draw Time. Swords receive [?] Faster Charge Rate."
    },
    "zh-chs": {
-    "main": "命中时有概率刷新弹夹。\n\n加快弓 15[?]ms 蓄力时间。加快刀剑 [?] 充能效率。",
-    "secondary": "命中时有概率刷新弹夹。\n\n加快弓 15[?]ms 蓄力时间。加快刀剑 [?] 充能效率。"
+    "main": "命中时有概率刷新弹夹。\n\n弓箭 -15% 蓄力时间。加快刀剑 [?] 充能效率。",
+    "secondary": "命中时有概率刷新弹夹。\n\n弓箭 -15% 蓄力时间。加快刀剑 [?] 充能效率。"
    }
   }
  },
@@ -36245,8 +36285,8 @@
   "hash": 3989629871,
   "name": "Skulking Wolf",
   "type": "weaponOriginTrait",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1668186013438,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -36263,8 +36303,8 @@
      "updatedBy": "Fading Shadow"
     },
     "zh-chs": {
-     "lastUpdate": 1664417704282,
-     "undatedBy": "Mistwalker"
+     "lastUpdate": 1668185301610,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -36274,8 +36314,8 @@
     "secondary": "import self"
    },
    "zh-chs": {
-    "main": "低于63点生命值时，守护者使用此武器造成最后一击：\n\n可在 10 秒内提供强化雷达，并将你从敌方雷达上移除。",
-    "secondary": "低于63点生命值时，守护者使用此武器造成最后一击：\n\n可在 10 秒内提供强化雷达，并将你从敌方雷达上移除。"
+    "main": "低于 63 点生命值时，守护者使用此武器造成最后一击：\n\n在 10 秒内提供强化雷达，并将你从敌方雷达上移除。",
+    "secondary": "import self"
    }
   }
  },
@@ -37846,8 +37886,8 @@
   "hash": 4154828211,
   "name": "Bitterspite",
   "type": "weaponOriginTrait",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1668186013438,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -37864,8 +37904,8 @@
      "updatedBy": "Fading Shadow"
     },
     "zh-chs": {
-     "lastUpdate": 1664415438210,
-     "undatedBy": "Mistwalker"
+     "lastUpdate": 1668183886656,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -37876,7 +37916,7 @@
    },
    "zh-chs": {
     "main": "受到 [20?] 伤害可获得一层苦涩怨恨，最多叠加 5 次。\n\n增加的装填速度与苦涩怨恨叠加的层数相关，当重新装填或收起武器后将失效。",
-    "secondary": "受到 [20?] 伤害可获得一层苦涩怨恨，最多叠加 5 次。\n\n增加的装填速度与苦涩怨恨叠加的层数相关，当重新装填或收起武器后将失效。"
+    "secondary": "import self"
    }
   }
  },
