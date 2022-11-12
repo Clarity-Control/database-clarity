@@ -3,8 +3,8 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1668191207806,
-  "uploadedBy": "Stardust",
+  "lastUpload": 1668259907310,
+  "uploadedBy": "Icemourne",
   "editor": {
    "en": {
     "main": "Images you can use in descriptions\n<arc/> <void/> <solar/>\n<primary/> <special/> <heavy/>\n<warlock/> <hunter/> <titan/>\nText coloring\n<blue text /> <green text /> <purple text /> <yellow text />\n<pvp text /> <pve text />\n\nThe same can be done to lines of text <green/>\n\nYou probably noticed having multiple spaces in the editor\n              doesn't mean it will be the same in description\n              you can change that with <breakSpaces/>\n\n// This is comment content after // will not appear in the description\n\n// ----------------------------------------------------------\n// weapon type explanation\n// they work like if else in programming\n\n// if auto rifle\n< weapon type ( AR ) >\n    Apply this text\n// else if glaive\n< ( Glaive ) >\n    Apply this text\n// else\n< ( other ) >\n    Apply this text to all weapons not specified in this block\n<$$>\n// also, you can preview how it would look on x weapon by selecting the weapon in the weapon popup under the weapons name\n// ----------------------------------------------------------\nIf there is something you want just ask\nThis is not everything you can do btw\n\nTo see the full list press CTRL + SPACE\nAlso, CTRL + F is a thing and can be used to find and replace\nAlso also editor has other stuff to see them press F1",
@@ -8065,7 +8065,7 @@
   "itemName": "Boots of the Assembler",
   "type": "armorExotic",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668259907310,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -8077,8 +8077,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667254988240,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1668259863089,
+     "updatedBy": "Icemourne"
     },
     "ko": {
      "lastUpdate": 1665685317733,
@@ -8088,8 +8088,8 @@
   },
   "editor": {
    "en": {
-    "main": "Passively grants +30 Airborne Effectiveness to Lumina.\n\nStanding in a Rift creates Matching Noble Seekers every 5 seconds that seek out allies within 35 metres and apply a buff depending on the type of Rift you stand on. \nAmount of Noble Seekers spawned is equal to Fireteam Size-1, with a minimum of 1 Seeker.\n\nEach time a Noble Seeker applies a buff, the Rift Duration gets extended by 5 seconds.\n\nHealing Rift Seekers heal allies for 75 HP and begin Health Regeneration.\nEmpowering Rift Noble Seekers grant a <pve 35% /> <pvp [15%] /> Damage Increase for 5 seconds.\n",
-    "secondary": "Passively grants +30 Airborne Effectiveness to Lumina.\n\nStanding in a Rift creates Matching Noble Seekers every 5 seconds that seek out allies within 35 metres and apply a buff depending on the type of Rift you stand on. \nAmount of Noble Seekers spawned is equal to Fireteam Size-1, with a minimum of 1 Seeker.\n\nEach time a Noble Seeker applies a buff, the Rift Duration gets extended by 5 seconds.\n\nHealing Rift Seekers heal allies for 75HP and begin Health Regeneration.\nEmpowering Rift Seekers grant a 35% [15%] Damage Increase for 5 seconds."
+    "main": "Passively grants +30 Airborne Effectiveness to Lumina.\n\nStanding in a Rift creates Matching Noble Seekers every 5 seconds that seek out allies within 35 metres and apply a buff depending on the type of Rift you stand on. \nAmount of Noble Seekers spawned is equal to Fireteam Size-1, with a minimum of 1 Seeker.\n\nEach time a Noble Seeker applies a buff, the Rift Duration gets extended by 5 seconds.\n\nHealing Rift Seekers heal allies for 75HP and begin Health Regeneration.\nEmpowering Rift Noble Seekers grant a <pve 35% /> <pvp [15%] /> Damage Increase for 5 seconds.\n",
+    "secondary": "import self"
    },
    "ko": {
     "main": "균열에 서있으면 5초 마다 고귀한 추적기를 생성합니다. 추적기는 35미터 이내에 있는 아군을 찾아가며 균열의 종류에 따라 버프를 부여합니다.\n\n고귀한 추적기가 버프를 부여 할 때 마다 균열의 지속시간이 5초 증가합니다.\n\n치유 균열 추적기는 아군의 체력을 75HP 만큼 회복하고 즉시 체력 재생을 발동합니다.\n강화 균열 추적기는 5초간 <pve 35% /> <pvp [20%]> 만큼의 피해 증가를 부여합니다.",
@@ -20727,7 +20727,7 @@
   "itemName": "Chromatic Fire",
   "type": "armorExotic",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668259907310,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -20739,8 +20739,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667255108393,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1668259895245,
+     "updatedBy": "Icemourne"
     },
     "ko": {
      "lastUpdate": 1665685885774,
@@ -33344,7 +33344,7 @@
   "itemName": "Aeon Safe",
   "type": "armorExotic",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668259907310,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -33356,8 +33356,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881743,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1668259789534,
+     "updatedBy": "Icemourne"
     },
     "ko": {
      "lastUpdate": 1665683187879,
@@ -33368,7 +33368,7 @@
   "editor": {
    "en": {
     "main": "2 Precision Multikills drop an Orb of Power for allies.\n\nFinishing an Elite spawns a Special Ammo Brick for Allies\nFinishing a Mini-boss spawns a Power Ammo Brick for Allies.\n\nAeon Allies additionally receive a 35% Damage Increase for 20 seconds.",
-    "secondary": "2 Precision Multikills drop an Orb of Power for allies.\r\n\r\nFinishing an Elite spawns a Special Ammo Brick for Allies\r\nFinishing a Mini-boss spawns a Power Ammo Brick for Allies.\r\n\r\nAeon Allies additionally receive a 35% Damage Increase for 20 seconds."
+    "secondary": "import self"
    },
    "ko": {
     "main": "빠르게 정밀 처치 2회를 하면 아군을 위한 힘의 보주가 생성됩니다.\n\n엘리트 적을 필살기로 처치하면 아군을 위한 특수 탄약이 생성됩니다.\n미니보스를 필살기로 처치하면 아군을 위한 중화기 탄약이 생성됩니다.\n\n 추가로 영겁 시리즈를 장착한 아군은 20초 동안 35%의 피해 저항을 받습니다.",
@@ -33414,7 +33414,7 @@
   "itemName": "An Insurmountable Skullfort",
   "type": "armorExotic",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668259907310,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -33426,8 +33426,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667585618782,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1668259797636,
+     "updatedBy": "Icemourne"
     },
     "ko": {
      "lastUpdate": 1665683252223,
@@ -33438,7 +33438,7 @@
   "editor": {
    "en": {
     "main": "<arc/>Powered Arc Melee Kills grant full Melee Ability Energy and begin Health Regeneration.",
-    "secondary": "Powered Arc Melee Kills grant full Melee Ability Energy and begin Health Regeneration."
+    "secondary": "import self"
    },
    "ko": {
     "main": "<arc/>전기 근접 능력 처치는 근접 능력을 완전히 채워주고 바로 체력 회복을 발동합니다.",
@@ -33453,7 +33453,7 @@
   "itemName": "Athrys's Embrace",
   "type": "armorExotic",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668259907310,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -33465,8 +33465,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667588581056,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1668259836118,
+     "updatedBy": "Icemourne"
     },
     "ko": {
      "lastUpdate": 1665684125658,
@@ -33477,7 +33477,7 @@
   "editor": {
    "en": {
     "main": "Weighted Throwing Knives gain a second bounce with greatly increased tracking.\n\nAfter Scoring 3 Precision Hits within 2.5 seconds of each: Gain Strengthened Throwing Knife.\nAdditional Precision Hits increase duration by 5 seconds each, up to 30 seconds.\n\nStrengthened Throwing Knife deal <pve 200% /> <pvp [100%] /> increased damage and stagger <unstoppable/>Unstoppable Champions.\n\nLanding a Knife Hit consumes Strengthened Throwing Knife.",
-    "secondary": "Weighted Throwing Knives gain a second bounce with greatly increased tracking.\n\nAfter Scoring 3 Precision Hits within 2.5 seconds of each: Gain Strengthened Throwing Knife.\nAdditional Precision Hits increase duration by 5 seconds each, up to 30 seconds.\n\nStrengthened Throwing Knife deals 200% [PVP: 100%] increased damage and staggers Unstoppable Champions.\n\nBuff is consumed on knife hit."
+    "secondary": "import self"
    },
    "ko": {
     "main": "추 달린 칼이 두번 튕길 수 있으며 막대한 추적 능력을 가집니다.\n\n2.5초안에 정밀타를 3번 적중하면 강화된 칼을 얻습니다.\n추가 정밀타는 지속시간을 5초 식 늘려줍니다.\n\n강화된 칼은 <pve 200% /> <pvp [100%] />의 피해 증가를 받으며 저지 불가 용사를 기절시킬 수 있습니다.\n\n칼을 적중하면 강화된 칼 효과를 소모합니다.",
@@ -33687,7 +33687,7 @@
   "itemName": "Aeon Soul",
   "type": "armorExotic",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668259907310,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -33699,8 +33699,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881743,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1668259793702,
+     "updatedBy": "Icemourne"
     },
     "ko": {
      "lastUpdate": 1665682825510,
@@ -33711,7 +33711,7 @@
   "editor": {
    "en": {
     "main": "Ally Deaths grant 25% Class Ability Energy.\nGain Full Class Ability Energy on Ally Revival.\n\nCasting Super fully heals allies within 30 meters.\n\nAeon Allies receive a 110HP Overshield for 20 seconds that recharges after 3 seconds.",
-    "secondary": "Ally Deaths grant 25% Class Ability Energy.\r\nGain Full Class Ability Energy on Ally Revival.\r\n\r\nCasting Super fully heals allies within 30 meters.\r\n\r\nAeon Allies receive a 110HP Overshield for 20 seconds that recharges after 3 seconds."
+    "secondary": "import self"
    },
    "ko": {
     "main": "아군이 죽으면 25%의 직업 능력 에너지를 얻습니다.\n아군을 부활시키면 직업 능력 에너지를 완전히 돌려받습니다.\n\n궁극기를 시전하면 30미터 이내에 있는 아군들을 완전히 회복시킵니다.\n\n추가로 영겁 시리즈를 장착한 아군들은 20초 동안 110HP 짜리 보호막을 얻으며 3초 이후 재생됩니다.",
