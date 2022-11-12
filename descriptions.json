@@ -3,7 +3,7 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1668259907310,
+  "lastUpload": 1668260616429,
   "uploadedBy": "Icemourne",
   "editor": {
    "en": {
@@ -222,7 +222,7 @@
   "itemName": "Contraverse Hold",
   "type": "armorExotic",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668260616429,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -234,8 +234,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667255182266,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1668259966796,
+     "updatedBy": "Icemourne"
     },
     "ko": {
      "lastUpdate": 1667822080078,
@@ -246,7 +246,7 @@
   "editor": {
    "en": {
     "main": "While Charging a Grenade:\nChaotic Exchanger grants 20% Damage Resist.\n\nGrenade Hits proc Chaotic Exchange, granting <pve 2000% /> <pvp [1000%] /> Additional Base Grenade Regeneration Rate for 1.75 seconds.\n4 second cooldown between Activations.\n\nCharged Vortex Grenade can proc twice if enemies get hit by the initial explosion and the last few ticks.",
-    "secondary": "While Charging a Grenade:\nChaotic Exchanger grants 20% Damage Resist.\n\nGrenade Hits proc Chaotic Exchange, granting 2000% [PVP: 1000%] Additional Base Grenade Regeneration Rate for 1.75 seconds.\n4 second cooldown between Activations.\n\nVortex Grenade can proc twice if enemies get hit by the initial explosion and the last ticks."
+    "secondary": "import self"
    },
    "ko": {
     "main": "수류탄을 충전하는 동안:\n혼돈 교환기는 20% 피해 저항을 제공합니다.\n\n수류탄 적중 시 혼돈의 교환을 제공하고 <pve 2000% /> <pvp [1000%] /> 만큼의 수류탄 피해를 증가시키며 수류탄 재생 속도를 1.75초 만큼 줄입니다.\n4초의 쿨다운이 있습니다.\n\n충전된 소용돌이 수류탄이 착탄과 동시에 피해를 입히거나 마지막 틱으로 피해를 주면 두번 발동 할 수 있습니다.",
@@ -2030,7 +2030,7 @@
   "itemName": "VAssassin's Cowl",
   "type": "armorExotic",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668260616429,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -2042,15 +2042,15 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667588403899,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1668260588695,
+     "updatedBy": "Icemourne"
     }
    }
   },
   "editor": {
    "en": {
     "main": "Gain <void/>Void Invisibility on Powered Melee Kill. (Longer on Finishers)\nHeals for X on Powered Melee Kill. (Stronger on Finishers)\n\nInvisibility Duration (on Finishers):\nMinor = 6.8 seconds (9.8)\nElite/Guardian = 9.8 seconds (12.7)\nMiniboss = 12.8 seconds (15.8)\nBoss = 13.3 seconds\n\nEcho of Persistence increases the <void/>Void Invisibility duration by 41.5%.\n\nBosses and Vehicles are not finishable.",
-    "secondary": "Gain Void Invisibility on Powered Melee Kill. (Longer on Finishers)\nHeals for X on Powered Melee Kill. (Stronger on Finishers)\n\nInvisibility Duration (on Finishers):\nMinor = 6.8 seconds (9.8)\nElite/Guardian = 9.8 seconds (12.7)\nMiniboss = 12.8 seconds (15.8)\nBoss = 13.3 seconds\n\nEcho of Persistence increases the Void Invisibility duration by 41.5%.\n\nBosses and Vehicles are not finishable."
+    "secondary": "import self"
    }
   }
  },
@@ -3224,7 +3224,7 @@
   "itemName": "Wormgod Caress",
   "type": "armorExotic",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668260616429,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -3236,8 +3236,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881742,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1668260597304,
+     "updatedBy": "Icemourne"
     },
     "zh-chs": {
      "lastUpdate": 1664422653646,
@@ -3248,7 +3248,7 @@
   "editor": {
    "en": {
     "main": "Grants Burning Fists on Melee Kill.\r\nBurning Fists lasts 5 seconds and grants Bonus Melee Damage.\r\n\r\nBonus Melee Damage:\r\n80% | 170% | 390% | 520% | 650%",
-    "secondary": "Grants Burning Fists on Melee Kill.\r\nBurning Fists lasts 5 seconds and grants Bonus Melee Damage.\r\n\r\nBonus Melee Damage:\r\n80% | 170% | 390% | 520% | 650%"
+    "secondary": "import self"
    },
    "zh-chs": {
     "main": "近战击杀后获得燃烧之拳：\n燃烧之拳持续 5 秒，提供额外近战伤害，可叠加 5 层。\n\n额外近战伤害：\n80% | 170% | 390% | 520% | 650%",
@@ -3321,7 +3321,7 @@
   "itemName": "Nothing Manacles",
   "type": "armorExotic",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668260616429,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -3333,15 +3333,15 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667257148800,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1668260461625,
+     "updatedBy": "Icemourne"
     }
    }
   },
   "editor": {
    "en": {
     "main": "Grants an extra Scatter Grenade Ability Charge.\n\nScatter Grenades receive <title Chaos Accelerant's [chaos accelerant] /> Tracking Bonus.\nDoes not stack with Chaos Accelerant's Bonus.\n\ntitle chaos accelerant (\nVoid Aspect that allows you to Overcharge your Grenades.\n)",
-    "secondary": "Grants an extra Scatter Grenade Ability Charge.\n\nScatter Grenades receive Chaos Accelerant's Tracking Bonus.\nDoes not stack with Chaos Accelerant's Bonus."
+    "secondary": "import self"
    }
   }
  },
@@ -4190,7 +4190,7 @@
   "itemName": "Young Ahamkara's Spine",
   "type": "armorExotic",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668260616429,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -4202,15 +4202,15 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667594594498,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1668260609545,
+     "updatedBy": "Icemourne"
     }
    }
   },
   "editor": {
    "en": {
     "main": "Intrinsically grants Fastball, even on non-Tripmine Grenades\n\nEnhanced Tripmine Grenade:\n • 14% Increased Explosion Damage. Explosion Length and Width are increased to 14 metres.\n • Explosion no longer deals self-damage and has no damage falloff.\n • Lasts 30 seconds. (10s -> 30s)\n • Increases Tripmine Durability to 100 HP with 50% Damage Resist.\n\n<solar/>Solar Ability Damage recharges 33% of Tripmine Grenade Ability. \n<yellow/>Ember of Ashes allows each Tripmine to count as 2 instances of Solar Ability Damage. ",
-    "secondary": "Intrinsically grants Fastball, even on non-Tripmine Grenades\n\nEnhanced Tripmine Grenade:\n • 14% Increased Explosion Damage. Explosion Length and Width are increased to 14 metres.\n • Explosion no longer deals self-damage and has no damage falloff.\n • Lasts 30 seconds. (10s -> 30s)\n • Increases Tripmine Durability to 100 HP with 50% Damage Resist.\n\nSolar Ability Damage recharges 33% of Tripmine Grenade Ability. \nEmber of Ashes allows each Tripmine to count as 2 instances of Solar Ability Damage."
+    "secondary": "import self"
    }
   }
  },
@@ -4221,7 +4221,7 @@
   "itemName": "Mechaneer's Tricksleeves",
   "type": "armorExotic",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668260616429,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -4233,8 +4233,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667592619941,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1668260428121,
+     "updatedBy": "Icemourne"
     }
    }
   },
@@ -4267,7 +4267,7 @@
   "editor": {
    "en": {
     "main": "Passively grants +50 Airborne Effectiveness, +100 Handling and +100 Reload Speed to Sidearms.\n\nUpon readying a sidearm while at Critical Health:\n • <pve 100% /> <pvp [35%] /> increased damage until no longer at Critical Health.\n • Refreshes sidearm magazine.",
-    "secondary": "Passively grants +50 Airborne Effectiveness, +100 Handling and +100 Reload Speed to Sidearms.\n\nUpon readying a sidearm while at Critical Health:\n • 100% [PVP: 35%] increased damage until no longer at Critical Health.\n • Refreshes Sidearm's Magazine."
+    "secondary": "import self"
    }
   }
  },
@@ -4818,7 +4818,7 @@
   "itemName": "Omnioculus",
   "type": "armorExotic",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668260616429,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -4830,15 +4830,15 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667592852541,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1668260468284,
+     "updatedBy": "Icemourne"
     }
    }
   },
   "editor": {
    "en": {
     "main": "Grants an extra Smoke Bomb Melee Ability Charge.\n\nCloaking allies grants 50% Melee Energy per ally made invisible.\n\nWearing Omnioculus grants <pve 50% /> <pvp [10%] /> Damage Resist while invisible.\n\nBeing made invisible thanks to an Omnioculus Hunter grants <pve 50% /> <pvp [10%] /> Damage Resist\n\nWearing Omnioculus and being made invisible by another Omnioculus Hunter grants <pve 75% /> <pvp [19%] /> Damage Resist.\n\nDamage Resistance does not apply in Super.\n",
-    "secondary": "Grants an extra Smoke Bomb Melee Ability Charge.\n\nCloaking allies grants 50% Melee Energy per ally made invisible.\n\nWearing Omnioculus grants 50% [PVP: 10%] Damage Resist while invisible.\n\nBeing made invisible thanks to an Omnioculus Hunter grants 50% [PVP: 10%] Damage Resist\n\nWearing Omnioculus and being made invisible by another Omnioculus Hunter grants 75% [PVP: 19%] Damage Resist.\n\nDamage Resistance does not apply in Super."
+    "secondary": "import self"
    }
   }
  },
@@ -6383,7 +6383,7 @@
   "itemName": "The Stag",
   "type": "armorExotic",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668260616429,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -6395,15 +6395,15 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667258122696,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1668260570784,
+     "updatedBy": "Icemourne"
     }
    }
   },
   "editor": {
    "en": {
     "main": "Grants <pve 25% /> <pvp [5%] /> Damage Resist to Guardians inside your Rift.\nWorks while inside a Well of Radiance if you cast a Rift inside it.\n\nUpon reaching Critical Health:\nDearly Departed grants <pve 55% /> <pvp [27.5%] /> Class Ability Energy.\nBuff lasts until you are no longer at Critical Health, essentially serving as a Cooldown.\n\nOn Death:\nSpawns a Healing Rift for 15 seconds.",
-    "secondary": "Grants 25% [PVP: 5%] Damage Resist to Guardians inside your Rift.\nWorks while inside a Well of Radiance if you cast a Rift inside it.\n\nUpon reaching Critical Health:\nDearly Departed grants 55% [PVP: 27.5%] Class Ability Energy.\nBuff lasts until you are no longer at Critical Health, essentially serving as a Cooldown.\n\nOn Death:\nSpawns a Healing Rift for 15 seconds."
+    "secondary": "import self"
    }
   }
  },
@@ -8065,7 +8065,7 @@
   "itemName": "Boots of the Assembler",
   "type": "armorExotic",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1668259907310,
+  "lastUpload": 1668260616429,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -8229,7 +8229,7 @@
   "itemName": "Osmiomancy Gloves",
   "type": "armorExotic",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668260616429,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -8241,8 +8241,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667257606203,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1668260482676,
+     "updatedBy": "Icemourne"
     }
    }
   },
@@ -9983,7 +9983,7 @@
   "itemName": "Vesper of Radius",
   "type": "armorExotic",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668260616429,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -9995,15 +9995,15 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667258612944,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1668260593535,
+     "updatedBy": "Icemourne"
     }
    }
   },
   "editor": {
    "en": {
     "main": "While surrounded by at least 3 enemies within 15 metres:\nGain Additional Base Class Ability Regeneration Rate.\n\nAdditional Base Class Ability Regeneration Rate:\n3 Enemies = 250%\n4 Enemies = 666%\n5 Enemies = 1085%\n6 Enemies = 1500%\n\n1 second after casting Rift:\nAn Arc Shockwave is cast that deals <pve 300 /> <pvp [100] /> damage and knocks back enemies in a 7.5 metres radius.",
-    "secondary": "While surrounded by at least 3 enemies within 15 metres:\nGain Additional Base Class Ability Regeneration Rate.\n\nAdditional Base Class Ability Regeneration Rate:\n3 Enemies = 250%\n4 Enemies = 666%\n5 Enemies = 1085%\n6 Enemies = 1500%\n\n1 second after casting Rift:\nAn Arc Shockwave is cast that deals 300 [PVP: 100] damage and knocks back enemies in a 7.5 metres radius."
+    "secondary": "import self"
    }
   }
  },
@@ -10210,7 +10210,7 @@
   "itemName": "Doom Fang Pauldron",
   "type": "armorExotic",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668260616429,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -10222,8 +10222,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667581045485,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1668259995761,
+     "updatedBy": "Icemourne"
     },
     "ko": {
      "lastUpdate": 1665694682007,
@@ -10234,7 +10234,7 @@
   "editor": {
    "en": {
     "main": "Powered Void Melee Kills grant <pve 20% /> <pvp [10%] /> Super Energy once per usage.\n\nSentinel Shield's Shield Throw Hits regenerate 10% Super Energy.",
-    "secondary": "Powered Void Melee Kills grant 20% [PVP: 10%] Super Energy once per usage.\n\nSentinel Shield's Shield Throw Hits regenerate 10% Super Energy."
+    "secondary": "import self"
    },
    "ko": {
     "main": "공허 근접 능력으로 처치 시 <pve 20% /> <pvp [10%] />의 궁극기 에너지를 얻습니다.\n\n파수병의 방패를 사용하는 동안 방패 투척을 적중하면 10%의 궁극기 에너지를 반환 받습니다.",
@@ -12228,7 +12228,7 @@
   "itemName": "Helm of Saint-14",
   "type": "armorExotic",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668260616429,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -12240,8 +12240,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667581449163,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1668260071920,
+     "updatedBy": "Icemourne"
     },
     "ko": {
      "lastUpdate": 1665696849915,
@@ -12252,7 +12252,7 @@
   "editor": {
    "en": {
     "main": "Guarding with Sentinel Shield blinds enemies within <pve 7 /> <pvp [3.5] /> metres for 5 seconds.\n\nYour Ward of Dawn grants Starless Night, granting all allies that enter a 65 HP Void Overshield for [?] seconds.\n\nEnemies that enter your Ward of Dawn are also blinded for 5 seconds.",
-    "secondary": "Guarding with Sentinel Shield blinds enemies within 7 [PVP: 3.5] metres for 5 seconds.\n\nYour Ward of Dawn grants Starless Night, granting all allies that enter a 65 HP Void Overshield for [?] seconds.\n\nEnemies that enter your Ward of Dawn are also blinded for 5 seconds."
+    "secondary": "import self"
    },
    "ko": {
     "main": "깃발 방패로 막으면 7미터 이내에 있는 적들을 5초간 실명시킵니다.\n\n새벽의 수호물을 시전하면 별 없는 밤이 활성화되며 수호물에 들어온 아군에게 65HP 짜리 보호막을 부여합니다.\n\n수호물에 들어온 적들을 5초간 실명시킵니다.",
@@ -13413,7 +13413,7 @@
   "itemName": "Second Chance",
   "type": "armorExotic",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668260616429,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -13425,15 +13425,15 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881743,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1668260538971,
+     "updatedBy": "Icemourne"
     }
    }
   },
   "editor": {
    "en": {
     "main": "Gain an additional Shield Throw charge.\r\n\r\nShield Throw grants Anti-Barrier capabilities.",
-    "secondary": "Gain an additional Shield Throw charge.\r\n\r\nShield Throw grants Anti-Barrier capabilities."
+    "secondary": "import self"
    }
   }
  },
@@ -13553,7 +13553,7 @@
   "itemName": "Renewal Grasps",
   "type": "armorExotic",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668260616429,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -13565,15 +13565,15 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667593717985,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1668260507968,
+     "updatedBy": "Icemourne"
     }
    }
   },
   "editor": {
    "en": {
     "main": "Duskfield Grenades have a [?]% larger radius and a 152 second base cooldown. (Up from 64 seconds)\n\nWhile inside a Duskfield Grenade's Slowing Field:\nEnemies deal <pve 50% /> <pvp [20%] /> reduced damage, and allies are granted <pve 25% /> <pvp [5%] /> Damage Resist.\n\nWhen combined with Touch of Winter:\n<stasis/>Crystal increases from Medium to Large, and radius is increased additively.",
-    "secondary": "Duskfield Grenades have a [?]% larger radius and a 152 second base cooldown. (Up from 64 seconds)\n\nWhile inside a Duskfield Grenade's Slowing Field:\nEnemies deal 50% [20%] reduced damage, and allies are granted 25% [5%] Damage Resist.\n\nWhen combined with Touch of Winter:\nStasis Crystal Size increases from Medium to Large, and radius is increased additively."
+    "secondary": "import self"
    }
   }
  },
@@ -15908,7 +15908,7 @@
   "itemName": "Hallowfire Heart",
   "type": "armorExotic",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668260616429,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -15920,8 +15920,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667581217881,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1668260052100,
+     "updatedBy": "Icemourne"
     },
     "ko": {
      "lastUpdate": 1665696470231,
@@ -15932,7 +15932,7 @@
   "editor": {
    "en": {
     "main": "Passively grants +20 Airborne Effectiveness\n\nIf on <solar/>Solar Subclass\n75% Additional Base Grenade and Melee Regeneration Rate\n\nIf <solar/>Solar Super is Charged.\n350% Additional Base Grenade and Melee Regeneration Rate",
-    "secondary": "Passively grants +20 Airborne Effectiveness\n\nIf on Solar Subclass\n75% Additional Base Grenade and Melee Regeneration Rate\n\nIf Solar Super is Charged.\n350% Additional Base Grenade and Melee Regeneration Rate"
+    "secondary": "import self"
    },
    "ko": {
     "main": "<solar/>태양 하위직업 장착 시:\n수류탄과 근접 공격의 기본 재생 속도가 75% 증가합니다.\n\n<solar/>태양 궁극기 충전 시:\n수류탄과 근접 공격의 기본 재생 속도가 350% 증가합니다.",
@@ -17143,7 +17143,7 @@
   "itemName": "Stronghold",
   "type": "armorExotic",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668260616429,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -17155,15 +17155,15 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881743,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1668260550615,
+     "updatedBy": "Icemourne"
     }
    }
   },
   "editor": {
    "en": {
     "main": "Maxes out Sword's Guard Resistance, Efficiency, and Endurance.\r\nPerfectly timed blocks heal for 80(?) HP.\r\n\r\nBlocking Specifics:\r\nSwords grant 90% Damage Resistance.\r\nSword Energy does not decay from blocking damage or holding guard.",
-    "secondary": "Maxes out Sword's Guard Resistance, Efficiency, and Endurance.\r\nPerfectly timed blocks heal for 80(?) HP.\r\n\r\nBlocking Specifics:\r\nSwords grant 90% Damage Resistance.\r\nSword Energy does not decay from blocking damage or holding guard."
+    "secondary": "import self"
    }
   }
  },
@@ -18603,7 +18603,7 @@
   "itemName": "Heart of Inmost Light",
   "type": "armorExotic",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668260616429,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -18615,8 +18615,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667581357790,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1668260059287,
+     "updatedBy": "Icemourne"
     },
     "zh-chs": {
      "lastUpdate": 1664421626625,
@@ -18631,7 +18631,7 @@
   "editor": {
    "en": {
     "main": "Ability use grants Empowered for other abilities for <pve 10 /> <pvp [5] /> seconds, depending on the Ability used. \ne.g.: Barricade -> Empowered Melee and Empowered Grenade.\n\nEmpowered Melee:\n10% | 20% Increased damage.\n<pve 400% /> <pvp [100%] /> || <pve 800% /> <pvp [200%] /> Additional Base Melee Regeneration Rate.\n\nEmpowered Grenade:\n<pve 20% /> <pvp [10%] /> | <pve 35% /> <pvp [20%] /> Increased damage.\n<pve 400% /> <pvp [100%] /> || <pve 800% /> <pvp [200%] /> Additional Base Grenade Regeneration Rate.\n\nEmpowered Barricade:\nX% | Y% Increased HP. Not granting any benefit.\n<pve 150% /> <pvp [37.5%] /> || <pve 300% /> <pvp [75%] /> Additional Base Barricade Regeneration Rate.",
-    "secondary": "Numbers in [brackets] represent PVP values.\n\nAbility Usage grants Empowered for your other two abilities for 10 [5] seconds. \ne.g.: Cast Barricade -> Empowered Melee and Empowered Grenade.\n\nEmpowered Melee:\n10% | 20% Increased damage.\n400% [100%] | 800% [200%] Additional Base Melee Regeneration Rate.\n\nEmpowered Grenade:\n20% [10%] | 35% [20%] Increased damage.\n400% [100%] | 800% [200%] Additional Base Grenade Regeneration Rate.\n\nEmpowered Barricade:\nX% | Y% Increased HP. Not granting any benefit.\n150% [37.5%] | 300% [75%] Additional Base Class Regeneration Rate."
+    "secondary": "import self"
    },
    "zh-chs": {
     "main": "使用一个技能（手雷、近战或屏障）可为另外两个技能赋能 <pve 10 /><pvp [5] /> 秒。\n例如：使用屏障，可赋能近战和受累。\n\n当赋能时：\n\n强化近战： 10% | 20% 额外伤害。\n<pve 400% /><pvp [100%] /> || <pve 800% /><pvp [200%] /> 额外近战回复效率。\n\n强化手雷： <pve 20% /><pvp [10%] /> | <pve 35% /><pvp [20%] /> 额外伤害。\n<pve 400% /><pvp [100%] /> || <pve 800% /><pvp [200%] /> 额外手雷回复效率。\n\n强化屏障： X% | Y% 额外生命值。\n<pve 150% /><pvp [37.5%] /> || <pve 300% /><pvp [75%] /> 额外屏障回复效率。",
@@ -19989,7 +19989,7 @@
   "itemName": "Graviton Forfeit",
   "type": "armorExotic",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668260616429,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -20001,8 +20001,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667590437168,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1668260027673,
+     "updatedBy": "Icemourne"
     },
     "ko": {
      "lastUpdate": 1665696299625,
@@ -20021,8 +20021,8 @@
   },
   "editor": {
    "en": {
-    "main": "Void Invisibility effects last 2 seconds longer.\n\nWhile Invisible:\n • <pve 400% /> <pvp [100%] /> Additional Base Melee Regeneration Rate.\n • Enemies within 15 metres will increase the bonus to a total of <pve 600% /> <pvp [200%] /> and <pve 800% /> <pvp [300%] />.\n\n+100 Recovery and +100 Reload Speed.",
-    "secondary": "Void Invisibility effects last 2 seconds longer.\n\nWhile Invisible:\n400% [PVP: 100%] Additional Base Melee Regeneration Rate.\nEnemies within 15 metres will increase the bonus to a total of 600% [PVP: 200%] and 800% [PVP: 300%].\n\n+100 Recovery and +100 Reload Speed."
+    "main": "Void Invisibility effects last 2 seconds longer.\n\nWhile Invisible:\n • <pve 400% /> <pvp [100%] /> Additional Base Melee Regeneration Rate.\n • Enemies within 15 metres will increase the bonus to a total of <pve 600% /> <pvp [200%] /> and <pve 800% /> <pvp [300%] />.\n\n+100 Recovery\n+100 Reload Speed",
+    "secondary": "import self"
    },
    "ko": {
     "main": "공허 은신의 지속 시간이 2초 증가합니다.\n\n은신한 상태에서:\n기본 근접 능력 재생 속도가 <pve 400% /> <pvp [100%] /> 증가합니다.\n15미터 이내에 있는 적의 수 만큼 <pve 600% /> <pvp [200%] /> and <pve 800% /> <pvp [300%] />까지 증가합니다.\n\n회복력과 재장전 속도로 100으로 증가시킵니다.",
@@ -20727,7 +20727,7 @@
   "itemName": "Chromatic Fire",
   "type": "armorExotic",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1668259907310,
+  "lastUpload": 1668260616429,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -20739,7 +20739,7 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1668259895245,
+     "lastUpdate": 1668259944060,
      "updatedBy": "Icemourne"
     },
     "ko": {
@@ -20751,7 +20751,7 @@
   "editor": {
    "en": {
     "main": "On Kinetic Damage Precision Kill: \nEnemy explodes in an elemental explosion that matches your currently selected Subclass, dealing up to <pve 210 /> <pvp [200] /> damage.\n\nExplosion Radius and Falloff Distance slightly scale with your Weapon's Range Stat. ",
-    "secondary": "On Kinetic Damage Precision Kill: \nEnemy explodes in an elemental explosion that matches your currently selected Subclass, dealing up to 210 [PVP: 200] damage.\n\nExplosion Radius and Falloff Distance slightly scale with your Weapon's Range Stat."
+    "secondary": "import self"
    },
    "ko": {
     "main": "물리 피해 정밀타 처치 시:\n적이 현재 장착한 하위직업의 속성 폭발을 일으킵니다.\n폭발 반경과 피해 사거리는 무기의 사거리 수치에 기반합니다.\n\n<pvp 중심부에서 약 200의 피해를 일으킵니다. />",
@@ -22436,7 +22436,7 @@
   "itemName": "Khepri's Horn",
   "type": "armorExotic",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668260616429,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -22448,8 +22448,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667585703424,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1668260090942,
+     "updatedBy": "Icemourne"
     },
     "ko": {
      "lastUpdate": 1665697470668,
@@ -22460,7 +22460,7 @@
   "editor": {
    "en": {
     "main": "On Barricade Placement:\nUnleashes a <solar/>Solar Wave that returns back to the Barricade after 18.5 metres.\n\n<solar/>Solar Wave deals <pve 240 /> <pvp [100] /> damage.\n\n<solar/>Solar Kills refresh 25% of Class Ability Energy.\n",
-    "secondary": "On Barricade Placement:\nUnleashes a Solar Wave that returns back to the Barricade after 18.5 metres.\nSolar Wave deals 240 [PVP: 100] damage.\n\nSolar Kills grant 25% Class Ability Energy."
+    "secondary": "import self"
    },
    "ko": {
     "main": "방벽 시전 시:\n18.5미터를 나아간 뒤 다시 방벽으로 돌아오는 태양 파동을 내보냅니다.\n<pvp 100 피해를 줍니다. />\n\n태양 처치 시 직업 능력 에너지 25%를 반환합니다.",
@@ -24202,7 +24202,7 @@
   "itemName": "Mantle of Battle Harmony",
   "type": "armorExotic",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668260616429,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -24214,15 +24214,15 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667256614278,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1668260218305,
+     "updatedBy": "Icemourne"
     }
    }
   },
   "editor": {
    "en": {
     "main": "Weapon Kills with a Matching Subclass Element grant a buff, depending on whether your Super Ability is charged or not.\n\nIf Super is not Full:\nEnergy Siphon for 2 seconds. (Essentially a Cooldown)\nEnergy Siphon grants <pve 3% /> <pvp [+1.45%] /> Super Energy.\n\nIf Super is Full:\nGrants Absorption Cells, granting <pve 20% /> <pvp [15%] /> increased damage for Weapons Matching your Subclass Element for <pve 6 /> <pvp [3.5] /> seconds. Additional Kills increase duration by <pve 4 /> <pvp [2] /> seconds.\nAbsorption Cells maxes out at a <pve 10 /> <pvp [6] /> second duration.\n\nAbsorption Cells disappears on Weapon Swap.",
-    "secondary": "Weapon Kills with a Matching Subclass Element grant a buff, depending on whether your Super Ability is charged or not.\n\nIf Super is not Full:\nEnergy Siphon for 2 seconds. (Essentially a Cooldown)\nEnergy Siphon grants 3% [PVP: +1.45%] Super Energy.\n\nIf Super is Full:\nGrants Absorption Cells, granting 20% [PVP: 15%] increased damage for Weapons Matching your Subclass Element for 6 [PVP: 3.5] seconds.\nAdditional Kills increase duration by 4 [PVP: 2] seconds.\nAbsorption Cells maxes out at a 10 [PVP: 6] second duration.\n\nAbsorption Cells disappears on Weapon Swap."
+    "secondary": "import self"
    }
   }
  },
@@ -24734,7 +24734,7 @@
   "itemName": "Knucklehead Radar",
   "type": "armorExotic",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668260616429,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -24746,7 +24746,7 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1666624878547,
+     "lastUpdate": 1668260099949,
      "updatedBy": "Icemourne"
     },
     "ko": {
@@ -24758,7 +24758,7 @@
   "editor": {
    "en": {
     "main": "Radar remains active while Aiming Down Sights.\n\nIf crouched:\nGrants Enhanced Radar.\n(Has 12 sectors instead of 6)",
-    "secondary": "Radar remains active while Aiming Down Sights.\n\nIf crouched:\nGrants Enhanced Radar.\n(Has 12 sectors instead of 6)"
+    "secondary": "import self"
    },
    "ko": {
     "main": "무기를 조준하는 동안에도 레이더가 활성화됩니다.\n\n웅크릴 때:\n레이더가 향상됩니다.\n(섹터가 6개에서 12개로 증가합니다.)",
@@ -25970,7 +25970,7 @@
   "itemName": "Dawn Chorus",
   "type": "armorExotic",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668260616429,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -25982,8 +25982,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667255329204,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1668259990070,
+     "updatedBy": "Icemourne"
     },
     "ko": {
      "lastUpdate": 1665694586611,
@@ -25994,7 +25994,7 @@
   "editor": {
    "en": {
     "main": "Daybreak Projectiles apply 60 Scorch on hit.\nThis is increased to 90 Scorch with Ember of Ashes Equipped.\n\nScorch effects deal <pve 200% /> <pvp [50%] /> increased damage.\n\nGrants [?] Melee Ability Energy every time Scorch deals damage.",
-    "secondary": "Daybreak Projectiles apply 60 Scorch on hit.\nThis is increased to 90 Scorch with Ember of Ashes Equipped.\n\nScorch deals 200% [PVP: 50%] increased damage.\n\nGrants [?] Melee Ability Energy every time Scorch deals damage."
+    "secondary": "import self"
    },
    "ko": {
     "main": "여명 투사체 적중 시 적에게 소각 스택 60개를 부여합니다. 재의 불씨를 장착하면 스택이 90개로 증가합니다.\n\n소각 피해는 <pve 200%  /><pvp [50%] /> 만큼 증가합니다.",
@@ -26038,7 +26038,7 @@
   "itemName": "Sealed Ahamkara Grasps",
   "type": "armorExotic",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668260616429,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -26050,15 +26050,15 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667593748443,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1668260534437,
+     "updatedBy": "Icemourne"
     }
    }
   },
   "editor": {
    "en": {
     "main": "Melee Hits <title refresh [G_refresh] /> magazine for your equipped weapon and grant +50 Airborne Effectiveness for 5 seconds.\n\n7 second cooldown.",
-    "secondary": "Melee Hits refresh the magazine of your equipped weapon and grant +50 Airborne Effectiveness for 5 seconds.\n\n7 second cooldown."
+    "secondary": "import self"
    }
   },
   "stats": {
@@ -27700,7 +27700,7 @@
   "itemName": "Precious Scars",
   "type": "armorExotic",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668260616429,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -27712,15 +27712,15 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667586982924,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1668260492895,
+     "updatedBy": "Icemourne"
     }
    }
   },
   "editor": {
    "en": {
     "main": "Reviving or being revived grants you and allies within 15 metres a 100HP Overshield for 10 seconds.\nLeaving the 15 metres radius removes Overshield\nIf the wearer loses Overshield, so too does everyone else.\n\nHeals you and allies within 15 metres for 60(?)HP after getting a Weapon Kill with a Matching Subclass Element with a 3 second cooldown.",
-    "secondary": "Reviving or being revived grants you and allies within 15 metres a 100HP Overshield for 10 seconds.\r\nLeaving the 15 metres radius removes Overshield\r\nIf the wearer loses Overshield, so too does everyone else.\r\n\r\nHeals you and allies within 15 metres for 60(?)HP after getting a Weapon Kill with a Matching Subclass Element with a 3 second cooldown."
+    "secondary": "import self"
    }
   }
  },
@@ -30651,7 +30651,7 @@
   "itemName": "Lunafaction Boots",
   "type": "armorExotic",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668260616429,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -30663,8 +30663,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667256225378,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1668260111819,
+     "updatedBy": "Icemourne"
     },
     "ko": {
      "lastUpdate": 1665698800512,
@@ -30692,7 +30692,7 @@
   "editor": {
    "en": {
     "main": "While inside a Rift or Well of Radiance:\n+100 Reload with 0.9x <title RDS [rds] /> to all Guardians inside.\n\nWhile inside an <bold Empowering Rift /> or Well of Radiance:\n100% Increased Damage Falloff Distance.\n\ntitle rds (\nReload Duration Scalar (Multiplies Reload Animation Duration by that number)\n)",
-    "secondary": "While inside a Rift or Well of Radiance.\n+100 Reload with 0.9x Duration Multiplier to all Guardians inside.\n\nWhile inside an Empowering Rift or Well of Radiance.\n100% Increased Damage Falloff Distance."
+    "secondary": "import self"
    },
    "ko": {
     "main": "빛의 샘이나 균열안에 있을 떄:\n안에 있는 수호자의 재장전 속도를 100 만큼 증가시킵니다.\n\n빛의 샘이나 강화의 균열안에 있을 때:\n무기의 사거리가 2배로 증가합니다.\n",
@@ -30707,7 +30707,7 @@
   "itemName": "Transversive Steps",
   "type": "armorExotic",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668260616429,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -30719,15 +30719,15 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667258368242,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1668260578446,
+     "updatedBy": "Icemourne"
     }
    }
   },
   "editor": {
    "en": {
     "main": "<title Refreshes [G_refresh] /> held weapon after sprinting for 1.5 seconds.\n\nIncreases Sprint Speed by 6.25%\nIncreases Slide Distance by 33%\nCrouch Speed is set to 4 metres per second and cannot be decreased through slows debuffs.",
-    "secondary": "Refreshes held weapon after sprinting for 1.5 seconds.\n\nIncreases Sprint Speed by 6.25%\nIncreases Slide Distance by 33%\nCrouch Speed is set to 4 metres per second and cannot be decreased through slows debuffs."
+    "secondary": "import self"
    }
   }
  },
@@ -33344,7 +33344,7 @@
   "itemName": "Aeon Safe",
   "type": "armorExotic",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1668259907310,
+  "lastUpload": 1668260616429,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -33414,7 +33414,7 @@
   "itemName": "An Insurmountable Skullfort",
   "type": "armorExotic",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1668259907310,
+  "lastUpload": 1668260616429,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -33453,7 +33453,7 @@
   "itemName": "Athrys's Embrace",
   "type": "armorExotic",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1668259907310,
+  "lastUpload": 1668260616429,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -33687,7 +33687,7 @@
   "itemName": "Aeon Soul",
   "type": "armorExotic",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1668259907310,
+  "lastUpload": 1668260616429,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -34148,7 +34148,7 @@
   "itemName": "Wormhusk Crown",
   "type": "armorExotic",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668260616429,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -34160,8 +34160,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881743,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1668260601816,
+     "updatedBy": "Icemourne"
     },
     "zh-chs": {
      "lastUpdate": 1664420820435,
@@ -34171,8 +34171,8 @@
   },
   "editor": {
    "en": {
-    "main": "On Dodge:\nHeals 67HP.\n",
-    "secondary": "On Dodge:\r\nHeals 67HP.\r\n"
+    "main": "On Dodge:\nHeals 67HP.",
+    "secondary": "import self"
    },
    "zh-chs": {
     "main": "闪身时：\n恢复 67 生命值。",
@@ -34926,12 +34926,12 @@
   "hash": 3809192347,
   "name": "See Me, Feel Me",
   "type": "armorExotic",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668260616429,
   "uploadedBy": "Icemourne",
   "editor": {
    "en": {
     "main": "Gain <pve 35% /> <pvp [15%] /> Increased Weapon Damage for <pve 6 /> <pvp [3] /> seconds after Void Invisibility ends.\n\nFinishers while Invisible apply Volatile to enemies within [?] metres, and grant both you and allies within 24 metres a Reserve Overshield and 375% Additional Base Class Ability Regeneration Rate until either dying or using Class Ability.\n\nReserve Overshield is activated when you cast your Class Ability, granting you a 40 HP <void/>Void Overshield for 10 seconds.",
-    "secondary": "Gain 35% [PVP: 15%] Increased Weapon Damage for 6 [PVP: 3] seconds after Void Invisibility ends.\n\nFinishers while Invisible apply Volatile to enemies within [?] metres, and grant both you and allies within 24 metres a Reserve Overshield and 375% Additional Base Class Ability Regeneration Rate until either dying or using Class Ability.\n\nReserve Overshield is activated when you cast your Class Ability, granting you a 40 HP Void Overshield for 10 seconds."
+    "secondary": "import self"
    }
   },
   "updateTracker": {
@@ -34941,8 +34941,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667590628922,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1668260046096,
+     "updatedBy": "Icemourne"
     }
    }
   },
@@ -35058,7 +35058,7 @@
   "itemName": "Necrotic Grip",
   "type": "armorExotic",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668260616429,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -35070,15 +35070,15 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667257470825,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1668260453093,
+     "updatedBy": "Icemourne"
     }
    }
   },
   "editor": {
    "en": {
     "main": "Passively grants +30 Airborne Effectiveness to <title Weapons of Sorrow [WoS] />.\n\nMelee Hits apply Poison. \nPoison deals up to <pve [?] /> <pvp [30] /> damage over its duration.\nBosses take an additional 80% damage from Poison.\n\nEach successive Poison tick deals 9% more damage. Lasts 19 ticks.\n\nPoisoned enemies spread poison on death in a 3 metres radius. \nThis applies even if the source of the poison wasn't a melee attack.\n\ntitle WoS (\nThe currently available Weapons of Sorrow are Thorn, Osteo Striga, and Touch of Malice.\n\nKills with the following also spread poison:\n   • Thorn's Bullets <breakSpaces/>\n   • Osteo Striga's Poison Effect <breakSpaces/>\n   • Touch of Malice's Blight's Poison Effect <breakSpaces/>\n)",
-    "secondary": "Passively grants +30 Airborne Effectiveness to Weapons of Sorrow.\n\nMelee Hits apply Poison. \nPoison deals up to [?] [30] damage over its duration.\nBosses take an additional 80% damage from Poison.\n\nEach successive Poison tick deals 9% more damage. Lasts 19 ticks.\n\nPoisoned enemies spread poison on death in a 3 metres radius. \nThis applies even if the source of the poison wasn't a melee attack."
+    "secondary": "import self"
    }
   }
  },
@@ -35426,7 +35426,7 @@
   "itemName": "Shinobu's Vow",
   "type": "armorExotic",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668260616429,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -35438,15 +35438,15 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667593922117,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1668260544239,
+     "updatedBy": "Icemourne"
     }
    }
   },
   "editor": {
    "en": {
     "main": "Grants an extra Skip Grenade Charge.\n\nSkip Grenades spawn an additional drone (4 -> 5)\nDrones chase enemies much more aggressively.\n\nSkip Grenades hits grant <pve 10% /> <pvp [3%] /> Grenade Ability Energy.",
-    "secondary": "Grants an extra Skip Grenade Charge.\n\nSkip Grenades spawn an additional drone (4 -> 5)\nDrones chase enemies much more aggressively.\n\nSkip Grenades hits grant 10% [PVP: 3%] Grenade Ability Energy."
+    "secondary": "import self"
    }
   }
  },
@@ -35870,7 +35870,7 @@
   "itemName": "Crown of Tempests",
   "type": "armorExotic",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668260616429,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -35882,8 +35882,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667255250898,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1668259974038,
+     "updatedBy": "Icemourne"
     },
     "ko": {
      "lastUpdate": 1665694418814,
@@ -35894,7 +35894,7 @@
   "editor": {
    "en": {
     "main": "Arc Ability and Jolt Kills grant Conduction Tines for <pve 7 /> <pvp [4] /> seconds.\n\n<blue At x1 Conduction Tines />\n175% Additional Base Grenade, Melee, and Super Regeneration Rate | 22% Slower Super Drain.\n\n<blue At x2 Conduction Tines />\n350% Additional Base Grenade, Melee, and Super Regeneration Rate | 44% Slower Super Drain.\n\n<blue At x3 Conduction Tines />\n525% Additional Base Grenade, Melee, and Super Regeneration Rate | 66% Slower Super Drain.\n\nSuper Drain affects every Roaming Super BUT Chaos Reach.",
-    "secondary": "Arc Ability and Jolt Kills grant Conduction Tines for 7 [PVP: 4] seconds.\n\nAt x1 Conduction Tines\n175% Additional Base Grenade, Melee, and Super Regeneration Rate | 22% Slower Super Drain.\n\nAt x2 Conduction Tines\n350% Additional Base Grenade, Melee, and Super Regeneration Rate | 44% Slower Super Drain.\n\nAt x3 Conduction Tines\n525% Additional Base Grenade, Melee, and Super Regeneration Rate | 66% Slower Super Drain.\n\nSuper Drain affects every Roaming Super BUT Chaos Reach."
+    "secondary": "import self"
    },
    "ko": {
     "main": "전기 능력 처치를 하면 <pve 7 /> <pvp [4] />초 동안 전기 갈래가 활성화됩니다. \n\n<blue 전기 갈래 x1 일때 />\n기본 수류탄, 근접 능력, 그리고 궁극기 재생 속도가 175% 증가합니다. | 궁극기 소모 속도 약 [22%] 하락\n\n<blue 전기 갈래 x2 일때 />\n기본 수류탄, 근접 능력, 그리고 궁극기 재생 속도가 350% 증가합니다. | 궁극기 소모 속도 약 [44%] 하락\n\n<blue 전기 갈래 x3 일때 />\n기본 수류탄, 근접 능력, 그리고 궁극기 재생 속도가 525% 증가합니다. | 궁극기 소모 속도 약 [66%] 하락\n\n궁극기 소모 속도 하락은 혼돈 범위를 제외한 모든 변신형 궁극기에 적용됩니다.",
@@ -38512,7 +38512,7 @@
   "itemName": "Rain of Fire",
   "type": "armorExotic",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668260616429,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -38524,15 +38524,15 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658513881743,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1668260501767,
+     "updatedBy": "Icemourne"
     }
    }
   },
   "editor": {
    "en": {
     "main": "Passively grants 30 Airborne Effectiveness to Fusion Rifles and Linear Fusion Rifles.\r\n\r\nFusion Rifle and Linear Fusion Rifle kills grant Radiant for 7.5 seconds.\r\n\r\nIcarus Dash <title refreshes [refreshes] /> all your weapons.\r\n\r\ntitle refreshes (\r\nReload, but does not need animation and doesn't proc on-reload perks.\r\n)",
-    "secondary": "Passively grants 30 Airborne Effectiveness to Fusion Rifles and Linear Fusion Rifles.\r\n\r\nFusion Rifle and Linear Fusion Rifle kills grant Radiant for 7.5 seconds.\r\n\r\nIcarus Dash refreshes all your weapons."
+    "secondary": "import self"
    }
   }
  },
