@@ -3,7 +3,7 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1668260616429,
+  "lastUpload": 1668344540326,
   "uploadedBy": "Icemourne",
   "editor": {
    "en": {
@@ -9645,6 +9645,36 @@
   "hidden": false,
   "inLiveDatabase": true,
   "optional": false
+ },
+ "1077019636": {
+  "hash": 1077019636,
+  "name": "Danger Zone",
+  "type": "weaponPerkEnhanced",
+  "lastUpload": 1668344540326,
+  "uploadedBy": "Icemourne",
+  "editor": {
+   "en": {
+    "main": "import main from 960810156",
+    "secondary": "import secondary from 960810156"
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false,
+  "linkedWith": 960810156
  },
  "1081893460": {
   "hash": 1081893460,
@@ -19299,6 +19329,35 @@
   "uploadToLive": false,
   "hidden": false,
   "inLiveDatabase": true,
+  "optional": false
+ },
+ "2014892510": {
+  "hash": 2014892510,
+  "name": "Perpetual Motion Enhanced",
+  "type": "weaponPerkEnhanced",
+  "lastUpload": 1668344540326,
+  "uploadedBy": "Icemourne",
+  "editor": {
+   "en": {
+    "main": "This weapon gains bonus stability, handling, and reload speed while the wielder is in motion for a short duration.",
+    "secondary": "This weapon gains bonus stability, handling, and reload speed while the wielder is in motion for a short duration."
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
   "optional": false
  },
  "2019952880": {
@@ -32339,6 +32398,36 @@
   },
   "linkedWith": 1906147653
  },
+ "3523746922": {
+  "hash": 3523746922,
+  "name": "Archer's Tempo",
+  "type": "weaponPerkEnhanced",
+  "lastUpload": 1668344540326,
+  "uploadedBy": "Icemourne",
+  "editor": {
+   "en": {
+    "main": "import main from 201365942",
+    "secondary": "import secondary from 201365942"
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false,
+  "linkedWith": 201365942
+ },
  "3526486541": {
   "hash": 3526486541,
   "name": "Tilting at Windmills",
@@ -32382,7 +32471,7 @@
   "name": "Auto-Loading Holster",
   "type": "weaponPerkEnhanced",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668344540326,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -32401,11 +32490,10 @@
   },
   "editor": {
    "en": {
-    "main": "import main from 3300816228",
-    "secondary": "import secondary from 3300816228"
+    "main": "",
+    "secondary": ""
    }
-  },
-  "linkedWith": 3300816228
+  }
  },
  "3531427692": {
   "hash": 3531427692,
