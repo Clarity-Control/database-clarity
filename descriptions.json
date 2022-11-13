@@ -3,7 +3,7 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1668344540326,
+  "lastUpload": 1668345279215,
   "uploadedBy": "Icemourne",
   "editor": {
    "en": {
@@ -1363,6 +1363,36 @@
   "uploadedBy": "Icemourne",
   "importStatsFrom": 3913600130
  },
+ "162561147": {
+  "hash": 162561147,
+  "name": "Mulligan",
+  "type": "weaponPerkEnhanced",
+  "lastUpload": 1668345279215,
+  "uploadedBy": "Icemourne",
+  "editor": {
+   "en": {
+    "main": "import main from 3513791699",
+    "secondary": "import secondary from 3513791699"
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false,
+  "linkedWith": 3513791699
+ },
  "169755979": {
   "hash": 169755979,
   "name": "Dragonfly",
@@ -2326,6 +2356,36 @@
   "hidden": false,
   "inLiveDatabase": true,
   "optional": false
+ },
+ "288411554": {
+  "hash": 288411554,
+  "name": "Rampage",
+  "type": "weaponPerkEnhanced",
+  "lastUpload": 1668345279215,
+  "uploadedBy": "Icemourne",
+  "editor": {
+   "en": {
+    "main": "import main from 3425386926",
+    "secondary": "import secondary from 3425386926"
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false,
+  "linkedWith": 3425386926
  },
  "290014589": {
   "hash": 290014589,
@@ -4665,6 +4725,36 @@
   "hidden": false,
   "inLiveDatabase": true,
   "optional": false
+ },
+ "536173722": {
+  "hash": 536173722,
+  "name": "Pugilist",
+  "type": "weaponPerkEnhanced",
+  "lastUpload": 1668345279215,
+  "uploadedBy": "Icemourne",
+  "editor": {
+   "en": {
+    "main": "import main from 691659142",
+    "secondary": "import secondary from 691659142"
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false,
+  "linkedWith": 691659142
  },
  "536517534": {
   "hash": 536517534,
@@ -7662,6 +7752,36 @@
   "linkedWith": 3108830275,
   "uploadedBy": "Icemourne"
  },
+ "859780267": {
+  "hash": 859780267,
+  "name": "One for All",
+  "type": "weaponPerkEnhanced",
+  "lastUpload": 1668345279215,
+  "uploadedBy": "Icemourne",
+  "editor": {
+   "en": {
+    "main": "import main from 4049631843",
+    "secondary": "import secondary from 4049631843"
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false,
+  "linkedWith": 4049631843
+ },
  "861489047": {
   "hash": 861489047,
   "name": "Vermin",
@@ -9650,7 +9770,7 @@
   "hash": 1077019636,
   "name": "Danger Zone",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1668344540326,
+  "lastUpload": 1668345279215,
   "uploadedBy": "Icemourne",
   "editor": {
    "en": {
@@ -10496,6 +10616,35 @@
   "linkedWith": 124408337,
   "uploadedBy": "Icemourne"
  },
+ "1172098417": {
+  "hash": 1172098417,
+  "name": "Sleight of Hand",
+  "type": "weaponPerkEnhanced",
+  "lastUpload": 1668345279215,
+  "uploadedBy": "Icemourne",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
+ },
  "1174163613": {
   "hash": 1174163613,
   "name": "Worm's Hunger",
@@ -10587,11 +10736,11 @@
   "hash": 1183436451,
   "name": "Firefly",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668345279215,
   "editor": {
    "en": {
-    "main": "import main from 3824105627",
-    "secondary": "import secondary from 3824105627"
+    "main": "",
+    "secondary": ""
    }
   },
   "updateTracker": {
@@ -10609,7 +10758,6 @@
   "hidden": false,
   "inLiveDatabase": true,
   "optional": false,
-  "linkedWith": 3824105627,
   "importStatsFrom": 3824105627,
   "uploadedBy": "Icemourne"
  },
@@ -14839,11 +14987,11 @@
   "hash": 1563455254,
   "name": "Rewind Rounds",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668345279215,
   "editor": {
    "en": {
-    "main": "import main from 3418782618",
-    "secondary": "import secondary from 3418782618"
+    "main": "",
+    "secondary": ""
    }
   },
   "updateTracker": {
@@ -14860,7 +15008,6 @@
   "hidden": false,
   "inLiveDatabase": true,
   "optional": false,
-  "linkedWith": 3418782618,
   "uploadedBy": "Icemourne"
  },
  "1563930741": {
@@ -15387,6 +15534,36 @@
   "linkedWith": 2451262963,
   "uploadedBy": "Icemourne",
   "importStatsFrom": 2451262963
+ },
+ "1618208178": {
+  "hash": 1618208178,
+  "name": "Eager Edge",
+  "type": "weaponPerkEnhanced",
+  "lastUpload": 1668345279215,
+  "uploadedBy": "Icemourne",
+  "editor": {
+   "en": {
+    "main": "import main from 2077819806",
+    "secondary": "import secondary from 2077819806"
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false,
+  "linkedWith": 2077819806
  },
  "1624081088": {
   "hash": 1624081088,
@@ -18770,6 +18947,36 @@
    }
   }
  },
+ "1942880504": {
+  "hash": 1942880504,
+  "name": "Slickdraw",
+  "type": "weaponPerkEnhanced",
+  "lastUpload": 1668345279215,
+  "uploadedBy": "Icemourne",
+  "editor": {
+   "en": {
+    "main": "import main from 1821614984",
+    "secondary": "import secondary from 1821614984"
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false,
+  "linkedWith": 1821614984
+ },
  "1954620775": {
   "hash": 1954620775,
   "name": "Timed Payload",
@@ -18841,11 +19048,11 @@
   "hash": 1961144892,
   "name": "Quickdraw",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668345279215,
   "editor": {
    "en": {
-    "main": "import main from 706527188",
-    "secondary": "import secondary from 706527188"
+    "main": "",
+    "secondary": ""
    }
   },
   "updateTracker": {
@@ -18870,7 +19077,6 @@
     "isConditionallyActive": true
    }
   ],
-  "linkedWith": 706527188,
   "uploadedBy": "Icemourne",
   "importStatsFrom": 706527188
  },
@@ -19335,12 +19541,12 @@
   "hash": 2014892510,
   "name": "Perpetual Motion Enhanced",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1668344540326,
+  "lastUpload": 1668345279215,
   "uploadedBy": "Icemourne",
   "editor": {
    "en": {
-    "main": "This weapon gains bonus stability, handling, and reload speed while the wielder is in motion for a short duration.",
-    "secondary": "This weapon gains bonus stability, handling, and reload speed while the wielder is in motion for a short duration."
+    "main": "",
+    "secondary": ""
    }
   },
   "updateTracker": {
@@ -25151,6 +25357,36 @@
   "inLiveDatabase": true,
   "optional": false
  },
+ "2717805783": {
+  "hash": 2717805783,
+  "name": "Moving Target",
+  "type": "weaponPerkEnhanced",
+  "lastUpload": 1668345279215,
+  "uploadedBy": "Icemourne",
+  "editor": {
+   "en": {
+    "main": "import main from 588594999",
+    "secondary": "import secondary from 588594999"
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false,
+  "linkedWith": 588594999
+ },
  "2722573681": {
   "hash": 2722573681,
   "name": "Shadowshot: Moebius Quiver",
@@ -25759,11 +25995,11 @@
   "hash": 2748801589,
   "name": "Harmony",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668345279215,
   "editor": {
    "en": {
-    "main": "import main from 438098033",
-    "secondary": "import secondary from 438098033"
+    "main": "",
+    "secondary": ""
    }
   },
   "updateTracker": {
@@ -25781,7 +26017,6 @@
   "hidden": false,
   "inLiveDatabase": true,
   "optional": false,
-  "linkedWith": 438098033,
   "uploadedBy": "Icemourne",
   "importStatsFrom": 438098033
  },
@@ -26461,6 +26696,35 @@
     "secondary": "此武器的前半弹匣弹药获得 20 稳定性和 30 装填速度。"
    }
   }
+ },
+ "2840833776": {
+  "hash": 2840833776,
+  "name": "Shoot to Loot",
+  "type": "weaponPerkEnhanced",
+  "lastUpload": 1668345279215,
+  "uploadedBy": "Icemourne",
+  "editor": {
+   "en": {
+    "main": "",
+    "secondary": ""
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false
  },
  "2846385770": {
   "hash": 2846385770,
@@ -31416,11 +31680,11 @@
   "hash": 3442762221,
   "name": "Lead from Gold",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668345279215,
   "editor": {
    "en": {
-    "main": "import main from 1556840489",
-    "secondary": "import secondary from 1556840489"
+    "main": "",
+    "secondary": ""
    }
   },
   "updateTracker": {
@@ -31437,7 +31701,6 @@
   "hidden": false,
   "inLiveDatabase": true,
   "optional": false,
-  "linkedWith": 1556840489,
   "uploadedBy": "Icemourne"
  },
  "3449001998": {
@@ -32402,7 +32665,7 @@
   "hash": 3523746922,
   "name": "Archer's Tempo",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1668344540326,
+  "lastUpload": 1668345279215,
   "uploadedBy": "Icemourne",
   "editor": {
    "en": {
@@ -32471,7 +32734,7 @@
   "name": "Auto-Loading Holster",
   "type": "weaponPerkEnhanced",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1668344540326,
+  "lastUpload": 1668345279215,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -33737,6 +34000,36 @@
   },
   "linkedWith": 2889515627
  },
+ "3674673997": {
+  "hash": 3674673997,
+  "name": "Immovable Object",
+  "type": "weaponPerkEnhanced",
+  "lastUpload": 1668345279215,
+  "uploadedBy": "Icemourne",
+  "editor": {
+   "en": {
+    "main": "import main from 3800201097",
+    "secondary": "import secondary from 3800201097"
+   }
+  },
+  "updateTracker": {
+   "stats": {
+    "lastUpdate": 0,
+    "updatedBy": ""
+   },
+   "descriptions": {
+    "en": {
+     "lastUpdate": 0,
+     "updatedBy": ""
+    }
+   }
+  },
+  "uploadToLive": false,
+  "hidden": false,
+  "inLiveDatabase": false,
+  "optional": false,
+  "linkedWith": 3800201097
+ },
  "3678483220": {
   "hash": 3678483220,
   "name": "Assassin's Blade",
@@ -33928,7 +34221,7 @@
   "name": "Shoot to Loot",
   "type": "weaponPerk",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668345279215,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -33940,14 +34233,14 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667217186611,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1668345160975,
+     "updatedBy": "Icemourne"
     }
    }
   },
   "editor": {
    "en": {
-    "main": "After Shooting an Ammo Pickup:\nPicks up the Ammo and Refreshes all your Weapons.\nTriggers Ammo Pickup effects. Only activates if you are not full on Ammo.\n\n🡅Enhanced: Passively grants +5 Range.",
+    "main": "After Shooting an Ammo Pickup:\nPicks up the Ammo and Refreshes all your Weapons.\nTriggers Ammo Pickup effects. Only activates if you are not full on Ammo.",
     "secondary": "import self"
    }
   },
@@ -36203,11 +36496,11 @@
   "hash": 3974407819,
   "name": "No Distractions",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668345279215,
   "editor": {
    "en": {
-    "main": "import main from 2866798147",
-    "secondary": "import secondary from 2866798147"
+    "main": "",
+    "secondary": ""
    }
   },
   "updateTracker": {
@@ -36224,7 +36517,6 @@
   "hidden": false,
   "inLiveDatabase": true,
   "optional": false,
-  "linkedWith": 2866798147,
   "uploadedBy": "Icemourne"
  },
  "3977735242": {
