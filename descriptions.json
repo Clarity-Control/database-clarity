@@ -3,7 +3,7 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1668346184766,
+  "lastUpload": 1668348448946,
   "uploadedBy": "Icemourne",
   "editor": {
    "en": {
@@ -1367,7 +1367,7 @@
   "hash": 162561147,
   "name": "Mulligan",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1668346184766,
+  "lastUpload": 1668348448946,
   "uploadedBy": "Icemourne",
   "editor": {
    "en": {
@@ -1635,7 +1635,7 @@
   "hash": 183938251,
   "name": "Under-Over",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1668346184766,
+  "lastUpload": 1668348448946,
   "uploadedBy": "Icemourne",
   "editor": {
    "en": {
@@ -1791,7 +1791,7 @@
   "hash": 191144788,
   "name": "Slideshot",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1668346184766,
+  "lastUpload": 1668348448946,
   "uploadedBy": "Icemourne",
   "editor": {
    "en": {
@@ -2421,12 +2421,12 @@
   "hash": 288411554,
   "name": "Rampage",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1668346184766,
+  "lastUpload": 1668348448946,
   "uploadedBy": "Icemourne",
   "editor": {
    "en": {
-    "main": "import main from 3425386926",
-    "secondary": "import secondary from 3425386926"
+    "main": "",
+    "secondary": ""
    }
   },
   "updateTracker": {
@@ -2444,8 +2444,7 @@
   "uploadToLive": false,
   "hidden": false,
   "inLiveDatabase": false,
-  "optional": false,
-  "linkedWith": 3425386926
+  "optional": false
  },
  "290014589": {
   "hash": 290014589,
@@ -3610,7 +3609,7 @@
   "hash": 406461158,
   "name": "Tracking Module",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1668346184766,
+  "lastUpload": 1668348448946,
   "uploadedBy": "Icemourne",
   "editor": {
    "en": {
@@ -4541,12 +4540,12 @@
   "hash": 494941759,
   "name": "Threat Detector",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1668346184766,
+  "lastUpload": 1668348448946,
   "uploadedBy": "Icemourne",
   "editor": {
    "en": {
-    "main": "",
-    "secondary": ""
+    "main": "import main from 4071163871",
+    "secondary": "import secondary from 4071163871"
    }
   },
   "updateTracker": {
@@ -4564,7 +4563,8 @@
   "uploadToLive": false,
   "hidden": false,
   "inLiveDatabase": false,
-  "optional": false
+  "optional": false,
+  "linkedWith": 4071163871
  },
  "501717180": {
   "hash": 501717180,
@@ -4849,7 +4849,7 @@
   "hash": 536173722,
   "name": "Pugilist",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1668346184766,
+  "lastUpload": 1668348448946,
   "uploadedBy": "Icemourne",
   "editor": {
    "en": {
@@ -5193,11 +5193,11 @@
   "hash": 573122728,
   "name": "Triple Tap",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1668346184766,
+  "lastUpload": 1668348448946,
   "editor": {
    "en": {
-    "main": "",
-    "secondary": ""
+    "main": "import main from 3400784728",
+    "secondary": "import secondary from 3400784728"
    }
   },
   "updateTracker": {
@@ -5214,6 +5214,7 @@
   "hidden": false,
   "inLiveDatabase": true,
   "optional": false,
+  "linkedWith": 3400784728,
   "uploadedBy": "Icemourne"
  },
  "581875391": {
@@ -5645,11 +5646,11 @@
   "hash": 617966211,
   "name": "Successful Warm-Up",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1668346184766,
+  "lastUpload": 1668348448946,
   "editor": {
    "en": {
-    "main": "",
-    "secondary": ""
+    "main": "import main from 2652708987",
+    "secondary": "import secondary from 2652708987"
    }
   },
   "updateTracker": {
@@ -5667,6 +5668,7 @@
   "hidden": false,
   "inLiveDatabase": true,
   "optional": false,
+  "linkedWith": 2652708987,
   "uploadedBy": "Icemourne",
   "importStatsFrom": 2652708987
  },
@@ -7635,11 +7637,11 @@
   "hash": 843318450,
   "name": "Steady Hands",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1668346184766,
+  "lastUpload": 1668348448946,
   "editor": {
    "en": {
-    "main": "",
-    "secondary": ""
+    "main": "import main from 509074078",
+    "secondary": "import secondary from 509074078"
    }
   },
   "updateTracker": {
@@ -7657,6 +7659,7 @@
   "hidden": false,
   "inLiveDatabase": true,
   "optional": false,
+  "linkedWith": 509074078,
   "uploadedBy": "Icemourne",
   "importStatsFrom": 509074078
  },
@@ -7872,7 +7875,7 @@
   "hash": 859780267,
   "name": "One for All",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1668346184766,
+  "lastUpload": 1668348448946,
   "uploadedBy": "Icemourne",
   "editor": {
    "en": {
@@ -8853,7 +8856,7 @@
   "name": "Snapshot Sights",
   "type": "weaponPerk",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1668346184766,
+  "lastUpload": 1668348448946,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -9120,7 +9123,7 @@
   "hash": 987673306,
   "name": "Tunnel Vision",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1668346184766,
+  "lastUpload": 1668348448946,
   "uploadedBy": "Icemourne",
   "editor": {
    "en": {
@@ -9916,7 +9919,7 @@
   "hash": 1077019636,
   "name": "Danger Zone",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1668346184766,
+  "lastUpload": 1668348448946,
   "uploadedBy": "Icemourne",
   "editor": {
    "en": {
@@ -10619,11 +10622,11 @@
   "hash": 1167468626,
   "name": "Lasting Impression",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668348448946,
   "editor": {
    "en": {
-    "main": "import main from 3927722942",
-    "secondary": "import secondary from 3927722942"
+    "main": "",
+    "secondary": ""
    }
   },
   "updateTracker": {
@@ -10633,7 +10636,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 0
+     "lastUpdate": 1668347095534,
+     "updatedBy": "Icemourne"
     }
    }
   },
@@ -10653,7 +10657,6 @@
     "isConditionallyActive": true
    }
   ],
-  "linkedWith": 3927722942,
   "uploadedBy": "Icemourne",
   "importStatsFrom": 3927722942
  },
@@ -10766,12 +10769,12 @@
   "hash": 1172098417,
   "name": "Sleight of Hand",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1668346184766,
+  "lastUpload": 1668348448946,
   "uploadedBy": "Icemourne",
   "editor": {
    "en": {
-    "main": "",
-    "secondary": ""
+    "main": "import main from 2172504645",
+    "secondary": "import secondary from 2172504645"
    }
   },
   "updateTracker": {
@@ -10789,18 +10792,19 @@
   "uploadToLive": false,
   "hidden": false,
   "inLiveDatabase": false,
-  "optional": false
+  "optional": false,
+  "linkedWith": 2172504645
  },
  "1172413778": {
   "hash": 1172413778,
   "name": "Thresh",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1668346184766,
+  "lastUpload": 1668348448946,
   "uploadedBy": "Icemourne",
   "editor": {
    "en": {
-    "main": "",
-    "secondary": ""
+    "main": "import main from 2726471870",
+    "secondary": "import secondary from 2726471870"
    }
   },
   "updateTracker": {
@@ -10818,7 +10822,8 @@
   "uploadToLive": false,
   "hidden": false,
   "inLiveDatabase": false,
-  "optional": false
+  "optional": false,
+  "linkedWith": 2726471870
  },
  "1174163613": {
   "hash": 1174163613,
@@ -10911,11 +10916,11 @@
   "hash": 1183436451,
   "name": "Firefly",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1668346184766,
+  "lastUpload": 1668348448946,
   "editor": {
    "en": {
-    "main": "",
-    "secondary": ""
+    "main": "import main from 3824105627",
+    "secondary": "import secondary from 3824105627"
    }
   },
   "updateTracker": {
@@ -10933,6 +10938,7 @@
   "hidden": false,
   "inLiveDatabase": true,
   "optional": false,
+  "linkedWith": 3824105627,
   "importStatsFrom": 3824105627,
   "uploadedBy": "Icemourne"
  },
@@ -13550,7 +13556,7 @@
   "hash": 1409206216,
   "name": "Stats for All",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1668346184766,
+  "lastUpload": 1668348448946,
   "uploadedBy": "Icemourne",
   "editor": {
    "en": {
@@ -14572,12 +14578,12 @@
   "hash": 1523649716,
   "name": "Tap the Trigger",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1668346184766,
+  "lastUpload": 1668348448946,
   "uploadedBy": "Icemourne",
   "editor": {
    "en": {
-    "main": "",
-    "secondary": ""
+    "main": "import main from 1890422124",
+    "secondary": "import secondary from 1890422124"
    }
   },
   "updateTracker": {
@@ -14595,7 +14601,8 @@
   "uploadToLive": false,
   "hidden": false,
   "inLiveDatabase": false,
-  "optional": false
+  "optional": false,
+  "linkedWith": 1890422124
  },
  "1523832109": {
   "hash": 1523832109,
@@ -14835,11 +14842,11 @@
   "hash": 1537607344,
   "name": "Sympathetic Arsenal",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1668346184766,
+  "lastUpload": 1668348448946,
   "editor": {
    "en": {
-    "main": "",
-    "secondary": ""
+    "main": "import main from 3350417888",
+    "secondary": "import secondary from 3350417888"
    }
   },
   "updateTracker": {
@@ -14864,6 +14871,7 @@
     "isConditionallyActive": false
    }
   ],
+  "linkedWith": 3350417888,
   "uploadedBy": "Icemourne",
   "importStatsFrom": 3350417888
  },
@@ -14902,7 +14910,7 @@
   "name": "Vorpal Weapon",
   "type": "weaponPerk",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1668346184766,
+  "lastUpload": 1668348448946,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -15220,11 +15228,11 @@
   "hash": 1563455254,
   "name": "Rewind Rounds",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1668346184766,
+  "lastUpload": 1668348448946,
   "editor": {
    "en": {
-    "main": "",
-    "secondary": ""
+    "main": "import main from 3418782618",
+    "secondary": "import secondary from 3418782618"
    }
   },
   "updateTracker": {
@@ -15241,6 +15249,7 @@
   "hidden": false,
   "inLiveDatabase": true,
   "optional": false,
+  "linkedWith": 3418782618,
   "uploadedBy": "Icemourne"
  },
  "1563930741": {
@@ -15432,7 +15441,7 @@
   "name": "Stats for All",
   "type": "weaponPerk",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1668346184766,
+  "lastUpload": 1668348448946,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -15772,7 +15781,7 @@
   "hash": 1618208178,
   "name": "Eager Edge",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1668346184766,
+  "lastUpload": 1668348448946,
   "uploadedBy": "Icemourne",
   "editor": {
    "en": {
@@ -16310,11 +16319,11 @@
   "hash": 1663363584,
   "name": "Sneak Bow",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1668346184766,
+  "lastUpload": 1668348448946,
   "editor": {
    "en": {
-    "main": "",
-    "secondary": ""
+    "main": "import main from 908147344",
+    "secondary": "import secondary from 908147344"
    }
   },
   "updateTracker": {
@@ -16338,6 +16347,7 @@
     "isConditionallyActive": false
    }
   ],
+  "linkedWith": 908147344,
   "uploadedBy": "Icemourne"
  },
  "1667892708": {
@@ -17289,7 +17299,7 @@
   "hash": 1720528630,
   "name": "Voltshot",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1668346184766,
+  "lastUpload": 1668348448946,
   "uploadedBy": "Icemourne",
   "editor": {
    "en": {
@@ -17669,7 +17679,7 @@
   "hash": 1738338041,
   "name": "Tilting at Windmills",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1668346184766,
+  "lastUpload": 1668348448946,
   "uploadedBy": "Icemourne",
   "editor": {
    "en": {
@@ -19243,12 +19253,12 @@
   "hash": 1942880504,
   "name": "Slickdraw",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1668346184766,
+  "lastUpload": 1668348448946,
   "uploadedBy": "Icemourne",
   "editor": {
    "en": {
-    "main": "",
-    "secondary": ""
+    "main": "import main from 1821614984",
+    "secondary": "import secondary from 1821614984"
    }
   },
   "updateTracker": {
@@ -19266,7 +19276,8 @@
   "uploadToLive": false,
   "hidden": false,
   "inLiveDatabase": false,
-  "optional": false
+  "optional": false,
+  "linkedWith": 1821614984
  },
  "1954620775": {
   "hash": 1954620775,
@@ -19339,11 +19350,11 @@
   "hash": 1961144892,
   "name": "Quickdraw",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1668346184766,
+  "lastUpload": 1668348448946,
   "editor": {
    "en": {
-    "main": "",
-    "secondary": ""
+    "main": "import main from 706527188",
+    "secondary": "import secondary from 706527188"
    }
   },
   "updateTracker": {
@@ -19368,6 +19379,7 @@
     "isConditionallyActive": true
    }
   ],
+  "linkedWith": 706527188,
   "uploadedBy": "Icemourne",
   "importStatsFrom": 706527188
  },
@@ -19672,11 +19684,11 @@
   "hash": 2000295559,
   "name": "Turnabout",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1668346184766,
+  "lastUpload": 1668348448946,
   "editor": {
    "en": {
-    "main": "",
-    "secondary": ""
+    "main": "import main from 2209918983",
+    "secondary": "import secondary from 2209918983"
    }
   },
   "updateTracker": {
@@ -19693,6 +19705,7 @@
   "hidden": false,
   "inLiveDatabase": true,
   "optional": false,
+  "linkedWith": 2209918983,
   "uploadedBy": "Icemourne"
  },
  "2002547233": {
@@ -19831,12 +19844,12 @@
   "hash": 2014892510,
   "name": "Perpetual Motion Enhanced",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1668346184766,
+  "lastUpload": 1668348448946,
   "uploadedBy": "Icemourne",
   "editor": {
    "en": {
-    "main": "",
-    "secondary": ""
+    "main": "import main from 1428297954",
+    "secondary": "import secondary from 1428297954"
    }
   },
   "updateTracker": {
@@ -19854,7 +19867,8 @@
   "uploadToLive": false,
   "hidden": false,
   "inLiveDatabase": false,
-  "optional": false
+  "optional": false,
+  "linkedWith": 1428297954
  },
  "2019952880": {
   "hash": 2019952880,
@@ -20711,12 +20725,12 @@
   "hash": 2139363611,
   "name": "Well-Rounded",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1668346184766,
+  "lastUpload": 1668348448946,
   "uploadedBy": "Icemourne",
   "editor": {
    "en": {
-    "main": "",
-    "secondary": ""
+    "main": "import main from 744594675",
+    "secondary": "import secondary from 744594675"
    }
   },
   "updateTracker": {
@@ -20734,7 +20748,8 @@
   "uploadToLive": false,
   "hidden": false,
   "inLiveDatabase": false,
-  "optional": false
+  "optional": false,
+  "linkedWith": 744594675
  },
  "2142852459": {
   "hash": 2142852459,
@@ -22830,7 +22845,7 @@
   "hash": 2308090567,
   "name": "Field Prep",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668348448946,
   "editor": {
    "en": {
     "main": "import main from 2869569095",
@@ -22844,7 +22859,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 0
+     "lastUpdate": 1668346961675,
+     "updatedBy": "Icemourne"
     }
    }
   },
@@ -22864,7 +22880,6 @@
     "isConditionallyActive": true
    }
   ],
-  "linkedWith": 2869569095,
   "importStatsFrom": 2869569095,
   "uploadedBy": "Icemourne"
  },
@@ -23184,7 +23199,7 @@
   "name": "Zen Moment",
   "type": "weaponPerk",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1668346184766,
+  "lastUpload": 1668348448946,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -23250,11 +23265,11 @@
   "hash": 2396422520,
   "name": "Slideways",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1668346184766,
+  "lastUpload": 1668348448946,
   "editor": {
    "en": {
-    "main": "",
-    "secondary": ""
+    "main": "import main from 2039302152",
+    "secondary": "import secondary from 2039302152"
    }
   },
   "updateTracker": {
@@ -23272,6 +23287,7 @@
   "hidden": false,
   "inLiveDatabase": true,
   "optional": false,
+  "linkedWith": 2039302152,
   "uploadedBy": "Icemourne",
   "stats": {
    "handling": [
@@ -25082,7 +25098,7 @@
   "hash": 2658083589,
   "name": "Surplus",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1668346184766,
+  "lastUpload": 1668348448946,
   "uploadedBy": "Icemourne",
   "editor": {
    "en": {
@@ -25469,7 +25485,7 @@
   "hash": 2675361166,
   "name": "Wellspring",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1668346184766,
+  "lastUpload": 1668348448946,
   "uploadedBy": "Icemourne",
   "editor": {
    "en": {
@@ -25739,7 +25755,7 @@
   "hash": 2717805783,
   "name": "Moving Target",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1668346184766,
+  "lastUpload": 1668348448946,
   "uploadedBy": "Icemourne",
   "editor": {
    "en": {
@@ -26373,11 +26389,11 @@
   "hash": 2748801589,
   "name": "Harmony",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1668346184766,
+  "lastUpload": 1668348448946,
   "editor": {
    "en": {
-    "main": "",
-    "secondary": ""
+    "main": "import main from 438098033",
+    "secondary": "import secondary from 438098033"
    }
   },
   "updateTracker": {
@@ -26395,6 +26411,7 @@
   "hidden": false,
   "inLiveDatabase": true,
   "optional": false,
+  "linkedWith": 438098033,
   "uploadedBy": "Icemourne",
   "importStatsFrom": 438098033
  },
@@ -27079,12 +27096,12 @@
   "hash": 2840833776,
   "name": "Shoot to Loot",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1668346184766,
+  "lastUpload": 1668348448946,
   "uploadedBy": "Icemourne",
   "editor": {
    "en": {
-    "main": "",
-    "secondary": ""
+    "main": "import main from 3700496672",
+    "secondary": "import secondary from 3700496672"
    }
   },
   "updateTracker": {
@@ -27102,7 +27119,8 @@
   "uploadToLive": false,
   "hidden": false,
   "inLiveDatabase": false,
-  "optional": false
+  "optional": false,
+  "linkedWith": 3700496672
  },
  "2846385770": {
   "hash": 2846385770,
@@ -29438,7 +29456,7 @@
   "hash": 3097973565,
   "name": "Iron Grip",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668348448946,
   "editor": {
    "en": {
     "main": "import main from 11551321",
@@ -29458,7 +29476,7 @@
   "uploadToLive": false,
   "hidden": false,
   "inLiveDatabase": true,
-  "optional": false,
+  "optional": true,
   "investmentStats": [
    {
     "statTypeHash": 155624089,
@@ -29507,11 +29525,11 @@
   "hash": 3102670337,
   "name": "Unstoppable Force",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1668346184766,
+  "lastUpload": 1668348448946,
   "editor": {
    "en": {
-    "main": "",
-    "secondary": ""
+    "main": "import main from 2224838837",
+    "secondary": "import secondary from 2224838837"
    }
   },
   "updateTracker": {
@@ -29529,6 +29547,7 @@
   "hidden": false,
   "inLiveDatabase": true,
   "optional": false,
+  "linkedWith": 2224838837,
   "uploadedBy": "Icemourne",
   "importStatsFrom": 2224838837
  },
@@ -29537,7 +29556,7 @@
   "name": "Unrelenting",
   "type": "weaponPerk",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1668346184766,
+  "lastUpload": 1668348448946,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -31040,7 +31059,7 @@
   "hash": 3315935575,
   "name": "Iron Reach",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668348448946,
   "editor": {
    "en": {
     "main": "import main from 591790007",
@@ -31060,7 +31079,7 @@
   "uploadToLive": false,
   "hidden": false,
   "inLiveDatabase": true,
-  "optional": false,
+  "optional": true,
   "investmentStats": [
    {
     "statTypeHash": 1240592695,
@@ -31803,11 +31822,11 @@
   "hash": 3418165135,
   "name": "Vorpal Weapon",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1668346184766,
+  "lastUpload": 1668348448946,
   "editor": {
    "en": {
-    "main": "",
-    "secondary": ""
+    "main": "import main from 1546637391",
+    "secondary": "import secondary from 1546637391"
    }
   },
   "updateTracker": {
@@ -31831,6 +31850,7 @@
     "isConditionallyActive": true
    }
   ],
+  "linkedWith": 1546637391,
   "uploadedBy": "Icemourne"
  },
  "3418782618": {
@@ -32056,11 +32076,11 @@
   "hash": 3442762221,
   "name": "Lead from Gold",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1668346184766,
+  "lastUpload": 1668348448946,
   "editor": {
    "en": {
-    "main": "",
-    "secondary": ""
+    "main": "import main from 1556840489",
+    "secondary": "import secondary from 1556840489"
    }
   },
   "updateTracker": {
@@ -32077,6 +32097,7 @@
   "hidden": false,
   "inLiveDatabase": true,
   "optional": false,
+  "linkedWith": 1556840489,
   "uploadedBy": "Icemourne"
  },
  "3449001998": {
@@ -33041,7 +33062,7 @@
   "hash": 3523746922,
   "name": "Archer's Tempo",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1668346184766,
+  "lastUpload": 1668348448946,
   "uploadedBy": "Icemourne",
   "editor": {
    "en": {
@@ -33110,7 +33131,7 @@
   "name": "Auto-Loading Holster",
   "type": "weaponPerkEnhanced",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1668346184766,
+  "lastUpload": 1668348448946,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -33129,10 +33150,11 @@
   },
   "editor": {
    "en": {
-    "main": "",
-    "secondary": ""
+    "main": "import main from 3300816228",
+    "secondary": "import secondary from 3300816228"
    }
-  }
+  },
+  "linkedWith": 3300816228
  },
  "3531427692": {
   "hash": 3531427692,
@@ -33562,7 +33584,7 @@
   "hash": 3609952942,
   "name": "Iron Gaze",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668348448946,
   "editor": {
    "en": {
     "main": "import main from 4152709778",
@@ -33582,7 +33604,7 @@
   "uploadToLive": false,
   "hidden": false,
   "inLiveDatabase": true,
-  "optional": false,
+  "optional": true,
   "investmentStats": [
    {
     "statTypeHash": 1345609583,
@@ -34380,7 +34402,7 @@
   "hash": 3674673997,
   "name": "Immovable Object",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1668346184766,
+  "lastUpload": 1668348448946,
   "uploadedBy": "Icemourne",
   "editor": {
    "en": {
@@ -34411,7 +34433,7 @@
   "name": "Assassin's Blade",
   "type": "weaponPerkEnhanced",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668348448946,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -34423,8 +34445,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658170590674,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1668346886542,
+     "updatedBy": "Icemourne"
     }
    }
   },
@@ -34434,7 +34456,6 @@
     "secondary": "import secondary from 354401740"
    }
   },
-  "linkedWith": 354401740,
   "importStatsFrom": 354401740
  },
  "3683811620": {
@@ -34597,7 +34618,7 @@
   "name": "Shoot to Loot",
   "type": "weaponPerk",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1668346184766,
+  "lastUpload": 1668348448946,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -35029,7 +35050,7 @@
   "name": "Bait and Switch",
   "type": "weaponPerkEnhanced",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668348448946,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -35041,8 +35062,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1658170590674,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1668346921420,
+     "updatedBy": "Icemourne"
     }
    }
   },
@@ -35052,7 +35073,6 @@
     "secondary": "import secondary from 3078487919"
    }
   },
-  "linkedWith": 3078487919,
   "importStatsFrom": 3078487919
  },
  "3751354116": {
@@ -35145,12 +35165,12 @@
   "hash": 3755250867,
   "name": "Under Pressure",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1668346184766,
+  "lastUpload": 1668348448946,
   "uploadedBy": "Icemourne",
   "editor": {
    "en": {
-    "main": "",
-    "secondary": ""
+    "main": "import main from 1645158859",
+    "secondary": "import secondary from 1645158859"
    }
   },
   "updateTracker": {
@@ -35168,7 +35188,8 @@
   "uploadToLive": false,
   "hidden": false,
   "inLiveDatabase": false,
-  "optional": false
+  "optional": false,
+  "linkedWith": 1645158859
  },
  "3766386008": {
   "hash": 3766386008,
@@ -36507,7 +36528,7 @@
   "name": "Lasting Impression",
   "type": "weaponPerk",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668348448946,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -36519,8 +36540,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667217137862,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1668347131146,
+     "updatedBy": "Icemourne"
     }
    }
   },
@@ -36535,7 +36556,7 @@
   },
   "editor": {
    "en": {
-    "main": "Rockets attach on impact and detonate after 3 seconds, dealing an additional 25% Explosive Damage.\n(Overall 20% increased total damage)\n\nPassively grants +50 Blast Radius.\n\n🡅Enhanced: Passively grants an additional +5 Blast Radius.",
+    "main": "Rockets attach on impact and detonate after 3 seconds, dealing an additional 25% Explosive Damage.\n(Overall 20% increased total damage)",
     "secondary": "import self"
    }
   },
@@ -36901,11 +36922,11 @@
   "hash": 3974407819,
   "name": "No Distractions",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1668346184766,
+  "lastUpload": 1668348448946,
   "editor": {
    "en": {
-    "main": "",
-    "secondary": ""
+    "main": "import main from 2866798147",
+    "secondary": "import secondary from 2866798147"
    }
   },
   "updateTracker": {
@@ -36922,6 +36943,7 @@
   "hidden": false,
   "inLiveDatabase": true,
   "optional": false,
+  "linkedWith": 2866798147,
   "uploadedBy": "Icemourne"
  },
  "3977735242": {
@@ -36929,7 +36951,7 @@
   "name": "Tracking Module",
   "type": "weaponPerk",
   "uploadedBy": "Icemourne",
-  "lastUpload": 1668346184766,
+  "lastUpload": 1668348448946,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -38330,7 +38352,7 @@
   "hash": 4116820839,
   "name": "Snapshot Sights",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1668346184766,
+  "lastUpload": 1668348448946,
   "uploadedBy": "Icemourne",
   "editor": {
    "en": {
@@ -39119,7 +39141,7 @@
   "hash": 4200236906,
   "name": "Gutshot Straight",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668348448946,
   "editor": {
    "en": {
     "main": "import main from 1365187766",
@@ -39133,7 +39155,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 0
+     "lastUpdate": 1668347014352,
+     "updatedBy": "Icemourne"
     }
    }
   },
@@ -39141,7 +39164,6 @@
   "hidden": false,
   "inLiveDatabase": true,
   "optional": false,
-  "linkedWith": 1365187766,
   "importStatsFrom": 1365187766,
   "uploadedBy": "Icemourne"
  },
@@ -39440,7 +39462,7 @@
   "hash": 4245865861,
   "name": "Subsistence",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1668346184766,
+  "lastUpload": 1668348448946,
   "uploadedBy": "Icemourne",
   "editor": {
    "en": {
