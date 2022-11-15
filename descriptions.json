@@ -3,7 +3,7 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1668348555560,
+  "lastUpload": 1668533086399,
   "uploadedBy": "Icemourne",
   "editor": {
    "en": {
@@ -25,7 +25,7 @@
   },
   "uploadToLive": false,
   "hidden": false,
-  "inLiveDatabase": false,
+  "inLiveDatabase": true,
   "optional": false
  },
  "1": {
@@ -5802,7 +5802,7 @@
   "hash": 631976966,
   "name": "Scout Rifle Targeting",
   "type": "armorModGeneral",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668533086399,
   "editor": {
    "en": {
     "main": "import main from 3201675491",
@@ -5904,11 +5904,11 @@
   "hash": 650047261,
   "name": "Hand Cannon Ammo Finder",
   "type": "armorModGeneral",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668533086399,
   "editor": {
    "en": {
-    "main": "import main from 1624081088",
-    "secondary": "import secondary from 1624081088"
+    "main": "import main from 712951940",
+    "secondary": "import secondary from 712951940"
    }
   },
   "updateTracker": {
@@ -5917,8 +5917,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667740529117,
-     "updatedBy": "Icemourne"
+     "lastUpdate": 1668532410400,
+     "updatedBy": ""
     }
    }
   },
@@ -6526,11 +6526,11 @@
   "hash": 712951940,
   "name": "Glaive Ammo Finder",
   "type": "armorModGeneral",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668533086399,
   "editor": {
    "en": {
-    "main": "import main from 1624081088",
-    "secondary": "import secondary from 1624081088"
+    "main": "export description (\nFinder Bricks give 75% less ammo.\nKills increase % then at 100% brick spawns\n\n% Multipliers\nPrimary Weapons Kills 1.25x\nExotic Primary Weapons 1.67x\n\nPercentage per Kill:\n<special/> Special weapons <bold/>\n< table >\n|     |bc Perk kill   |b Avarage kills\n|b 1x |c  4.4% > 5.6% |  20\n|b 2x |c  6.6% > 11%  |  15\n<$>",
+    "secondary": "import description from 1624081088\n\nSpecial weapons <bold/>\n1x 4.4% > 5.6%. Average of 20 Kills.\n2x 6.6% > 11%. Average of 15 Kills."
    }
   },
   "updateTracker": {
@@ -6539,8 +6539,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667740521648,
-     "updatedBy": "Icemourne"
+     "lastUpdate": 1668532294491,
+     "updatedBy": ""
     }
    }
   },
@@ -6911,11 +6911,11 @@
   "hash": 755265365,
   "name": "Grenade Launcher Ammo Finder",
   "type": "armorModGeneral",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668533086399,
   "editor": {
    "en": {
-    "main": "import main from 1624081088",
-    "secondary": "import secondary from 1624081088"
+    "main": "import main from 3394151347",
+    "secondary": "import secondary from 3394151347"
    }
   },
   "updateTracker": {
@@ -6924,8 +6924,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667740526709,
-     "updatedBy": "Icemourne"
+     "lastUpdate": 1668532355321,
+     "updatedBy": ""
     }
    }
   },
@@ -9278,7 +9278,7 @@
   "hash": 1015337793,
   "name": "Machine Gun Targeting",
   "type": "armorModGeneral",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668533086399,
   "editor": {
    "en": {
     "main": "import main from 3201675491",
@@ -9595,11 +9595,11 @@
   "hash": 1050260245,
   "name": "Sidearm Ammo Finder",
   "type": "armorModGeneral",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668533086399,
   "editor": {
    "en": {
-    "main": "import main from 1624081088",
-    "secondary": "import secondary from 1624081088"
+    "main": "import main from 712951940",
+    "secondary": "import secondary from 712951940"
    }
   },
   "updateTracker": {
@@ -9608,8 +9608,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667740543174,
-     "updatedBy": "Icemourne"
+     "lastUpdate": 1668532594664,
+     "updatedBy": ""
     }
    }
   },
@@ -14153,7 +14153,7 @@
   "hash": 1476367343,
   "name": "Sword Ammo Finder",
   "type": "armorModGeneral",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668533086399,
   "editor": {
    "en": {
     "main": "import main from 1624081088",
@@ -14404,11 +14404,11 @@
   "hash": 1499759470,
   "name": "Linear Fusion Rifle Ammo Finder",
   "type": "armorModGeneral",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668533086399,
   "editor": {
    "en": {
-    "main": "import main from 1624081088",
-    "secondary": "import secondary from 1624081088"
+    "main": "import main from 3394151347",
+    "secondary": "import secondary from 3394151347"
    }
   },
   "updateTracker": {
@@ -14417,8 +14417,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667740532372,
-     "updatedBy": "Icemourne"
+     "lastUpdate": 1668532460084,
+     "updatedBy": ""
     }
    }
   },
@@ -14439,7 +14439,7 @@
   "hash": 1507854082,
   "name": "Sidearm Targeting",
   "type": "armorModGeneral",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668533086399,
   "editor": {
    "en": {
     "main": "import main from 3201675491",
@@ -15813,11 +15813,11 @@
   "hash": 1624081088,
   "name": "Bow Ammo Finder",
   "type": "armorModGeneral",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668533086399,
   "editor": {
    "en": {
-    "main": "export description (\nAmmo Finder Bricks give 75% less ammo.\n\nAmmo Spawns work on a Counter progressed only by Weapon Kills.\nOnce the counter reaches 100%, the next Weapon Kill will spawn an Ammo Brick.\n\nMultipliers to Counter\nPrimary Weapons Kills 1.25x\nExotic Primary Weapons 1.67x\n\nCounter Percentage per Kill:\n<heavy/> Pover weapons <bold/>\n)\n< table >\n|     |bc Perk kill   |b Avarage kills\n|b 1x |c  3.3% > 4.5% |  26\n|b 2x |c  4.4% > 6.6% |  20\n<$>\n\n<special/> Special weapons <bold/>\n< table >\n|     |bc Perk kill   |b Avarage kills\n|b 1x |c  4.4% > 5.6% |  20\n|b 2x |c  6.6% > 11%  |  15\n<$>\n\nLoadout determines the type of Ammo Brick to spawn.",
-    "secondary": "import description from 1624081088\n1x 3.3% > 4.5%. Average of 26 Kills.\n2x 4.4% > 6.6%. Average of 20 Kills.\n\nSpecial weapons <bold/>\n1x 4.4% > 5.6%. Average of 20 Kills.\n2x 6.6% > 11%. Average of 15 Kills.\n\nLoadout determines the type of Ammo Brick to spawn."
+    "main": "export description (\nFinder Bricks give 75% less ammo.\nKills increase % then at 100% brick spawns\n\n% Multipliers\nPrimary Weapons Kills 1.25x\nExotic Primary Weapons 1.67x\n\nPercentage per Kill:\n<heavy/> Pover weapons <bold/>\n)\n< table >\n|     |bc Perk kill   |b Avarage kills\n|b 1x |c  3.3% > 4.5% |  26\n|b 2x |c  4.4% > 6.6% |  20\n<$>\n\n// Where are no special bows",
+    "secondary": "import description from 1624081088\n1x 3.3% > 4.5%. Average of 26 Kills.\n2x 4.4% > 6.6%. Average of 20 Kills."
    }
   },
   "updateTracker": {
@@ -15826,8 +15826,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667815840849,
-     "updatedBy": "Icemourne"
+     "lastUpdate": 1668532161000,
+     "updatedBy": ""
     }
    }
   },
@@ -20272,7 +20272,7 @@
   "hash": 2080519917,
   "name": "Bow Targeting",
   "type": "armorModGeneral",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668533086399,
   "editor": {
    "en": {
     "main": "import main from 3201675491",
@@ -20634,7 +20634,7 @@
   "hash": 2128395292,
   "name": "Machine Gun Ammo Finder",
   "type": "armorModGeneral",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668533086399,
   "editor": {
    "en": {
     "main": "import main from 1624081088",
@@ -22810,7 +22810,7 @@
   "hash": 2307244871,
   "name": "Sniper Rifle Targeting",
   "type": "armorModGeneral",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668533086399,
   "editor": {
    "en": {
     "main": "import main from 3201675491",
@@ -24697,7 +24697,7 @@
   "hash": 2603856295,
   "name": "Rocket Launcher Ammo Finder",
   "type": "armorModGeneral",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668533086399,
   "editor": {
    "en": {
     "main": "import main from 1624081088",
@@ -26421,11 +26421,11 @@
   "hash": 2754084930,
   "name": "Sniper Rifle Ammo Finder",
   "type": "armorModGeneral",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668533086399,
   "editor": {
    "en": {
-    "main": "import main from 1624081088",
-    "secondary": "import secondary from 1624081088"
+    "main": "import main from 3394151347",
+    "secondary": "import secondary from 3394151347"
    }
   },
   "updateTracker": {
@@ -26434,8 +26434,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667740545664,
-     "updatedBy": "Icemourne"
+     "lastUpdate": 1668532608043,
+     "updatedBy": ""
     }
    }
   },
@@ -27008,7 +27008,7 @@
   "hash": 2829974286,
   "name": "Hand Cannon Targeting",
   "type": "armorModGeneral",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668533086399,
   "editor": {
    "en": {
     "main": "import main from 3201675491",
@@ -27857,7 +27857,7 @@
   "hash": 2919349723,
   "name": "Shotgun Targeting",
   "type": "armorModGeneral",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668533086399,
   "editor": {
    "en": {
     "main": "import main from 3201675491",
@@ -29595,7 +29595,7 @@
   "hash": 3109470977,
   "name": "Glaive Targeting",
   "type": "armorModGeneral",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668533086399,
   "editor": {
    "en": {
     "main": "import main from 3201675491",
@@ -30140,7 +30140,7 @@
   "hash": 3201675491,
   "name": "Auto Rifle Targeting",
   "type": "armorModGeneral",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668533086399,
   "editor": {
    "en": {
     "main": "+10 Aim Assist 1x mod\n+15 Aim Assist 2x mods\n-15% Accuracy Cone Size\n-25% ADS Animation Duration",
@@ -31101,7 +31101,7 @@
   "hash": 3319681729,
   "name": "Pulse Rifle Targeting",
   "type": "armorModGeneral",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668533086399,
   "editor": {
    "en": {
     "main": "import main from 3201675491",
@@ -31138,7 +31138,7 @@
   "hash": 3330325954,
   "name": "Trace Rifle Targeting",
   "type": "armorModGeneral",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668533086399,
   "editor": {
    "en": {
     "main": "import main from 3201675491",
@@ -31332,7 +31332,7 @@
   "hash": 3338875786,
   "name": "Linear Fusion Rifle Targeting",
   "type": "armorModGeneral",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668533086399,
   "editor": {
    "en": {
     "main": "import main from 3201675491",
@@ -31692,11 +31692,11 @@
   "hash": 3394151347,
   "name": "Fusion Rifle Ammo Finder",
   "type": "armorModGeneral",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668533086399,
   "editor": {
    "en": {
-    "main": "import main from 1624081088",
-    "secondary": "import secondary from 1624081088"
+    "main": "export description (\nFinder Bricks give 75% less ammo.\nKills increase % then at 100% brick spawns\n\n% Multipliers\nPrimary Weapons Kills 1.25x\nExotic Primary Weapons 1.67x\n\nPercentage per Kill:\n<heavy/> Pover weapons <bold/>\n)\n< table >\n|     |bc Perk kill   |b Avarage kills\n|b 1x |c  3.3% > 4.5% |  26\n|b 2x |c  4.4% > 6.6% |  20\n<$>\n\n<special/> Special weapons <bold/>\n< table >\n|     |bc Perk kill   |b Avarage kills\n|b 1x |c  4.4% > 5.6% |  20\n|b 2x |c  6.6% > 11%  |  15\n<$>",
+    "secondary": "import description from 1624081088\n1x 3.3% > 4.5%. Average of 26 Kills.\n2x 4.4% > 6.6%. Average of 20 Kills.\n\nSpecial weapons <bold/>\n1x 4.4% > 5.6%. Average of 20 Kills.\n2x 6.6% > 11%. Average of 15 Kills."
    }
   },
   "updateTracker": {
@@ -31705,8 +31705,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667740455760,
-     "updatedBy": "Icemourne"
+     "lastUpdate": 1668532056241,
+     "updatedBy": ""
     }
    }
   },
@@ -35953,7 +35953,7 @@
   "hash": 3857411140,
   "name": "Submachine Gun Targeting",
   "type": "armorModGeneral",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668533086399,
   "editor": {
    "en": {
     "main": "import main from 3201675491",
@@ -36166,7 +36166,7 @@
   "hash": 3901392720,
   "name": "Fusion Rifle Targeting",
   "type": "armorModGeneral",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668533086399,
   "editor": {
    "en": {
     "main": "import main from 3201675491",
@@ -36889,11 +36889,11 @@
   "hash": 3973928133,
   "name": "Trace Rifle Ammo Finder",
   "type": "armorModGeneral",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668533086399,
   "editor": {
    "en": {
-    "main": "import main from 1624081088",
-    "secondary": "import secondary from 1624081088"
+    "main": "import main from 712951940",
+    "secondary": "import secondary from 712951940"
    }
   },
   "updateTracker": {
@@ -36902,8 +36902,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667740550226,
-     "updatedBy": "Icemourne"
+     "lastUpdate": 1668532666721,
+     "updatedBy": ""
     }
    }
   },
@@ -38545,11 +38545,11 @@
   "hash": 4148827738,
   "name": "Shotgun Ammo Finder",
   "type": "armorModGeneral",
-  "lastUpload": 1668002255659,
+  "lastUpload": 1668533086399,
   "editor": {
    "en": {
-    "main": "import main from 1624081088",
-    "secondary": "import secondary from 1624081088"
+    "main": "import main from 1499759470",
+    "secondary": "import secondary from 1499759470"
    }
   },
   "updateTracker": {
@@ -38558,8 +38558,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667740540831,
-     "updatedBy": "Icemourne"
+     "lastUpdate": 1668532529510,
+     "updatedBy": ""
     }
    }
   },
