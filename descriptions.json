@@ -3,7 +3,7 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1668686106463,
+  "lastUpload": 1668689603684,
   "uploadedBy": "Stardust",
   "editor": {
    "en": {
@@ -60,7 +60,7 @@
   "hash": 2,
   "name": "Global variables",
   "type": "none",
-  "lastUpload": 1668686106463,
+  "lastUpload": 1668689603684,
   "editor": {
    "en": {
     "main": "// this variale only shows up on enhanced perks\nvar e = 🠅\n\nvar rof = <title Rate of fire [G_rof] />",
@@ -96,7 +96,7 @@
   "hash": 3,
   "name": "Global titles",
   "type": "none",
-  "lastUpload": 1668686106463,
+  "lastUpload": 1668689603684,
   "editor": {
    "en": {
     "main": "title G_refresh (\nReload, but does not need animation and doesn't proc on-reload perks.\n)\n\ntitle G_conegrowth (\nHow Fast Your Accuracy Cone Expands as you fire your weapon. The less the better.\n)",
@@ -558,10 +558,10 @@
   "hash": 25606670,
   "name": "Dual Loader",
   "type": "weaponPerk",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "uploadedBy": "Stardust",
+  "lastUpload": 1668689603684,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -571,14 +571,14 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667217058551,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1668688207069,
+     "updatedBy": "Stardust"
     }
    }
   },
   "editor": {
    "en": {
-    "main": "Loads 2 Ammo at a time.\nReduces Reload Speed by 35.\n\n🡅Enhanced: Loads 3 Ammo instead of 2.",
+    "main": "Loads 2 Ammo at a time.\nReduces Reload Speed by 35.\n\nenhanced (\n#e Loads 3 Ammo instead of 2.\n)",
     "secondary": "import self"
    }
   },
@@ -2334,10 +2334,10 @@
   "hash": 280464955,
   "name": "Firmly Planted",
   "type": "weaponPerk",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "uploadedBy": "Stardust",
+  "lastUpload": 1668689603684,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -2347,8 +2347,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667259732563,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1668689327833,
+     "updatedBy": "Stardust"
     }
    }
   },
@@ -2382,8 +2382,8 @@
   },
   "editor": {
    "en": {
-    "main": "While Crouched:\n30 Handling, 20 Stability, -40% Accuracy Cone Size, -17% <title Accuracy Cone Growth [accuracy cone growth] />, -80% Recoil Yaw (Horizontal Recoil)\n\n<bold Effects are halved on Fusion Rifles. />\n\n🡅Enhanced: Grants an additional +5 Handling and +5 Stability. (Fusion Rifles only receive +3)\n\n<formula Ready Speed: [ready_0] />\n<formula Stow Speed: [stow_0] />\n\ntitle accuracy cone growth (\nHow Fast Your Accuracy Cone Expands. The less the better.\n)",
-    "secondary": "While Crouched:\n30 Handling, 20 Stability, -40% Accuracy Cone Size, -17% Accuracy Cone Growth, -80% Recoil Yaw (Horizontal Recoil)\n\nEffects are halved on Fusion Rifles.\n\n🡅Enhanced: Grants an additional +5 Handling and +5 Stability. (Fusion Rifles only receive +3)"
+    "main": "While Crouched:\n30 Handling, 20 Stability, -40% Accuracy Cone Size, -17% <title Accuracy Cone Growth [G_conegrowth] />, -80% Recoil Yaw (Horizontal Recoil)\n\nEffects are halved on Fusion Rifles.\n\nenhanced (\n#e Grants an additional +5 Handling and +5 Stability. (Fusion Rifles only receive +3)\n)\n\n<formula Ready Speed: [ready_0] />\n<formula Stow Speed: [stow_0] />",
+    "secondary": "import self"
    }
   },
   "linkedWith": 3920370755
@@ -6092,10 +6092,10 @@
   "hash": 671806388,
   "name": "Compulsive Reloader",
   "type": "weaponPerk",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "uploadedBy": "Stardust",
+  "lastUpload": 1668689603684,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -6105,8 +6105,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667259710314,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1668687613115,
+     "updatedBy": "Stardust"
     },
     "zh-chs": {
      "lastUpdate": 1664459932963,
@@ -6116,8 +6116,8 @@
   },
   "editor": {
    "en": {
-    "main": "While above 70% Magazine:\n+50 Reload Speed with a 0.95x Duration Multiplier.\n\n<formula Reload Time: [reload_0] />\n\n🡅Enhanced: Reload Speed is increased to [+55 maybe?]",
-    "secondary": "While above 70% Magazine:\n+50 Reload Speed with a 0.95x Duration Multiplier.\n\n🡅Enhanced: Reload Speed is increased to [+55 maybe?]"
+    "main": "While above 70% Magazine:\n+50 Reload Speed with a 0.95x Duration Multiplier.\n\nenhanced (\n#e Reload Speed bonus is increased to +55(?)\n)\n\n<formula Reload Time: [reload_0] />",
+    "secondary": "import self"
    },
    "zh-chs": {
     "main": "弹匣内子弹量高于 70% 时：\n+50 装填速度，装填动画时间缩减为 0.95x。\n\n<formula 装填时间： [reload_0] />\n\n强化特征：+[55?] 装填速度",
@@ -6300,10 +6300,10 @@
   "hash": 699525795,
   "name": "Eye of the Storm",
   "type": "weaponPerk",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "uploadedBy": "Stardust",
+  "lastUpload": 1668689603684,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -6313,8 +6313,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667259726807,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1668688786012,
+     "updatedBy": "Stardust"
     }
    }
   },
@@ -6329,8 +6329,8 @@
   },
   "editor": {
    "en": {
-    "main": "While at Low Health:\nUp to 30 Handling, -40% Accuracy Cone Size, and -17% <title Accuracy Cone Growth [accuracy cone growth] />.\n\nEffect increases linearly as Health decreases. Maximized strength at Critical Health.\n\n<formula Ready Speed at Maximized Strength: [ready_0] />\n<formula Stow Speed at Maximized Strength: [stow_0] />\n\n🡅Enhanced: Passively grants 5 Stability.\n\ntitle accuracy cone growth (\nHow Fast Your Accuracy Cone Expands. The less the better.\n)",
-    "secondary": "While at Low Health:\n30 Handling, -40% Accuracy Cone Size, and -17% Accuracy Cone Growth.\n\nEffect increases linearly as Health decreases. Maximized strength at Critical Health.\n\n🡅Enhanced: Passively grants 5 Stability."
+    "main": "While at Low Health:\nUp to 30 Handling, -40% Accuracy Cone Size, and -17% <title Accuracy Cone Growth [G_conegrowth] />.\n\nEffect increases linearly as Health decreases. Maximized strength at Critical Health.\n\n<formula Ready Speed at Maximized Strength: [ready_0] />\n<formula Stow Speed at Maximized Strength: [stow_0] />\n\nenhanced (\n#e Passively grants 5 Stability.\n)",
+    "secondary": "import self"
    }
   },
   "linkedWith": 3719974635
@@ -8886,10 +8886,10 @@
   "hash": 960810156,
   "name": "Danger Zone",
   "type": "weaponPerk",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "uploadedBy": "Stardust",
+  "lastUpload": 1668689603684,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -8899,15 +8899,15 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667259712578,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1668687762395,
+     "updatedBy": "Stardust"
     }
    }
   },
   "editor": {
    "en": {
-    "main": "While within 15 meters of 3 enemies:\n[?]% Increased Blast Radius and 40% Reduced <title Self Damage [self damage] />.\n\nLingers for 4(?) seconds.\n\n🡅Enhanced: Passively grants 5 Blast Radius.\n\ntitle self damage (\nSelf Damage normally deals 25% increased damage.\n)",
-    "secondary": "While within 15 meters of 3 enemies:\n[?]% Increased Blast Radius and 40% Reduced Self Damage.\n(Self Damage normally deals 25% increased damage)\n\nLingers for 4(?) seconds. \n\n🡅Enhanced: Passively grants +5 Blast Radius."
+    "main": "While within 15 meters of 3 enemies:\n[?]% Increased Blast Radius and 40% Reduced <title Self Damage [self damage] />.\n\nLingers for 4(?) seconds.\n\nenhanced (\n#e Passively grants 5 Blast Radius.\n)\n\ntitle self damage (\nSelf Damage normally deals 25% increased damage.\n)",
+    "secondary": "While within 15 meters of 3 enemies:\n[?]% Increased Blast Radius and 40% Reduced Self Damage.\n(Self Damage normally deals 25% increased damage)\n\nLingers for 4(?) seconds. \n\nenhanced (\n#e Passively grants 5 Blast Radius.\n)"
    }
   },
   "linkedWith": 1077019636
@@ -11035,10 +11035,10 @@
   "hash": 1195158366,
   "name": "Encore",
   "type": "weaponPerk",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "uploadedBy": "Stardust",
+  "lastUpload": 1668689603684,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -11048,8 +11048,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667259720569,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1668688560604,
+     "updatedBy": "Stardust"
     }
    }
   },
@@ -11071,8 +11071,8 @@
   },
   "editor": {
    "en": {
-    "main": "On Precision Kill: +10 Range per Stack, up to +30 Range at 3 Stacks.\n\n< table formula >\n|b Stacks |b In-Game Range\n|b 1x     |  <formula [range_0] />\n|b 2x     |  <formula [range_1] />\n|b 3x     |  <formula [range_2] />\n<$>\n\nOn Non-Precision Kill: Removes 1 Stack. If at 0 Stacks, it improves Accuracy and grants +30 Stability.\n\nLasts 7 seconds. Refreshed on Kill.\n\n🡅Enhanced: Buff Duration is increased to 8 seconds.",
-    "secondary": "On Precision Kill: +10 Range per Stack, up to +30 Range at 3 Stacks.\n\nOn Non-Precision Kill: Removes 1 Stack. If at 0 Stacks, it improves Accuracy and grants +30 Stability.\n\nLasts 7 seconds. Refreshed on Kill.\n\n🡅Enhanced: Buff Duration is increased to 8 seconds."
+    "main": "On Precision Kill: +10 Range per Stack, up to +30 Range at 3 Stacks.\n\n< table formula background_2 >\n|b Stacks |b Effective Range\n|b 1x     |  <formula [range_0] />\n|b 2x     |  <formula [range_1] />\n|b 3x     |  <formula [range_2] />\n<$>\n\nOn Non-Precision Kill: Removes 1 Stack. If at 0 Stacks, it improves Accuracy and grants +30 Stability.\n\nLasts 7 seconds. Refreshed on Kill.\n\nenhanced (\n#e Buff Duration is increased to 8 seconds.\n)",
+    "secondary": "On Precision Kill: +10 Range per Stack, up to +30 Range at 3 Stacks.\n\nOn Non-Precision Kill: Removes 1 Stack. If at 0 Stacks, it improves Accuracy and grants +30 Stability.\n\nLasts 7 seconds. Refreshed on Kill.\n\nenhanced (\n#e Buff Duration is increased to 8 seconds.\n)"
    }
   },
   "linkedWith": 838873202
@@ -12789,10 +12789,10 @@
   "hash": 1354429876,
   "name": "Fourth Time's the Charm",
   "type": "weaponPerk",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "uploadedBy": "Stardust",
+  "lastUpload": 1668689603684,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -12802,14 +12802,14 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667217104928,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1668689392005,
+     "updatedBy": "Stardust"
     }
    }
   },
   "editor": {
    "en": {
-    "main": "Scoring 4 Precision Hits generates 2 Ammo to Magazine.\nPrecision Hit counter is reset if no precision hits are scored within 2 seconds.\n\n🡅Enhanced: Timer between Precision Hits increased to 3 seconds.",
+    "main": "Scoring 4 Precision Hits generates 2 Ammo to Magazine.\nPrecision Hit counter is reset if no precision hits are scored within 2 seconds.\n\nenhanced (\n#e Timer between Precision Hits increased to 3 seconds.\n)",
     "secondary": "import self"
    }
   },
@@ -12877,10 +12877,10 @@
   "hash": 1359896290,
   "name": "Dynamic Sway Reduction",
   "type": "weaponPerk",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "uploadedBy": "Stardust",
+  "lastUpload": 1668689603684,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -12890,8 +12890,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667250343807,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1668688258715,
+     "updatedBy": "Stardust"
     }
    }
   },
@@ -12906,7 +12906,7 @@
   },
   "editor": {
    "en": {
-    "main": "While holding down the trigger:\nEvery successive shot grants -10% Accuracy Cone Size and +1 Stability, up to -100% Accuracy Cone Size and +10 Stability after firing 10 shots.\n\nEffect at maximum strength removes all spread.\n\n🡅Enhanced: Effect reaches maximum strength after 8 shots.",
+    "main": "While holding down the trigger:\nEvery successive shot grants -10% Accuracy Cone Size and +1 Stability, up to -100% Accuracy Cone Size and +10 Stability after firing 10 shots.\n\nEffect at maximum strength removes all spread.\n\nenhanced (\n#e Effect reaches maximum strength after 8 shots.\n)",
     "secondary": "import self"
    }
   },
@@ -16550,10 +16550,10 @@
   "hash": 1683379515,
   "name": "Disruption Break",
   "type": "weaponPerk",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "uploadedBy": "Stardust",
+  "lastUpload": 1668689603684,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -16563,14 +16563,14 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667217053905,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1668688045202,
+     "updatedBy": "Stardust"
     }
    }
   },
   "editor": {
    "en": {
-    "main": "On Elemental, Barrier or Guardian Shield Break:\nWeakens the enemy, increasing Kinetic Damage dealt by 50% for 5.5 seconds.\nDoes not affect Stasis Damage.\n\nStacks with other Debuffs, as it is a Weapon Perk.\n\n🡅Enhanced: Debuff Duration is increased.",
+    "main": "On Elemental, Barrier or Guardian Shield Break:\nWeakens the enemy, increasing Kinetic Damage dealt by 50% for 5.5 seconds.\nDoes not affect Stasis Damage.\n\nStacks with other Debuffs, as it is a Weapon Perk.\n\nenhanced (\n#e Debuff Duration is increased.\n)",
     "secondary": "import self"
    }
   },
@@ -16639,10 +16639,10 @@
   "hash": 1685431615,
   "name": "En Garde",
   "type": "weaponPerk",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "uploadedBy": "Stardust",
+  "lastUpload": 1668689603684,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -16652,8 +16652,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667217065606,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1668688388517,
+     "updatedBy": "Stardust"
     }
    }
   },
@@ -16668,7 +16668,7 @@
   },
   "editor": {
    "en": {
-    "main": "Upon readying a Sword:\n30% Increased damage for 1.5 seconds.\n\n🡅Enhanced: Buff duration is increased.",
+    "main": "Upon readying a Sword:\n30% Increased damage for 1.5 seconds.\n\nenhanced (\n#e Buff duration is increased.\n)",
     "secondary": "import self"
    }
   },
@@ -17938,10 +17938,10 @@
   "hash": 1771339417,
   "name": "Firing Line",
   "type": "weaponPerk",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "uploadedBy": "Stardust",
+  "lastUpload": 1668689603684,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -17951,8 +17951,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667217092516,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1668689159976,
+     "updatedBy": "Stardust"
     }
    }
   },
@@ -17967,7 +17967,7 @@
   },
   "editor": {
    "en": {
-    "main": "While within X meters of 2+ Allies:\n20% Increased Precision Damage\n\n🡅Enhanced: Passively grants 5 Range.",
+    "main": "While within X meters of 2+ Allies:\n20% Increased Precision Damage\n\nenhanced (\n#e Passively grants 5 Range.\n)",
     "secondary": "import self"
    }
   },
@@ -18210,10 +18210,10 @@
   "hash": 1799762209,
   "name": "Cornered",
   "type": "weaponPerk",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "uploadedBy": "Stardust",
+  "lastUpload": 1668689603684,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -18223,8 +18223,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667222830475,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1668687691002,
+     "updatedBy": "Stardust"
     },
     "zh-chs": {
      "lastUpdate": 1664460228616,
@@ -18234,7 +18234,7 @@
   },
   "editor": {
    "en": {
-    "main": "While within 15[?] meters of 2 enemies:\n0.85x Charge/Draw Time.\n\nLingers for 1.5 seconds.\n\n🡅Enhanced: Passively grants +5 Stability.",
+    "main": "While within 15[?] meters of 2 enemies:\n0.85x Charge/Draw Time.\n\nLingers for 1.5 seconds.\n\nenhanced (\n#e Passively grants +5 Stability.\n)",
     "secondary": "import self"
    },
    "zh-chs": {
@@ -19992,10 +19992,10 @@
   "hash": 2030760728,
   "name": "Energy Transfer",
   "type": "weaponPerk",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "uploadedBy": "Stardust",
+  "lastUpload": 1668689603684,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -20005,14 +20005,14 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667250422588,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1668688629493,
+     "updatedBy": "Stardust"
     }
    }
   },
   "editor": {
    "en": {
-    "main": "While Blocking with a Sword:\nGrants Class Ability Energy based on the amount of health lost.\n\nIt is a LOT of Energy.\n\n🡅Enhanced: Increased Class Ability Energy Gain.",
+    "main": "While Blocking with a Sword:\nGrants Class Ability Energy based on the amount of health lost.\n\nIt is a LOT of Energy.\n\nenhanced (\n#e Increased Class Ability Energy Gain.\n)",
     "secondary": "import self"
    }
   },
@@ -20242,10 +20242,10 @@
   "hash": 2077819806,
   "name": "Eager Edge",
   "type": "weaponPerk",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "uploadedBy": "Stardust",
+  "lastUpload": 1668689603684,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -20255,14 +20255,14 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667217063012,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1668688271878,
+     "updatedBy": "Stardust"
     }
    }
   },
   "editor": {
    "en": {
-    "main": "Upon readying a Sword:\n100% Increased Lunge Range within 1 second. \n\nMoving too fast instantly ends the effect, even without swinging the sword.\n\n4 second cooldown.\n\n🡅Enhanced: Buff Duration is increased to 1.5 seconds.",
+    "main": "Upon readying a Sword:\n100% Increased Lunge Range within 1 second. \n\nMoving too fast instantly ends the effect, even without swinging the sword.\n\n4 second cooldown.\n\nenhanced (\n#e Buff Duration is increased to 1.5 seconds.\n)",
     "secondary": "import self"
    }
   },
@@ -21965,10 +21965,10 @@
   "hash": 2244851822,
   "name": "Flash Counter",
   "type": "weaponPerk",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "uploadedBy": "Stardust",
+  "lastUpload": 1668689603684,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -21978,14 +21978,14 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667217097417,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1668689338304,
+     "updatedBy": "Stardust"
     }
    }
   },
   "editor": {
    "en": {
-    "main": "Upon Blocking a Melee Attack within 0.5 seconds of starting to Block:\nSuppresses and weakens the enemy, making the enemy receive 20% increased damage for 4 seconds.\n\n🡅Enhanced: Passively grants increased Ammo Reserves.",
+    "main": "Upon Blocking a Melee Attack within 0.5 seconds of starting to Block:\nSuppresses and weakens the enemy, making the enemy receive 20% increased damage for 4 seconds.\n\nenhanced (\n#e Passively grants increased Ammo Reserves.\n)",
     "secondary": "import self"
    }
   },
@@ -22620,10 +22620,10 @@
   "hash": 2284787283,
   "name": "Clown Cartridge",
   "type": "weaponPerk",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "uploadedBy": "Stardust",
+  "lastUpload": 1668689603684,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -22633,8 +22633,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667217041276,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1668687505962,
+     "updatedBy": "Stardust"
     },
     "zh-chs": {
      "lastUpdate": 1664459478217,
@@ -22644,7 +22644,7 @@
   },
   "editor": {
    "en": {
-    "main": "Upon finishing a reload:\nRandomly grants 10% to 50% Increased Magazine Capacity.\nAlways rounds up.\n\n🡅Enhanced: Improves the average overflow amount.",
+    "main": "Upon finishing a reload:\nRandomly grants 10% to 50% Increased Magazine Capacity.\nAlways rounds up.\n\nenhanced (\n#e Improves the average overflow amount.\n)",
     "secondary": "import self"
    },
    "zh-chs": {
@@ -23574,10 +23574,10 @@
   "hash": 2451262963,
   "name": "Fragile Focus",
   "type": "weaponPerk",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "uploadedBy": "Stardust",
+  "lastUpload": 1668689603684,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -23587,8 +23587,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667259735376,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1668689459076,
+     "updatedBy": "Stardust"
     }
    }
   },
@@ -23603,8 +23603,8 @@
   },
   "editor": {
    "en": {
-    "main": "Passively grants +20 Range.\nReceiving any incoming damage disables the perk for 5 seconds.\n\n🡅Enhanced: Timer after receiving damage is reduced to 4 seconds.\n\n<formula Effective Range: [range_0] />",
-    "secondary": "Passively grants +20 Range.\nReceiving any incoming damage disables the perk for 5 seconds.\n\n🡅Enhanced: Timer after receiving damage is reduced to 4 seconds."
+    "main": "Passively grants +20 Range.\nReceiving any incoming damage disables the perk for 5 seconds.\n\nenhanced (\n#e Timer after receiving damage is reduced to 4 seconds.\n)\n\n<formula Effective Range: [range_0] />",
+    "secondary": "import self"
    }
   },
   "linkedWith": 1609056795
@@ -24860,10 +24860,10 @@
   "hash": 2621346526,
   "name": "Ensemble",
   "type": "weaponPerk",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "uploadedBy": "Stardust",
+  "lastUpload": 1668689603684,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -24873,8 +24873,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667259722025,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1668688667595,
+     "updatedBy": "Stardust"
     }
    }
   },
@@ -24896,8 +24896,8 @@
   },
   "editor": {
    "en": {
-    "main": "While within 15 meters of 1 or more allies:\n30 Handling and 40 Reload Speed.\n\nLingers for 1.5 seconds.\n\n<formula Reload Time: [reload_0] />\n<formula Ready Speed: [ready_0] />\n<formula Stow Speed: [stow_0] />\n\n🡅Enhanced: [35?] Handling and [45?] Reload Speed",
-    "secondary": "While within 15 meters of 1 or more allies:\n30 Handling and 40 Reload Speed.\n\nLingers for 1.5 seconds.\n\n🡅Enhanced: [35?] Handling and [45?] Reload Speed"
+    "main": "While within 15 meters of 1 or more allies:\n30 Handling and 40 Reload Speed.\n\nLingers for 1.5 seconds.\n\n<formula Reload Time: [reload_0] />\n<formula Ready Speed: [ready_0] />\n<formula Stow Speed: [stow_0] />\n\nenhanced (\n#e 35(?) Handling and 45(?) Reload Speed\n)",
+    "secondary": "import self"
    }
   },
   "linkedWith": 2495011826
@@ -26514,10 +26514,10 @@
   "hash": 2779035018,
   "name": "Feeding Frenzy",
   "type": "weaponPerk",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "uploadedBy": "Stardust",
+  "lastUpload": 1668689603684,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -26527,8 +26527,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667259727905,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1668688956144,
+     "updatedBy": "Stardust"
     }
    }
   },
@@ -26544,8 +26544,8 @@
   },
   "editor": {
    "en": {
-    "main": "On Weapon Kill: Increased Reload Speed.\n\n< table >\n| Stacks | Reload Stat | <title RDS [rds] /> | Reload Time <bold/>\n| 1x     | 10          | 1x                  | <formula [reload_0] /> <background/>\n| 2x     | 45          | 0.9x                | <formula [reload_1] />\n| 3x     | 55          | 0.875x              | <formula [reload_2] /> <background/>\n| 4x     | 70          | 0.85x               | <formula [reload_3] />\n| 5x     | 100         | 0.8x                | <formula [reload_4] /> <background/>\n<$>\n\nLasts 3.5 seconds. Max of 5 Stacks.\n\n🡅Enhanced: Stronger Effect.\n\ntitle rds (\nReload Duration Scalar: Multiplies reload animation duration by that number.\n)",
-    "secondary": "On Weapon Kill:\nGrants Increased Reload Speed for 3.5 seconds, up to a maximum of 5 stacks.\n\n10 | 45 | 55 | 70 | 100 Reload Speed.\n- | 0.9x | 0.875x | 0.85x | 0.8x Reload Duration Multiplier.\n\n🡅Enhanced: Stronger Effect."
+    "main": "On Weapon Kill: Increased Reload Speed.\n\n< table >\n| Stacks | Reload Stat | <title RDS [rds] /> | Reload Time <bold/>\n| 1x     | 10          | 1x                  | <formula [reload_0] /> <background/>\n| 2x     | 45          | 0.9x                | <formula [reload_1] />\n| 3x     | 55          | 0.875x              | <formula [reload_2] /> <background/>\n| 4x     | 70          | 0.85x               | <formula [reload_3] />\n| 5x     | 100         | 0.8x                | <formula [reload_4] /> <background/>\n<$>\n\nLasts 3.5 seconds. Max of 5 Stacks.\n\nenhanced (\n#e Stronger Effect.\n)\n\ntitle rds (\nReload Duration Scalar: Multiplies reload animation duration by that number.\n)",
+    "secondary": "On Weapon Kill:\nGrants Increased Reload Speed for 3.5 seconds, up to a maximum of 5 stacks.\n\n10 | 45 | 55 | 70 | 100 Reload Speed.\n- | 0.9x | 0.875x | 0.85x | 0.8x Reload Duration Multiplier.\n\nenhanced (\n#e Stronger Effect.\n)"
    }
   },
   "linkedWith": 1171147302
@@ -27167,10 +27167,10 @@
   "hash": 2848615171,
   "name": "Dragonfly",
   "type": "weaponPerk",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "uploadedBy": "Stardust",
+  "lastUpload": 1668689603684,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -27180,15 +27180,15 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667259715917,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1668688095725,
+     "updatedBy": "Stardust"
     }
    }
   },
   "editor": {
    "en": {
-    "main": "On Precision Kill:\nTarget explodes, dealing 65 damage that matches the Element of the weapon over a 3 meter radius.\n\nDamage against Combatants is multiplied by 1.3x, then multiplied again by Combatant Rank Modifiers.\n\n🡅Enhanced: Passively grants +5 Reload Speed.",
-    "secondary": "On Precision Kill:\nTarget explodes, dealing 65 damage that matches the Element of the weapon over a 3 meter radius.\n\nDamage against Combatants is multiplied by 1.3x, then multiplied again by Combatant Rank Modifiers.\n\n🡅Enhanced: Passively grants +5 Reload Speed."
+    "main": "On Precision Kill:\nTarget explodes, dealing 65 damage that matches the Element of the weapon over a 3 meter radius.\n\nDamage against Combatants is multiplied by 1.3x, then multiplied again by Combatant Rank Modifiers.\n\nenhanced (\nPassively grants +5 Reload Speed.\n)",
+    "secondary": "import self"
    }
   },
   "linkedWith": 169755979
@@ -27348,10 +27348,10 @@
   "hash": 2869569095,
   "name": "Field Prep",
   "type": "weaponPerk",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "uploadedBy": "Stardust",
+  "lastUpload": 1668689603684,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -27361,8 +27361,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667259729579,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1668689019646,
+     "updatedBy": "Stardust"
     }
    }
   },
@@ -27385,8 +27385,8 @@
   },
   "editor": {
    "en": {
-    "main": "While Crouched:\n+50 Reload Speed, 0.8x Reload Duration Multiplier, and 0.8x Ready/Stow Duration Multiplier.\n\nPassively grants increased Ammo Reserves.\n\n<formula Reload Time: [reload_0] />\n<formula Ready Speed: [ready_0] />\n<formula Stow Speed: [stow_0] />\n\n🡅Enhanced: Stronger effect. Greatly increased Ammo Reserves.",
-    "secondary": "While Crouched:\n+50 Reload Speed, 0.8x Reload Duration Multiplier, and 0.8x Ready/Stow Duration Multiplier.\n\nPassively grants increased Ammo Reserves.\n\n🡅Enhanced: Stronger effect. Greatly increased Ammo Reserves.\t"
+    "main": "While Crouched:\n+50 Reload Speed, 0.8x Reload Duration Multiplier, and 0.8x Ready/Stow Duration Multiplier.\n\nPassively grants increased Ammo Reserves.\n\n<formula Reload Time: [reload_0] />\n<formula Ready Speed: [ready_0] />\n<formula Stow Speed: [stow_0] />\n\nenhanced (\n#e Stronger effect. Greatly increased Ammo Reserves.\n)",
+    "secondary": "import self"
    }
   },
   "investmentStats": [
@@ -27547,10 +27547,10 @@
   "hash": 2888557110,
   "name": "Full Court",
   "type": "weaponPerk",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "uploadedBy": "Stardust",
+  "lastUpload": 1668689603684,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -27560,14 +27560,14 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667217111465,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1668689600378,
+     "updatedBy": "Stardust"
     }
    }
   },
   "editor": {
    "en": {
-    "main": "Increases Explosive Damage by 0.63% for every meter after 10 meters.\n\n25% Increased Explosive Damage at 50 meters.\n\nIncreases overall damage by 17% at 50 Blast Radius Stat for Drum-Loaded Grenade Launchers.\n\n🡅Enhanced: Passively grants +5 Blast Radius.",
+    "main": "Increases Explosive Damage by 0.63% for every meter after 10 meters.\n\n25% Increased Explosive Damage at 50 meters.\n\nIncreases overall damage by 17% at 50 Blast Radius Stat for Drum-Loaded Grenade Launchers.\n\nenhanced (\n#e Passively grants +5 Blast Radius.\n)",
     "secondary": "import self"
    }
   },
@@ -27648,10 +27648,10 @@
   "hash": 2896038713,
   "name": "Focused Fury",
   "type": "weaponPerk",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "uploadedBy": "Stardust",
+  "lastUpload": 1668689603684,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -27661,8 +27661,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667217103048,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1668689375659,
+     "updatedBy": "Stardust"
     }
    }
   },
@@ -27677,7 +27677,7 @@
   },
   "editor": {
    "en": {
-    "main": "Upon scoring 50% of Magazine as Precision Hits:\n20% increased damage for 11 seconds.\n\nBuff can be refreshed.\nStows and Reloads reset the precision counter. \n\n🡅Enhanced: Buff Duration is increased to 12 seconds.",
+    "main": "Upon scoring 50% of Magazine as Precision Hits:\n20% increased damage for 11 seconds.\n\nBuff can be refreshed.\nStows and Reloads reset the precision counter. \n\nenhanced (\n#e Buff Duration is increased to 12 seconds.\n)",
     "secondary": "import self"
    }
   },
@@ -28293,10 +28293,10 @@
   "hash": 2978966579,
   "name": "Chill Clip",
   "type": "weaponPerk",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "uploadedBy": "Stardust",
+  "lastUpload": 1668689603684,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -28306,8 +28306,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667259705972,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1668687491836,
+     "updatedBy": "Stardust"
     },
     "zh-chs": {
      "lastUpdate": 1664459316133,
@@ -28317,8 +28317,8 @@
   },
   "editor": {
    "en": {
-    "main": "While above 50% Magazine:\nDirect Hits create a Stasis burst which applies 50 Slow for <pve 4 /> <pvp [1.5] /> seconds to enemies within [?] meters.\nOnly activates once per shot.\n(Except Wolfpack Rounds)\n\nWhisper of Durance increases slow duration by <pve 8 /> <pvp [2] /> seconds\n\n🡅Enhanced: Passively grants 5 Stability.",
-    "secondary": "While above 50% Magazine:\nDirect Hits create a Stasis burst which applies 50 Slow for 4 [PVP: 1.5] seconds to enemies within [?] meters.\nOnly activates once per shot.\n(Except Wolfpack Rounds)\n\nWhisper of Durance increases slow duration by 4s in PVE and 0.5s in PVP.\n\n🡅Enhanced: Passively grants 5 Stability."
+    "main": "While above 50% Magazine:\nDirect Hits create a Stasis burst which applies 50 Slow for <pve 4 /> <pvp [1.5] /> seconds to enemies within [?] meters.\n\nOnly activates once per shot.\n(Wolfpack Rounds can activate is a second time)\n\nWhisper of Durance increases slow duration by <pve 8 /> <pvp [2] /> seconds\n\nenhanced (\n#e Passively grants 5 Stability.\n)",
+    "secondary": "import self"
    },
    "zh-chs": {
     "main": "前半弹匣直接命中敌人时：\n将产生一个冰影爆炸，附近 [?] 米内的敌人获得 50 层减速效果。持续 4 [PVP 1.5] 秒。\n每次射击仅触发一次效果，狼群弹药除外。\n\n强化特征：+5 稳定性。",
@@ -28836,10 +28836,10 @@
   "hash": 3016987351,
   "name": "Counterattack",
   "type": "weaponPerk",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "uploadedBy": "Stardust",
+  "lastUpload": 1668689603684,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -28849,8 +28849,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667217048240,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1668687715395,
+     "updatedBy": "Stardust"
     },
     "zh-chs": {
      "lastUpdate": 1664460388243,
@@ -28869,7 +28869,7 @@
   },
   "editor": {
    "en": {
-    "main": "Upon blocking an attack within 0.5 seconds of starting to Block:\n50% Increased damage for 2 seconds.\n\n🡅Enhanced: Buff Duration is increased.",
+    "main": "Upon blocking an attack within 0.5 seconds of starting to Block:\n50% Increased damage for 2 seconds.\n\nenhanced (\n#e Buff Duration is increased.\n)",
     "secondary": "import self"
    },
    "zh-chs": {
@@ -29051,10 +29051,10 @@
   "hash": 3038247973,
   "name": "Explosive Payload",
   "type": "weaponPerk",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "uploadedBy": "Stardust",
+  "lastUpload": 1668689603684,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -29064,15 +29064,15 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667259724708,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1668688740961,
+     "updatedBy": "Stardust"
     }
    }
   },
   "editor": {
    "en": {
-    "main": "Splits 50% of Damage into an Explosive Damage portion that deals 30% increased damage and has no damage falloff.\n\n<pve [PVE] 15% Body Shot Damage Increase. Precision Damage Increase varies depending on Precision Multiplier. />\n\n<pvp [PVP] Total damage remains the same. />\n\n🡅Enhanced: Passively grants 5 Range.",
-    "secondary": "Splits 50% of Damage into an Explosive Damage portion that deals 30% increased damage and has no damage falloff.\n\n[PVE] 15% Body Shot Damage Increase. Precision Damage Increase varies depending on Precision Multiplier.\n\n[PVP] Total damage remains the same.\n\n🡅Enhanced: Passively grants 5 Range."
+    "main": "Splits 50% of Damage into an Explosive Damage portion that deals 30% increased damage and has no damage falloff.\n\n<pve [PVE] 15% Body Shot Damage Increase. Precision Damage Increase varies depending on Precision Multiplier. />\n\n<pvp [PVP] Total damage remains the same. />\n\nenhanced (\n#e Passively grants 5 Range.\n)",
+    "secondary": "import self"
    }
   },
   "linkedWith": 64866129
@@ -29081,10 +29081,10 @@
   "hash": 3047969693,
   "name": "Desperado",
   "type": "weaponPerk",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "uploadedBy": "Stardust",
+  "lastUpload": 1668689603684,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -29094,8 +29094,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667217052218,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1668688019200,
+     "updatedBy": "Stardust"
     },
     "zh-chs": {
      "lastUpdate": 1664460665897,
@@ -29105,7 +29105,7 @@
   },
   "editor": {
    "en": {
-    "main": "Upon finishing a reload within 6 seconds of a Precision Kill:\nDelay after shooting is reduced by 30%, increasing Rate of Fire for 6 seconds.\nCan be refreshed.\n\n🡅Enhanced: Duration increased to 7 seconds.",
+    "main": "Upon finishing a reload within 6 seconds of a Precision Kill:\nDelay after shooting is reduced by 30%, increasing Rate of Fire for 6 seconds.\nCan be refreshed.\n\nenhanced (\n#e Duration increased to 7 seconds.\n)",
     "secondary": "import self"
    },
    "zh-chs": {
@@ -30033,10 +30033,10 @@
   "hash": 3194351027,
   "name": "Explosive Light",
   "type": "weaponPerk",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "uploadedBy": "Stardust",
+  "lastUpload": 1668689603684,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -30046,14 +30046,14 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667217072619,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1668688718597,
+     "updatedBy": "Stardust"
     }
    }
   },
   "editor": {
    "en": {
-    "main": "Grants 1 Stack of Explosive Light per Orb of Power Pickup, granting increased damage and +100 Blast Radius.\n\nMax of 6 Stacks. Consumes 1 Stack per Shot.\n\nGrenade Launchers: 65% to 84% Increased explosive damage. Increases overall damage by 52%.\n\nRocket Launchers: 25% Increased impact and explosive damage.\n\n🡅Enhanced: Passively grants +5 Velocity.",
+    "main": "Grants 1 Stack of Explosive Light per Orb of Power Pickup, granting increased damage and +100 Blast Radius.\n\nMax of 6 Stacks. Consumes 1 Stack per Shot.\n\nGrenade Launchers: 65% to 84% Increased explosive damage. Increases overall damage by 52%.\n\nRocket Launchers: 25% Increased impact and explosive damage.\n\nenhanced (\n#e Passively grants +5 Velocity.\n)",
     "secondary": "import self"
    }
   },
@@ -31626,10 +31626,10 @@
   "hash": 3365897133,
   "name": "Explosive Head",
   "type": "weaponPerk",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "uploadedBy": "Stardust",
+  "lastUpload": 1668689603684,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -31639,15 +31639,15 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667259723434,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1668688697345,
+     "updatedBy": "Stardust"
     }
    }
   },
   "editor": {
    "en": {
-    "main": "Splits 50% of Damage into an Explosive Damage portion that deals 30% increased damage.\nDetonation timer varies on draw and distance.\n\n<pve [PVE] 15% Body Shot Damage Increase. Precision Damage Increase varies depending on the Precision Multiplier. />\n\n<pvp [PVP] Total damage remains practically the same. />\n\n🡅Enhanced: Passively grants +5 Accuracy.",
-    "secondary": "Splits 50% of Damage into an Explosive Damage portion that deals 30% increased damage. \nDetonation timer varies on draw and distance.\n\n[PVE] 15% Body Shot Damage Increase. Precision Damage Increase varies depending on Precision Multiplier.\n[PVP] Total damage remains practically the same.\n\n🡅Enhanced: Passively grants +5 Accuracy."
+    "main": "Splits 50% of Damage into an Explosive Damage portion that deals 30% increased damage.\nDetonation timer varies on draw and distance.\n\n<pve [PVE] 15% Body Shot Damage Increase. Precision Damage Increase varies depending on the Precision Multiplier. />\n\n<pvp [PVP] Total damage remains practically the same. />\n\nenhanced (\n#e Passively grants +5 Accuracy.\n)",
+    "secondary": "import self"
    }
   },
   "investmentStats": [
@@ -32659,10 +32659,10 @@
   "hash": 3511092054,
   "name": "Elemental Capacitor",
   "type": "weaponPerk",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "uploadedBy": "Stardust",
+  "lastUpload": 1668689603684,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -32672,15 +32672,15 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667259719222,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1668688374489,
+     "updatedBy": "Stardust"
     }
    }
   },
   "editor": {
    "en": {
-    "main": "Grants different Stat Bonuses based on your selected Subclass.\n\n<solar/> +50 Reload Speed\n<arc/> +50 Handling\n<void/> +20 Stability\n<stasis/> +20 Recoil Direction & 5% reduced ADS Movement Speed Penalty\n\n🡅Enhanced: Adds an additional +5 to the corresponding Subclass Stat Bonus.",
-    "secondary": "Grants Stat Bonuses depending on your selected Subclass.\n\nSolar: +50 Reload Speed.\nArc: +50 Handling.\nVoid: +20 Stability.\nStasis: +20 Recoil Direction & 5% reduced ADS Movement Speed Penalty.\n\n🡅Enhanced: Adds an additional +5 to the corresponding Subclass Stat Bonus."
+    "main": "Grants different Stat Bonuses based on your selected Subclass.\n\n<solar/> +50 Reload Speed\n<arc/> +50 Handling\n<void/> +20 Stability\n<stasis/> +20 Recoil Direction & 5% reduced ADS Movement Speed Penalty\n\nenhanced (\n#e Adds an additional +5 to the corresponding Subclass Stat Bonus.\n)",
+    "secondary": "Grants Stat Bonuses depending on your selected Subclass.\n\nSolar: +50 Reload Speed.\nArc: +50 Handling.\nVoid: +20 Stability.\nStasis: +20 Recoil Direction & 5% reduced ADS Movement Speed Penalty.\n\nenhanced (\n#e Adds an additional +5 to the corresponding Subclass Stat Bonus.\n)"
    }
   },
   "investmentStats": [
@@ -33030,10 +33030,10 @@
   "hash": 3523296417,
   "name": "Demolitionist",
   "type": "weaponPerk",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "uploadedBy": "Stardust",
+  "lastUpload": 1668689603684,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -33043,8 +33043,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667259713745,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1668687882335,
+     "updatedBy": "Stardust"
     },
     "zh-chs": {
      "lastUpdate": 1664460448089,
@@ -33054,8 +33054,8 @@
   },
   "editor": {
    "en": {
-    "main": "Kills with <primary/>Primary Weapons and <heavy/>Power Weapons grant 10% Grenade Ability Energy. <title MOST [most] /> <special/>Special Weapons grant 20%.\n\nUsing your Grenade Ability <title refreshes [refreshes] /> Magazine. 3 Second Cooldown.\n\n🡅Enhanced: Grenade Ability Energy gains are increased to 11% and 22% respectively.\n\ntitle most (\nTrace Rifles and Grenade Launchers grant half of what other Special Weapons give.\n)\ntitle refreshes (\nReload, but does not need animation and doesn't proc on-reload perks.\n)",
-    "secondary": "Kills with Primary Weapons and Power Weapons grant 10% Grenade Ability Energy. [MOST] Special Weapons grant 20%.\n\nTrace Rifles and Grenade Launchers grant half of what other Special Weapons give.\n\nUsing your Grenade Ability refreshes Magazine. 3 Second Cooldown.\n\n🡅Enhanced: Grenade Ability Energy gains are increased to 11% and 22% respectively."
+    "main": "Kills with <primary/>Primary Weapons and <heavy/>Power Weapons grant 10% Grenade Ability Energy.\n<title MOST [most] /> <special/>Special Weapons grant 20%.\n\nUsing your Grenade Ability <title refreshes [G_refresh] /> Magazine.\n3 Second Cooldown.\n\nenhanced (\n#e Grenade Ability Energy gains are increased to 11% and 22% respectively.\n)\n\ntitle most (\nTrace Rifles and Grenade Launchers grant half of what other Special Weapons give.\n)",
+    "secondary": "Kills with Primary Weapons and Power Weapons grant 10% Grenade Ability Energy.\n[MOST] Special Weapons grant 20%.\n\nTrace Rifles and Grenade Launchers grant half of what other Special Weapons give.\n\nUsing your Grenade Ability refreshes Magazine.\n3 Second Cooldown.\n\nenhanced (\n#e Grenade Ability Energy gains are increased to 11% and 22% respectively.\n)"
    }
   },
   "linkedWith": 1906147653
@@ -34062,10 +34062,10 @@
   "hash": 3650930298,
   "name": "Cold Steel",
   "type": "weaponPerk",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "uploadedBy": "Stardust",
+  "lastUpload": 1668689603684,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -34075,15 +34075,15 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1665006510318,
-     "undatedBy": "Fading Shadow"
+     "lastUpdate": 1668687524337,
+     "updatedBy": "Stardust"
     }
    }
   },
   "editor": {
    "en": {
     "main": "Powered Sword Hits apply Slow for <pve 4.25 /> <pvp [1.5] /> seconds.\n\nLight Attacks apply 40 Slow.\nHeavy Attacks apply 60 Slow.",
-    "secondary": "Powered Sword Hits apply Slow for 4.25 [PVP: 1.5] seconds.\n\nLight Attacks apply 40 Slow.\nHeavy Attacks apply 60 Slow."
+    "secondary": "import self"
    }
   },
   "linkedWith": 405677814
@@ -34649,10 +34649,10 @@
   "hash": 3705817207,
   "name": "Duelist's Trance",
   "type": "weaponPerk",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "uploadedBy": "Stardust",
+  "lastUpload": 1668689603684,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -34662,14 +34662,14 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667217060130,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1668688221444,
+     "updatedBy": "Stardust"
     }
    }
   },
   "editor": {
    "en": {
-    "main": "On Sword Kill:\nIncreased Charge Rate, Endurance, Efficiency, and Defense.\nLasts until stowed.\n\n🡅Enhanced: Stronger effect.",
+    "main": "On Sword Kill:\nIncreased Charge Rate, Endurance, Efficiency, and Defense.\nLasts until stowed.\n\nenhanced (\n#e Stronger effect.\n)",
     "secondary": "import self"
    }
   },
@@ -35824,10 +35824,10 @@
   "hash": 3824105627,
   "name": "Firefly",
   "type": "weaponPerk",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "uploadedBy": "Stardust",
+  "lastUpload": 1668689603684,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -35837,8 +35837,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667223492607,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1668689143938,
+     "updatedBy": "Stardust"
     }
    }
   },
@@ -35854,7 +35854,7 @@
   "editor": {
    "en": {
     "main": "On Precision Kill:\nTarget explodes, dealing 80 Solar Damage in a 3 meter radius, and grants +50 Reload Speed for 6 seconds.\n\nDamage against Combatants is multiplied by 1.3x, then multiplied again by Combatant Rank Modifiers.\n\n<formula Reload Time: [reload_0] />",
-    "secondary": "On Precision Kill:\nTarget explodes, dealing 80 Solar Damage in a 3 meter radius, and grants +50 Reload Speed for 6 seconds.\n\nDamage against Combatants is multiplied by 1.3x, then multiplied again by Combatant Rank Modifiers."
+    "secondary": "import self"
    }
   },
   "mirrorStatsFrom": 1561789734,
@@ -38272,10 +38272,10 @@
   "hash": 4104185692,
   "name": "Frenzy",
   "type": "weaponPerk",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "uploadedBy": "Stardust",
+  "lastUpload": 1668689603684,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -38285,8 +38285,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667259736291,
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1668689515699,
+     "updatedBy": "Stardust"
     }
    }
   },
@@ -38315,8 +38315,8 @@
   },
   "editor": {
    "en": {
-    "main": "After being <title in Combat [in combat] /> for 12 seconds:\n15% Increased Damage, +50 Handling, and +50 Reload Speed.\n\nLasts until you're out of combat and works while stowed.\n\n<formula Reload Time: [reload_0] />\n<formula Ready Speed: [ready_0] />\n<formula Stow Speed: [stow_0] /> \n\n🡅Enhanced: In Combat Timer is increased to 5.5 seconds\n\ntitle in combat (\nDefined as having either dealt or received damage within 5 seconds.\n)",
-    "secondary": "After being in Combat for 12 seconds:\n15% Increased Damage, +50 Handling, and +50 Reload Speed.\n\nLasts until you're out of combat and works while stowed.\n\nBeing in Combat is defined as having either dealt or received damage within 5 seconds.\n\n🡅Enhanced: In Combat Timer is increased to 5.5 seconds"
+    "main": "After being <title in Combat [in combat] /> for 12 seconds:\n15% Increased Damage, +50 Handling, and +50 Reload Speed.\n\nLasts until you're out of combat and works while stowed.\n\n<formula Reload Time: [reload_0] />\n<formula Ready Speed: [ready_0] />\n<formula Stow Speed: [stow_0] /> \n\nenhanced (\n#e In Combat Timer is increased to 5.5 seconds\n)\n\ntitle in combat (\nDefined as having either dealt or received damage within 5 seconds.\n)",
+    "secondary": "After being in Combat for 12 seconds:\n15% Increased Damage, +50 Handling, and +50 Reload Speed.\n\nLasts until you're out of combat and works while stowed.\n\nBeing in Combat is defined as having either dealt or received damage within 5 seconds.\n\nenhanced (\n#e In Combat Timer is increased to 5.5 seconds\n)"
    }
   },
   "linkedWith": 3007133316
@@ -38413,10 +38413,10 @@
   "hash": 4134353779,
   "name": "Drop Mag",
   "type": "weaponPerk",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "uploadedBy": "Stardust",
+  "lastUpload": 1668689603684,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -38426,15 +38426,15 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1665007410761,
-     "undatedBy": "Fading Shadow"
+     "lastUpdate": 1668688155800,
+     "updatedBy": "Stardust"
     }
    }
   },
   "editor": {
    "en": {
     "main": "Passively grants +30 Reload Speed with 0.9x Duration Multiplier.\n\nDecreases Magazine Size Stat by 20.",
-    "secondary": "Passively grants +30 Reload Speed with 0.9x Duration Multiplier.\n\nDecreases Magazine Size Stat by 20."
+    "secondary": "import self"
    }
   },
   "investmentStats": [
