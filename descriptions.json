@@ -3,7 +3,7 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "uploadedBy": "Stardust",
   "editor": {
    "en": {
@@ -60,7 +60,7 @@
   "hash": 2,
   "name": "Global variables",
   "type": "none",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "editor": {
    "en": {
     "main": "// this variale only shows up on enhanced perks\nvar e = 🠅\n\nvar rof = <title Rate of fire [G_rof] />",
@@ -96,7 +96,7 @@
   "hash": 3,
   "name": "Global titles",
   "type": "none",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "editor": {
    "en": {
     "main": "title G_refresh (\nReload, but does not need animation and doesn't proc on-reload perks.\n)\n\ntitle G_conegrowth (\nHow Fast Your Accuracy Cone Expands as you fire your weapon. The less the better.\n)",
@@ -559,7 +559,7 @@
   "name": "Dual Loader",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -683,7 +683,7 @@
   "name": "Opening Shot",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -1221,7 +1221,7 @@
   "name": "Headstone",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -1906,7 +1906,7 @@
   "name": "Underdog",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -2216,7 +2216,7 @@
   "name": "Rapid Hit",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -2334,7 +2334,7 @@
   "name": "Firmly Planted",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -2668,9 +2668,9 @@
   "name": "Assassin's Blade",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668023493455,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -2680,7 +2680,7 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1668021238586,
+     "lastUpdate": 1668697901174,
      "updatedBy": "Stardust"
     },
     "zh-chs": {
@@ -2704,7 +2704,7 @@
   },
   "editor": {
    "en": {
-    "main": "On Sword Kill:\n15% Increased Damage and sets Forward Movement Speed to 9 meters per second for [?] seconds.\n\nRemains active even if stowed.\n\nenhanced (\n// #e\n)",
+    "main": "On Sword Kill:\n15% Increased Damage and sets Forward Movement Speed to 9 meters per second for [?] seconds.\n\nRemains active even if stowed.\n\nenhanced (\n#e Buff duration is increased.\n)",
     "secondary": "import self"
    },
    "zh-chs": {
@@ -3879,7 +3879,7 @@
   "name": "Harmony",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -3925,9 +3925,9 @@
   "name": "Blunt Execution Rounds",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668025103290,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -3937,7 +3937,7 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1668024771326,
+     "lastUpdate": 1668697780566,
      "updatedBy": "Stardust"
     }
    }
@@ -3960,8 +3960,8 @@
   },
   "editor": {
    "en": {
-    "main": "Upon dealing Melee Damage while an Enemy is within 15 meters:\n<pve 500% /> <pvp [100%] /> increased damage and +100 Handling for 10 seconds or until firing a full burst.\n4 second cooldown. Can be activated while stowed.\n\nAny Powered Melee which requires sprinting, sliding, or performs a slam will not activate Blunt Execution Rounds.\n\nenhanced (\n#e Buff duration increased to 11 seconds.\n\n)\n<formula Ready Speed: [ready_0] />\n<formula Stow Speed: [stow_0] />",
-    "secondary": "Upon dealing Melee Damage while an Enemy is within 15 meters:\n500% [PVP: 100%] increased damage and +100 Handling for 10 seconds or until firing a full burst.\n4 second cooldown. Can be activated while stowed.\n\nAny Powered Melee which requires sprinting, sliding, or performs a slam will not activate Blunt Execution Rounds.\n\nenhanced (\n#e Buff duration increased to 11 seconds.\n)"
+    "main": "Upon dealing Melee Damage while an Enemy is within 15 meters:\n<pve 500% /> <pvp [100%] /> increased damage and +100 Handling for 10 seconds or until firing a full burst.\n4 second cooldown. Can be activated while stowed.\n\nAny Powered Melee which requires sprinting, sliding, or performs a slam will not activate Blunt Execution Rounds.\n\nenhanced (\n#e Buff duration increased to 11 seconds.\n)\n\n<formula Ready Speed: [ready_0] />\n<formula Stow Speed: [stow_0] />",
+    "secondary": "import self"
    }
   },
   "linkedWith": 2529412083
@@ -4058,7 +4058,7 @@
   "name": "Headseeker",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -4249,7 +4249,7 @@
   "name": "Recombination",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -4629,7 +4629,7 @@
   "name": "Steady Hands",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -5056,7 +5056,7 @@
   "name": "Killing Tally",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -5251,7 +5251,7 @@
   "name": "Moving Target",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -6092,7 +6092,7 @@
   "name": "Compulsive Reloader",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -6229,7 +6229,7 @@
   "hash": 691659142,
   "name": "Pugilist",
   "type": "weaponPerk",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "editor": {
    "en": {
     "main": "Kills with <primary/> Primary and <heavy/> Power Weapons grant #e${10 * #d}% Melee Ability Energy.\nMost <special/> Special Weapons grant #e${20 * #d}%.\n\nGlaives, Grenade Launchers, and Trace Rifles share the ability gains of primary weapons.\n\nDealing Melee Damage grants +35 Handling for 3 seconds.\n\nenhanced (\nvar d = 1.1\n#e Melee Ability Energy gains are increased by 10%.\n)\n\n<formula Ready Speed: [ready_0] />\n<formula Stow Speed: [stow_0] />",
@@ -6300,7 +6300,7 @@
   "name": "Eye of the Storm",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -6407,7 +6407,7 @@
   "name": "Quickdraw",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -6754,7 +6754,7 @@
   "name": "Well-Rounded",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -7004,7 +7004,7 @@
   "name": "Repulsor Brace",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -7199,7 +7199,7 @@
   "name": "Trench Barrel",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -8816,7 +8816,7 @@
   "name": "Impulse Amplifier",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -8856,7 +8856,7 @@
   "name": "Snapshot Sights",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -8886,7 +8886,7 @@
   "name": "Danger Zone",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -8974,7 +8974,7 @@
   "name": "Pulse Monitor",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -9315,7 +9315,7 @@
   "name": "Kill Clip",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -10666,7 +10666,7 @@
   "name": "Outlaw",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -11035,7 +11035,7 @@
   "name": "Encore",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -11771,9 +11771,9 @@
   "name": "Celerity",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668025103290,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -11783,7 +11783,7 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1668024784236,
+     "lastUpdate": 1668697751293,
      "updatedBy": "Stardust"
     },
     "zh-chs": {
@@ -11818,7 +11818,7 @@
   "editor": {
    "en": {
     "main": "While Last Guardian Standing:\n+100 Handling, +100 Reload Speed, and +[?] Aim Assist, massively decreased flinch received, increased accuracy, stronger scope highlight, and enables radar while ADS.\n\nPassively grants +20 Handling and +20 Reload Speed.\n\n<formula Reload Time: [reload_0] />\n<formula Ready Speed: [ready_0] />\n<formula Stow Speed: [stow_0] />",
-    "secondary": "While Last Guardian Standing:\n+100 Handling, +100 Reload Speed, and +[?] Aim Assist, massively decreased flinch received, increased accuracy, stronger scope highlight, and enables radar while ADS.\n\nPassively grants +20 Handling and +20 Reload Speed."
+    "secondary": "import self"
    },
    "zh-chs": {
     "main": "+20 操控性，填装速度。\n\n当你作为你的火力战队最后一名存活的队员时：\n+100 操控性，+100 填装速度，+[?] 瞄准辅助。\n大幅降低收到伤害时的屏幕抖动。\n瞄准时可显示雷达。\n\n<formula 填装时间： [reload_0] />\n<formula 拔枪速度： [ready_0] />\n<formula 收枪速度： [stow_0] />",
@@ -11872,10 +11872,10 @@
   "hash": 1275731761,
   "name": "Cluster Bomb",
   "type": "weaponPerk",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "uploadedBy": "Stardust",
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -11885,8 +11885,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1659903012345,
-     "undatedBy": "Fading-Shadow"
+     "lastUpdate": 1668697725066,
+     "updatedBy": "Stardust"
     },
     "zh-chs": {
      "lastUpdate": 1664459715685,
@@ -11896,7 +11896,7 @@
   },
   "editor": {
    "en": {
-    "main": "Explosion releases 8 Cluster Bombs.\r\nEach Cluster Bomb deals an additional 3% damage.",
+    "main": "Explosion releases 8 Cluster Bombs.\nEach Cluster Bomb deals an additional 3% damage.\n\nenhanced (\n#e Passively grants +5 Blast Radius.\n)",
     "secondary": "import self"
    },
    "zh-chs": {
@@ -12789,7 +12789,7 @@
   "name": "Fourth Time's the Charm",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -12877,7 +12877,7 @@
   "name": "Dynamic Sway Reduction",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -12944,7 +12944,7 @@
   "hash": 1365187766,
   "name": "Gutshot Straight",
   "type": "weaponPerk",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "editor": {
    "en": {
     "main": "While Aiming-Down-Sights:\nIncreased Bodyshot Damage, -[35?]% Aim Assist Cone Size.\n\nBodyshot damage increase:\n • Bow, Hand Cannon: 20%\n • Auto Rifle, Pulse Rifle, Sidearm, Submachine Gun: 10%\n\nenhanced (\n#e Reduces Aim Assist penalty.\n)",
@@ -13648,7 +13648,7 @@
   "name": "Reservoir Burst",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -13694,7 +13694,7 @@
   "name": "Perpetual Motion",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -14610,7 +14610,7 @@
   "name": "Reconstruction",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -14911,7 +14911,7 @@
   "name": "Vorpal Weapon",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -15076,7 +15076,7 @@
   "name": "Lead from Gold",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -15164,7 +15164,7 @@
   "name": "High-Caliber Rounds",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -15316,7 +15316,7 @@
   "name": "Heating Up",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -15442,7 +15442,7 @@
   "name": "Stats for All",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -15568,9 +15568,9 @@
   "name": "Backup Plan",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668025103290,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -15580,7 +15580,7 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1668024763296,
+     "lastUpdate": 1668697906606,
      "updatedBy": "Stardust"
     },
     "zh-chs": {
@@ -15614,7 +15614,7 @@
   },
   "editor": {
    "en": {
-    "main": "Upon readying the weapon:\n-30% Charge Time\n-20% Damage\n+100 Handling\n\nLasts [?] seconds.\n\nenhanced (\n// #e \n)\n\n<formula Ready Speed: [ready_0] />\n<formula Stow Speed: [stow_0] />",
+    "main": "Upon readying the weapon:\n-30% Charge Time\n-20% Damage\n+100 Handling\n\nLasts [?] seconds.\n\nenhanced (\n#e Buff duration is increased.\n)\n\n<formula Ready Speed: [ready_0] />\n<formula Stow Speed: [stow_0] />",
     "secondary": "import self"
    },
    "zh-chs": {
@@ -15848,7 +15848,7 @@
   "name": "Grave Robber",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -15907,7 +15907,7 @@
   "name": "Under Pressure",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -16550,7 +16550,7 @@
   "name": "Disruption Break",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -16639,7 +16639,7 @@
   "name": "En Garde",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -17833,7 +17833,7 @@
   "name": "Relentless Strikes",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -17863,7 +17863,7 @@
   "name": "Kickstart",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -17938,7 +17938,7 @@
   "name": "Firing Line",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -17977,7 +17977,7 @@
   "name": "Osmosis",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -18210,7 +18210,7 @@
   "name": "Cornered",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -18286,7 +18286,7 @@
   "name": "Subsistence",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -18315,7 +18315,7 @@
   "hash": 1821614984,
   "name": "Slickdraw",
   "type": "weaponPerk",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "editor": {
    "en": {
     "main": "Passively grants +100 Handling, 0.95x Ready Animation Duration Multiplier, and -60%(?) Aim Assist Cone Size.\n\nenhanced (\n#e Aim Assist Cone Size Penalty is decreased to -[?]%.\n)\n\n<formula Ready Speed: [ready_0] />\n<formula Stow Speed: [stow_0] />",
@@ -18702,7 +18702,7 @@
   "name": "Hip-Fire Grip",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -18760,7 +18760,7 @@
   "hash": 1870851715,
   "name": "Under-Over",
   "type": "weaponPerk",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "editor": {
    "en": {
     "main": "Passively increases damage dealt to certain shields.\n\n20% Increased Damage against Overshields.\n10% Increased Damage against Combatant Shields.\n\nenhanced (\n#e Damage Increase to Overshields is increased.\n)",
@@ -18910,7 +18910,7 @@
   "name": "Tap the Trigger",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -19285,7 +19285,7 @@
   "name": "Timed Payload",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -19770,10 +19770,10 @@
   "hash": 2010801679,
   "name": "Ambitious Assassin",
   "type": "weaponPerk",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1668002255659,
+  "uploadedBy": "Stardust",
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -19783,8 +19783,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1667667717967,
-     "updatedBy": "Icemourne"
+     "lastUpdate": 1668697935462,
+     "updatedBy": "Stardust"
     },
     "zh-chs": {
      "lastUpdate": 1664433784615,
@@ -19798,7 +19798,7 @@
   },
   "editor": {
    "en": {
-    "main": "Upon finishing a reload within [?] seconds of a Weapon Kill:\nIncreased Magazine Capacity per kill within [?] seconds of each.\n\nMaxes out at 150% increased Magazine Capacity. Always rounds magazine up.\n\nPrimary Weapons receive a 20% Magazine Capacity increase perk kill, while Special and Power Weapons receive a 10% increase.",
+    "main": "Upon finishing a reload within [?] seconds of a Weapon Kill:\nIncreased Magazine Capacity per kill within [?] seconds of each.\n\nMaxes out at 150% increased Magazine Capacity. Always rounds magazine up.\n\nPrimary Weapons receive a 20% Magazine Capacity increase perk kill, while Special and Power Weapons receive a 10% increase.\n\nenhanced (\n#e Passively grants +5 Reload Speed.\n)",
     "secondary": "import self"
    },
    "zh-chs": {
@@ -19992,7 +19992,7 @@
   "name": "Energy Transfer",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -20109,7 +20109,7 @@
   "name": "Slideways",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -20242,7 +20242,7 @@
   "name": "Eager Edge",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -20959,7 +20959,7 @@
   "name": "Sleight of Hand",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -21012,7 +21012,7 @@
   "hash": 2173046394,
   "name": "Voltshot",
   "type": "weaponPerk",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "editor": {
    "en": {
     "main": "Upon finishing a reload within 3.8 seconds of a Kill:\nYour next Weapon Hit within 7 seconds applies Jolt. \n\nDamage from Jolt can be increased through Weapon Damage Increases, Debuffs, and Combatant Rank Modifiers. (The last only works against the Jolted enemy)\n\nenhanced (\n#e Buff Duration is increased to 8 seconds.\n)",
@@ -21453,7 +21453,7 @@
   "name": "Turnabout",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -21491,7 +21491,7 @@
   "name": "High-Impact Reserves",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -21810,7 +21810,7 @@
   "name": "Unstoppable Force",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -21965,7 +21965,7 @@
   "name": "Flash Counter",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -22620,7 +22620,7 @@
   "name": "Clown Cartridge",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -23200,7 +23200,7 @@
   "name": "Zen Moment",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -23527,7 +23527,7 @@
   "name": "Killing Wind",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -23574,7 +23574,7 @@
   "name": "Fragile Focus",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -23613,7 +23613,7 @@
   "name": "Multikill Clip",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -24514,7 +24514,7 @@
   "name": "Tireless Blade",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -24761,7 +24761,7 @@
   "name": "Golden Tricorn",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -24860,7 +24860,7 @@
   "name": "Ensemble",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -25061,7 +25061,7 @@
   "name": "Successful Warm-Up",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -25517,7 +25517,7 @@
   "name": "One-Two Punch",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -26019,7 +26019,7 @@
   "name": "Thresh",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -26514,7 +26514,7 @@
   "name": "Feeding Frenzy",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -27128,7 +27128,7 @@
   "name": "Rangefinder",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -27167,7 +27167,7 @@
   "name": "Dragonfly",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -27318,7 +27318,7 @@
   "name": "No Distractions",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -27348,7 +27348,7 @@
   "name": "Field Prep",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -27547,7 +27547,7 @@
   "name": "Full Court",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -27648,7 +27648,7 @@
   "name": "Focused Fury",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -28099,7 +28099,7 @@
   "name": "Tunnel Vision",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -28293,7 +28293,7 @@
   "name": "Chill Clip",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -28836,7 +28836,7 @@
   "name": "Counterattack",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -29051,7 +29051,7 @@
   "name": "Explosive Payload",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -29081,7 +29081,7 @@
   "name": "Desperado",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -29323,9 +29323,9 @@
   "name": "Bait and Switch",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668025103290,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -29335,7 +29335,7 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1668024766499,
+     "lastUpdate": 1668697909892,
      "updatedBy": "Stardust"
     },
     "zh-chs": {
@@ -29355,7 +29355,7 @@
   },
   "editor": {
    "en": {
-    "main": "Upon dealing damage with all your weapons within [?] seconds of each:\n35% increased damage for 10 seconds.\n\nenhanced (\n#e Buff Duration is increased to 11 seconds\n)",
+    "main": "Upon dealing damage with all your weapons within [?] seconds of each:\n35% increased damage for 10 seconds.\n\nenhanced (\n#e Buff Duration is increased to 11 seconds.\n)",
     "secondary": "import self"
    },
    "zh-chs": {
@@ -29399,7 +29399,7 @@
   "name": "Genesis",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -29557,7 +29557,7 @@
   "name": "Unrelenting",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -29813,7 +29813,7 @@
   "name": "Slideshot",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -30033,7 +30033,7 @@
   "name": "Explosive Light",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -30101,7 +30101,7 @@
   "name": "Redirection",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -30979,9 +30979,9 @@
   "name": "Auto-Loading Holster",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668025103290,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -30991,7 +30991,7 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1668024758615,
+     "lastUpdate": 1668697841138,
      "updatedBy": "Stardust"
     },
     "zh-chs": {
@@ -31007,7 +31007,7 @@
   "editor": {
    "en": {
     "main": "<title Refreshes [G_refresh] /> stowed weapon from reserves after 2.5 seconds.\n\nenhanced (\n#e Refresh timer is reduced to 2.3 seconds.\n)",
-    "secondary": "// If text doesen't change you can import it\n// Title will be replaced with normal text\nimport self"
+    "secondary": "import self"
    },
    "zh-chs": {
     "main": "武器收起 2.5 秒后<title 刷新 [refreshes] />弹匣。\n\n强化特征：激活所需时间降低为 2.3 秒。\n\ntitle refreshes (\n装填，但没有动画，也不触发换弹相关 perk。\n)",
@@ -31025,7 +31025,7 @@
   "name": "Spike Grenades",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -31456,7 +31456,7 @@
   "name": "Sympathetic Arsenal",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -31626,7 +31626,7 @@
   "name": "Explosive Head",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -31727,7 +31727,7 @@
   "name": "Triple Tap",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -31859,7 +31859,7 @@
   "name": "Rewind Rounds",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -31918,7 +31918,7 @@
   "name": "Rampage",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -31996,7 +31996,7 @@
   "name": "Surplus",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -32659,7 +32659,7 @@
   "name": "Elemental Capacitor",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -32710,7 +32710,7 @@
   "hash": 3513791699,
   "name": "Mulligan",
   "type": "weaponPerk",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "editor": {
    "en": {
     "main": "On Miss:\nPrimary Weapons have a #e${35 + #d}% chance to refund ammo.\nSpecial and Power Weapons have a #e${20 + #d}% chance to refund ammo.\n\nenhanced (\nvar d = 5\n#e Ammo Refund chance is increased by 5(?)%.\n)",
@@ -33030,7 +33030,7 @@
   "name": "Demolitionist",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -33094,7 +33094,7 @@
   "name": "Tilting at Windmills",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -33519,7 +33519,7 @@
   "name": "Wellspring",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -34003,7 +34003,7 @@
   "name": "Overflow",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -34062,7 +34062,7 @@
   "name": "Cold Steel",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -34074,14 +34074,14 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1668687524337,
+     "lastUpdate": 1668697702579,
      "updatedBy": "Stardust"
     }
    }
   },
   "editor": {
    "en": {
-    "main": "Powered Sword Hits apply Slow for <pve 4.25 /> <pvp [1.5] /> seconds.\n\nLight Attacks apply 40 Slow.\nHeavy Attacks apply 60 Slow.",
+    "main": "Powered Sword Hits apply Slow for <pve 4.25 /> <pvp [1.5] /> seconds.\n\nLight Attacks apply 40 Slow.\nHeavy Attacks apply 60 Slow.\n\nenhanced (\n#e Passively grants +5 Ammo Capacity.\n)",
     "secondary": "import self"
    }
   },
@@ -34618,10 +34618,10 @@
   "hash": 3700496672,
   "name": "Shoot to Loot",
   "type": "weaponPerk",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1668348555560,
+  "uploadedBy": "Stardust",
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -34631,14 +34631,14 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1668345160975,
-     "updatedBy": "Icemourne"
+     "lastUpdate": 1668697367972,
+     "updatedBy": "Stardust"
     }
    }
   },
   "editor": {
    "en": {
-    "main": "After Shooting an Ammo Pickup:\nPicks up the Ammo and Refreshes all your Weapons.\nTriggers Ammo Pickup effects. Only activates if you are not full on Ammo.",
+    "main": "After Shooting an Ammo Pickup:\nPicks up the Ammo and Refreshes all your Weapons.\nTriggers Ammo Pickup effects. Only activates if you are not full on Ammo.\n\nenhanced (\n#e Passively grants +5 Range.\n)",
     "secondary": "import self"
    }
   },
@@ -34649,7 +34649,7 @@
   "name": "Duelist's Trance",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -34679,7 +34679,7 @@
   "name": "Surrounded",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -34818,7 +34818,7 @@
   "name": "Swap Mag",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -35676,7 +35676,7 @@
   "name": "Immovable Object",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -35824,7 +35824,7 @@
   "name": "Firefly",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -35836,7 +35836,7 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1668689143938,
+     "lastUpdate": 1668697608635,
      "updatedBy": "Stardust"
     }
    }
@@ -35852,7 +35852,7 @@
   },
   "editor": {
    "en": {
-    "main": "On Precision Kill:\nTarget explodes, dealing 80 Solar Damage in a 3 meter radius, and grants +50 Reload Speed for 6 seconds.\n\nDamage against Combatants is multiplied by 1.3x, then multiplied again by Combatant Rank Modifiers.\n\n<formula Reload Time: [reload_0] />",
+    "main": "On Precision Kill:\nTarget explodes, dealing 80 Solar Damage in a 3 meter radius, and grants +50 Reload Speed for 6 seconds.\n\nDamage against Combatants is multiplied by 1.3x, then multiplied again by Combatant Rank Modifiers.\n\nenhanced (\n#e Reload Speed buff is increased.\n)\n\n<formula Reload Time: [reload_0] />",
     "secondary": "import self"
    }
   },
@@ -36338,7 +36338,7 @@
   "name": "Whirlwind Blade",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -36528,10 +36528,10 @@
   "hash": 3927722942,
   "name": "Lasting Impression",
   "type": "weaponPerk",
-  "uploadedBy": "Icemourne",
-  "lastUpload": 1668348555560,
+  "uploadedBy": "Stardust",
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
-  "uploadToLive": false,
+  "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -36541,8 +36541,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1668347131146,
-     "updatedBy": "Icemourne"
+     "lastUpdate": 1668697473532,
+     "updatedBy": "Stardust"
     }
    }
   },
@@ -36557,7 +36557,7 @@
   },
   "editor": {
    "en": {
-    "main": "Rockets attach on impact and detonate after 3 seconds, dealing an additional 25% Explosive Damage.\n(Overall 20% increased total damage)",
+    "main": "Rockets attach on impact and detonate after 3 seconds, dealing an additional 25% Explosive Damage.\n(Overall 20% increased total damage)\n\nPassively grants +50 Blast Radius.\n\nenhanced (\n#e Passively grants an additional +5 Blast Radius.\n)",
     "secondary": "import self"
    }
   },
@@ -36952,7 +36952,7 @@
   "name": "Tracking Module",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -37712,7 +37712,7 @@
   "name": "One for All",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -37780,7 +37780,7 @@
   "name": "Threat Detector",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -38015,7 +38015,7 @@
   "name": "Swashbuckler",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -38272,7 +38272,7 @@
   "name": "Frenzy",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -38413,7 +38413,7 @@
   "name": "Drop Mag",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -39948,7 +39948,7 @@
   "name": "Incandescent",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668697355050,
+  "lastUpload": 1668697995876,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
