@@ -3,7 +3,7 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1668698756845,
+  "lastUpload": 1668698855453,
   "uploadedBy": "Stardust",
   "editor": {
    "en": {
@@ -25,7 +25,7 @@
   },
   "uploadToLive": false,
   "hidden": false,
-  "inLiveDatabase": false,
+  "inLiveDatabase": true,
   "optional": false
  },
  "1": {
