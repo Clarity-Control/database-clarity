@@ -3,7 +3,7 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1668785112802,
+  "lastUpload": 1668785687609,
   "uploadedBy": "Mistwalker",
   "editor": {
    "en": {
@@ -301,7 +301,7 @@
   "name": "Adrenaline Junkie",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1668785112802,
+  "lastUpload": 1668785687609,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -1859,7 +1859,7 @@
   "name": "Archer's Tempo",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1668785112802,
+  "lastUpload": 1668785687609,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -2676,7 +2676,7 @@
   "name": "Assassin's Blade",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1668785112802,
+  "lastUpload": 1668785687609,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -3933,7 +3933,7 @@
   "name": "Blunt Execution Rounds",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1668785112802,
+  "lastUpload": 1668785687609,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -9573,7 +9573,7 @@
   "name": "Adaptive Munitions",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1668785112802,
+  "lastUpload": 1668785687609,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -13802,7 +13802,7 @@
   "name": "Alloy Magazine",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1668785112802,
+  "lastUpload": 1668785687609,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -15623,7 +15623,7 @@
   "name": "Backup Plan",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1668785112802,
+  "lastUpload": 1668785687609,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -19473,7 +19473,7 @@
   "name": "Armor-Piercing Rounds",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1668785112802,
+  "lastUpload": 1668785687609,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -19826,7 +19826,7 @@
   "name": "Ambitious Assassin",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1668785112802,
+  "lastUpload": 1668785687609,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -24383,8 +24383,8 @@
   "hash": 2551157718,
   "name": "Box Breathing",
   "type": "weaponPerk",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1668698756845,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1668785687609,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -24398,6 +24398,10 @@
     "en": {
      "lastUpdate": 1668024781082,
      "updatedBy": "Stardust"
+    },
+    "zh-chs": {
+     "lastUpdate": 1668785679598,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -24414,6 +24418,10 @@
    "en": {
     "main": "Upon aiming-down-sights for 1.5 seconds without firing:\n10% increased Aim Assist Falloff Distance and increases Precision Multiplier by +1 for one shot.\n\nTimer starts as soon as the ADS input is pressed.\n\n< table >\n| Weapon Frame        | Precision Multiplier Increase <bold/>\n| Linear Fusion Rifle | <title 29% [mult1] />         <background/>\n| Sniper Rifle        | <title 33.22% [mult0] />   \n| Scout Rifle         | <title 62.75% [mult2] />      <background/>\n<$>\n\nenhanced (\n#e Activation timer is reduced to 1.4 seconds.\n)\n\n\ntitle mult0 (\n3x -> 4x\n)\n\ntitle mult1 (\n3.44x -> 4.44x\n)\n\ntitle mult2 (\n1.6x -> 2.6x\n)",
     "secondary": "Upon aiming-down-sights for 1.5 seconds without firing:\n10% increased Aim Assist Falloff Distance and increases Precision Multiplier by +1 for one shot.\nTimer starts as soon as the ADS input is pressed.\n\nPrecision Multipliers:\nScout Rifles: 62.75% Increase (1.6x -> 2.6x)\nSniper Rifles: 33.22% Increase (3x -> 4x)\nLinear Fusion Rifles: 29% Increase (3.44x -> 4.44x)\n\nenhanced (\n#e Activation timer is reduced to 1.4 seconds.\n)"
+   },
+   "zh-chs": {
+    "main": "未射击下瞄准 1.5 秒：\n+10% 瞄准辅助衰减距离，并提高下一发子弹精准命中伤害（伤害系数+1）。\n\n按下瞄准键即开始计时。\n\n< table >\n| 武器类型        | 实际伤害提升 <bold/>\n| 线性融合步枪    | <title 29% [mult1] />         <background/>\n| 狙击步枪        | <title 33.22% [mult0] />   \n| 斥候步枪        | <title 62.75% [mult2] />      <background/>\n<$>\n\nenhanced (\n#e 触发所需时间降低为 1.4 秒。\n)\n\n\ntitle mult0 (\n3x -> 4x\n)\n\ntitle mult1 (\n3.44x -> 4.44x\n)\n\ntitle mult2 (\n1.6x -> 2.6x\n)",
+    "secondary": "未射击下瞄准 1.5 秒：\n+10% 瞄准辅助衰减距离，并提高下一发子弹精准命中伤害（伤害系数+1）。\n按下瞄准键即开始计时。\n\n伤害提升值：\n斥候步枪：+62.75% (1.6x -> 2.6x)\n狙击步枪：+33.22% (3x -> 4x)\n线性融合步枪：+29% (3.44x -> 4.44x)\n\nenhanced (\n#e 触发所需时间降低为 1.4 秒。\n)"
    }
   },
   "linkedWith": 23371658
@@ -29378,7 +29386,7 @@
   "name": "Bait and Switch",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1668785112802,
+  "lastUpload": 1668785687609,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -31034,7 +31042,7 @@
   "name": "Auto-Loading Holster",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1668785112802,
+  "lastUpload": 1668785687609,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -34918,7 +34926,7 @@
   "name": "Air Assault",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1668785112802,
+  "lastUpload": 1668785687609,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -39580,7 +39588,7 @@
   "name": "Bottomless Grief",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1668785112802,
+  "lastUpload": 1668785687609,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
