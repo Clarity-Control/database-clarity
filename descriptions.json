@@ -3,7 +3,7 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1668782524228,
+  "lastUpload": 1668782842989,
   "uploadedBy": "Mistwalker",
   "editor": {
    "en": {
@@ -301,7 +301,7 @@
   "name": "Adrenaline Junkie",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1668782524228,
+  "lastUpload": 1668782842989,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -9565,7 +9565,7 @@
   "name": "Adaptive Munitions",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1668782524228,
+  "lastUpload": 1668782842989,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -13793,8 +13793,8 @@
   "hash": 1431678320,
   "name": "Alloy Magazine",
   "type": "weaponPerk",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1668698756845,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1668782842989,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -13810,7 +13810,7 @@
      "updatedBy": "Stardust"
     },
     "zh-chs": {
-     "lastUpdate": 1668011583927,
+     "lastUpdate": 1668782581229,
      "updatedBy": "Mistwalker"
     },
     "es": {
@@ -13834,7 +13834,7 @@
     "secondary": "import self"
    },
    "zh-chs": {
-    "main": "export description (\nUpon starting a reload with an empty magazine:\n0.85x Reload Duration Multiplier.\n)\n\n<formula Reload Time: [reload_0] />\n\n弹夹为空时：\n加快 15% 换弹装填动画。",
+    "main": "弹夹为空时：\n加快 15% 换弹装填动画。\n\n<formula Reload Time: [reload_0] />",
     "secondary": "import self"
    },
    "es": {
@@ -19817,8 +19817,8 @@
   "hash": 2010801679,
   "name": "Ambitious Assassin",
   "type": "weaponPerk",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1668698756845,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1668782842989,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -19834,8 +19834,8 @@
      "updatedBy": "Stardust"
     },
     "zh-chs": {
-     "lastUpdate": 1664433784615,
-     "undatedBy": "Mistwalker"
+     "lastUpdate": 1668782832773,
+     "updatedBy": "Mistwalker"
     },
     "es": {
      "lastUpdate": 1665682849650,
@@ -19849,7 +19849,7 @@
     "secondary": "import self"
    },
    "zh-chs": {
-    "main": "该武器击杀后 X 秒内换弹：\n每个击杀增加 10% 过量填加弹匣， 最高 50%。\n\n计算结果向上取整。\n\n强化特征：+5 填装速度。",
+    "main": "该武器击杀后 [?] 秒内换弹：\n[?] 秒内的每个击杀都可过量填加弹匣， \n\n最高过量填加 50%，计算结果向上取整。\n\n主武器每个击杀过量填加 20%，特殊武器和重武器每个击杀过量填加 10%。\n\nenhanced (\n#e +5 换弹速度\n)",
     "secondary": "import self"
    },
    "es": {
@@ -34910,7 +34910,7 @@
   "name": "Air Assault",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1668782524228,
+  "lastUpload": 1668782842989,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
