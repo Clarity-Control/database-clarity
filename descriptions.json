@@ -3,8 +3,8 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1668786967171,
-  "uploadedBy": "Mistwalker",
+  "lastUpload": 1668799866241,
+  "uploadedBy": "Icemourne",
   "editor": {
    "en": {
     "main": "Images you can use in descriptions\n<arc/> <void/> <solar/>\n<primary/> <special/> <heavy/>\n<warlock/> <hunter/> <titan/>\nText coloring\n<blue text /> <green text /> <purple text /> <yellow text />\n<pvp text /> <pve text />\n\nThe same can be done to lines of text <green/>\n\nYou probably noticed having multiple spaces in the editor\n              doesn't mean it will be the same in description\n              you can change that with <breakSpaces/>\n\n// This is comment content after // will not appear in the description\n\n// ----------------------------------------------------------\n// weapon type explanation\n// they work like if else in programming\n\n// if auto rifle\n< weapon type ( AR ) >\n    Apply this text\n// else if glaive\n< ( Glaive ) >\n    Apply this text\n// else\n< ( other ) >\n    Apply this text to all weapons not specified in this block\n<$$>\n// also, you can preview how it would look on x weapon by selecting the weapon in the weapon popup under the weapons name\n// ----------------------------------------------------------\nIf there is something you want just ask\nThis is not everything you can do btw\n\nTo see the full list press CTRL + SPACE\nAlso, CTRL + F is a thing and can be used to find and replace\nAlso also editor has other stuff to see them press F1",
@@ -25,7 +25,7 @@
   },
   "uploadToLive": false,
   "hidden": false,
-  "inLiveDatabase": false,
+  "inLiveDatabase": true,
   "optional": false
  },
  "1": {
@@ -96,14 +96,58 @@
   "hash": 3,
   "name": "Global titles",
   "type": "none",
-  "lastUpload": 1668786967171,
+  "lastUpload": 1668799866241,
   "editor": {
    "en": {
-    "main": "title G_refresh (\nReload, but does not need animation and doesn't proc on-reload perks.\n)\n\ntitle G_conegrowth (\nHow Fast Your Accuracy Cone Expands as you fire your weapon. The less the better.\n)",
+    "main": "title G_refresh (\nReload, but does not need animation and doesn't proc on-reload perks.\n)\n\ntitle G_conegrowth (\nHow Fast Your Accuracy Cone Expands as you fire your weapon. The less the better.\n)\n\ntitle Whisper of Durance (\nimport main from 3469412969\n)",
     "secondary": ""
    },
    "zh-chs": {
-    "main": "title G_refresh (\n重新装填，但没有装填动画，也不触发换弹相关特性。\n)\n\ntitle G_conegrowth (\n开火时精度锥角的扩散速度，该数值越小越好。\n)\n\ntitle Whisper of Durance (\nblablabla, blablabla\n)",
+    "main": "title G_refresh (\n重新装填，但没有装填动画，也不触发换弹相关特性。\n)\n\ntitle G_conegrowth (\n开火时精度锥角的扩散速度，该数值越小越好。\n)\n\ntitle Whisper of Durance (\nimport main from 3469412969\n)",
+    "secondary": ""
+   },
+   "de": {
+    "main": "\n\ntitle Whisper of Durance (\nimport main from 3469412969\n)",
+    "secondary": ""
+   },
+   "fr": {
+    "main": "title Whisper of Durance (\nimport main from 3469412969\n)",
+    "secondary": ""
+   },
+   "it": {
+    "main": "title Whisper of Durance (\nimport main from 3469412969\n)",
+    "secondary": ""
+   },
+   "pl": {
+    "main": "title Whisper of Durance (\nimport main from 3469412969\n)",
+    "secondary": ""
+   },
+   "ru": {
+    "main": "title Whisper of Durance (\nimport main from 3469412969\n)",
+    "secondary": ""
+   },
+   "es": {
+    "main": "title Whisper of Durance (\nimport main from 3469412969\n)",
+    "secondary": ""
+   },
+   "es-mx": {
+    "main": "title Whisper of Durance (\nimport main from 3469412969\n)",
+    "secondary": ""
+   },
+   "ko": {
+    "main": "title Whisper of Durance (\nimport main from 3469412969\n)",
+    "secondary": ""
+   },
+   "pt-rb": {
+    "main": "title Whisper of Durance (\nimport main from 3469412969\n)",
+    "secondary": ""
+   },
+   "ja": {
+    "main": "title Whisper of Durance (\nimport main from 3469412969\n)",
+    "secondary": ""
+   },
+   "zh-cht": {
+    "main": "title Whisper of Durance (\nimport main from 3469412969\n)",
     "secondary": ""
    }
   },
@@ -113,20 +157,64 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1668022268076,
-     "updatedBy": "Stardust"
+     "lastUpdate": 1668799698862,
+     "updatedBy": "Icemourne"
     },
     "zh-chs": {
-     "lastUpdate": 1668786177887,
-     "updatedBy": "Mistwalker"
+     "lastUpdate": 1668799847395,
+     "updatedBy": "Icemourne"
+    },
+    "de": {
+     "lastUpdate": 1668799804945,
+     "updatedBy": "Icemourne"
+    },
+    "fr": {
+     "lastUpdate": 1668799809269,
+     "updatedBy": "Icemourne"
+    },
+    "it": {
+     "lastUpdate": 1668799813271,
+     "updatedBy": "Icemourne"
+    },
+    "pl": {
+     "lastUpdate": 1668799816649,
+     "updatedBy": "Icemourne"
+    },
+    "ru": {
+     "lastUpdate": 1668799819782,
+     "updatedBy": "Icemourne"
+    },
+    "es": {
+     "lastUpdate": 1668799823035,
+     "updatedBy": "Icemourne"
+    },
+    "es-mx": {
+     "lastUpdate": 1668799826496,
+     "updatedBy": "Icemourne"
+    },
+    "ko": {
+     "lastUpdate": 1668799829466,
+     "updatedBy": "Icemourne"
+    },
+    "pt-rb": {
+     "lastUpdate": 1668799832673,
+     "updatedBy": "Icemourne"
+    },
+    "ja": {
+     "lastUpdate": 1668799835709,
+     "updatedBy": "Icemourne"
+    },
+    "zh-cht": {
+     "lastUpdate": 1668799838794,
+     "updatedBy": "Icemourne"
     }
    }
   },
-  "uploadToLive": true,
+  "uploadToLive": false,
   "hidden": false,
   "inLiveDatabase": true,
   "optional": false,
-  "uploadedBy": "Mistwalker"
+  "uploadedBy": "Icemourne"
  },
  "1399216": {
   "hash": 1399216,
@@ -28363,10 +28451,10 @@
   "hash": 2978966579,
   "name": "Chill Clip",
   "type": "weaponPerk",
-  "uploadedBy": "Mistwalker",
-  "lastUpload": 1668786967171,
+  "uploadedBy": "Icemourne",
+  "lastUpload": 1668799866241,
   "inLiveDatabase": true,
-  "uploadToLive": true,
+  "uploadToLive": false,
   "optional": false,
   "hidden": false,
   "updateTracker": {
@@ -28376,8 +28464,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1668687491836,
-     "updatedBy": "Stardust"
+     "lastUpdate": 1668799691680,
+     "updatedBy": "Icemourne"
     },
     "zh-chs": {
      "lastUpdate": 1668786494650,
@@ -28387,7 +28475,7 @@
   },
   "editor": {
    "en": {
-    "main": "While above 50% Magazine:\nDirect Hits create a Stasis burst which applies 50 Slow for <pve 4 /> <pvp [1.5] /> seconds to enemies within [?] meters.\n\nOnly activates once per shot.\n(Wolfpack Rounds can activate is a second time)\n\nWhisper of Durance increases slow duration by <pve 8 /> <pvp [2] /> seconds\n\nenhanced (\n#e Passively grants 5 Stability.\n)",
+    "main": "While above 50% Magazine:\nDirect Hits create a Stasis burst which applies 50 Slow for <pve 4 /> <pvp [1.5] /> seconds to enemies within [?] meters.\n\nOnly activates once per shot.\n(Wolfpack Rounds can activate is a second time)\n\n<title Whisper of Durance [Whisper of Durance] /> increases slow duration by <pve 8 /> <pvp [2] /> seconds\n\nenhanced (\n#e Passively grants 5 Stability.\n)",
     "secondary": "import self"
    },
    "zh-chs": {
@@ -32410,11 +32498,11 @@
   "hash": 3469412969,
   "name": "Whisper of Durance",
   "type": "fragment",
-  "lastUpload": 1668698756845,
-  "uploadedBy": "Stardust",
+  "lastUpload": 1668799866241,
+  "uploadedBy": "Icemourne",
   "editor": {
    "en": {
-    "main": "",
+    "main": "notfing yet",
     "secondary": ""
    }
   },
@@ -32425,8 +32513,8 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 0,
-     "updatedBy": ""
+     "lastUpdate": 1668799670725,
+     "updatedBy": "Icemourne"
     }
    }
   },
