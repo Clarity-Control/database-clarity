@@ -3,7 +3,7 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1668782842989,
+  "lastUpload": 1668782906359,
   "uploadedBy": "Mistwalker",
   "editor": {
    "en": {
@@ -301,7 +301,7 @@
   "name": "Adrenaline Junkie",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1668782842989,
+  "lastUpload": 1668782906359,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -1858,8 +1858,8 @@
   "hash": 201365942,
   "name": "Archer's Tempo",
   "type": "weaponPerk",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1668698756845,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1668782906359,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -1875,8 +1875,8 @@
      "updatedBy": "Stardust"
     },
     "zh-chs": {
-     "lastUpdate": 1664434059804,
-     "undatedBy": "Mistwalker"
+     "lastUpdate": 1668782868291,
+     "updatedBy": "Mistwalker"
     },
     "es": {
      "lastUpdate": 1665682940771,
@@ -1890,7 +1890,7 @@
     "secondary": "import self"
    },
    "zh-chs": {
-    "main": "精准命中时：\n降低 25% 蓄力时间，持续 3 秒。\n\n增强特征： 增加持续时间到 4 秒。",
+    "main": "精准命中时：\n降低 25% 蓄力时间，持续 3 秒。\n\nenhanced (\n#e 持续时间增加到 4 秒。\n)",
     "secondary": "import self"
    },
    "es": {
@@ -9565,7 +9565,7 @@
   "name": "Adaptive Munitions",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1668782842989,
+  "lastUpload": 1668782906359,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -13794,7 +13794,7 @@
   "name": "Alloy Magazine",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1668782842989,
+  "lastUpload": 1668782906359,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -19818,7 +19818,7 @@
   "name": "Ambitious Assassin",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1668782842989,
+  "lastUpload": 1668782906359,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -34910,7 +34910,7 @@
   "name": "Air Assault",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1668782842989,
+  "lastUpload": 1668782906359,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
