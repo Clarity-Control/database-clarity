@@ -3,7 +3,7 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1668782906359,
+  "lastUpload": 1668784957192,
   "uploadedBy": "Mistwalker",
   "editor": {
    "en": {
@@ -301,7 +301,7 @@
   "name": "Adrenaline Junkie",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1668782906359,
+  "lastUpload": 1668784957192,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -1859,7 +1859,7 @@
   "name": "Archer's Tempo",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1668782906359,
+  "lastUpload": 1668784957192,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -2675,8 +2675,8 @@
   "hash": 354401740,
   "name": "Assassin's Blade",
   "type": "weaponPerk",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1668698756845,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1668784957192,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -2692,8 +2692,8 @@
      "updatedBy": "Stardust"
     },
     "zh-chs": {
-     "lastUpdate": 1664434330803,
-     "undatedBy": "Mistwalker"
+     "lastUpdate": 1668784047367,
+     "updatedBy": "Mistwalker"
     },
     "es": {
      "lastUpdate": 1665683206116,
@@ -2716,7 +2716,7 @@
     "secondary": "import self"
    },
    "zh-chs": {
-    "main": "当刀剑击杀时：\n提高 15% 伤害，增加移动和冲刺速度，增加挥舞刀剑的前冲距离。\n武器收起时依然生效。",
+    "main": "当刀剑击杀时：\n提高 15% 伤害，增加移动和冲刺速度，增加挥舞刀剑的前冲距离，持续 [?] 秒。\n\n武器收起时依然生效。\n\nenhanced (\n#e 增益持续时间增加。\n)",
     "secondary": "import self"
    },
    "es": {
@@ -3932,8 +3932,8 @@
   "hash": 454085387,
   "name": "Blunt Execution Rounds",
   "type": "weaponPerk",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1668698756845,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1668784957192,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -3947,6 +3947,10 @@
     "en": {
      "lastUpdate": 1668697780566,
      "updatedBy": "Stardust"
+    },
+    "zh-chs": {
+     "lastUpdate": 1668784944127,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -3969,6 +3973,10 @@
   "editor": {
    "en": {
     "main": "Upon dealing Melee Damage while an Enemy is within 15 meters:\n<pve 500% /> <pvp [100%] /> increased damage and +100 Handling for 10 seconds or until firing a full burst.\n4 second cooldown. Can be activated while stowed.\n\nAny Powered Melee which requires sprinting, sliding, or performs a slam will not activate Blunt Execution Rounds.\n\nenhanced (\n#e Buff duration increased to 11 seconds.\n)\n\n<formula Ready Speed: [ready_0] />\n<formula Stow Speed: [stow_0] />",
+    "secondary": "import self"
+   },
+   "zh-chs": {
+    "main": "对 15 米范围内的敌人造成近战伤害后：\n提升 <pve 500% /> <pvp [100%] /> 伤害，并 +100 操控性，持续 10 秒或直到下次射击。\n4 秒冷却时间。武器在收起时也可触发。\n\n需要冲刺或滑行的充能近战以及弹道猛击均不会触发该特性。\n\nenhanced (\n#e 增益持续时间增加到 11 秒。\n)\n\n<formula 拔枪速度： [ready_0] />\n<formula 收枪速度： [stow_0] />",
     "secondary": "import self"
    }
   },
@@ -9565,7 +9573,7 @@
   "name": "Adaptive Munitions",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1668782906359,
+  "lastUpload": 1668784957192,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -13794,7 +13802,7 @@
   "name": "Alloy Magazine",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1668782906359,
+  "lastUpload": 1668784957192,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -15614,8 +15622,8 @@
   "hash": 1600092898,
   "name": "Backup Plan",
   "type": "weaponPerk",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1668698756845,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1668784957192,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -15631,8 +15639,8 @@
      "updatedBy": "Stardust"
     },
     "zh-chs": {
-     "lastUpdate": 1664457759021,
-     "undatedBy": "Mistwalker"
+     "lastUpdate": 1668784263229,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -15665,8 +15673,8 @@
     "secondary": "import self"
    },
    "zh-chs": {
-    "main": "切换至此武器的 4 秒内：\n+30% 充能速度，-20% 伤害，+100 操控性。\n\n<formula 拔枪速度： [ready_0] />\n<formula 收起速度： [stow_0] />",
-    "secondary": "切换至此武器的 4 秒内：\n+30% 充能速度，-20% 伤害，+100 操控性。"
+    "main": "切换至此武器时：\n+30% 充能速度\n-20% 伤害\n+100 操控性\n\n持续 [?] 秒。\n\nenhanced (\n#e 增益持续时间增加。\n)\n\n<formula 拔枪速度： [ready_0] />\n<formula 收枪速度： [stow_0] />",
+    "secondary": "import self"
    }
   },
   "linkedWith": 828056542
@@ -19464,8 +19472,8 @@
   "hash": 1968497646,
   "name": "Armor-Piercing Rounds",
   "type": "weaponPerk",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1668698756845,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1668784957192,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -19481,8 +19489,8 @@
      "updatedBy": "Stardust"
     },
     "zh-chs": {
-     "lastUpdate": 1664434138323,
-     "undatedBy": "Mistwalker"
+     "lastUpdate": 1668783995013,
+     "updatedBy": "Mistwalker"
     },
     "es": {
      "lastUpdate": 1665683033126,
@@ -19818,7 +19826,7 @@
   "name": "Ambitious Assassin",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1668782906359,
+  "lastUpload": 1668784957192,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -29369,8 +29377,8 @@
   "hash": 3078487919,
   "name": "Bait and Switch",
   "type": "weaponPerk",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1668698756845,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1668784957192,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -29386,8 +29394,8 @@
      "updatedBy": "Stardust"
     },
     "zh-chs": {
-     "lastUpdate": 1664457889657,
-     "undatedBy": "Mistwalker"
+     "lastUpdate": 1668784313440,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -29406,7 +29414,7 @@
     "secondary": "import self"
    },
    "zh-chs": {
-    "main": "在 [?] 秒内使用所有武器造成伤害后：\n提高 30% 该武器伤害，持续 10 秒。\n\n强化特征：增益持续时间提高到 11 秒。",
+    "main": "在 [?] 秒内使用所有武器造成伤害后：\n提高 35% 该武器伤害，持续 10 秒。\n\nenhanced (\n#e 增益持续时间提高到 11 秒。\n)\n",
     "secondary": "import self"
    }
   },
@@ -31025,8 +31033,8 @@
   "hash": 3300816228,
   "name": "Auto-Loading Holster",
   "type": "weaponPerk",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1668698756845,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1668784957192,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -31042,8 +31050,8 @@
      "updatedBy": "Stardust"
     },
     "zh-chs": {
-     "lastUpdate": 1664434504092,
-     "undatedBy": "Mistwalker"
+     "lastUpdate": 1668784102268,
+     "updatedBy": "Mistwalker"
     },
     "es": {
      "lastUpdate": 1665683340998,
@@ -31057,8 +31065,8 @@
     "secondary": "import self"
    },
    "zh-chs": {
-    "main": "武器收起 2.5 秒后<title 刷新 [refreshes] />弹匣。\n\n强化特征：激活所需时间降低为 2.3 秒。\n\ntitle refreshes (\n装填，但没有动画，也不触发换弹相关 perk。\n)",
-    "secondary": "武器收起 2.5 秒后刷新弹匣。\n\n强化特征：激活所需时间降低为 2.3 秒。"
+    "main": "武器收起 2.5 秒后<title 刷新 [G_refresh] />弹匣。\n\nenhanced (\n#e 激活所需时间降低为 2.3 秒。\n)",
+    "secondary": "import self"
    },
    "es": {
     "main": "<<title Rellena [G_refreshes] /> el arma guardada luego de 2.5 segundos\n\nMejorado: El tiempo de activacion es reducido a 2.3 segundos",
@@ -34910,7 +34918,7 @@
   "name": "Air Assault",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1668782906359,
+  "lastUpload": 1668784957192,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
