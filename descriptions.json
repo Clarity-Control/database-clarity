@@ -3,7 +3,7 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1668782354926,
+  "lastUpload": 1668782524228,
   "uploadedBy": "Mistwalker",
   "editor": {
    "en": {
@@ -301,7 +301,7 @@
   "name": "Adrenaline Junkie",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1668782354926,
+  "lastUpload": 1668782524228,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -9565,7 +9565,7 @@
   "name": "Adaptive Munitions",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1668782354926,
+  "lastUpload": 1668782524228,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -34910,7 +34910,7 @@
   "name": "Air Assault",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1668782354926,
+  "lastUpload": 1668782524228,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -34926,7 +34926,7 @@
      "updatedBy": "Stardust"
     },
     "zh-chs": {
-     "lastUpdate": 1668781190286,
+     "lastUpdate": 1668782516428,
      "updatedBy": "Mistwalker"
     },
     "es": {
@@ -34941,7 +34941,7 @@
     "secondary": "import self"
    },
    "zh-chs": {
-    "main": "生命值降低时：\n最高获取 60 空中效率。\n空中效率随着生命值降低而线性增强。当重伤时达到最大值。\n\n被动提升 +10 空中效率\n\nenhanced (\n最高获取 70 空中效率，被动提升 +12 空中效率。\n)",
+    "main": "生命值降低时：\n最高获取 60 空中效率。\n空中效率随着生命值降低而线性增强。当重伤时达到最大值。\n\n被动提升 +10 空中效率\n\nenhanced (\n#e 最高获取 70 空中效率，被动提升 +12 空中效率。\n)",
     "secondary": "import self"
    },
    "es": {
