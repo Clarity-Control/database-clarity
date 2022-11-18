@@ -3,7 +3,7 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1668784957192,
+  "lastUpload": 1668785112802,
   "uploadedBy": "Mistwalker",
   "editor": {
    "en": {
@@ -301,7 +301,7 @@
   "name": "Adrenaline Junkie",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1668784957192,
+  "lastUpload": 1668785112802,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -1859,7 +1859,7 @@
   "name": "Archer's Tempo",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1668784957192,
+  "lastUpload": 1668785112802,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -2676,7 +2676,7 @@
   "name": "Assassin's Blade",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1668784957192,
+  "lastUpload": 1668785112802,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -3933,7 +3933,7 @@
   "name": "Blunt Execution Rounds",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1668784957192,
+  "lastUpload": 1668785112802,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -9573,7 +9573,7 @@
   "name": "Adaptive Munitions",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1668784957192,
+  "lastUpload": 1668785112802,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -13802,7 +13802,7 @@
   "name": "Alloy Magazine",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1668784957192,
+  "lastUpload": 1668785112802,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -15623,7 +15623,7 @@
   "name": "Backup Plan",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1668784957192,
+  "lastUpload": 1668785112802,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -19473,7 +19473,7 @@
   "name": "Armor-Piercing Rounds",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1668784957192,
+  "lastUpload": 1668785112802,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -19826,7 +19826,7 @@
   "name": "Ambitious Assassin",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1668784957192,
+  "lastUpload": 1668785112802,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -29378,7 +29378,7 @@
   "name": "Bait and Switch",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1668784957192,
+  "lastUpload": 1668785112802,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -31034,7 +31034,7 @@
   "name": "Auto-Loading Holster",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1668784957192,
+  "lastUpload": 1668785112802,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -34918,7 +34918,7 @@
   "name": "Air Assault",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1668784957192,
+  "lastUpload": 1668785112802,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -39579,8 +39579,8 @@
   "hash": 4252909580,
   "name": "Bottomless Grief",
   "type": "weaponPerk",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1668698756845,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1668785112802,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -39594,12 +39594,20 @@
     "en": {
      "lastUpdate": 1668024775053,
      "updatedBy": "Stardust"
+    },
+    "zh-chs": {
+     "lastUpdate": 1668785100505,
+     "updatedBy": "Mistwalker"
     }
    }
   },
   "editor": {
    "en": {
     "main": "While Last Guardian Standing:\nKills fully <title refresh [G_refresh] /> Magazine.\n\nPassively grants +30 Magazine stat.\n",
+    "secondary": "import self"
+   },
+   "zh-chs": {
+    "main": "如果你是火力战队中唯一生还的成员：\n每次最后一击都会<title 刷新 [G_refresh] />弹匣。\n\n+30 弹夹容量。\n",
     "secondary": "import self"
    }
   },
