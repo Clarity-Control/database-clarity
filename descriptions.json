@@ -3,7 +3,7 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1668888330360,
+  "lastUpload": 1668888436740,
   "uploadedBy": "Stardust",
   "editor": {
    "en": {
@@ -23678,7 +23678,7 @@
   "name": "Killing Wind",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668888330360,
+  "lastUpload": 1668888436740,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -24480,7 +24480,7 @@
   "name": "Box Breathing",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668888330360,
+  "lastUpload": 1668888436740,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -27477,7 +27477,7 @@
   "name": "No Distractions",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668888330360,
+  "lastUpload": 1668888436740,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -34504,7 +34504,7 @@
   "name": "Adagio",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668888330360,
+  "lastUpload": 1668888436740,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -34516,7 +34516,7 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1668888317285,
+     "lastUpdate": 1668888415404,
      "updatedBy": "Stardust"
     },
     "es": {
@@ -34560,7 +34560,7 @@
   },
   "editor": {
    "en": {
-    "main": "On Weapon Kill for 7 seconds:\n< weapon type ( Shotgun, Bow ) >\n+20% Damage\n< ( other ) >\n+30% Damage\n<$$>\n//\n-20% Rate of Fire/Charge Rate\n< weapon type ( Bow, Heavy GL, GL ) >\n// just to remove rage stat from weapons with out range\n< ( other ) >\n+10 Range\n<$$>\n\n<title Additional information. [damage] />\ntitle damage (\nBows and Shotguns only receive +20% Damage.\nEverithing else receives +30% Damage.\n\nBows and Grenade Launchers do not receive the +10 Range increase due to not having a Range stat. \n)\n\nenhanced (\n#e Buff duration is increased to 8 seconds.\n)\n\n<formula Effective Range: [range_0] />",
+    "main": "On Weapon Kill for 7 seconds:\n< weapon type ( Shotgun, Bow ) >\n+20% Damage\n< ( other ) >\n+30% Damage\n<$$>\n//\n-20% Rate of Fire/Charge Rate\n< weapon type ( Bow, Heavy GL, GL ) >\n// just to remove rage stat from weapons with out range\n< ( other ) >\n+10 Range\n<$$>\n\n<title Hover for additional information. [damage] />\ntitle damage (\nBows and Shotguns only receive +20% Damage.\nEverithing else receives +30% Damage.\n\nBows and Grenade Launchers do not receive the +10 Range increase due to not having a Range stat. \n)\n\nenhanced (\n#e Buff duration is increased to 8 seconds.\n)\n\n<formula Effective Range: [range_0] />",
     "secondary": "On Weapon Kill for 7 seconds:\n+30% Damage\n-20% Rate of Fire/Charge Rate\n+10 Range\n\nBows and Shotguns only receive a 20% damage increase.\n\nenhanced (\n#e Buff duration is increased to 8 seconds.\n)"
    },
    "es": {
@@ -37223,7 +37223,7 @@
   "name": "Veist Stinger",
   "type": "weaponOriginTrait",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668888330360,
+  "lastUpload": 1668888436740,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
