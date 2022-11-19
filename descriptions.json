@@ -3,8 +3,8 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1668851877538,
-  "uploadedBy": "Mistwalker",
+  "lastUpload": 1668887766602,
+  "uploadedBy": "Stardust",
   "editor": {
    "en": {
     "main": "Images you can use in descriptions\n<arc/> <void/> <solar/>\n<primary/> <special/> <heavy/>\n<warlock/> <hunter/> <titan/>\nText coloring\n<blue text /> <green text /> <purple text /> <yellow text />\n<pvp text /> <pve text />\n\nThe same can be done to lines of text <green/>\n\nYou probably noticed having multiple spaces in the editor\n              doesn't mean it will be the same in description\n              you can change that with <breakSpaces/>\n\n// This is comment content after // will not appear in the description\n\n// ----------------------------------------------------------\n// weapon type explanation\n// they work like if else in programming\n\n// if auto rifle\n< weapon type ( AR ) >\n    Apply this text\n// else if glaive\n< ( Glaive ) >\n    Apply this text\n// else\n< ( other ) >\n    Apply this text to all weapons not specified in this block\n<$$>\n// also, you can preview how it would look on x weapon by selecting the weapon in the weapon popup under the weapons name\n// ----------------------------------------------------------\nIf there is something you want just ask\nThis is not everything you can do btw\n\nTo see the full list press CTRL + SPACE\nAlso, CTRL + F is a thing and can be used to find and replace\nAlso also editor has other stuff to see them press F1",
@@ -23678,7 +23678,7 @@
   "name": "Killing Wind",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668698756845,
+  "lastUpload": 1668887766602,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -23690,7 +23690,7 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1668691233555,
+     "lastUpdate": 1668883204616,
      "updatedBy": "Stardust"
     }
    }
@@ -23714,7 +23714,7 @@
   },
   "editor": {
    "en": {
-    "main": "On Weapon Kill:\n+20 Range, +50 Mobility, +40 Handling, and a 5% Increased Damage Falloff Distance\n\nLasts 5 seconds, additional kills add 5 seconds, maxing out at 8 seconds.\n\nenhanced (\n#e Initial Buff Duration is increased.\n)\n\n<formula In-Game Range: [range_0] />\n<formula Ready Speed: [ready_0] />\n<formula Stow Speed: [stow_0] />",
+    "main": "On Weapon Kill:\n+20 Range, +50 Mobility, +40 Handling, and a 5% Increased Damage Falloff Distance\n\nLasts 5 seconds, additional kills add 5 seconds, maxing out at 8 seconds.\n\nenhanced (\n#e Initial Buff Duration is increased.\n)\n\n<formula Effective Range: [range_0] />\n<formula Ready Speed: [ready_0] />\n<formula Stow Speed: [stow_0] />",
     "secondary": "import self"
    }
   },
@@ -37223,21 +37223,20 @@
   "name": "Veist Stinger",
   "type": "weaponOriginTrait",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668698756845,
+  "lastUpload": 1668887766602,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
   "hidden": false,
   "updateTracker": {
    "stats": {
-    "lastUpdate": 1659626837571,
-    "undatedBy": "Fading-Shadow"
+    "lastUpdate": 1668887753556,
+    "updatedBy": "Stardust"
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1665261977538,
-     "undatedBy": "Fading-Shadow",
-     "updatedBy": "Fading Shadow"
+     "lastUpdate": 1668887243435,
+     "updatedBy": "Stardust"
     },
     "zh-chs": {
      "lastUpdate": 1668185994641,
@@ -37247,13 +37246,23 @@
   },
   "editor": {
    "en": {
-    "main": "Hits have a chance to refresh your magazine.\n\nBows receive 0.85x Draw Time. Swords receive [?] Faster Charge Rate.",
-    "secondary": "Hits have a chance to refresh your magazine.\n\nBows receive 0.85x Draw Time. Swords receive [?] Faster Charge Rate."
+    "main": "Hits have a chance to grant you Veist Stinger for 6 seconds.\n\nVeist Stinger:\n• <title Refreses [G_refresh] /> your magazine.\n• Bows are granted 15% Decreased Draw Time.\n• Swords are granted [?] Faster Charge Rate.\n\nThe buff duration serves both as a cooldown for Magazine Refresh and as a timer for the Draw Time decrease.",
+    "secondary": "import self"
    },
    "zh-chs": {
     "main": "命中时有概率刷新弹夹。\n\n弓箭 -15% 蓄力时间。加快刀剑 [?] 充能效率。",
     "secondary": "命中时有概率刷新弹夹。\n\n弓箭 -15% 蓄力时间。加快刀剑 [?] 充能效率。"
    }
+  },
+  "stats": {
+   "rateOfFire": [
+    {
+     "active": {
+      "multiplier": [ 0.85 ]
+     },
+     "weaponTypes": [ "combat bow" ]
+    }
+   ]
   }
  },
  "3989629871": {
