@@ -3,7 +3,7 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1668887766602,
+  "lastUpload": 1668888192136,
   "uploadedBy": "Stardust",
   "editor": {
    "en": {
@@ -23678,7 +23678,7 @@
   "name": "Killing Wind",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668887766602,
+  "lastUpload": 1668888192136,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -24479,8 +24479,8 @@
   "hash": 2551157718,
   "name": "Box Breathing",
   "type": "weaponPerk",
-  "uploadedBy": "Mistwalker",
-  "lastUpload": 1668786967171,
+  "uploadedBy": "Stardust",
+  "lastUpload": 1668888192136,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -24492,7 +24492,7 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1668024781082,
+     "lastUpdate": 1668888189569,
      "updatedBy": "Stardust"
     },
     "zh-chs": {
@@ -24512,8 +24512,8 @@
   },
   "editor": {
    "en": {
-    "main": "Upon aiming-down-sights for 1.5 seconds without firing:\n10% increased Aim Assist Falloff Distance and increases Precision Multiplier by +1 for one shot.\n\nTimer starts as soon as the ADS input is pressed.\n\n< table >\n| Weapon Frame        | Precision Multiplier Increase <bold/>\n| Linear Fusion Rifle | <title 29% [mult1] />         <background/>\n| Sniper Rifle        | <title 33.22% [mult0] />   \n| Scout Rifle         | <title 62.75% [mult2] />      <background/>\n<$>\n\nenhanced (\n#e Activation timer is reduced to 1.4 seconds.\n)\n\n\ntitle mult0 (\n3x -> 4x\n)\n\ntitle mult1 (\n3.44x -> 4.44x\n)\n\ntitle mult2 (\n1.6x -> 2.6x\n)",
-    "secondary": "Upon aiming-down-sights for 1.5 seconds without firing:\n10% increased Aim Assist Falloff Distance and increases Precision Multiplier by +1 for one shot.\nTimer starts as soon as the ADS input is pressed.\n\nPrecision Multipliers:\nScout Rifles: 62.75% Increase (1.6x -> 2.6x)\nSniper Rifles: 33.22% Increase (3x -> 4x)\nLinear Fusion Rifles: 29% Increase (3.44x -> 4.44x)\n\nenhanced (\n#e Activation timer is reduced to 1.4 seconds.\n)"
+    "main": "After 1.5 seconds of aiming-down-sights (ADS) without firing:\n10% increased Aim Assist Falloff Distance and increases Precision Multiplier by +1 for one shot.\n\nTimer starts as soon as the ADS input is pressed.\n\n< table >\n| Weapon Frame        | Precision Multiplier Increase <bold/>\n| Linear Fusion Rifle | <title 29% [mult1] />         <background/>\n| Sniper Rifle        | <title 33.22% [mult0] />   \n| Scout Rifle         | <title 62.75% [mult2] />      <background/>\n<$>\n\nenhanced (\n#e Activation timer is reduced to 1.4 seconds.\n)\n\n\ntitle mult0 (\n3x -> 4x\n)\n\ntitle mult1 (\n3.44x -> 4.44x\n)\n\ntitle mult2 (\n1.6x -> 2.6x\n)",
+    "secondary": "After 1.5 seconds of aiming-down-sights (ADS) without firing:\n10% increased Aim Assist Falloff Distance and increases Precision Multiplier by +1 for one shot.\nTimer starts as soon as the ADS input is pressed.\n\nPrecision Multipliers:\nScout Rifles: 62.75% Increase (1.6x -> 2.6x)\nSniper Rifles: 33.22% Increase (3x -> 4x)\nLinear Fusion Rifles: 29% Increase (3.44x -> 4.44x)\n\nenhanced (\n#e Activation timer is reduced to 1.4 seconds.\n)"
    },
    "zh-chs": {
     "main": "未射击下瞄准 1.5 秒：\n+10% 瞄准辅助衰减距离，并提高下一发子弹精准命中伤害（伤害系数+1）。\n\n按下瞄准键即开始计时。\n\n< table >\n| 武器类型        | 实际伤害提升 <bold/>\n| 线性融合步枪    | <title 29% [mult1] />         <background/>\n| 狙击步枪        | <title 33.22% [mult0] />   \n| 斥候步枪        | <title 62.75% [mult2] />      <background/>\n<$>\n\nenhanced (\n#e 触发所需时间降低为 1.4 秒。\n)\n\n\ntitle mult0 (\n3x -> 4x\n)\n\ntitle mult1 (\n3.44x -> 4.44x\n)\n\ntitle mult2 (\n1.6x -> 2.6x\n)",
@@ -27477,7 +27477,7 @@
   "name": "No Distractions",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668698756845,
+  "lastUpload": 1668888192136,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -27489,14 +27489,14 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1668691563723,
+     "lastUpdate": 1668887971250,
      "updatedBy": "Stardust"
     }
    }
   },
   "editor": {
    "en": {
-    "main": "Upon being scoped-in for 1 second without firing:\n35% Flinch Reduction.\n\nTimer starts as soon as the ADS input is pressed.\n\nenhanced (\n#e Aiming Down Sights timer is reduced.\n)",
+    "main": "After 1 second of aiming-down-sights (ADS) without firing:\n35% Flinch Reduction until no longer ADS.\n\nTimer starts as soon as the ADS input is pressed.\n\nenhanced (\n#e Aiming Down Sights timer is reduced.\n)",
     "secondary": "import self"
    }
   },
@@ -37223,7 +37223,7 @@
   "name": "Veist Stinger",
   "type": "weaponOriginTrait",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668887766602,
+  "lastUpload": 1668888192136,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
