@@ -3,7 +3,7 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1668888436740,
+  "lastUpload": 1670082062993,
   "uploadedBy": "Stardust",
   "editor": {
    "en": {
@@ -388,8 +388,8 @@
   "hash": 11612903,
   "name": "Adrenaline Junkie",
   "type": "weaponPerk",
-  "uploadedBy": "Mistwalker",
-  "lastUpload": 1668786967171,
+  "uploadedBy": "Stardust",
+  "lastUpload": 1670082062993,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -401,7 +401,7 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1668020863061,
+     "lastUpdate": 1670080978513,
      "updatedBy": "Stardust"
     },
     "es": {
@@ -432,8 +432,8 @@
   },
   "editor": {
    "en": {
-    "main": "On Weapon or Grenade Kill:\n20 Handling and a Stacking Damage Increase for 4.5 seconds.\n\nBuff Refreshed on Kill. Grenade Kills grant all 5 Stacks instantly.\n\n< table >\n|  Stacks          | 1x    | 2x     | 3x   | 4x     | 5x    <bold/>\n|b Damage Increase | 6.7%  | 13.3%  | 20%  | 26.6%  | 33.3% <background/>\n<$>\n\nenhanced (\n#e Buff Duration is increased to 5 seconds.\n)\n\n<formula Ready Speed: [ready_0] />\n<formula Stow Speed: [stow_0] />",
-    "secondary": "On Weapon or Grenade Kill:\n6.7% | 13.3% | 20% | 26.6% | 33.3% Increased Damage and +20 Handling for 4.5 seconds.\n\nBuff Refreshed on Kill. Grenade Kills grant all 5 stacks instantly.\n\nenhanced (\n#e Buff Duration is increased to 5 seconds.\n)"
+    "main": "On Weapon or Grenade Kill:\n20 Handling and a Stacking Damage Increase for 4.5 seconds.\n\nBuff is refreshed on Weapon Kill or Grenade Kill. Grenade Kills grant 5 stacks.\n\n< table >\n|  Stacks          | 1x    | 2x     | 3x   | 4x     | 5x    <bold/>\n|b Damage Increase | 6.7%  | 13.3%  | 20%  | 26.6%  | 33.3% <background/>\n<$>\n\nenhanced (\n#e Buff Duration is increased to 5 seconds.\n)\n\n<formula Ready Speed: [ready_0] />\n<formula Stow Speed: [stow_0] />",
+    "secondary": "On Weapon or Grenade Kill:\n6.7% | 13.3% | 20% | 26.6% | 33.3% Increased Damage and +20 Handling for 4.5 seconds.\n\nBuff is refreshed on Weapon Kill or Grenade Kill. Grenade Kills grant 5 stacks.\n\nenhanced (\n#e Buff Duration is increased to 5 seconds.\n)"
    },
    "es": {
     "main": "Bajas con el arma o una granada otorgan:\n20 Manejo y Aumento de Daño acumulable, durante 4.5 segundos\n\nEl bufo se renueva con cada baja. Baja con granada otorga la maxima cantidad de Daño\n\n< table >\n|  Indicador          | 1x    | 2x     | 3x   | 4x     | 5x    <bold/>\n|b Aumento de Daño | 6.7%  | 13.3%  | 20%  | 26.6%  | 33.3% <background/>\n<$>\n\n<formula Velocidad de Desenfundado: [ready_0] />\n<formula Velocidad de Enfundado: [stow_0] />\n\nAumentado: La duracion del bufo aumenta a 5 segundos",
@@ -1946,20 +1946,20 @@
   "hash": 201365942,
   "name": "Archer's Tempo",
   "type": "weaponPerk",
-  "uploadedBy": "Mistwalker",
-  "lastUpload": 1668786967171,
+  "uploadedBy": "Stardust",
+  "lastUpload": 1670082062993,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
   "hidden": false,
   "updateTracker": {
    "stats": {
-    "lastUpdate": 1666624173074,
-    "updatedBy": "Icemourne"
+    "lastUpdate": 1670081478416,
+    "updatedBy": "Stardust"
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1668024744602,
+     "lastUpdate": 1670081457268,
      "updatedBy": "Stardust"
     },
     "zh-chs": {
@@ -1974,7 +1974,7 @@
   },
   "editor": {
    "en": {
-    "main": "On Precision Hit:\nDecreases Draw Time by 25% for 3 seconds.\n\nenhanced (\n#e Buff duration is increased to 4 seconds.\n)",
+    "main": "On Precision Hit:\n0.75x Draw Time Multiplier for 3 seconds.\n\nenhanced (\n#e Buff duration is increased to 4 seconds.\n)",
     "secondary": "import self"
    },
    "zh-chs": {
@@ -1985,15 +1985,6 @@
     "main": "En tiros de Precision:\nReduce en un 25% el tiempo de tensado durante 3 segundos\n\nAumentado: Aumenta la duracion del bufo a 4 segundos",
     "secondary": "import self"
    }
-  },
-  "stats": {
-   "rateOfFire": [
-    {
-     "active": {
-      "multiplier": [ 0.75 ]
-     }
-    }
-   ]
   },
   "linkedWith": 3523746922
  },
@@ -2763,8 +2754,8 @@
   "hash": 354401740,
   "name": "Assassin's Blade",
   "type": "weaponPerk",
-  "uploadedBy": "Mistwalker",
-  "lastUpload": 1668786967171,
+  "uploadedBy": "Stardust",
+  "lastUpload": 1670082062993,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -2776,7 +2767,7 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1668697901174,
+     "lastUpdate": 1670081600845,
      "updatedBy": "Stardust"
     },
     "zh-chs": {
@@ -2800,7 +2791,7 @@
   },
   "editor": {
    "en": {
-    "main": "On Sword Kill:\n15% Increased Damage and sets Forward Movement Speed to 9 meters per second for [?] seconds.\n\nRemains active even if stowed.\n\nenhanced (\n#e Buff duration is increased.\n)",
+    "main": "On Kill:\n15% Increased Damage and sets Forward Movement Speed to 9 meters per second for [?] seconds.\n\nRemains active even if stowed.\n\nenhanced (\n#e Buff duration is increased.\n)",
     "secondary": "import self"
    },
    "zh-chs": {
@@ -4020,8 +4011,8 @@
   "hash": 454085387,
   "name": "Blunt Execution Rounds",
   "type": "weaponPerk",
-  "uploadedBy": "Mistwalker",
-  "lastUpload": 1668786967171,
+  "uploadedBy": "Stardust",
+  "lastUpload": 1670082062993,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -4033,7 +4024,7 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1668697780566,
+     "lastUpdate": 1670081888287,
      "updatedBy": "Stardust"
     },
     "zh-chs": {
@@ -4060,7 +4051,7 @@
   },
   "editor": {
    "en": {
-    "main": "Upon dealing Melee Damage while an Enemy is within 15 meters:\n<pve 500% /> <pvp [100%] /> increased damage and +100 Handling for 10 seconds or until firing a full burst.\n4 second cooldown. Can be activated while stowed.\n\nAny Powered Melee which requires sprinting, sliding, or performs a slam will not activate Blunt Execution Rounds.\n\nenhanced (\n#e Buff duration increased to 11 seconds.\n)\n\n<formula Ready Speed: [ready_0] />\n<formula Stow Speed: [stow_0] />",
+    "main": "Upon dealing Melee Damage while an Enemy is within 15 meters:\n<pve 500% /> <pvp [100%] /> increased damage and +100 Handling for 10 seconds or until firing a full burst.\n\n4 second cooldown after buff expires. Can be activated while stowed.\n\nAny Powered Melee which requires sprinting, sliding, or performs a slam will not activate Blunt Execution Rounds.\n\nenhanced (\n#e Buff duration is increased to 11 seconds.\n)\n\n<formula Ready Speed: [ready_0] />\n<formula Stow Speed: [stow_0] />",
     "secondary": "import self"
    },
    "zh-chs": {
@@ -6273,15 +6264,15 @@
   "name": "Accelerated Coils",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1668698756845,
+  "lastUpload": 1670082062993,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
   "hidden": false,
   "updateTracker": {
    "stats": {
-    "lastUpdate": 1666624033263,
-    "updatedBy": "Icemourne"
+    "lastUpdate": 1670081504308,
+    "updatedBy": "Stardust"
    },
    "descriptions": {
     "en": {
@@ -6306,7 +6297,7 @@
      }
     }
    ],
-   "rateOfFire": [
+   "chargeDraw": [
     {
      "passive": {
       "stat": [ -40 ]
@@ -15710,20 +15701,20 @@
   "hash": 1600092898,
   "name": "Backup Plan",
   "type": "weaponPerk",
-  "uploadedBy": "Mistwalker",
-  "lastUpload": 1668786967171,
+  "uploadedBy": "Stardust",
+  "lastUpload": 1670082062993,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
   "hidden": false,
   "updateTracker": {
    "stats": {
-    "lastUpdate": 1666624183901,
-    "updatedBy": "Icemourne"
+    "lastUpdate": 1670081810698,
+    "updatedBy": "Stardust"
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1668697906606,
+     "lastUpdate": 1670081796540,
      "updatedBy": "Stardust"
     },
     "zh-chs": {
@@ -15747,7 +15738,7 @@
      }
     }
    ],
-   "rateOfFire": [
+   "chargeDraw": [
     {
      "active": {
       "multiplier": [ 0.7 ]
@@ -15757,7 +15748,7 @@
   },
   "editor": {
    "en": {
-    "main": "Upon readying the weapon:\n-30% Charge Time\n-20% Damage\n+100 Handling\n\nLasts [?] seconds.\n\nenhanced (\n#e Buff duration is increased.\n)\n\n<formula Ready Speed: [ready_0] />\n<formula Stow Speed: [stow_0] />",
+    "main": "Upon readying the weapon, for [?] seconds:\n• 0.7x Charge Time Multiplier\n• 20% Decreased Damage\n• +100 Handling\n\nenhanced (\n#e Buff duration is increased.\n)\n\n<formula Ready Speed: [ready_0] />\n<formula Stow Speed: [stow_0] />",
     "secondary": "import self"
    },
    "zh-chs": {
@@ -19921,8 +19912,8 @@
   "hash": 2010801679,
   "name": "Ambitious Assassin",
   "type": "weaponPerk",
-  "uploadedBy": "Mistwalker",
-  "lastUpload": 1668786967171,
+  "uploadedBy": "Stardust",
+  "lastUpload": 1670082062993,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -19934,7 +19925,7 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1668697935462,
+     "lastUpdate": 1670081439991,
      "updatedBy": "Stardust"
     },
     "zh-chs": {
@@ -19949,7 +19940,7 @@
   },
   "editor": {
    "en": {
-    "main": "Upon finishing a reload within [?] seconds of a Weapon Kill:\nIncreased Magazine Capacity per kill within [?] seconds of each.\n\nMaxes out at 150% increased Magazine Capacity. Always rounds magazine up.\n\nPrimary Weapons receive a 20% Magazine Capacity increase perk kill, while Special and Power Weapons receive a 10% increase.\n\nenhanced (\n#e Passively grants +5 Reload Speed.\n)",
+    "main": "Upon finishing a reload within 7 seconds of a Weapon Kill:\nIncreases Magazine Capacity based on the amount of kills within 7 seconds of each.\n\nMaxes out at 150% increased Magazine Capacity. Always rounds magazine up.\n\n<primary/> Primary Weapons: 20% Increased Magazine Capacity per Kill.\n<special/> Special Weapons / <heavy/> Power Weapons: 10%.\n\nenhanced (\n#e Passively grants +5 Reload Speed. Timer between kills is increased to 8 seconds.\n)",
     "secondary": "import self"
    },
    "zh-chs": {
@@ -31137,8 +31128,8 @@
   "hash": 3300816228,
   "name": "Auto-Loading Holster",
   "type": "weaponPerk",
-  "uploadedBy": "Mistwalker",
-  "lastUpload": 1668786967171,
+  "uploadedBy": "Stardust",
+  "lastUpload": 1670082062993,
   "inLiveDatabase": true,
   "uploadToLive": true,
   "optional": false,
@@ -31150,7 +31141,7 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1668697841138,
+     "lastUpdate": 1670081657781,
      "updatedBy": "Stardust"
     },
     "zh-chs": {
@@ -31165,7 +31156,7 @@
   },
   "editor": {
    "en": {
-    "main": "<title Refreshes [G_refresh] /> stowed weapon from reserves after 2.5 seconds.\n\nenhanced (\n#e Refresh timer is reduced to 2.3 seconds.\n)",
+    "main": "<title Refills [G_refresh] /> stowed weapon from reserves after 2.5 seconds.\n\nenhanced (\n#e Activation timer is reduced to 2.3 seconds.\n)",
     "secondary": "import self"
    },
    "zh-chs": {
@@ -33230,7 +33221,7 @@
   "hash": 3523746922,
   "name": "Archer's Tempo",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1668698756845,
+  "lastUpload": 1670082062993,
   "uploadedBy": "Stardust",
   "editor": {
    "en": {
@@ -33240,8 +33231,8 @@
   },
   "updateTracker": {
    "stats": {
-    "lastUpdate": 0,
-    "updatedBy": ""
+    "lastUpdate": 1670081477474,
+    "updatedBy": "Stardust"
    },
    "descriptions": {
     "en": {
@@ -33254,7 +33245,16 @@
   "hidden": false,
   "inLiveDatabase": false,
   "optional": false,
-  "linkedWith": 201365942
+  "linkedWith": 201365942,
+  "stats": {
+   "chargeDraw": [
+    {
+     "active": {
+      "multiplier": [ 0.75 ]
+     }
+    }
+   ]
+  }
  },
  "3526486541": {
   "hash": 3526486541,
@@ -35037,8 +35037,8 @@
   "hash": 3722653512,
   "name": "Air Assault",
   "type": "weaponPerk",
-  "uploadedBy": "Mistwalker",
-  "lastUpload": 1668786967171,
+  "uploadedBy": "Stardust",
+  "lastUpload": 1670082062993,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -35050,7 +35050,7 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1668023039819,
+     "lastUpdate": 1670081094438,
      "updatedBy": "Stardust"
     },
     "zh-chs": {
@@ -35065,7 +35065,7 @@
   },
   "editor": {
    "en": {
-    "main": "While at Low Health:\nUp to 60 Airborne Effectiveness.\nEffect increases linearly as Health decreases. Maximized strength at Critical Health.\n\nPassively grants +10 Airborne Effectiveness.\n\nenhanced (\n#e Grants up to 70 Airborne Effectiveness and passively grants 12 Airborne Effectiveness.\n)",
+    "main": "On Weapon Kill:\n+30 Airborne Effectiveness per Stack for [?] seconds. Maximum of 2 Stacks. \nAirborne Kills grant 2 stacks.\n\nPassively grants +10 Airborne Effectiveness.\n\nenhanced (\n#e Grants +35(?) Airborne Effectiveness per stack and passively grants 12 Airborne Effectiveness.\n)",
     "secondary": "import self"
    },
    "zh-chs": {
@@ -39708,8 +39708,8 @@
   "hash": 4252909580,
   "name": "Bottomless Grief",
   "type": "weaponPerk",
-  "uploadedBy": "Mistwalker",
-  "lastUpload": 1668786967171,
+  "uploadedBy": "Stardust",
+  "lastUpload": 1670082062993,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -39721,7 +39721,7 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1668024775053,
+     "lastUpdate": 1670082047291,
      "updatedBy": "Stardust"
     },
     "zh-chs": {
@@ -39732,7 +39732,7 @@
   },
   "editor": {
    "en": {
-    "main": "While Last Guardian Standing:\nKills fully <title refresh [G_refresh] /> Magazine.\n\nPassively grants +30 Magazine stat.\n",
+    "main": "While Last Guardian Standing:\nKills <title refill [G_refresh] /> 100% of Magazine Capacity.\n\nPassively grants <title +30 Magazine stat [equivalent] />.\n\ntitle equivalent (\nThe equivalent of Extended Mag.\n)",
     "secondary": "import self"
    },
    "zh-chs": {
