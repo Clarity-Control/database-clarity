@@ -3,7 +3,7 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1670250441876,
+  "lastUpload": 1670251794372,
   "uploadedBy": "Mistwalker",
   "editor": {
    "en": {
@@ -60,7 +60,7 @@
   "hash": 2,
   "name": "Global variables",
   "type": "none",
-  "lastUpload": 1670250441876,
+  "lastUpload": 1670251794372,
   "editor": {
    "en": {
     "main": "// this variale only shows up on enhanced perks\nvar e = 🠅\n\nvar refill = Reload, but does not need animation and doesn't proc on-reload perks.",
@@ -96,7 +96,7 @@
   "hash": 3,
   "name": "Global titles",
   "type": "none",
-  "lastUpload": 1670250441876,
+  "lastUpload": 1670251794372,
   "editor": {
    "en": {
     "main": "title G_refresh (\n#refill\n)\ntitle G_refill (\n#refill\n)\n\ntitle G_conegrowth (\nHow Fast Your Accuracy Cone Expands as you fire your weapon. The less the better.\n)\n\ntitle Whisper of Durance (\nimport main from 3469412969\n)",
@@ -389,7 +389,7 @@
   "name": "Adrenaline Junkie",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670250441876,
+  "lastUpload": 1670251794372,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -4020,8 +4020,8 @@
   "hash": 454085387,
   "name": "Blunt Execution Rounds",
   "type": "weaponPerk",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670251794372,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -4037,7 +4037,7 @@
      "updatedBy": "Stardust"
     },
     "zh-chs": {
-     "lastUpdate": 1668784944127,
+     "lastUpdate": 1670250875517,
      "updatedBy": "Mistwalker"
     }
    }
@@ -4064,7 +4064,7 @@
     "secondary": "import self"
    },
    "zh-chs": {
-    "main": "对 15 米范围内的敌人造成近战伤害后：\n提升 <pve 500% /> <pvp [100%] /> 伤害，并 +100 操控性，持续 10 秒或直到下次射击。\n4 秒冷却时间。武器在收起时也可触发。\n\n需要冲刺或滑行的充能近战以及弹道猛击均不会触发该特性。\n\nenhanced (\n#e 增益持续时间增加到 11 秒。\n)\n\n<formula 拔枪速度： [ready_0] />\n<formula 收枪速度： [stow_0] />",
+    "main": "对 15 米范围内的敌人造成近战伤害后：\n提升 <pve 500% /> <pvp [100%] /> 伤害，并 +100 操控性，持续 10 秒或直到下次射击。\n\n4 秒冷却时间。武器在收起时也可触发。\n\n需要冲刺或滑行的充能近战以及弹道猛击均不会触发该特性。\n\nenhanced (\n#e 增益持续时间增加到 11 秒。\n)\n\n<formula 拔枪速度： [ready_0] />\n<formula 收枪速度： [stow_0] />",
     "secondary": "import self"
    }
   },
@@ -6224,8 +6224,8 @@
   "hash": 671806388,
   "name": "Compulsive Reloader",
   "type": "weaponPerk",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670251794372,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -6241,7 +6241,7 @@
      "updatedBy": "Stardust"
     },
     "zh-chs": {
-     "lastUpdate": 1668786789446,
+     "lastUpdate": 1670251730778,
      "updatedBy": "Mistwalker"
     }
    }
@@ -6252,7 +6252,7 @@
     "secondary": "import self"
    },
    "zh-chs": {
-    "main": "弹匣内子弹量高于 70% 时：\n+50 装填速度，装填动画时间缩减为 0.95x。\n\nenhanced (\n#e +55(?) 装填速度\n)\n\n<formula 装填时间： [reload_0] />",
+    "main": "弹匣内子弹量高于 50% 时：\n+50 装填速度，装填动画时间缩减为 0.95x。\n\nenhanced (\n#e +55(?) 装填速度\n)\n\n<formula 装填时间： [reload_0] />",
     "secondary": "import self"
    }
   },
@@ -9707,7 +9707,7 @@
   "name": "Adaptive Munitions",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670250441876,
+  "lastUpload": 1670251794372,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -18233,8 +18233,8 @@
   "hash": 1799762209,
   "name": "Cornered",
   "type": "weaponPerk",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670251794372,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -18250,7 +18250,7 @@
      "updatedBy": "Stardust"
     },
     "zh-chs": {
-     "lastUpdate": 1668786905631,
+     "lastUpdate": 1670251769995,
      "updatedBy": "Mistwalker"
     }
    }
@@ -18261,7 +18261,7 @@
     "secondary": "import self"
    },
    "zh-chs": {
-    "main": "当 15 米范围内有两个以上敌人时：\n-15% 充能/蓄力时间。\n\n增益持续 1.5 秒，效果线性减弱。\n\nenhanced (\n#e +5 稳定性\n)",
+    "main": "当 15 米范围内有两个以上敌人时：\n-15% 充能/蓄力时间。\n\n增益持续 1.5 秒，效果线性减弱。\n\nenhanced (\n#e 在特性触发时 +10 稳定性\n)",
     "secondary": "import self"
    }
   },
@@ -19795,7 +19795,7 @@
   "name": "Ambitious Assassin",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670250441876,
+  "lastUpload": 1670251794372,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -23277,8 +23277,8 @@
   "hash": 2396489472,
   "name": "Chain Reaction",
   "type": "weaponPerk",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670251794372,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -23294,7 +23294,7 @@
      "updatedBy": "Stardust"
     },
     "zh-chs": {
-     "lastUpdate": 1668785859216,
+     "lastUpdate": 1670251567702,
      "updatedBy": "Mistwalker"
     }
    }
@@ -23305,7 +23305,7 @@
     "secondary": "import self"
    },
    "zh-chs": {
-    "main": "武器击杀会触发一次元素爆炸。\n不会被蜻蜓规格影响。\n\nenhanced (\n#e 增加弹药容量。\n)",
+    "main": "武器击杀会触发一次元素爆炸。\n\nenhanced (\n#e 增加弹药容量，等效于一个“备用弹匣”模组。\n)",
     "secondary": "import self"
    }
   },
@@ -24294,8 +24294,8 @@
   "hash": 2551157718,
   "name": "Box Breathing",
   "type": "weaponPerk",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670251794372,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -24311,7 +24311,7 @@
      "updatedBy": "Stardust"
     },
     "zh-chs": {
-     "lastUpdate": 1668785679598,
+     "lastUpdate": 1670251345076,
      "updatedBy": "Mistwalker"
     }
    }
@@ -30951,8 +30951,8 @@
   "hash": 3300816228,
   "name": "Auto-Loading Holster",
   "type": "weaponPerk",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670251794372,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -30968,7 +30968,7 @@
      "updatedBy": "Stardust"
     },
     "zh-chs": {
-     "lastUpdate": 1668784102268,
+     "lastUpdate": 1670250784544,
      "updatedBy": "Mistwalker"
     },
     "es": {
@@ -30983,7 +30983,7 @@
     "secondary": "import self"
    },
    "zh-chs": {
-    "main": "武器收起 2.5 秒后<title 刷新 [G_refresh] />弹匣。\n\nenhanced (\n#e 激活所需时间降低为 2.3 秒。\n)",
+    "main": "武器收起 2.5 秒后<title 重新装填 [G_refill] />弹匣。\n\nenhanced (\n#e 激活所需时间降低为 2.3 秒。\n)",
     "secondary": "import self"
    },
    "es": {
@@ -33936,8 +33936,8 @@
   "hash": 3650930298,
   "name": "Cold Steel",
   "type": "weaponPerk",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670251794372,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -33953,7 +33953,7 @@
      "updatedBy": "Stardust"
     },
     "zh-chs": {
-     "lastUpdate": 1668786721492,
+     "lastUpdate": 1670251703818,
      "updatedBy": "Mistwalker"
     }
    }
@@ -33964,7 +33964,7 @@
     "secondary": "import self"
    },
    "zh-chs": {
-    "main": "充能刀剑命中可让目标减速 <pve 4.25 /> <pvp [1.5] /> 秒。\n\n轻攻击施加 40 减速。\n重攻击施加 60 减速。\n\nenhanced (\n#e +5 弹药容量\n)",
+    "main": "充能刀剑命中可让目标减速 <pve 4.25 /> <pvp [1.5] /> 秒。\n\n轻攻击施加 40 减速。\n重攻击施加 60 减速。\n\nenhanced (\n#e +10 弹药容量（等效于“战术弹匣”增加的容量）。\n)",
     "secondary": "import self"
    }
   },
@@ -34212,7 +34212,7 @@
   "name": "Adagio",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670250441876,
+  "lastUpload": 1670251794372,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -34746,7 +34746,7 @@
   "name": "Air Assault",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670250441876,
+  "lastUpload": 1670251794372,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -39271,8 +39271,8 @@
   "hash": 4252909580,
   "name": "Bottomless Grief",
   "type": "weaponPerk",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670251794372,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -39288,7 +39288,7 @@
      "updatedBy": "Stardust"
     },
     "zh-chs": {
-     "lastUpdate": 1668785100505,
+     "lastUpdate": 1670251323197,
      "updatedBy": "Mistwalker"
     }
    }
@@ -39299,7 +39299,7 @@
     "secondary": "import self"
    },
    "zh-chs": {
-    "main": "如果你是火力战队中唯一生还的成员：\n每次最后一击都会<title 刷新 [G_refresh] />弹匣。\n\n+30 弹夹容量。\n",
+    "main": "如果你是火力战队中唯一生还的成员：\n每次最后一击都会<title 刷新 [G_refresh] />弹匣。\n\n被动提升 <title +30 弹夹容量 [equivalent] />。\n\ntitle equivalent (\n和“加大弹匣”特性的实际作用相同。\n)",
     "secondary": "import self"
    }
   },
