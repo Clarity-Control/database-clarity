@@ -3,7 +3,7 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1670250279916,
+  "lastUpload": 1670250441876,
   "uploadedBy": "Mistwalker",
   "editor": {
    "en": {
@@ -60,7 +60,7 @@
   "hash": 2,
   "name": "Global variables",
   "type": "none",
-  "lastUpload": 1670250279916,
+  "lastUpload": 1670250441876,
   "editor": {
    "en": {
     "main": "// this variale only shows up on enhanced perks\nvar e = 🠅\n\nvar refill = Reload, but does not need animation and doesn't proc on-reload perks.",
@@ -96,7 +96,7 @@
   "hash": 3,
   "name": "Global titles",
   "type": "none",
-  "lastUpload": 1670250279916,
+  "lastUpload": 1670250441876,
   "editor": {
    "en": {
     "main": "title G_refresh (\n#refill\n)\ntitle G_refill (\n#refill\n)\n\ntitle G_conegrowth (\nHow Fast Your Accuracy Cone Expands as you fire your weapon. The less the better.\n)\n\ntitle Whisper of Durance (\nimport main from 3469412969\n)",
@@ -389,7 +389,7 @@
   "name": "Adrenaline Junkie",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670250279916,
+  "lastUpload": 1670250441876,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -9707,7 +9707,7 @@
   "name": "Adaptive Munitions",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670250279916,
+  "lastUpload": 1670250441876,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -19794,8 +19794,8 @@
   "hash": 2010801679,
   "name": "Ambitious Assassin",
   "type": "weaponPerk",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670250441876,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -19811,7 +19811,7 @@
      "updatedBy": "Stardust"
     },
     "zh-chs": {
-     "lastUpdate": 1668782832773,
+     "lastUpdate": 1670250407579,
      "updatedBy": "Mistwalker"
     },
     "es": {
@@ -19826,7 +19826,7 @@
     "secondary": "import self"
    },
    "zh-chs": {
-    "main": "该武器击杀后 [?] 秒内换弹：\n[?] 秒内的每个击杀都可过量填加弹匣， \n\n最高过量填加 50%，计算结果向上取整。\n\n主武器每个击杀过量填加 20%，特殊武器和重武器每个击杀过量填加 10%。\n\nenhanced (\n#e +5 换弹速度\n)",
+    "main": "该武器击杀后 7 秒内换弹：\n7 秒内的每个击杀都可过量填加弹匣， \n\n最高过量填加 50%，计算结果向上取整。\n\n<primary/> 主武器：每个击杀过量填加 20%。\n<special/> 特殊武器和 <heavy/> 重武器：每个击杀过量填加 10%。\n\nenhanced (\n#e +5 换弹速度\n)",
     "secondary": "import self"
    },
    "es": {
@@ -34212,7 +34212,7 @@
   "name": "Adagio",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670250279916,
+  "lastUpload": 1670250441876,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -34746,7 +34746,7 @@
   "name": "Air Assault",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670250279916,
+  "lastUpload": 1670250441876,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
