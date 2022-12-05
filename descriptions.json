@@ -3,7 +3,7 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1670251794372,
+  "lastUpload": 1670253278198,
   "uploadedBy": "Mistwalker",
   "editor": {
    "en": {
@@ -60,7 +60,7 @@
   "hash": 2,
   "name": "Global variables",
   "type": "none",
-  "lastUpload": 1670251794372,
+  "lastUpload": 1670253278198,
   "editor": {
    "en": {
     "main": "// this variale only shows up on enhanced perks\nvar e = 🠅\n\nvar refill = Reload, but does not need animation and doesn't proc on-reload perks.",
@@ -96,7 +96,7 @@
   "hash": 3,
   "name": "Global titles",
   "type": "none",
-  "lastUpload": 1670251794372,
+  "lastUpload": 1670253278198,
   "editor": {
    "en": {
     "main": "title G_refresh (\n#refill\n)\ntitle G_refill (\n#refill\n)\n\ntitle G_conegrowth (\nHow Fast Your Accuracy Cone Expands as you fire your weapon. The less the better.\n)\n\ntitle Whisper of Durance (\nimport main from 3469412969\n)",
@@ -389,7 +389,7 @@
   "name": "Adrenaline Junkie",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670251794372,
+  "lastUpload": 1670253278198,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -4021,7 +4021,7 @@
   "name": "Blunt Execution Rounds",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670251794372,
+  "lastUpload": 1670253278198,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -6225,7 +6225,7 @@
   "name": "Compulsive Reloader",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670251794372,
+  "lastUpload": 1670253278198,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -9026,8 +9026,8 @@
   "hash": 960810156,
   "name": "Danger Zone",
   "type": "weaponPerk",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670253278198,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -9041,6 +9041,10 @@
     "en": {
      "lastUpdate": 1668687762395,
      "updatedBy": "Stardust"
+    },
+    "zh-chs": {
+     "lastUpdate": 1670252383033,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -9048,6 +9052,10 @@
    "en": {
     "main": "While within 15 meters of 3 enemies:\n[?]% Increased Blast Radius and 40% Reduced <title Self Damage [self damage] />.\n\nLingers for 4(?) seconds.\n\nenhanced (\n#e Passively grants 5 Blast Radius.\n)\n\ntitle self damage (\nSelf Damage normally deals 25% increased damage.\n)",
     "secondary": "While within 15 meters of 3 enemies:\n[?]% Increased Blast Radius and 40% Reduced Self Damage.\n(Self Damage normally deals 25% increased damage)\n\nLingers for 4(?) seconds. \n\nenhanced (\n#e Passively grants 5 Blast Radius.\n)"
+   },
+   "zh-chs": {
+    "main": "15 米范围内有 3 个敌人时：\n增加 [?]% 爆炸范围，降低 40% <title 自身伤害 [self damage] />.\n\n线性持续 4(?) 秒。\n\nenhanced (\n#e 被动提升 +5 爆炸范围。\n)\n\ntitle self damage (\n自身伤害的伤害量通常会提升 25%。\n)",
+    "secondary": "15 米范围内有 3 个敌人时：\n增加 [?]% 爆炸范围，降低 40% 自身伤害。\n（自身伤害的伤害量通常会提升 25%。）\n\n线性持续 4(?) 秒。\n\nenhanced (\n#e 被动提升 +5 爆炸范围。\n)"
    }
   },
   "linkedWith": 1077019636
@@ -9707,7 +9715,7 @@
   "name": "Adaptive Munitions",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670251794372,
+  "lastUpload": 1670253278198,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -16565,8 +16573,8 @@
   "hash": 1683379515,
   "name": "Disruption Break",
   "type": "weaponPerk",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670253278198,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -16580,12 +16588,20 @@
     "en": {
      "lastUpdate": 1668688045202,
      "updatedBy": "Stardust"
+    },
+    "zh-chs": {
+     "lastUpdate": 1670253274972,
+     "updatedBy": "Mistwalker"
     }
    }
   },
   "editor": {
    "en": {
     "main": "On Elemental, Barrier or Guardian Shield Break:\nWeakens the enemy, increasing Kinetic Damage dealt by 50% for 5.5 seconds.\nDoes not affect Stasis Damage.\n\nStacks with other Debuffs, as it is a Weapon Perk.\n\nenhanced (\n#e Debuff Duration is increased.\n)",
+    "secondary": "import self"
+   },
+   "zh-chs": {
+    "main": "使用武器破坏敌人的护盾（元素护盾、屏障勇士护盾、守护者护盾）时：\n对他们施加负面状态，额外承受 50% 的动能伤害，持续 5.5 秒。\n不会作用于冰影伤害。\n\n因其为武器特性，故可以与其他负面状态叠加。\n\nenhanced (\n#e 负面状态持续时间增加。\n)",
     "secondary": "import self"
    }
   },
@@ -18234,7 +18250,7 @@
   "name": "Cornered",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670251794372,
+  "lastUpload": 1670253278198,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -19795,7 +19811,7 @@
   "name": "Ambitious Assassin",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670251794372,
+  "lastUpload": 1670253278198,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -23278,7 +23294,7 @@
   "name": "Chain Reaction",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670251794372,
+  "lastUpload": 1670253278198,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -24295,7 +24311,7 @@
   "name": "Box Breathing",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670251794372,
+  "lastUpload": 1670253278198,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -29054,8 +29070,8 @@
   "hash": 3047969693,
   "name": "Desperado",
   "type": "weaponPerk",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670253278198,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -29071,7 +29087,7 @@
      "updatedBy": "Stardust"
     },
     "zh-chs": {
-     "lastUpdate": 1668786955799,
+     "lastUpdate": 1670252890000,
      "updatedBy": "Mistwalker"
     }
    }
@@ -29082,7 +29098,7 @@
     "secondary": "import self"
    },
    "zh-chs": {
-    "main": "在精准击杀后 6 秒内装填：\n提高射速（降低 30% 射击间隔），持续 6 秒。\n该增益可以被刷新。\n\nenhanced (\n#e 提高增益持续时间到 7 秒。\n)\n",
+    "main": "在精准击杀后 6 秒内装填：\n提高射速（降低 30% 射击间隔），持续 6 秒。\n该增益可以被刷新。\n\nenhanced (\n#e 提高增益持续时间到 7 秒。\n)",
     "secondary": "import self"
    }
   },
@@ -30952,7 +30968,7 @@
   "name": "Auto-Loading Holster",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670251794372,
+  "lastUpload": 1670253278198,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -32895,8 +32911,8 @@
   "hash": 3523296417,
   "name": "Demolitionist",
   "type": "weaponPerk",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670253278198,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -32912,14 +32928,18 @@
      "updatedBy": "Stardust"
     },
     "zh-chs": {
-     "lastUpdate": 1664460448089,
-     "undatedBy": "Mistwalker"
+     "lastUpdate": 1670252879197,
+     "updatedBy": "Mistwalker"
     }
    }
   },
   "editor": {
    "en": {
     "main": "Kills with <primary/> Primary and <heavy/> Power Weapons grant #e${10 * #d}% Grenade Ability Energy.\nMOST <special/> Special Weapons grant #e${20 * #d}%.\n\nTrace Rifles and Grenade Launchers grant half of what other Special Weapons give.\n\nUsing your Grenade Ability <title refills [G_refill] /> the Magazine.\n3 second cooldown between Magazine Refills.\n\nenhanced (\nvar d = 1.1\n#e Grenade Ability Energy gains are increased by 10%.\n)",
+    "secondary": "import self"
+   },
+   "zh-chs": {
+    "main": "<primary/> 主武器和 <heavy/> 重武器击杀可获取 #e${10 * #d}% 手雷技能能量。\n大多数 <special/> 特殊武器获取 #e${20 * #d}% 能量。\n\n追踪步枪和榴弹发射器相较其他特殊武器，仅获得一半能量。\n\n使用手雷技能将 <title 重新装填 [G_refill] /> 弹匣。\n重新装填效果有 3 秒冷却时间。\n\nenhanced (\nvar d = 1.1\n#e 能量获取量提升 10%。\n)",
     "secondary": "import self"
    }
   },
@@ -33937,7 +33957,7 @@
   "name": "Cold Steel",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670251794372,
+  "lastUpload": 1670253278198,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -34212,7 +34232,7 @@
   "name": "Adagio",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670251794372,
+  "lastUpload": 1670253278198,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -34746,7 +34766,7 @@
   "name": "Air Assault",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670251794372,
+  "lastUpload": 1670253278198,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -39272,7 +39292,7 @@
   "name": "Bottomless Grief",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670251794372,
+  "lastUpload": 1670253278198,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
