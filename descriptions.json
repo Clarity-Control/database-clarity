@@ -3,7 +3,7 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1670268038752,
+  "lastUpload": 1670269830555,
   "uploadedBy": "Mistwalker",
   "editor": {
    "en": {
@@ -60,7 +60,7 @@
   "hash": 2,
   "name": "Global variables",
   "type": "none",
-  "lastUpload": 1670268038752,
+  "lastUpload": 1670269830555,
   "editor": {
    "en": {
     "main": "// this variale only shows up on enhanced perks\nvar e = 🠅\n\nvar refill = Reload, but does not need animation and doesn't proc on-reload perks.",
@@ -96,7 +96,7 @@
   "hash": 3,
   "name": "Global titles",
   "type": "none",
-  "lastUpload": 1670268038752,
+  "lastUpload": 1670269830555,
   "editor": {
    "en": {
     "main": "title G_refresh (\n#refill\n)\ntitle G_refill (\n#refill\n)\n\ntitle G_conegrowth (\nHow Fast Your Accuracy Cone Expands as you fire your weapon. The less the better.\n)\n\ntitle Whisper of Durance (\nimport main from 3469412969\n)",
@@ -389,7 +389,7 @@
   "name": "Adrenaline Junkie",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670268038752,
+  "lastUpload": 1670269830555,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -655,7 +655,7 @@
   "name": "Dual Loader",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670268038752,
+  "lastUpload": 1670269830555,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -1324,8 +1324,8 @@
   "hash": 124408337,
   "name": "Headstone",
   "type": "weaponPerk",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670269830555,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -1339,12 +1339,20 @@
     "en": {
      "lastUpdate": 1670084898979,
      "updatedBy": "Stardust"
+    },
+    "zh-chs": {
+     "lastUpdate": 1670269016346,
+     "updatedBy": "Mistwalker"
     }
    }
   },
   "editor": {
    "en": {
     "main": "On Precision Kill:\nSpawns a Large <stasis/>Stasis Crystal on Enemy Death Location. \nRank-and-File Combatants spawn a Medium Stasis Crystal.\n\nIncurs a 5 second cooldown if 5 Stasis Crystals are simultaneously active.\n\nenhanced (\n#e Passively grants 5 Stability\n)",
+    "secondary": "import self"
+   },
+   "zh-chs": {
+    "main": "精准击杀时：\n在目标附近生成一块<stasis/>冰影水晶。\n普通敌人生成中型水晶，高阶敌人生成大型水晶。\n\n生成 5 块水晶后将进入 5 秒冷却。\n\nenhanced (\n#e 被动提升 +5 稳定性。\n)",
     "secondary": "import self"
    }
   },
@@ -2429,7 +2437,7 @@
   "name": "Firmly Planted",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670268038752,
+  "lastUpload": 1670269830555,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -3990,8 +3998,8 @@
   "hash": 438098033,
   "name": "Harmony",
   "type": "weaponPerk",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670269830555,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -4005,6 +4013,10 @@
     "en": {
      "lastUpdate": 1668690043043,
      "updatedBy": "Stardust"
+    },
+    "zh-chs": {
+     "lastUpdate": 1670268588323,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -4028,6 +4040,10 @@
    "en": {
     "main": "Upon readying a weapon within 3 seconds of getting a Kill with a different weapon:\n\n20% Increased Damage and 15 Handling for 7 seconds.\n\nenhanced (\n#e Buff Duration is increased to 8 seconds.\n)\n\n<formula Ready Speed: [ready_0] />\n<formula Stow Speed: [stow_0] />",
     "secondary": "import self"
+   },
+   "zh-chs": {
+    "main": "使用其他武器达成最后一击后 3 秒内切换到该武器：\n\n+20% 伤害，+15 操控性，持续 7 秒。\n\nenhanced (\n#e 增益持续时间提升到 8 秒。\n)\n\n<formula 拔枪速度： [ready_0] />\n<formula 收枪速度： [stow_0] />",
+    "secondary": "import self"
    }
   },
   "linkedWith": 2748801589
@@ -4037,7 +4053,7 @@
   "name": "Blunt Execution Rounds",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670268038752,
+  "lastUpload": 1670269830555,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -4177,8 +4193,8 @@
   "hash": 460017080,
   "name": "Headseeker",
   "type": "weaponPerk",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670269830555,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -4192,6 +4208,10 @@
     "en": {
      "lastUpdate": 1670084802785,
      "updatedBy": "Stardust"
+    },
+    "zh-chs": {
+     "lastUpdate": 1670268763759,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -4207,6 +4227,10 @@
   "editor": {
    "en": {
     "main": "After dealing non-Precision Weapon Damage:\n8% Increased Precision Damage and +[?] Aim Assist for 0.55 seconds. \nDealing additional Non-Precision Damage refreshes the timer.\n\nenhanced (\n#e Passively grants 5 Stability.\n)",
+    "secondary": "import self"
+   },
+   "zh-chs": {
+    "main": "武器造成非精准伤害后：\n0.55 秒内 +8% 伤害，+[?] 瞄准辅助。\n造成非精准伤害将刷新计时器。\n\nenhanced (\n#e 被动提升 +5 稳定性。 \n)",
     "secondary": "import self"
    }
   },
@@ -6241,7 +6265,7 @@
   "name": "Compulsive Reloader",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670268038752,
+  "lastUpload": 1670269830555,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -6449,7 +6473,7 @@
   "name": "Eye of the Storm",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670268038752,
+  "lastUpload": 1670269830555,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -6612,7 +6636,7 @@
   "hash": 711234314,
   "name": "Elemental Capacitor",
   "type": "weaponPerkEnhanced",
-  "lastUpload": 1670268038752,
+  "lastUpload": 1670269830555,
   "editor": {
    "en": {
     "main": "import main from 3511092054",
@@ -9059,7 +9083,7 @@
   "name": "Danger Zone",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670268038752,
+  "lastUpload": 1670269830555,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -9718,7 +9742,7 @@
   "name": "Full Choke",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670268038752,
+  "lastUpload": 1670269830555,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -9755,7 +9779,7 @@
   "name": "Adaptive Munitions",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670268038752,
+  "lastUpload": 1670269830555,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -11232,7 +11256,7 @@
   "name": "Encore",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670268038752,
+  "lastUpload": 1670269830555,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -12965,7 +12989,7 @@
   "name": "Fourth Time's the Charm",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670268038752,
+  "lastUpload": 1670269830555,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -13061,7 +13085,7 @@
   "name": "Dynamic Sway Reduction",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670268038752,
+  "lastUpload": 1670269830555,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -13136,7 +13160,7 @@
   "hash": 1365187766,
   "name": "Gutshot Straight",
   "type": "weaponPerk",
-  "lastUpload": 1670268038752,
+  "lastUpload": 1670269830555,
   "editor": {
    "en": {
     "main": "While Aiming-Down-Sights:\nIncreased Bodyshot Damage, -55% Aim Assist Cone Size.\n\nBodyshot damage increase:\n • Auto Rifle, Bow, Hand Cannon: 20%\n • Pulse Rifle, Sidearm, Submachine Gun: 10%\n\nenhanced (\n#e Reduces Aim Assist Cone Size penalty to -45%.\n)",
@@ -15257,8 +15281,8 @@
   "hash": 1561002382,
   "name": "High-Caliber Rounds",
   "type": "weaponPerk",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670269830555,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -15272,12 +15296,20 @@
     "en": {
      "lastUpdate": 1668690157896,
      "updatedBy": "Stardust"
+    },
+    "zh-chs": {
+     "lastUpdate": 1670269443747,
+     "updatedBy": "Mistwalker"
     }
    }
   },
   "editor": {
    "en": {
     "main": "Increased Flinch on Enemies.\n\n<pve [PVE] Allows Primary Weapons to affect higher ranked enemies and consistently stunlock Minors. />\n\n<pvp [PVP] Flinch amount against Guardians varies between Weapon Archetypes, from 6% to 11% Increased Flinch received. />\n",
+    "secondary": "import self"
+   },
+   "zh-chs": {
+    "main": "命中后增加敌人的后仰抖动。\n\n<pve [PVE] 允许主武器作用于高阶敌人，并可使低阶普通敌人持续晕眩。 />\n\n<pvp [PVP] 根据武器框架不同，增加敌方守护者 6% 至 11% 的后仰抖动，/>\n",
     "secondary": "import self"
    }
   },
@@ -15409,8 +15441,8 @@
   "hash": 1570042021,
   "name": "Heating Up",
   "type": "weaponPerk",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670269830555,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -15424,6 +15456,10 @@
     "en": {
      "lastUpdate": 1668690131499,
      "updatedBy": "Stardust"
+    },
+    "zh-chs": {
+     "lastUpdate": 1670269117249,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -15439,6 +15475,10 @@
   "editor": {
    "en": {
     "main": "On Weapon Kill:\n-15% <title Accuracy Cone Growth [G_conegrowth] />, 15 Stability, and ~20 Recoil Direction.\n\nStacks up to 2x.\n\nenhanced (\n#e Buff Duration is increased.\n)",
+    "secondary": "import self"
+   },
+   "zh-chs": {
+    "main": "使用此武器造成最后一击时：\n-15% <title 精度锥角增长 [G_conegrowth] />， +15 稳定性，+20 后座力方向。\n\n可叠加 2 层。\n\nenhanced (\n#e 提升增益持续时间。\n)",
     "secondary": "import self"
    }
   },
@@ -15942,7 +15982,7 @@
   "name": "Grave Robber",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670268038752,
+  "lastUpload": 1670269830555,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -16654,7 +16694,7 @@
   "name": "Disruption Break",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670268038752,
+  "lastUpload": 1670269830555,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -16751,7 +16791,7 @@
   "name": "En Garde",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670268038752,
+  "lastUpload": 1670269830555,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -18066,7 +18106,7 @@
   "name": "Firing Line",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670268038752,
+  "lastUpload": 1670269830555,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -18346,7 +18386,7 @@
   "name": "Cornered",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670268038752,
+  "lastUpload": 1670269830555,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -18837,8 +18877,8 @@
   "hash": 1866048759,
   "name": "Hip-Fire Grip",
   "type": "weaponPerk",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670269830555,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -18852,6 +18892,10 @@
     "en": {
      "lastUpdate": 1670084952089,
      "updatedBy": "Stardust"
+    },
+    "zh-chs": {
+     "lastUpdate": 1670269820547,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -18887,6 +18931,10 @@
   "editor": {
    "en": {
     "main": "If hipfiring:\n• 20% Increased:\n    • Aim Assist Falloff Distance <breakSpaces/>\n    • Reticle Stickiness Falloff Distance <breakSpaces/>\n    • Damage Falloff Start and End Distance <breakSpaces/>\n• -15% Accuracy Cone Size\n• +15 Aim Assist\n• +2.7 degrees Precision Angle Threshold\n• +25 Stability\n\nDamage Falloff Multipliers do not apply to The Last Word, Shotguns, Sniper Rifles, and Fusion Rifles.\n\nenhanced (\n#e Stronger Effect.\n)",
+    "secondary": "import self"
+   },
+   "zh-chs": {
+    "main": "腰射时：\n• +20%:\n    • 瞄准辅助有效距离 <breakSpaces/>\n    • 准星吸附有效距离 <breakSpaces/>\n    • 有效射程距离 <breakSpaces/>\n• -15% 精度锥角尺寸\n• +15 瞄准辅助\n• +2.7° 精准角度范畴\n• +25 稳定性\n\n有效射程距离系数不会作用于遗言、霰弹枪、狙击步枪、融合步枪。\n\nenhanced (\n#e 更显著的效果。\n)",
     "secondary": "import self"
    }
   },
@@ -19907,7 +19955,7 @@
   "name": "Ambitious Assassin",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670268038752,
+  "lastUpload": 1670269830555,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -20128,7 +20176,7 @@
   "name": "Energy Transfer",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670268038752,
+  "lastUpload": 1670269830555,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -20386,7 +20434,7 @@
   "name": "Eager Edge",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670268038752,
+  "lastUpload": 1670269830555,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -20670,7 +20718,7 @@
   "name": "Full Auto Trigger System",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670268038752,
+  "lastUpload": 1670269830555,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -21592,8 +21640,8 @@
   "hash": 2213355989,
   "name": "High-Impact Reserves",
   "type": "weaponPerk",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670269830555,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -21607,6 +21655,10 @@
     "en": {
      "lastUpdate": 1668690213189,
      "updatedBy": "Stardust"
+    },
+    "zh-chs": {
+     "lastUpdate": 1670269567762,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -21614,6 +21666,10 @@
    "en": {
     "main": "As Magazine goes below 50%, until empty: \n<pve [PVE] 12.1% to 25.6% Increased damage. />\n<pvp [PVP] 3% to 6% Increased damage. />\n\nenhanced (\n#e Activates at the 75% Magazine Threshold.\n)",
     "secondary": "import self"
+   },
+   "zh-chs": {
+    "main": "弹匣中最后 50% 的弹药：\n<pve [PVE] +12.1% ~ 25.6% 伤害。 />\n<pvp [PVP] +3% ~ 6% 伤害。 />\n\nenhanced (\n#e 75% 弹匣剩余量时即可触发。\n)",
+    "secondary": ""
    }
   },
   "linkedWith": 2002547233
@@ -22067,7 +22123,7 @@
   "name": "Flash Counter",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670268038752,
+  "lastUpload": 1670269830555,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -23422,7 +23478,7 @@
   "name": "Chain Reaction",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670268038752,
+  "lastUpload": 1670269830555,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -23684,7 +23740,7 @@
   "name": "Fragile Focus",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670268038752,
+  "lastUpload": 1670269830555,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -24447,7 +24503,7 @@
   "name": "Box Breathing",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670268038752,
+  "lastUpload": 1670269830555,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -24887,7 +24943,7 @@
   "name": "Golden Tricorn",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670268038752,
+  "lastUpload": 1670269830555,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -24994,7 +25050,7 @@
   "name": "Ensemble",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670268038752,
+  "lastUpload": 1670269830555,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -26656,7 +26712,7 @@
   "name": "Feeding Frenzy",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670268038752,
+  "lastUpload": 1670269830555,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -27317,7 +27373,7 @@
   "name": "Dragonfly",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670268038752,
+  "lastUpload": 1670269830555,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -27506,7 +27562,7 @@
   "name": "Field Prep",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670268038752,
+  "lastUpload": 1670269830555,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -27713,7 +27769,7 @@
   "name": "Full Court",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670268038752,
+  "lastUpload": 1670269830555,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -27760,7 +27816,7 @@
   "name": "Adagio",
   "type": "weaponPerkEnhanced",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670268038752,
+  "lastUpload": 1670269830555,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -27830,7 +27886,7 @@
   "name": "Focused Fury",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670268038752,
+  "lastUpload": 1670269830555,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -29241,7 +29297,7 @@
   "name": "Explosive Payload",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670268038752,
+  "lastUpload": 1670269830555,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -29279,7 +29335,7 @@
   "name": "Desperado",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670268038752,
+  "lastUpload": 1670269830555,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -29597,7 +29653,7 @@
   "name": "Genesis",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670268038752,
+  "lastUpload": 1670269830555,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -30239,7 +30295,7 @@
   "name": "Explosive Light",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670268038752,
+  "lastUpload": 1670269830555,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -31192,7 +31248,7 @@
   "name": "Auto-Loading Holster",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670268038752,
+  "lastUpload": 1670269830555,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -31869,7 +31925,7 @@
   "name": "Explosive Head",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670268038752,
+  "lastUpload": 1670269830555,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -32918,7 +32974,7 @@
   "name": "Elemental Capacitor",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670268038752,
+  "lastUpload": 1670269830555,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -33152,7 +33208,7 @@
   "name": "Demolitionist",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670268038752,
+  "lastUpload": 1670269830555,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -34197,7 +34253,7 @@
   "name": "Cold Steel",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670268038752,
+  "lastUpload": 1670269830555,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -34472,7 +34528,7 @@
   "name": "Adagio",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670268038752,
+  "lastUpload": 1670269830555,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -34792,7 +34848,7 @@
   "name": "Duelist's Trance",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670268038752,
+  "lastUpload": 1670269830555,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -35014,7 +35070,7 @@
   "name": "Air Assault",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670268038752,
+  "lastUpload": 1670269830555,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -35830,7 +35886,7 @@
   "name": "Firefly",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670268038752,
+  "lastUpload": 1670269830555,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -36966,7 +37022,7 @@
   "name": "Tracking Module",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670268038752,
+  "lastUpload": 1670269830555,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -38295,7 +38351,7 @@
   "name": "Frenzy",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670268038752,
+  "lastUpload": 1670269830555,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -38444,7 +38500,7 @@
   "name": "Drop Mag",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670268038752,
+  "lastUpload": 1670269830555,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -39564,7 +39620,7 @@
   "name": "Bottomless Grief",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670268038752,
+  "lastUpload": 1670269830555,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -39696,7 +39752,7 @@
   "name": "Full Auto Trigger System",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670268038752,
+  "lastUpload": 1670269830555,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
