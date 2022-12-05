@@ -3,8 +3,8 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1670272140086,
-  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670274877337,
+  "uploadedBy": "Stardust",
   "editor": {
    "en": {
     "main": "Images you can use in descriptions\n<arc/> <void/> <solar/>\n<primary/> <special/> <heavy/>\n<warlock/> <hunter/> <titan/>\nText coloring\n<blue text /> <green text /> <purple text /> <yellow text />\n<pvp text /> <pve text />\n\nThe same can be done to lines of text <green/>\n\nYou probably noticed having multiple spaces in the editor\n              doesn't mean it will be the same in description\n              you can change that with <breakSpaces/>\n\n// This is comment content after // will not appear in the description\n\n// ----------------------------------------------------------\n// weapon type explanation\n// they work like if else in programming\n\n// if auto rifle\n< weapon type ( AR ) >\n    Apply this text\n// else if glaive\n< ( Glaive ) >\n    Apply this text\n// else\n< ( other ) >\n    Apply this text to all weapons not specified in this block\n<$$>\n// also, you can preview how it would look on x weapon by selecting the weapon in the weapon popup under the weapons name\n// ----------------------------------------------------------\nIf there is something you want just ask\nThis is not everything you can do btw\n\nTo see the full list press CTRL + SPACE\nAlso, CTRL + F is a thing and can be used to find and replace\nAlso also editor has other stuff to see them press F1",
@@ -25,7 +25,7 @@
   },
   "uploadToLive": false,
   "hidden": false,
-  "inLiveDatabase": false,
+  "inLiveDatabase": true,
   "optional": false
  },
  "1": {
@@ -795,7 +795,7 @@
   "name": "Opening Shot",
   "type": "weaponPerk",
   "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "lastUpload": 1670274877337,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -807,7 +807,7 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1670086507783,
+     "lastUpdate": 1670274619300,
      "updatedBy": "Stardust"
     }
    }
@@ -830,7 +830,7 @@
   },
   "editor": {
    "en": {
-    "main": "For <title one bullet only [first bullet only] />:\n•  +20 Aim Assist <breakSpaces/>\n•  +25 Range <breakSpaces/>\n•  -5% Accuracy Cone Size <breakSpaces/>\n•  -10% <title Accuracy Cone Growth [G_conegrowth] /> <breakSpaces/>\n\nIncurs a 3.1 seconds cooldown after firing.\n\nenhanced (\n#e Grants an additional +5 Aim Assist and +5 Range.\n)\n\n<formula In-Game Range: [range_0] />\n\ntitle first bullet only (\nEven in the case of burst weapons. Only the first shot of the burst is affected.\n)",
+    "main": "For <title one bullet only [first bullet only] />:\n•  +20 Aim Assist <breakSpaces/>\n•  +25 Range <breakSpaces/>\n•  -5% Accuracy Cone Size <breakSpaces/>\n•  -10% <title Accuracy Cone Growth [G_conegrowth] /> <breakSpaces/>\n\nIncurs a 3.1 seconds cooldown after firing.\n\nenhanced (\n#e Grants an additional +5 Aim Assist and +5 Range.\n)\n\n<formula Effective Range: [range_0] />\n\ntitle first bullet only (\nEven in the case of burst weapons. Only the first shot of the burst is affected.\n)",
     "secondary": "import self"
    }
   },
@@ -29044,7 +29044,7 @@
   "name": "Alacrity",
   "type": "weaponOriginTrait",
   "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "lastUpload": 1670274877337,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -29056,7 +29056,7 @@
    },
    "descriptions": {
     "en": {
-     "lastUpdate": 1670090712614,
+     "lastUpdate": 1670274648681,
      "updatedBy": "Stardust"
     },
     "zh-chs": {
@@ -29097,7 +29097,7 @@
   },
   "editor": {
    "en": {
-    "main": "While Last Guardian Standing or Solo:\r\n\r\n20 Reload, 20 Stability, 10 Aim Assist, and 10 Range.\r\n\r\n<formula Reload Time: [reload_0] />\r\n<formula In-Game Range: [range_0] />",
+    "main": "While Last Guardian Standing or Solo:\n\n20 Reload, 20 Stability, 10 Aim Assist, and 10 Range.\n\n<formula Reload Time: [reload_0] />\n<formula Effective Range: [range_0] />",
     "secondary": "import self"
    },
    "zh-chs": {
