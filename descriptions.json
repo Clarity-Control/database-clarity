@@ -3,7 +3,7 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1670330443182,
+  "lastUpload": 1670332333351,
   "uploadedBy": "Mistwalker",
   "editor": {
    "en": {
@@ -96,7 +96,7 @@
   "hash": 3,
   "name": "Global titles",
   "type": "none",
-  "lastUpload": 1670330443182,
+  "lastUpload": 1670332333351,
   "editor": {
    "en": {
     "main": "title G_refresh (\n#refill\n)\ntitle G_refill (\n#refill\n)\n\ntitle G_conegrowth (\nHow Fast Your Accuracy Cone Expands as you fire your weapon. The less the better.\n)\n\ntitle Whisper of Durance (\nimport main from 3469412969\n)",
@@ -6434,10 +6434,14 @@
   "hash": 691659142,
   "name": "Pugilist",
   "type": "weaponPerk",
-  "lastUpload": 1670107195856,
+  "lastUpload": 1670332333351,
   "editor": {
    "en": {
     "main": "Kills with <primary/> Primary and <heavy/> Power Weapons grant #e${10 * #d}% Melee Ability Energy.\nMost <special/> Special Weapons grant #e${20 * #d}%.\n\nGlaives, Grenade Launchers, and Trace Rifles share the ability gains of primary weapons.\n\nDealing Melee Damage grants +35 Handling for 3 seconds.\n\nenhanced (\nvar d = 1.1\n#e Melee Ability Energy gains are increased by 10%.\n)\n\n<formula Ready Speed: [ready_0] />\n<formula Stow Speed: [stow_0] />",
+    "secondary": "import self"
+   },
+   "zh-chs": {
+    "main": "<primary/> 主武器和 <heavy/> 重武器击杀可获取 #e${10 * #d}% 近战技能能量。\n大多数 <special/> 特殊武器获取 #e${20 * #d}% 能量。\n\n偃月、追踪步枪、榴弹发射器相较其他特殊武器，仅获得一半能量。\n\n使用近战技能造成伤害获得 +35 操控性，持续 3 秒。将 <title 重新装填 [G_refill] /> 弹匣。\n\nenhanced (\nvar d = 1.1\n#e 能量获取量提升 10%。\n)\n\n<formula 拔枪速度： [ready_0] />\n<formula 收枪速度： [stow_0] />",
     "secondary": "import self"
    }
   },
@@ -6450,6 +6454,10 @@
     "en": {
      "lastUpdate": 1668693283588,
      "updatedBy": "Stardust"
+    },
+    "zh-chs": {
+     "lastUpdate": 1670332328318,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -6467,7 +6475,7 @@
    ]
   },
   "linkedWith": 536173722,
-  "uploadedBy": "Stardust"
+  "uploadedBy": "Mistwalker"
  },
  "692285813": {
   "hash": 692285813,
@@ -13867,8 +13875,8 @@
   "hash": 1428297954,
   "name": "Perpetual Motion",
   "type": "weaponPerk",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670332333351,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -13882,6 +13890,10 @@
     "en": {
      "lastUpdate": 1670087138941,
      "updatedBy": "Stardust"
+    },
+    "zh-chs": {
+     "lastUpdate": 1670332106613,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -13912,6 +13924,10 @@
    "en": {
     "main": "While moving at a minimum of 2 meters per second:\nGain a Stack after 2 seconds and an additional Stack after 10 seconds.\n\nRemoves all stacks if movement speed is below 2 meters per second for 0.5 seconds.\n\nCan activate and remain active while stowed.\n\nenhanced (\nvar d = 1\n#e Grace period for not meeting the criteria is increased to 1 second. Perpetual Motion x2 is activated in 9 seconds.\n)\n\n< table >\n|     Time Spent Moving          |   Stability              | Reload                      | Handling <bold/>\n|     #e 2-${10-#d} seconds               |   +5                     | +5                           | +5       <background/>\n|2-2c In-game  values:           |-2 <formula [reload_0] /> | <formula Ready: [ready_0] />\n|     <formula Stow: [stow_0] />\n|     #e ${10-#d}+ seconds                |   +15                    | +15                          | +15      <background/>\n|2-2c In-game  values:           |-2 <formula [reload_1] /> | <formula Ready: [ready_1] />\n|     <formula Stow: [stow_1] />\n<$>",
     "secondary": "While moving at a minimum of 2 meters per second:\nAfter 2 seconds: +5 Stability, +5 Handling, and +5 Reload Speed. Displays as x1 buff.\nAfter 10 seconds: +15 Stability, +15 Handling and +15 Reload Speed. Displays as x2 buff.\n\nRemoves all stacks if movement speed is below 2 meters per second for 0.5 seconds.\n\nAll stacks are removed if criteria is not met for 0.5 seconds. Can activate and persist while stowed.\n\nenhanced (\n#e Grace period for not meeting the criteria is increased to 1 second. Perpetual Motion x2 is activated in 9 seconds.\n)"
+   },
+   "zh-chs": {
+    "main": "保持移动时(每秒移动 2 米以上)时：\n2 秒后触发第一层增益，10秒后触发第二层增益。\n\n每 0.5 秒检测一次状态，若没有保持移动，则失去所有增益层数。\n\n武器收起时也可触发和保持该增益。\n\nenhanced (\nvar d = 1\n#e 触发第二层增益所需时间降低到 9 秒。持续检测移动状态的时长从 0.5 秒提升到 1 秒。\n)\n\n< table >\n|     保持移动的时长          |   稳定性              | 填装速度                      | 操控性 <bold/>\n|     #e 2-${10-#d} 秒               |   +5                     | +5                           | +5       <background/>\n|2-2c 游戏内数值：           |-2 <formula [reload_0] /> | <formula 拔枪： [ready_0] />\n|     <formula 收枪： [stow_0] />\n|     #e ${10-#d}+ 秒                |   +15                    | +15                          | +15      <background/>\n|2-2c 游戏内数值           |-2 <formula [reload_1] /> | <formula 拔枪： [ready_1] />\n|     <formula 收枪： [stow_1] />\n<$>\n",
+    "secondary": "保持移动时(每秒移动 2 米以上)时：\n2 秒后触发第一层增益：+5 稳定性，+5 操控性，+5 填装速度。\n10秒后触发第二层增益：+15 稳定性，+15 操控性，+15 填装速度。\n\n每 0.5 秒检测一次状态，若没有保持移动，则失去所有增益层数。\n\n武器收起时也可触发和保持该增益。\n\nenhanced (\nvar d = 1\n#e 触发第二层增益所需时间降低到 9 秒。持续检测移动状态的时长从 0.5 秒提升到 1 秒。\n)"
    }
   },
   "linkedWith": 2014892510
