@@ -3,7 +3,7 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1670340513687,
+  "lastUpload": 1670341088726,
   "uploadedBy": "Mistwalker",
   "editor": {
    "en": {
@@ -96,7 +96,7 @@
   "hash": 3,
   "name": "Global titles",
   "type": "none",
-  "lastUpload": 1670340513687,
+  "lastUpload": 1670341088726,
   "editor": {
    "en": {
     "main": "title G_refresh (\n#refill\n)\ntitle G_refill (\n#refill\n)\n\ntitle G_conegrowth (\nHow Fast Your Accuracy Cone Expands as you fire your weapon. The less the better.\n)\n\ntitle Whisper of Durance (\nimport main from 3469412969\n)",
@@ -2335,7 +2335,7 @@
   "name": "Rapid Hit",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670340513687,
+  "lastUpload": 1670341088726,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -4265,7 +4265,7 @@
   "name": "Smoothbore",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670340513687,
+  "lastUpload": 1670341088726,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -4425,7 +4425,7 @@
   "name": "Recombination",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670340513687,
+  "lastUpload": 1670341088726,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -4813,7 +4813,7 @@
   "name": "Steady Hands",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670340513687,
+  "lastUpload": 1670341088726,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -6466,7 +6466,7 @@
   "hash": 691659142,
   "name": "Pugilist",
   "type": "weaponPerk",
-  "lastUpload": 1670340513687,
+  "lastUpload": 1670341088726,
   "editor": {
    "en": {
     "main": "Kills with <primary/> Primary and <heavy/> Power Weapons grant #e${10 * #d}% Melee Ability Energy.\nMost <special/> Special Weapons grant #e${20 * #d}%.\n\nGlaives, Grenade Launchers, and Trace Rifles share the ability gains of primary weapons.\n\nDealing Melee Damage grants +35 Handling for 3 seconds.\n\nenhanced (\nvar d = 1.1\n#e Melee Ability Energy gains are increased by 10%.\n)\n\n<formula Ready Speed: [ready_0] />\n<formula Stow Speed: [stow_0] />",
@@ -6660,7 +6660,7 @@
   "name": "Quickdraw",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670340513687,
+  "lastUpload": 1670341088726,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -7273,7 +7273,7 @@
   "name": "Repulsor Brace",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670340513687,
+  "lastUpload": 1670341088726,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -7475,8 +7475,8 @@
   "hash": 806159697,
   "name": "Trench Barrel",
   "type": "weaponPerk",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670341088726,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -7493,8 +7493,8 @@
      "updatedBy": "Stardust"
     },
     "zh-chs": {
-     "lastUpdate": 1664429011497,
-     "undatedBy": "Mistwalker"
+     "lastUpdate": 1670340804936,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -7520,8 +7520,8 @@
     "secondary": "import self"
    },
    "zh-chs": {
-    "main": "在进行一次成功的近战打击后：\n在 5 秒内，或直到发射完三枚子弹前，提高 50% 武器伤害、30 操控性、 X填装速度。\n\n<formula 准备速度： [ready_0] />\n<formula 收枪速度： [stow_0] />\n\n强化特征：增强 Buff 效果。",
-    "secondary": "在进行一次成功的近战打击后：\n在 5 秒内，或直到发射完三枚子弹前，提高 50% 武器伤害、30 操控性、 X填装速度。\n\n强化特征：增强 Buff 效果。"
+    "main": "在进行一次成功的近战打击后：\n在 5 秒内，或直到发射完三枚子弹前，提高 50% 武器伤害、30 操控性、 [+?]填装速度。\n\nenhanced (\n#e 更强的效果。\n)\n\n<formula 准备速度： [ready_0] />\n<formula 收枪速度： [stow_0] />\n\n强化特征：增强 Buff 效果。",
+    "secondary": "import self"
    }
   },
   "linkedWith": 2459015849
@@ -7618,7 +7618,7 @@
   "name": "Shattering Blade",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670340513687,
+  "lastUpload": 1670341088726,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -8634,7 +8634,7 @@
   "name": "Sneak Bow",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670340513687,
+  "lastUpload": 1670341088726,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -9173,7 +9173,7 @@
   "name": "Snapshot Sights",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670340513687,
+  "lastUpload": 1670341088726,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -9307,7 +9307,7 @@
   "name": "Pulse Monitor",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670340513687,
+  "lastUpload": 1670341088726,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -10616,7 +10616,7 @@
   "name": "Seraph Rounds",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670340513687,
+  "lastUpload": 1670341088726,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -13918,7 +13918,7 @@
   "name": "Reservoir Burst",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670340513687,
+  "lastUpload": 1670341088726,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -13972,7 +13972,7 @@
   "name": "Perpetual Motion",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670340513687,
+  "lastUpload": 1670341088726,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -14896,7 +14896,7 @@
   "name": "Reconstruction",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670340513687,
+  "lastUpload": 1670341088726,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -15768,7 +15768,7 @@
   "name": "Stats for All",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670340513687,
+  "lastUpload": 1670341088726,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -16248,8 +16248,8 @@
   "hash": 1645158859,
   "name": "Under Pressure",
   "type": "weaponPerk",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670341088726,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -16263,6 +16263,10 @@
     "en": {
      "lastUpdate": 1668696640615,
      "updatedBy": "Stardust"
+    },
+    "zh-chs": {
+     "lastUpdate": 1670341083982,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -16278,6 +16282,10 @@
   "editor": {
    "en": {
     "main": "As Magazine goes below 50% until empty:\n• Linearly grants -25% to -50% Accuracy Cone Size\n• -[?]% <title Accuracy Cone Growth [G_conegrowth] />\n• +30(?) Stability.\n\nenhanced (\n#e Stronger effect.\n)",
+    "secondary": "import self"
+   },
+   "zh-chs": {
+    "main": "弹匣容量低于 50 % 时：\n• 线性提供 -25% ~ -50% <title 精度锥角尺寸 [G_conesize] />\n• -[?]% <title 精度锥角增长 [G_conegrowth] />\n• +30(?) 稳定性\n\nenhanced (\n#e 更强的效果\n)",
     "secondary": "import self"
    }
   },
@@ -18209,7 +18217,7 @@
   "name": "Relentless Strikes",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670340513687,
+  "lastUpload": 1670341088726,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -18694,7 +18702,7 @@
   "name": "Subsistence",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670340513687,
+  "lastUpload": 1670341088726,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -18731,7 +18739,7 @@
   "hash": 1821614984,
   "name": "Slickdraw",
   "type": "weaponPerk",
-  "lastUpload": 1670340513687,
+  "lastUpload": 1670341088726,
   "editor": {
    "en": {
     "main": "Passively grants +100 Handling, 0.95x Ready Animation Duration Multiplier, and -80% Aim Assist Cone Size.\n\nenhanced (\n#e Aim Assist Cone Size Penalty is decreased to -75%.\n)\n\n<formula Ready Speed: [ready_0] />\n<formula Stow Speed: [stow_0] />",
@@ -19300,7 +19308,7 @@
   "name": "Ricochet Rounds",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670340513687,
+  "lastUpload": 1670341088726,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -19350,7 +19358,7 @@
   "name": "Tap the Trigger",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670340513687,
+  "lastUpload": 1670341088726,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -19724,8 +19732,8 @@
   "hash": 1954620775,
   "name": "Timed Payload",
   "type": "weaponPerk",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670341088726,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -19741,8 +19749,8 @@
      "updatedBy": "Stardust"
     },
     "zh-chs": {
-     "lastUpdate": 1664429669210,
-     "undatedBy": "Mistwalker"
+     "lastUpdate": 1670340712380,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -19752,8 +19760,8 @@
     "secondary": "Splits 55% of Damage into an Explosive Damage portion that deals 30% Increased Damage in PVE and has no damage falloff. Detonates after 0.6 seconds.\n\n[PVE] 16% Increased Body Shot Damage. Precision Damage Increase varies depending on Precision Multiplier.\n\n[PVP] Total damage remains the same.\n\nenhanced (\n#e Passively grants +5 Stability.\n)"
    },
    "zh-chs": {
-    "main": "将 55% 的武器伤害转化为 <pve 增伤 30% /> 的爆炸伤害，该部分伤害不会因距离衰减。爆炸在 0.6 秒后产生。\n\n<pve [PVE] 身体伤害提高 16%。 精准伤害将根据武器精准伤害系数变化。 />\n<pvp [PVP] 总伤害不变。 />",
-    "secondary": "将 55% 的武器伤害转化为增伤 30% 的爆炸伤害，该部分伤害不会因距离衰减。爆炸在 0.6 秒后产生。\n\n[PVE] 身体伤害提高 16%。 精准伤害将根据武器精准伤害系数变化。\n[PVP] 总伤害不变。"
+    "main": "将 55% 的武器伤害转化为 <pve 增伤 30% /> 的爆炸伤害，该部分伤害不会因距离衰减。爆炸在 0.6 秒后产生。\n\n<pve [PVE] 身体伤害提高 16%。 精准伤害将根据武器精准伤害系数变化。 />\n<pvp [PVP] 总伤害不变。 />\n\nenhanced (\n#e 被动提升 +5 稳定性。\n)",
+    "secondary": "将 55% 的武器伤害转化为增伤 30% 的爆炸伤害，该部分伤害不会因距离衰减。爆炸在 0.6 秒后产生。\n\n[PVE] 身体伤害提高 16%。 精准伤害将根据武器精准伤害系数变化。\n\n[PVP] 总伤害不变。\n\nenhanced (\n#e 被动提升 +5 稳定性。\n)"
    }
   },
   "linkedWith": 1562897767
@@ -20557,7 +20565,7 @@
   "name": "Slideways",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670340513687,
+  "lastUpload": 1670341088726,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -21431,7 +21439,7 @@
   "name": "Sleight of Hand",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670340513687,
+  "lastUpload": 1670341088726,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -21874,8 +21882,8 @@
   "hash": 2209918983,
   "name": "Turnabout",
   "type": "weaponPerk",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670341088726,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -21891,8 +21899,8 @@
      "updatedBy": "Stardust"
     },
     "zh-chs": {
-     "lastUpdate": 1664428093717,
-     "undatedBy": "Mistwalker"
+     "lastUpdate": 1670340923955,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -21902,7 +21910,7 @@
     "secondary": "import self"
    },
    "zh-chs": {
-    "main": "打破战斗人员或正在使用超能的守护者的护盾时：\n获得一个持续 10 秒，30 生命值的覆盖护盾。",
+    "main": "打破战斗人员或正在使用超能的守护者的护盾时：\n获得一个持续 10 秒，30 生命值的覆盖护盾。\n\nenhanced (\n#e 延长覆盖护盾的持续时间到 11.4 秒。\n)",
     "secondary": "import self"
    }
   },
@@ -24983,8 +24991,8 @@
   "hash": 2590710093,
   "name": "Tireless Blade",
   "type": "weaponPerk",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670341088726,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -25000,8 +25008,8 @@
      "updatedBy": "Stardust"
     },
     "zh-chs": {
-     "lastUpdate": 1664429329026,
-     "undatedBy": "Mistwalker"
+     "lastUpdate": 1670340750283,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -25011,7 +25019,7 @@
     "secondary": "import self"
    },
    "zh-chs": {
-    "main": "每隔一次的赋能刀剑击杀提供 1 发刀剑弹药。",
+    "main": "每隔一次的赋能刀剑击杀提供 1 发刀剑弹药。\n\nenhanced (\n#e [?]% 几率在击杀时提供额外 1 枚弹药。\n)",
     "secondary": "import self"
    }
   },
@@ -25547,7 +25555,7 @@
   "name": "Successful Warm-Up",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670340513687,
+  "lastUpload": 1670341088726,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -26512,8 +26520,8 @@
   "hash": 2726471870,
   "name": "Thresh",
   "type": "weaponPerk",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670341088726,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -26529,8 +26537,8 @@
      "updatedBy": "Stardust"
     },
     "zh-chs": {
-     "lastUpdate": 1664430118103,
-     "undatedBy": "Mistwalker"
+     "lastUpdate": 1670340653934,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -26540,8 +26548,8 @@
     "secondary": "import self"
    },
    "zh-chs": {
-    "main": "主武器/威能武器击杀提供 1% 超能充能。\n特殊武器击杀提供 1.5% 超能充能。\n<pvp [PVP] 武器击杀提供 1% 超能充能。 />\n\n强化特征：1% -> 1.33% || 1.5% -> 2%",
-    "secondary": "主武器/威能武器击杀提供 1% 超能充能。\n特殊武器击杀提供 1.5% 超能充能。\n[PVP] 武器击杀提供 1% 超能充能。\n\n强化特征：1% -> 1.33% || 1.5% -> 2%"
+    "main": "<primary/> 主武器 或 <heavy/> 威能武器击杀提供额外 #e${1 * #d}%  超能充能。\n<special/> 特殊武器击杀提供额外 #e${1.5 * #d}% 超能充能。\n\n<pvp [PVP] 武器击杀提供额外 #e${1 * #d}% 超能充能。 />\n\nenhanced (\nvar d = 1.333\n#e 额外超能获取量提升 33.3%。\n)",
+    "secondary": "import self"
    }
   },
   "linkedWith": 1172413778
@@ -27630,7 +27638,7 @@
   "name": "Rangefinder",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670340513687,
+  "lastUpload": 1670341088726,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -28656,8 +28664,8 @@
   "hash": 2946784966,
   "name": "Tunnel Vision",
   "type": "weaponPerk",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670341088726,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -28673,8 +28681,8 @@
      "updatedBy": "Stardust"
     },
     "zh-chs": {
-     "lastUpdate": 1664428485061,
-     "undatedBy": "Mistwalker"
+     "lastUpdate": 1670340879198,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -28693,7 +28701,7 @@
     "secondary": "import self"
    },
    "zh-chs": {
-    "main": "消灭目标后在 6 秒内填装：\n+20 瞄准辅助、-20% 瞄准圆锥范围、[?] 瞄准时的操控性，持续 5 秒。\n该 Buff 无法被刷新。\n\n强化特征：增加 Buff 持续时间。",
+    "main": "消灭目标后在 6 秒内填装：\n+20 瞄准辅助、-20% 瞄准圆锥范围、[?] 瞄准时的操控性，持续 5 秒。\n\n该增益持续时间无法被刷新。\n\nenhanced (\n#e 增加增益持续时间。\n)",
     "secondary": "import self"
    }
   },
@@ -30387,7 +30395,7 @@
   "name": "Slideshot",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670340513687,
+  "lastUpload": 1670341088726,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -30691,7 +30699,7 @@
   "name": "Redirection",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670340513687,
+  "lastUpload": 1670341088726,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -31324,7 +31332,7 @@
   "name": "Shield Disorient",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670340513687,
+  "lastUpload": 1670341088726,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -31630,7 +31638,7 @@
   "name": "Spike Grenades",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670340513687,
+  "lastUpload": 1670341088726,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -32099,7 +32107,7 @@
   "name": "Sympathetic Arsenal",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670340513687,
+  "lastUpload": 1670341088726,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -32385,8 +32393,8 @@
   "hash": 3400784728,
   "name": "Triple Tap",
   "type": "weaponPerk",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670341088726,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -32402,8 +32410,8 @@
      "updatedBy": "Stardust"
     },
     "zh-chs": {
-     "lastUpdate": 1664428811801,
-     "undatedBy": "Mistwalker"
+     "lastUpdate": 1670340843590,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -32413,7 +32421,7 @@
     "secondary": "import self"
    },
    "zh-chs": {
-    "main": "3 次精准命中后，向弹夹内装填 1 枚弹药。\n两次精准命中时间间隔不得超过 2 秒。\n\n强化特征：增加两次精准命中间的可允许时间间隔。",
+    "main": "3 次精准命中后，向弹夹内装填 1 枚弹药。\n两次精准命中时间间隔不得超过 2 秒。\n\nenhanced (\n#e 增加两次精准命中间的可允许时间间隔到 3 秒。\n)",
     "secondary": "import self"
    }
   },
@@ -32518,7 +32526,7 @@
   "name": "Rewind Rounds",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670340513687,
+  "lastUpload": 1670341088726,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -32585,7 +32593,7 @@
   "name": "Rampage",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670340513687,
+  "lastUpload": 1670341088726,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -32663,7 +32671,7 @@
   "name": "Surplus",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670340513687,
+  "lastUpload": 1670341088726,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -33660,8 +33668,8 @@
   "hash": 3526486541,
   "name": "Tilting at Windmills",
   "type": "weaponPerk",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670341088726,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -33677,8 +33685,8 @@
      "updatedBy": "Stardust"
     },
     "zh-chs": {
-     "lastUpdate": 1664429850205,
-     "undatedBy": "Mistwalker"
+     "lastUpdate": 1670340685981,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -33688,7 +33696,7 @@
     "secondary": "import self"
    },
    "zh-chs": {
-    "main": "使用偃月阻挡伤害时：\n\n提高敏捷[?]持续 [?] 秒，或直到你停止阻挡。\n\n强化特征：延长 Buff 持续时间。",
+    "main": "使用偃月阻挡伤害时：\n提高敏捷[?]持续 [?] 秒，或直到你停止阻挡。\n\nenhanced (\n#e 延长增益持续时间。\n)",
     "secondary": "import self"
    }
   },
@@ -35202,7 +35210,7 @@
   "name": "Shoot to Loot",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670340513687,
+  "lastUpload": 1670341088726,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -35278,7 +35286,7 @@
   "name": "Surrounded",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670340513687,
+  "lastUpload": 1670341088726,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -35425,7 +35433,7 @@
   "name": "Swap Mag",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670340513687,
+  "lastUpload": 1670341088726,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -38299,7 +38307,7 @@
   "name": "Threat Detector",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670340513687,
+  "lastUpload": 1670341088726,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -38534,7 +38542,7 @@
   "name": "Swashbuckler",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670340513687,
+  "lastUpload": 1670341088726,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
