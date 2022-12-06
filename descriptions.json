@@ -3,7 +3,7 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1670333786008,
+  "lastUpload": 1670334230283,
   "uploadedBy": "Mistwalker",
   "editor": {
    "en": {
@@ -96,7 +96,7 @@
   "hash": 3,
   "name": "Global titles",
   "type": "none",
-  "lastUpload": 1670333786008,
+  "lastUpload": 1670334230283,
   "editor": {
    "en": {
     "main": "title G_refresh (\n#refill\n)\ntitle G_refill (\n#refill\n)\n\ntitle G_conegrowth (\nHow Fast Your Accuracy Cone Expands as you fire your weapon. The less the better.\n)\n\ntitle Whisper of Durance (\nimport main from 3469412969\n)",
@@ -2335,7 +2335,7 @@
   "name": "Rapid Hit",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670333786008,
+  "lastUpload": 1670334230283,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -4417,7 +4417,7 @@
   "name": "Recombination",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670333786008,
+  "lastUpload": 1670334230283,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -6450,7 +6450,7 @@
   "hash": 691659142,
   "name": "Pugilist",
   "type": "weaponPerk",
-  "lastUpload": 1670333786008,
+  "lastUpload": 1670334230283,
   "editor": {
    "en": {
     "main": "Kills with <primary/> Primary and <heavy/> Power Weapons grant #e${10 * #d}% Melee Ability Energy.\nMost <special/> Special Weapons grant #e${20 * #d}%.\n\nGlaives, Grenade Launchers, and Trace Rifles share the ability gains of primary weapons.\n\nDealing Melee Damage grants +35 Handling for 3 seconds.\n\nenhanced (\nvar d = 1.1\n#e Melee Ability Energy gains are increased by 10%.\n)\n\n<formula Ready Speed: [ready_0] />\n<formula Stow Speed: [stow_0] />",
@@ -6644,7 +6644,7 @@
   "name": "Quickdraw",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670333786008,
+  "lastUpload": 1670334230283,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -9259,7 +9259,7 @@
   "name": "Pulse Monitor",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670333786008,
+  "lastUpload": 1670334230283,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -13908,7 +13908,7 @@
   "name": "Perpetual Motion",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670333786008,
+  "lastUpload": 1670334230283,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -14832,7 +14832,7 @@
   "name": "Reconstruction",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670333786008,
+  "lastUpload": 1670334230283,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -27502,7 +27502,7 @@
   "name": "Rangefinder",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670333786008,
+  "lastUpload": 1670334230283,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -30554,8 +30554,8 @@
   "hash": 3201496230,
   "name": "Redirection",
   "type": "weaponPerk",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670334230283,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -30569,6 +30569,10 @@
     "en": {
      "lastUpdate": 1670088156130,
      "updatedBy": "Stardust"
+    },
+    "zh-chs": {
+     "lastUpdate": 1670334223312,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -30585,6 +30589,10 @@
    "en": {
     "main": "On hit against Rank-And-File Combatants:\nGrants 1 Stack of Redirection, up to a maximum of 20 Stacks.\n\nOn hit against Elite, Miniboss, or Boss Combatants:\nGrants 20% increased damage per stack, up to 100% at 5 Stacks.\n\nConsumes 1 stack per hit if at or below 5 stacks.\nConsumes 5 stacks per hit if at or above 6 stacks.\n\nCheck out <link this sheet [https://d2clarity.page.link/combatant] /> for Combatant Classifications.\n\nenhanced (\n#e Grants 25(?)% increased damage per stack, up to 125(?)% at 5 Stacks.\n)",
     "secondary": "On hit against Rank-And-File Combatants:\nGrants 1 Stack of Redirection, up to a maximum of 20 Stacks.\n\nOn hit against Elite, Miniboss, or Boss Combatants:\nGrants 20% increased damage per stack, up to 100% at 5 Stacks.\n\nConsumes 1 stack per hit if at or below 5 stacks.\nConsumes 5 stacks per hit if at or above 6 stacks.\n\nenhanced (\n#e Grants 25(?)% increased damage per stack, up to 125(?)% at 5 Stacks.\n)"
+   },
+   "zh-chs": {
+    "main": "命中普通敌人时：\n获得 1 层转向增益，最高叠加 10 层。\n\n命中精英、次级首领、首领敌人时：\n每层增益 +20% 伤害，最高 100%。\n\n当增益层数不高于 5 层时，每次命中消耗 1 层增益。\n当增益层数高于 5 层时，每次命中消耗 5 层增益。\n\n查询 <link 该表格 [https://d2clarity.page.link/combatant] /> 获取敌人分级信息。\n\nenhanced (\n#e 每层增益 +25(?)% 伤害，最高 +125(?)% 伤害。\n)",
+    "secondary": "命中普通敌人时：\n获得 1 层转向增益，最高叠加 10 层。\n\n命中精英、次级首领、首领敌人时：\n每层增益 +20% 伤害，最高 100%。\n\n当增益层数不高于 5 层时，每次命中消耗 1 层增益。\n当增益层数高于 5 层时，每次命中消耗 5 层增益。\n\nenhanced (\n#e 每层增益 +25(?)% 伤害，最高 +125(?)% 伤害。\n)"
    }
   },
   "linkedWith": 1545231802
@@ -32409,7 +32417,7 @@
   "name": "Rampage",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670333786008,
+  "lastUpload": 1670334230283,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
