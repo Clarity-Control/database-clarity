@@ -3,7 +3,7 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1670338837685,
+  "lastUpload": 1670339685153,
   "uploadedBy": "Mistwalker",
   "editor": {
    "en": {
@@ -96,7 +96,7 @@
   "hash": 3,
   "name": "Global titles",
   "type": "none",
-  "lastUpload": 1670338837685,
+  "lastUpload": 1670339685153,
   "editor": {
    "en": {
     "main": "title G_refresh (\n#refill\n)\ntitle G_refill (\n#refill\n)\n\ntitle G_conegrowth (\nHow Fast Your Accuracy Cone Expands as you fire your weapon. The less the better.\n)\n\ntitle Whisper of Durance (\nimport main from 3469412969\n)",
@@ -2335,7 +2335,7 @@
   "name": "Rapid Hit",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670338837685,
+  "lastUpload": 1670339685153,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -4265,7 +4265,7 @@
   "name": "Smoothbore",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670338837685,
+  "lastUpload": 1670339685153,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -4425,7 +4425,7 @@
   "name": "Recombination",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670338837685,
+  "lastUpload": 1670339685153,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -4813,7 +4813,7 @@
   "name": "Steady Hands",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670338837685,
+  "lastUpload": 1670339685153,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -6466,7 +6466,7 @@
   "hash": 691659142,
   "name": "Pugilist",
   "type": "weaponPerk",
-  "lastUpload": 1670338837685,
+  "lastUpload": 1670339685153,
   "editor": {
    "en": {
     "main": "Kills with <primary/> Primary and <heavy/> Power Weapons grant #e${10 * #d}% Melee Ability Energy.\nMost <special/> Special Weapons grant #e${20 * #d}%.\n\nGlaives, Grenade Launchers, and Trace Rifles share the ability gains of primary weapons.\n\nDealing Melee Damage grants +35 Handling for 3 seconds.\n\nenhanced (\nvar d = 1.1\n#e Melee Ability Energy gains are increased by 10%.\n)\n\n<formula Ready Speed: [ready_0] />\n<formula Stow Speed: [stow_0] />",
@@ -6660,7 +6660,7 @@
   "name": "Quickdraw",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670338837685,
+  "lastUpload": 1670339685153,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -7273,7 +7273,7 @@
   "name": "Repulsor Brace",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670338837685,
+  "lastUpload": 1670339685153,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -7618,7 +7618,7 @@
   "name": "Shattering Blade",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670338837685,
+  "lastUpload": 1670339685153,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -8634,7 +8634,7 @@
   "name": "Sneak Bow",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670338837685,
+  "lastUpload": 1670339685153,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -9173,7 +9173,7 @@
   "name": "Snapshot Sights",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670338837685,
+  "lastUpload": 1670339685153,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -9307,7 +9307,7 @@
   "name": "Pulse Monitor",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670338837685,
+  "lastUpload": 1670339685153,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -10616,7 +10616,7 @@
   "name": "Seraph Rounds",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670338837685,
+  "lastUpload": 1670339685153,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -13918,7 +13918,7 @@
   "name": "Reservoir Burst",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670338837685,
+  "lastUpload": 1670339685153,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -13972,7 +13972,7 @@
   "name": "Perpetual Motion",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670338837685,
+  "lastUpload": 1670339685153,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -14896,7 +14896,7 @@
   "name": "Reconstruction",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670338837685,
+  "lastUpload": 1670339685153,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -15768,7 +15768,7 @@
   "name": "Stats for All",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670338837685,
+  "lastUpload": 1670339685153,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -18209,7 +18209,7 @@
   "name": "Relentless Strikes",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670338837685,
+  "lastUpload": 1670339685153,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -18693,8 +18693,8 @@
   "hash": 1820235745,
   "name": "Subsistence",
   "type": "weaponPerk",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670339685153,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -18708,12 +18708,20 @@
     "en": {
      "lastUpdate": 1668695197676,
      "updatedBy": "Stardust"
+    },
+    "zh-chs": {
+     "lastUpdate": 1670338938621,
+     "updatedBy": "Mistwalker"
     }
    }
   },
   "editor": {
    "en": {
     "main": "On Weapon Kill:\n<title Refreshes [G_refresh] /> 10% of Magazine on most weapons.\n\nThe magazine refresh is increased to 17% on Submachine Guns and Auto Rifles.\n\nenhanced (\n#e Magazine Refresh is increased to 20%.\n)",
+    "secondary": "import self"
+   },
+   "zh-chs": {
+    "main": "使用此武器造成最后一击时：\n<title 重新装填 [G_refresh] /> 10% 弹匣（大部分武器）。\n\n冲锋枪和自动步枪的装填量为 17%。\n\nenhanced (\n#e 装填量增加到 20%。\n)",
     "secondary": "import self"
    }
   },
@@ -18723,7 +18731,7 @@
   "hash": 1821614984,
   "name": "Slickdraw",
   "type": "weaponPerk",
-  "lastUpload": 1670338837685,
+  "lastUpload": 1670339685153,
   "editor": {
    "en": {
     "main": "Passively grants +100 Handling, 0.95x Ready Animation Duration Multiplier, and -80% Aim Assist Cone Size.\n\nenhanced (\n#e Aim Assist Cone Size Penalty is decreased to -75%.\n)\n\n<formula Ready Speed: [ready_0] />\n<formula Stow Speed: [stow_0] />",
@@ -19292,7 +19300,7 @@
   "name": "Ricochet Rounds",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670338837685,
+  "lastUpload": 1670339685153,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -20549,7 +20557,7 @@
   "name": "Slideways",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670338837685,
+  "lastUpload": 1670339685153,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -21423,7 +21431,7 @@
   "name": "Sleight of Hand",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670338837685,
+  "lastUpload": 1670339685153,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -25538,8 +25546,8 @@
   "hash": 2652708987,
   "name": "Successful Warm-Up",
   "type": "weaponPerk",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670339685153,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -25553,12 +25561,20 @@
     "en": {
      "lastUpdate": 1670089107957,
      "updatedBy": "Stardust"
+    },
+    "zh-chs": {
+     "lastUpdate": 1670339068847,
+     "updatedBy": "Mistwalker"
     }
    }
   },
   "editor": {
    "en": {
     "main": "On Weapon Kill:\n37.5% Increased Charge Rate/Draw Speed for 6 seconds.\n\nKill while active add 4 seconds to the duration up to a maximum of 20 seconds.\n\nenhanced (\n#e Added time from additional kills is increased to 5 seconds.\n)",
+    "secondary": "import self"
+   },
+   "zh-chs": {
+    "main": "使用此武器造成最后一击时：\n+37.5% 充能/拉弓速度，持续 6 秒。\n\n增益触发时完成击杀，增加 4 秒持续时间，最高 20 秒。\n\nenhanced (\n#e 增益触发时完成击杀，增加的持续时间提升为 5 秒。\n)",
     "secondary": "import self"
    }
   },
@@ -27614,7 +27630,7 @@
   "name": "Rangefinder",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670338837685,
+  "lastUpload": 1670339685153,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -30371,7 +30387,7 @@
   "name": "Slideshot",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670338837685,
+  "lastUpload": 1670339685153,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -30675,7 +30691,7 @@
   "name": "Redirection",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670338837685,
+  "lastUpload": 1670339685153,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -31308,7 +31324,7 @@
   "name": "Shield Disorient",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670338837685,
+  "lastUpload": 1670339685153,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -31614,7 +31630,7 @@
   "name": "Spike Grenades",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670338837685,
+  "lastUpload": 1670339685153,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -32494,7 +32510,7 @@
   "name": "Rewind Rounds",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670338837685,
+  "lastUpload": 1670339685153,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -32561,7 +32577,7 @@
   "name": "Rampage",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670338837685,
+  "lastUpload": 1670339685153,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -32638,8 +32654,8 @@
   "hash": 3436462433,
   "name": "Surplus",
   "type": "weaponPerk",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670339685153,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -32653,6 +32669,10 @@
     "en": {
      "lastUpdate": 1670089185909,
      "updatedBy": "Stardust"
+    },
+    "zh-chs": {
+     "lastUpdate": 1670339680367,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -32683,6 +32703,10 @@
    "en": {
     "main": "Grants Stat Bonuses depending on the amount of Charged Abilities.\n\nEvery Ability Charge contributes to this.\nHaving 3 Abilities Charged maxes the effect.\n\n< table >\n|     Charged Abilities          |   Stability              | Reload                       | Handling <bold/>\n|    1x                         |   5                      | 5                            | 10       <background/>\n|2-2c In-Game Values:            |-2 <formula [reload_0] /> | <formula Ready: [ready_0] />\n|     <formula Stow: [stow_0] />\n|    2x                         |   15                     | 25                           | 25       <background/>\n|2-2c In-Game Values:            |-2 <formula [reload_1] /> | <formula Ready: [ready_1] />\n|     <formula Stow: [stow_1] />\n|    3x                         |   25                     | 50                           | 50       <background/>\n|2-2c In-Game Values:            |-2 <formula [reload_2] /> | <formula Ready: [ready_2] />\n|     <formula Stow: [stow_2] />\n<$>\n\nenhanced (\n#e Stronger Effect.\n)",
     "secondary": "Grants Stat Bonuses depending on the amount of Charged Abilities.\n\n•  +5 | +15 | +25 Stability\n•  +5 | +25 | +50 Reload Speed\n•  +10 | +25 | +50 Handling\n\nEvery Ability Charge contributes to this.\nHaving 3 Abilities Charged maxes the effect.\n\nenhanced (\n#e Stronger Effect.\n)"
+   },
+   "zh-chs": {
+    "main": "根据完全充能的技能数量提升属性状态。\n\n//每个完全充能的技能都有作用。\n三个完全充能的技能达到最大效果。\n\n< table >\n| 充能完毕的技能          |   稳定性              | 填装速度                       | 操控性 <bold/>\n|    1x                         |   5                      | 5                            | 10       <background/>\n|2-2c 游戏内数值：            |-2 <formula [reload_0] /> | <formula 拔枪： [ready_0] />\n|     <formula 收枪： [stow_0] />\n|    2x                         |   15                     | 25                           | 25       <background/>\n|2-2c 游戏内数值：            |-2 <formula [reload_1] /> | <formula 拔枪： [ready_1] />\n|     <formula 收枪： [stow_1] />\n|    3x                         |   25                     | 50                           | 50       <background/>\n|2-2c 游戏内数值：            |-2 <formula [reload_2] /> | <formula 拔枪： [ready_2] />\n|     <formula 收枪： [stow_2] />\n<$>\n\nenhanced (\n#e 更显著的效果。\n)",
+    "secondary": "根据完全充能的技能数量提升属性状态。\n\n三个完全充能的技能达到最大效果。\n\n•  +5 | +15 | +25 稳定性\n•  +5 | +25 | +50 填装速度\n•  +10 | +25 | +50 操控性\n\nenhanced (\n#e 更显著的效果。\n)"
    }
   },
   "linkedWith": 2658083589
@@ -35170,7 +35194,7 @@
   "name": "Shoot to Loot",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670338837685,
+  "lastUpload": 1670339685153,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
