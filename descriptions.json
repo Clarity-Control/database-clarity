@@ -3,7 +3,7 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1670332333351,
+  "lastUpload": 1670333482029,
   "uploadedBy": "Mistwalker",
   "editor": {
    "en": {
@@ -96,7 +96,7 @@
   "hash": 3,
   "name": "Global titles",
   "type": "none",
-  "lastUpload": 1670332333351,
+  "lastUpload": 1670333482029,
   "editor": {
    "en": {
     "main": "title G_refresh (\n#refill\n)\ntitle G_refill (\n#refill\n)\n\ntitle G_conegrowth (\nHow Fast Your Accuracy Cone Expands as you fire your weapon. The less the better.\n)\n\ntitle Whisper of Durance (\nimport main from 3469412969\n)",
@@ -2334,8 +2334,8 @@
   "hash": 247725512,
   "name": "Rapid Hit",
   "type": "weaponPerk",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670333482029,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -2349,6 +2349,10 @@
     "en": {
      "lastUpdate": 1668693776258,
      "updatedBy": "Stardust"
+    },
+    "zh-chs": {
+     "lastUpdate": 1670333472136,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -2373,6 +2377,10 @@
    "en": {
     "main": "Gain 1 Rapid Hit Stack per Precision Hit, granting +Reload Speed and +Stability for 2 seconds.\n\nenhanced (\n#e Stronger Effect.\n)\n\n< table background_2 >\n|  Stack| Stability | Reload Stat | <title RDS [rds] /> | Reload Time <bold/>\n|b 1x   | 2         | 5           | 0.985x              | <formula [reload_0] />\n|b 2x   | 12        | 30          | 0.970x              | <formula [reload_1] />\n|b 3x   | 14        | 35          | 0.955x              | <formula [reload_2] />\n|b 4x   | 18        | 45          | 0.940x              | <formula [reload_3] />\n|b 5x   | 25        | 60          | 0.925x              | <formula [reload_4] />\n<$>\n\ntitle rds (\nReload Duration Scalar (Multiplies Reload Animation Duration by that number)\n)\n",
     "secondary": "Gain 1 Rapid Hit Stack per Precision Hit, granting +Reload Speed and +Stability for 2 seconds.\n\n•  +2 | +12 | +14 | +18 | +25 Stability <breakSpaces/>\n•  +5 | +30 | +35 | +45 | +60 Reload Speed Stat <breakSpaces/>\n•  0.99x | 0.97x | 0.96x | 0.94x | 0.93x Reload Duration Multiplier <breakSpaces/>\n\nenhanced (\n#e Stronger Effect.\n)"
+   },
+   "zh-chs": {
+    "main": "每次精准命中获得 1 层增益，获得填装速度和稳定性提升，持续 2 秒。\n\nenhanced (\n#e 更显著的效果。\n)\n\n< table background_2 >\n|  层数| 稳定性 | 填装速度 | 填装<title 动画系数 [G_as] /> | 填装时间 <bold/>\n|b 1x   | 2         | 5           | 0.985x              | <formula [reload_0] />\n|b 2x   | 12        | 30          | 0.970x              | <formula [reload_1] />\n|b 3x   | 14        | 35          | 0.955x              | <formula [reload_2] />\n|b 4x   | 18        | 45          | 0.940x              | <formula [reload_3] />\n|b 5x   | 25        | 60          | 0.925x              | <formula [reload_4] />\n<$>\n\ntitle rds (\nReload Duration Scalar (Multiplies Reload Animation Duration by that number)\n)\n",
+    "secondary": "每次精准命中获得 1 层增益，获得填装速度和稳定性提升，持续 2 秒。\n\n•  +2 | +12 | +14 | +18 | +25 稳定性 <breakSpaces/>\n•  +5 | +30 | +35 | +45 | +60 填装速度 <breakSpaces/>\n•  0.99x | 0.97x | 0.96x | 0.94x | 0.93x 填装动画系数 <breakSpaces/>\n\nenhanced (\n#e 更显著的效果。\n)"
    }
   },
   "linkedWith": 2938480696
@@ -6434,7 +6442,7 @@
   "hash": 691659142,
   "name": "Pugilist",
   "type": "weaponPerk",
-  "lastUpload": 1670332333351,
+  "lastUpload": 1670333482029,
   "editor": {
    "en": {
     "main": "Kills with <primary/> Primary and <heavy/> Power Weapons grant #e${10 * #d}% Melee Ability Energy.\nMost <special/> Special Weapons grant #e${20 * #d}%.\n\nGlaives, Grenade Launchers, and Trace Rifles share the ability gains of primary weapons.\n\nDealing Melee Damage grants +35 Handling for 3 seconds.\n\nenhanced (\nvar d = 1.1\n#e Melee Ability Energy gains are increased by 10%.\n)\n\n<formula Ready Speed: [ready_0] />\n<formula Stow Speed: [stow_0] />",
@@ -6627,8 +6635,8 @@
   "hash": 706527188,
   "name": "Quickdraw",
   "type": "weaponPerk",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670333482029,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -6643,6 +6651,10 @@
     "en": {
      "lastUpdate": 1670087223270,
      "updatedBy": "Stardust"
+    },
+    "zh-chs": {
+     "lastUpdate": 1670332788014,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -6667,6 +6679,10 @@
   "editor": {
    "en": {
     "main": "Upon readying:\nGrants +100 Ready/Stow Handling, and 0.95x Ready Animation Duration Multiplier for 1 second, or until ADS.\n\nenhanced (\n#e Passively grants 5 Handling.\n)\n\n<formula Ready Speed: [ready_0] />\n<formula Stow Speed: [stow_0] />",
+    "secondary": "import self"
+   },
+   "zh-chs": {
+    "main": "拔枪时：\n+100 拔枪/收枪操控性，0.95x 拔枪<title 动画系数 [as] />，持续 1 秒，或直到瞄准。\n\nenhanced (\n#e 被动提升 +5 操控性。\n)\n\n<formula 拔枪速度： [ready_0] />\n<formula 收枪速度： [stow_0] />",
     "secondary": "import self"
    }
   },
@@ -9234,8 +9250,8 @@
   "hash": 972757866,
   "name": "Pulse Monitor",
   "type": "weaponPerk",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670333482029,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -9249,6 +9265,10 @@
     "en": {
      "lastUpdate": 1668693512767,
      "updatedBy": "Stardust"
+    },
+    "zh-chs": {
+     "lastUpdate": 1670332713124,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -9271,6 +9291,10 @@
   "editor": {
    "en": {
     "main": "Upon being reduced to 110 HP or less:\nGrants +50 Handling, 0.95x Ready/Stow Duration Multiplier, and <title refreshes [G_refresh] /> your weapon.\n\nWorks while stowed.\n\nenhanced (\n#e Health Threshold Requirement is reduced.\n)\n\n<formula Ready Speed: [ready_0] />\n<formula Stow Speed: [stow_0] />",
+    "secondary": "import self"
+   },
+   "zh-chs": {
+    "main": "低于 110 生命值时：\n+50 操控性，0.9 拔枪/收枪<title 动画系数 [G_as] />，并且<title 重新填装 [G_refresh] />武器。\n\n武器收起时也有效。\n\nenhanced (\n#e 更宽松的生命值触发条件。\n)\n\n<formula 拔枪速度： [ready_0] />\n<formula 收枪速度： [stow_0] />",
     "secondary": "import self"
    }
   },
@@ -13876,7 +13900,7 @@
   "name": "Perpetual Motion",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670332333351,
+  "lastUpload": 1670333482029,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -27461,8 +27485,8 @@
   "hash": 2846385770,
   "name": "Rangefinder",
   "type": "weaponPerk",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670333482029,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -27476,6 +27500,10 @@
     "en": {
      "lastUpdate": 1670087286769,
      "updatedBy": "Stardust"
+    },
+    "zh-chs": {
+     "lastUpdate": 1670333198738,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -27492,6 +27520,10 @@
    "en": {
     "main": "While Aiming-Down-Sights:\n<title 10% Increased Effective Zoom [increased zoom] /> and 5% Faster Projectile Speed.\n\nenhanced (\n#e Passively grants +5 Handling\n)\n\ntitle increased zoom (\nZoom acts as a multiplier to the hip-fire range falloff start and end distances while ADS.\n\nIn this case, it pushes out the weapon's effective range by 10%. This includes both damage and aim assist falloff.\n\nThis is factored into the base weapon range calculations.\n)",
     "secondary": "import self"
+   },
+   "zh-chs": {
+    "main": "瞄准时：\n<title +10% 有效焦距 [increased zoom] /> +5% 弹头速度。\n\nenhanced (\n#e 被动提升 +5 操控性。\n)\n\ntitle increased zoom (\n在这个特性中，其实际作用为增加 10% 有效射程和瞄准辅助距离。\n)",
+    "secondary": "瞄准时：\n+10% 有效焦距（作用于有效射程、瞄准辅助距离），+5% 弹头速度。\n\nenhanced (\n#e 被动提升 +5 操控性。\n)"
    }
   },
   "linkedWith": 509594246
@@ -32360,8 +32392,8 @@
   "hash": 3425386926,
   "name": "Rampage",
   "type": "weaponPerk",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670333482029,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -32377,7 +32409,7 @@
      "updatedBy": "Stardust"
     },
     "zh-chs": {
-     "lastUpdate": 1667926122307,
+     "lastUpdate": 1670332855981,
      "updatedBy": "Mistwalker"
     }
    }
@@ -32397,7 +32429,7 @@
     "secondary": "import self"
    },
    "zh-chs": {
-    "main": "完成武器击杀时:\n3.5 秒内提高 10% | 21% | 33.1% 伤害。\n击杀可刷新 Buff 时间。\n\n🡅强化特征：Buff 持续时间增加为 4 秒。",
+    "main": "完成武器击杀时:\n提高 10% | 21% | 33.1% 伤害，持续 4.5 秒。\n击杀可刷新 Buff 时间。\n\nenhanced (\n#e 增益持续时间提升到 5 秒。\n)",
     "secondary": "import self"
    }
   },
