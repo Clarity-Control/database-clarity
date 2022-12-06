@@ -3,7 +3,7 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1670334230283,
+  "lastUpload": 1670336321608,
   "uploadedBy": "Mistwalker",
   "editor": {
    "en": {
@@ -96,7 +96,7 @@
   "hash": 3,
   "name": "Global titles",
   "type": "none",
-  "lastUpload": 1670334230283,
+  "lastUpload": 1670336321608,
   "editor": {
    "en": {
     "main": "title G_refresh (\n#refill\n)\ntitle G_refill (\n#refill\n)\n\ntitle G_conegrowth (\nHow Fast Your Accuracy Cone Expands as you fire your weapon. The less the better.\n)\n\ntitle Whisper of Durance (\nimport main from 3469412969\n)",
@@ -2335,7 +2335,7 @@
   "name": "Rapid Hit",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670334230283,
+  "lastUpload": 1670336321608,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -4417,7 +4417,7 @@
   "name": "Recombination",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670334230283,
+  "lastUpload": 1670336321608,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -6450,7 +6450,7 @@
   "hash": 691659142,
   "name": "Pugilist",
   "type": "weaponPerk",
-  "lastUpload": 1670334230283,
+  "lastUpload": 1670336321608,
   "editor": {
    "en": {
     "main": "Kills with <primary/> Primary and <heavy/> Power Weapons grant #e${10 * #d}% Melee Ability Energy.\nMost <special/> Special Weapons grant #e${20 * #d}%.\n\nGlaives, Grenade Launchers, and Trace Rifles share the ability gains of primary weapons.\n\nDealing Melee Damage grants +35 Handling for 3 seconds.\n\nenhanced (\nvar d = 1.1\n#e Melee Ability Energy gains are increased by 10%.\n)\n\n<formula Ready Speed: [ready_0] />\n<formula Stow Speed: [stow_0] />",
@@ -6644,7 +6644,7 @@
   "name": "Quickdraw",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670334230283,
+  "lastUpload": 1670336321608,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -7256,8 +7256,8 @@
   "hash": 776531651,
   "name": "Repulsor Brace",
   "type": "weaponPerk",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670336321608,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -7271,12 +7271,20 @@
     "en": {
      "lastUpdate": 1668694017171,
      "updatedBy": "Stardust"
+    },
+    "zh-chs": {
+     "lastUpdate": 1670335676397,
+     "updatedBy": "Mistwalker"
     }
    }
   },
   "editor": {
    "en": {
     "main": "On Weapon Kill against an enemy affected by a Void Debuff:\nGrants <title Void Overshield [VoidOS] /> for 8 seconds.\n\nMost weaken effects aside from Divinity can also activate it.\n\nenhanced (\n#e Buff Duration is increased to 10 seconds.\n)\n\ntitle VoidOS (\nA 45 HP Void Overshield that provides 75% incoming damage resistance against PVE combatants.\nWorks wil all Void Overshield synergies.\n)",
+    "secondary": "import self"
+   },
+   "zh-chs": {
+    "main": "武器击杀受虚空负面效果影响的敌人时：\n获得一个 <title 虚空覆盖护盾 [VoidOS] /> ，持续 8 秒。\n\n大多数“虚弱”效果都可以触发该特性（神性除外）.\n\nenhanced (\n#e 护盾持续时间增加到 8 秒。\n)\n\ntitle VoidOS (\n一个 45 血量的虚空覆盖护盾，对 PVE 敌人时提供 75% 的伤害抵抗。可触发和虚空覆盖护盾相关的所有效果（星象碎片等）。\n)",
     "secondary": "import self"
    }
   },
@@ -7593,8 +7601,8 @@
   "hash": 818211479,
   "name": "Shattering Blade",
   "type": "weaponPerk",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670336321608,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -7608,6 +7616,10 @@
     "en": {
      "lastUpdate": 1670088271544,
      "updatedBy": "Stardust"
+    },
+    "zh-chs": {
+     "lastUpdate": 1670336313490,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -7623,6 +7635,10 @@
   "editor": {
    "en": {
     "main": "If Heavy Attack consumes all remaining Sword Ammo:\n67% Increased damage for Grounded Heavy Attack.",
+    "secondary": "import self"
+   },
+   "zh-chs": {
+    "main": "如果你的重攻击消耗掉的是你的最后一发弹药：\n+67% 地面伤害.",
     "secondary": "import self"
    }
   },
@@ -9259,7 +9275,7 @@
   "name": "Pulse Monitor",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670334230283,
+  "lastUpload": 1670336321608,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -10567,8 +10583,8 @@
   "hash": 1140096971,
   "name": "Seraph Rounds",
   "type": "weaponPerk",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670336321608,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -10582,12 +10598,20 @@
     "en": {
      "lastUpdate": 1670088251504,
      "updatedBy": "Stardust"
+    },
+    "zh-chs": {
+     "lastUpdate": 1670336218460,
+     "updatedBy": "Mistwalker"
     }
    }
   },
   "editor": {
    "en": {
     "main": "Combines the penetration from Armor-Piercing Rounds, the guaranteed ricochets from Ricochet Rounds, and the flinch increase from High-Caliber Rounds.",
+    "secondary": "import self"
+   },
+   "zh-chs": {
+    "main": "结合穿甲弹药的穿甲特性、弹跳型弹药的弹跳特性、高冲击力弹药的增大敌人后仰抖动特性。",
     "secondary": "import self"
    }
   }
@@ -13861,8 +13885,8 @@
   "hash": 1427256713,
   "name": "Reservoir Burst",
   "type": "weaponPerk",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670336321608,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -13876,6 +13900,10 @@
     "en": {
      "lastUpdate": 1668694237150,
      "updatedBy": "Stardust"
+    },
+    "zh-chs": {
+     "lastUpdate": 1670335878805,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -13891,6 +13919,10 @@
   "editor": {
    "en": {
     "main": "If Magazine is Full:\n25% Increased damage and causes enemies to explode on death, dealing <pve 444 /> <pvp [163] /> damage in a [?] meter radius.\n\nPassively grants +30 Magazine Size.\n(Equivalent of Extended Mag)\n\nenhanced (\n#e Passively grants +5 Stability.\n)",
+    "secondary": "import self"
+   },
+   "zh-chs": {
+    "main": "满弹匣时：\n+25% 伤害并使敌人在死亡的爆炸，在 [?] 米范围内造成 <pve 444 /> <pvp [163] /> 伤害。\n\n被动提升 +30 弹匣容量。\n（等效于一个加长弹匣）\n\nenhanced (\n#e 被动提升 +5 稳定性。\n)",
     "secondary": "import self"
    }
   },
@@ -13908,7 +13940,7 @@
   "name": "Perpetual Motion",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670334230283,
+  "lastUpload": 1670336321608,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -14832,7 +14864,7 @@
   "name": "Reconstruction",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670334230283,
+  "lastUpload": 1670336321608,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -18136,8 +18168,8 @@
   "hash": 1749209109,
   "name": "Relentless Strikes",
   "type": "weaponPerk",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670336321608,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -18151,12 +18183,20 @@
     "en": {
      "lastUpdate": 1668693905186,
      "updatedBy": "Stardust"
+    },
+    "zh-chs": {
+     "lastUpdate": 1670335304181,
+     "updatedBy": "Mistwalker"
     }
    }
   },
   "editor": {
    "en": {
     "main": "After 3 Powered Hits within [2?] seconds of each:\nGain +1 Ammo.\n\nenhanced (\n#e Timer between Hits is increased.\n)",
+    "secondary": "import self"
+   },
+   "zh-chs": {
+    "main": "2 秒内进行三次有能量的轻攻击：\n提供 1 枚刀剑弹药。\n\nenhanced (\n#e 时间间隔更长\n)",
     "secondary": "import self"
    }
   },
@@ -19203,8 +19243,8 @@
   "hash": 1885400500,
   "name": "Ricochet Rounds",
   "type": "weaponPerk",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670336321608,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -19219,12 +19259,20 @@
      "lastUpdate": 1665258977839,
      "undatedBy": "Fading-Shadow",
      "updatedBy": "Fading Shadow"
+    },
+    "zh-chs": {
+     "lastUpdate": 1670336076791,
+     "updatedBy": "Mistwalker"
     }
    }
   },
   "editor": {
    "en": {
     "main": "Bullets are guaranteed to ricochet off of surfaces, and can ricochet from sharper angles.",
+    "secondary": "import self"
+   },
+   "zh-chs": {
+    "main": "弹药会在硬质表面上反弹。",
     "secondary": "import self"
    }
   },
@@ -27502,7 +27550,7 @@
   "name": "Rangefinder",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670334230283,
+  "lastUpload": 1670336321608,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -30555,7 +30603,7 @@
   "name": "Redirection",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670334230283,
+  "lastUpload": 1670336321608,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -32357,8 +32405,8 @@
   "hash": 3418782618,
   "name": "Rewind Rounds",
   "type": "weaponPerk",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670336321608,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -32372,12 +32420,20 @@
     "en": {
      "lastUpdate": 1670088223874,
      "updatedBy": "Stardust"
+    },
+    "zh-chs": {
+     "lastUpdate": 1670336038312,
+     "updatedBy": "Mistwalker"
     }
    }
   },
   "editor": {
    "en": {
     "main": "Upon emptying the Magazine:\n<title Refills [G_refill] /> Magazine based on the Number of Hits.\n\nHits to Returned Ammo Ratio:\n50-60% for Primaries | 30-40% for Special",
+    "secondary": "import self"
+   },
+   "zh-chs": {
+    "main": "弹匣为空时：\n根据命中次数<title 重新装填 [G_refill] />弹匣。\n\n回弹比例：\n主武器 50-60% | 特殊武器 30-40%",
     "secondary": "import self"
    }
   },
@@ -32417,7 +32473,7 @@
   "name": "Rampage",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670334230283,
+  "lastUpload": 1670336321608,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
