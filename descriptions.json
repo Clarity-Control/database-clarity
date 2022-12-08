@@ -3,7 +3,7 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1670511464869,
+  "lastUpload": 1670530274237,
   "uploadedBy": "Mistwalker",
   "editor": {
    "en": {
@@ -309,8 +309,8 @@
   "itemHash": 1906093346,
   "itemName": "Contraverse Hold",
   "type": "armorExotic",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670530274237,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -328,6 +328,10 @@
     "ko": {
      "lastUpdate": 1667822080078,
      "updatedBy": "Icemourne"
+    },
+    "zh-chs": {
+     "lastUpdate": 1670528829392,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -339,6 +343,10 @@
    "ko": {
     "main": "수류탄을 충전하는 동안:\n혼돈 교환기는 20% 피해 저항을 제공합니다.\n\n수류탄 적중 시 혼돈의 교환을 제공하고 <pve 2000% /> <pvp [1000%] /> 만큼의 수류탄 피해를 증가시키며 수류탄 재생 속도를 1.75초 만큼 줄입니다.\n4초의 쿨다운이 있습니다.\n\n충전된 소용돌이 수류탄이 착탄과 동시에 피해를 입히거나 마지막 틱으로 피해를 주면 두번 발동 할 수 있습니다.",
     "secondary": ""
+   },
+   "zh-chs": {
+    "main": "当你蓄力手雷时：\n获得 20% 的伤害抗性。\n\n手雷命中会触发混沌交易，为你提供 <pve 2000% /> <pvp [1000%] /> 额外基础手榴弹充能速率 1.75 秒。\n触发冷却时间 4 秒。\n\n如果敌人被蓄力漩涡手雷的初始爆炸和最后几次伤害命中，则可以触发两次混沌交易。",
+    "secondary": "import self"
    }
   }
  },
@@ -8975,8 +8983,8 @@
   "itemHash": 2808156426,
   "itemName": "Eternal Warrior",
   "type": "armorExotic",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670530274237,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -8994,6 +9002,10 @@
     "ko": {
      "lastUpdate": 1665695002610,
      "updatedBy": "tritonesub251"
+    },
+    "zh-chs": {
+     "lastUpdate": 1670530057593,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -9005,6 +9017,10 @@
    "ko": {
     "main": "대혼란의 주먹을 시전하면 단호함이 활성화됩니다.\n\n단호함은 75HP 짜리 보호막괴 정밀 피해 저항을 제공합니다.\n\n보호막은 대혼란의 주먹 시전 중 영겁의 전사를 뺐다가 다시 장착하면 다시 부여됩니다만 그런 뻘짓하는 사람이 있을까요.",
     "secondary": ""
+   },
+   "zh-chs": {
+    "main": "施放浩劫之拳时获得一道力场护盾。\n\n力场护盾为一个 75 生命值，可以抵消精准伤害的覆盖护盾。",
+    "secondary": "import self"
    }
   }
  },
@@ -10929,8 +10945,8 @@
   "itemHash": 241462141,
   "itemName": "Doom Fang Pauldron",
   "type": "armorExotic",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670530274237,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -10948,6 +10964,10 @@
     "ko": {
      "lastUpdate": 1665694682007,
      "updatedBy": "tritonesub251"
+    },
+    "zh-chs": {
+     "lastUpdate": 1670529648366,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -10959,6 +10979,10 @@
    "ko": {
     "main": "공허 근접 능력으로 처치 시 <pve 20% /> <pvp [10%] />의 궁극기 에너지를 얻습니다.\n\n파수병의 방패를 사용하는 동안 방패 투척을 적중하면 10%의 궁극기 에너지를 반환 받습니다.",
     "secondary": ""
+   },
+   "zh-chs": {
+    "main": "使用虚空近战技能击杀敌人会获得 <pve 20% /> <pvp [10%] /> 超能能量，每次使用只能获得一次。\n\n哨兵圣盾的圣盾投掷命中时，会回复 10% 超能能量。",
+    "secondary": "import self"
    }
   }
  },
@@ -16805,8 +16829,8 @@
   "itemHash": 1591207519,
   "itemName": "Crest of Alpha Lupi",
   "type": "armorExotic",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670530274237,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -16824,6 +16848,10 @@
     "ko": {
      "lastUpdate": 1665686473705,
      "updatedBy": "tritonesub251"
+    },
+    "zh-chs": {
+     "lastUpdate": 1670529121421,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -16835,6 +16863,10 @@
    "ko": {
     "main": "방벽 시전 시:\n플레이어와 12미터 이내의 아군을 치유하는 치유의 파동을 일으킵니다.\n치유의 파동은 58 - 130HP를 회복시킵니다.\n아군이 효과를 받기 위해선 시전자의 시선 안에 있어야 합니다.\n\n궁극기가 힘의 보주 하나를 추가로 생성합니다.",
     "secondary": ""
+   },
+   "zh-chs": {
+    "main": "当你释放屏障时：\n会产生一个治疗脉冲，瞬间治愈你和 12 米范围内的盟友。\n\n治疗脉冲治疗 58 点生命值，或者恢复至 130 点生命值。\n取恢复血量更多的那个值。\n\n需要对友军有直线视线。\n\n超能会产生额外一个能量球。",
+    "secondary": "import self"
    }
   }
  },
@@ -18967,8 +18999,8 @@
   "itemHash": 1190497097,
   "itemName": "Citan's Ramparts",
   "type": "armorExotic",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670530274237,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -18986,6 +19018,10 @@
     "ko": {
      "lastUpdate": 1665686033030,
      "updatedBy": "tritonesub251"
+    },
+    "zh-chs": {
+     "lastUpdate": 1670528522023,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -18997,6 +19033,10 @@
    "ko": {
     "main": "치솟은 방벽을 변형시킵니다.\n\n공격 방벽은 체력과 지속 시간이 줄어들지만 아군들이 방벽을 뚫고 사격 할 수 있게 해줍니다.\n\n방벽 수치\n<pvp 600HP -> 350HP />\n20초 -> 10초",
     "secondary": ""
+   },
+   "zh-chs": {
+    "main": "将巍峨屏障变为突击屏障。\n\n可以让你和你的盟友穿过它进行射击。\n\n突击屏障属性：\n600生命值 -> 350生命值\n20秒 -> 10秒",
+    "secondary": "import self"
    }
   }
  },
@@ -25526,8 +25566,8 @@
   "itemHash": 3288917178,
   "itemName": "Claws of Ahamkara",
   "type": "armorExotic",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670530274237,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -25545,6 +25585,10 @@
     "ko": {
      "lastUpdate": 1665686063853,
      "updatedBy": "tritonesub251"
+    },
+    "zh-chs": {
+     "lastUpdate": 1670528594234,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -25556,6 +25600,10 @@
    "ko": {
     "main": "추가 근접 공격 횟수를 제공합니다.",
     "secondary": ""
+   },
+   "zh-chs": {
+    "main": "获得额外一次近战技能充能。\n近战技能数量上限为 2。",
+    "secondary": "import self"
    }
   }
  },
@@ -27273,8 +27321,8 @@
   "itemHash": 2316914168,
   "itemName": "Dawn Chorus",
   "type": "armorExotic",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670530274237,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -27292,6 +27340,10 @@
     "ko": {
      "lastUpdate": 1665694586611,
      "updatedBy": "tritonesub251"
+    },
+    "zh-chs": {
+     "lastUpdate": 1670529511768,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -27303,6 +27355,10 @@
    "ko": {
     "main": "여명 투사체 적중 시 적에게 소각 스택 60개를 부여합니다. 재의 불씨를 장착하면 스택이 90개로 증가합니다.\n\n소각 피해는 <pve 200%  /><pvp [50%] /> 만큼 증가합니다.",
     "secondary": ""
+   },
+   "zh-chs": {
+    "main": "黎明射弹命中时会造成 60 层灼烧。\n如果装备了骨灰余烬，会提升到 90 层。\n\n灼烧会对敌人造成 <pve 200% /> <pvp [50%] /> 额外伤害。\n\n当灼烧造成伤害时，会获得 [?] 近战能量。",
+    "secondary": "import self"
    }
   }
  },
@@ -31161,8 +31217,8 @@
   "itemHash": 1160559849,
   "itemName": "Dunemarchers",
   "type": "armorExotic",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670530274237,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -31180,6 +31236,10 @@
     "ko": {
      "lastUpdate": 1665694848573,
      "updatedBy": "tritonesub251"
+    },
+    "zh-chs": {
+     "lastUpdate": 1670529944501,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -31191,6 +31251,10 @@
    "ko": {
     "main": "1.5초 간 질주 한 이루 7초 동안 선형 구동기가 활성화됩니다.\n\n근접 공격 적중 시:\n선형 구동기가 맞은 적에게 2초 동안 충격을 남깁니다. 만약에 다른 적이 20미터 이내에 있을 경우 연쇄 번개가 일어납니다. 충격은 연쇄 번개 발동 이후 초기화됩니다.\n\n<pve 약 300% 근접 공격 피해 />\n<pvp 85 피해. 맞은 이후 2초간 사막행군병의 효과에 면역. />\n\n질주 속도 6.25% 증가\n슬라이드 거리 33% 증가",
     "secondary": ""
+   },
+   "zh-chs": {
+    "main": "冲刺 1.5 秒后，获得\"线性促动器\"，持续 7 秒。\n\n在近战命中时:\n\"线性促动器\"对敌人施加震荡 2 秒，释放一个连锁电弧，当另一个敌人在 20 米范围内时就会连锁。震荡会在连锁时被刷新。\n\n<pve [PVE] [?] 伤害 /> \n<pvp [PVP] 85 伤害。在震荡状态下对额外的连锁伤害免疫，持续 2 秒。 />\n\n+6.25% 冲刺速度\n+33% 滑行距离",
+    "secondary": "冲刺 1.5 秒后，获得\"线性促动器\"，持续 7 秒。\n\n在近战命中时:\n\"线性促动器\"对敌人施加震荡 2 秒，释放一个连锁电弧，当另一个敌人在 20 米范围内时就会连锁。震荡会在连锁时被刷新。\n\n[PVE] [?] 伤害\n[PVP] 85 伤害。在震荡状态下对额外的连锁伤害免疫，持续 2 秒。\n\n+6.25% 冲刺速度\n+33% 滑行距离"
    }
   }
  },
@@ -37246,8 +37310,8 @@
   "itemHash": 3381022970,
   "itemName": "Eye of Another World",
   "type": "armorExotic",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670530274237,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -37265,6 +37329,10 @@
     "ko": {
      "lastUpdate": 1665695133213,
      "updatedBy": "tritonesub251"
+    },
+    "zh-chs": {
+     "lastUpdate": 1670530268294,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -37276,6 +37344,10 @@
    "ko": {
     "main": "상시로 공중 효율을 15만큼 증가시킵니다.\n\n체력이 50% 이하인 적들을 붉게 지정시켜주며 궁극기가 준비된 수호자는 노란색으로 지정시켜줍니다.\n만약에 적이 은신 상태여도 위의 조건을 만족하면 지정됩니다.\n\n기본 수류탄, 근접 능력, 직업 능력 재생 속도가 50% 증가합니다.",
     "secondary": ""
+   },
+   "zh-chs": {
+    "main": "被动提升 +15 空中效率。\n\n以红色轮廓显示低于 50% 生命值的敌人，并以黄色轮廓显示完成超能充能的敌方守护者。\n满足这些条件的隐形敌人也会被高亮显示。\n\n+50% 手雷、近战、职业技能充能效率。",
+    "secondary": "import self"
    }
   }
  },
@@ -37347,8 +37419,8 @@
   "itemHash": 3381022969,
   "itemName": "Crown of Tempests",
   "type": "armorExotic",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670530274237,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -37366,6 +37438,10 @@
     "ko": {
      "lastUpdate": 1665694418814,
      "updatedBy": "tritonesub251"
+    },
+    "zh-chs": {
+     "lastUpdate": 1670529369802,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -37377,6 +37453,10 @@
    "ko": {
     "main": "전기 능력 처치를 하면 <pve 7 /> <pvp [4] />초 동안 전기 갈래가 활성화됩니다. \n\n<blue 전기 갈래 x1 일때 />\n기본 수류탄, 근접 능력, 그리고 궁극기 재생 속도가 175% 증가합니다. | 궁극기 소모 속도 약 [22%] 하락\n\n<blue 전기 갈래 x2 일때 />\n기본 수류탄, 근접 능력, 그리고 궁극기 재생 속도가 350% 증가합니다. | 궁극기 소모 속도 약 [44%] 하락\n\n<blue 전기 갈래 x3 일때 />\n기본 수류탄, 근접 능력, 그리고 궁극기 재생 속도가 525% 증가합니다. | 궁극기 소모 속도 약 [66%] 하락\n\n궁극기 소모 속도 하락은 혼돈 범위를 제외한 모든 변신형 궁극기에 적용됩니다.",
     "secondary": ""
+   },
+   "zh-chs": {
+    "main": "当你使用电弧技能或者震颤击杀敌人时，会获得“导电针”<pve 7 /> <pvp [4] />秒。\n\n<blue 1层“导电针时” />\n175% 额外基础手雷、近战、超能冷却速率 | 22% 超能消耗速度降低。\n\n<blue 2层“导电针时” />\n350% 额外基础手雷、近战、超能冷却速率 | 44% 超能消耗速度降低。\n\n<blue 3层“导电针时” />\n525% 额外基础手雷、近战、超能冷却速率 | 66% 超能消耗速度降低。\n\n超能消耗速度降低会影响到所有游走型超能，混沌之触除外。",
+    "secondary": "import self"
    }
   }
  },
