@@ -3,7 +3,7 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1670530696247,
+  "lastUpload": 1670530846346,
   "uploadedBy": "Mistwalker",
   "editor": {
    "en": {
@@ -310,7 +310,7 @@
   "itemName": "Contraverse Hold",
   "type": "armorExotic",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670530696247,
+  "lastUpload": 1670530846346,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -3502,7 +3502,7 @@
   "itemName": "Wormgod Caress",
   "type": "armorExotic",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670530696247,
+  "lastUpload": 1670530846346,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -4547,7 +4547,7 @@
   "itemName": "Young Ahamkara's Spine",
   "type": "armorExotic",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670530696247,
+  "lastUpload": 1670530846346,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -8992,7 +8992,7 @@
   "itemName": "Eternal Warrior",
   "type": "armorExotic",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670530696247,
+  "lastUpload": 1670530846346,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -10954,7 +10954,7 @@
   "itemName": "Doom Fang Pauldron",
   "type": "armorExotic",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670530696247,
+  "lastUpload": 1670530846346,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -16838,7 +16838,7 @@
   "itemName": "Crest of Alpha Lupi",
   "type": "armorExotic",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670530696247,
+  "lastUpload": 1670530846346,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -19008,7 +19008,7 @@
   "itemName": "Citan's Ramparts",
   "type": "armorExotic",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670530696247,
+  "lastUpload": 1670530846346,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -25575,7 +25575,7 @@
   "itemName": "Claws of Ahamkara",
   "type": "armorExotic",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670530696247,
+  "lastUpload": 1670530846346,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -26720,8 +26720,8 @@
   "itemHash": 3844826443,
   "itemName": "Winter's Guile",
   "type": "armorExotic",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670530846346,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -26735,12 +26735,20 @@
     "en": {
      "lastUpdate": 1667258676735,
      "updatedBy": "Fading Shadow"
+    },
+    "zh-chs": {
+     "lastUpdate": 1670530825062,
+     "updatedBy": "Mistwalker"
     }
    }
   },
   "editor": {
    "en": {
     "main": "Grants Warlord's Sigil on Melee Kill\nWarlord's Sigil grants Increased Melee Damage for 5 seconds \n\nBonus Melee Damage:\n130% | 260% | 390% | 520% | 650%",
+    "secondary": "import self"
+   },
+   "zh-chs": {
+    "main": "近战击杀后获得“督军印记”：\n“督军印记”持续 5 秒，提供额外近战伤害，可叠加 5 层。\n\n额外近战伤害：\n55% | 110% | 165% | 220% | 275%",
     "secondary": "import self"
    }
   }
@@ -27330,7 +27338,7 @@
   "itemName": "Dawn Chorus",
   "type": "armorExotic",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670530696247,
+  "lastUpload": 1670530846346,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -31226,7 +31234,7 @@
   "itemName": "Dunemarchers",
   "type": "armorExotic",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670530696247,
+  "lastUpload": 1670530846346,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -37319,7 +37327,7 @@
   "itemName": "Eye of Another World",
   "type": "armorExotic",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670530696247,
+  "lastUpload": 1670530846346,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -37428,7 +37436,7 @@
   "itemName": "Crown of Tempests",
   "type": "armorExotic",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670530696247,
+  "lastUpload": 1670530846346,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
