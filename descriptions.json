@@ -3,7 +3,7 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1670502235151,
+  "lastUpload": 1670509358949,
   "uploadedBy": "Mistwalker",
   "editor": {
    "en": {
@@ -2297,8 +2297,8 @@
   "itemHash": 2423243921,
   "itemName": "Antaeus Wards",
   "type": "armorExotic",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670509358949,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -2316,6 +2316,10 @@
     "ko": {
      "lastUpdate": 1665683374556,
      "updatedBy": "tritonesub251"
+    },
+    "zh-chs": {
+     "lastUpdate": 1670509222476,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -2327,6 +2331,10 @@
    "ko": {
     "main": "적어도 1.5초 이상 질주한 뒤 슬라이드 할 시:\n투사체를 반사하고 피해를 무력화하는 180도의 정면 방어막을 생성합니다.\n\n슬라이드 거리를 33% 증가시킵니다.",
     "secondary": ""
+   },
+   "zh-chs": {
+    "main": "冲刺 1.5 秒后滑行：\n产生一个 180° 的正面护盾，可以反弹伤害和弹道。\n\n滑行距离增加33%。",
+    "secondary": "import self"
    }
   }
  },
@@ -31289,8 +31297,8 @@
   "itemHash": 3942036043,
   "itemName": "Aeon Swift",
   "type": "armorExotic",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670509358949,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -31308,6 +31316,10 @@
     "ko": {
      "lastUpdate": 1665683175354,
      "updatedBy": "tritonesub251"
+    },
+    "zh-chs": {
+     "lastUpdate": 1670508903000,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -31319,6 +31331,10 @@
    "ko": {
     "main": "각 정밀타를 2.5초 이내에 4번 적중하면 6초 동안 영겁의 분노 효과를 얻게 됩니다.\n\n영겁의 분노는 재장전 수치를 10 올려주며 조작성 수치 또한 10을 올려줍니다.\n\n용사 기절, 미니보스 및 보스 처치 시:\n30미터 이내에 있는 아군들은 수류탄과 근접 능력 에너지 50%를 받습니다.\n\n 추가로 영겁 시리즈를 장착한 아군들은 궁극기 에너지 10%를 받습니다.\n\n 효과 발동 사이에 4초의 쿨다운이 있습니다.",
     "secondary": ""
+   },
+   "zh-chs": {
+    "main": "在 2.5 秒内完成 4 次精准攻击会获得“永劫教派武器加速”增益，持续6秒。\n\n“永劫教派武器加速”提供 +10 填装速度（附带 0.8x 填装<title 动画系数 [G_as] />），对拔枪/收枪动作 +10 操控性。\n\n在击晕勇士、次级首领或者首领时：\n • 30 米范围内的队友获得 50% 的手雷和近战能量。\n • 永劫教派队友额外获得 10% 的超量能量。\n\n触发间隔 4 秒。",
+    "secondary": "import self"
    }
   },
   "stats": {
@@ -34732,8 +34748,8 @@
   "itemHash": 1654461647,
   "itemName": "Aeon Safe",
   "type": "armorExotic",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670509358949,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -34751,6 +34767,10 @@
     "ko": {
      "lastUpdate": 1665683187879,
      "updatedBy": "tritonesub251"
+    },
+    "zh-chs": {
+     "lastUpdate": 1670508854173,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -34762,6 +34782,10 @@
    "ko": {
     "main": "빠르게 정밀 처치 2회를 하면 아군을 위한 힘의 보주가 생성됩니다.\n\n엘리트 적을 필살기로 처치하면 아군을 위한 특수 탄약이 생성됩니다.\n미니보스를 필살기로 처치하면 아군을 위한 중화기 탄약이 생성됩니다.\n\n 추가로 영겁 시리즈를 장착한 아군은 20초 동안 35%의 피해 저항을 받습니다.",
     "secondary": ""
+   },
+   "zh-chs": {
+    "main": "2 次精准多杀会为队友掉落一个能量球。\n\n终结一个精英敌人会为队友生成一盒特殊弹药。\n终结一个次级首领会为队友生成一盒重弹药。\n\n永劫教派同伴额外获得 35% 的伤害增加，持续 20 秒。",
+    "secondary": "import self"
    }
   }
  },
@@ -34802,8 +34826,8 @@
   "itemHash": 3216110440,
   "itemName": "An Insurmountable Skullfort",
   "type": "armorExotic",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670509358949,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -34821,6 +34845,10 @@
     "ko": {
      "lastUpdate": 1665683252223,
      "updatedBy": "tritonesub251"
+    },
+    "zh-chs": {
+     "lastUpdate": 1670509083945,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -34832,6 +34860,10 @@
    "ko": {
     "main": "<arc/>전기 근접 능력 처치는 근접 능력을 완전히 채워주고 바로 체력 회복을 발동합니다.",
     "secondary": ""
+   },
+   "zh-chs": {
+    "main": "<arc/>电弧近战技能击杀可恢复生命值并回复全部近战能量。",
+    "secondary": "import self"
    }
   }
  },
@@ -35104,8 +35136,8 @@
   "itemHash": 2950045886,
   "itemName": "Aeon Soul",
   "type": "armorExotic",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670509358949,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -35123,6 +35155,10 @@
     "ko": {
      "lastUpdate": 1665682825510,
      "updatedBy": "tritonesub251"
+    },
+    "zh-chs": {
+     "lastUpdate": 1670508844053,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -35134,6 +35170,10 @@
    "ko": {
     "main": "아군이 죽으면 25%의 직업 능력 에너지를 얻습니다.\n아군을 부활시키면 직업 능력 에너지를 완전히 돌려받습니다.\n\n궁극기를 시전하면 30미터 이내에 있는 아군들을 완전히 회복시킵니다.\n\n추가로 영겁 시리즈를 장착한 아군들은 20초 동안 110HP 짜리 보호막을 얻으며 3초 이후 재생됩니다.",
     "secondary": ""
+   },
+   "zh-chs": {
+    "main": "队友死亡时你可获得 25% 的职业技能能量。\n复活队友时获得完整的职业技能能量。\n\n施放超能能在 30 米范围内完全治愈队友。\n\n永劫教派队友获得 110 点覆盖护盾，持续 20 秒，3 秒后自动回复。",
+    "secondary": "import self"
    }
   }
  },
@@ -39413,8 +39453,8 @@
   "itemHash": 1096253259,
   "itemName": "Apotheosis Veil",
   "type": "armorExotic",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670509358949,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -39432,6 +39472,10 @@
     "ko": {
      "lastUpdate": 1665683472825,
      "updatedBy": "tritonesub251"
+    },
+    "zh-chs": {
+     "lastUpdate": 1670509316155,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -39443,6 +39487,10 @@
    "ko": {
     "main": "궁극기 발동 시:\n체력, 수류탄, 근접 공격, 그리고 직업 능력을 완전히 채웁니다.\n\n약 18미터 이내에 있는 아군들은 알 수 없는 만큼의 직업 능력 재생 속도를 추가로 받습니다.",
     "secondary": ""
+   },
+   "zh-chs": {
+    "main": "24 米范围内的队友获得额外 25% 的基础职业技能恢复速度。\n\n在施放超能时：\n完全恢复生命值，以及手雷、近战、职业技能的能量。",
+    "secondary": "import self"
    }
   }
  },
