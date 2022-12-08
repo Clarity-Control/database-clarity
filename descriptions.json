@@ -3,7 +3,7 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1670510705187,
+  "lastUpload": 1670511188914,
   "uploadedBy": "Mistwalker",
   "editor": {
    "en": {
@@ -2298,7 +2298,7 @@
   "itemName": "Antaeus Wards",
   "type": "armorExotic",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670510705187,
+  "lastUpload": 1670511188914,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -3447,7 +3447,7 @@
   "itemName": "Ashen Wake",
   "type": "armorExotic",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670510705187,
+  "lastUpload": 1670511188914,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -8406,7 +8406,7 @@
   "itemName": "Armamentarium",
   "type": "armorExotic",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670510705187,
+  "lastUpload": 1670511188914,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -8637,7 +8637,7 @@
   "itemName": "Boots of the Assembler",
   "type": "armorExotic",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670510705187,
+  "lastUpload": 1670511188914,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -21603,8 +21603,8 @@
   "itemHash": 3453042252,
   "itemName": "Caliban's Hand",
   "type": "armorExotic",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670511188914,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -21622,6 +21622,10 @@
     "ko": {
      "lastUpdate": 1665685480526,
      "updatedBy": "tritonesub251"
+    },
+    "zh-chs": {
+     "lastUpdate": 1670510892900,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -21633,6 +21637,10 @@
    "ko": {
     "main": "근접 칼이 폭발할 시 알 수 없는 양의 소각 스택을 입힙니다. 적중시켜 처치하면 해당 타겟을 점화시킵니다.\n\n근접 칼이 폭발하지 않고 있는 동안 알 수 없는 만큼의 근접 공격 재생 속도를 증가시킵니다.",
     "secondary": ""
+   },
+   "zh-chs": {
+    "main": "感应飞刀在爆炸时施加 60 层灼烧。\n如果使用感应飞刀直接击中击杀敌人，则会触发点燃效果。\n\n感应飞刀未爆炸时，近战技能基础冷却速度增加 500%。",
+    "secondary": "import self"
    }
   }
  },
@@ -21828,8 +21836,8 @@
   "itemHash": 4057299718,
   "itemName": "Chromatic Fire",
   "type": "armorExotic",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670511188914,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -21847,6 +21855,10 @@
     "ko": {
      "lastUpdate": 1665685885774,
      "updatedBy": "tritonesub251"
+    },
+    "zh-chs": {
+     "lastUpdate": 1670511181928,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -21858,6 +21870,10 @@
    "ko": {
     "main": "물리 피해 정밀타 처치 시:\n적이 현재 장착한 하위직업의 속성 폭발을 일으킵니다.\n폭발 반경과 피해 사거리는 무기의 사거리 수치에 기반합니다.\n\n<pvp 중심부에서 약 200의 피해를 일으킵니다. />",
     "secondary": ""
+   },
+   "zh-chs": {
+    "main": "动能武器取得精准最后一击时：\n敌人释放出与当前所选职业相匹配的元素爆炸，造成最多 <pve 210 /> <pvp [200] /> 伤害。\n\n爆炸半径和衰减距离会根据武器的射程属性有细微的改变。",
+    "secondary": "import self"
    }
   }
  },
@@ -25906,8 +25922,8 @@
   "itemHash": 1321354573,
   "itemName": "Celestial Nighthawk",
   "type": "armorExotic",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670511188914,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -25925,6 +25941,10 @@
     "ko": {
      "lastUpdate": 1665685669234,
      "updatedBy": "tritonesub251"
+    },
+    "zh-chs": {
+     "lastUpdate": 1670511030527,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -25936,6 +25956,10 @@
    "ko": {
     "main": "황금 총의 탄환을 1발로 강제합니다.\n\n황금 총의 피해를 500% 증가시키며 황금 총의 공중 효율을 100 만큼 증가시킵니다.\n(줄 세우기 x3 보다 37% 더 높습니다)\n\n궁극기 처치 시 33%의 궁극기 에너지를 반환합니다.",
     "secondary": ""
+   },
+   "zh-chs": {
+    "main": "黄金枪每次激活只能开一枪。\n\n黄金枪造成 500% 额外伤害。\n（比使用射手黄金枪精确命中 3 次造成的伤害高 37%）。\n\n击杀敌人时返还 33% 的超能能量。",
+    "secondary": "import self"
    }
   }
  },
@@ -31322,7 +31346,7 @@
   "itemName": "Aeon Swift",
   "type": "armorExotic",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670510705187,
+  "lastUpload": 1670511188914,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -31605,7 +31629,7 @@
   "itemName": "Astrocyte Verse",
   "type": "armorExotic",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670510705187,
+  "lastUpload": 1670511188914,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -34009,7 +34033,7 @@
   "itemName": "Blight Ranger",
   "type": "armorExotic",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670510705187,
+  "lastUpload": 1670511188914,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -34789,7 +34813,7 @@
   "itemName": "Aeon Safe",
   "type": "armorExotic",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670510705187,
+  "lastUpload": 1670511188914,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -34867,7 +34891,7 @@
   "itemName": "An Insurmountable Skullfort",
   "type": "armorExotic",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670510705187,
+  "lastUpload": 1670511188914,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -34914,7 +34938,7 @@
   "itemName": "Athrys's Embrace",
   "type": "armorExotic",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670510705187,
+  "lastUpload": 1670511188914,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -35185,7 +35209,7 @@
   "itemName": "Aeon Soul",
   "type": "armorExotic",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670510705187,
+  "lastUpload": 1670511188914,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -39502,7 +39526,7 @@
   "itemName": "Apotheosis Veil",
   "type": "armorExotic",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670510705187,
+  "lastUpload": 1670511188914,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
