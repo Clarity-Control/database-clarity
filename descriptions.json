@@ -3,7 +3,7 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1670530846346,
+  "lastUpload": 1670531261413,
   "uploadedBy": "Mistwalker",
   "editor": {
    "en": {
@@ -310,7 +310,7 @@
   "itemName": "Contraverse Hold",
   "type": "armorExotic",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670530846346,
+  "lastUpload": 1670531261413,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -2245,8 +2245,8 @@
   "itemHash": 2203146422,
   "itemName": "VAssassin's Cowl",
   "type": "armorExotic",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670531261413,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -2260,12 +2260,20 @@
     "en": {
      "lastUpdate": 1668260588695,
      "updatedBy": "Icemourne"
+    },
+    "zh-chs": {
+     "lastUpdate": 1670531224042,
+     "updatedBy": "Mistwalker"
     }
    }
   },
   "editor": {
    "en": {
     "main": "Gain <void/>Void Invisibility on Powered Melee Kill. (Longer on Finishers)\nHeals for X on Powered Melee Kill. (Stronger on Finishers)\n\nInvisibility Duration (on Finishers):\nMinor = 6.8 seconds (9.8)\nElite/Guardian = 9.8 seconds (12.7)\nMiniboss = 12.8 seconds (15.8)\nBoss = 13.3 seconds\n\nEcho of Persistence increases the <void/>Void Invisibility duration by 41.5%.\n\nBosses and Vehicles are not finishable.",
+    "secondary": "import self"
+   },
+   "zh-chs": {
+    "main": "充能近战击杀获得<void/>虚空隐身，并恢复 [?] 生命值。\n（终结技的效果更显著）\n\n隐身持续时间（使用终结技的效果）：\n普通敌人 = 6.8 秒（9.8）\n精英敌人/守护者 = 9.8 秒 （12.7）\n次级首领 = 12.8 秒 （15.8）\n首领 = 13.3 秒\n\n坚韧回声可增加 41.5% <void/>虚空隐身的持续时间。\n\n首领和载具无法被终结。",
     "secondary": "import self"
    }
   }
@@ -3502,7 +3510,7 @@
   "itemName": "Wormgod Caress",
   "type": "armorExotic",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670530846346,
+  "lastUpload": 1670531261413,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -4547,7 +4555,7 @@
   "itemName": "Young Ahamkara's Spine",
   "type": "armorExotic",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670530846346,
+  "lastUpload": 1670531261413,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -8992,7 +9000,7 @@
   "itemName": "Eternal Warrior",
   "type": "armorExotic",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670530846346,
+  "lastUpload": 1670531261413,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -10954,7 +10962,7 @@
   "itemName": "Doom Fang Pauldron",
   "type": "armorExotic",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670530846346,
+  "lastUpload": 1670531261413,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -16838,7 +16846,7 @@
   "itemName": "Crest of Alpha Lupi",
   "type": "armorExotic",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670530846346,
+  "lastUpload": 1670531261413,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -19008,7 +19016,7 @@
   "itemName": "Citan's Ramparts",
   "type": "armorExotic",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670530846346,
+  "lastUpload": 1670531261413,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -25575,7 +25583,7 @@
   "itemName": "Claws of Ahamkara",
   "type": "armorExotic",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670530846346,
+  "lastUpload": 1670531261413,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -26721,7 +26729,7 @@
   "itemName": "Winter's Guile",
   "type": "armorExotic",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670530846346,
+  "lastUpload": 1670531261413,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -27338,7 +27346,7 @@
   "itemName": "Dawn Chorus",
   "type": "armorExotic",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670530846346,
+  "lastUpload": 1670531261413,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -31234,7 +31242,7 @@
   "itemName": "Dunemarchers",
   "type": "armorExotic",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670530846346,
+  "lastUpload": 1670531261413,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -37327,7 +37335,7 @@
   "itemName": "Eye of Another World",
   "type": "armorExotic",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670530846346,
+  "lastUpload": 1670531261413,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -37436,7 +37444,7 @@
   "itemName": "Crown of Tempests",
   "type": "armorExotic",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670530846346,
+  "lastUpload": 1670531261413,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
