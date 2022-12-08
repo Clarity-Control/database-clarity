@@ -3,7 +3,7 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1670345736402,
+  "lastUpload": 1670501298038,
   "uploadedBy": "Mistwalker",
   "editor": {
    "en": {
@@ -15917,8 +15917,8 @@
   "hash": 1600092898,
   "name": "Backup Plan",
   "type": "weaponPerk",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670501298038,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -15934,7 +15934,7 @@
      "updatedBy": "Stardust"
     },
     "zh-chs": {
-     "lastUpdate": 1668784263229,
+     "lastUpdate": 1670501268546,
      "updatedBy": "Mistwalker"
     }
    }
@@ -15968,7 +15968,7 @@
     "secondary": "import self"
    },
    "zh-chs": {
-    "main": "切换至此武器时：\n+30% 充能速度\n-20% 伤害\n+100 操控性\n\n持续 [?] 秒。\n\nenhanced (\n#e 增益持续时间增加。\n)\n\n<formula 拔枪速度： [ready_0] />\n<formula 收枪速度： [stow_0] />",
+    "main": "切换至此武器时：\n-30% 充能时间\n-20% 伤害\n+100 操控性\n\n持续 [?] 秒。\n\nenhanced (\n#e 增益持续时间增加。\n)\n\n<formula 拔枪速度： [ready_0] />\n<formula 收枪速度： [stow_0] />",
     "secondary": "import self"
    }
   },
