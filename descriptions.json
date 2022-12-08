@@ -3,7 +3,7 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1670511188914,
+  "lastUpload": 1670511464869,
   "uploadedBy": "Mistwalker",
   "editor": {
    "en": {
@@ -2298,7 +2298,7 @@
   "itemName": "Antaeus Wards",
   "type": "armorExotic",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670511188914,
+  "lastUpload": 1670511464869,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -3447,7 +3447,7 @@
   "itemName": "Ashen Wake",
   "type": "armorExotic",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670511188914,
+  "lastUpload": 1670511464869,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -3493,8 +3493,8 @@
   "itemHash": 1734844651,
   "itemName": "Wormgod Caress",
   "type": "armorExotic",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670511464869,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -3510,8 +3510,8 @@
      "updatedBy": "Icemourne"
     },
     "zh-chs": {
-     "lastUpdate": 1664422653646,
-     "undatedBy": "Mistwalker"
+     "lastUpdate": 1670511447128,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -3521,8 +3521,8 @@
     "secondary": "import self"
    },
    "zh-chs": {
-    "main": "近战击杀后获得燃烧之拳：\n燃烧之拳持续 5 秒，提供额外近战伤害，可叠加 5 层。\n\n额外近战伤害：\n80% | 170% | 390% | 520% | 650%",
-    "secondary": "近战击杀后获得燃烧之拳：\n燃烧之拳持续 5 秒，提供额外近战伤害，可叠加 5 层。\n\n额外近战伤害：\n80% | 170% | 390% | 520% | 650%"
+    "main": "近战击杀后获得“燃烧之拳”：\n“燃烧之拳”持续 5 秒，提供额外近战伤害，可叠加 5 层。\n\n额外近战伤害：\n80% | 170% | 390% | 520% | 650%",
+    "secondary": "import self"
    }
   }
  },
@@ -7698,8 +7698,8 @@
   "itemHash": 136355432,
   "itemName": "Mk. 44 Stand Asides",
   "type": "armorExotic",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670511464869,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -7715,8 +7715,8 @@
      "updatedBy": "Fading Shadow"
     },
     "zh-chs": {
-     "lastUpdate": 1664422413860,
-     "undatedBy": "Mistwalker"
+     "lastUpdate": 1670511409117,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -7727,7 +7727,7 @@
    },
    "zh-chs": {
     "main": "在满生命值的情况下装备肩撞类近战且充能完毕时：\n\n冲刺后 0.5 秒开始，在 3 秒内逐渐获得 75 生命值的覆盖护盾。\n停止冲刺时覆盖护盾立即消失。\n\n肩撞技能击中敌人后回复 50% 的近战充能。\n\n有效的近战技能包括地震打击、弹道猛击、战锤打击、圣盾强袭。",
-    "secondary": "在满生命值的情况下装备肩撞类近战且充能完毕时：\n\n冲刺后 0.5 秒开始，在 3 秒内逐渐获得 75 生命值的覆盖护盾。\n停止冲刺时覆盖护盾立即消失。\n\n肩撞技能击中敌人后回复 50% 的近战充能。\n\n有效的近战技能包括地震打击、弹道猛击、战锤打击、圣盾强袭。"
+    "secondary": "import self"
    }
   }
  },
@@ -8406,7 +8406,7 @@
   "itemName": "Armamentarium",
   "type": "armorExotic",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670511188914,
+  "lastUpload": 1670511464869,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -8637,7 +8637,7 @@
   "itemName": "Boots of the Assembler",
   "type": "armorExotic",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670511188914,
+  "lastUpload": 1670511464869,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -10998,8 +10998,8 @@
   "itemHash": 3316517958,
   "itemName": "Loreley Splendor Helm",
   "type": "armorExotic",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670511464869,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -11015,8 +11015,8 @@
      "updatedBy": "Fading Shadow"
     },
     "zh-chs": {
-     "lastUpdate": 1664421033687,
-     "undatedBy": "Mistwalker"
+     "lastUpdate": 1670511392610,
+     "updatedBy": "Mistwalker"
     },
     "ko": {
      "lastUpdate": 1665698136888,
@@ -11031,7 +11031,7 @@
    },
    "zh-chs": {
     "main": "太阳黑子提供“恢复 x1”效果。",
-    "secondary": "太阳黑子提供“恢复 x1”效果。"
+    "secondary": "import self"
    },
    "ko": {
     "main": "방벽을 시전하거나 방벽이 충전된 상태에서 치명상을 입으면 방벽 소모와 함께 흑점이 생성됩니다.\n\n생성된 흑점은 회복 x1을 부여합니다.",
@@ -19624,8 +19624,8 @@
   "itemHash": 1341951177,
   "itemName": "Heart of Inmost Light",
   "type": "armorExotic",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670511464869,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -19641,8 +19641,8 @@
      "updatedBy": "Icemourne"
     },
     "zh-chs": {
-     "lastUpdate": 1664421626625,
-     "undatedBy": "Mistwalker"
+     "lastUpdate": 1670511349614,
+     "updatedBy": "Mistwalker"
     },
     "ko": {
      "lastUpdate": 1665696710361,
@@ -19656,8 +19656,8 @@
     "secondary": "import self"
    },
    "zh-chs": {
-    "main": "使用一个技能（手雷、近战或屏障）可为另外两个技能赋能 <pve 10 /><pvp [5] /> 秒。\n例如：使用屏障，可赋能近战和受累。\n\n当赋能时：\n\n强化近战： 10% | 20% 额外伤害。\n<pve 400% /><pvp [100%] /> || <pve 800% /><pvp [200%] /> 额外近战回复效率。\n\n强化手雷： <pve 20% /><pvp [10%] /> | <pve 35% /><pvp [20%] /> 额外伤害。\n<pve 400% /><pvp [100%] /> || <pve 800% /><pvp [200%] /> 额外手雷回复效率。\n\n强化屏障： X% | Y% 额外生命值。\n<pve 150% /><pvp [37.5%] /> || <pve 300% /><pvp [75%] /> 额外屏障回复效率。",
-    "secondary": "[括号] 内为 PVP 时的数值。\n\n使用一个技能（手雷、近战或屏障）可为另外两个技能赋能 10 [5] 秒。\n例如：使用屏障，可赋能近战和受累。\n\n当赋能时：\n\n强化近战： 10% | 20% 额外伤害。\n400%[100%] || 800% [200%] 额外近战回复效率。\n\n强化手雷： 20% [10%] | 35% [20%] 额外伤害。\n400% [100%] 800% [200%] 额外手雷回复效率。\n\n强化屏障： X% | Y% 额外生命值。\n150% [37.5%] 300% [75%] 额外屏障回复效率。"
+    "main": "使用一个技能（手雷、近战或屏障）可为另外两个技能赋能 <pve 10 /><pvp [5] /> 秒。\n例如：使用屏障，可赋能近战和手雷技能。\n\n强化近战：\n10% | 20% 额外伤害。\n<pve 400% /><pvp [100%] /> || <pve 800% /><pvp [200%] /> 额外近战回复效率。\n\n强化手雷： \n<pve 20% /><pvp [10%] /> | <pve 35% /><pvp [20%] /> 额外伤害。\n<pve 400% /><pvp [100%] /> || <pve 800% /><pvp [200%] /> 额外手雷回复效率。\n\n强化屏障： \nX% | Y% 额外生命值。\n<pve 150% /><pvp [37.5%] /> || <pve 300% /><pvp [75%] /> 额外屏障回复效率。",
+    "secondary": "import self"
    },
    "ko": {
     "main": "능력을 사용하면 다른 능력들이 <pve 10 /><pvp [5] />초 동안 강화됩니다. \n(예: 방벽 사용 -> 수류탄과 근접 능력 강화)\n\n강화 되었을 때:\n강화된 근접 능력: 10% | 20% 피해 증가.\n근접 능력 기본 재생 속도 <pve 400% /> <pvp [100%] /> || <pve 800% /> <pvp [200%] /> 증가.\n\n강화된 수류탄: <pve 20% /> <pvp [10%] /> | <pve 35% /> <pvp [20%] /> 피해 증가.\n수류탄 기본 재생 속도<pve 400% /> <pvp [100%] /> || <pve 800% /> <pvp [200%] /> 증가.\n\n강화된 방벽: 방벽 체력 증가.\n직업 능력 기본 재생 속도 <pve 150% /><pvp [37.5%] /> || <pve 300% /><pvp [75%] /> 증가.",
@@ -21604,7 +21604,7 @@
   "itemName": "Caliban's Hand",
   "type": "armorExotic",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670511188914,
+  "lastUpload": 1670511464869,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -21837,7 +21837,7 @@
   "itemName": "Chromatic Fire",
   "type": "armorExotic",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670511188914,
+  "lastUpload": 1670511464869,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -25923,7 +25923,7 @@
   "itemName": "Celestial Nighthawk",
   "type": "armorExotic",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670511188914,
+  "lastUpload": 1670511464869,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -31346,7 +31346,7 @@
   "itemName": "Aeon Swift",
   "type": "armorExotic",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670511188914,
+  "lastUpload": 1670511464869,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -31629,7 +31629,7 @@
   "itemName": "Astrocyte Verse",
   "type": "armorExotic",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670511188914,
+  "lastUpload": 1670511464869,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -34033,7 +34033,7 @@
   "itemName": "Blight Ranger",
   "type": "armorExotic",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670511188914,
+  "lastUpload": 1670511464869,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -34813,7 +34813,7 @@
   "itemName": "Aeon Safe",
   "type": "armorExotic",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670511188914,
+  "lastUpload": 1670511464869,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -34891,7 +34891,7 @@
   "itemName": "An Insurmountable Skullfort",
   "type": "armorExotic",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670511188914,
+  "lastUpload": 1670511464869,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -34938,7 +34938,7 @@
   "itemName": "Athrys's Embrace",
   "type": "armorExotic",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670511188914,
+  "lastUpload": 1670511464869,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -35209,7 +35209,7 @@
   "itemName": "Aeon Soul",
   "type": "armorExotic",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670511188914,
+  "lastUpload": 1670511464869,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -35709,8 +35709,8 @@
   "itemHash": 3562696927,
   "itemName": "Wormhusk Crown",
   "type": "armorExotic",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670511464869,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -35726,8 +35726,8 @@
      "updatedBy": "Icemourne"
     },
     "zh-chs": {
-     "lastUpdate": 1664420820435,
-     "undatedBy": "Mistwalker"
+     "lastUpdate": 1670511456078,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -35738,7 +35738,7 @@
    },
    "zh-chs": {
     "main": "闪身时：\n恢复 67 生命值。",
-    "secondary": "闪身时：\n恢复 67 生命值。"
+    "secondary": "import self"
    }
   }
  },
@@ -39526,7 +39526,7 @@
   "itemName": "Apotheosis Veil",
   "type": "armorExotic",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670511188914,
+  "lastUpload": 1670511464869,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -40128,8 +40128,8 @@
   "itemHash": 2321120637,
   "itemName": "Cuirass of the Falling Star",
   "type": "armorExotic",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670511464869,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -40145,8 +40145,8 @@
      "updatedBy": "Fading Shadow"
     },
     "zh-chs": {
-     "lastUpdate": 1664421904650,
-     "undatedBy": "Mistwalker"
+     "lastUpdate": 1670511204333,
+     "updatedBy": "Mistwalker"
     },
     "ko": {
      "lastUpdate": 1665694506886,
@@ -40161,7 +40161,7 @@
    },
    "zh-chs": {
     "main": "雷霆冲击提升 100% 伤害。\n\n当雷霆冲击释放完成时：\n在 7 秒内获得 100 生命值的覆盖护盾。\n覆盖护盾持续时间会根据雷霆冲击释放距离而延长，最高为 20 秒。",
-    "secondary": "雷霆冲击提升 100% 伤害。\n\n当雷霆冲击释放完成时：\n在 7 秒内获得 100 生命值的覆盖护盾。\n覆盖护盾持续时间会根据雷霆冲击释放距离而延长，最高为 20 秒。"
+    "secondary": "import self"
    },
    "ko": {
     "main": "천둥충돌의 피해가 100% 증가합니다.\n\n천둥충돌 사용 직후:\n7초 동안 100HP 짜리 보호막을 얻습니다.\n보호막의 지속시간은 천둥충돌 시전 시 날아간 거리에 비례하며 최대 20초 까지 가능합니다.",
