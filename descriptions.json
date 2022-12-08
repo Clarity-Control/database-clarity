@@ -3,7 +3,7 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1670530274237,
+  "lastUpload": 1670530696247,
   "uploadedBy": "Mistwalker",
   "editor": {
    "en": {
@@ -310,7 +310,7 @@
   "itemName": "Contraverse Hold",
   "type": "armorExotic",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670530274237,
+  "lastUpload": 1670530696247,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -3502,7 +3502,7 @@
   "itemName": "Wormgod Caress",
   "type": "armorExotic",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670511464869,
+  "lastUpload": 1670530696247,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -3518,7 +3518,7 @@
      "updatedBy": "Icemourne"
     },
     "zh-chs": {
-     "lastUpdate": 1670511447128,
+     "lastUpdate": 1670530358086,
      "updatedBy": "Mistwalker"
     }
    }
@@ -3529,7 +3529,7 @@
     "secondary": "import self"
    },
    "zh-chs": {
-    "main": "近战击杀后获得“燃烧之拳”：\n“燃烧之拳”持续 5 秒，提供额外近战伤害，可叠加 5 层。\n\n额外近战伤害：\n80% | 170% | 390% | 520% | 650%",
+    "main": "近战击杀后获得“燃烧之拳”：\n“燃烧之拳”持续 5 秒，提供额外近战伤害，可叠加 5 层。\n\n额外近战伤害：\n55% | 110% | 165% | 220% | 275%",
     "secondary": "import self"
    }
   }
@@ -4546,8 +4546,8 @@
   "itemHash": 475652357,
   "itemName": "Young Ahamkara's Spine",
   "type": "armorExotic",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670530696247,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -4561,12 +4561,20 @@
     "en": {
      "lastUpdate": 1668260609545,
      "updatedBy": "Icemourne"
+    },
+    "zh-chs": {
+     "lastUpdate": 1670530685126,
+     "updatedBy": "Mistwalker"
     }
    }
   },
   "editor": {
    "en": {
     "main": "Intrinsically grants Fastball, even on non-Tripmine Grenades\n\nEnhanced Tripmine Grenade:\n • 14% Increased Explosion Damage. Explosion Length and Width are increased to 14 metres.\n • Explosion no longer deals self-damage and has no damage falloff.\n • Lasts 30 seconds. (10s -> 30s)\n • Increases Tripmine Durability to 100 HP with 50% Damage Resist.\n\n<solar/>Solar Ability Damage recharges 33% of Tripmine Grenade Ability. \n<yellow/>Ember of Ashes allows each Tripmine to count as 2 instances of Solar Ability Damage. ",
+    "secondary": "import self"
+   },
+   "zh-chs": {
+    "main": "让手雷自带快速投掷能力。\n\n增强感应手雷：\n • 爆炸伤害增加 14%。爆炸的长度和宽度增加到 14 米。\n • 爆炸不再造成自我伤害，并且没有伤害衰减。\n • 持续 30 秒。(10s -> 30s)\n • 将感应手雷的耐久度提高到 100 生命值，并有 50% 的伤害抵抗。\n\n<solar/>烈日技能伤害可为感应手雷充能 33%。\n<yellow/>骨灰余烬可让感应手雷算作 2 次烈日技能伤害。",
     "secondary": "import self"
    }
   }
@@ -8984,7 +8992,7 @@
   "itemName": "Eternal Warrior",
   "type": "armorExotic",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670530274237,
+  "lastUpload": 1670530696247,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -10946,7 +10954,7 @@
   "itemName": "Doom Fang Pauldron",
   "type": "armorExotic",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670530274237,
+  "lastUpload": 1670530696247,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -16830,7 +16838,7 @@
   "itemName": "Crest of Alpha Lupi",
   "type": "armorExotic",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670530274237,
+  "lastUpload": 1670530696247,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -19000,7 +19008,7 @@
   "itemName": "Citan's Ramparts",
   "type": "armorExotic",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670530274237,
+  "lastUpload": 1670530696247,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -25567,7 +25575,7 @@
   "itemName": "Claws of Ahamkara",
   "type": "armorExotic",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670530274237,
+  "lastUpload": 1670530696247,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -27322,7 +27330,7 @@
   "itemName": "Dawn Chorus",
   "type": "armorExotic",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670530274237,
+  "lastUpload": 1670530696247,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -31218,7 +31226,7 @@
   "itemName": "Dunemarchers",
   "type": "armorExotic",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670530274237,
+  "lastUpload": 1670530696247,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -37311,7 +37319,7 @@
   "itemName": "Eye of Another World",
   "type": "armorExotic",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670530274237,
+  "lastUpload": 1670530696247,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -37420,7 +37428,7 @@
   "itemName": "Crown of Tempests",
   "type": "armorExotic",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670530274237,
+  "lastUpload": 1670530696247,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
