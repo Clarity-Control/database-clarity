@@ -3,7 +3,7 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1670501298038,
+  "lastUpload": 1670501384783,
   "uploadedBy": "Mistwalker",
   "editor": {
    "en": {
@@ -1978,8 +1978,8 @@
   "hash": 201365942,
   "name": "Archer's Tempo",
   "type": "weaponPerk",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670501384783,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -1995,7 +1995,7 @@
      "updatedBy": "Stardust"
     },
     "zh-chs": {
-     "lastUpdate": 1668782868291,
+     "lastUpdate": 1670501377483,
      "updatedBy": "Mistwalker"
     },
     "es": {
@@ -2010,7 +2010,7 @@
     "secondary": "import self"
    },
    "zh-chs": {
-    "main": "精准命中时：\n降低 25% 蓄力时间，持续 3 秒。\n\nenhanced (\n#e 持续时间增加到 4 秒。\n)",
+    "main": "精准命中时：\n-25% 蓄力时间，持续 3 秒。\n\nenhanced (\n#e 持续时间增加到 4 秒。\n)",
     "secondary": "import self"
    },
    "es": {
@@ -15918,7 +15918,7 @@
   "name": "Backup Plan",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670501298038,
+  "lastUpload": 1670501384783,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -28898,8 +28898,8 @@
   "hash": 2978966579,
   "name": "Chill Clip",
   "type": "weaponPerk",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670501384783,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -28915,7 +28915,7 @@
      "updatedBy": "Icemourne"
     },
     "zh-chs": {
-     "lastUpdate": 1668786494650,
+     "lastUpdate": 1670501322665,
      "updatedBy": "Mistwalker"
     }
    }
@@ -28926,7 +28926,7 @@
     "secondary": "import self"
    },
    "zh-chs": {
-    "main": "前半弹匣直接命中敌人时：\n将产生一个冰影爆炸，附近 [?] 米内的敌人获得 50 层减速效果。持续 <pve 4 /> <pvp [1.5] /> 秒。\n\n每次射击仅触发一次效果。\n（狼群弹药可触发多次。）\n\n<title 耐久之吟 [Whisper of Durance] /> 可将持续时间增加到 <pve 8 /> <pvp [2] /> 秒。\n\nenhanced (\n#e +5 稳定性。\n)",
+    "main": "前半弹匣直接命中敌人时：\n将产生一个冰影爆炸，附近 [?] 米内的敌人获得 50 层减速效果。持续 <pve 4 /> <pvp [1.5] /> 秒。\n\n每次射击仅触发一次效果。\n（狼群弹药可触发多次。）\n\n<title 耐久之吟 [Whisper of Durance] /> 可将持续时间增加到 <pve 8 /> <pvp [2] /> 秒。\n\nenhanced (\n#e 被动提升 +5 稳定性。\n)",
     "secondary": "import self"
    }
   },
