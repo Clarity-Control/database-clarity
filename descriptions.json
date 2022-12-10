@@ -3,7 +3,7 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1670673698827,
+  "lastUpload": 1670673991721,
   "uploadedBy": "Mistwalker",
   "editor": {
    "en": {
@@ -15301,7 +15301,7 @@
   "name": "Vorpal Weapon",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670673698827,
+  "lastUpload": 1670673991721,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -15317,7 +15317,7 @@
      "updatedBy": "Stardust"
     },
     "zh-chs": {
-     "lastUpdate": 1670673669097,
+     "lastUpdate": 1670673983178,
      "updatedBy": "Mistwalker"
     }
    }
@@ -15328,7 +15328,7 @@
     "secondary": "import self"
    },
    "zh-chs": {
-    "main": "提高对首领、强大敌人、载具，以及激活超能的玩家的伤害。\n\n<pve PVE: 主武器：+20% | 特殊武器：+15% | 重型武器：+10% />\n\n<pvp 对激活超能的玩家： />\n<primary/>主武器：<pvp +40% ~ 50% />\n<special/>特殊武器：<pvp +10% ~ 20% />\n<heavy/>重型武器： <pvp +5% ~ 10% />\n\nenhanced (\n#e 被动提升 +5 装填速度。\n)",
+    "main": "提高对首领、强大敌人、载具，以及激活超能的玩家的伤害。\n\n<pve PVE: 主武器：+20% | 特殊武器：+15% | 重型武器：+10% />\n\n<pvp PVP: 对激活超能的玩家： />\n<primary/>主武器：<pvp +40% ~ 50% />\n<special/>特殊武器：<pvp +10% ~ 20% />\n<heavy/>重型武器： <pvp +5% ~ 10% />\n\nenhanced (\n#e 被动提升 +5 装填速度。\n)",
     "secondary": "import self"
    }
   },
@@ -37279,7 +37279,7 @@
   "name": "Lasting Impression",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670673698827,
+  "lastUpload": 1670673991721,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
