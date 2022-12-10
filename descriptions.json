@@ -3,7 +3,7 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1670677938105,
+  "lastUpload": 1670678953207,
   "uploadedBy": "Mistwalker",
   "editor": {
    "en": {
@@ -5993,7 +5993,7 @@
   "itemName": "Felwinter's Helm",
   "type": "armorExotic",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670677938105,
+  "lastUpload": 1670678953207,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -8601,7 +8601,7 @@
   "itemName": "Fr0st-EE5",
   "type": "armorExotic",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670677938105,
+  "lastUpload": 1670678953207,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -13552,7 +13552,7 @@
   "hash": 1376049785,
   "name": "Ionic Conductor",
   "type": "armorExotic",
-  "lastUpload": 1670677938105,
+  "lastUpload": 1670678953207,
   "uploadedBy": "Mistwalker",
   "editor": {
    "en": {
@@ -19809,8 +19809,8 @@
   "itemHash": 121305948,
   "itemName": "Geomag Stabilizers",
   "type": "armorExotic",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670678953207,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -19828,6 +19828,10 @@
     "ko": {
      "lastUpdate": 1665696000770,
      "updatedBy": "tritonesub251"
+    },
+    "zh-chs": {
+     "lastUpdate": 1670678108146,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -19839,6 +19843,10 @@
    "ko": {
     "main": "혼돈 범위를 적중시키면 궁극기 에너지의 10%를 반환받습니다. 0.75초의 쿨다운이 있습니다.\n궁극기의 지속 시간을 100% 까지 증가시킬 수 있습니다.",
     "secondary": ""
+   },
+   "zh-chs": {
+    "main": "混沌之触每次命中回复 10% 的超能能量。\n每次回复有 0.75秒 冷却时间。可以增加最多 100% 的超能持续时间。",
+    "secondary": "import self"
    }
   }
  },
@@ -21182,8 +21190,8 @@
   "itemHash": 2773056939,
   "itemName": "Graviton Forfeit",
   "type": "armorExotic",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670678953207,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -21201,6 +21209,10 @@
     "ko": {
      "lastUpdate": 1665696299625,
      "updatedBy": "tritonesub251"
+    },
+    "zh-chs": {
+     "lastUpdate": 1670678595390,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -21221,6 +21233,10 @@
    "ko": {
     "main": "공허 은신의 지속 시간이 2초 증가합니다.\n\n은신한 상태에서:\n기본 근접 능력 재생 속도가 <pve 400% /> <pvp [100%] /> 증가합니다.\n15미터 이내에 있는 적의 수 만큼 <pve 600% /> <pvp [200%] /> and <pve 800% /> <pvp [300%] />까지 증가합니다.\n\n회복력과 재장전 속도로 100으로 증가시킵니다.",
     "secondary": ""
+   },
+   "zh-chs": {
+    "main": "虚空隐身效果持续时间增加 2 秒。\n\n隐身时：\n• <pve 400% /> <pvp [100%] /> 额外的基础近战充能速度。\n• 15 米范围内的敌人将使额外充能速度增加至 <pve 600% /> <pvp [200%] /> 到 <pve 800% /> <pvp [300%] />。（和敌人数量相关）\n\n+100 恢复\n+100 填装速度",
+    "secondary": "import self"
    }
   }
  },
@@ -21788,8 +21804,8 @@
   "itemHash": 1474735276,
   "itemName": "Gwisin Vest",
   "type": "armorExotic",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670678953207,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -21807,6 +21823,10 @@
     "ko": {
      "lastUpdate": 1665696387572,
      "updatedBy": "tritonesub251"
+    },
+    "zh-chs": {
+     "lastUpdate": 1670678750983,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -21818,6 +21838,10 @@
    "ko": {
     "main": "스팩트럼 칼날 시전 중:\n강공격을 하면 스팩트럼 칼날로 처치한 적의 수에 비례해 궁극기 에너지를 반환합니다.\n\n궁극기 반환률:\n< table >\n| <pve 11.1% /> | 🠚 | <pve 14.3% /> | 🠚 | <pve 16.5% /> | 🠚 | <pve 16.9% /> | 🠚 | <pve 17.1% />\n| <pvp 8.3% />  | 🠚 | <pvp 12.5% /> | 🠚 | <pvp 14.2% /> | 🠚 | <pvp 15.8% /> | 🠚 | <pvp 16.7% />\n<$>",
     "secondary": ""
+   },
+   "zh-chs": {
+    "main": "在超能鬼灵利刃期间：\n根据重攻击的击杀数量，恢复超能能量。\n\n基于击杀数量的超能能量增长（%）\n< table >\n| <pve 11.1 /> | 🠚 | <pve 14.3 /> | 🠚 | <pve 16.5 /> | 🠚 | <pve 16.9 /> | 🠚 | <pve 17.1 />\n| <pvp 8.3 />  | 🠚 | <pvp 12.5 /> | 🠚 | <pvp 14.2 /> | 🠚 | <pvp 15.8 /> | 🠚 | <pvp 16.7 />\n<$>",
+    "secondary": "在超能鬼灵利刃期间：\n根据重攻击的击杀数量，恢复超能能量。\n\n基于击杀数量的超能能量增长（%）\nPVE: 11.1 🠚 14.3 🠚 16.5 🠚 16.9 🠚 17.1\nPVP: 8.3 🠚 12.5 🠚 14.2 🠚 15.8 🠚 16.7"
    }
   }
  },
@@ -25963,7 +25987,7 @@
   "itemName": "Foetracer",
   "type": "armorExotic",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670677938105,
+  "lastUpload": 1670678953207,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -27609,8 +27633,8 @@
   "itemHash": 3084282676,
   "itemName": "Getaway Artist",
   "type": "armorExotic",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670678953207,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -27628,6 +27652,10 @@
     "ko": {
      "lastUpdate": 1665696169218,
      "updatedBy": "tritonesub251"
+    },
+    "zh-chs": {
+     "lastUpdate": 1670678366054,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -27639,6 +27667,10 @@
    "ko": {
     "main": "전기 수류탄을 충전하고 먹으면 20초 동안 강력한 전기 영혼을 소환합니다.\n\n강력한 전기 영혼은 29미터 이내의 적을 자동으로 공격하며 <pvp 11 피해 />를 주는 볼트를 6연발로 발사합니다.\n\n전기 영혼이 적중하면 4.5%의 수류탄 에너지를 반환받습니다.\n\n전기 영혼 균열에 들어가면 지속 시간이 초기화되며 모든 전기 영혼이 강력한 버전으로 바뀝니다.",
     "secondary": ""
+   },
+   "zh-chs": {
+    "main": "按住[手雷]键召唤一个有电弧之魂，持续 20 秒，并使你进入增幅状态。\n\n电弧之魂每次连射如果对敌人造成，会提供 4.5% 的手雷能量。",
+    "secondary": "import self"
    }
   }
  },
@@ -36508,11 +36540,15 @@
   "hash": 3809192347,
   "name": "See Me, Feel Me",
   "type": "armorExotic",
-  "lastUpload": 1670107195856,
-  "uploadedBy": "Stardust",
+  "lastUpload": 1670678953207,
+  "uploadedBy": "Mistwalker",
   "editor": {
    "en": {
     "main": "Gain <pve 35% /> <pvp [15%] /> Increased Weapon Damage for <pve 6 /> <pvp [3] /> seconds after Void Invisibility ends.\n\nFinishers while Invisible apply Volatile to enemies within [?] metres, and grant both you and allies within 24 metres a Reserve Overshield and 375% Additional Base Class Ability Regeneration Rate until either dying or using Class Ability.\n\nReserve Overshield is activated when you cast your Class Ability, granting you a 40 HP <void/>Void Overshield for 10 seconds.",
+    "secondary": "import self"
+   },
+   "zh-chs": {
+    "main": "在虚空隐身结束后的 <pve 6 /> <pvp [3] /> 秒内，获得 <pve 35% /> <pvp [15%] /> 武器伤害增加。\n\n隐身期间的终结技会在 [?] 米范围内的敌人施加挥发性效果，并使24米范围内的你和盟友获得备用护盾和375%额外的基础职业能力再生速度，直到死亡或使用职业能力。\n\n备用护盾在你施放职业能力时激活，为你提供40 HP的虚空护盾，持续10秒。",
     "secondary": "import self"
    }
   },
@@ -36525,6 +36561,10 @@
     "en": {
      "lastUpdate": 1668260046096,
      "updatedBy": "Icemourne"
+    },
+    "zh-chs": {
+     "lastUpdate": 1670678941390,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -38325,7 +38365,7 @@
   "itemName": "Gemini Jester",
   "type": "armorExotic",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670677938105,
+  "lastUpload": 1670678953207,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
