@@ -3,7 +3,7 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1670531261413,
+  "lastUpload": 1670673285685,
   "uploadedBy": "Mistwalker",
   "editor": {
    "en": {
@@ -37279,7 +37279,7 @@
   "name": "Lasting Impression",
   "type": "weaponPerk",
   "uploadedBy": "Mistwalker",
-  "lastUpload": 1670275048646,
+  "lastUpload": 1670673285685,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -37295,7 +37295,7 @@
      "updatedBy": "Stardust"
     },
     "zh-chs": {
-     "lastUpdate": 1670271224713,
+     "lastUpdate": 1670673268885,
      "updatedBy": "Mistwalker"
     }
    }
@@ -37315,7 +37315,7 @@
     "secondary": "import self"
    },
    "zh-chs": {
-    "main": "火箭弹头粘附在目标上，延迟 3 秒后引爆，+25% 爆炸伤害高。\n（总伤害提升约为 20%）\n\n被动提升 +50 爆炸范围。\n\nenhanced (\n#e  额外 +5 爆炸范围。\n)",
+    "main": "火箭弹头粘附在目标上，延迟 3 秒后引爆，+25% 爆炸伤害。\n（总伤害提升约为 20%）\n\n被动提升 +50 爆炸范围。\n\nenhanced (\n#e  额外 +5 爆炸范围。\n)",
     "secondary": ""
    }
   },
