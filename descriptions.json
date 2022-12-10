@@ -3,7 +3,7 @@
   "hash": 0,
   "name": "Default perk",
   "type": "none",
-  "lastUpload": 1670673991721,
+  "lastUpload": 1670677938105,
   "uploadedBy": "Mistwalker",
   "editor": {
    "en": {
@@ -5992,8 +5992,8 @@
   "itemHash": 2822465023,
   "itemName": "Felwinter's Helm",
   "type": "armorExotic",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670677938105,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -6011,6 +6011,10 @@
     "ko": {
      "lastUpdate": 1665695389426,
      "updatedBy": "tritonesub251"
+    },
+    "zh-chs": {
+     "lastUpdate": 1670677155785,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -6022,6 +6026,10 @@
    "ko": {
     "main": "근접 공격 처치와 필살기 처치가 적을 실명시키고 30%의 추가 피해를 받게하는 폭발을 일으킵니다.\n지속 시간과 폭발 반경은 적의 등급에 따라 결정됩니다.\n\n적 등급은 부하/리더/미니보스/보스입니다.\n필살기를 사용하면 지속 시간이 5초 추가됩니다. 수호자는 리더 취급입니다.\n\n전쟁군주의 최후\n폭발 범위: 폭심지로 부터 10/15/20/25 미터\n지속 시간: 5/10/15/20 초\n필살기를 사용했을 떄의 지속 시간: 10/15/20 초",
     "secondary": ""
+   },
+   "zh-chs": {
+    "main": "充能近战击杀和终结技会在敌人周围施加削弱效果（+30% 承受伤害）和致盲效果。\n持续时间和范围取决于敌人的等级。\n\n击杀敌方守护者视为精英的效果。首领无法被终结。\n\n< table background_2 >\n|b 敌人等级          |b 普通 |b 精英 |b 次级首领 |b 首领\n|b 范围              | 10    | 15    | 20       | 25\n|b 持续时间          | 5     | 10    | 15       | 20\n|b 终结技持续时间     | 10    | 15    | 20       | -\n<$>",
+    "secondary": "充能近战击杀和终结技会在敌人周围施加削弱效果（+30% 承受伤害）和致盲效果。\n持续时间和范围取决于敌人的等级。\n\n击杀敌方守护者视为精英的效果。首领无法被终结。\n\n敌人的等级分为普通敌人/精英/次级首领/首领。\n范围：10/15/20/25 米，以敌人为中心。\n持续时间：5/10/15/20 秒。\n终结技持续时间：10/15/20/- 秒。"
    }
   }
  },
@@ -8592,8 +8600,8 @@
   "itemHash": 609852545,
   "itemName": "Fr0st-EE5",
   "type": "armorExotic",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670677938105,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -8611,6 +8619,10 @@
     "ko": {
      "lastUpdate": 1665695766273,
      "updatedBy": "tritonesub251"
+    },
+    "zh-chs": {
+     "lastUpdate": 1670677645155,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -8622,6 +8634,10 @@
    "ko": {
     "main": "질주하는 동안:\n<pve 수류탄과 근접 능력 재생 속도 100% 증가 />\n<pvp 수류탄과 근접 능력의 기본 재생 속도 100% 증가 />\n추가로 직업 능력의 기본 재생 속도가 <pve 100% /><pvp [200%] /> 만큼 증가합니다.\n\n회피 직후:\n10초 동안 질주 속도가 6.25% 증가합니다.\n초기화 불가능합니다.",
     "secondary": ""
+   },
+   "zh-chs": {
+    "main": "冲刺时：\n• <pve 手雷和近战技能的充能速度翻倍。 />\n• <pvp 100% 额外的基础手雷/近战再生速度。 />\n• <pve 100% /> <pvp [200%] /> 额外的基础职业技能充能速度。\n\n闪身时：\n+6.25% 奔跑速度，持续10秒。\n持续时间无法被刷新。",
+    "secondary": "冲刺时：\n• [PVE] 手雷和近战技能的充能速度翻倍。\n• [PVP] 100% 额外的基础手雷/近战再生速度。\n• 100% [PVP：200%] 额外的基础职业技能充能速度。\n\n闪身时：\n+6.25% 奔跑速度，持续10秒。\n持续时间无法被刷新。"
    }
   }
  },
@@ -13536,11 +13552,15 @@
   "hash": 1376049785,
   "name": "Ionic Conductor",
   "type": "armorExotic",
-  "lastUpload": 1670107195856,
-  "uploadedBy": "Stardust",
+  "lastUpload": 1670677938105,
+  "uploadedBy": "Mistwalker",
   "editor": {
    "en": {
     "main": "Ionic Traces move faster and grant doubled Ability Energy.\n\nTotal Ability Energy Gained per Ionic Trace:\nGrenade: 25% | Melee: 25% | Class Ability: 30%\n\nAllies within [?] metres receive 10% Grenade, Melee, and Class Ability Energy when you pick up an Ionic Trace.",
+    "secondary": "import self"
+   },
+   "zh-chs": {
+    "main": "离子轨迹会更快地移动，并提供翻倍的能量。\n\n每个离子轨迹获得的总能量：\n手雷：25% | 近战：25% | 职业技能：30%\n\n拾取一个离子轨迹时，[?] 米范围内的盟友可以获得 10% 的手雷、近战、职业技能能量。",
     "secondary": "import self"
    }
   },
@@ -13553,6 +13573,10 @@
     "en": {
      "lastUpdate": 1668698414785,
      "updatedBy": "Stardust"
+    },
+    "zh-chs": {
+     "lastUpdate": 1670675899382,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -25938,8 +25962,8 @@
   "itemHash": 896224899,
   "itemName": "Foetracer",
   "type": "armorExotic",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670677938105,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -25957,6 +25981,10 @@
     "ko": {
      "lastUpdate": 1665695604529,
      "updatedBy": "tritonesub251"
+    },
+    "zh-chs": {
+     "lastUpdate": 1670677389837,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -25968,6 +25996,10 @@
    "ko": {
     "main": "상시 공중 효율을 20만큼 증가시킵니다.\n\n1초 동안 적 근처에 조준을 하면 5초간 표식을 남깁니다.\n표식은 벽을 통해서 볼 수 있습니다.\n\n적의 체력이 30% 이하 일 때:\n30%로 부터 남은 체력의 %당 1%의 추가 피해를 받습니다.\n(예: 체력 10% -> 20% 피해 증가)\n\n피해 증가는 능력과 무기에 모두 적용됩니다.",
     "secondary": ""
+   },
+   "zh-chs": {
+    "main": "被动提供 +20 空中效率。\n\n准星悬停在敌人附近 1 秒后，标记敌人 5 秒。\n标记穿墙可见。\n\n如果敌人血量低于 30%：\n提供低于 30% 对应百分数的伤害提高。\n（例如：剩 10% 的血量 -> 伤害增加 20%）\n\n伤害提高适用于所有造成的伤害。",
+    "secondary": "import self"
    }
   },
   "stats": {
@@ -38292,8 +38324,8 @@
   "itemHash": 1163283805,
   "itemName": "Gemini Jester",
   "type": "armorExotic",
-  "uploadedBy": "Stardust",
-  "lastUpload": 1670107195856,
+  "uploadedBy": "Mistwalker",
+  "lastUpload": 1670677938105,
   "inLiveDatabase": true,
   "uploadToLive": false,
   "optional": false,
@@ -38311,6 +38343,10 @@
     "ko": {
      "lastUpdate": 1665695942877,
      "updatedBy": "tritonesub251"
+    },
+    "zh-chs": {
+     "lastUpdate": 1670677929937,
+     "updatedBy": "Mistwalker"
     }
    }
   },
@@ -38322,6 +38358,10 @@
    "ko": {
     "main": "회피 직후:\n22미터 이내에 있는 적에게 잘못된 방향을 부여합니다.\n\n<pve 잘못된 방향이 부하들과 리더들을 5초 간 혼란에 빠트립니다. />\n\n<pvp 잘못된 방향이 오디오를 일그러트리고, 레이더를 5초간 제거하며, 아주 잠깐 동안 실명에 빠트립니다. />\n\n잘못된 방향이 부여될 때 1 피해를 입힙니다.",
     "secondary": ""
+   },
+   "zh-chs": {
+    "main": "躲闪时：\n向 22 米范围内的敌人施加迷惑。\n\n迷惑的效果：\n• <pve 使普通和精英敌人混乱5秒。 />\n• <pvp 扭曲声音并在 5 秒内移除雷达，并短暂致盲。 />\n\n迷惑不会造成伤害。",
+    "secondary": "躲闪时：\n向 22 米范围内的敌人施加迷惑。\n\n迷惑的效果：\n• [PVE] 使普通和精英敌人混乱5秒。\n• [PVP] 扭曲声音并在 5 秒内移除雷达，并短暂致盲。\n\n迷惑不会造成伤害。"
    }
   }
  },
